@@ -1,10 +1,21 @@
+import json
 import logging
-from typing import TypedDict
+import random
+from pathlib import Path
+from typing import Any, TypedDict
 
 import click
 import requests
+from prometheus_client import (
+    CollectorRegistry,
+    Gauge,
+    write_to_textfile,
+)
 
 logger = logging.getLogger("trakt-data")
+registry = CollectorRegistry()
+
+foo_count = Gauge("foo_count", documentation="Foo count", registry=registry)
 
 
 @click.command()
@@ -19,6 +30,12 @@ logger = logging.getLogger("trakt-data")
     envvar="TRAKT_ACCESS_TOKEN",
 )
 @click.option(
+    "--output-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=True,
+    envvar="OUTPUT_DIR",
+)
+@click.option(
     "--verbose",
     "-v",
     is_flag=True,
@@ -27,6 +44,7 @@ logger = logging.getLogger("trakt-data")
 def main(
     trakt_client_id: str,
     trakt_access_token: str,
+    output_dir: Path,
     verbose: bool,
 ) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
@@ -37,8 +55,17 @@ def main(
     )
 
     profile = _export_user_profile(_session)
-    print("user/profile.json")
-    print(profile)
+
+    _write_json(output_dir / "user" / "profile.json", profile)
+
+    foo_count.set(random.randint(0, 100))
+    write_to_textfile(str(output_dir / "metrics.prom"), registry)
+
+
+def _write_json(path: Path, obj: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    data = json.dumps(obj, indent=2)
+    path.write_text(data)
 
 
 _TRAKT_API_HEADERS = {
