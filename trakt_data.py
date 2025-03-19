@@ -107,18 +107,21 @@ def _fresh(path: Path, max_age: timedelta) -> bool:
         return False
 
 
+def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
+    if not path.startswith("/"):
+        path = f"/{path}"
+    response = ctx.session.get(f"https://api.trakt.tv{path}", params=params)
+    response.raise_for_status()
+    return response.json()
+
+
 def _export_user_profile(ctx: Context) -> None:
     output_path = ctx.output_dir / "user" / "profile.json"
 
     if _fresh(output_path, timedelta(days=7)):
         return
 
-    response = ctx.session.get(
-        "https://api.trakt.tv/users/me",
-        params={"extended": "vip"},
-    )
-    response.raise_for_status()
-    data = response.json()
+    data = _trakt_api_get(ctx, path="/users/me", params={"extended": "vip"})
 
     profile = {
         "username": data["username"],
@@ -138,9 +141,7 @@ def _export_user_stats(ctx: Context) -> None:
     if _fresh(output_path, timedelta(days=1)):
         return
 
-    response = ctx.session.get("https://api.trakt.tv/users/me/stats")
-    response.raise_for_status()
-    data = response.json()
+    data = _trakt_api_get(ctx, path="/users/me/stats")
     _write_json(output_path, data)
 
 
@@ -155,9 +156,7 @@ def _export_hidden(
     if _fresh(output_path, expires_in):
         return
 
-    response = ctx.session.get(f"https://api.trakt.tv/users/hidden/{section}")
-    response.raise_for_status()
-    data = response.json()
+    data = _trakt_api_get(ctx, path=f"/users/hidden/{section}")
     _write_json(output_path, data)
 
 
@@ -212,9 +211,7 @@ def _export_lists_lists(ctx: Context) -> None:
     if _fresh(output_path, timedelta(days=1)):
         return
 
-    response = ctx.session.get("https://api.trakt.tv/users/me/lists")
-    response.raise_for_status()
-    data = response.json()
+    data = _trakt_api_get(ctx, path="/users/me/lists")
     _write_json(output_path, data)
 
 
