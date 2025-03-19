@@ -206,6 +206,18 @@ def _export_hidden_recommendations(ctx: Context) -> None:
     )
 
 
+def _export_lists_lists(ctx: Context) -> None:
+    output_path = ctx.output_dir / "lists" / "lists.json"
+
+    if _fresh(output_path, timedelta(days=1)):
+        return
+
+    response = ctx.session.get("https://api.trakt.tv/users/me/lists")
+    response.raise_for_status()
+    data = response.json()
+    _write_json(output_path, data)
+
+
 def _read_json_data(path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
@@ -269,6 +281,7 @@ def main(
     _export_hidden_progress_watched_reset(ctx)
     _export_hidden_progress_watched(ctx)
     _export_hidden_recommendations(ctx)
+    _export_lists_lists(ctx)
     _export_user_profile(ctx)
     _export_user_stats(ctx)
 
