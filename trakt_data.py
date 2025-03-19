@@ -2,7 +2,7 @@ import click
 
 
 @click.command()
-def main():
+def main() -> None:
     print("Hello, World!")
 
 
