@@ -1,7 +1,8 @@
 import json
 import logging
+from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any, TypedDict
+from typing import Any, TypedDict, TypeVar, cast
 
 import click
 import requests
@@ -46,9 +47,9 @@ def main(
         access_token=trakt_access_token,
     )
 
-    profile = _export_user_profile(_session)
-
-    _write_json(output_dir / "user" / "profile.json", profile)
+    user_profile_path = output_dir / "user" / "profile.json"
+    profile = _export_user_profile(_session, output_path=user_profile_path)
+    _write_json(user_profile_path, profile)
 
     _generate_metrics(data_path=output_dir)
 
@@ -89,7 +90,16 @@ class ExportUserProfile(TypedDict):
     vip_years: int
 
 
-def _export_user_profile(session: requests.Session) -> ExportUserProfile:
+def _export_user_profile(
+    session: requests.Session,
+    output_path: Path,
+) -> ExportUserProfile:
+    user_profile, mtime = _read_json_data(output_path, ExportUserProfile)
+
+    if mtime > datetime.now() - timedelta(days=7):
+        logger.debug("%s mtime is %s, still fresh", output_path, mtime)
+        return user_profile
+
     response = session.get("https://api.trakt.tv/users/me", params={"extended": "vip"})
     response.raise_for_status()
     data = response.json()
@@ -105,8 +115,13 @@ def _export_user_profile(session: requests.Session) -> ExportUserProfile:
     }
 
 
-def _read_json_data(path: Path) -> Any:
-    return json.loads(path.read_text())
+T = TypeVar("T")
+
+
+def _read_json_data(path: Path, return_type: type[T]) -> tuple[T, datetime]:
+    mtime = datetime.fromtimestamp(path.stat().st_mtime)
+    obj = json.loads(path.read_text())
+    return cast(T, obj), mtime
 
 
 registry = CollectorRegistry()
@@ -120,8 +135,9 @@ trakt_vip_years = Gauge(
 
 
 def _generate_metrics(data_path: Path) -> None:
-    user_profile: ExportUserProfile = _read_json_data(
-        data_path / "user" / "profile.json"
+    user_profile, _ = _read_json_data(
+        data_path / "user" / "profile.json",
+        ExportUserProfile,
     )
     username = user_profile["username"]
 
