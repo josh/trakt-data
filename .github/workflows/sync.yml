@@ -31,6 +31,15 @@ jobs:
           ref: "data"
           path: "data"
 
+      - name: Restore git mtimes
+        run: |
+          git ls-tree --name-only HEAD | while read -r path; do
+            commit_date=$(git log -1 --format="%ad" --date=raw -- "$path" | cut -d' ' -f1)
+            touch -d "@$commit_date" "$path"
+            echo "Set '$path' mtime to $(date -d "@$commit_date")"
+          done
+        working-directory: data/
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
