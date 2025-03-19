@@ -15,6 +15,9 @@ jobs:
     outputs:
       pushed: ${{ steps.commit.outputs.committed }}
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
