@@ -6,11 +6,7 @@ from typing import Any, TypedDict
 
 import click
 import requests
-from prometheus_client import (
-    CollectorRegistry,
-    Gauge,
-    write_to_textfile,
-)
+from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 
 logger = logging.getLogger("trakt-data")
 registry = CollectorRegistry()
