@@ -48,6 +48,7 @@ jobs:
       - name: Simulate change
         run: |
           date >date.txt
+          date >metrics.prom
         working-directory: data/
 
       - name: Commit changes
