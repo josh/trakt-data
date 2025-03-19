@@ -155,7 +155,7 @@ def _export_hidden(
     if _fresh(output_path, expires_in):
         return
 
-    response = ctx.session.get(section)
+    response = ctx.session.get(f"https://api.trakt.tv/users/hidden/{section}")
     response.raise_for_status()
     data = response.json()
     _write_json(output_path, data)
