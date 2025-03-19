@@ -215,6 +215,20 @@ def _export_lists_lists(ctx: Context) -> None:
     _write_json(output_path, data)
 
 
+def _export_lists_watchlist(ctx: Context) -> None:
+    output_path = ctx.output_dir / "lists" / "watchlist.json"
+
+    if _fresh(output_path, timedelta(hours=1)):
+        return
+
+    data = _trakt_api_get(
+        ctx,
+        path="/users/me/watchlist",
+        params={"sort_by": "rank", "sort_how": "asc"},
+    )
+    _write_json(output_path, data)
+
+
 def _read_json_data(path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
@@ -279,6 +293,7 @@ def main(
     _export_hidden_progress_watched(ctx)
     _export_hidden_recommendations(ctx)
     _export_lists_lists(ctx)
+    _export_lists_watchlist(ctx)
     _export_user_profile(ctx)
     _export_user_stats(ctx)
 
