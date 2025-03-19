@@ -11,53 +11,6 @@ from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 logger = logging.getLogger("trakt-data")
 
 
-@click.command()
-@click.option(
-    "--trakt-client-id",
-    required=True,
-    envvar="TRAKT_CLIENT_ID",
-)
-@click.option(
-    "--trakt-access-token",
-    required=True,
-    envvar="TRAKT_ACCESS_TOKEN",
-)
-@click.option(
-    "--output-dir",
-    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
-    required=True,
-    envvar="OUTPUT_DIR",
-)
-@click.option(
-    "--verbose",
-    "-v",
-    is_flag=True,
-    help="Enable verbose logging",
-)
-def main(
-    trakt_client_id: str,
-    trakt_access_token: str,
-    output_dir: Path,
-    verbose: bool,
-) -> None:
-    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
-
-    _session = _trakt_session(
-        client_id=trakt_client_id,
-        access_token=trakt_access_token,
-    )
-
-    user_profile_path = output_dir / "user" / "profile.json"
-    profile = _export_user_profile(_session, output_path=user_profile_path)
-    _write_json(user_profile_path, profile)
-
-    user_stats_path = output_dir / "user" / "stats.json"
-    stats = _export_user_stats(_session, output_path=user_stats_path)
-    _write_json(user_stats_path, stats)
-
-    _generate_metrics(data_path=output_dir)
-
-
 def _write_json(path: Path, obj: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     data = json.dumps(obj, indent=2)
@@ -92,6 +45,20 @@ class ExportUserProfile(TypedDict):
     ids: UserIDs
     vip_og: bool
     vip_years: int
+
+
+T = TypeVar("T")
+
+
+def _read_json_mtime_data(
+    path: Path,
+    return_type: type[T],
+) -> tuple[T, datetime] | tuple[None, None]:
+    if not path.exists():
+        return None, None
+    mtime = datetime.fromtimestamp(path.stat().st_mtime)
+    obj = json.loads(path.read_text())
+    return cast(T, obj), mtime
 
 
 def _export_user_profile(
@@ -210,20 +177,6 @@ def _export_user_stats(
     }
 
 
-T = TypeVar("T")
-
-
-def _read_json_mtime_data(
-    path: Path,
-    return_type: type[T],
-) -> tuple[T, datetime] | tuple[None, None]:
-    if not path.exists():
-        return None, None
-    mtime = datetime.fromtimestamp(path.stat().st_mtime)
-    obj = json.loads(path.read_text())
-    return cast(T, obj), mtime
-
-
 def _read_json_data(path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
@@ -249,6 +202,53 @@ def _generate_metrics(data_path: Path) -> None:
 
     metrics_path: str = str(data_path / "metrics.prom")
     write_to_textfile(metrics_path, registry)
+
+
+@click.command()
+@click.option(
+    "--trakt-client-id",
+    required=True,
+    envvar="TRAKT_CLIENT_ID",
+)
+@click.option(
+    "--trakt-access-token",
+    required=True,
+    envvar="TRAKT_ACCESS_TOKEN",
+)
+@click.option(
+    "--output-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=True,
+    envvar="OUTPUT_DIR",
+)
+@click.option(
+    "--verbose",
+    "-v",
+    is_flag=True,
+    help="Enable verbose logging",
+)
+def main(
+    trakt_client_id: str,
+    trakt_access_token: str,
+    output_dir: Path,
+    verbose: bool,
+) -> None:
+    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
+
+    _session = _trakt_session(
+        client_id=trakt_client_id,
+        access_token=trakt_access_token,
+    )
+
+    user_profile_path = output_dir / "user" / "profile.json"
+    profile = _export_user_profile(_session, output_path=user_profile_path)
+    _write_json(user_profile_path, profile)
+
+    user_stats_path = output_dir / "user" / "stats.json"
+    stats = _export_user_stats(_session, output_path=user_stats_path)
+    _write_json(user_stats_path, stats)
+
+    _generate_metrics(data_path=output_dir)
 
 
 if __name__ == "__main__":
