@@ -10,12 +10,7 @@ from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 
 logger = logging.getLogger("trakt-data")
 
-
-def _write_json(path: Path, obj: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    data = json.dumps(obj, indent=2)
-    path.write_text(data + "\n")
-
+T = TypeVar("T")
 
 _TRAKT_API_HEADERS = {
     "Content-Type": "application/json",
@@ -25,12 +20,14 @@ _TRAKT_API_HEADERS = {
 }
 
 
-def _trakt_session(client_id: str, access_token: str) -> requests.Session:
-    session = requests.Session()
-    session.headers.update(_TRAKT_API_HEADERS)
-    session.headers["trakt-api-key"] = client_id
-    session.headers["Authorization"] = f"Bearer {access_token}"
-    return session
+_REGISTRY = CollectorRegistry()
+
+_TRAKT_VIP_YEARS = Gauge(
+    "trakt_vip_years",
+    documentation="Trakt VIP years",
+    labelnames=["username"],
+    registry=_REGISTRY,
+)
 
 
 class UserIDs(TypedDict):
@@ -45,45 +42,6 @@ class ExportUserProfile(TypedDict):
     ids: UserIDs
     vip_og: bool
     vip_years: int
-
-
-T = TypeVar("T")
-
-
-def _read_json_mtime_data(
-    path: Path,
-    return_type: type[T],
-) -> tuple[T, datetime] | tuple[None, None]:
-    if not path.exists():
-        return None, None
-    mtime = datetime.fromtimestamp(path.stat().st_mtime)
-    obj = json.loads(path.read_text())
-    return cast(T, obj), mtime
-
-
-def _export_user_profile(
-    session: requests.Session,
-    output_path: Path,
-) -> ExportUserProfile:
-    user_profile, mtime = _read_json_mtime_data(output_path, ExportUserProfile)
-
-    if mtime and user_profile and mtime > datetime.now() - timedelta(days=7):
-        logger.debug("%s mtime is %s, still fresh", output_path, mtime)
-        return user_profile
-
-    response = session.get("https://api.trakt.tv/users/me", params={"extended": "vip"})
-    response.raise_for_status()
-    data = response.json()
-
-    return {
-        "username": data["username"],
-        "name": data["name"],
-        "vip": data["vip"],
-        "vip_ep": data["vip_ep"],
-        "ids": data["ids"],
-        "vip_og": data["vip_og"],
-        "vip_years": data["vip_years"],
-    }
 
 
 class ExportUserMoviesStats(TypedDict):
@@ -153,6 +111,56 @@ class ExportUserStats(TypedDict):
     ratings: ExportUserRatingsStats
 
 
+def _write_json(path: Path, obj: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    data = json.dumps(obj, indent=2)
+    path.write_text(data + "\n")
+
+
+def _trakt_session(client_id: str, access_token: str) -> requests.Session:
+    session = requests.Session()
+    session.headers.update(_TRAKT_API_HEADERS)
+    session.headers["trakt-api-key"] = client_id
+    session.headers["Authorization"] = f"Bearer {access_token}"
+    return session
+
+
+def _read_json_mtime_data(
+    path: Path,
+    return_type: type[T],
+) -> tuple[T, datetime] | tuple[None, None]:
+    if not path.exists():
+        return None, None
+    mtime = datetime.fromtimestamp(path.stat().st_mtime)
+    obj = json.loads(path.read_text())
+    return cast(T, obj), mtime
+
+
+def _export_user_profile(
+    session: requests.Session,
+    output_path: Path,
+) -> ExportUserProfile:
+    user_profile, mtime = _read_json_mtime_data(output_path, ExportUserProfile)
+
+    if mtime and user_profile and mtime > datetime.now() - timedelta(days=7):
+        logger.debug("%s mtime is %s, still fresh", output_path, mtime)
+        return user_profile
+
+    response = session.get("https://api.trakt.tv/users/me", params={"extended": "vip"})
+    response.raise_for_status()
+    data = response.json()
+
+    return {
+        "username": data["username"],
+        "name": data["name"],
+        "vip": data["vip"],
+        "vip_ep": data["vip_ep"],
+        "ids": data["ids"],
+        "vip_og": data["vip_og"],
+        "vip_years": data["vip_years"],
+    }
+
+
 def _export_user_stats(
     session: requests.Session,
     output_path: Path,
@@ -181,16 +189,6 @@ def _read_json_data(path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
 
-registry = CollectorRegistry()
-
-trakt_vip_years = Gauge(
-    "trakt_vip_years",
-    documentation="Trakt VIP years",
-    labelnames=["username"],
-    registry=registry,
-)
-
-
 def _generate_metrics(data_path: Path) -> None:
     user_profile = _read_json_data(
         data_path / "user" / "profile.json",
@@ -198,10 +196,10 @@ def _generate_metrics(data_path: Path) -> None:
     )
     username = user_profile["username"]
 
-    trakt_vip_years.labels(username=username).set(user_profile["vip_years"])
+    _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
 
     metrics_path: str = str(data_path / "metrics.prom")
-    write_to_textfile(metrics_path, registry)
+    write_to_textfile(metrics_path, _REGISTRY)
 
 
 @click.command()
