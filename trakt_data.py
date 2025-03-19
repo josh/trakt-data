@@ -51,6 +51,10 @@ def main(
     profile = _export_user_profile(_session, output_path=user_profile_path)
     _write_json(user_profile_path, profile)
 
+    user_stats_path = output_dir / "user" / "stats.json"
+    stats = _export_user_stats(_session, output_path=user_stats_path)
+    _write_json(user_stats_path, stats)
+
     _generate_metrics(data_path=output_dir)
 
 
@@ -94,9 +98,9 @@ def _export_user_profile(
     session: requests.Session,
     output_path: Path,
 ) -> ExportUserProfile:
-    user_profile, mtime = _read_json_data(output_path, ExportUserProfile)
+    user_profile, mtime = _read_json_mtime_data(output_path, ExportUserProfile)
 
-    if mtime > datetime.now() - timedelta(days=7):
+    if mtime and user_profile and mtime > datetime.now() - timedelta(days=7):
         logger.debug("%s mtime is %s, still fresh", output_path, mtime)
         return user_profile
 
@@ -115,13 +119,113 @@ def _export_user_profile(
     }
 
 
+class ExportUserMoviesStats(TypedDict):
+    plays: int
+    watched: int
+    minutes: int
+    collected: int
+    ratings: int
+    comments: int
+
+
+class ExportUserShowsStats(TypedDict):
+    watched: int
+    collected: int
+    ratings: int
+    comments: int
+
+
+class ExportUserSeasonsStats(TypedDict):
+    ratings: int
+    comments: int
+
+
+class ExportUserEpisodesStats(TypedDict):
+    plays: int
+    watched: int
+    minutes: int
+    collected: int
+    ratings: int
+    comments: int
+
+
+class ExportUserNetworkStats(TypedDict):
+    friends: int
+    followers: int
+    following: int
+
+
+ExportUserRatingsDistribution = TypedDict(
+    "ExportUserRatingsDistribution",
+    {
+        "1": int,
+        "2": int,
+        "3": int,
+        "4": int,
+        "5": int,
+        "6": int,
+        "7": int,
+        "8": int,
+        "9": int,
+        "10": int,
+    },
+)
+
+
+class ExportUserRatingsStats(TypedDict):
+    total: int
+    distribution: ExportUserRatingsDistribution
+
+
+class ExportUserStats(TypedDict):
+    movies: ExportUserMoviesStats
+    shows: ExportUserShowsStats
+    seasons: ExportUserSeasonsStats
+    episodes: ExportUserEpisodesStats
+    network: ExportUserNetworkStats
+    ratings: ExportUserRatingsStats
+
+
+def _export_user_stats(
+    session: requests.Session,
+    output_path: Path,
+) -> ExportUserStats:
+    user_stats, mtime = _read_json_mtime_data(output_path, ExportUserStats)
+
+    if mtime and user_stats and mtime > datetime.now() - timedelta(days=1):
+        logger.debug("%s mtime is %s, still fresh", output_path, mtime)
+        return user_stats
+
+    response = session.get("https://api.trakt.tv/users/me/stats")
+    response.raise_for_status()
+    data = response.json()
+
+    return {
+        "movies": data["movies"],
+        "shows": data["shows"],
+        "seasons": data["seasons"],
+        "episodes": data["episodes"],
+        "network": data["network"],
+        "ratings": data["ratings"],
+    }
+
+
 T = TypeVar("T")
 
 
-def _read_json_data(path: Path, return_type: type[T]) -> tuple[T, datetime]:
+def _read_json_mtime_data(
+    path: Path,
+    return_type: type[T],
+) -> tuple[T, datetime] | tuple[None, None]:
+    if not path.exists():
+        return None, None
     mtime = datetime.fromtimestamp(path.stat().st_mtime)
     obj = json.loads(path.read_text())
     return cast(T, obj), mtime
+
+
+def _read_json_data(path: Path, return_type: type[T]) -> T:
+    return cast(T, json.loads(path.read_text()))
 
 
 registry = CollectorRegistry()
@@ -135,7 +239,7 @@ trakt_vip_years = Gauge(
 
 
 def _generate_metrics(data_path: Path) -> None:
-    user_profile, _ = _read_json_data(
+    user_profile = _read_json_data(
         data_path / "user" / "profile.json",
         ExportUserProfile,
     )
