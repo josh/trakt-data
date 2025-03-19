@@ -26,7 +26,7 @@ jobs:
 
       - name: Sync
         run: |
-          trakt-data --help
+          uv run trakt-data
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
