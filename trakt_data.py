@@ -1,6 +1,5 @@
 import json
 import logging
-import random
 from pathlib import Path
 from typing import Any, TypedDict
 
@@ -9,9 +8,6 @@ import requests
 from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 
 logger = logging.getLogger("trakt-data")
-registry = CollectorRegistry()
-
-foo_count = Gauge("foo_count", documentation="Foo count", registry=registry)
 
 
 @click.command()
@@ -54,8 +50,7 @@ def main(
 
     _write_json(output_dir / "user" / "profile.json", profile)
 
-    foo_count.set(random.randint(0, 100))
-    write_to_textfile(str(output_dir / "metrics.prom"), registry)
+    _generate_metrics(data_path=output_dir)
 
 
 def _write_json(path: Path, obj: Any) -> None:
@@ -108,6 +103,32 @@ def _export_user_profile(session: requests.Session) -> ExportUserProfile:
         "vip_og": data["vip_og"],
         "vip_years": data["vip_years"],
     }
+
+
+def _read_json_data(path: Path) -> Any:
+    return json.loads(path.read_text())
+
+
+registry = CollectorRegistry()
+
+trakt_vip_years = Gauge(
+    "trakt_vip_years",
+    documentation="Trakt VIP years",
+    labelnames=["username"],
+    registry=registry,
+)
+
+
+def _generate_metrics(data_path: Path) -> None:
+    user_profile: ExportUserProfile = _read_json_data(
+        data_path / "user" / "profile.json"
+    )
+    username = user_profile["username"]
+
+    trakt_vip_years.labels(username=username).set(user_profile["vip_years"])
+
+    metrics_path: str = str(data_path / "metrics.prom")
+    write_to_textfile(metrics_path, registry)
 
 
 if __name__ == "__main__":
