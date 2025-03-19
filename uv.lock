@@ -237,7 +237,7 @@ dependencies = [
     { name = "requests" },
 ]
 
-[package.optional-dependencies]
+[package.dev-dependencies]
 dev = [
     { name = "mypy" },
     { name = "ruff" },
@@ -247,12 +247,15 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.0.0,<9.0" },
-    { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.0.0,<2.0" },
     { name = "requests", specifier = ">=2.0.0,<3.0" },
-    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.11.0" },
-    { name = "types-requests", marker = "extra == 'dev'", specifier = ">=2.0.0,<3.0" },
 ]
-provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "mypy", specifier = ">=1.0.0,<2.0" },
+    { name = "ruff", specifier = ">=0.11.0" },
+    { name = "types-requests", specifier = ">=2.0.0,<3.0" },
+]
 
 [[package]]
 name = "types-requests"
