@@ -72,6 +72,15 @@ class Movie(TypedDict):
     ids: MovieIds
 
 
+class ListIDs(TypedDict):
+    trakt: int
+    slug: str
+
+
+class List(TypedDict):
+    ids: ListIDs
+
+
 class Context:
     session: requests.Session
     output_dir: Path
@@ -205,14 +214,46 @@ def _export_hidden_recommendations(ctx: Context) -> None:
     )
 
 
+def _read_json_data(path: Path, return_type: type[T]) -> T:
+    return cast(T, json.loads(path.read_text()))
+
+
+def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
+    output_path = ctx.output_dir / "lists" / f"list-{list_id}-{list_slug}.json"
+
+    if _fresh(output_path, timedelta(hours=1)):
+        return
+
+    data = _trakt_api_get(ctx, path=f"/users/me/lists/{list_id}/items")
+    _write_json(output_path, data)
+
+
+def _export_lists_list_all(ctx: Context, lists: list[List]) -> None:
+    list_ids: set[int] = set()
+
+    for lst in lists:
+        trakt_id: int = lst["ids"]["trakt"]
+        trakt_slug: str = lst["ids"]["slug"]
+        _export_lists_list(ctx, trakt_id, trakt_slug)
+        list_ids.add(trakt_id)
+
+    for path in ctx.output_dir.glob("lists/list-*.json"):
+        list_id = int(path.name.split("-")[1])
+        if list_id not in list_ids:
+            logger.info(f"Deleting old list: {path}")
+            path.unlink()
+
+
 def _export_lists_lists(ctx: Context) -> None:
     output_path = ctx.output_dir / "lists" / "lists.json"
 
-    if _fresh(output_path, timedelta(days=1)):
-        return
+    if not _fresh(output_path, timedelta(days=1)):
+        data = _trakt_api_get(ctx, path="/users/me/lists")
+        _write_json(output_path, data)
 
-    data = _trakt_api_get(ctx, path="/users/me/lists")
-    _write_json(output_path, data)
+    assert output_path.exists()
+    lists = _read_json_data(output_path, list[List])
+    _export_lists_list_all(ctx, lists)
 
 
 def _export_lists_watchlist(ctx: Context) -> None:
@@ -227,10 +268,6 @@ def _export_lists_watchlist(ctx: Context) -> None:
         params={"sort_by": "rank", "sort_how": "asc"},
     )
     _write_json(output_path, data)
-
-
-def _read_json_data(path: Path, return_type: type[T]) -> T:
-    return cast(T, json.loads(path.read_text()))
 
 
 def _generate_metrics(data_path: Path) -> None:
