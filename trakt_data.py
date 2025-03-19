@@ -61,7 +61,7 @@ def main(
 def _write_json(path: Path, obj: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     data = json.dumps(obj, indent=2)
-    path.write_text(data)
+    path.write_text(data + "\n")
 
 
 _TRAKT_API_HEADERS = {
