@@ -61,7 +61,7 @@ class ExportUserProfile(TypedDict):
     vip_years: int
 
 
-class ShowIds(TypedDict):
+class ShowIDs(TypedDict):
     trakt: int
     slug: str
     tvdb: int
@@ -73,7 +73,21 @@ class ShowIds(TypedDict):
 class Show(TypedDict):
     title: str
     year: int
-    ids: ShowIds
+    ids: ShowIDs
+
+
+class ShowExtended(TypedDict):
+    title: str
+    year: int
+    ids: ShowIDs
+    first_aired: str
+    runtime: int
+    network: str
+    country: str
+    status: str
+    updated_at: str
+    language: str
+    aired_episodes: int
 
 
 class MovieIDs(TypedDict):
@@ -342,6 +356,30 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
     return movie
 
 
+def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
+    output_path = ctx.output_dir / "media" / "shows" / f"{trakt_id}.json"
+
+    if _fresh(ctx, output_path):
+        return _read_json_data(output_path, ShowExtended)
+
+    data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}", params={"extended": "full"})
+    show: ShowExtended = {
+        "title": data["title"],
+        "year": data["year"],
+        "ids": data["ids"],
+        "first_aired": data["first_aired"],
+        "runtime": data["runtime"],
+        "network": data["network"],
+        "country": data["country"],
+        "status": data["status"],
+        "updated_at": data["updated_at"],
+        "language": data["language"],
+        "aired_episodes": data["aired_episodes"],
+    }
+    _write_json(output_path, show)
+    return show
+
+
 def _generate_metrics(ctx: Context, data_path: Path) -> None:
     user_profile = _read_json_data(
         data_path / "user" / "profile.json",
@@ -372,16 +410,17 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
                 year=year_str,
             ).inc(runtime)
         elif item["type"] == "show":
+            trakt_id = item["show"]["ids"]["trakt"]
+
+            show = _export_media_show(ctx, trakt_id=trakt_id)
+            status = show["status"]
+            year_str = str(show["year"] or _FUTURE_YEAR)
+
             _TRAKT_WATCHLIST_COUNT.labels(
                 media_type="show",
-                status="unknown",
-                year=_FUTURE_YEAR,
+                status=status,
+                year=year_str,
             ).inc()
-            _TRAKT_WATCHLIST_RUNTIME.labels(
-                media_type="show",
-                status="unknown",
-                year=_FUTURE_YEAR,
-            ).inc(60)
         else:
             logger.warning("Unknown media type: %s", item["type"])
 
