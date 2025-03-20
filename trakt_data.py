@@ -181,11 +181,16 @@ def _fresh(path: Path) -> bool:
         max_age: timedelta = _max_age(mtime)
         expires_at: datetime = mtime + max_age
         expires_in: timedelta = max(timedelta(0), expires_at - datetime.now())
-        logger.debug("%s: last modified %s, expires in %s", path, mtime, expires_in)
         if expires_at > datetime.now():
-            logger.debug("%s: still fresh", path)
+            logger.debug(
+                "%s: last modified %s, expires in %s, fresh", path, mtime, expires_in
+            )
             return True
-        return False
+        else:
+            logger.debug(
+                "%s: last modified %s, expires in %s, stale", path, mtime, expires_in
+            )
+            return False
 
 
 def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
