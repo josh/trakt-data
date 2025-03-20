@@ -75,7 +75,7 @@ class Show(TypedDict):
     ids: ShowIds
 
 
-class MovieIds(TypedDict):
+class MovieIDs(TypedDict):
     trakt: int
     slug: str
     imdb: str
@@ -85,7 +85,19 @@ class MovieIds(TypedDict):
 class Movie(TypedDict):
     title: str
     year: int
-    ids: MovieIds
+    ids: MovieIDs
+
+
+class MovieExtended(TypedDict):
+    title: str
+    year: int
+    ids: MovieIDs
+    released: str
+    runtime: int
+    country: str
+    status: str
+    updated_at: str
+    language: str
 
 
 class ListIDs(TypedDict):
@@ -324,7 +336,29 @@ def _export_lists_watchlist(ctx: Context) -> None:
     _write_json(output_path, data)
 
 
-def _generate_metrics(data_path: Path) -> None:
+def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
+    output_path = ctx.output_dir / "media" / "movies" / f"{trakt_id}.json"
+
+    if _fresh(output_path):
+        return _read_json_data(output_path, MovieExtended)
+
+    data = _trakt_api_get(ctx, path=f"/movies/{trakt_id}", params={"extended": "full"})
+    movie: MovieExtended = {
+        "title": data["title"],
+        "year": data["year"],
+        "ids": data["ids"],
+        "released": data["released"],
+        "runtime": data["runtime"],
+        "country": data["country"],
+        "status": data["status"],
+        "updated_at": data["updated_at"],
+        "language": data["language"],
+    }
+    _write_json(output_path, movie)
+    return movie
+
+
+def _generate_metrics(ctx: Context, data_path: Path) -> None:
     user_profile = _read_json_data(
         data_path / "user" / "profile.json",
         ExportUserProfile,
@@ -336,16 +370,23 @@ def _generate_metrics(data_path: Path) -> None:
     watchlist = _read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
     for item in watchlist:
         if item["type"] == "movie":
+            trakt_id = item["movie"]["ids"]["trakt"]
+
+            movie = _export_media_movie(ctx, trakt_id=trakt_id)
+            status = movie["status"]
+            year_str = str(movie["year"] or _FUTURE_YEAR)
+            runtime = movie["runtime"]
+
             _TRAKT_WATCHLIST_COUNT.labels(
                 media_type="movie",
-                status="unknown",
-                year=_FUTURE_YEAR,
+                status=status,
+                year=year_str,
             ).inc()
             _TRAKT_WATCHLIST_RUNTIME.labels(
                 media_type="movie",
-                status="unknown",
-                year=_FUTURE_YEAR,
-            ).inc(90)
+                status=status,
+                year=year_str,
+            ).inc(runtime)
         elif item["type"] == "show":
             _TRAKT_WATCHLIST_COUNT.labels(
                 media_type="show",
@@ -415,7 +456,7 @@ def main(
     _export_user_profile(ctx)
     _export_user_stats(ctx)
 
-    _generate_metrics(data_path=output_dir)
+    _generate_metrics(ctx, data_path=output_dir)
 
 
 if __name__ == "__main__":
