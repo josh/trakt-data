@@ -2,7 +2,7 @@ import json
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any, TypedDict, TypeVar, cast
+from typing import Any, Literal, TypedDict, TypeVar, cast
 
 import click
 import requests
@@ -11,6 +11,8 @@ from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 logger = logging.getLogger("trakt-data")
 
 T = TypeVar("T")
+
+_FUTURE_YEAR = 3000
 
 _TRAKT_API_HEADERS = {
     "Content-Type": "application/json",
@@ -26,6 +28,20 @@ _TRAKT_VIP_YEARS = Gauge(
     "trakt_vip_years",
     documentation="Trakt VIP years",
     labelnames=["username"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_WATCHLIST_COUNT = Gauge(
+    "trakt_watchlist_count",
+    documentation="Number of items in Trakt watchlist",
+    labelnames=["media_type", "status", "year"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_WATCHLIST_RUNTIME = Gauge(
+    "trakt_watchlist_minutes",
+    documentation="Number of minutes in Trakt watchlist",
+    labelnames=["media_type", "status", "year"],
     registry=_REGISTRY,
 )
 
@@ -79,6 +95,27 @@ class ListIDs(TypedDict):
 
 class List(TypedDict):
     ids: ListIDs
+
+
+class ListMovie(TypedDict):
+    rank: int
+    id: int
+    listed_at: str
+    notes: str | None
+    type: Literal["movie"]
+    movie: Movie
+
+
+class ListShow(TypedDict):
+    rank: int
+    id: int
+    listed_at: str
+    notes: str | None
+    type: Literal["show"]
+    show: Show
+
+
+ListItem = ListMovie | ListShow
 
 
 class Context:
@@ -295,6 +332,33 @@ def _generate_metrics(data_path: Path) -> None:
     username = user_profile["username"]
 
     _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
+
+    watchlist = _read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
+    for item in watchlist:
+        if item["type"] == "movie":
+            _TRAKT_WATCHLIST_COUNT.labels(
+                media_type="movie",
+                status="unknown",
+                year=_FUTURE_YEAR,
+            ).inc()
+            _TRAKT_WATCHLIST_RUNTIME.labels(
+                media_type="movie",
+                status="unknown",
+                year=_FUTURE_YEAR,
+            ).inc(90)
+        elif item["type"] == "show":
+            _TRAKT_WATCHLIST_COUNT.labels(
+                media_type="show",
+                status="unknown",
+                year=_FUTURE_YEAR,
+            ).inc()
+            _TRAKT_WATCHLIST_RUNTIME.labels(
+                media_type="show",
+                status="unknown",
+                year=_FUTURE_YEAR,
+            ).inc(60)
+        else:
+            logger.warning("Unknown media type: %s", item["type"])
 
     metrics_path: str = str(data_path / "metrics.prom")
     write_to_textfile(metrics_path, _REGISTRY)
