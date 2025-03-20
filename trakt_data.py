@@ -502,7 +502,7 @@ def _compute_expired_data_files(data_path: Path, limit: int) -> set[Path]:
 @click.option(
     "--expire-limit",
     type=int,
-    default=10,
+    default=25,
 )
 @click.option(
     "--verbose",
