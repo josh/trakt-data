@@ -389,19 +389,35 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
     write_to_textfile(metrics_path, _REGISTRY)
 
 
-def _file_updated_at(file: Path) -> datetime:
-    mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
-    if file.parent.parent.name == "media":
-        data = json.loads(file.read_text())
-        mtime = datetime.fromisoformat(data["updated_at"])
-    assert mtime.tzinfo, "mtime is not offset-aware"
-    return mtime
+def _file_updated_at(data_path: Path, filename: Path) -> datetime:
+    mtime = datetime.fromtimestamp(filename.stat().st_mtime, tz=timezone.utc)
+    updated_at = mtime
+    relative_path: str = str(filename.relative_to(data_path))
+    if relative_path.startswith("hidden/"):
+        items = json.loads(filename.read_text())
+        hidden_ats = [datetime.fromisoformat(item["hidden_at"]) for item in items]
+        if hidden_ats:
+            updated_at = max(hidden_ats)
+    elif relative_path == "lists/lists.json":
+        items = json.loads(filename.read_text())
+        updated_ats = [datetime.fromisoformat(item["updated_at"]) for item in items]
+        if updated_ats:
+            updated_at = max(updated_ats)
+    elif relative_path.startswith("media/"):
+        data = json.loads(filename.read_text())
+        updated_at = datetime.fromisoformat(data["updated_at"])
+
+    assert updated_at, "updated_at is not set"
+    assert updated_at.tzinfo, "updated_at is not offset-aware"
+    return updated_at
 
 
-def _weighted_shuffle(files: list[Path]) -> list[Path]:
+def _weighted_shuffle(data_path: Path, files: list[Path]) -> list[Path]:
     now = datetime.now(tz=timezone.utc)
 
-    ages: dict[Path, timedelta] = {file: now - _file_updated_at(file) for file in files}
+    ages: dict[Path, timedelta] = {
+        file: now - _file_updated_at(data_path, file) for file in files
+    }
     file_weights: dict[Path, float] = {
         file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
     }
@@ -414,14 +430,14 @@ def _weighted_shuffle(files: list[Path]) -> list[Path]:
 
 def _compute_expired_data_files(data_path: Path, limit: int) -> set[Path]:
     files = list(data_path.glob("**/*.json"))
-    shuffled_files = _weighted_shuffle(files)
+    shuffled_files = _weighted_shuffle(data_path, files)
     expired_files = shuffled_files[:limit]
 
     for file in expired_files:
         logger.debug(
             "Expiring '%s' (modified %s)",
             file,
-            _file_updated_at(file),
+            _file_updated_at(data_path, file),
         )
 
     return set(expired_files)
