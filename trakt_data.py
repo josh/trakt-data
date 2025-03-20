@@ -104,14 +104,37 @@ def _trakt_session(client_id: str, access_token: str) -> requests.Session:
     return session
 
 
-def _fresh(path: Path, max_age: timedelta) -> bool:
+def _max_age(last_modified: datetime) -> timedelta:
+    """
+    Calculates dynamic expiration time using a continuous curve based on file age.
+    Uses square root formula to gradually increase check intervals from 15 minutes (recent files) to 7 days (old files).
+    Formula: base_interval * (1 + (2.5 * (age_hours / 24)) ** 0.5), capped at 168 hours.
+    Provides smooth transition rather than discrete steps for optimal refresh scheduling.
+    """
+    now = datetime.now()
+    age = now - last_modified
+    age_hours = age.total_seconds() / 3600
+    base_interval = 0.25
+    if age_hours <= 0:
+        hours_until_next_check = base_interval
+    else:
+        hours_until_next_check = base_interval * (1 + (2.5 * (age_hours / 24)) ** 0.5)
+    hours_until_next_check = min(hours_until_next_check, 168)
+    return timedelta(hours=hours_until_next_check)
+
+
+def _fresh(path: Path) -> bool:
     if not path.exists():
         logger.debug("%s doesn't exist", path)
         return False
     else:
         mtime = datetime.fromtimestamp(path.stat().st_mtime)
-        if mtime > datetime.now() - max_age:
-            logger.debug("%s last modified %s, still fresh", path, mtime)
+        max_age: timedelta = _max_age(mtime)
+        expires_at: datetime = mtime + max_age
+        expires_in: timedelta = max(timedelta(0), expires_at - datetime.now())
+        logger.debug("%s: last modified %s, expires in %s", path, mtime, expires_in)
+        if expires_at > datetime.now():
+            logger.debug("%s: still fresh", path)
             return True
         return False
 
@@ -127,7 +150,7 @@ def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
 def _export_user_profile(ctx: Context) -> None:
     output_path = ctx.output_dir / "user" / "profile.json"
 
-    if _fresh(output_path, timedelta(days=7)):
+    if _fresh(output_path):
         return
 
     data = _trakt_api_get(ctx, path="/users/me", params={"extended": "vip"})
@@ -147,7 +170,7 @@ def _export_user_profile(ctx: Context) -> None:
 def _export_user_stats(ctx: Context) -> None:
     output_path = ctx.output_dir / "user" / "stats.json"
 
-    if _fresh(output_path, timedelta(days=1)):
+    if _fresh(output_path):
         return
 
     data = _trakt_api_get(ctx, path="/users/me/stats")
@@ -158,11 +181,10 @@ def _export_hidden(
     ctx: Context,
     section: str,
     filename: str,
-    expires_in: timedelta,
 ) -> None:
     output_path = ctx.output_dir / "hidden" / filename
 
-    if _fresh(output_path, expires_in):
+    if _fresh(output_path):
         return
 
     data = _trakt_api_get(ctx, path=f"/users/hidden/{section}")
@@ -174,7 +196,6 @@ def _export_hidden_calendar(ctx: Context) -> None:
         ctx,
         section="calendar",
         filename="hidden-calendar.json",
-        expires_in=timedelta(days=1),
     )
 
 
@@ -183,7 +204,6 @@ def _export_hidden_progress_collected(ctx: Context) -> None:
         ctx,
         section="progress_collected",
         filename="hidden-progress-collected.json",
-        expires_in=timedelta(days=7),
     )
 
 
@@ -192,7 +212,6 @@ def _export_hidden_progress_watched_reset(ctx: Context) -> None:
         ctx,
         section="progress_watched_reset",
         filename="hidden-progress-watched-reset.json",
-        expires_in=timedelta(days=1),
     )
 
 
@@ -201,7 +220,6 @@ def _export_hidden_progress_watched(ctx: Context) -> None:
         ctx,
         section="progress_watched",
         filename="hidden-progress-watched.json",
-        expires_in=timedelta(days=1),
     )
 
 
@@ -210,7 +228,6 @@ def _export_hidden_recommendations(ctx: Context) -> None:
         ctx,
         section="recommendations",
         filename="hidden-recommendations.json",
-        expires_in=timedelta(days=7),
     )
 
 
@@ -221,7 +238,7 @@ def _read_json_data(path: Path, return_type: type[T]) -> T:
 def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
     output_path = ctx.output_dir / "lists" / f"list-{list_id}-{list_slug}.json"
 
-    if _fresh(output_path, timedelta(hours=1)):
+    if _fresh(output_path):
         return
 
     data = _trakt_api_get(ctx, path=f"/users/me/lists/{list_id}/items")
@@ -247,7 +264,7 @@ def _export_lists_list_all(ctx: Context, lists: list[List]) -> None:
 def _export_lists_lists(ctx: Context) -> None:
     output_path = ctx.output_dir / "lists" / "lists.json"
 
-    if not _fresh(output_path, timedelta(days=1)):
+    if not _fresh(output_path):
         data = _trakt_api_get(ctx, path="/users/me/lists")
         _write_json(output_path, data)
 
@@ -259,7 +276,7 @@ def _export_lists_lists(ctx: Context) -> None:
 def _export_lists_watchlist(ctx: Context) -> None:
     output_path = ctx.output_dir / "lists" / "watchlist.json"
 
-    if _fresh(output_path, timedelta(hours=1)):
+    if _fresh(output_path):
         return
 
     data = _trakt_api_get(
