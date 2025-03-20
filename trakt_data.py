@@ -505,12 +505,6 @@ def _compute_expired_data_files(data_path: Path, limit: int) -> set[Path]:
     default=10,
 )
 @click.option(
-    "--seed",
-    type=int,
-    default=int(datetime.now().timestamp()),
-    envvar="RANDOM_SEED",
-)
-@click.option(
     "--verbose",
     "-v",
     is_flag=True,
@@ -521,7 +515,6 @@ def main(
     trakt_access_token: str,
     output_dir: Path,
     expire_limit: int,
-    seed: int,
     verbose: bool,
 ) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
@@ -530,8 +523,6 @@ def main(
         client_id=trakt_client_id,
         access_token=trakt_access_token,
     )
-
-    random.seed(seed)
 
     ctx = Context(
         session=_session,

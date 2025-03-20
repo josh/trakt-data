@@ -54,7 +54,7 @@ jobs:
 
       - name: Sync
         run: |
-          uv run trakt-data --seed ${{ github.run_number }} --output-dir data/ --verbose
+          uv run trakt-data --output-dir data/ --verbose
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
