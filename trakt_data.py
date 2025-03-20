@@ -1,6 +1,7 @@
 import json
 import logging
-from datetime import datetime, timedelta
+import random
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Literal, TypedDict, TypeVar, cast
 
@@ -133,10 +134,17 @@ ListItem = ListMovie | ListShow
 class Context:
     session: requests.Session
     output_dir: Path
+    expired_data_files: set[Path]
 
-    def __init__(self, session: requests.Session, output_dir: Path) -> None:
+    def __init__(
+        self,
+        session: requests.Session,
+        output_dir: Path,
+        expired_data_files: set[Path] = set(),
+    ) -> None:
         self.session = session
         self.output_dir = output_dir
+        self.expired_data_files = expired_data_files
 
 
 def _write_json(path: Path, obj: Any) -> None:
@@ -153,44 +161,15 @@ def _trakt_session(client_id: str, access_token: str) -> requests.Session:
     return session
 
 
-def _max_age(last_modified: datetime) -> timedelta:
-    """
-    Calculates dynamic expiration time using a continuous curve based on file age.
-    Uses square root formula to gradually increase check intervals from 15 minutes (recent files) to 7 days (old files).
-    Formula: base_interval * (1 + (2.5 * (age_hours / 24)) ** 0.5), capped at 168 hours.
-    Provides smooth transition rather than discrete steps for optimal refresh scheduling.
-    """
-    now = datetime.now()
-    age = now - last_modified
-    age_hours = age.total_seconds() / 3600
-    base_interval = 0.25
-    if age_hours <= 0:
-        hours_until_next_check = base_interval
-    else:
-        hours_until_next_check = base_interval * (1 + (2.5 * (age_hours / 24)) ** 0.5)
-    hours_until_next_check = min(hours_until_next_check, 168)
-    return timedelta(hours=hours_until_next_check)
-
-
-def _fresh(path: Path) -> bool:
+def _fresh(ctx: Context, path: Path) -> bool:
     if not path.exists():
         logger.debug("%s doesn't exist", path)
         return False
+    elif path in ctx.expired_data_files:
+        logger.debug("%s is expired", path)
+        return False
     else:
-        mtime = datetime.fromtimestamp(path.stat().st_mtime)
-        max_age: timedelta = _max_age(mtime)
-        expires_at: datetime = mtime + max_age
-        expires_in: timedelta = max(timedelta(0), expires_at - datetime.now())
-        if expires_at > datetime.now():
-            logger.debug(
-                "%s: last modified %s, expires in %s, fresh", path, mtime, expires_in
-            )
-            return True
-        else:
-            logger.debug(
-                "%s: last modified %s, expires in %s, stale", path, mtime, expires_in
-            )
-            return False
+        return True
 
 
 def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
@@ -204,7 +183,7 @@ def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
 def _export_user_profile(ctx: Context) -> None:
     output_path = ctx.output_dir / "user" / "profile.json"
 
-    if _fresh(output_path):
+    if _fresh(ctx, output_path):
         return
 
     data = _trakt_api_get(ctx, path="/users/me", params={"extended": "vip"})
@@ -224,7 +203,7 @@ def _export_user_profile(ctx: Context) -> None:
 def _export_user_stats(ctx: Context) -> None:
     output_path = ctx.output_dir / "user" / "stats.json"
 
-    if _fresh(output_path):
+    if _fresh(ctx, output_path):
         return
 
     data = _trakt_api_get(ctx, path="/users/me/stats")
@@ -238,7 +217,7 @@ def _export_hidden(
 ) -> None:
     output_path = ctx.output_dir / "hidden" / filename
 
-    if _fresh(output_path):
+    if _fresh(ctx, output_path):
         return
 
     data = _trakt_api_get(ctx, path=f"/users/hidden/{section}")
@@ -292,7 +271,7 @@ def _read_json_data(path: Path, return_type: type[T]) -> T:
 def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
     output_path = ctx.output_dir / "lists" / f"list-{list_id}-{list_slug}.json"
 
-    if _fresh(output_path):
+    if _fresh(ctx, output_path):
         return
 
     data = _trakt_api_get(ctx, path=f"/users/me/lists/{list_id}/items")
@@ -318,7 +297,7 @@ def _export_lists_list_all(ctx: Context, lists: list[List]) -> None:
 def _export_lists_lists(ctx: Context) -> None:
     output_path = ctx.output_dir / "lists" / "lists.json"
 
-    if not _fresh(output_path):
+    if not _fresh(ctx, output_path):
         data = _trakt_api_get(ctx, path="/users/me/lists")
         _write_json(output_path, data)
 
@@ -330,7 +309,7 @@ def _export_lists_lists(ctx: Context) -> None:
 def _export_lists_watchlist(ctx: Context) -> None:
     output_path = ctx.output_dir / "lists" / "watchlist.json"
 
-    if _fresh(output_path):
+    if _fresh(ctx, output_path):
         return
 
     data = _trakt_api_get(
@@ -344,7 +323,7 @@ def _export_lists_watchlist(ctx: Context) -> None:
 def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
     output_path = ctx.output_dir / "media" / "movies" / f"{trakt_id}.json"
 
-    if _fresh(output_path):
+    if _fresh(ctx, output_path):
         return _read_json_data(output_path, MovieExtended)
 
     data = _trakt_api_get(ctx, path=f"/movies/{trakt_id}", params={"extended": "full"})
@@ -410,6 +389,44 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
     write_to_textfile(metrics_path, _REGISTRY)
 
 
+def _file_updated_at(file: Path) -> datetime:
+    mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
+    if file.parent.parent.name == "media":
+        data = json.loads(file.read_text())
+        mtime = datetime.fromisoformat(data["updated_at"])
+    assert mtime.tzinfo, "mtime is not offset-aware"
+    return mtime
+
+
+def _weighted_shuffle(files: list[Path]) -> list[Path]:
+    now = datetime.now(tz=timezone.utc)
+
+    ages: dict[Path, timedelta] = {file: now - _file_updated_at(file) for file in files}
+    file_weights: dict[Path, float] = {
+        file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
+    }
+
+    def random_key(file: Path) -> float:
+        return float(random.random() ** (1.0 / max(file_weights[file], 0.0001)))
+
+    return sorted(files, key=random_key, reverse=True)
+
+
+def _compute_expired_data_files(data_path: Path, limit: int) -> set[Path]:
+    files = list(data_path.glob("**/*.json"))
+    shuffled_files = _weighted_shuffle(files)
+    expired_files = shuffled_files[:limit]
+
+    for file in expired_files:
+        logger.debug(
+            "Expiring '%s' (modified %s)",
+            file,
+            _file_updated_at(file),
+        )
+
+    return set(expired_files)
+
+
 @click.command()
 @click.option(
     "--trakt-client-id",
@@ -428,6 +445,17 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
     envvar="OUTPUT_DIR",
 )
 @click.option(
+    "--expire-limit",
+    type=int,
+    default=10,
+)
+@click.option(
+    "--seed",
+    type=int,
+    default=int(datetime.now().timestamp()),
+    envvar="RANDOM_SEED",
+)
+@click.option(
     "--verbose",
     "-v",
     is_flag=True,
@@ -437,6 +465,8 @@ def main(
     trakt_client_id: str,
     trakt_access_token: str,
     output_dir: Path,
+    expire_limit: int,
+    seed: int,
     verbose: bool,
 ) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
@@ -446,9 +476,12 @@ def main(
         access_token=trakt_access_token,
     )
 
+    random.seed(seed)
+
     ctx = Context(
         session=_session,
         output_dir=output_dir,
+        expired_data_files=_compute_expired_data_files(output_dir, limit=expire_limit),
     )
 
     _export_hidden_calendar(ctx)
