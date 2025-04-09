@@ -757,8 +757,6 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
 
 
 def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
-    # TODO: seasons, shows
-
     episode_ratings = _read_json_data(
         data_path / "ratings" / "ratings-episodes.json", list[EpisodeRating]
     )
@@ -791,6 +789,21 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
         rating_str = str(movie_rating["rating"])
         _TRAKT_RATINGS_COUNT.labels(
             media_type="movie",
+            year=year_str,
+            rating=rating_str,
+        ).inc()
+
+    # TODO: seasons
+
+    show_ratings = _read_json_data(
+        data_path / "ratings" / "ratings-shows.json", list[ShowRating]
+    )
+    for show_rating in show_ratings:
+        show = _export_media_show(ctx, trakt_id=show_rating["show"]["ids"]["trakt"])
+        year_str = str(show["year"] or _FUTURE_YEAR)
+        rating_str = str(show_rating["rating"])
+        _TRAKT_RATINGS_COUNT.labels(
+            media_type="show",
             year=year_str,
             rating=rating_str,
         ).inc()
