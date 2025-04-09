@@ -46,6 +46,13 @@ _TRAKT_WATCHLIST_RUNTIME = Gauge(
     registry=_REGISTRY,
 )
 
+_TRAKT_COLLECTION_COUNT = Gauge(
+    "trakt_collection_count",
+    documentation="Number of items in Trakt collection",
+    labelnames=["media_type", "year"],
+    registry=_REGISTRY,
+)
+
 
 class UserIDs(TypedDict):
     slug: str
@@ -141,6 +148,29 @@ class ListShow(TypedDict):
 
 
 ListItem = ListMovie | ListShow
+
+
+class CollectedMovie(TypedDict):
+    collected_at: str
+    updated_at: str
+    movie: Movie
+
+
+class CollectedShow(TypedDict):
+    last_collected_at: str
+    last_updated_at: str
+    show: Show
+    seasons: list["CollectedSeason"]
+
+
+class CollectedSeason(TypedDict):
+    number: int
+    episodes: list["CollectedEpisode"]
+
+
+class CollectedEpisode(TypedDict):
+    number: int
+    collected_at: str
 
 
 class Context:
@@ -406,15 +436,34 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
     return show
 
 
-def _generate_metrics(ctx: Context, data_path: Path) -> None:
-    user_profile = _read_json_data(
-        data_path / "user" / "profile.json",
-        ExportUserProfile,
+def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
+    movies_collection = _read_json_data(
+        data_path / "collection" / "collection-movies.json", list[CollectedMovie]
     )
-    username = user_profile["username"]
+    shows_collection = _read_json_data(
+        data_path / "collection" / "collection-shows.json", list[CollectedShow]
+    )
 
-    _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
+    for collected_movie in movies_collection:
+        trakt_id = collected_movie["movie"]["ids"]["trakt"]
+        movie = _export_media_movie(ctx, trakt_id=trakt_id)
+        year_str = str(movie["year"] or _FUTURE_YEAR)
+        _TRAKT_COLLECTION_COUNT.labels(
+            media_type="movie",
+            year=year_str,
+        ).inc()
 
+    for collected_show in shows_collection:
+        trakt_id = collected_show["show"]["ids"]["trakt"]
+        show = _export_media_show(ctx, trakt_id=trakt_id)
+        year_str = str(show["year"] or _FUTURE_YEAR)
+        _TRAKT_COLLECTION_COUNT.labels(
+            media_type="show",
+            year=year_str,
+        ).inc()
+
+
+def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
     watchlist = _read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
     for item in watchlist:
         if item["type"] == "movie":
@@ -449,6 +498,19 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
             ).inc()
         else:
             logger.warning("Unknown media type: %s", item["type"])
+
+
+def _generate_metrics(ctx: Context, data_path: Path) -> None:
+    user_profile = _read_json_data(
+        data_path / "user" / "profile.json",
+        ExportUserProfile,
+    )
+    username = user_profile["username"]
+
+    _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
+
+    _generate_collection_metrics(ctx, data_path)
+    _generate_watchlist_metrics(ctx, data_path)
 
     metrics_path: str = str(data_path / "metrics.prom")
     write_to_textfile(metrics_path, _REGISTRY)
