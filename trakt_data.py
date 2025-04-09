@@ -370,6 +370,28 @@ def _export_hidden_recommendations(ctx: Context) -> None:
     )
 
 
+def _export_likes(
+    ctx: Context,
+    type: Literal["comments", "lists"],
+    filename: str,
+) -> None:
+    output_path = ctx.output_dir / "likes" / filename
+
+    if _fresh(ctx, output_path):
+        return
+
+    data = _trakt_api_get(ctx, path=f"/users/me/likes/{type}")
+    _write_json(output_path, data)
+
+
+def _export_likes_comments(ctx: Context) -> None:
+    _export_likes(ctx, type="comments", filename="likes-comments.json")
+
+
+def _export_likes_lists(ctx: Context) -> None:
+    _export_likes(ctx, type="lists", filename="likes-lists.json")
+
+
 def _read_json_data(path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
@@ -662,6 +684,8 @@ def main(
     _export_hidden_progress_watched_reset(ctx)
     _export_hidden_progress_watched(ctx)
     _export_hidden_recommendations(ctx)
+    _export_likes_comments(ctx)
+    _export_likes_lists(ctx)
     _export_lists_lists(ctx)
     _export_lists_watchlist(ctx)
     _export_user_profile(ctx)
