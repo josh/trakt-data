@@ -32,6 +32,34 @@ _TRAKT_VIP_YEARS = Gauge(
     registry=_REGISTRY,
 )
 
+_TRAKT_COLLECTION_COUNT = Gauge(
+    "trakt_collection_count",
+    documentation="Number of items in Trakt collection",
+    labelnames=["media_type", "year"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_RATINGS_COUNT = Gauge(
+    "trakt_ratings_count",
+    documentation="Number of items in Trakt ratings",
+    labelnames=["media_type", "year", "rating"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_WATCHED_COUNT = Gauge(
+    "trakt_watched_count",
+    documentation="Number of items in Trakt watched",
+    labelnames=["media_type", "year"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_WATCHED_RUNTIME = Gauge(
+    "trakt_watched_runtime",
+    documentation="Number of minutes in Trakt watched",
+    labelnames=["media_type", "year"],
+    registry=_REGISTRY,
+)
+
 _TRAKT_WATCHLIST_COUNT = Gauge(
     "trakt_watchlist_count",
     documentation="Number of items in Trakt watchlist",
@@ -43,13 +71,6 @@ _TRAKT_WATCHLIST_RUNTIME = Gauge(
     "trakt_watchlist_minutes",
     documentation="Number of minutes in Trakt watchlist",
     labelnames=["media_type", "status", "year"],
-    registry=_REGISTRY,
-)
-
-_TRAKT_COLLECTION_COUNT = Gauge(
-    "trakt_collection_count",
-    documentation="Number of items in Trakt collection",
-    labelnames=["media_type", "year"],
     registry=_REGISTRY,
 )
 
@@ -120,6 +141,21 @@ class MovieExtended(TypedDict):
     language: str
 
 
+class Episode(TypedDict):
+    season: int
+    number: int
+    title: str
+    ids: "EpisodeIDs"
+
+
+class EpisodeIDs(TypedDict):
+    trakt: int
+    tvdb: int
+    imdb: str | None
+    tmdb: int
+    tvrage: int | None
+
+
 class ListIDs(TypedDict):
     trakt: int
     slug: str
@@ -178,6 +214,28 @@ class HistoryItem(TypedDict):
     watched_at: str
     action: Literal["scrobble", "checkin", "watch"]
     type: Literal["movie", "episode"]
+
+
+class EpisodeRating(TypedDict):
+    rated_at: str
+    rating: int
+    type: Literal["episode"]
+    episode: Episode
+    show: Show
+
+
+class MovieRating(TypedDict):
+    rated_at: str
+    rating: int
+    type: Literal["movie"]
+    movie: Movie
+
+
+class ShowRating(TypedDict):
+    rated_at: str
+    rating: int
+    type: Literal["show"]
+    show: Show
 
 
 class Context:
@@ -627,10 +685,6 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
     movies_collection = _read_json_data(
         data_path / "collection" / "collection-movies.json", list[CollectedMovie]
     )
-    shows_collection = _read_json_data(
-        data_path / "collection" / "collection-shows.json", list[CollectedShow]
-    )
-
     for collected_movie in movies_collection:
         trakt_id = collected_movie["movie"]["ids"]["trakt"]
         movie = _export_media_movie(ctx, trakt_id=trakt_id)
@@ -640,6 +694,9 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
             year=year_str,
         ).inc()
 
+    shows_collection = _read_json_data(
+        data_path / "collection" / "collection-shows.json", list[CollectedShow]
+    )
     for collected_show in shows_collection:
         trakt_id = collected_show["show"]["ids"]["trakt"]
         show = _export_media_show(ctx, trakt_id=trakt_id)
@@ -648,6 +705,29 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
             media_type="show",
             year=year_str,
         ).inc()
+
+
+def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
+    # TODO: episodes, seasons, shows
+
+    movie_ratings = _read_json_data(
+        data_path / "ratings" / "ratings-movies.json", list[MovieRating]
+    )
+    for rating in movie_ratings:
+        trakt_id = rating["movie"]["ids"]["trakt"]
+        movie = _export_media_movie(ctx, trakt_id=trakt_id)
+        year_str = str(movie["year"] or _FUTURE_YEAR)
+        rating_str = str(rating["rating"])
+        _TRAKT_RATINGS_COUNT.labels(
+            media_type="movie",
+            year=year_str,
+            rating=rating_str,
+        ).inc()
+
+
+def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
+    # TODO: episodes, movies
+    pass
 
 
 def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
@@ -697,6 +777,8 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
     _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
 
     _generate_collection_metrics(ctx, data_path)
+    _generate_ratings_metrics(ctx, data_path)
+    _generate_watched_metrics(ctx, data_path)
     _generate_watchlist_metrics(ctx, data_path)
 
     metrics_path: str = str(data_path / "metrics.prom")
