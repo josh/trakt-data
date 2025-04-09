@@ -660,8 +660,24 @@ def _export_ratings_shows(ctx: Context) -> None:
     _export_ratings(ctx, type="shows", filename="ratings-shows.json")
 
 
+def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
+    id_str = str(id).zfill(2)
+    id_prefix = id_str[:2]
+    return basedir / id_prefix / f"{id}{suffix}"
+
+
 def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
-    output_path = ctx.output_dir / "media" / "movies" / f"{trakt_id}.json"
+    old_output_path = ctx.output_dir / "media" / "movies" / f"{trakt_id}.json"
+    output_path = partition_filename(
+        basedir=ctx.output_dir / "media" / "movies",
+        id=trakt_id,
+        suffix=".json",
+    )
+
+    if old_output_path.exists():
+        logger.warning(f"Migrating {old_output_path} -> {output_path}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        old_output_path.rename(output_path)
 
     if _fresh(ctx, output_path):
         return _read_json_data(output_path, MovieExtended)
@@ -682,7 +698,17 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
 
 
 def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
-    output_path = ctx.output_dir / "media" / "shows" / f"{trakt_id}.json"
+    old_output_path = ctx.output_dir / "media" / "shows" / f"{trakt_id}.json"
+    output_path = partition_filename(
+        basedir=ctx.output_dir / "media" / "shows",
+        id=trakt_id,
+        suffix=".json",
+    )
+
+    if old_output_path.exists():
+        logger.warning(f"Migrating {old_output_path} -> {output_path}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        old_output_path.rename(output_path)
 
     if _fresh(ctx, output_path):
         return _read_json_data(output_path, ShowExtended)
@@ -711,7 +737,17 @@ def _export_media_episode(
     season: int,
     number: int,
 ) -> EpisodeExtended:
-    output_path = ctx.output_dir / "media" / "episodes" / f"{trakt_id}.json"
+    old_output_path = ctx.output_dir / "media" / "episodes" / f"{trakt_id}.json"
+    output_path = partition_filename(
+        basedir=ctx.output_dir / "media" / "episodes",
+        id=trakt_id,
+        suffix=".json",
+    )
+
+    if old_output_path.exists():
+        logger.warning(f"Migrating {old_output_path} -> {output_path}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        old_output_path.rename(output_path)
 
     if _fresh(ctx, output_path):
         return _read_json_data(output_path, EpisodeExtended)
