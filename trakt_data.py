@@ -117,6 +117,16 @@ class ShowExtended(TypedDict):
     aired_episodes: int
 
 
+class EpisodeExtended(TypedDict):
+    season: int
+    number: int
+    title: str
+    ids: "EpisodeIDs"
+    first_aired: str
+    runtime: int
+    episode_type: str
+
+
 class MovieIDs(TypedDict):
     trakt: int
     slug: str
@@ -681,6 +691,45 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
     return show
 
 
+def _export_media_episode(
+    ctx: Context,
+    trakt_id: int,
+    show_trakt_id: int,
+    season: int,
+    number: int,
+) -> EpisodeExtended:
+    output_path = ctx.output_dir / "media" / "episodes" / f"{trakt_id}.json"
+
+    if _fresh(ctx, output_path):
+        return _read_json_data(output_path, EpisodeExtended)
+
+    data = _trakt_api_get(
+        ctx,
+        path=f"/shows/{show_trakt_id}/seasons/{season}/episodes/{number}",
+        params={"extended": "full"},
+    )
+    episode: EpisodeExtended = {
+        "season": data["season"],
+        "number": data["number"],
+        "title": data["title"],
+        "ids": data["ids"],
+        "first_aired": data["first_aired"],
+        "runtime": data["runtime"],
+        "episode_type": data["episode_type"],
+    }
+    _write_json(output_path, episode)
+    return episode
+
+
+def _episode_first_aired_year(
+    episode: EpisodeExtended, show: ShowExtended
+) -> int | None:
+    year = show.get("year")
+    if episode.get("first_aired"):
+        year = int(episode["first_aired"].split("-")[0])
+    return year
+
+
 def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
     movies_collection = _read_json_data(
         data_path / "collection" / "collection-movies.json", list[CollectedMovie]
@@ -708,16 +757,38 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
 
 
 def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
-    # TODO: episodes, seasons, shows
+    # TODO: seasons, shows
+
+    episode_ratings = _read_json_data(
+        data_path / "ratings" / "ratings-episodes.json", list[EpisodeRating]
+    )
+    for episode_rating in episode_ratings:
+        episode = _export_media_episode(
+            ctx,
+            trakt_id=episode_rating["episode"]["ids"]["trakt"],
+            show_trakt_id=episode_rating["show"]["ids"]["trakt"],
+            season=episode_rating["episode"]["season"],
+            number=episode_rating["episode"]["number"],
+        )
+        show = _export_media_show(
+            ctx,
+            trakt_id=episode_rating["show"]["ids"]["trakt"],
+        )
+        year_str = str(_episode_first_aired_year(episode, show) or _FUTURE_YEAR)
+        rating_str = str(episode_rating["rating"])
+        _TRAKT_RATINGS_COUNT.labels(
+            media_type="episode",
+            year=year_str,
+            rating=rating_str,
+        ).inc()
 
     movie_ratings = _read_json_data(
         data_path / "ratings" / "ratings-movies.json", list[MovieRating]
     )
-    for rating in movie_ratings:
-        trakt_id = rating["movie"]["ids"]["trakt"]
-        movie = _export_media_movie(ctx, trakt_id=trakt_id)
+    for movie_rating in movie_ratings:
+        movie = _export_media_movie(ctx, trakt_id=movie_rating["movie"]["ids"]["trakt"])
         year_str = str(movie["year"] or _FUTURE_YEAR)
-        rating_str = str(rating["rating"])
+        rating_str = str(movie_rating["rating"])
         _TRAKT_RATINGS_COUNT.labels(
             media_type="movie",
             year=year_str,
