@@ -259,7 +259,8 @@ def _trakt_api_paginated_get(
         results.extend(response.json())
         page += 1
 
-    assert len(results) == item_count
+    if len(results) != item_count:
+        logger.warning(f"{path} has {len(results)} items, expected {item_count}")
     return results
 
 
