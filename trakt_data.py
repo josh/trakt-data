@@ -173,6 +173,13 @@ class CollectedEpisode(TypedDict):
     collected_at: str
 
 
+class HistoryItem(TypedDict):
+    id: int
+    watched_at: str
+    action: Literal["scrobble", "checkin", "watch"]
+    type: Literal["movie", "episode"]
+
+
 class Context:
     session: requests.Session
     output_dir: Path
@@ -292,6 +299,62 @@ def _export_user_stats(ctx: Context) -> None:
 
     data = _trakt_api_get(ctx, path="/users/me/stats")
     _write_json(output_path, data)
+
+
+def _read_json_data(path: Path, return_type: type[T]) -> T:
+    return cast(T, json.loads(path.read_text()))
+
+
+def _export_watched_history(ctx: Context) -> None:
+    output_path = ctx.output_dir / "watched" / "history.json"
+
+    if output_path.exists():
+        existing_items = _read_json_data(output_path, list[HistoryItem])
+        start_at = existing_items[0]["watched_at"]
+
+        new_items = _trakt_api_paginated_get(
+            ctx,
+            path="/sync/history",
+            params={"start_at": start_at},
+        )
+        if len(new_items) <= 1:
+            logger.info("No new items watched since %s", start_at)
+            return
+
+    data = _trakt_api_paginated_get(ctx, path="/sync/history")
+    _write_json(output_path, data)
+
+
+def _export_watched_playback(ctx: Context) -> None:
+    output_path = ctx.output_dir / "watched" / "playback.json"
+
+    if _fresh(ctx, output_path):
+        return
+
+    data = _trakt_api_get(ctx, path="/sync/playback")
+    _write_json(output_path, data)
+
+
+def _export_watched(
+    ctx: Context,
+    type: Literal["movies", "shows"],
+    filename: str,
+) -> None:
+    output_path = ctx.output_dir / "watched" / filename
+
+    if _fresh(ctx, output_path):
+        return
+
+    data = _trakt_api_get(ctx, path=f"/sync/watched/{type}")
+    _write_json(output_path, data)
+
+
+def _export_watched_movies(ctx: Context) -> None:
+    _export_watched(ctx, type="movies", filename="watched-movies.json")
+
+
+def _export_watched_shows(ctx: Context) -> None:
+    _export_watched(ctx, type="shows", filename="watched-shows.json")
 
 
 def _export_collection(
@@ -432,10 +495,6 @@ def _export_likes_comments(ctx: Context) -> None:
 
 def _export_likes_lists(ctx: Context) -> None:
     _export_likes(ctx, type="lists", filename="likes-lists.json")
-
-
-def _read_json_data(path: Path, return_type: type[T]) -> T:
-    return cast(T, json.loads(path.read_text()))
 
 
 def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
@@ -766,6 +825,10 @@ def main(
     _export_ratings_shows(ctx)
     _export_user_profile(ctx)
     _export_user_stats(ctx)
+    _export_watched_history(ctx)
+    _export_watched_playback(ctx)
+    _export_watched_movies(ctx)
+    _export_watched_shows(ctx)
 
     _generate_metrics(ctx, data_path=output_dir)
 
