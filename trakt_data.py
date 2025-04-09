@@ -85,7 +85,6 @@ class ShowExtended(TypedDict):
     network: str
     country: str
     status: str
-    updated_at: str
     language: str
     aired_episodes: int
 
@@ -111,7 +110,6 @@ class MovieExtended(TypedDict):
     runtime: int
     country: str
     status: str
-    updated_at: str
     language: str
 
 
@@ -349,7 +347,6 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
         "runtime": data["runtime"],
         "country": data["country"],
         "status": data["status"],
-        "updated_at": data["updated_at"],
         "language": data["language"],
     }
     _write_json(output_path, movie)
@@ -372,7 +369,6 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
         "network": data["network"],
         "country": data["country"],
         "status": data["status"],
-        "updated_at": data["updated_at"],
         "language": data["language"],
         "aired_episodes": data["aired_episodes"],
     }
@@ -442,9 +438,6 @@ def _file_updated_at(data_path: Path, filename: Path) -> datetime:
         updated_ats = [datetime.fromisoformat(item["updated_at"]) for item in items]
         if updated_ats:
             updated_at = max(updated_ats)
-    elif relative_path.startswith("media/"):
-        data = json.loads(filename.read_text())
-        updated_at = datetime.fromisoformat(data["updated_at"])
 
     assert updated_at, "updated_at is not set"
     assert updated_at.tzinfo, "updated_at is not offset-aware"
