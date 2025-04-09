@@ -443,7 +443,7 @@ def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
     if _fresh(ctx, output_path):
         return
 
-    data = _trakt_api_get(ctx, path=f"/users/me/lists/{list_id}/items")
+    data = _trakt_api_paginated_get(ctx, path=f"/users/me/lists/{list_id}/items")
     _write_json(output_path, data)
 
 
