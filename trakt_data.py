@@ -219,7 +219,48 @@ def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
         path = f"/{path}"
     response = ctx.session.get(f"https://api.trakt.tv{path}", params=params)
     response.raise_for_status()
+
+    if "x-pagination-page" in response.headers:
+        raise ValueError("Paginated response not supported")
+
     return response.json()
+
+
+def _trakt_api_paginated_get(
+    ctx: Context,
+    path: str,
+    params: dict[str, str] = {},
+) -> list[Any]:
+    if not path.startswith("/"):
+        path = f"/{path}"
+
+    results: list[Any] = []
+
+    page = 1
+    limit = 1000
+    page_count = 1
+    item_count = 0
+
+    while page <= page_count:
+        params["page"] = str(page)
+        params["limit"] = str(limit)
+        response = ctx.session.get(f"https://api.trakt.tv{path}", params=params)
+        response.raise_for_status()
+
+        assert "x-pagination-page" in response.headers
+        assert response.headers["x-pagination-page"] == str(page)
+        assert "x-pagination-limit" in response.headers
+        assert response.headers["x-pagination-limit"] == str(limit)
+        assert "x-pagination-page-count" in response.headers
+        page_count = int(response.headers["x-pagination-page-count"])
+        assert "x-pagination-item-count" in response.headers
+        item_count = int(response.headers["x-pagination-item-count"])
+
+        results.extend(response.json())
+        page += 1
+
+    assert len(results) == item_count
+    return results
 
 
 def _export_user_profile(ctx: Context) -> None:
@@ -284,7 +325,7 @@ def _export_comments(
     if _fresh(ctx, output_path):
         return
 
-    data = _trakt_api_get(ctx, path=f"/users/me/comments/{type}")
+    data = _trakt_api_paginated_get(ctx, path=f"/users/me/comments/{type}")
     _write_json(output_path, data)
 
 
@@ -318,7 +359,7 @@ def _export_hidden(
     if _fresh(ctx, output_path):
         return
 
-    data = _trakt_api_get(ctx, path=f"/users/hidden/{section}")
+    data = _trakt_api_paginated_get(ctx, path=f"/users/hidden/{section}")
     _write_json(output_path, data)
 
 
@@ -380,7 +421,7 @@ def _export_likes(
     if _fresh(ctx, output_path):
         return
 
-    data = _trakt_api_get(ctx, path=f"/users/me/likes/{type}")
+    data = _trakt_api_paginated_get(ctx, path=f"/users/me/likes/{type}")
     _write_json(output_path, data)
 
 
@@ -440,7 +481,7 @@ def _export_lists_watchlist(ctx: Context) -> None:
     if _fresh(ctx, output_path):
         return
 
-    data = _trakt_api_get(
+    data = _trakt_api_paginated_get(
         ctx,
         path="/users/me/watchlist",
         params={"sort_by": "rank", "sort_how": "asc"},
