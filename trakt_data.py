@@ -219,11 +219,24 @@ class CollectedEpisode(TypedDict):
     collected_at: str
 
 
-class HistoryItem(TypedDict):
+class HistoryMovieItem(TypedDict):
     id: int
     watched_at: str
     action: Literal["scrobble", "checkin", "watch"]
-    type: Literal["movie", "episode"]
+    type: Literal["movie"]
+    movie: Movie
+
+
+class HistoryEpisodeItem(TypedDict):
+    id: int
+    watched_at: str
+    action: Literal["scrobble", "checkin", "watch"]
+    type: Literal["episode"]
+    episode: Episode
+    show: Show
+
+
+HistoryItem = HistoryMovieItem | HistoryEpisodeItem
 
 
 class EpisodeRating(TypedDict):
@@ -810,8 +823,27 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
 
 
 def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
-    # TODO: episodes, movies
-    pass
+    history_items = _read_json_data(
+        data_path / "watched" / "history.json", list[HistoryItem]
+    )
+    for history_item in history_items:
+        if history_item["type"] == "movie":
+            movie = _export_media_movie(
+                ctx, trakt_id=history_item["movie"]["ids"]["trakt"]
+            )
+            year_str = str(movie["year"] or _FUTURE_YEAR)
+            runtime = movie["runtime"]
+            _TRAKT_WATCHED_COUNT.labels(
+                media_type="movie",
+                year=year_str,
+            ).inc()
+            _TRAKT_WATCHED_RUNTIME.labels(
+                media_type="movie",
+                year=year_str,
+            ).inc(runtime)
+        elif history_item["type"] == "episode":
+            # TODO
+            pass
 
 
 def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
