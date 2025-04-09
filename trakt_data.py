@@ -274,6 +274,40 @@ def _export_collection_shows(ctx: Context) -> None:
     _export_collection(ctx, type="shows", filename="collection-shows.json")
 
 
+def _export_comments(
+    ctx: Context,
+    type: Literal["all", "movies", "shows", "seasons", "episodes", "lists"],
+    filename: str,
+) -> None:
+    output_path = ctx.output_dir / "comments" / filename
+
+    if _fresh(ctx, output_path):
+        return
+
+    data = _trakt_api_get(ctx, path=f"/users/me/comments/{type}")
+    _write_json(output_path, data)
+
+
+def _export_comments_episodes(ctx: Context) -> None:
+    _export_comments(ctx, type="episodes", filename="comments-episodes.json")
+
+
+def _export_comments_lists(ctx: Context) -> None:
+    _export_comments(ctx, type="lists", filename="comments-lists.json")
+
+
+def _export_comments_movies(ctx: Context) -> None:
+    _export_comments(ctx, type="movies", filename="comments-movies.json")
+
+
+def _export_comments_seasons(ctx: Context) -> None:
+    _export_comments(ctx, type="seasons", filename="comments-seasons.json")
+
+
+def _export_comments_shows(ctx: Context) -> None:
+    _export_comments(ctx, type="shows", filename="comments-shows.json")
+
+
 def _export_hidden(
     ctx: Context,
     section: str,
@@ -617,6 +651,11 @@ def main(
 
     _export_collection_movies(ctx)
     _export_collection_shows(ctx)
+    _export_comments_episodes(ctx)
+    _export_comments_lists(ctx)
+    _export_comments_movies(ctx)
+    _export_comments_seasons(ctx)
+    _export_comments_shows(ctx)
     _export_hidden_calendar(ctx)
     _export_hidden_dropped(ctx)
     _export_hidden_progress_collected(ctx)
