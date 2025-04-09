@@ -244,6 +244,14 @@ def _export_hidden_calendar(ctx: Context) -> None:
     )
 
 
+def _export_hidden_dropped(ctx: Context) -> None:
+    _export_hidden(
+        ctx,
+        section="dropped",
+        filename="hidden-dropped.json",
+    )
+
+
 def _export_hidden_progress_collected(ctx: Context) -> None:
     _export_hidden(
         ctx,
@@ -524,6 +532,7 @@ def main(
     )
 
     _export_hidden_calendar(ctx)
+    _export_hidden_dropped(ctx)
     _export_hidden_progress_collected(ctx)
     _export_hidden_progress_watched_reset(ctx)
     _export_hidden_progress_watched(ctx)
