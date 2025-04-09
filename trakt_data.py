@@ -222,6 +222,28 @@ def _export_user_stats(ctx: Context) -> None:
     _write_json(output_path, data)
 
 
+def _export_collection(
+    ctx: Context,
+    type: Literal["movies", "shows"],
+    filename: str,
+) -> None:
+    output_path = ctx.output_dir / "collection" / filename
+
+    if _fresh(ctx, output_path):
+        return
+
+    data = _trakt_api_get(ctx, path=f"/users/me/collection/{type}")
+    _write_json(output_path, data)
+
+
+def _export_collection_movies(ctx: Context) -> None:
+    _export_collection(ctx, type="movies", filename="collection-movies.json")
+
+
+def _export_collection_shows(ctx: Context) -> None:
+    _export_collection(ctx, type="shows", filename="collection-shows.json")
+
+
 def _export_hidden(
     ctx: Context,
     section: str,
@@ -531,6 +553,8 @@ def main(
         expired_data_files=_compute_expired_data_files(output_dir, limit=expire_limit),
     )
 
+    _export_collection_movies(ctx)
+    _export_collection_shows(ctx)
     _export_hidden_calendar(ctx)
     _export_hidden_dropped(ctx)
     _export_hidden_progress_collected(ctx)
