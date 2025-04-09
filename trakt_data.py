@@ -489,6 +489,36 @@ def _export_lists_watchlist(ctx: Context) -> None:
     _write_json(output_path, data)
 
 
+def _export_ratings(
+    ctx: Context,
+    type: Literal["movies", "shows", "seasons", "episodes", "all"],
+    filename: str,
+) -> None:
+    output_path = ctx.output_dir / "ratings" / filename
+
+    if _fresh(ctx, output_path):
+        return
+
+    data = _trakt_api_get(ctx, path=f"/users/me/ratings/{type}")
+    _write_json(output_path, data)
+
+
+def _export_ratings_episodes(ctx: Context) -> None:
+    _export_ratings(ctx, type="episodes", filename="ratings-episodes.json")
+
+
+def _export_ratings_movies(ctx: Context) -> None:
+    _export_ratings(ctx, type="movies", filename="ratings-movies.json")
+
+
+def _export_ratings_seasons(ctx: Context) -> None:
+    _export_ratings(ctx, type="seasons", filename="ratings-seasons.json")
+
+
+def _export_ratings_shows(ctx: Context) -> None:
+    _export_ratings(ctx, type="shows", filename="ratings-shows.json")
+
+
 def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
     output_path = ctx.output_dir / "media" / "movies" / f"{trakt_id}.json"
 
@@ -729,6 +759,10 @@ def main(
     _export_likes_lists(ctx)
     _export_lists_lists(ctx)
     _export_lists_watchlist(ctx)
+    _export_ratings_episodes(ctx)
+    _export_ratings_movies(ctx)
+    _export_ratings_seasons(ctx)
+    _export_ratings_shows(ctx)
     _export_user_profile(ctx)
     _export_user_stats(ctx)
 
