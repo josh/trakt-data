@@ -22,6 +22,7 @@ jobs:
       - name: Get commit info
         id: commit
         run: |
+          set -o pipefail
           echo "message=$(git log -1 --pretty=%B)" | tee -a $GITHUB_OUTPUT
           echo "author_name=$(git log -1 --pretty=%an)" | tee -a $GITHUB_OUTPUT
           echo "author_email=$(git log -1 --pretty=%ae)" | tee -a $GITHUB_OUTPUT
@@ -32,14 +33,16 @@ jobs:
       - name: Get tree sha
         id: tree
         run: |
+          set -o pipefail
           (echo -n "sha="; git write-tree) | tee -a $GITHUB_OUTPUT
 
       - name: Create squashed commit
         id: new-commit
         run: |
+          set -o pipefail
           (
             echo -n "sha="
-            git commit-tree ${{ steps.tree.outputs.sha }} --message "${{ steps.commit.outputs.message }}"
+            git commit-tree "${{ steps.tree.outputs.sha }}" -m "${{ steps.commit.outputs.message }}"
           ) | tee -a $GITHUB_OUTPUT
         env:
           GIT_AUTHOR_NAME: ${{ steps.commit.outputs.author_name }}
@@ -51,7 +54,7 @@ jobs:
 
       - name: Update data branch
         run: |
-          git update-ref refs/heads/data ${{ steps.new-commit.outputs.sha }}
+          git update-ref refs/heads/data "${{ steps.new-commit.outputs.sha }}"
 
       - name: Push changes
         run: |
