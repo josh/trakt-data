@@ -661,8 +661,11 @@ def _export_ratings_shows(ctx: Context) -> None:
 
 
 def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
-    id_str = str(id).zfill(2)
-    id_prefix = id_str[:2]
+    id_str = str(id)
+    if len(id_str) == 1:
+        id_prefix = id_str + "0"
+    else:
+        id_prefix = id_str[:2]
     return basedir / id_prefix / f"{id}{suffix}"
 
 
