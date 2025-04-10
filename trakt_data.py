@@ -670,17 +670,11 @@ def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
 
 
 def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
-    old_output_path = ctx.output_dir / "media" / "movies" / f"{trakt_id}.json"
     output_path = partition_filename(
         basedir=ctx.output_dir / "media" / "movies",
         id=trakt_id,
         suffix=".json",
     )
-
-    if old_output_path.exists():
-        logger.warning(f"Migrating {old_output_path} -> {output_path}")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        old_output_path.rename(output_path)
 
     if _fresh(ctx, output_path):
         return _read_json_data(output_path, MovieExtended)
@@ -701,17 +695,11 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
 
 
 def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
-    old_output_path = ctx.output_dir / "media" / "shows" / f"{trakt_id}.json"
     output_path = partition_filename(
         basedir=ctx.output_dir / "media" / "shows",
         id=trakt_id,
         suffix=".json",
     )
-
-    if old_output_path.exists():
-        logger.warning(f"Migrating {old_output_path} -> {output_path}")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        old_output_path.rename(output_path)
 
     if _fresh(ctx, output_path):
         return _read_json_data(output_path, ShowExtended)
@@ -740,17 +728,11 @@ def _export_media_episode(
     season: int,
     number: int,
 ) -> EpisodeExtended:
-    old_output_path = ctx.output_dir / "media" / "episodes" / f"{trakt_id}.json"
     output_path = partition_filename(
         basedir=ctx.output_dir / "media" / "episodes",
         id=trakt_id,
         suffix=".json",
     )
-
-    if old_output_path.exists():
-        logger.warning(f"Migrating {old_output_path} -> {output_path}")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        old_output_path.rename(output_path)
 
     if _fresh(ctx, output_path):
         return _read_json_data(output_path, EpisodeExtended)
