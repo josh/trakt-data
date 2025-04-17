@@ -9,6 +9,8 @@ from typing import Any, Literal, TypedDict, TypeVar, cast
 import click
 import requests
 from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 logger = logging.getLogger("trakt-data")
 
@@ -458,6 +460,15 @@ def _trakt_session(client_id: str, access_token: str) -> requests.Session:
     session.headers.update(_TRAKT_API_HEADERS)
     session.headers["trakt-api-key"] = client_id
     session.headers["Authorization"] = f"Bearer {access_token}"
+
+    retry_strategy = Retry(
+        total=5,
+        backoff_factor=60,
+        status_forcelist=[429],
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://api.trakt.tv", adapter)
+
     return session
 
 
@@ -475,6 +486,7 @@ def _fresh(ctx: Context, path: Path) -> bool:
 def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
     if not path.startswith("/"):
         path = f"/{path}"
+
     response = ctx.session.get(f"https://api.trakt.tv{path}", params=params)
     response.raise_for_status()
 
