@@ -115,6 +115,7 @@ class ShowExtended(TypedDict):
     network: str
     country: str
     status: str
+    updated_at: str
     language: str
     aired_episodes: int
 
@@ -865,7 +866,7 @@ def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
 
 def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
     output_path = partition_filename(
-        basedir=ctx.output_dir / "media" / "shows",
+        basedir=ctx.cache_dir / "media" / "shows",
         id=trakt_id,
         suffix=".json",
     )
@@ -883,10 +884,12 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
         "network": data["network"],
         "country": data["country"],
         "status": data["status"],
+        "updated_at": data["updated_at"],
         "language": data["language"],
         "aired_episodes": data["aired_episodes"],
     }
-    _write_json(output_path, show)
+    mtime = datetime.fromisoformat(show["updated_at"]).timestamp()
+    _write_json(output_path, show, mtime=mtime)
     return show
 
 
@@ -1213,6 +1216,10 @@ def metrics(
     episodes_dir = output_dir.joinpath("media", "episodes")
     if episodes_dir.exists():
         shutil.rmtree(episodes_dir)
+
+    shows_dir = output_dir.joinpath("media", "shows")
+    if shows_dir.exists():
+        shutil.rmtree(shows_dir)
 
     _generate_metrics(ctx, data_path=output_dir)
 
