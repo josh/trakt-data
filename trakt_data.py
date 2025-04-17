@@ -622,7 +622,7 @@ def _export_collection(
     if _fresh(ctx, output_path):
         return
 
-    data = _trakt_api_get(ctx, path=f"/users/me/collection/{type}")
+    data = _trakt_api_get(ctx, path=f"/sync/collection/{type}")
     _write_json(output_path, data)
 
 
