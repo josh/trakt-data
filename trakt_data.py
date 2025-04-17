@@ -1205,7 +1205,7 @@ def metrics(
     _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
 
     _generate_collection_metrics(ctx, output_dir)
-    # _generate_ratings_metrics(ctx, output_dir)
+    _generate_ratings_metrics(ctx, output_dir)
     # _generate_watched_metrics(ctx, output_dir)
     _generate_watchlist_metrics(ctx, output_dir)
 
