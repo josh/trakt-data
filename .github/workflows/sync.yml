@@ -33,10 +33,10 @@ jobs:
 
       - name: Restore git mtimes
         run: |
-          git ls-files -z | while IFS= read -r -d '' path; do
-            if [ -f "$path" ]; then
-              commit_date=$(git log -1 --format="%ad" --date=raw -- "$path" | cut -d' ' -f1)
-              touch -d "@$commit_date" "$path"
+          git ls-files -z | while IFS= read -r -d '' p; do
+            if [ -f "$p" ]; then
+              commit_date=$(git log -1 --format="%ad" --date=raw -- "$p" | cut -d' ' -f1)
+              touch -d "@$commit_date" "$p"
             fi
           done
         working-directory: data/
