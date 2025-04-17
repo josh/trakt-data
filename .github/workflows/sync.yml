@@ -17,6 +17,7 @@ jobs:
 
     outputs:
       pushed: ${{ steps.commit.outputs.committed }}
+      deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
       artifact-checksum: ${{ steps.artifact-checksum.outputs.checksum }}
 
     permissions:
@@ -90,6 +91,12 @@ jobs:
         run: git push origin refs/heads/data
         working-directory: data/
 
+      - name: Fetch deployed checksum
+        id: deployed-checksum
+        run: |
+          curl --silent https://josh.github.io/trakt-data/.checksum | tee "$RUNNER_TEMP/checksum"
+          (echo -n "checksum=" ; head -n1 "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
+
       - name: Compute checksum
         id: artifact-checksum
         run: |
@@ -99,14 +106,14 @@ jobs:
         working-directory: data/
 
       - name: Upload artifact
-        if: steps.commit.outputs.committed == 'true'
+        if: ${{ steps.deployed-checksum.outputs.checksum != steps.artifact-checksum.outputs.checksum }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: data/
 
   deploy:
     needs: run
-    if: ${{ needs.run.outputs.pushed == 'true' }}
+    if: ${{ needs.run.outputs.deployed-checksum != needs.run.outputs.artifact-checksum }}
 
     permissions:
       pages: write
