@@ -1081,24 +1081,6 @@ def _generate_watchlist_metrics(ctx: MetricsContext, data_path: Path) -> None:
             logger.warning("Unknown media type: %s", item["type"])
 
 
-def _generate_metrics(ctx: MetricsContext, data_path: Path) -> None:
-    user_profile = _read_json_data(
-        data_path / "user" / "profile.json",
-        ExportUserProfile,
-    )
-    username = user_profile["username"]
-
-    _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
-
-    _generate_collection_metrics(ctx, data_path)
-    _generate_ratings_metrics(ctx, data_path)
-    _generate_watched_metrics(ctx, data_path)
-    _generate_watchlist_metrics(ctx, data_path)
-
-    metrics_path: str = str(data_path / "metrics.prom")
-    write_to_textfile(metrics_path, _REGISTRY)
-
-
 @click.group()
 @click.option(
     "--verbose",
@@ -1220,7 +1202,21 @@ def metrics(
     if movies_dir.exists():
         shutil.rmtree(movies_dir)
 
-    _generate_metrics(ctx, data_path=output_dir)
+    user_profile = _read_json_data(
+        output_dir / "user" / "profile.json",
+        ExportUserProfile,
+    )
+    username = user_profile["username"]
+
+    _TRAKT_VIP_YEARS.labels(username=username).set(user_profile["vip_years"])
+
+    _generate_collection_metrics(ctx, output_dir)
+    # _generate_ratings_metrics(ctx, output_dir)
+    # _generate_watched_metrics(ctx, output_dir)
+    # _generate_watchlist_metrics(ctx, output_dir)
+
+    metrics_path: str = str(output_dir / "metrics.prom")
+    write_to_textfile(metrics_path, _REGISTRY)
 
 
 if __name__ == "__main__":
