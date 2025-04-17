@@ -521,6 +521,7 @@ def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
     if not path.startswith("/"):
         path = f"/{path}"
 
+    logger.info("GET %s", f"https://api.trakt.tv{path}")
     response = ctx.session.get(f"https://api.trakt.tv{path}", params=params)
     response.raise_for_status()
 
@@ -548,6 +549,8 @@ def _trakt_api_paginated_get(
     while page <= page_count:
         params["page"] = str(page)
         params["limit"] = str(limit)
+
+        logger.info("GET %s", f"https://api.trakt.tv{path}")
         response = ctx.session.get(f"https://api.trakt.tv{path}", params=params)
         response.raise_for_status()
 
