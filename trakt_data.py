@@ -526,6 +526,12 @@ def _trakt_api_paginated_get(
     return results
 
 
+def _export_user_last_activities(ctx: Context) -> None:
+    output_path = ctx.output_dir / "user" / "last-activities.json"
+    data = _trakt_api_get(ctx, path="/sync/last_activities")
+    _write_json(output_path, data)
+
+
 def _export_user_profile(ctx: Context) -> None:
     output_path = ctx.output_dir / "user" / "profile.json"
 
@@ -618,10 +624,6 @@ def _export_collection(
     filename: str,
 ) -> None:
     output_path = ctx.output_dir / "collection" / filename
-
-    if _fresh(ctx, output_path):
-        return
-
     data = _trakt_api_get(ctx, path=f"/sync/collection/{type}")
     _write_json(output_path, data)
 
@@ -1122,6 +1124,7 @@ def export(
     _export_ratings_movies(ctx)
     _export_ratings_seasons(ctx)
     _export_ratings_shows(ctx)
+    _export_user_last_activities(ctx)
     _export_user_profile(ctx)
     _export_user_stats(ctx)
     _export_watched_history(ctx)
