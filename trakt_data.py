@@ -1218,7 +1218,7 @@ def metrics(
 
     _generate_collection_metrics(ctx, output_dir)
     _generate_ratings_metrics(ctx, output_dir)
-    # _generate_watched_metrics(ctx, output_dir)
+    _generate_watched_metrics(ctx, output_dir)
     _generate_watchlist_metrics(ctx, output_dir)
 
     metrics_path: str = str(output_dir / "metrics.prom")
