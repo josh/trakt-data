@@ -17,6 +17,7 @@ jobs:
 
     outputs:
       pushed: ${{ steps.commit.outputs.committed }}
+      artifact-checksum: ${{ steps.artifact-checksum.outputs.checksum }}
 
     permissions:
       contents: write
@@ -87,6 +88,14 @@ jobs:
       - name: Push changes
         if: steps.commit.outputs.committed == 'true'
         run: git push origin refs/heads/data
+        working-directory: data/
+
+      - name: Compute checksum
+        id: artifact-checksum
+        run: |
+          sha256sum ./* | sort | sha256sum | awk '{print $1}' | tee "$RUNNER_TEMP/checksum"
+          (echo -n "checksum=" ; cat "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
+          mv "$RUNNER_TEMP/checksum" .checksum
         working-directory: data/
 
       - name: Upload artifact
