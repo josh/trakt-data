@@ -2,7 +2,6 @@ import json
 import logging
 import os
 import random
-from collections.abc import Iterable
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Literal, TypedDict, TypeVar, cast
@@ -123,7 +122,7 @@ class ExportShowsLastActivities(TypedDict):
     favorited_at: str
     recommendations_at: str
     commented_at: str
-    paused_at: str
+    hidden_at: str
     dropped_at: str
 
 
@@ -385,68 +384,14 @@ class WatchedShow(TypedDict):
 class Context:
     session: requests.Session
     output_dir: Path
-    cache_dir: Path
-    expired_data_files: set[Path]
 
     def __init__(
         self,
         session: requests.Session,
         output_dir: Path,
-        cache_dir: Path,
-        expired_data_files: set[Path] = set(),
     ) -> None:
         self.session = session
         self.output_dir = output_dir
-        self.cache_dir = cache_dir
-        self.expired_data_files = expired_data_files
-
-        cache_dir.mkdir(parents=True, exist_ok=True)
-
-
-class ParsedDatetime:
-    def __init__(self, datetime_str: str) -> None:
-        self.original_str = datetime_str
-        self.datetime = datetime.fromisoformat(datetime_str)
-        if self.datetime.tzinfo is None:
-            raise ValueError(f"datetime string must include timezone: {datetime_str}")
-
-    def __lt__(self, other: object) -> bool:
-        if not isinstance(other, ParsedDatetime):
-            return NotImplemented
-        return self.datetime < other.datetime
-
-    def __le__(self, other: object) -> bool:
-        if not isinstance(other, ParsedDatetime):
-            return NotImplemented
-        return self.datetime <= other.datetime
-
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, ParsedDatetime):
-            return NotImplemented
-        return self.datetime == other.datetime
-
-    def __gt__(self, other: object) -> bool:
-        if not isinstance(other, ParsedDatetime):
-            return NotImplemented
-        return self.datetime > other.datetime
-
-    def __ge__(self, other: object) -> bool:
-        if not isinstance(other, ParsedDatetime):
-            return NotImplemented
-        return self.datetime >= other.datetime
-
-    def __repr__(self) -> str:
-        return f"ParsedDatetime({self.original_str!r})"
-
-    def __str__(self) -> str:
-        return self.original_str
-
-
-_EPOCH: ParsedDatetime = ParsedDatetime("1970-01-01T00:00:00+00:00")
-
-
-def _max_parsed_datetime(strs: Iterable[str]) -> ParsedDatetime:
-    return max([ParsedDatetime(s) for s in strs], default=_EPOCH)
 
 
 def _xdg_cache_home() -> Path:
@@ -460,43 +405,12 @@ def _default_cache_dir() -> Path:
     return _xdg_cache_home() / "trakt-data"
 
 
-def _file_updated_at(data_path: Path, cache_path: Path, filename: Path) -> datetime:
-    mtime = datetime.fromtimestamp(filename.stat().st_mtime, tz=timezone.utc)
-    updated_at = mtime
-    if filename.is_relative_to(data_path):
-        base_path = data_path
-    elif filename.is_relative_to(cache_path):
-        base_path = cache_path
-    else:
-        raise ValueError(
-            f"File {filename} is not relative to {data_path} or {cache_path}"
-        )
-    relative_path = str(filename.relative_to(base_path))
-    if relative_path.startswith("hidden/"):
-        items = json.loads(filename.read_text())
-        hidden_ats = [datetime.fromisoformat(item["hidden_at"]) for item in items]
-        if hidden_ats:
-            updated_at = max(hidden_ats)
-    elif relative_path == "lists/lists.json":
-        items = json.loads(filename.read_text())
-        updated_ats = [datetime.fromisoformat(item["updated_at"]) for item in items]
-        if updated_ats:
-            updated_at = max(updated_ats)
-
-    assert updated_at, "updated_at is not set"
-    assert updated_at.tzinfo, "updated_at is not offset-aware"
-    return updated_at
-
-
-def _weighted_shuffle(
-    data_path: Path,
-    cache_path: Path,
-    files: list[Path],
-) -> list[Path]:
+def _weighted_shuffle(files: list[Path]) -> list[Path]:
     now = datetime.now(tz=timezone.utc)
 
     ages: dict[Path, timedelta] = {
-        file: now - _file_updated_at(data_path, cache_path, file) for file in files
+        file: now - datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
+        for file in files
     }
     file_weights: dict[Path, float] = {
         file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
@@ -509,65 +423,43 @@ def _weighted_shuffle(
 
 
 class ExportContext(Context):
-    def _compute_expired_data_files(
-        self,
-        data_path: Path,
-        cache_path: Path,
-        limit: int = 10,
-    ) -> set[Path]:
-        files = []
-
-        for file in data_path.glob("**/*.json"):
-            files.append(file)
-
-        expired_files = _weighted_shuffle(data_path, cache_path, files)[:limit]
-
-        if len(files) > 0:
-            logger.info(
-                "Expired files: %d/%d (%.2f%%)",
-                len(expired_files),
-                len(files),
-                len(expired_files) / len(files) * 100,
-            )
-
-        for file in expired_files:
-            logger.debug(
-                "Expiring '%s' (modified %s)",
-                file,
-                _file_updated_at(data_path, cache_path, file),
-            )
-
-        return set(expired_files)
+    exclude_paths: list[Path]
+    fresh_paths: list[Path]
+    stale_paths: list[Path]
 
     def __init__(
         self,
         session: requests.Session,
         output_dir: Path,
-        cache_dir: Path,
+        exclude_paths: list[Path],
+        fresh_paths: list[Path],
+        stale_paths: list[Path],
     ) -> None:
-        expired_data_files = self._compute_expired_data_files(
-            data_path=output_dir,
-            cache_path=cache_dir,
-        )
-        super().__init__(session, output_dir, cache_dir, expired_data_files)
+        self.exclude_paths = exclude_paths
+        self.fresh_paths = fresh_paths
+        self.stale_paths = stale_paths
+        super().__init__(session, output_dir)
 
 
 class MetricsContext(Context):
+    cache_dir: Path
+    expired_data_files: set[Path]
+
     def _compute_expired_media_files(
         self,
-        data_path: Path,
         cache_path: Path,
-        limit: int = 250,
+        limit: int = 100,
         min_media_age: timedelta = timedelta(days=1),
     ) -> set[Path]:
         min_media_mtime = datetime.now(tz=timezone.utc) - min_media_age
 
         files = []
         for file in cache_path.glob("**/*.json"):
-            if _file_updated_at(data_path, cache_path, file) < min_media_mtime:
+            mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
+            if mtime < min_media_mtime:
                 files.append(file)
 
-        expired_files = _weighted_shuffle(data_path, cache_path, files)[:limit]
+        expired_files = _weighted_shuffle(files)[:limit]
 
         if len(files) > 0:
             logger.info(
@@ -578,11 +470,8 @@ class MetricsContext(Context):
             )
 
         for file in expired_files:
-            logger.debug(
-                "Expiring '%s' (modified %s)",
-                file,
-                _file_updated_at(data_path, cache_path, file),
-            )
+            mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
+            logger.debug("Expiring '%s' (modified %s)", file, mtime)
 
         return set(expired_files)
 
@@ -592,11 +481,14 @@ class MetricsContext(Context):
         output_dir: Path,
         cache_dir: Path,
     ) -> None:
-        expired_data_files = self._compute_expired_media_files(
-            data_path=output_dir,
-            cache_path=cache_dir,
+        self.cache_dir = cache_dir
+        cache_dir.mkdir(parents=True, exist_ok=True)
+
+        self.expired_data_files = self._compute_expired_media_files(
+            cache_path=cache_dir
         )
-        super().__init__(session, output_dir, cache_dir, expired_data_files)
+
+        super().__init__(session, output_dir)
 
 
 def _write_json(path: Path, obj: Any, mtime: float | None = None) -> None:
@@ -623,17 +515,6 @@ def _trakt_session(client_id: str, access_token: str) -> requests.Session:
     session.mount("https://api.trakt.tv", adapter)
 
     return session
-
-
-def _fresh(ctx: Context, path: Path) -> bool:
-    if not path.exists():
-        logger.debug("%s doesn't exist", path)
-        return False
-    elif path in ctx.expired_data_files:
-        logger.debug("%s is expired", path)
-        return False
-    else:
-        return True
 
 
 def _trakt_api_get(ctx: Context, path: str, params: dict[str, str] = {}) -> Any:
@@ -687,17 +568,126 @@ def _trakt_api_paginated_get(
     return results
 
 
-def _export_user_last_activities(ctx: Context) -> ExportLastActivities:
+def _export_user_last_activities(ctx: ExportContext) -> ExportLastActivities:
     output_path = ctx.output_dir / "user" / "last-activities.json"
     data = _trakt_api_get(ctx, path="/sync/last_activities")
     _write_json(output_path, data)
     return cast(ExportLastActivities, data)
 
 
-def _export_user_profile(ctx: Context) -> None:
+def _compare_datetime_strs(a: str, b: str) -> bool:
+    return datetime.fromisoformat(a) >= datetime.fromisoformat(b)
+
+
+def _last_hidden_at_activities(activities: ExportLastActivities) -> datetime:
+    return max(
+        datetime.fromisoformat(activities["movies"]["hidden_at"]),
+        datetime.fromisoformat(activities["shows"]["hidden_at"]),
+        datetime.fromisoformat(activities["seasons"]["hidden_at"]),
+    )
+
+
+def _activities_outdated_paths(
+    data_path: Path,
+    old_activities: ExportLastActivities | None,
+    new_activities: ExportLastActivities,
+) -> tuple[list[Path], list[Path]]:
+    fresh_paths: list[Path] = []
+    stale_paths: list[Path] = []
+
+    def _mark_path(path: Path, fresh: bool) -> None:
+        if fresh:
+            fresh_paths.append(path)
+        else:
+            stale_paths.append(path)
+
+    exports = [
+        ("movies", "collected_at", data_path / "collection" / "collection-movies.json"),
+        ("movies", "watched_at", data_path / "watched" / "watched-movies.json"),
+        ("movies", "rated_at", data_path / "ratings" / "ratings-movies.json"),
+        ("movies", "commented_at", data_path / "comments" / "comments-movies.json"),
+        (
+            "episodes",
+            "collected_at",
+            data_path / "collection" / "collection-shows.json",
+        ),
+        ("episodes", "watched_at", data_path / "watched" / "watched-shows.json"),
+        ("episodes", "rated_at", data_path / "ratings" / "ratings-episodes.json"),
+        ("episodes", "commented_at", data_path / "comments" / "comments-episodes.json"),
+        ("shows", "rated_at", data_path / "ratings" / "ratings-shows.json"),
+        ("shows", "commented_at", data_path / "comments" / "comments-shows.json"),
+        ("seasons", "rated_at", data_path / "ratings" / "ratings-seasons.json"),
+        ("seasons", "commented_at", data_path / "comments" / "comments-seasons.json"),
+        ("comments", "liked_at", data_path / "likes" / "likes-comments.json"),
+        ("lists", "liked_at", data_path / "likes" / "likes-lists.json"),
+        ("lists", "updated_at", data_path / "lists" / "lists.json"),
+        ("lists", "commented_at", data_path / "comments" / "comments-lists.json"),
+        ("watchlist", "updated_at", data_path / "lists" / "watchlist.json"),
+        ("account", "settings_at", data_path / "user" / "profile.json"),
+    ]
+
+    activities_fresh = False
+    if old_activities:
+        activities_fresh = _compare_datetime_strs(
+            old_activities["all"], new_activities["all"]
+        )
+    _mark_path(data_path / "user" / "last-activities.json", activities_fresh)
+    _mark_path(data_path / "user" / "stats.json", activities_fresh)
+
+    # TODO: Just using "all" for now
+    _mark_path(data_path / "watched" / "history.json", activities_fresh)
+    _mark_path(data_path / "watched" / "playback.json", activities_fresh)
+
+    for namespace_key, activity_key, path in exports:
+        fresh = False
+        if old_activities:
+            old_date_str = cast(Any, old_activities)[namespace_key][activity_key]
+            new_date_str = cast(Any, new_activities)[namespace_key][activity_key]
+            fresh = _compare_datetime_strs(old_date_str, new_date_str)
+        _mark_path(path, fresh)
+
+    old_activities_hidden_at = datetime.fromtimestamp(0, tz=timezone.utc)
+    if old_activities:
+        old_activities_hidden_at = _last_hidden_at_activities(old_activities)
+    new_activities_hidden_at = _last_hidden_at_activities(new_activities)
+    hidden_at_fresh = old_activities_hidden_at >= new_activities_hidden_at
+    _mark_path(data_path / "hidden" / "hidden-calendar.json", hidden_at_fresh)
+    _mark_path(data_path / "hidden" / "hidden-dropped.json", hidden_at_fresh)
+    _mark_path(data_path / "hidden" / "hidden-progress-collected.json", hidden_at_fresh)
+    _mark_path(
+        data_path / "hidden" / "hidden-progress-watched-reset.json", hidden_at_fresh
+    )
+    _mark_path(data_path / "hidden" / "hidden-progress-watched.json", hidden_at_fresh)
+    _mark_path(data_path / "hidden" / "hidden-recommendations.json", hidden_at_fresh)
+
+    return (fresh_paths, stale_paths)
+
+
+def _excluded(ctx: ExportContext, path: Path) -> bool:
+    for excluded_path in ctx.exclude_paths:
+        if path == excluded_path:
+            return True
+        elif path.is_relative_to(excluded_path):
+            return True
+    return False
+
+
+def _fresh(ctx: ExportContext, path: Path) -> bool:
+    if not path.exists():
+        return False
+    elif path in ctx.fresh_paths:
+        return True
+    elif path in ctx.stale_paths:
+        return False
+    else:
+        logger.warning("Path freshness is unknown: %s", path)
+        return False
+
+
+def _export_user_profile(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "user" / "profile.json"
 
-    if _fresh(ctx, output_path):
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
 
     data = _trakt_api_get(ctx, path="/users/me", params={"extended": "vip"})
@@ -714,12 +704,10 @@ def _export_user_profile(ctx: Context) -> None:
     _write_json(output_path, profile)
 
 
-def _export_user_stats(ctx: Context) -> None:
+def _export_user_stats(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "user" / "stats.json"
-
-    if _fresh(ctx, output_path):
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-
     data = _trakt_api_get(ctx, path="/users/me/stats")
     _write_json(output_path, data)
 
@@ -728,8 +716,11 @@ def _read_json_data(path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
 
-def _export_watched_history(ctx: Context) -> None:
+def _export_watched_history(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "watched" / "history.json"
+
+    if _fresh(ctx, output_path):
+        return
 
     if output_path.exists():
         existing_items = _read_json_data(output_path, list[HistoryItem])
@@ -748,240 +739,72 @@ def _export_watched_history(ctx: Context) -> None:
     _write_json(output_path, data)
 
 
-def _export_watched_playback(ctx: Context) -> None:
+def _export_watched_playback(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "watched" / "playback.json"
-
-    if _fresh(ctx, output_path):
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-
     data = _trakt_api_get(ctx, path="/sync/playback")
     _write_json(output_path, data)
 
 
-def _export_watched_movies(
-    ctx: Context,
-    last_activities: ExportLastActivities,
-) -> list[WatchedMovie]:
-    output_path = ctx.output_dir / "watched" / "watched-movies.json"
-    movies = _read_json_data(output_path, list[WatchedMovie])
-
-    remote_watched_at = ParsedDatetime(last_activities["movies"]["watched_at"])
-    local_watched_at = _max_parsed_datetime(
-        movie["last_updated_at"] for movie in movies
-    )
-
-    if local_watched_at >= remote_watched_at:
-        logger.debug("watched-movies.json is up-to-date: %s", local_watched_at)
-        return movies
-
-    logger.info(
-        "Exporting watched-movies.json, last watched at %s but is now %s",
-        local_watched_at,
-        remote_watched_at,
-    )
-    data = _trakt_api_get(ctx, path="/sync/watched/movies")
-    _write_json(output_path, data)
-    return cast(list[WatchedMovie], data)
-
-
-def _export_watched_shows(
-    ctx: Context,
-    last_activities: ExportLastActivities,
-) -> list[WatchedShow]:
-    output_path = ctx.output_dir / "watched" / "watched-shows.json"
-    shows = _read_json_data(output_path, list[WatchedShow])
-
-    remote_watched_at = ParsedDatetime(last_activities["episodes"]["watched_at"])
-    local_watched_at = _max_parsed_datetime(show["last_updated_at"] for show in shows)
-
-    if local_watched_at >= remote_watched_at:
-        logger.debug("watched-shows.json is up-to-date: %s", local_watched_at)
-        return shows
-
-    logger.info(
-        "Exporting watched-shows.json, last watched at %s but is now %s",
-        local_watched_at,
-        remote_watched_at,
-    )
-    data = _trakt_api_get(ctx, path="/sync/watched/shows")
-    _write_json(output_path, data)
-    return cast(list[WatchedShow], data)
-
-
-def _export_collection_movies(
+def _export_watched(
     ctx: ExportContext,
-    last_activities: ExportLastActivities,
-) -> list[CollectedMovie]:
-    output_path = ctx.output_dir / "collection" / "collection-movies.json"
-    movies_collection = _read_json_data(output_path, list[CollectedMovie])
-
-    remote_collected_at = ParsedDatetime(last_activities["movies"]["collected_at"])
-    local_collected_at = _max_parsed_datetime(
-        movie["updated_at"] for movie in movies_collection
-    )
-
-    if remote_collected_at <= local_collected_at:
-        logger.debug("collection-movies.json is up-to-date: %s", local_collected_at)
-        return movies_collection
-
-    logger.info(
-        "Exporting collection-movies.json, last collected at %s but is now %s",
-        local_collected_at,
-        remote_collected_at,
-    )
-    data = _trakt_api_get(ctx, path="/sync/collection/movies")
+    type: Literal["movies", "shows"],
+) -> None:
+    output_path = ctx.output_dir / "watched" / f"watched-{type}.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
+        return
+    data = _trakt_api_get(ctx, path=f"/sync/watched/{type}")
     _write_json(output_path, data)
-    return cast(list[CollectedMovie], data)
 
 
-def _export_collection_shows(
+def _export_collection(
     ctx: ExportContext,
-    last_activities: ExportLastActivities,
-) -> list[CollectedShow]:
-    output_path = ctx.output_dir / "collection" / "collection-shows.json"
-    shows_collection = _read_json_data(output_path, list[CollectedShow])
-
-    remote_collected_at = ParsedDatetime(last_activities["episodes"]["collected_at"])
-    local_collected_at = _max_parsed_datetime(
-        show["last_updated_at"] for show in shows_collection
-    )
-
-    if local_collected_at >= remote_collected_at:
-        logger.debug("collection-shows.json is up-to-date: %s", local_collected_at)
-        return shows_collection
-
-    logger.info(
-        "Exporting collection-shows.json, last collected at %s but is now %s",
-        local_collected_at,
-        remote_collected_at,
-    )
-    data = _trakt_api_get(ctx, path="/sync/collection/shows")
+    type: Literal["movies", "shows"],
+) -> None:
+    output_path = ctx.output_dir / "collection" / f"collection-{type}.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
+        return
+    data = _trakt_api_get(ctx, path=f"/sync/collection/{type}")
     _write_json(output_path, data)
-    return cast(list[CollectedShow], data)
 
 
 def _export_comments(
-    ctx: Context,
-    type: Literal["all", "movies", "shows", "seasons", "episodes", "lists"],
-    filename: str,
+    ctx: ExportContext,
+    type: Literal["movies", "shows", "seasons", "episodes", "lists"],
 ) -> None:
-    output_path = ctx.output_dir / "comments" / filename
-
-    if _fresh(ctx, output_path):
+    output_path = ctx.output_dir / "comments" / f"comments-{type}.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-
     data = _trakt_api_paginated_get(ctx, path=f"/users/me/comments/{type}")
     _write_json(output_path, data)
 
 
-def _export_comments_episodes(ctx: ExportContext) -> None:
-    _export_comments(ctx, type="episodes", filename="comments-episodes.json")
-
-
-def _export_comments_lists(ctx: ExportContext) -> None:
-    _export_comments(ctx, type="lists", filename="comments-lists.json")
-
-
-def _export_comments_movies(ctx: ExportContext) -> None:
-    _export_comments(ctx, type="movies", filename="comments-movies.json")
-
-
-def _export_comments_seasons(ctx: ExportContext) -> None:
-    _export_comments(ctx, type="seasons", filename="comments-seasons.json")
-
-
-def _export_comments_shows(ctx: ExportContext) -> None:
-    _export_comments(ctx, type="shows", filename="comments-shows.json")
-
-
-def _export_hidden(
-    ctx: Context,
-    section: str,
-    filename: str,
-) -> None:
-    output_path = ctx.output_dir / "hidden" / filename
-
-    if _fresh(ctx, output_path):
+def _export_hidden(ctx: ExportContext, section: str) -> None:
+    output_path = ctx.output_dir / "hidden" / f"hidden-{section.replace('_', '-')}.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-
     data = _trakt_api_paginated_get(ctx, path=f"/users/hidden/{section}")
     _write_json(output_path, data)
 
 
-def _export_hidden_calendar(ctx: ExportContext) -> None:
-    _export_hidden(
-        ctx,
-        section="calendar",
-        filename="hidden-calendar.json",
-    )
-
-
-def _export_hidden_dropped(ctx: ExportContext) -> None:
-    _export_hidden(
-        ctx,
-        section="dropped",
-        filename="hidden-dropped.json",
-    )
-
-
-def _export_hidden_progress_collected(ctx: ExportContext) -> None:
-    _export_hidden(
-        ctx,
-        section="progress_collected",
-        filename="hidden-progress-collected.json",
-    )
-
-
-def _export_hidden_progress_watched_reset(ctx: ExportContext) -> None:
-    _export_hidden(
-        ctx,
-        section="progress_watched_reset",
-        filename="hidden-progress-watched-reset.json",
-    )
-
-
-def _export_hidden_progress_watched(ctx: ExportContext) -> None:
-    _export_hidden(
-        ctx,
-        section="progress_watched",
-        filename="hidden-progress-watched.json",
-    )
-
-
-def _export_hidden_recommendations(ctx: ExportContext) -> None:
-    _export_hidden(
-        ctx,
-        section="recommendations",
-        filename="hidden-recommendations.json",
-    )
-
-
 def _export_likes(
-    ctx: Context,
+    ctx: ExportContext,
     type: Literal["comments", "lists"],
-    filename: str,
 ) -> None:
-    output_path = ctx.output_dir / "likes" / filename
-
-    if _fresh(ctx, output_path):
+    output_path = ctx.output_dir / "likes" / f"likes-{type}.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-
     data = _trakt_api_paginated_get(ctx, path=f"/users/me/likes/{type}")
     _write_json(output_path, data)
-
-
-def _export_likes_comments(ctx: ExportContext) -> None:
-    _export_likes(ctx, type="comments", filename="likes-comments.json")
-
-
-def _export_likes_lists(ctx: ExportContext) -> None:
-    _export_likes(ctx, type="lists", filename="likes-lists.json")
 
 
 def _export_lists_list(ctx: ExportContext, list_id: int, list_slug: str) -> None:
     output_path = ctx.output_dir / "lists" / f"list-{list_id}-{list_slug}.json"
 
-    if _fresh(ctx, output_path):
+    if _excluded(ctx, output_path):
+        return
+    elif output_path.exists() and output_path in ctx.fresh_paths:
         return
 
     data = _trakt_api_paginated_get(ctx, path=f"/users/me/lists/{list_id}/items")
@@ -1007,21 +830,21 @@ def _export_lists_list_all(ctx: ExportContext, lists: list[List]) -> None:
 def _export_lists_lists(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "lists" / "lists.json"
 
-    if not _fresh(ctx, output_path):
-        data = _trakt_api_get(ctx, path="/users/me/lists")
-        _write_json(output_path, data)
-
-    assert output_path.exists()
-    lists = _read_json_data(output_path, list[List])
-    _export_lists_list_all(ctx, lists)
-
-
-def _export_lists_watchlist(ctx: ExportContext) -> None:
-    output_path = ctx.output_dir / "lists" / "watchlist.json"
+    if _excluded(ctx, output_path):
+        return
 
     if _fresh(ctx, output_path):
         return
 
+    data = _trakt_api_get(ctx, path="/users/me/lists")
+    _write_json(output_path, data)
+    _export_lists_list_all(ctx, cast(list[List], data))
+
+
+def _export_lists_watchlist(ctx: ExportContext) -> None:
+    output_path = ctx.output_dir / "lists" / "watchlist.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
+        return
     data = _trakt_api_paginated_get(
         ctx,
         path="/users/me/watchlist",
@@ -1032,32 +855,126 @@ def _export_lists_watchlist(ctx: ExportContext) -> None:
 
 def _export_ratings(
     ctx: ExportContext,
-    type: Literal["movies", "shows", "seasons", "episodes", "all"],
-    filename: str,
+    type: Literal["movies", "shows", "seasons", "episodes"],
 ) -> None:
-    output_path = ctx.output_dir / "ratings" / filename
-
-    if _fresh(ctx, output_path):
+    output_path = ctx.output_dir / "ratings" / f"ratings-{type}.json"
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-
     data = _trakt_api_get(ctx, path=f"/users/me/ratings/{type}")
     _write_json(output_path, data)
 
 
-def _export_ratings_episodes(ctx: ExportContext) -> None:
-    _export_ratings(ctx, type="episodes", filename="ratings-episodes.json")
+@click.group()
+@click.option(
+    "--verbose",
+    "-v",
+    is_flag=True,
+    help="Enable verbose logging",
+)
+def main(verbose: bool) -> None:
+    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
 
 
-def _export_ratings_movies(ctx: ExportContext) -> None:
-    _export_ratings(ctx, type="movies", filename="ratings-movies.json")
+@main.command()
+@click.option(
+    "--trakt-client-id",
+    required=True,
+    envvar="TRAKT_CLIENT_ID",
+)
+@click.option(
+    "--trakt-access-token",
+    required=True,
+    envvar="TRAKT_ACCESS_TOKEN",
+)
+@click.option(
+    "--output-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=True,
+    envvar="OUTPUT_DIR",
+)
+@click.option(
+    "--exclude",
+    type=click.Path(file_okay=True, dir_okay=True),
+    required=False,
+    multiple=True,
+    envvar="TRAKT_DATA_EXCLUDE",
+    help="Exclude paths from export",
+)
+def export(
+    trakt_client_id: str,
+    trakt_access_token: str,
+    output_dir: Path,
+    exclude: list[str],
+) -> None:
+    _session = _trakt_session(
+        client_id=trakt_client_id,
+        access_token=trakt_access_token,
+    )
 
+    exclude_paths: list[Path] = []
+    for path in exclude:
+        if path.startswith(".") or path.startswith("/"):
+            exclude_paths.append(Path(path))
+        else:
+            exclude_paths.append(output_dir / path)
 
-def _export_ratings_seasons(ctx: ExportContext) -> None:
-    _export_ratings(ctx, type="seasons", filename="ratings-seasons.json")
+    logger.debug("exclude_paths: %s", exclude_paths)
 
+    ctx = ExportContext(
+        session=_session,
+        output_dir=output_dir,
+        exclude_paths=exclude_paths,
+        fresh_paths=[],
+        stale_paths=[],
+    )
 
-def _export_ratings_shows(ctx: ExportContext) -> None:
-    _export_ratings(ctx, type="shows", filename="ratings-shows.json")
+    old_activities: ExportLastActivities | None = None
+    if (output_dir / "user" / "last-activities.json").exists():
+        old_activities = _read_json_data(
+            output_dir / "user" / "last-activities.json",
+            ExportLastActivities,
+        )
+    last_activities = _export_user_last_activities(ctx)
+
+    fresh_paths, stale_paths = _activities_outdated_paths(
+        data_path=output_dir,
+        old_activities=old_activities,
+        new_activities=last_activities,
+    )
+    ctx.fresh_paths = fresh_paths
+    ctx.stale_paths = stale_paths
+
+    logger.debug("fresh_paths: %s", fresh_paths)
+    if stale_paths:
+        logger.info("stale_paths: %s", stale_paths)
+
+    _export_collection(ctx, type="movies")
+    _export_collection(ctx, type="shows")
+    _export_comments(ctx, type="episodes")
+    _export_comments(ctx, type="lists")
+    _export_comments(ctx, type="movies")
+    _export_comments(ctx, type="seasons")
+    _export_comments(ctx, type="shows")
+    _export_hidden(ctx, section="calendar")
+    _export_hidden(ctx, section="dropped")
+    _export_hidden(ctx, section="progress_collected")
+    _export_hidden(ctx, section="progress_watched_reset")
+    _export_hidden(ctx, section="progress_watched")
+    _export_hidden(ctx, section="recommendations")
+    _export_likes(ctx, type="comments")
+    _export_likes(ctx, type="lists")
+    _export_lists_lists(ctx)
+    _export_lists_watchlist(ctx)
+    _export_ratings(ctx, type="episodes")
+    _export_ratings(ctx, type="movies")
+    _export_ratings(ctx, type="seasons")
+    _export_ratings(ctx, type="shows")
+    _export_user_profile(ctx)
+    _export_user_stats(ctx)
+    _export_watched_history(ctx)
+    _export_watched_playback(ctx)
+    _export_watched(ctx, type="movies")
+    _export_watched(ctx, type="shows")
 
 
 def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
@@ -1076,7 +993,7 @@ def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
         suffix=".json",
     )
 
-    if _fresh(ctx, output_path):
+    if output_path.exists() and output_path not in ctx.expired_data_files:
         return _read_json_data(output_path, MovieExtended)
 
     data = _trakt_api_get(ctx, path=f"/movies/{trakt_id}", params={"extended": "full"})
@@ -1092,7 +1009,7 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
         suffix=".json",
     )
 
-    if _fresh(ctx, output_path):
+    if output_path.exists() and output_path not in ctx.expired_data_files:
         return _read_json_data(output_path, ShowExtended)
 
     data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}", params={"extended": "full"})
@@ -1114,7 +1031,7 @@ def _export_media_episode(
         suffix=".json",
     )
 
-    if _fresh(ctx, output_path):
+    if output_path.exists() and output_path not in ctx.expired_data_files:
         return _read_json_data(output_path, EpisodeExtended)
 
     data = _trakt_api_get(
@@ -1274,87 +1191,6 @@ def _generate_watchlist_metrics(ctx: MetricsContext, data_path: Path) -> None:
             ).inc()
         else:
             logger.warning("Unknown media type: %s", item["type"])
-
-
-@click.group()
-@click.option(
-    "--verbose",
-    "-v",
-    is_flag=True,
-    help="Enable verbose logging",
-)
-def main(verbose: bool) -> None:
-    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
-
-
-@main.command()
-@click.option(
-    "--trakt-client-id",
-    required=True,
-    envvar="TRAKT_CLIENT_ID",
-)
-@click.option(
-    "--trakt-access-token",
-    required=True,
-    envvar="TRAKT_ACCESS_TOKEN",
-)
-@click.option(
-    "--output-dir",
-    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
-    required=True,
-    envvar="OUTPUT_DIR",
-)
-@click.option(
-    "--cache-dir",
-    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
-    required=False,
-    default=_default_cache_dir(),
-    show_default=True,
-)
-def export(
-    trakt_client_id: str,
-    trakt_access_token: str,
-    output_dir: Path,
-    cache_dir: Path,
-) -> None:
-    _session = _trakt_session(
-        client_id=trakt_client_id,
-        access_token=trakt_access_token,
-    )
-    ctx = ExportContext(
-        session=_session,
-        output_dir=output_dir,
-        cache_dir=cache_dir,
-    )
-    last_activities = _export_user_last_activities(ctx)
-
-    _export_collection_movies(ctx, last_activities=last_activities)
-    _export_collection_shows(ctx, last_activities=last_activities)
-    _export_comments_episodes(ctx)
-    _export_comments_lists(ctx)
-    _export_comments_movies(ctx)
-    _export_comments_seasons(ctx)
-    _export_comments_shows(ctx)
-    _export_hidden_calendar(ctx)
-    _export_hidden_dropped(ctx)
-    _export_hidden_progress_collected(ctx)
-    _export_hidden_progress_watched_reset(ctx)
-    _export_hidden_progress_watched(ctx)
-    _export_hidden_recommendations(ctx)
-    _export_likes_comments(ctx)
-    _export_likes_lists(ctx)
-    _export_lists_lists(ctx)
-    _export_lists_watchlist(ctx)
-    _export_ratings_episodes(ctx)
-    _export_ratings_movies(ctx)
-    _export_ratings_seasons(ctx)
-    _export_ratings_shows(ctx)
-    _export_user_profile(ctx)
-    _export_user_stats(ctx)
-    _export_watched_history(ctx)
-    _export_watched_playback(ctx)
-    _export_watched_movies(ctx, last_activities=last_activities)
-    _export_watched_shows(ctx, last_activities=last_activities)
 
 
 @main.command()
