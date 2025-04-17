@@ -152,6 +152,7 @@ class MovieExtended(TypedDict):
     runtime: int
     country: str
     status: str
+    updated_at: str
     language: str
 
 
@@ -841,7 +842,7 @@ def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
 
 def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
     output_path = partition_filename(
-        basedir=ctx.output_dir / "media" / "movies",
+        basedir=ctx.cache_dir / "media" / "movies",
         id=trakt_id,
         suffix=".json",
     )
@@ -858,9 +859,11 @@ def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
         "runtime": data["runtime"],
         "country": data["country"],
         "status": data["status"],
+        "updated_at": data["updated_at"],
         "language": data["language"],
     }
-    _write_json(output_path, movie)
+    mtime = datetime.fromisoformat(movie["updated_at"]).timestamp()
+    _write_json(output_path, movie, mtime=mtime)
     return movie
 
 
@@ -1213,13 +1216,9 @@ def metrics(
     ctx = MetricsContext(session=_session, output_dir=output_dir, cache_dir=cache_dir)
 
     # Temporary file migration
-    episodes_dir = output_dir.joinpath("media", "episodes")
-    if episodes_dir.exists():
-        shutil.rmtree(episodes_dir)
-
-    shows_dir = output_dir.joinpath("media", "shows")
-    if shows_dir.exists():
-        shutil.rmtree(shows_dir)
+    movies_dir = output_dir.joinpath("media", "movies")
+    if movies_dir.exists():
+        shutil.rmtree(movies_dir)
 
     _generate_metrics(ctx, data_path=output_dir)
 
