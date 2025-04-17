@@ -847,7 +847,7 @@ def _export_lists_watchlist(ctx: ExportContext) -> None:
         return
     data = _trakt_api_paginated_get(
         ctx,
-        path="/users/me/watchlist",
+        path="/sync/watchlist",
         params={"sort_by": "rank", "sort_how": "asc"},
     )
     _write_json(output_path, data)
