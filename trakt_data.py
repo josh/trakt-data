@@ -357,8 +357,6 @@ class ExportContext(Context):
         files = []
 
         for file in data_path.glob("**/*.json"):
-            if file.is_relative_to(data_path / "media"):
-                continue
             files.append(file)
 
         expired_files = _weighted_shuffle(data_path, cache_path, files)[:limit]
@@ -401,16 +399,10 @@ class MetricsContext(Context):
         limit: int = 250,
         min_media_age: timedelta = timedelta(days=1),
     ) -> set[Path]:
-        media_path = data_path / "media"
         min_media_mtime = datetime.now(tz=timezone.utc) - min_media_age
 
         files = []
-
-        for file in media_path.glob("**/*.json"):
-            if _file_updated_at(data_path, cache_path, file) < min_media_mtime:
-                files.append(file)
-
-        for file in cache_path.joinpath("media").glob("**/*.json"):
+        for file in cache_path.glob("**/*.json"):
             if _file_updated_at(data_path, cache_path, file) < min_media_mtime:
                 files.append(file)
 
