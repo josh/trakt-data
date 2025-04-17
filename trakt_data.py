@@ -277,6 +277,125 @@ class Context:
         self.expired_data_files = expired_data_files
 
 
+def _file_updated_at(data_path: Path, filename: Path) -> datetime:
+    mtime = datetime.fromtimestamp(filename.stat().st_mtime, tz=timezone.utc)
+    updated_at = mtime
+    relative_path: str = str(filename.relative_to(data_path))
+    if relative_path.startswith("hidden/"):
+        items = json.loads(filename.read_text())
+        hidden_ats = [datetime.fromisoformat(item["hidden_at"]) for item in items]
+        if hidden_ats:
+            updated_at = max(hidden_ats)
+    elif relative_path == "lists/lists.json":
+        items = json.loads(filename.read_text())
+        updated_ats = [datetime.fromisoformat(item["updated_at"]) for item in items]
+        if updated_ats:
+            updated_at = max(updated_ats)
+
+    assert updated_at, "updated_at is not set"
+    assert updated_at.tzinfo, "updated_at is not offset-aware"
+    return updated_at
+
+
+def _weighted_shuffle(data_path: Path, files: list[Path]) -> list[Path]:
+    now = datetime.now(tz=timezone.utc)
+
+    ages: dict[Path, timedelta] = {
+        file: now - _file_updated_at(data_path, file) for file in files
+    }
+    file_weights: dict[Path, float] = {
+        file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
+    }
+
+    def random_key(file: Path) -> float:
+        return float(random.random() ** (1.0 / max(file_weights[file], 0.0001)))
+
+    return sorted(files, key=random_key, reverse=True)
+
+
+class ExportContext(Context):
+    def _compute_expired_data_files(
+        self, data_path: Path, limit: int = 10
+    ) -> set[Path]:
+        files = []
+
+        for file in data_path.glob("**/*.json"):
+            if file.is_relative_to(data_path / "media"):
+                continue
+            files.append(file)
+
+        expired_files = _weighted_shuffle(data_path, files)[:limit]
+
+        if len(files) > 0:
+            logger.info(
+                "Expired files: %d/%d (%.2f%%)",
+                len(expired_files),
+                len(files),
+                len(expired_files) / len(files) * 100,
+            )
+
+        for file in expired_files:
+            logger.debug(
+                "Expiring '%s' (modified %s)",
+                file,
+                _file_updated_at(data_path, file),
+            )
+
+        return set(expired_files)
+
+    def __init__(
+        self,
+        session: requests.Session,
+        output_dir: Path,
+    ) -> None:
+        expired_data_files = self._compute_expired_data_files(data_path=output_dir)
+        super().__init__(session, output_dir, expired_data_files)
+
+
+class MetricsContext(Context):
+    def _compute_expired_media_files(
+        self,
+        data_path: Path,
+        limit: int = 250,
+        min_media_age: timedelta = timedelta(days=1),
+    ) -> set[Path]:
+        media_path = data_path / "media"
+        min_media_mtime = datetime.now(tz=timezone.utc) - min_media_age
+
+        files = []
+
+        for file in media_path.glob("**/*.json"):
+            if _file_updated_at(data_path, file) < min_media_mtime:
+                files.append(file)
+
+        expired_files = _weighted_shuffle(data_path, files)[:limit]
+
+        if len(files) > 0:
+            logger.info(
+                "Expired media files: %d/%d (%.2f%%)",
+                len(expired_files),
+                len(files),
+                len(expired_files) / len(files) * 100,
+            )
+
+        for file in expired_files:
+            logger.debug(
+                "Expiring '%s' (modified %s)",
+                file,
+                _file_updated_at(data_path, file),
+            )
+
+        return set(expired_files)
+
+    def __init__(
+        self,
+        session: requests.Session,
+        output_dir: Path,
+    ) -> None:
+        expired_data_files = self._compute_expired_media_files(data_path=output_dir)
+        super().__init__(session, output_dir, expired_data_files)
+
+
 def _write_json(path: Path, obj: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     data = json.dumps(obj, indent=2)
@@ -452,11 +571,11 @@ def _export_collection(
     _write_json(output_path, data)
 
 
-def _export_collection_movies(ctx: Context) -> None:
+def _export_collection_movies(ctx: ExportContext) -> None:
     _export_collection(ctx, type="movies", filename="collection-movies.json")
 
 
-def _export_collection_shows(ctx: Context) -> None:
+def _export_collection_shows(ctx: ExportContext) -> None:
     _export_collection(ctx, type="shows", filename="collection-shows.json")
 
 
@@ -474,23 +593,23 @@ def _export_comments(
     _write_json(output_path, data)
 
 
-def _export_comments_episodes(ctx: Context) -> None:
+def _export_comments_episodes(ctx: ExportContext) -> None:
     _export_comments(ctx, type="episodes", filename="comments-episodes.json")
 
 
-def _export_comments_lists(ctx: Context) -> None:
+def _export_comments_lists(ctx: ExportContext) -> None:
     _export_comments(ctx, type="lists", filename="comments-lists.json")
 
 
-def _export_comments_movies(ctx: Context) -> None:
+def _export_comments_movies(ctx: ExportContext) -> None:
     _export_comments(ctx, type="movies", filename="comments-movies.json")
 
 
-def _export_comments_seasons(ctx: Context) -> None:
+def _export_comments_seasons(ctx: ExportContext) -> None:
     _export_comments(ctx, type="seasons", filename="comments-seasons.json")
 
 
-def _export_comments_shows(ctx: Context) -> None:
+def _export_comments_shows(ctx: ExportContext) -> None:
     _export_comments(ctx, type="shows", filename="comments-shows.json")
 
 
@@ -508,7 +627,7 @@ def _export_hidden(
     _write_json(output_path, data)
 
 
-def _export_hidden_calendar(ctx: Context) -> None:
+def _export_hidden_calendar(ctx: ExportContext) -> None:
     _export_hidden(
         ctx,
         section="calendar",
@@ -516,7 +635,7 @@ def _export_hidden_calendar(ctx: Context) -> None:
     )
 
 
-def _export_hidden_dropped(ctx: Context) -> None:
+def _export_hidden_dropped(ctx: ExportContext) -> None:
     _export_hidden(
         ctx,
         section="dropped",
@@ -524,7 +643,7 @@ def _export_hidden_dropped(ctx: Context) -> None:
     )
 
 
-def _export_hidden_progress_collected(ctx: Context) -> None:
+def _export_hidden_progress_collected(ctx: ExportContext) -> None:
     _export_hidden(
         ctx,
         section="progress_collected",
@@ -532,7 +651,7 @@ def _export_hidden_progress_collected(ctx: Context) -> None:
     )
 
 
-def _export_hidden_progress_watched_reset(ctx: Context) -> None:
+def _export_hidden_progress_watched_reset(ctx: ExportContext) -> None:
     _export_hidden(
         ctx,
         section="progress_watched_reset",
@@ -540,7 +659,7 @@ def _export_hidden_progress_watched_reset(ctx: Context) -> None:
     )
 
 
-def _export_hidden_progress_watched(ctx: Context) -> None:
+def _export_hidden_progress_watched(ctx: ExportContext) -> None:
     _export_hidden(
         ctx,
         section="progress_watched",
@@ -548,7 +667,7 @@ def _export_hidden_progress_watched(ctx: Context) -> None:
     )
 
 
-def _export_hidden_recommendations(ctx: Context) -> None:
+def _export_hidden_recommendations(ctx: ExportContext) -> None:
     _export_hidden(
         ctx,
         section="recommendations",
@@ -570,15 +689,15 @@ def _export_likes(
     _write_json(output_path, data)
 
 
-def _export_likes_comments(ctx: Context) -> None:
+def _export_likes_comments(ctx: ExportContext) -> None:
     _export_likes(ctx, type="comments", filename="likes-comments.json")
 
 
-def _export_likes_lists(ctx: Context) -> None:
+def _export_likes_lists(ctx: ExportContext) -> None:
     _export_likes(ctx, type="lists", filename="likes-lists.json")
 
 
-def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
+def _export_lists_list(ctx: ExportContext, list_id: int, list_slug: str) -> None:
     output_path = ctx.output_dir / "lists" / f"list-{list_id}-{list_slug}.json"
 
     if _fresh(ctx, output_path):
@@ -588,7 +707,7 @@ def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
     _write_json(output_path, data)
 
 
-def _export_lists_list_all(ctx: Context, lists: list[List]) -> None:
+def _export_lists_list_all(ctx: ExportContext, lists: list[List]) -> None:
     list_ids: set[int] = set()
 
     for lst in lists:
@@ -604,7 +723,7 @@ def _export_lists_list_all(ctx: Context, lists: list[List]) -> None:
             path.unlink()
 
 
-def _export_lists_lists(ctx: Context) -> None:
+def _export_lists_lists(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "lists" / "lists.json"
 
     if not _fresh(ctx, output_path):
@@ -616,7 +735,7 @@ def _export_lists_lists(ctx: Context) -> None:
     _export_lists_list_all(ctx, lists)
 
 
-def _export_lists_watchlist(ctx: Context) -> None:
+def _export_lists_watchlist(ctx: ExportContext) -> None:
     output_path = ctx.output_dir / "lists" / "watchlist.json"
 
     if _fresh(ctx, output_path):
@@ -631,7 +750,7 @@ def _export_lists_watchlist(ctx: Context) -> None:
 
 
 def _export_ratings(
-    ctx: Context,
+    ctx: ExportContext,
     type: Literal["movies", "shows", "seasons", "episodes", "all"],
     filename: str,
 ) -> None:
@@ -644,19 +763,19 @@ def _export_ratings(
     _write_json(output_path, data)
 
 
-def _export_ratings_episodes(ctx: Context) -> None:
+def _export_ratings_episodes(ctx: ExportContext) -> None:
     _export_ratings(ctx, type="episodes", filename="ratings-episodes.json")
 
 
-def _export_ratings_movies(ctx: Context) -> None:
+def _export_ratings_movies(ctx: ExportContext) -> None:
     _export_ratings(ctx, type="movies", filename="ratings-movies.json")
 
 
-def _export_ratings_seasons(ctx: Context) -> None:
+def _export_ratings_seasons(ctx: ExportContext) -> None:
     _export_ratings(ctx, type="seasons", filename="ratings-seasons.json")
 
 
-def _export_ratings_shows(ctx: Context) -> None:
+def _export_ratings_shows(ctx: ExportContext) -> None:
     _export_ratings(ctx, type="shows", filename="ratings-shows.json")
 
 
@@ -669,7 +788,7 @@ def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
     return basedir / id_prefix / f"{id}{suffix}"
 
 
-def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
+def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
     output_path = partition_filename(
         basedir=ctx.output_dir / "media" / "movies",
         id=trakt_id,
@@ -694,7 +813,7 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
     return movie
 
 
-def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
+def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
     output_path = partition_filename(
         basedir=ctx.output_dir / "media" / "shows",
         id=trakt_id,
@@ -722,7 +841,7 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
 
 
 def _export_media_episode(
-    ctx: Context,
+    ctx: MetricsContext,
     trakt_id: int,
     show_trakt_id: int,
     season: int,
@@ -764,7 +883,7 @@ def _episode_first_aired_year(
     return year
 
 
-def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
+def _generate_collection_metrics(ctx: MetricsContext, data_path: Path) -> None:
     movies_collection = _read_json_data(
         data_path / "collection" / "collection-movies.json", list[CollectedMovie]
     )
@@ -790,7 +909,7 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
         ).inc()
 
 
-def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
+def _generate_ratings_metrics(ctx: MetricsContext, data_path: Path) -> None:
     episode_ratings = _read_json_data(
         data_path / "ratings" / "ratings-episodes.json", list[EpisodeRating]
     )
@@ -843,7 +962,7 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
         ).inc()
 
 
-def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
+def _generate_watched_metrics(ctx: MetricsContext, data_path: Path) -> None:
     history_items = _read_json_data(
         data_path / "watched" / "history.json", list[HistoryItem]
     )
@@ -867,7 +986,7 @@ def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
             pass
 
 
-def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
+def _generate_watchlist_metrics(ctx: MetricsContext, data_path: Path) -> None:
     watchlist = _read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
     for item in watchlist:
         if item["type"] == "movie":
@@ -904,7 +1023,7 @@ def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
             logger.warning("Unknown media type: %s", item["type"])
 
 
-def _generate_metrics(ctx: Context, data_path: Path) -> None:
+def _generate_metrics(ctx: MetricsContext, data_path: Path) -> None:
     user_profile = _read_json_data(
         data_path / "user" / "profile.json",
         ExportUserProfile,
@@ -922,94 +1041,18 @@ def _generate_metrics(ctx: Context, data_path: Path) -> None:
     write_to_textfile(metrics_path, _REGISTRY)
 
 
-def _file_updated_at(data_path: Path, filename: Path) -> datetime:
-    mtime = datetime.fromtimestamp(filename.stat().st_mtime, tz=timezone.utc)
-    updated_at = mtime
-    relative_path: str = str(filename.relative_to(data_path))
-    if relative_path.startswith("hidden/"):
-        items = json.loads(filename.read_text())
-        hidden_ats = [datetime.fromisoformat(item["hidden_at"]) for item in items]
-        if hidden_ats:
-            updated_at = max(hidden_ats)
-    elif relative_path == "lists/lists.json":
-        items = json.loads(filename.read_text())
-        updated_ats = [datetime.fromisoformat(item["updated_at"]) for item in items]
-        if updated_ats:
-            updated_at = max(updated_ats)
-
-    assert updated_at, "updated_at is not set"
-    assert updated_at.tzinfo, "updated_at is not offset-aware"
-    return updated_at
+@click.group()
+@click.option(
+    "--verbose",
+    "-v",
+    is_flag=True,
+    help="Enable verbose logging",
+)
+def main(verbose: bool) -> None:
+    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
 
 
-def _weighted_shuffle(data_path: Path, files: list[Path]) -> list[Path]:
-    now = datetime.now(tz=timezone.utc)
-
-    ages: dict[Path, timedelta] = {
-        file: now - _file_updated_at(data_path, file) for file in files
-    }
-    file_weights: dict[Path, float] = {
-        file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
-    }
-
-    def random_key(file: Path) -> float:
-        return float(random.random() ** (1.0 / max(file_weights[file], 0.0001)))
-
-    return sorted(files, key=random_key, reverse=True)
-
-
-def _compute_expired_data_files(
-    data_path: Path,
-    limit: int = 10,
-    media_limit: int = 250,
-    min_media_age: timedelta = timedelta(days=1),
-) -> set[Path]:
-    media_path = data_path / "media"
-    min_media_mtime = datetime.now(tz=timezone.utc) - min_media_age
-
-    media_files = []
-    other_files = []
-
-    for file in data_path.glob("**/*.json"):
-        mtime = _file_updated_at(data_path, file)
-
-        if file.is_relative_to(media_path):
-            if mtime > min_media_mtime:
-                continue
-            media_files.append(file)
-        else:
-            other_files.append(file)
-
-    expired_media = _weighted_shuffle(data_path, media_files)[:media_limit]
-    expired_other = _weighted_shuffle(data_path, other_files)[:limit]
-    expired_files = expired_other + expired_media
-
-    if len(media_files) > 0:
-        logger.info(
-            "Expired media files: %d/%d (%.2f%%)",
-            len(expired_media),
-            len(media_files),
-            len(expired_media) / len(media_files) * 100,
-        )
-    if len(other_files) > 0:
-        logger.info(
-            "Expired other files: %d/%d (%.2f%%)",
-            len(expired_other),
-            len(other_files),
-            len(expired_other) / len(other_files) * 100,
-        )
-
-    for file in expired_files:
-        logger.debug(
-            "Expiring '%s' (modified %s)",
-            file,
-            _file_updated_at(data_path, file),
-        )
-
-    return set(expired_files)
-
-
-@click.command()
+@main.command()
 @click.option(
     "--trakt-client-id",
     required=True,
@@ -1026,30 +1069,16 @@ def _compute_expired_data_files(
     required=True,
     envvar="OUTPUT_DIR",
 )
-@click.option(
-    "--verbose",
-    "-v",
-    is_flag=True,
-    help="Enable verbose logging",
-)
-def main(
+def export(
     trakt_client_id: str,
     trakt_access_token: str,
     output_dir: Path,
-    verbose: bool,
 ) -> None:
-    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
-
     _session = _trakt_session(
         client_id=trakt_client_id,
         access_token=trakt_access_token,
     )
-
-    ctx = Context(
-        session=_session,
-        output_dir=output_dir,
-        expired_data_files=_compute_expired_data_files(output_dir),
-    )
+    ctx = ExportContext(session=_session, output_dir=output_dir)
 
     _export_collection_movies(ctx)
     _export_collection_shows(ctx)
@@ -1078,6 +1107,35 @@ def main(
     _export_watched_playback(ctx)
     _export_watched_movies(ctx)
     _export_watched_shows(ctx)
+
+
+@main.command()
+@click.option(
+    "--trakt-client-id",
+    required=True,
+    envvar="TRAKT_CLIENT_ID",
+)
+@click.option(
+    "--trakt-access-token",
+    required=True,
+    envvar="TRAKT_ACCESS_TOKEN",
+)
+@click.option(
+    "--output-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=True,
+    envvar="OUTPUT_DIR",
+)
+def metrics(
+    trakt_client_id: str,
+    trakt_access_token: str,
+    output_dir: Path,
+) -> None:
+    _session = _trakt_session(
+        client_id=trakt_client_id,
+        access_token=trakt_access_token,
+    )
+    ctx = MetricsContext(session=_session, output_dir=output_dir)
 
     _generate_metrics(ctx, data_path=output_dir)
 
