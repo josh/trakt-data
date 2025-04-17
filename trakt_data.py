@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import random
+import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Literal, TypedDict, TypeVar, cast
@@ -124,6 +125,7 @@ class EpisodeExtended(TypedDict):
     title: str
     ids: "EpisodeIDs"
     first_aired: str
+    updated_at: str
     runtime: int
     episode_type: str
 
@@ -265,17 +267,22 @@ class ShowRating(TypedDict):
 class Context:
     session: requests.Session
     output_dir: Path
+    cache_dir: Path
     expired_data_files: set[Path]
 
     def __init__(
         self,
         session: requests.Session,
         output_dir: Path,
+        cache_dir: Path,
         expired_data_files: set[Path] = set(),
     ) -> None:
         self.session = session
         self.output_dir = output_dir
+        self.cache_dir = cache_dir
         self.expired_data_files = expired_data_files
+
+        cache_dir.mkdir(parents=True, exist_ok=True)
 
 
 def _xdg_cache_home() -> Path:
@@ -289,10 +296,18 @@ def _default_cache_dir() -> Path:
     return _xdg_cache_home() / "trakt-data"
 
 
-def _file_updated_at(data_path: Path, filename: Path) -> datetime:
+def _file_updated_at(data_path: Path, cache_path: Path, filename: Path) -> datetime:
     mtime = datetime.fromtimestamp(filename.stat().st_mtime, tz=timezone.utc)
     updated_at = mtime
-    relative_path: str = str(filename.relative_to(data_path))
+    if filename.is_relative_to(data_path):
+        base_path = data_path
+    elif filename.is_relative_to(cache_path):
+        base_path = cache_path
+    else:
+        raise ValueError(
+            f"File {filename} is not relative to {data_path} or {cache_path}"
+        )
+    relative_path = str(filename.relative_to(base_path))
     if relative_path.startswith("hidden/"):
         items = json.loads(filename.read_text())
         hidden_ats = [datetime.fromisoformat(item["hidden_at"]) for item in items]
@@ -309,11 +324,15 @@ def _file_updated_at(data_path: Path, filename: Path) -> datetime:
     return updated_at
 
 
-def _weighted_shuffle(data_path: Path, files: list[Path]) -> list[Path]:
+def _weighted_shuffle(
+    data_path: Path,
+    cache_path: Path,
+    files: list[Path],
+) -> list[Path]:
     now = datetime.now(tz=timezone.utc)
 
     ages: dict[Path, timedelta] = {
-        file: now - _file_updated_at(data_path, file) for file in files
+        file: now - _file_updated_at(data_path, cache_path, file) for file in files
     }
     file_weights: dict[Path, float] = {
         file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
@@ -327,7 +346,10 @@ def _weighted_shuffle(data_path: Path, files: list[Path]) -> list[Path]:
 
 class ExportContext(Context):
     def _compute_expired_data_files(
-        self, data_path: Path, limit: int = 10
+        self,
+        data_path: Path,
+        cache_path: Path,
+        limit: int = 10,
     ) -> set[Path]:
         files = []
 
@@ -336,7 +358,7 @@ class ExportContext(Context):
                 continue
             files.append(file)
 
-        expired_files = _weighted_shuffle(data_path, files)[:limit]
+        expired_files = _weighted_shuffle(data_path, cache_path, files)[:limit]
 
         if len(files) > 0:
             logger.info(
@@ -350,7 +372,7 @@ class ExportContext(Context):
             logger.debug(
                 "Expiring '%s' (modified %s)",
                 file,
-                _file_updated_at(data_path, file),
+                _file_updated_at(data_path, cache_path, file),
             )
 
         return set(expired_files)
@@ -359,15 +381,20 @@ class ExportContext(Context):
         self,
         session: requests.Session,
         output_dir: Path,
+        cache_dir: Path,
     ) -> None:
-        expired_data_files = self._compute_expired_data_files(data_path=output_dir)
-        super().__init__(session, output_dir, expired_data_files)
+        expired_data_files = self._compute_expired_data_files(
+            data_path=output_dir,
+            cache_path=cache_dir,
+        )
+        super().__init__(session, output_dir, cache_dir, expired_data_files)
 
 
 class MetricsContext(Context):
     def _compute_expired_media_files(
         self,
         data_path: Path,
+        cache_path: Path,
         limit: int = 250,
         min_media_age: timedelta = timedelta(days=1),
     ) -> set[Path]:
@@ -377,10 +404,14 @@ class MetricsContext(Context):
         files = []
 
         for file in media_path.glob("**/*.json"):
-            if _file_updated_at(data_path, file) < min_media_mtime:
+            if _file_updated_at(data_path, cache_path, file) < min_media_mtime:
                 files.append(file)
 
-        expired_files = _weighted_shuffle(data_path, files)[:limit]
+        for file in cache_path.joinpath("media").glob("**/*.json"):
+            if _file_updated_at(data_path, cache_path, file) < min_media_mtime:
+                files.append(file)
+
+        expired_files = _weighted_shuffle(data_path, cache_path, files)[:limit]
 
         if len(files) > 0:
             logger.info(
@@ -394,7 +425,7 @@ class MetricsContext(Context):
             logger.debug(
                 "Expiring '%s' (modified %s)",
                 file,
-                _file_updated_at(data_path, file),
+                _file_updated_at(data_path, cache_path, file),
             )
 
         return set(expired_files)
@@ -405,15 +436,20 @@ class MetricsContext(Context):
         output_dir: Path,
         cache_dir: Path,
     ) -> None:
-        expired_data_files = self._compute_expired_media_files(data_path=output_dir)
-        cache_dir.mkdir(parents=True, exist_ok=True)
-        super().__init__(session, output_dir, expired_data_files)
+        expired_data_files = self._compute_expired_media_files(
+            data_path=output_dir,
+            cache_path=cache_dir,
+        )
+        super().__init__(session, output_dir, cache_dir, expired_data_files)
 
 
-def _write_json(path: Path, obj: Any) -> None:
+def _write_json(path: Path, obj: Any, mtime: float | None = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     data = json.dumps(obj, indent=2)
     path.write_text(data + "\n")
+    if mtime:
+        path.touch()
+        os.utime(path, (mtime, mtime))
 
 
 def _trakt_session(client_id: str, access_token: str) -> requests.Session:
@@ -862,7 +898,7 @@ def _export_media_episode(
     number: int,
 ) -> EpisodeExtended:
     output_path = partition_filename(
-        basedir=ctx.output_dir / "media" / "episodes",
+        basedir=ctx.cache_dir / "media" / "episodes",
         id=trakt_id,
         suffix=".json",
     )
@@ -881,10 +917,12 @@ def _export_media_episode(
         "title": data["title"],
         "ids": data["ids"],
         "first_aired": data["first_aired"],
+        "updated_at": data["updated_at"],
         "runtime": data["runtime"],
         "episode_type": data["episode_type"],
     }
-    _write_json(output_path, episode)
+    mtime = datetime.fromisoformat(episode["updated_at"]).timestamp()
+    _write_json(output_path, episode, mtime=mtime)
     return episode
 
 
@@ -1083,16 +1121,28 @@ def main(verbose: bool) -> None:
     required=True,
     envvar="OUTPUT_DIR",
 )
+@click.option(
+    "--cache-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=False,
+    default=_default_cache_dir(),
+    show_default=True,
+)
 def export(
     trakt_client_id: str,
     trakt_access_token: str,
     output_dir: Path,
+    cache_dir: Path,
 ) -> None:
     _session = _trakt_session(
         client_id=trakt_client_id,
         access_token=trakt_access_token,
     )
-    ctx = ExportContext(session=_session, output_dir=output_dir)
+    ctx = ExportContext(
+        session=_session,
+        output_dir=output_dir,
+        cache_dir=cache_dir,
+    )
 
     _export_collection_movies(ctx)
     _export_collection_shows(ctx)
@@ -1143,6 +1193,7 @@ def export(
 @click.option(
     "--cache-dir",
     type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=False,
     default=_default_cache_dir(),
     show_default=True,
 )
@@ -1157,6 +1208,11 @@ def metrics(
         access_token=trakt_access_token,
     )
     ctx = MetricsContext(session=_session, output_dir=output_dir, cache_dir=cache_dir)
+
+    # Temporary file migration
+    episodes_dir = output_dir.joinpath("media", "episodes")
+    if episodes_dir.exists():
+        shutil.rmtree(episodes_dir)
 
     _generate_metrics(ctx, data_path=output_dir)
 
