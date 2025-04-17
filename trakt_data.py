@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 import random
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -277,6 +278,17 @@ class Context:
         self.expired_data_files = expired_data_files
 
 
+def _xdg_cache_home() -> Path:
+    if "XDG_CACHE_HOME" in os.environ:
+        return Path(os.environ["XDG_CACHE_HOME"])
+    else:
+        return Path.home() / ".cache"
+
+
+def _default_cache_dir() -> Path:
+    return _xdg_cache_home() / "trakt-data"
+
+
 def _file_updated_at(data_path: Path, filename: Path) -> datetime:
     mtime = datetime.fromtimestamp(filename.stat().st_mtime, tz=timezone.utc)
     updated_at = mtime
@@ -391,8 +403,10 @@ class MetricsContext(Context):
         self,
         session: requests.Session,
         output_dir: Path,
+        cache_dir: Path,
     ) -> None:
         expired_data_files = self._compute_expired_media_files(data_path=output_dir)
+        cache_dir.mkdir(parents=True, exist_ok=True)
         super().__init__(session, output_dir, expired_data_files)
 
 
@@ -1126,16 +1140,23 @@ def export(
     required=True,
     envvar="OUTPUT_DIR",
 )
+@click.option(
+    "--cache-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    default=_default_cache_dir(),
+    show_default=True,
+)
 def metrics(
     trakt_client_id: str,
     trakt_access_token: str,
     output_dir: Path,
+    cache_dir: Path,
 ) -> None:
     _session = _trakt_session(
         client_id=trakt_client_id,
         access_token=trakt_access_token,
     )
-    ctx = MetricsContext(session=_session, output_dir=output_dir)
+    ctx = MetricsContext(session=_session, output_dir=output_dir, cache_dir=cache_dir)
 
     _generate_metrics(ctx, data_path=output_dir)
 

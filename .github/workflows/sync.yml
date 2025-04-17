@@ -47,12 +47,21 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Load cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/
+          key: cache-${{ github.run_id }}
+          restore-keys: |
+            cache-
+
       - name: Export data
         run: |
           uv run trakt-data export --output-dir data/
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
+          XDG_CACHE_HOME: .cache/
 
       - name: Export metrics
         run: |
@@ -60,6 +69,7 @@ jobs:
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
+          XDG_CACHE_HOME: .cache/
 
       - name: Commit changes
         id: commit
