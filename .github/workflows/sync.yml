@@ -12,13 +12,11 @@ concurrency:
   group: sync
 
 jobs:
-  run:
+  export:
     runs-on: ubuntu-24.04
 
     outputs:
       pushed: ${{ steps.commit.outputs.committed }}
-      deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
-      artifact-checksum: ${{ steps.artifact-checksum.outputs.checksum }}
 
     permissions:
       contents: write
@@ -49,29 +47,13 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Load cache
-        uses: actions/cache@v4
-        with:
-          path: .cache/
-          key: cache-${{ github.run_id }}
-          restore-keys: |
-            cache-
-
       - name: Export data
         run: |
           uv run trakt-data export --output-dir data/
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
-          XDG_CACHE_HOME: .cache/
-
-      - name: Export metrics
-        run: |
-          uv run trakt-data metrics --output-dir data/
-        env:
-          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
-          TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
-          XDG_CACHE_HOME: .cache/
+          XDG_CACHE_HOME: .cache/ # TODO: Remove this
 
       - name: Commit changes
         id: commit
@@ -91,6 +73,50 @@ jobs:
         run: git push origin refs/heads/data
         working-directory: data/
 
+  metrics:
+    needs: export
+    runs-on: ubuntu-24.04
+
+    outputs:
+      deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
+      artifact-checksum: ${{ steps.artifact-checksum.outputs.checksum }}
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: "data"
+          path: "data"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Load cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/
+          key: cache-${{ github.run_id }}
+          restore-keys: |
+            cache-
+
+      - name: Export metrics
+        run: |
+          uv run trakt-data metrics --output-dir data/
+        env:
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
+          XDG_CACHE_HOME: .cache/
+
       - name: Fetch deployed checksum
         id: deployed-checksum
         run: |
@@ -106,14 +132,13 @@ jobs:
         working-directory: data/
 
       - name: Upload artifact
-        if: ${{ steps.deployed-checksum.outputs.checksum != steps.artifact-checksum.outputs.checksum }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: data/
 
   deploy:
-    needs: run
-    if: ${{ needs.run.outputs.deployed-checksum != needs.run.outputs.artifact-checksum }}
+    needs: metrics
+    if: ${{ needs.metrics.outputs.deployed-checksum != needs.metrics.outputs.artifact-checksum }}
 
     permissions:
       pages: write
