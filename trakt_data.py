@@ -612,6 +612,7 @@ def _activities_outdated_paths(
             data_path / "collection" / "collection-shows.json",
         ),
         ("episodes", "watched_at", data_path / "watched" / "watched-shows.json"),
+        ("episodes", "watched_at", data_path / "watched" / "progress-shows.json"),
         ("episodes", "rated_at", data_path / "ratings" / "ratings-episodes.json"),
         ("episodes", "commented_at", data_path / "comments" / "comments-episodes.json"),
         ("shows", "rated_at", data_path / "ratings" / "ratings-shows.json"),
@@ -864,6 +865,28 @@ def _export_ratings(
     _write_json(output_path, data)
 
 
+def _export_shows_watched_progress(ctx: ExportContext) -> None:
+    output_path = ctx.output_dir / "watched" / "progress-shows.json"
+
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
+        return
+
+    watched_shows = _read_json_data(
+        ctx.output_dir / "watched" / "watched-shows.json",
+        list[WatchedShow],
+    )
+
+    shows: list[Any] = []
+    for watched_show in watched_shows:
+        show_id = watched_show["show"]["ids"]["trakt"]
+        path = f"/shows/{show_id}/progress/watched"
+        data = _trakt_api_get(ctx, path=path)
+        show_progress = {"show": watched_show["show"], **data}
+        shows.append(show_progress)
+
+    _write_json(output_path, shows)
+
+
 @click.group()
 @click.option(
     "--verbose",
@@ -975,6 +998,9 @@ def export(
     _export_watched_playback(ctx)
     _export_watched(ctx, type="movies")
     _export_watched(ctx, type="shows")
+
+    # Non-standard export
+    _export_shows_watched_progress(ctx)
 
 
 def partition_filename(basedir: Path, id: int, suffix: str) -> Path:
