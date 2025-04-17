@@ -2,7 +2,6 @@ import json
 import logging
 import os
 import random
-import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Literal, TypedDict, TypeVar, cast
@@ -1196,11 +1195,6 @@ def metrics(
         access_token=trakt_access_token,
     )
     ctx = MetricsContext(session=_session, output_dir=output_dir, cache_dir=cache_dir)
-
-    # Temporary file migration
-    movies_dir = output_dir.joinpath("media", "movies")
-    if movies_dir.exists():
-        shutil.rmtree(movies_dir)
 
     user_profile = _read_json_data(
         output_dir / "user" / "profile.json",
