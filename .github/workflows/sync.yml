@@ -100,7 +100,7 @@ jobs:
       - name: Compute checksum
         id: artifact-checksum
         run: |
-          find . -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum | awk '{print $1}' | tee "$RUNNER_TEMP/checksum"
+          find . -type f -not -path '*/\.*' -print0 | sort -z | xargs -0 sha256sum | sha256sum | awk '{print $1}' | tee "$RUNNER_TEMP/checksum"
           (echo -n "checksum=" ; cat "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
           mv "$RUNNER_TEMP/checksum" .checksum
         working-directory: data/
