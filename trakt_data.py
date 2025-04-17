@@ -958,10 +958,46 @@ def _weighted_shuffle(data_path: Path, files: list[Path]) -> list[Path]:
     return sorted(files, key=random_key, reverse=True)
 
 
-def _compute_expired_data_files(data_path: Path, limit: int) -> set[Path]:
-    files = list(data_path.glob("**/*.json"))
-    shuffled_files = _weighted_shuffle(data_path, files)
-    expired_files = shuffled_files[:limit]
+def _compute_expired_data_files(
+    data_path: Path,
+    limit: int = 10,
+    media_limit: int = 250,
+    min_media_age: timedelta = timedelta(days=1),
+) -> set[Path]:
+    media_path = data_path / "media"
+    min_media_mtime = datetime.now(tz=timezone.utc) - min_media_age
+
+    media_files = []
+    other_files = []
+
+    for file in data_path.glob("**/*.json"):
+        mtime = _file_updated_at(data_path, file)
+
+        if file.is_relative_to(media_path):
+            if mtime > min_media_mtime:
+                continue
+            media_files.append(file)
+        else:
+            other_files.append(file)
+
+    expired_media = _weighted_shuffle(data_path, media_files)[:media_limit]
+    expired_other = _weighted_shuffle(data_path, other_files)[:limit]
+    expired_files = expired_other + expired_media
+
+    if len(media_files) > 0:
+        logger.info(
+            "Expired media files: %d/%d (%.2f%%)",
+            len(expired_media),
+            len(media_files),
+            len(expired_media) / len(media_files) * 100,
+        )
+    if len(other_files) > 0:
+        logger.info(
+            "Expired other files: %d/%d (%.2f%%)",
+            len(expired_other),
+            len(other_files),
+            len(expired_other) / len(other_files) * 100,
+        )
 
     for file in expired_files:
         logger.debug(
@@ -991,11 +1027,6 @@ def _compute_expired_data_files(data_path: Path, limit: int) -> set[Path]:
     envvar="OUTPUT_DIR",
 )
 @click.option(
-    "--expire-limit",
-    type=int,
-    default=100,
-)
-@click.option(
     "--verbose",
     "-v",
     is_flag=True,
@@ -1005,7 +1036,6 @@ def main(
     trakt_client_id: str,
     trakt_access_token: str,
     output_dir: Path,
-    expire_limit: int,
     verbose: bool,
 ) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
@@ -1018,7 +1048,7 @@ def main(
     ctx = Context(
         session=_session,
         output_dir=output_dir,
-        expired_data_files=_compute_expired_data_files(output_dir, limit=expire_limit),
+        expired_data_files=_compute_expired_data_files(output_dir),
     )
 
     _export_collection_movies(ctx)
