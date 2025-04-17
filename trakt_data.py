@@ -860,7 +860,7 @@ def _export_ratings(
     output_path = ctx.output_dir / "ratings" / f"ratings-{type}.json"
     if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-    data = _trakt_api_get(ctx, path=f"/users/me/ratings/{type}")
+    data = _trakt_api_get(ctx, path=f"/sync/ratings/{type}")
     _write_json(output_path, data)
 
 
