@@ -366,6 +366,22 @@ class ShowRating(TypedDict):
     show: Show
 
 
+class WatchedMovie(TypedDict):
+    plays: int
+    last_watched_at: str
+    last_updated_at: str
+    movie: Movie
+
+
+class WatchedShow(TypedDict):
+    plays: int
+    last_watched_at: str
+    last_updated_at: str
+    reset_at: str | None
+    show: Show
+    # seasons: list["WatchedSeason"]
+
+
 class Context:
     session: requests.Session
     output_dir: Path
@@ -742,26 +758,54 @@ def _export_watched_playback(ctx: Context) -> None:
     _write_json(output_path, data)
 
 
-def _export_watched(
+def _export_watched_movies(
     ctx: Context,
-    type: Literal["movies", "shows"],
-    filename: str,
-) -> None:
-    output_path = ctx.output_dir / "watched" / filename
+    last_activities: ExportLastActivities,
+) -> list[WatchedMovie]:
+    output_path = ctx.output_dir / "watched" / "watched-movies.json"
+    movies = _read_json_data(output_path, list[WatchedMovie])
 
-    if _fresh(ctx, output_path):
-        return
+    remote_watched_at = ParsedDatetime(last_activities["movies"]["watched_at"])
+    local_watched_at = _max_parsed_datetime(
+        movie["last_updated_at"] for movie in movies
+    )
 
-    data = _trakt_api_get(ctx, path=f"/sync/watched/{type}")
+    if local_watched_at >= remote_watched_at:
+        logger.debug("watched-movies.json is up-to-date: %s", local_watched_at)
+        return movies
+
+    logger.info(
+        "Exporting watched-movies.json, last watched at %s but is now %s",
+        local_watched_at,
+        remote_watched_at,
+    )
+    data = _trakt_api_get(ctx, path="/sync/watched/movies")
     _write_json(output_path, data)
+    return cast(list[WatchedMovie], data)
 
 
-def _export_watched_movies(ctx: Context) -> None:
-    _export_watched(ctx, type="movies", filename="watched-movies.json")
+def _export_watched_shows(
+    ctx: Context,
+    last_activities: ExportLastActivities,
+) -> list[WatchedShow]:
+    output_path = ctx.output_dir / "watched" / "watched-shows.json"
+    shows = _read_json_data(output_path, list[WatchedShow])
 
+    remote_watched_at = ParsedDatetime(last_activities["episodes"]["watched_at"])
+    local_watched_at = _max_parsed_datetime(show["last_updated_at"] for show in shows)
 
-def _export_watched_shows(ctx: Context) -> None:
-    _export_watched(ctx, type="shows", filename="watched-shows.json")
+    if local_watched_at >= remote_watched_at:
+        logger.debug("watched-shows.json is up-to-date: %s", local_watched_at)
+        return shows
+
+    logger.info(
+        "Exporting watched-shows.json, last watched at %s but is now %s",
+        local_watched_at,
+        remote_watched_at,
+    )
+    data = _trakt_api_get(ctx, path="/sync/watched/shows")
+    _write_json(output_path, data)
+    return cast(list[WatchedShow], data)
 
 
 def _export_collection_movies(
@@ -1309,8 +1353,8 @@ def export(
     _export_user_stats(ctx)
     _export_watched_history(ctx)
     _export_watched_playback(ctx)
-    _export_watched_movies(ctx)
-    _export_watched_shows(ctx)
+    _export_watched_movies(ctx, last_activities=last_activities)
+    _export_watched_shows(ctx, last_activities=last_activities)
 
 
 @main.command()
