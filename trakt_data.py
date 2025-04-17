@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import random
+from collections.abc import Iterable
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Literal, TypedDict, TypeVar, cast
@@ -76,6 +77,104 @@ _TRAKT_WATCHLIST_RUNTIME = Gauge(
     labelnames=["media_type", "status", "year"],
     registry=_REGISTRY,
 )
+
+
+class ExportLastActivities(TypedDict):
+    all: str
+    movies: "ExportMoviesLastActivities"
+    episodes: "ExportEpisodesLastActivities"
+    shows: "ExportShowsLastActivities"
+    seasons: "ExportSeasonsLastActivities"
+    comments: "ExportCommentsLastActivities"
+    lists: "ExportListsLastActivities"
+    watchlist: "ExportWatchlistLastActivities"
+    favorites: "ExportFavoritesLastActivities"
+    recommendations: "ExportRecommendationsLastActivities"
+    collaborations: "ExportCollaborationsLastActivities"
+    account: "ExportAccountLastActivities"
+    saved_filters: "ExportSavedFiltersLastActivities"
+    notes: "ExportNotesLastActivities"
+
+
+class ExportMoviesLastActivities(TypedDict):
+    watched_at: str
+    collected_at: str
+    rated_at: str
+    watchlisted_at: str
+    favorited_at: str
+    recommendations_at: str
+    commented_at: str
+    paused_at: str
+    hidden_at: str
+
+
+class ExportEpisodesLastActivities(TypedDict):
+    watched_at: str
+    collected_at: str
+    rated_at: str
+    watchlisted_at: str
+    commented_at: str
+    paused_at: str
+
+
+class ExportShowsLastActivities(TypedDict):
+    rated_at: str
+    watchlisted_at: str
+    favorited_at: str
+    recommendations_at: str
+    commented_at: str
+    paused_at: str
+    dropped_at: str
+
+
+class ExportSeasonsLastActivities(TypedDict):
+    rated_at: str
+    watchlisted_at: str
+    commented_at: str
+    hidden_at: str
+
+
+class ExportCommentsLastActivities(TypedDict):
+    liked_at: str
+    blocked_at: str
+
+
+class ExportListsLastActivities(TypedDict):
+    liked_at: str
+    updated_at: str
+    commented_at: str
+
+
+class ExportWatchlistLastActivities(TypedDict):
+    updated_at: str
+
+
+class ExportFavoritesLastActivities(TypedDict):
+    updated_at: str
+
+
+class ExportRecommendationsLastActivities(TypedDict):
+    updated_at: str
+
+
+class ExportCollaborationsLastActivities(TypedDict):
+    updated_at: str
+
+
+class ExportAccountLastActivities(TypedDict):
+    settings_at: str
+    followed_at: str
+    following_at: str
+    pending_at: str
+    requested_at: str
+
+
+class ExportSavedFiltersLastActivities(TypedDict):
+    updated_at: str
+
+
+class ExportNotesLastActivities(TypedDict):
+    updated_at: str
 
 
 class UserIDs(TypedDict):
@@ -286,6 +385,52 @@ class Context:
         self.expired_data_files = expired_data_files
 
         cache_dir.mkdir(parents=True, exist_ok=True)
+
+
+class ParsedDatetime:
+    def __init__(self, datetime_str: str) -> None:
+        self.original_str = datetime_str
+        self.datetime = datetime.fromisoformat(datetime_str)
+        if self.datetime.tzinfo is None:
+            raise ValueError(f"datetime string must include timezone: {datetime_str}")
+
+    def __lt__(self, other: object) -> bool:
+        if not isinstance(other, ParsedDatetime):
+            return NotImplemented
+        return self.datetime < other.datetime
+
+    def __le__(self, other: object) -> bool:
+        if not isinstance(other, ParsedDatetime):
+            return NotImplemented
+        return self.datetime <= other.datetime
+
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, ParsedDatetime):
+            return NotImplemented
+        return self.datetime == other.datetime
+
+    def __gt__(self, other: object) -> bool:
+        if not isinstance(other, ParsedDatetime):
+            return NotImplemented
+        return self.datetime > other.datetime
+
+    def __ge__(self, other: object) -> bool:
+        if not isinstance(other, ParsedDatetime):
+            return NotImplemented
+        return self.datetime >= other.datetime
+
+    def __repr__(self) -> str:
+        return f"ParsedDatetime({self.original_str!r})"
+
+    def __str__(self) -> str:
+        return self.original_str
+
+
+_EPOCH: ParsedDatetime = ParsedDatetime("1970-01-01T00:00:00+00:00")
+
+
+def _max_parsed_datetime(strs: Iterable[str]) -> ParsedDatetime:
+    return max([ParsedDatetime(s) for s in strs], default=_EPOCH)
 
 
 def _xdg_cache_home() -> Path:
@@ -526,10 +671,11 @@ def _trakt_api_paginated_get(
     return results
 
 
-def _export_user_last_activities(ctx: Context) -> None:
+def _export_user_last_activities(ctx: Context) -> ExportLastActivities:
     output_path = ctx.output_dir / "user" / "last-activities.json"
     data = _trakt_api_get(ctx, path="/sync/last_activities")
     _write_json(output_path, data)
+    return cast(ExportLastActivities, data)
 
 
 def _export_user_profile(ctx: Context) -> None:
@@ -618,22 +764,56 @@ def _export_watched_shows(ctx: Context) -> None:
     _export_watched(ctx, type="shows", filename="watched-shows.json")
 
 
-def _export_collection(
-    ctx: Context,
-    type: Literal["movies", "shows"],
-    filename: str,
-) -> None:
-    output_path = ctx.output_dir / "collection" / filename
-    data = _trakt_api_get(ctx, path=f"/sync/collection/{type}")
+def _export_collection_movies(
+    ctx: ExportContext,
+    last_activities: ExportLastActivities,
+) -> list[CollectedMovie]:
+    output_path = ctx.output_dir / "collection" / "collection-movies.json"
+    movies_collection = _read_json_data(output_path, list[CollectedMovie])
+
+    remote_collected_at = ParsedDatetime(last_activities["movies"]["collected_at"])
+    local_collected_at = _max_parsed_datetime(
+        movie["updated_at"] for movie in movies_collection
+    )
+
+    if remote_collected_at <= local_collected_at:
+        logger.debug("collection-movies.json is up-to-date: %s", local_collected_at)
+        return movies_collection
+
+    logger.info(
+        "Exporting collection-movies.json, last collected at %s but is now %s",
+        local_collected_at,
+        remote_collected_at,
+    )
+    data = _trakt_api_get(ctx, path="/sync/collection/movies")
     _write_json(output_path, data)
+    return cast(list[CollectedMovie], data)
 
 
-def _export_collection_movies(ctx: ExportContext) -> None:
-    _export_collection(ctx, type="movies", filename="collection-movies.json")
+def _export_collection_shows(
+    ctx: ExportContext,
+    last_activities: ExportLastActivities,
+) -> list[CollectedShow]:
+    output_path = ctx.output_dir / "collection" / "collection-shows.json"
+    shows_collection = _read_json_data(output_path, list[CollectedShow])
 
+    remote_collected_at = ParsedDatetime(last_activities["episodes"]["collected_at"])
+    local_collected_at = _max_parsed_datetime(
+        show["last_updated_at"] for show in shows_collection
+    )
 
-def _export_collection_shows(ctx: ExportContext) -> None:
-    _export_collection(ctx, type="shows", filename="collection-shows.json")
+    if local_collected_at >= remote_collected_at:
+        logger.debug("collection-shows.json is up-to-date: %s", local_collected_at)
+        return shows_collection
+
+    logger.info(
+        "Exporting collection-shows.json, last collected at %s but is now %s",
+        local_collected_at,
+        remote_collected_at,
+    )
+    data = _trakt_api_get(ctx, path="/sync/collection/shows")
+    _write_json(output_path, data)
+    return cast(list[CollectedShow], data)
 
 
 def _export_comments(
@@ -1102,9 +1282,10 @@ def export(
         output_dir=output_dir,
         cache_dir=cache_dir,
     )
+    last_activities = _export_user_last_activities(ctx)
 
-    _export_collection_movies(ctx)
-    _export_collection_shows(ctx)
+    _export_collection_movies(ctx, last_activities=last_activities)
+    _export_collection_shows(ctx, last_activities=last_activities)
     _export_comments_episodes(ctx)
     _export_comments_lists(ctx)
     _export_comments_movies(ctx)
@@ -1124,7 +1305,6 @@ def export(
     _export_ratings_movies(ctx)
     _export_ratings_seasons(ctx)
     _export_ratings_shows(ctx)
-    _export_user_last_activities(ctx)
     _export_user_profile(ctx)
     _export_user_stats(ctx)
     _export_watched_history(ctx)
