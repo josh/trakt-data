@@ -854,20 +854,9 @@ def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
         return _read_json_data(output_path, MovieExtended)
 
     data = _trakt_api_get(ctx, path=f"/movies/{trakt_id}", params={"extended": "full"})
-    movie: MovieExtended = {
-        "title": data["title"],
-        "year": data["year"],
-        "ids": data["ids"],
-        "released": data["released"],
-        "runtime": data["runtime"],
-        "country": data["country"],
-        "status": data["status"],
-        "updated_at": data["updated_at"],
-        "language": data["language"],
-    }
-    mtime = datetime.fromisoformat(movie["updated_at"]).timestamp()
-    _write_json(output_path, movie, mtime=mtime)
-    return movie
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    _write_json(output_path, data, mtime=mtime)
+    return cast(MovieExtended, data)
 
 
 def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
@@ -881,22 +870,9 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
         return _read_json_data(output_path, ShowExtended)
 
     data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}", params={"extended": "full"})
-    show: ShowExtended = {
-        "title": data["title"],
-        "year": data["year"],
-        "ids": data["ids"],
-        "first_aired": data["first_aired"],
-        "runtime": data["runtime"],
-        "network": data["network"],
-        "country": data["country"],
-        "status": data["status"],
-        "updated_at": data["updated_at"],
-        "language": data["language"],
-        "aired_episodes": data["aired_episodes"],
-    }
-    mtime = datetime.fromisoformat(show["updated_at"]).timestamp()
-    _write_json(output_path, show, mtime=mtime)
-    return show
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    _write_json(output_path, data, mtime=mtime)
+    return cast(ShowExtended, data)
 
 
 def _export_media_episode(
@@ -920,19 +896,9 @@ def _export_media_episode(
         path=f"/shows/{show_trakt_id}/seasons/{season}/episodes/{number}",
         params={"extended": "full"},
     )
-    episode: EpisodeExtended = {
-        "season": data["season"],
-        "number": data["number"],
-        "title": data["title"],
-        "ids": data["ids"],
-        "first_aired": data["first_aired"],
-        "updated_at": data["updated_at"],
-        "runtime": data["runtime"],
-        "episode_type": data["episode_type"],
-    }
-    mtime = datetime.fromisoformat(episode["updated_at"]).timestamp()
-    _write_json(output_path, episode, mtime=mtime)
-    return episode
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    _write_json(output_path, data, mtime=mtime)
+    return cast(EpisodeExtended, data)
 
 
 def _episode_first_aired_year(
