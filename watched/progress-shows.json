@@ -13,15 +13,15 @@
       }
     },
     "aired": 9,
-    "completed": 8,
-    "last_watched_at": "2025-04-18T20:34:14.000Z",
+    "completed": 9,
+    "last_watched_at": "2025-04-18T21:34:20.000Z",
     "reset_at": null,
     "seasons": [
       {
         "number": 1,
         "title": null,
         "aired": 9,
-        "completed": 8,
+        "completed": 9,
         "episodes": [
           {
             "number": 1,
@@ -65,14 +65,15 @@
           },
           {
             "number": 9,
-            "completed": false,
-            "last_watched_at": null
+            "completed": true,
+            "last_watched_at": "2025-04-18T21:34:20.000Z"
           }
         ]
       }
     ],
     "hidden_seasons": [],
-    "next_episode": {
+    "next_episode": null,
+    "last_episode": {
       "season": 1,
       "number": 9,
       "title": "Straight to Hell",
@@ -81,18 +82,6 @@
         "tvdb": 10751478,
         "imdb": "tt21357488",
         "tmdb": 5688009,
-        "tvrage": null
-      }
-    },
-    "last_episode": {
-      "season": 1,
-      "number": 8,
-      "title": "Isle of Joy",
-      "ids": {
-        "trakt": 12391605,
-        "tvdb": 10751477,
-        "imdb": "tt21357480",
-        "tmdb": 5688008,
         "tvrage": null
       }
     }
