@@ -1,6 +1,112 @@
 [
   {
     "show": {
+      "title": "Light & Magic",
+      "year": 2022,
+      "ids": {
+        "trakt": 196428,
+        "slug": "light-magic",
+        "tvdb": 419829,
+        "imdb": "tt19896784",
+        "tmdb": 201285,
+        "tvrage": null
+      }
+    },
+    "aired": 9,
+    "completed": 7,
+    "last_watched_at": "2025-04-18T22:40:35.000Z",
+    "reset_at": null,
+    "seasons": [
+      {
+        "number": 1,
+        "title": null,
+        "aired": 6,
+        "completed": 6,
+        "episodes": [
+          {
+            "number": 1,
+            "completed": true,
+            "last_watched_at": "2022-08-12T18:23:03.000Z"
+          },
+          {
+            "number": 2,
+            "completed": true,
+            "last_watched_at": "2022-08-12T20:04:36.000Z"
+          },
+          {
+            "number": 3,
+            "completed": true,
+            "last_watched_at": "2022-08-12T23:01:00.000Z"
+          },
+          {
+            "number": 4,
+            "completed": true,
+            "last_watched_at": "2022-08-13T00:02:48.000Z"
+          },
+          {
+            "number": 5,
+            "completed": true,
+            "last_watched_at": "2022-08-14T00:12:17.000Z"
+          },
+          {
+            "number": 6,
+            "completed": true,
+            "last_watched_at": "2022-08-14T07:21:16.000Z"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": null,
+        "aired": 3,
+        "completed": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "completed": true,
+            "last_watched_at": "2025-04-18T22:40:35.000Z"
+          },
+          {
+            "number": 2,
+            "completed": false,
+            "last_watched_at": null
+          },
+          {
+            "number": 3,
+            "completed": false,
+            "last_watched_at": null
+          }
+        ]
+      }
+    ],
+    "hidden_seasons": [],
+    "next_episode": {
+      "season": 2,
+      "number": 2,
+      "title": "There Must Be a Better Way",
+      "ids": {
+        "trakt": 12906181,
+        "tvdb": 11025664,
+        "imdb": "tt36239123",
+        "tmdb": 6047110,
+        "tvrage": null
+      }
+    },
+    "last_episode": {
+      "season": 2,
+      "number": 1,
+      "title": "Are We Ready for This?",
+      "ids": {
+        "trakt": 12906179,
+        "tvdb": 11025663,
+        "imdb": "tt36239121",
+        "tmdb": 6047109,
+        "tvrage": null
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Daredevil: Born Again",
       "year": 2025,
       "ids": {
@@ -56990,112 +57096,6 @@
         "tvdb": 9160494,
         "imdb": "tt15723862",
         "tmdb": 3725697,
-        "tvrage": null
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Light & Magic",
-      "year": 2022,
-      "ids": {
-        "trakt": 196428,
-        "slug": "light-magic",
-        "tvdb": 419829,
-        "imdb": "tt19896784",
-        "tmdb": 201285,
-        "tvrage": null
-      }
-    },
-    "aired": 9,
-    "completed": 6,
-    "last_watched_at": "2022-08-14T07:21:16.000Z",
-    "reset_at": null,
-    "seasons": [
-      {
-        "number": 1,
-        "title": null,
-        "aired": 6,
-        "completed": 6,
-        "episodes": [
-          {
-            "number": 1,
-            "completed": true,
-            "last_watched_at": "2022-08-12T18:23:03.000Z"
-          },
-          {
-            "number": 2,
-            "completed": true,
-            "last_watched_at": "2022-08-12T20:04:36.000Z"
-          },
-          {
-            "number": 3,
-            "completed": true,
-            "last_watched_at": "2022-08-12T23:01:00.000Z"
-          },
-          {
-            "number": 4,
-            "completed": true,
-            "last_watched_at": "2022-08-13T00:02:48.000Z"
-          },
-          {
-            "number": 5,
-            "completed": true,
-            "last_watched_at": "2022-08-14T00:12:17.000Z"
-          },
-          {
-            "number": 6,
-            "completed": true,
-            "last_watched_at": "2022-08-14T07:21:16.000Z"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "title": null,
-        "aired": 3,
-        "completed": 0,
-        "episodes": [
-          {
-            "number": 1,
-            "completed": false,
-            "last_watched_at": null
-          },
-          {
-            "number": 2,
-            "completed": false,
-            "last_watched_at": null
-          },
-          {
-            "number": 3,
-            "completed": false,
-            "last_watched_at": null
-          }
-        ]
-      }
-    ],
-    "hidden_seasons": [],
-    "next_episode": {
-      "season": 2,
-      "number": 1,
-      "title": "Are We Ready for This?",
-      "ids": {
-        "trakt": 12906179,
-        "tvdb": 11025663,
-        "imdb": "tt36239121",
-        "tmdb": 6047109,
-        "tvrage": null
-      }
-    },
-    "last_episode": {
-      "season": 1,
-      "number": 6,
-      "title": "\"No more pretending you're dinosaurs.\"",
-      "ids": {
-        "trakt": 6484105,
-        "tvdb": 9250261,
-        "imdb": "tt20102096",
-        "tmdb": 3704214,
         "tvrage": null
       }
     }
