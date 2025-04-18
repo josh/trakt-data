@@ -13,8 +13,8 @@
       }
     },
     "aired": 9,
-    "completed": 7,
-    "last_watched_at": "2025-04-18T22:40:35.000Z",
+    "completed": 8,
+    "last_watched_at": "2025-04-18T23:44:42.000Z",
     "reset_at": null,
     "seasons": [
       {
@@ -59,7 +59,7 @@
         "number": 2,
         "title": null,
         "aired": 3,
-        "completed": 1,
+        "completed": 2,
         "episodes": [
           {
             "number": 1,
@@ -68,8 +68,8 @@
           },
           {
             "number": 2,
-            "completed": false,
-            "last_watched_at": null
+            "completed": true,
+            "last_watched_at": "2025-04-18T23:44:42.000Z"
           },
           {
             "number": 3,
@@ -82,6 +82,18 @@
     "hidden_seasons": [],
     "next_episode": {
       "season": 2,
+      "number": 3,
+      "title": "There's No Going Back",
+      "ids": {
+        "trakt": 12906182,
+        "tvdb": 11025665,
+        "imdb": "tt36239128",
+        "tmdb": 6047111,
+        "tvrage": null
+      }
+    },
+    "last_episode": {
+      "season": 2,
       "number": 2,
       "title": "There Must Be a Better Way",
       "ids": {
@@ -89,18 +101,6 @@
         "tvdb": 11025664,
         "imdb": "tt36239123",
         "tmdb": 6047110,
-        "tvrage": null
-      }
-    },
-    "last_episode": {
-      "season": 2,
-      "number": 1,
-      "title": "Are We Ready for This?",
-      "ids": {
-        "trakt": 12906179,
-        "tvdb": 11025663,
-        "imdb": "tt36239121",
-        "tmdb": 6047109,
         "tvrage": null
       }
     }
