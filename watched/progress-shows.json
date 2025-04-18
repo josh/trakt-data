@@ -1,6 +1,104 @@
 [
   {
     "show": {
+      "title": "Daredevil: Born Again",
+      "year": 2025,
+      "ids": {
+        "trakt": 195845,
+        "slug": "daredevil-born-again",
+        "tvdb": 422712,
+        "imdb": "tt18923754",
+        "tmdb": 202555,
+        "tvrage": null
+      }
+    },
+    "aired": 9,
+    "completed": 8,
+    "last_watched_at": "2025-04-18T20:34:14.000Z",
+    "reset_at": null,
+    "seasons": [
+      {
+        "number": 1,
+        "title": null,
+        "aired": 9,
+        "completed": 8,
+        "episodes": [
+          {
+            "number": 1,
+            "completed": true,
+            "last_watched_at": "2025-03-27T04:27:41.000Z"
+          },
+          {
+            "number": 2,
+            "completed": true,
+            "last_watched_at": "2025-03-30T06:19:45.000Z"
+          },
+          {
+            "number": 3,
+            "completed": true,
+            "last_watched_at": "2025-04-16T06:00:01.000Z"
+          },
+          {
+            "number": 4,
+            "completed": true,
+            "last_watched_at": "2025-04-16T07:03:36.000Z"
+          },
+          {
+            "number": 5,
+            "completed": true,
+            "last_watched_at": "2025-04-17T01:22:16.000Z"
+          },
+          {
+            "number": 6,
+            "completed": true,
+            "last_watched_at": "2025-04-17T02:08:21.000Z"
+          },
+          {
+            "number": 7,
+            "completed": true,
+            "last_watched_at": "2025-04-17T02:32:15.000Z"
+          },
+          {
+            "number": 8,
+            "completed": true,
+            "last_watched_at": "2025-04-18T20:34:14.000Z"
+          },
+          {
+            "number": 9,
+            "completed": false,
+            "last_watched_at": null
+          }
+        ]
+      }
+    ],
+    "hidden_seasons": [],
+    "next_episode": {
+      "season": 1,
+      "number": 9,
+      "title": "Straight to Hell",
+      "ids": {
+        "trakt": 12391606,
+        "tvdb": 10751478,
+        "imdb": "tt21357488",
+        "tmdb": 5688009,
+        "tvrage": null
+      }
+    },
+    "last_episode": {
+      "season": 1,
+      "number": 8,
+      "title": "Isle of Joy",
+      "ids": {
+        "trakt": 12391605,
+        "tvdb": 10751477,
+        "imdb": "tt21357480",
+        "tmdb": 5688008,
+        "tvrage": null
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -204,7 +302,7 @@
     "next_episode": {
       "season": 4,
       "number": 4,
-      "title": "Episode 4",
+      "title": "D'christening",
       "ids": {
         "trakt": 12564191,
         "tvdb": 10996118,
@@ -216,7 +314,7 @@
     "last_episode": {
       "season": 4,
       "number": 3,
-      "title": "Episode 3",
+      "title": "What Happens in Vegas",
       "ids": {
         "trakt": 12564190,
         "tvdb": 10953270,
@@ -561,104 +659,6 @@
         "tvdb": 11023062,
         "imdb": "tt30127325",
         "tmdb": 6085098,
-        "tvrage": null
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Daredevil: Born Again",
-      "year": 2025,
-      "ids": {
-        "trakt": 195845,
-        "slug": "daredevil-born-again",
-        "tvdb": 422712,
-        "imdb": "tt18923754",
-        "tmdb": 202555,
-        "tvrage": null
-      }
-    },
-    "aired": 9,
-    "completed": 7,
-    "last_watched_at": "2025-04-17T02:32:15.000Z",
-    "reset_at": null,
-    "seasons": [
-      {
-        "number": 1,
-        "title": null,
-        "aired": 9,
-        "completed": 7,
-        "episodes": [
-          {
-            "number": 1,
-            "completed": true,
-            "last_watched_at": "2025-03-27T04:27:41.000Z"
-          },
-          {
-            "number": 2,
-            "completed": true,
-            "last_watched_at": "2025-03-30T06:19:45.000Z"
-          },
-          {
-            "number": 3,
-            "completed": true,
-            "last_watched_at": "2025-04-16T06:00:01.000Z"
-          },
-          {
-            "number": 4,
-            "completed": true,
-            "last_watched_at": "2025-04-16T07:03:36.000Z"
-          },
-          {
-            "number": 5,
-            "completed": true,
-            "last_watched_at": "2025-04-17T01:22:16.000Z"
-          },
-          {
-            "number": 6,
-            "completed": true,
-            "last_watched_at": "2025-04-17T02:08:21.000Z"
-          },
-          {
-            "number": 7,
-            "completed": true,
-            "last_watched_at": "2025-04-17T02:32:15.000Z"
-          },
-          {
-            "number": 8,
-            "completed": false,
-            "last_watched_at": null
-          },
-          {
-            "number": 9,
-            "completed": false,
-            "last_watched_at": null
-          }
-        ]
-      }
-    ],
-    "hidden_seasons": [],
-    "next_episode": {
-      "season": 1,
-      "number": 8,
-      "title": "Isle of Joy",
-      "ids": {
-        "trakt": 12391605,
-        "tvdb": 10751477,
-        "imdb": "tt21357480",
-        "tmdb": 5688008,
-        "tvrage": null
-      }
-    },
-    "last_episode": {
-      "season": 1,
-      "number": 7,
-      "title": "Art for Art's Sake",
-      "ids": {
-        "trakt": 12391604,
-        "tvdb": 10751476,
-        "imdb": "tt21357490",
-        "tmdb": 5688007,
         "tvrage": null
       }
     }
@@ -44099,7 +44099,18 @@
       }
     ],
     "hidden_seasons": [],
-    "next_episode": null,
+    "next_episode": {
+      "season": 2,
+      "number": 1,
+      "title": "Episode 1",
+      "ids": {
+        "trakt": 13013530,
+        "tvdb": null,
+        "imdb": null,
+        "tmdb": 6139923,
+        "tvrage": null
+      }
+    },
     "last_episode": {
       "season": 1,
       "number": 10,
@@ -57007,7 +57018,7 @@
         "tvrage": null
       }
     },
-    "aired": 6,
+    "aired": 9,
     "completed": 6,
     "last_watched_at": "2022-08-14T07:21:16.000Z",
     "reset_at": null,
@@ -57049,13 +57060,36 @@
             "last_watched_at": "2022-08-14T07:21:16.000Z"
           }
         ]
+      },
+      {
+        "number": 2,
+        "title": null,
+        "aired": 3,
+        "completed": 0,
+        "episodes": [
+          {
+            "number": 1,
+            "completed": false,
+            "last_watched_at": null
+          },
+          {
+            "number": 2,
+            "completed": false,
+            "last_watched_at": null
+          },
+          {
+            "number": 3,
+            "completed": false,
+            "last_watched_at": null
+          }
+        ]
       }
     ],
     "hidden_seasons": [],
     "next_episode": {
       "season": 2,
       "number": 1,
-      "title": "Are We Ready For This?",
+      "title": "Are We Ready for This?",
       "ids": {
         "trakt": 12906179,
         "tvdb": 11025663,
