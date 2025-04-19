@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "Light & Magic",
+      "year": 2022,
+      "ids": {
+        "trakt": 196428,
+        "slug": "light-magic",
+        "tvdb": 419829,
+        "imdb": "tt19896784",
+        "tmdb": 201285,
+        "tvrage": null
+      }
+    },
+    "aired": 9,
+    "completed": 9,
+    "last_watched_at": "2025-04-19T07:12:02.000Z",
+    "reset_at": null,
+    "seasons": [
+      {
+        "number": 1,
+        "title": null,
+        "aired": 6,
+        "completed": 6,
+        "episodes": [
+          {
+            "number": 1,
+            "completed": true,
+            "last_watched_at": "2022-08-12T18:23:03.000Z"
+          },
+          {
+            "number": 2,
+            "completed": true,
+            "last_watched_at": "2022-08-12T20:04:36.000Z"
+          },
+          {
+            "number": 3,
+            "completed": true,
+            "last_watched_at": "2022-08-12T23:01:00.000Z"
+          },
+          {
+            "number": 4,
+            "completed": true,
+            "last_watched_at": "2022-08-13T00:02:48.000Z"
+          },
+          {
+            "number": 5,
+            "completed": true,
+            "last_watched_at": "2022-08-14T00:12:17.000Z"
+          },
+          {
+            "number": 6,
+            "completed": true,
+            "last_watched_at": "2022-08-14T07:21:16.000Z"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": null,
+        "aired": 3,
+        "completed": 3,
+        "episodes": [
+          {
+            "number": 1,
+            "completed": true,
+            "last_watched_at": "2025-04-18T22:40:35.000Z"
+          },
+          {
+            "number": 2,
+            "completed": true,
+            "last_watched_at": "2025-04-18T23:44:42.000Z"
+          },
+          {
+            "number": 3,
+            "completed": true,
+            "last_watched_at": "2025-04-19T07:12:02.000Z"
+          }
+        ]
+      }
+    ],
+    "hidden_seasons": [],
+    "next_episode": null,
+    "last_episode": {
+      "season": 2,
+      "number": 3,
+      "title": "There's No Going Back",
+      "ids": {
+        "trakt": 12906182,
+        "tvdb": 11025665,
+        "imdb": "tt36239128",
+        "tmdb": 6047111,
+        "tvrage": null
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Real Time with Bill Maher",
       "year": 2003,
       "ids": {
@@ -3684,112 +3779,6 @@
         "tvdb": 10996707,
         "imdb": null,
         "tmdb": 6017861,
-        "tvrage": null
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Light & Magic",
-      "year": 2022,
-      "ids": {
-        "trakt": 196428,
-        "slug": "light-magic",
-        "tvdb": 419829,
-        "imdb": "tt19896784",
-        "tmdb": 201285,
-        "tvrage": null
-      }
-    },
-    "aired": 9,
-    "completed": 8,
-    "last_watched_at": "2025-04-18T23:44:42.000Z",
-    "reset_at": null,
-    "seasons": [
-      {
-        "number": 1,
-        "title": null,
-        "aired": 6,
-        "completed": 6,
-        "episodes": [
-          {
-            "number": 1,
-            "completed": true,
-            "last_watched_at": "2022-08-12T18:23:03.000Z"
-          },
-          {
-            "number": 2,
-            "completed": true,
-            "last_watched_at": "2022-08-12T20:04:36.000Z"
-          },
-          {
-            "number": 3,
-            "completed": true,
-            "last_watched_at": "2022-08-12T23:01:00.000Z"
-          },
-          {
-            "number": 4,
-            "completed": true,
-            "last_watched_at": "2022-08-13T00:02:48.000Z"
-          },
-          {
-            "number": 5,
-            "completed": true,
-            "last_watched_at": "2022-08-14T00:12:17.000Z"
-          },
-          {
-            "number": 6,
-            "completed": true,
-            "last_watched_at": "2022-08-14T07:21:16.000Z"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "title": null,
-        "aired": 3,
-        "completed": 2,
-        "episodes": [
-          {
-            "number": 1,
-            "completed": true,
-            "last_watched_at": "2025-04-18T22:40:35.000Z"
-          },
-          {
-            "number": 2,
-            "completed": true,
-            "last_watched_at": "2025-04-18T23:44:42.000Z"
-          },
-          {
-            "number": 3,
-            "completed": false,
-            "last_watched_at": null
-          }
-        ]
-      }
-    ],
-    "hidden_seasons": [],
-    "next_episode": {
-      "season": 2,
-      "number": 3,
-      "title": "There's No Going Back",
-      "ids": {
-        "trakt": 12906182,
-        "tvdb": 11025665,
-        "imdb": "tt36239128",
-        "tmdb": 6047111,
-        "tvrage": null
-      }
-    },
-    "last_episode": {
-      "season": 2,
-      "number": 2,
-      "title": "There Must Be a Better Way",
-      "ids": {
-        "trakt": 12906181,
-        "tvdb": 11025664,
-        "imdb": "tt36239123",
-        "tmdb": 6047110,
         "tvrage": null
       }
     }
