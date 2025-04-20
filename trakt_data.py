@@ -884,7 +884,10 @@ def _export_shows_watched_progress(ctx: ExportContext) -> None:
         show_id = watched_show["show"]["ids"]["trakt"]
         path = f"/shows/{show_id}/progress/watched"
         data = _trakt_api_get(ctx, path=path)
-        show_progress = {"show": watched_show["show"], **data}
+        show_progress = {
+            "show": watched_show["show"],
+            "progress": data,
+        }
         shows.append(show_progress)
 
     _write_json(output_path, shows)
