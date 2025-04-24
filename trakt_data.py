@@ -1346,6 +1346,7 @@ def cache_stats(
 
     mean_age = sum(ages) / len(ages)
     median_age = ages[len(ages) // 2]
+    p75_age = ages[int(len(ages) * 0.75)]
     p95_age = ages[int(len(ages) * 0.95)]
     p99_age = ages[int(len(ages) * 0.99)]
     min_age = ages[0]
@@ -1353,6 +1354,7 @@ def cache_stats(
 
     click.echo(f"mean age: {timedelta(seconds=int(mean_age))}")
     click.echo(f"median age: {timedelta(seconds=int(median_age))}")
+    click.echo(f"75th percentile age: {timedelta(seconds=int(p75_age))}")
     click.echo(f"95th percentile age: {timedelta(seconds=int(p95_age))}")
     click.echo(f"99th percentile age: {timedelta(seconds=int(p99_age))}")
     click.echo(f"min age: {timedelta(seconds=int(min_age))}")
