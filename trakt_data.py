@@ -1238,11 +1238,17 @@ def _parse_abs_limit(limit: str, total: int) -> int:
     return int(limit)
 
 
-def _weighted_shuffle(values: list[float]) -> list[int]:
+def _weighted_shuffle(values: list[float], limit: int) -> list[int]:
     weights = [1.0 / v for v in values]
     randomized_weights = [(w * random.random(), i) for i, w in enumerate(weights)]
+
     randomized_weights.sort(reverse=True)
-    return [i for _, i in randomized_weights]
+    indices = [i for _, i in randomized_weights]
+
+    if len(indices) <= limit:
+        return indices
+    else:
+        return indices[:limit]
 
 
 @main.command()
@@ -1297,23 +1303,22 @@ def prune_cache(
         return
 
     limit_abs = _parse_abs_limit(limit, len(files))
-    expired_files = [
-        files[i] for i in _weighted_shuffle([f[2] for f in files])[:limit_abs]
-    ]
-    assert len(expired_files) <= limit_abs
+    expired_indices = _weighted_shuffle([f[2] for f in files], limit=limit_abs)
+    assert len(expired_indices) <= limit_abs
 
-    if len(expired_files) == 0:
+    if len(expired_indices) == 0:
         logger.info("No cache files to prune")
         return
 
     logger.info(
         "Pruning %.2f%% of cache, %d/%d files",
-        len(expired_files) / len(files) * 100,
-        len(expired_files),
+        len(expired_indices) / len(files) * 100,
+        len(expired_indices),
         len(files),
     )
 
-    for file, mtime, age in expired_files:
+    for idx in expired_indices:
+        file, mtime, age = files[idx]
         age_dt = timedelta(seconds=int(age))
         logger.info("Prune '%s' (%s, %s)", file, mtime, age_dt)
         if not dry_run:
