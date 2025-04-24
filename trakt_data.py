@@ -538,6 +538,20 @@ def _last_hidden_at_activities(activities: ExportLastActivities) -> datetime:
     )
 
 
+def _last_watched_at_activities(activities: ExportLastActivities) -> datetime:
+    return max(
+        datetime.fromisoformat(activities["movies"]["watched_at"]),
+        datetime.fromisoformat(activities["episodes"]["watched_at"]),
+    )
+
+
+def _last_paused_at_activities(activities: ExportLastActivities) -> datetime:
+    return max(
+        datetime.fromisoformat(activities["movies"]["paused_at"]),
+        datetime.fromisoformat(activities["episodes"]["paused_at"]),
+    )
+
+
 def _activities_outdated_paths(
     data_path: Path,
     old_activities: ExportLastActivities | None,
@@ -586,9 +600,19 @@ def _activities_outdated_paths(
     _mark_path(data_path / "user" / "last-activities.json", activities_fresh)
     _mark_path(data_path / "user" / "stats.json", activities_fresh)
 
-    # TODO: Just using "all" for now
-    _mark_path(data_path / "watched" / "history.json", activities_fresh)
-    _mark_path(data_path / "watched" / "playback.json", activities_fresh)
+    history_fresh = False
+    if old_activities:
+        history_fresh = _last_watched_at_activities(
+            new_activities
+        ) >= _last_watched_at_activities(old_activities)
+    _mark_path(data_path / "watched" / "history.json", history_fresh)
+
+    playback_fresh = False
+    if old_activities:
+        playback_fresh = _last_paused_at_activities(
+            new_activities
+        ) >= _last_paused_at_activities(old_activities)
+    _mark_path(data_path / "watched" / "playback.json", playback_fresh)
 
     for namespace_key, activity_key, path in exports:
         fresh = False
