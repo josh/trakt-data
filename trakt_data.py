@@ -1240,15 +1240,17 @@ def _parse_abs_limit(limit: str, total: int) -> int:
 
 def _weighted_shuffle(values: list[float], limit: int) -> list[int]:
     weights = [1.0 / v for v in values]
-    randomized_weights = [(w * random.random(), i) for i, w in enumerate(weights)]
+    total = sum(weights)
+    assert total > 0
+
+    normalized_weights = [w / total for w in weights]
+    randomized_weights = [
+        (w * random.random(), i) for i, w in enumerate(normalized_weights)
+    ]
 
     randomized_weights.sort(reverse=True)
     indices = [i for _, i in randomized_weights]
-
-    if len(indices) <= limit:
-        return indices
-    else:
-        return indices[:limit]
+    return indices if len(indices) <= limit else indices[:limit]
 
 
 @main.command()
@@ -1317,6 +1319,7 @@ def prune_cache(
         len(files),
     )
 
+    expired_indices.sort()
     for idx in expired_indices:
         file, mtime, age = files[idx]
         age_dt = timedelta(seconds=int(age))
