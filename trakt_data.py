@@ -1315,7 +1315,7 @@ def prune_cache(
 
     for file, mtime, age in expired_files:
         age_dt = timedelta(seconds=int(age))
-        logger.info("Expiring '%s' (%s, %s)", file, mtime, age_dt)
+        logger.info("Prune '%s' (%s, %s)", file, mtime, age_dt)
         if not dry_run:
             file.unlink()
 
