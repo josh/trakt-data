@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import random
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Literal, TypedDict, TypeVar, cast
@@ -17,6 +18,7 @@ logger = logging.getLogger("trakt-data")
 T = TypeVar("T")
 
 _FUTURE_YEAR = 3000
+_NOW: float = time.time()
 
 _TRAKT_API_HEADERS = {
     "Content-Type": "application/json",
@@ -1326,6 +1328,36 @@ def prune_cache(
         logger.info("Prune '%s' (%s, %s)", file, mtime, age_dt)
         if not dry_run:
             file.unlink()
+
+
+@main.command()
+@click.option(
+    "--cache-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=False,
+    default=_default_cache_dir(),
+    show_default=True,
+)
+def cache_stats(
+    cache_dir: Path,
+) -> None:
+    ages = [_NOW - file.stat().st_mtime for file in cache_dir.glob("**/*.json")]
+    ages.sort()
+
+    mean_age = sum(ages) / len(ages)
+    median_age = ages[len(ages) // 2]
+    p95_age = ages[int(len(ages) * 0.95)]
+    p99_age = ages[int(len(ages) * 0.99)]
+    min_age = ages[0]
+    max_age = ages[-1]
+
+    click.echo(f"mean age: {timedelta(seconds=int(mean_age))}")
+    click.echo(f"median age: {timedelta(seconds=int(median_age))}")
+    click.echo(f"95th percentile age: {timedelta(seconds=int(p95_age))}")
+    click.echo(f"99th percentile age: {timedelta(seconds=int(p99_age))}")
+    click.echo(f"min age: {timedelta(seconds=int(min_age))}")
+    click.echo(f"max age: {timedelta(seconds=int(max_age))}")
+    click.echo(f"total files: {len(ages)}")
 
 
 @main.command()

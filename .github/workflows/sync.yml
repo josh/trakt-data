@@ -93,6 +93,12 @@ jobs:
           restore-keys: |
             cache-
 
+      - name: Print cache stats
+        run: |
+          uv run trakt-data cache-stats
+        env:
+          XDG_CACHE_HOME: .cache/
+
       - name: Prune cache
         run: |
           uv run trakt-data prune-cache
