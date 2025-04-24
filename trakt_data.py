@@ -207,6 +207,17 @@ class Show(TypedDict):
     ids: ShowIDs
 
 
+class SeasonIDs(TypedDict):
+    trakt: int
+    tvdb: int
+    tmdb: int
+
+
+class Season(TypedDict):
+    number: int
+    ids: SeasonIDs
+
+
 class ShowExtended(TypedDict):
     title: str
     year: int
@@ -219,6 +230,8 @@ class ShowExtended(TypedDict):
     updated_at: str
     language: str
     aired_episodes: int
+    # Non-standard fields
+    seasons: list[Season]
 
 
 class EpisodeExtended(TypedDict):
@@ -1014,9 +1027,16 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
     )
 
     if output_path.exists():
-        return _read_json_data(output_path, ShowExtended)
+        cached_data = _read_json_data(output_path, ShowExtended)
+        # TODO: Remove this after migrating caches
+        if "seasons" in cached_data:
+            return cached_data
+        else:
+            logger.warning("Cached show data is missing seasons: %s", output_path)
 
     data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}", params={"extended": "full"})
+    seasons_data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}/seasons")
+    data["seasons"] = seasons_data
     mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
     _write_json(output_path, data, mtime=mtime)
     return cast(ShowExtended, data)
