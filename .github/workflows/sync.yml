@@ -30,12 +30,6 @@ jobs:
         with:
           ref: "data"
           path: "data"
-          fetch-depth: 0
-
-      - name: Restore git mtimes
-        run: |
-          curl https://raw.githubusercontent.com/MestreLion/git-tools/669837eb02f78a75ed250c5d670d9bd7bfc5a51b/git-restore-mtime | python3 -
-        working-directory: data/
 
       - uses: astral-sh/setup-uv@v5
 
@@ -98,6 +92,18 @@ jobs:
           key: cache-${{ github.run_id }}
           restore-keys: |
             cache-
+
+      - name: Fix cache mtimes
+        run: |
+          uv run trakt-data fix-mtimes
+        env:
+          XDG_CACHE_HOME: .cache/
+
+      - name: Prune cache
+        run: |
+          uv run trakt-data prune-cache --min-age=1d --limit=1%
+        env:
+          XDG_CACHE_HOME: .cache/
 
       - name: Export metrics
         run: |

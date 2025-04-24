@@ -405,23 +405,6 @@ def _default_cache_dir() -> Path:
     return _xdg_cache_home() / "trakt-data"
 
 
-def _weighted_shuffle(files: list[Path]) -> list[Path]:
-    now = datetime.now(tz=timezone.utc)
-
-    ages: dict[Path, timedelta] = {
-        file: now - datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
-        for file in files
-    }
-    file_weights: dict[Path, float] = {
-        file: 1.0 / (1.0 + (ages[file] / timedelta(days=1))) for file in files
-    }
-
-    def random_key(file: Path) -> float:
-        return float(random.random() ** (1.0 / max(file_weights[file], 0.0001)))
-
-    return sorted(files, key=random_key, reverse=True)
-
-
 class ExportContext(Context):
     exclude_paths: list[Path]
     fresh_paths: list[Path]
@@ -443,37 +426,6 @@ class ExportContext(Context):
 
 class MetricsContext(Context):
     cache_dir: Path
-    expired_data_files: set[Path]
-
-    def _compute_expired_media_files(
-        self,
-        cache_path: Path,
-        limit: int = 100,
-        min_media_age: timedelta = timedelta(days=1),
-    ) -> set[Path]:
-        min_media_mtime = datetime.now(tz=timezone.utc) - min_media_age
-
-        files = []
-        for file in cache_path.glob("**/*.json"):
-            mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
-            if mtime < min_media_mtime:
-                files.append(file)
-
-        expired_files = _weighted_shuffle(files)[:limit]
-
-        if len(files) > 0:
-            logger.info(
-                "Expired media files: %d/%d (%.2f%%)",
-                len(expired_files),
-                len(files),
-                len(expired_files) / len(files) * 100,
-            )
-
-        for file in expired_files:
-            mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=timezone.utc)
-            logger.debug("Expiring '%s' (modified %s)", file, mtime)
-
-        return set(expired_files)
 
     def __init__(
         self,
@@ -482,12 +434,6 @@ class MetricsContext(Context):
         cache_dir: Path,
     ) -> None:
         self.cache_dir = cache_dir
-        cache_dir.mkdir(parents=True, exist_ok=True)
-
-        self.expired_data_files = self._compute_expired_media_files(
-            cache_path=cache_dir
-        )
-
         super().__init__(session, output_dir)
 
 
@@ -1025,7 +971,7 @@ def _export_media_movie(ctx: MetricsContext, trakt_id: int) -> MovieExtended:
         suffix=".json",
     )
 
-    if output_path.exists() and output_path not in ctx.expired_data_files:
+    if output_path.exists():
         return _read_json_data(output_path, MovieExtended)
 
     data = _trakt_api_get(ctx, path=f"/movies/{trakt_id}", params={"extended": "full"})
@@ -1041,7 +987,7 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
         suffix=".json",
     )
 
-    if output_path.exists() and output_path not in ctx.expired_data_files:
+    if output_path.exists():
         return _read_json_data(output_path, ShowExtended)
 
     data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}", params={"extended": "full"})
@@ -1063,7 +1009,7 @@ def _export_media_episode(
         suffix=".json",
     )
 
-    if output_path.exists() and output_path not in ctx.expired_data_files:
+    if output_path.exists():
         return _read_json_data(output_path, EpisodeExtended)
 
     data = _trakt_api_get(
@@ -1276,6 +1222,140 @@ def metrics(
 
     metrics_path: str = str(output_dir / "metrics.prom")
     write_to_textfile(metrics_path, _REGISTRY)
+
+
+def _parse_timedelta(value: str) -> timedelta:
+    if value == "" or value == "0":
+        return timedelta(days=0)
+    elif value.endswith("d"):
+        return timedelta(days=int(value[:-1]))
+    raise ValueError(f"Invalid time delta: {value}")
+
+
+def _parse_abs_limit(limit: str, total: int) -> int:
+    if limit.endswith("%"):
+        return int(total * float(limit[:-1]) / 100)
+    return int(limit)
+
+
+def _weighted_shuffle(values: list[float]) -> list[int]:
+    weights = [1.0 / v for v in values]
+    randomized_weights = [(w * random.random(), i) for i, w in enumerate(weights)]
+    randomized_weights.sort(reverse=True)
+    return [i for _, i in randomized_weights]
+
+
+@main.command()
+@click.option(
+    "--cache-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=False,
+    default=_default_cache_dir(),
+    show_default=True,
+)
+@click.option(
+    "--min-age",
+    type=str,
+    default="1d",
+    show_default=True,
+)
+@click.option(
+    "--limit",
+    type=str,
+    default="1%",
+    show_default=True,
+)
+@click.option(
+    "--dry-run",
+    is_flag=True,
+    default=False,
+    show_default=True,
+)
+def prune_cache(
+    cache_dir: Path,
+    min_age: str,
+    limit: str,
+    dry_run: bool,
+) -> None:
+    now = datetime.now()
+    min_mtime: datetime = now - _parse_timedelta(min_age)
+    files: list[tuple[Path, datetime, float]] = []
+
+    for file in cache_dir.glob("**/*.json"):
+        mtime = datetime.fromtimestamp(file.stat().st_mtime)
+        age = (now - mtime).total_seconds()
+        assert age > 0
+        if mtime < min_mtime:
+            files.append((file, mtime, age))
+
+    files.sort(key=lambda f: f[2])
+
+    if len(files) == 0:
+        logger.info("Cache is empty")
+        return
+
+    limit_abs = _parse_abs_limit(limit, len(files))
+    expired_files = [
+        files[i] for i in _weighted_shuffle([f[2] for f in files])[:limit_abs]
+    ]
+    assert len(expired_files) <= limit_abs
+
+    if len(expired_files) == 0:
+        logger.info("No cache files to prune")
+        return
+
+    logger.info(
+        "Pruning %.2f%% of cache, %d/%d files",
+        len(expired_files) / len(files) * 100,
+        len(expired_files),
+        len(files),
+    )
+
+    for file, mtime, age in expired_files:
+        age_dt = timedelta(seconds=int(age))
+        logger.info("Expiring '%s' (%s, %s)", file, mtime, age_dt)
+        if not dry_run:
+            file.unlink()
+
+
+@main.command()
+@click.option(
+    "--cache-dir",
+    type=click.Path(writable=True, file_okay=False, dir_okay=True, path_type=Path),
+    required=False,
+    default=_default_cache_dir(),
+    show_default=True,
+)
+@click.option(
+    "--dry-run",
+    is_flag=True,
+    default=False,
+    show_default=True,
+)
+def fix_mtimes(
+    cache_dir: Path,
+    dry_run: bool,
+) -> None:
+    for file in cache_dir.glob("**/*.json"):
+        data = json.loads(file.read_text())
+        if not isinstance(data, dict):
+            logger.warning("File '%s' is not a dictionary", file)
+            continue
+        if "updated_at" not in data:
+            logger.warning("File '%s' is missing 'updated_at' key", file)
+            continue
+        actual_mtime = file.stat().st_mtime
+        expected_mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+        if actual_mtime == expected_mtime:
+            continue
+        if not dry_run:
+            logger.warning(
+                "Fixing '%s' (actual: %s, expected: %s)",
+                file,
+                datetime.fromtimestamp(actual_mtime),
+                datetime.fromtimestamp(expected_mtime),
+            )
+            os.utime(file, (expected_mtime, expected_mtime))
 
 
 if __name__ == "__main__":
