@@ -93,12 +93,6 @@ jobs:
           restore-keys: |
             cache-
 
-      - name: Fix cache mtimes
-        run: |
-          uv run trakt-data fix-mtimes
-        env:
-          XDG_CACHE_HOME: .cache/
-
       - name: Prune cache
         run: |
           uv run trakt-data prune-cache
