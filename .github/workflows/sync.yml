@@ -101,8 +101,10 @@ jobs:
 
       - name: Prune cache
         run: |
-          uv run trakt-data prune-cache --min-age=1d --limit=1%
+          uv run trakt-data prune-cache
         env:
+          TRAKT_DATA_CACHE_LIMIT: ${{ vars.TRAKT_DATA_CACHE_LIMIT }}
+          TRAKT_DATA_CACHE_MIN_AGE: ${{ vars.TRAKT_DATA_CACHE_MIN_AGE }}
           XDG_CACHE_HOME: .cache/
 
       - name: Export metrics

@@ -1256,12 +1256,14 @@ def _weighted_shuffle(values: list[float]) -> list[int]:
 @click.option(
     "--min-age",
     type=str,
+    envvar="TRAKT_DATA_CACHE_MIN_AGE",
     default="1d",
     show_default=True,
 )
 @click.option(
     "--limit",
     type=str,
+    envvar="TRAKT_DATA_CACHE_LIMIT",
     default="1%",
     show_default=True,
 )
