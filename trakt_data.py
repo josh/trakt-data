@@ -192,6 +192,13 @@ class ExportUserProfile(TypedDict):
     vip_years: int
 
 
+class MovieIDs(TypedDict):
+    trakt: int
+    slug: str
+    imdb: str
+    tmdb: int
+
+
 class ShowIDs(TypedDict):
     trakt: int
     slug: str
@@ -201,16 +208,24 @@ class ShowIDs(TypedDict):
     tvrage: int | None
 
 
-class Show(TypedDict):
-    title: str
-    year: int
-    ids: ShowIDs
-
-
 class SeasonIDs(TypedDict):
     trakt: int
     tvdb: int
     tmdb: int
+
+
+class EpisodeIDs(TypedDict):
+    trakt: int
+    tvdb: int
+    imdb: str | None
+    tmdb: int
+    tvrage: int | None
+
+
+class Show(TypedDict):
+    title: str
+    year: int
+    ids: ShowIDs
 
 
 class Season(TypedDict):
@@ -238,18 +253,27 @@ class EpisodeExtended(TypedDict):
     season: int
     number: int
     title: str
-    ids: "EpisodeIDs"
+    ids: EpisodeIDs
     first_aired: str
     updated_at: str
     runtime: int
     episode_type: str
 
 
-class MovieIDs(TypedDict):
-    trakt: int
-    slug: str
-    imdb: str
-    tmdb: int
+class Episode(TypedDict):
+    season: int
+    number: int
+    title: str
+    ids: EpisodeIDs
+
+
+class SeasonExtended(TypedDict):
+    number: int
+    ids: SeasonIDs
+    first_aired: str
+    updated_at: str
+    # Non-standard fields
+    episodes: list[Episode]
 
 
 class Movie(TypedDict):
@@ -268,21 +292,6 @@ class MovieExtended(TypedDict):
     status: str
     updated_at: str
     language: str
-
-
-class Episode(TypedDict):
-    season: int
-    number: int
-    title: str
-    ids: "EpisodeIDs"
-
-
-class EpisodeIDs(TypedDict):
-    trakt: int
-    tvdb: int
-    imdb: str | None
-    tmdb: int
-    tvrage: int | None
 
 
 class ListIDs(TypedDict):
@@ -1037,6 +1046,88 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
     return cast(ShowExtended, data)
 
 
+def _load_cached_media_season(
+    ctx: MetricsContext,
+    trakt_id: int,
+) -> SeasonExtended | None:
+    output_path = partition_filename(
+        basedir=ctx.cache_dir / "media" / "seasons",
+        id=trakt_id,
+        suffix=".json",
+    )
+    if output_path.exists():
+        return _read_json_data(output_path, SeasonExtended)
+    return None
+
+
+def _fetch_media_season(
+    ctx: MetricsContext,
+    show_trakt_id: int,
+    season_number: int,
+) -> SeasonExtended:
+    data = _trakt_api_get(
+        ctx,
+        path=f"/shows/{show_trakt_id}/seasons/{season_number}/info",
+        params={"extended": "full"},
+    )
+    episodes_data = _trakt_api_get(
+        ctx,
+        path=f"/shows/{show_trakt_id}/seasons/{season_number}",
+    )
+    data["episodes"] = episodes_data
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    output_path = partition_filename(
+        basedir=ctx.cache_dir / "media" / "seasons",
+        id=data["ids"]["trakt"],
+        suffix=".json",
+    )
+    _write_json(output_path, data, mtime=mtime)
+    return cast(SeasonExtended, data)
+
+
+def _export_media_season(
+    ctx: MetricsContext,
+    show_trakt_id: int,
+    season_trakt_id: int,
+    season_number: int,
+) -> SeasonExtended:
+    if season := _load_cached_media_season(ctx, season_trakt_id):
+        return season
+    return _fetch_media_season(
+        ctx,
+        show_trakt_id=show_trakt_id,
+        season_number=season_number,
+    )
+
+
+def _export_media_season2(
+    ctx: MetricsContext,
+    show: ShowExtended,
+    season_number: int,
+) -> SeasonExtended:
+    season_trakt_id: int | None = None
+    for season in show["seasons"]:
+        if season["number"] == season_number:
+            season_trakt_id = season["ids"]["trakt"]
+            break
+
+    if season_trakt_id:
+        if extended_season := _load_cached_media_season(ctx, season_trakt_id):
+            return extended_season
+    else:
+        logger.warning(
+            "Season #%d not found in show '%s'",
+            season_number,
+            show["title"],
+        )
+
+    return _fetch_media_season(
+        ctx,
+        show_trakt_id=show["ids"]["trakt"],
+        season_number=season_number,
+    )
+
+
 def _export_media_episode(
     ctx: MetricsContext,
     trakt_id: int,
@@ -1089,13 +1180,27 @@ def _generate_collection_metrics(ctx: MetricsContext, data_path: Path) -> None:
         data_path / "collection" / "collection-shows.json", list[CollectedShow]
     )
     for collected_show in shows_collection:
-        trakt_id = collected_show["show"]["ids"]["trakt"]
-        show = _export_media_show(ctx, trakt_id=trakt_id)
-        year_str = str(show["year"] or _FUTURE_YEAR)
+        show_trakt_id = collected_show["show"]["ids"]["trakt"]
+        show = _export_media_show(ctx, trakt_id=show_trakt_id)
+        show_year_str = str(show["year"] or _FUTURE_YEAR)
         _TRAKT_COLLECTION_COUNT.labels(
             media_type="show",
-            year=year_str,
+            year=show_year_str,
         ).inc()
+
+        for collected_season in collected_show["seasons"]:
+            season = _export_media_season2(
+                ctx,
+                show=show,
+                season_number=collected_season["number"],
+            )
+            # TODO: Remove these checks
+            if season is None:
+                logger.warning(
+                    "Season #%d not found in show '%s'",
+                    collected_season["number"],
+                    show["title"],
+                )
 
 
 def _generate_ratings_metrics(ctx: MetricsContext, data_path: Path) -> None:
