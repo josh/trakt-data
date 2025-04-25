@@ -1,6 +1,7 @@
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import cast
+from typing import Literal, cast
 
 import requests
 from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
@@ -13,6 +14,7 @@ from .trakt import (
     EpisodeExtended,
     EpisodeRating,
     HistoryItem,
+    List,
     ListItem,
     MovieExtended,
     MovieRating,
@@ -22,8 +24,6 @@ from .trakt import (
     UserProfile,
     trakt_api_get,
 )
-
-_FUTURE_YEAR = 3000
 
 _REGISTRY = CollectorRegistry()
 
@@ -41,6 +41,20 @@ _TRAKT_COLLECTION_COUNT = Gauge(
     registry=_REGISTRY,
 )
 
+_TRAKT_LIST_COUNT = Gauge(
+    "trakt_list_count",
+    documentation="Number of items in Trakt lists",
+    labelnames=["list", "media_type", "year"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_LIST_MINUTES = Gauge(
+    "trakt_list_minutes",
+    documentation="Number of minutes in Trakt lists",
+    labelnames=["list", "media_type", "year"],
+    registry=_REGISTRY,
+)
+
 _TRAKT_RATINGS_COUNT = Gauge(
     "trakt_ratings_count",
     documentation="Number of items in Trakt ratings",
@@ -55,8 +69,8 @@ _TRAKT_WATCHED_COUNT = Gauge(
     registry=_REGISTRY,
 )
 
-_TRAKT_WATCHED_RUNTIME = Gauge(
-    "trakt_watched_runtime",
+_TRAKT_WATCHED_MINUTES = Gauge(
+    "trakt_watched_minutes",
     documentation="Number of minutes in Trakt watched",
     labelnames=["media_type", "year"],
     registry=_REGISTRY,
@@ -69,7 +83,7 @@ _TRAKT_WATCHLIST_COUNT = Gauge(
     registry=_REGISTRY,
 )
 
-_TRAKT_WATCHLIST_RUNTIME = Gauge(
+_TRAKT_WATCHLIST_MINUTES = Gauge(
     "trakt_watchlist_minutes",
     documentation="Number of minutes in Trakt watchlist",
     labelnames=["media_type", "status", "year"],
@@ -93,15 +107,6 @@ class Context:
         self.cache_dir = cache_dir
 
 
-def _episode_first_aired_year(
-    episode: EpisodeExtended, show: ShowExtended
-) -> int | None:
-    year = show.get("year")
-    if episode.get("first_aired"):
-        year = int(episode["first_aired"].split("-")[0])
-    return year
-
-
 def _partition_filename(basedir: Path, id: int, suffix: str) -> Path:
     id_str = str(id)
     if len(id_str) == 1:
@@ -111,111 +116,20 @@ def _partition_filename(basedir: Path, id: int, suffix: str) -> Path:
     return basedir / id_prefix / f"{id}{suffix}"
 
 
-def _fetch_media_episode(
+def _export_media_season(
     ctx: Context,
     show_trakt_id: int,
+    season_trakt_id: int,
     season_number: int,
-    episode_number: int,
-) -> EpisodeExtended:
-    data = trakt_api_get(
-        ctx.session,
-        path=f"/shows/{show_trakt_id}/seasons/{season_number}/episodes/{episode_number}",
-        params={"extended": "full"},
-    )
-    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
-    output_path = _partition_filename(
-        basedir=ctx.cache_dir / "media" / "episodes",
-        id=data["ids"]["trakt"],
-        suffix=".json",
-    )
-    write_json(output_path, data, mtime=mtime)
-    return cast(EpisodeExtended, data)
-
-
-def _load_cached_media_episode(
-    ctx: Context,
-    trakt_id: int,
-) -> EpisodeExtended | None:
-    output_path = _partition_filename(
-        basedir=ctx.cache_dir / "media" / "episodes",
-        id=trakt_id,
-        suffix=".json",
-    )
-    if output_path.exists():
-        return read_json_data(output_path, EpisodeExtended)
-    return None
-
-
-def _export_media_episode2(
-    ctx: Context,
-    show_trakt_id: int,
-    season: SeasonExtended,
-    episode_number: int,
-) -> EpisodeExtended:
-    episode_trakt_id: int | None = None
-    for episode in season["episodes"]:
-        if episode["number"] == episode_number:
-            episode_trakt_id = episode["ids"]["trakt"]
-            break
-
-    if episode_trakt_id:
-        if extended_episode := _load_cached_media_episode(ctx, episode_trakt_id):
-            return extended_episode
-    else:
-        logger.warning(
-            "Episode #%d not found in season #%d of show #%d",
-            episode_number,
-            season["number"],
-            show_trakt_id,
-        )
-
-    return _fetch_media_episode(
-        ctx,
-        show_trakt_id=show_trakt_id,
-        season_number=season["number"],
-        episode_number=episode_number,
-    )
-
-
-def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
-    output_path = _partition_filename(
-        basedir=ctx.cache_dir / "media" / "movies",
-        id=trakt_id,
-        suffix=".json",
-    )
-
-    if output_path.exists():
-        return read_json_data(output_path, MovieExtended)
-
-    data = trakt_api_get(
-        ctx.session,
-        path=f"/movies/{trakt_id}",
-        params={"extended": "full"},
-    )
-    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
-    write_json(output_path, data, mtime=mtime)
-    return cast(MovieExtended, data)
-
-
-def _load_cached_media_season(
-    ctx: Context,
-    trakt_id: int,
-) -> SeasonExtended | None:
+) -> SeasonExtended:
     output_path = _partition_filename(
         basedir=ctx.cache_dir / "media" / "seasons",
-        id=trakt_id,
+        id=season_trakt_id,
         suffix=".json",
     )
     if output_path.exists():
         return read_json_data(output_path, SeasonExtended)
-    return None
 
-
-def _fetch_media_season(
-    ctx: Context,
-    show_trakt_id: int,
-    season_number: int,
-) -> SeasonExtended:
     data = trakt_api_get(
         ctx.session,
         path=f"/shows/{show_trakt_id}/seasons/{season_number}/info",
@@ -227,41 +141,8 @@ def _fetch_media_season(
     )
     data["episodes"] = episodes_data
     mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
-    output_path = _partition_filename(
-        basedir=ctx.cache_dir / "media" / "seasons",
-        id=data["ids"]["trakt"],
-        suffix=".json",
-    )
     write_json(output_path, data, mtime=mtime)
     return cast(SeasonExtended, data)
-
-
-def _export_media_season2(
-    ctx: Context,
-    show: ShowExtended,
-    season_number: int,
-) -> SeasonExtended:
-    season_trakt_id: int | None = None
-    for season in show["seasons"]:
-        if season["number"] == season_number:
-            season_trakt_id = season["ids"]["trakt"]
-            break
-
-    if season_trakt_id:
-        if extended_season := _load_cached_media_season(ctx, season_trakt_id):
-            return extended_season
-    else:
-        logger.warning(
-            "Season #%d not found in show '%s'",
-            season_number,
-            show["title"],
-        )
-
-    return _fetch_media_season(
-        ctx,
-        show_trakt_id=show["ids"]["trakt"],
-        season_number=season_number,
-    )
 
 
 def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
@@ -270,7 +151,6 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
         id=trakt_id,
         suffix=".json",
     )
-
     if output_path.exists():
         return read_json_data(output_path, ShowExtended)
 
@@ -286,17 +166,201 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
     return cast(ShowExtended, data)
 
 
+def _resolve_episode_trakt_id(
+    ctx: Context,
+    show_trakt_id: int,
+    season_number: int,
+    episode_number: int,
+) -> int | None:
+    show = _export_media_show(ctx, show_trakt_id)
+
+    season_trakt_id: int | None = None
+    for season in show["seasons"]:
+        if season["number"] == season_number:
+            season_trakt_id = season["ids"]["trakt"]
+            break
+
+    if season_trakt_id is None:
+        logger.warning(
+            "'%s' missing S%d",
+            show["title"],
+            season_number,
+        )
+        return None
+
+    season = _export_media_season(
+        ctx,
+        show_trakt_id=show_trakt_id,
+        season_trakt_id=season_trakt_id,
+        season_number=season_number,
+    )
+
+    episode_trakt_id: int | None = None
+    for episode in season["episodes"]:
+        if episode["number"] == episode_number:
+            episode_trakt_id = episode["ids"]["trakt"]
+            break
+
+    if episode_trakt_id is None:
+        logger.warning(
+            "'%s' missing S%dE%d",
+            show["title"],
+            season_number,
+            episode_number,
+        )
+        return None
+
+    return episode_trakt_id
+
+
+def _export_media_episode(
+    ctx: Context,
+    episode_trakt_id: int | None,
+    show_trakt_id: int,
+    season_number: int,
+    episode_number: int,
+) -> EpisodeExtended:
+    if not episode_trakt_id:
+        episode_trakt_id = _resolve_episode_trakt_id(
+            ctx,
+            show_trakt_id=show_trakt_id,
+            season_number=season_number,
+            episode_number=episode_number,
+        )
+
+    if episode_trakt_id:
+        output_path = _partition_filename(
+            basedir=ctx.cache_dir / "media" / "episodes",
+            id=episode_trakt_id,
+            suffix=".json",
+        )
+        if output_path.exists():
+            return read_json_data(output_path, EpisodeExtended)
+
+    data = trakt_api_get(
+        ctx.session,
+        path=f"/shows/{show_trakt_id}/seasons/{season_number}/episodes/{episode_number}",
+        params={"extended": "full"},
+    )
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    output_path = _partition_filename(
+        basedir=ctx.cache_dir / "media" / "episodes",
+        id=data["ids"]["trakt"],
+        suffix=".json",
+    )
+    write_json(output_path, data, mtime=mtime)
+    return cast(EpisodeExtended, data)
+
+
+def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
+    output_path = _partition_filename(
+        basedir=ctx.cache_dir / "media" / "movies",
+        id=trakt_id,
+        suffix=".json",
+    )
+    if output_path.exists():
+        return read_json_data(output_path, MovieExtended)
+
+    data = trakt_api_get(
+        ctx.session,
+        path=f"/movies/{trakt_id}",
+        params={"extended": "full"},
+    )
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    write_json(output_path, data, mtime=mtime)
+    return cast(MovieExtended, data)
+
+
+@dataclass
+class MetricInfo:
+    type: Literal["movie", "show", "episode"]
+    status: str
+    year: str
+    runtime: int
+
+
+_FUTURE_YEAR = 3000
+
+
+def _fetch_movie_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
+    movie = _export_media_movie(ctx, trakt_id=trakt_id)
+
+    status = "unknown"
+    if movie["status"]:
+        status = movie["status"]
+
+    year: str = str(_FUTURE_YEAR)
+    if movie["year"]:
+        year = str(movie["year"])
+
+    runtime: int = 0
+    if movie["runtime"]:
+        runtime = movie["runtime"]
+
+    return MetricInfo(type="movie", status=status, year=year, runtime=runtime)
+
+
+def _fetch_show_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
+    show = _export_media_show(ctx, trakt_id=trakt_id)
+
+    status = "unknown"
+    if show["status"]:
+        status = show["status"]
+
+    year: str = str(_FUTURE_YEAR)
+    if show["year"]:
+        year = str(show["year"])
+
+    runtime: int = 0
+    if show["runtime"] and show["aired_episodes"]:
+        runtime = show["runtime"] * show["aired_episodes"]
+
+    return MetricInfo(type="show", status=status, year=year, runtime=runtime)
+
+
+def _fetch_episode_metric_info(
+    ctx: Context,
+    show_trakt_id: int,
+    episode_trakt_id: int | None,
+    season_number: int,
+    episode_number: int,
+) -> MetricInfo:
+    show = _export_media_show(ctx, show_trakt_id)
+    episode = _export_media_episode(
+        ctx,
+        show_trakt_id=show_trakt_id,
+        episode_trakt_id=episode_trakt_id,
+        season_number=season_number,
+        episode_number=episode_number,
+    )
+
+    status = "unknown"
+    if show["status"]:
+        status = show["status"]
+
+    year: str = str(_FUTURE_YEAR)
+    if show["year"]:
+        year = str(show["year"])
+    if episode["first_aired"]:
+        year = str(int(episode["first_aired"].split("-")[0]))
+
+    runtime: int = 0
+    if episode["runtime"]:
+        runtime = episode["runtime"]
+
+    return MetricInfo(type="episode", status=status, year=year, runtime=runtime)
+
+
 def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
     movies_collection = read_json_data(
         data_path / "collection" / "collection-movies.json", list[CollectedMovie]
     )
     for collected_movie in movies_collection:
         trakt_id = collected_movie["movie"]["ids"]["trakt"]
-        movie = _export_media_movie(ctx, trakt_id=trakt_id)
-        year_str = str(movie["year"] or _FUTURE_YEAR)
+        info = _fetch_movie_metric_info(ctx, trakt_id)
         _TRAKT_COLLECTION_COUNT.labels(
             media_type="movie",
-            year=year_str,
+            year=info.year,
         ).inc()
 
     shows_collection = read_json_data(
@@ -304,66 +368,26 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
     )
     for collected_show in shows_collection:
         show_trakt_id = collected_show["show"]["ids"]["trakt"]
-        show = _export_media_show(ctx, trakt_id=show_trakt_id)
-        show_year_str = str(show["year"] or _FUTURE_YEAR)
+        info = _fetch_show_metric_info(ctx, trakt_id=show_trakt_id)
         _TRAKT_COLLECTION_COUNT.labels(
             media_type="show",
-            year=show_year_str,
+            year=info.year,
         ).inc()
 
         for collected_season in collected_show["seasons"]:
-            season = _export_media_season2(
-                ctx,
-                show=show,
-                season_number=collected_season["number"],
-            )
             for collected_episode in collected_season["episodes"]:
-                episode = _export_media_episode2(
+                info2 = _fetch_episode_metric_info(
                     ctx,
-                    show_trakt_id=show["ids"]["trakt"],
-                    season=season,
+                    show_trakt_id=show_trakt_id,
+                    episode_trakt_id=None,
+                    season_number=collected_season["number"],
                     episode_number=collected_episode["number"],
                 )
-                episode_year_str = str(
-                    _episode_first_aired_year(episode, show) or _FUTURE_YEAR
-                )
-                _TRAKT_COLLECTION_COUNT.labels(
-                    media_type="episode",
-                    year=episode_year_str,
-                ).inc()
-
-
-def _export_media_episode(
-    ctx: Context,
-    trakt_id: int,
-    show_trakt_id: int,
-    season: int,
-    number: int,
-) -> EpisodeExtended:
-    if episode := _load_cached_media_episode(ctx, trakt_id):
-        return episode
-
-    return _fetch_media_episode(
-        ctx,
-        show_trakt_id=show_trakt_id,
-        season_number=season,
-        episode_number=number,
-    )
-
-
-def _export_media_season(
-    ctx: Context,
-    show_trakt_id: int,
-    season_trakt_id: int,
-    season_number: int,
-) -> SeasonExtended:
-    if season := _load_cached_media_season(ctx, season_trakt_id):
-        return season
-    return _fetch_media_season(
-        ctx,
-        show_trakt_id=show_trakt_id,
-        season_number=season_number,
-    )
+                if info2:
+                    _TRAKT_COLLECTION_COUNT.labels(
+                        media_type="episode",
+                        year=info2.year,
+                    ).inc()
 
 
 def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
@@ -371,36 +395,28 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
         data_path / "ratings" / "ratings-episodes.json", list[EpisodeRating]
     )
     for episode_rating in episode_ratings:
-        episode = _export_media_episode(
+        info = _fetch_episode_metric_info(
             ctx,
-            trakt_id=episode_rating["episode"]["ids"]["trakt"],
             show_trakt_id=episode_rating["show"]["ids"]["trakt"],
-            season=episode_rating["episode"]["season"],
-            number=episode_rating["episode"]["number"],
+            episode_trakt_id=episode_rating["episode"]["ids"]["trakt"],
+            season_number=episode_rating["episode"]["season"],
+            episode_number=episode_rating["episode"]["number"],
         )
-        show = _export_media_show(
-            ctx,
-            trakt_id=episode_rating["show"]["ids"]["trakt"],
-        )
-        year_str = str(_episode_first_aired_year(episode, show) or _FUTURE_YEAR)
-        rating_str = str(episode_rating["rating"])
         _TRAKT_RATINGS_COUNT.labels(
             media_type="episode",
-            year=year_str,
-            rating=rating_str,
+            year=info.year,
+            rating=str(episode_rating["rating"]),
         ).inc()
 
     movie_ratings = read_json_data(
         data_path / "ratings" / "ratings-movies.json", list[MovieRating]
     )
     for movie_rating in movie_ratings:
-        movie = _export_media_movie(ctx, trakt_id=movie_rating["movie"]["ids"]["trakt"])
-        year_str = str(movie["year"] or _FUTURE_YEAR)
-        rating_str = str(movie_rating["rating"])
+        info = _fetch_movie_metric_info(ctx, movie_rating["movie"]["ids"]["trakt"])
         _TRAKT_RATINGS_COUNT.labels(
             media_type="movie",
-            year=year_str,
-            rating=rating_str,
+            year=info.year,
+            rating=str(movie_rating["rating"]),
         ).inc()
 
     # TODO: seasons
@@ -409,13 +425,11 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
         data_path / "ratings" / "ratings-shows.json", list[ShowRating]
     )
     for show_rating in show_ratings:
-        show = _export_media_show(ctx, trakt_id=show_rating["show"]["ids"]["trakt"])
-        year_str = str(show["year"] or _FUTURE_YEAR)
-        rating_str = str(show_rating["rating"])
+        info = _fetch_show_metric_info(ctx, show_rating["show"]["ids"]["trakt"])
         _TRAKT_RATINGS_COUNT.labels(
             media_type="show",
-            year=year_str,
-            rating=rating_str,
+            year=info.year,
+            rating=str(show_rating["rating"]),
         ).inc()
 
 
@@ -425,88 +439,89 @@ def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
     )
     for history_item in history_items:
         if history_item["type"] == "movie":
-            movie = _export_media_movie(
-                ctx, trakt_id=history_item["movie"]["ids"]["trakt"]
-            )
-            year_str = str(movie["year"] or _FUTURE_YEAR)
-            runtime = movie["runtime"]
-            _TRAKT_WATCHED_COUNT.labels(
-                media_type="movie",
-                year=year_str,
-            ).inc()
-            _TRAKT_WATCHED_RUNTIME.labels(
-                media_type="movie",
-                year=year_str,
-            ).inc(runtime)
+            info = _fetch_movie_metric_info(ctx, history_item["movie"]["ids"]["trakt"])
         elif history_item["type"] == "episode":
-            show = _export_media_show(
+            info = _fetch_episode_metric_info(
                 ctx,
-                trakt_id=history_item["show"]["ids"]["trakt"],
-            )
-            episode = _export_media_episode(
-                ctx,
-                trakt_id=history_item["episode"]["ids"]["trakt"],
                 show_trakt_id=history_item["show"]["ids"]["trakt"],
-                season=history_item["episode"]["season"],
-                number=history_item["episode"]["number"],
+                episode_trakt_id=history_item["episode"]["ids"]["trakt"],
+                season_number=history_item["episode"]["season"],
+                episode_number=history_item["episode"]["number"],
             )
-            year_str = str(_episode_first_aired_year(episode, show) or _FUTURE_YEAR)
-            runtime = episode["runtime"]
-            _TRAKT_WATCHED_COUNT.labels(
-                media_type="episode",
-                year=year_str,
+        else:
+            info = None
+            logger.warning("Unknown media type: %s", history_item["type"])
+            continue
+
+        _TRAKT_WATCHED_COUNT.labels(
+            media_type=info.type,
+            year=info.year,
+        ).inc()
+        _TRAKT_WATCHED_MINUTES.labels(
+            media_type=info.type,
+            year=info.year,
+        ).inc(info.runtime)
+
+
+def _generate_list_metrics(ctx: Context, data_path: Path) -> None:
+    lists = read_json_data(data_path / "lists" / "lists.json", list[List])
+
+    for lst in lists:
+        list_filename = f"list-{lst['ids']['trakt']}-{lst['ids']['slug']}.json"
+        list_path = data_path / "lists" / list_filename
+        list_items = read_json_data(list_path, list[ListItem])
+        for item in list_items:
+            if item["type"] == "movie":
+                info = _fetch_movie_metric_info(ctx, item["movie"]["ids"]["trakt"])
+            elif item["type"] == "show":
+                info = _fetch_show_metric_info(ctx, item["show"]["ids"]["trakt"])
+            else:
+                info = None
+                logger.warning("Unknown media type: %s", item["type"])
+                continue
+
+            _TRAKT_LIST_COUNT.labels(
+                list=lst["ids"]["slug"],
+                media_type=info.type,
+                year=info.year,
             ).inc()
-            _TRAKT_WATCHED_RUNTIME.labels(
-                media_type="episode",
-                year=year_str,
-            ).inc(runtime)
-
-
-def _compute_show_approx_runtime(show: ShowExtended) -> int:
-    return show["runtime"] * show["aired_episodes"]
+            _TRAKT_LIST_MINUTES.labels(
+                list=lst["ids"]["slug"],
+                media_type=info.type,
+                year=info.year,
+            ).inc(info.runtime)
 
 
 def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
     watchlist = read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
     for item in watchlist:
         if item["type"] == "movie":
-            trakt_id = item["movie"]["ids"]["trakt"]
-
-            movie = _export_media_movie(ctx, trakt_id=trakt_id)
-            status = movie["status"]
-            year_str = str(movie["year"] or _FUTURE_YEAR)
-            runtime = movie["runtime"]
-
-            _TRAKT_WATCHLIST_COUNT.labels(
-                media_type="movie",
-                status=status,
-                year=year_str,
-            ).inc()
-            _TRAKT_WATCHLIST_RUNTIME.labels(
-                media_type="movie",
-                status=status,
-                year=year_str,
-            ).inc(runtime)
+            info = _fetch_movie_metric_info(ctx, item["movie"]["ids"]["trakt"])
         elif item["type"] == "show":
-            trakt_id = item["show"]["ids"]["trakt"]
-
-            show = _export_media_show(ctx, trakt_id=trakt_id)
-            status = show["status"]
-            year_str = str(show["year"] or _FUTURE_YEAR)
-            runtime = _compute_show_approx_runtime(show)
-
-            _TRAKT_WATCHLIST_COUNT.labels(
-                media_type="show",
-                status=status,
-                year=year_str,
-            ).inc()
-            _TRAKT_WATCHLIST_RUNTIME.labels(
-                media_type="show",
-                status=status,
-                year=year_str,
-            ).inc(runtime)
+            info = _fetch_show_metric_info(ctx, item["show"]["ids"]["trakt"])
+        elif item["type"] == "episode":
+            info = _fetch_episode_metric_info(
+                ctx,
+                show_trakt_id=item["show"]["ids"]["trakt"],
+                episode_trakt_id=item["episode"]["ids"]["trakt"],
+                season_number=item["episode"]["season"],
+                episode_number=item["episode"]["number"],
+            )
         else:
+            info = None
             logger.warning("Unknown media type: %s", item["type"])
+            continue
+
+        _TRAKT_WATCHLIST_COUNT.labels(
+            media_type=info.type,
+            status=info.status,
+            year=info.year,
+        ).inc()
+        _TRAKT_WATCHLIST_MINUTES.labels(
+            media_type=info.type,
+            status=info.status,
+            year=info.year,
+        ).inc(info.runtime)
 
 
 def generate_metrics(
@@ -530,6 +545,7 @@ def generate_metrics(
 
     _generate_collection_metrics(ctx, data_dir)
     _generate_ratings_metrics(ctx, data_dir)
+    _generate_list_metrics(ctx, data_dir)
     _generate_watched_metrics(ctx, data_dir)
     _generate_watchlist_metrics(ctx, data_dir)
 
