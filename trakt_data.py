@@ -1128,6 +1128,41 @@ def _export_media_season2(
     )
 
 
+def _load_cached_media_episode(
+    ctx: MetricsContext,
+    trakt_id: int,
+) -> EpisodeExtended | None:
+    output_path = partition_filename(
+        basedir=ctx.cache_dir / "media" / "episodes",
+        id=trakt_id,
+        suffix=".json",
+    )
+    if output_path.exists():
+        return _read_json_data(output_path, EpisodeExtended)
+    return None
+
+
+def _fetch_media_episode(
+    ctx: MetricsContext,
+    show_trakt_id: int,
+    season_number: int,
+    episode_number: int,
+) -> EpisodeExtended:
+    data = _trakt_api_get(
+        ctx,
+        path=f"/shows/{show_trakt_id}/seasons/{season_number}/episodes/{episode_number}",
+        params={"extended": "full"},
+    )
+    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
+    output_path = partition_filename(
+        basedir=ctx.cache_dir / "media" / "episodes",
+        id=data["ids"]["trakt"],
+        suffix=".json",
+    )
+    _write_json(output_path, data, mtime=mtime)
+    return cast(EpisodeExtended, data)
+
+
 def _export_media_episode(
     ctx: MetricsContext,
     trakt_id: int,
@@ -1135,23 +1170,46 @@ def _export_media_episode(
     season: int,
     number: int,
 ) -> EpisodeExtended:
-    output_path = partition_filename(
-        basedir=ctx.cache_dir / "media" / "episodes",
-        id=trakt_id,
-        suffix=".json",
-    )
+    if episode := _load_cached_media_episode(ctx, trakt_id):
+        return episode
 
-    if output_path.exists():
-        return _read_json_data(output_path, EpisodeExtended)
-
-    data = _trakt_api_get(
+    return _fetch_media_episode(
         ctx,
-        path=f"/shows/{show_trakt_id}/seasons/{season}/episodes/{number}",
-        params={"extended": "full"},
+        show_trakt_id=show_trakt_id,
+        season_number=season,
+        episode_number=number,
     )
-    mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
-    _write_json(output_path, data, mtime=mtime)
-    return cast(EpisodeExtended, data)
+
+
+def _export_media_episode2(
+    ctx: MetricsContext,
+    show_trakt_id: int,
+    season: SeasonExtended,
+    episode_number: int,
+) -> EpisodeExtended:
+    episode_trakt_id: int | None = None
+    for episode in season["episodes"]:
+        if episode["number"] == episode_number:
+            episode_trakt_id = episode["ids"]["trakt"]
+            break
+
+    if episode_trakt_id:
+        if extended_episode := _load_cached_media_episode(ctx, episode_trakt_id):
+            return extended_episode
+    else:
+        logger.warning(
+            "Episode #%d not found in season #%d of show #%d",
+            episode_number,
+            season["number"],
+            show_trakt_id,
+        )
+
+    return _fetch_media_episode(
+        ctx,
+        show_trakt_id=show_trakt_id,
+        season_number=season["number"],
+        episode_number=episode_number,
+    )
 
 
 def _episode_first_aired_year(
@@ -1194,13 +1252,20 @@ def _generate_collection_metrics(ctx: MetricsContext, data_path: Path) -> None:
                 show=show,
                 season_number=collected_season["number"],
             )
-            # TODO: Remove these checks
-            if season is None:
-                logger.warning(
-                    "Season #%d not found in show '%s'",
-                    collected_season["number"],
-                    show["title"],
+            for collected_episode in collected_season["episodes"]:
+                episode = _export_media_episode2(
+                    ctx,
+                    show_trakt_id=show["ids"]["trakt"],
+                    season=season,
+                    episode_number=collected_episode["number"],
                 )
+                episode_year_str = str(
+                    _episode_first_aired_year(episode, show) or _FUTURE_YEAR
+                )
+                _TRAKT_COLLECTION_COUNT.labels(
+                    media_type="episode",
+                    year=episode_year_str,
+                ).inc()
 
 
 def _generate_ratings_metrics(ctx: MetricsContext, data_path: Path) -> None:
