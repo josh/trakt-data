@@ -1483,6 +1483,12 @@ def _weighted_shuffle(values: list[float], limit: int) -> list[int]:
     return indices if len(indices) <= limit else indices[:limit]
 
 
+def _random_sample(values: list[float], limit: int) -> list[int]:
+    indices = list(range(len(values)))
+    random.shuffle(indices)
+    return indices[:limit]
+
+
 @main.command()
 @click.option(
     "--cache-dir",
@@ -1535,7 +1541,7 @@ def prune_cache(
         return
 
     limit_abs = _parse_abs_limit(limit, len(files))
-    expired_indices = _weighted_shuffle([f[2] for f in files], limit=limit_abs)
+    expired_indices = _random_sample([f[2] for f in files], limit=limit_abs)
     assert len(expired_indices) <= limit_abs
 
     if len(expired_indices) == 0:
