@@ -462,6 +462,10 @@ def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
             ).inc(runtime)
 
 
+def _compute_show_approx_runtime(show: ShowExtended) -> int:
+    return show["runtime"] * show["aired_episodes"]
+
+
 def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
     watchlist = read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
     for item in watchlist:
@@ -489,12 +493,18 @@ def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
             show = _export_media_show(ctx, trakt_id=trakt_id)
             status = show["status"]
             year_str = str(show["year"] or _FUTURE_YEAR)
+            runtime = _compute_show_approx_runtime(show)
 
             _TRAKT_WATCHLIST_COUNT.labels(
                 media_type="show",
                 status=status,
                 year=year_str,
             ).inc()
+            _TRAKT_WATCHLIST_RUNTIME.labels(
+                media_type="show",
+                status=status,
+                year=year_str,
+            ).inc(runtime)
         else:
             logger.warning("Unknown media type: %s", item["type"])
 
