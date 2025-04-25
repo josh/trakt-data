@@ -1027,12 +1027,7 @@ def _export_media_show(ctx: MetricsContext, trakt_id: int) -> ShowExtended:
     )
 
     if output_path.exists():
-        cached_data = _read_json_data(output_path, ShowExtended)
-        # TODO: Remove this after migrating caches
-        if "seasons" in cached_data:
-            return cached_data
-        else:
-            logger.warning("Cached show data is missing seasons: %s", output_path)
+        return _read_json_data(output_path, ShowExtended)
 
     data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}", params={"extended": "full"})
     seasons_data = _trakt_api_get(ctx, path=f"/shows/{trakt_id}/seasons")
