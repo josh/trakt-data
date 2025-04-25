@@ -1341,8 +1341,27 @@ def _generate_watched_metrics(ctx: MetricsContext, data_path: Path) -> None:
                 year=year_str,
             ).inc(runtime)
         elif history_item["type"] == "episode":
-            # TODO
-            pass
+            show = _export_media_show(
+                ctx,
+                trakt_id=history_item["show"]["ids"]["trakt"],
+            )
+            episode = _export_media_episode(
+                ctx,
+                trakt_id=history_item["episode"]["ids"]["trakt"],
+                show_trakt_id=history_item["show"]["ids"]["trakt"],
+                season=history_item["episode"]["season"],
+                number=history_item["episode"]["number"],
+            )
+            year_str = str(_episode_first_aired_year(episode, show) or _FUTURE_YEAR)
+            runtime = episode["runtime"]
+            _TRAKT_WATCHED_COUNT.labels(
+                media_type="episode",
+                year=year_str,
+            ).inc()
+            _TRAKT_WATCHED_RUNTIME.labels(
+                media_type="episode",
+                year=year_str,
+            ).inc(runtime)
 
 
 def _generate_watchlist_metrics(ctx: MetricsContext, data_path: Path) -> None:
