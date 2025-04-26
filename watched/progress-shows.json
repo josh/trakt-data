@@ -1,6 +1,144 @@
 [
   {
     "show": {
+      "title": "Star Wars: Andor",
+      "year": 2022,
+      "ids": {
+        "trakt": 170649,
+        "slug": "star-wars-andor",
+        "tvdb": 393189,
+        "imdb": "tt9253284",
+        "tmdb": 83867,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 15,
+      "completed": 13,
+      "last_watched_at": "2025-04-26T06:02:03.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 12,
+          "completed": 12,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-02-16T00:51:08.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-02-17T05:17:59.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-02-17T23:25:20.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-20T06:23:26.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-20T07:09:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-20T08:11:32.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-21T04:07:21.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-02-21T05:05:38.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-02-21T06:00:06.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-02-21T07:49:24.000Z"
+            },
+            {
+              "number": 11,
+              "completed": true,
+              "last_watched_at": "2023-02-22T03:06:34.000Z"
+            },
+            {
+              "number": 12,
+              "completed": true,
+              "last_watched_at": "2023-02-22T07:27:42.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 3,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-26T06:02:03.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "Sagrona Teema",
+        "ids": {
+          "trakt": 12479679,
+          "tvdb": 10983006,
+          "imdb": "tt20603288",
+          "tmdb": 5747431,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "One Year Later",
+        "ids": {
+          "trakt": 12469668,
+          "tvdb": 10793754,
+          "imdb": "tt20258964",
+          "tmdb": 5743095,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -285,7 +423,7 @@
       "next_episode": {
         "season": 4,
         "number": 5,
-        "title": "I Love L.A.",
+        "title": "Episode 5",
         "ids": {
           "trakt": 12564192,
           "tvdb": 11019532,
@@ -297,7 +435,7 @@
       "last_episode": {
         "season": 4,
         "number": 4,
-        "title": "D'christening",
+        "title": "I Love LA",
         "ids": {
           "trakt": 12564191,
           "tvdb": 10996118,
@@ -1221,7 +1359,7 @@
       }
     },
     "progress": {
-      "aired": 692,
+      "aired": 693,
       "completed": 692,
       "last_watched_at": "2025-04-19T05:31:02.000Z",
       "reset_at": null,
@@ -4805,7 +4943,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 12,
+          "aired": 13,
           "completed": 12,
           "episodes": [
             {
@@ -4867,6 +5005,11 @@
               "number": 12,
               "completed": true,
               "last_watched_at": "2025-04-19T05:31:02.000Z"
+            },
+            {
+              "number": 13,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4875,7 +5018,7 @@
       "next_episode": {
         "season": 23,
         "number": 13,
-        "title": "April 25, 2025",
+        "title": "April 25, 2025: Al Gore, Sen. Adam Schiff, Bret Stephens",
         "ids": {
           "trakt": 12932329,
           "tvdb": null,
@@ -52325,144 +52468,6 @@
   },
   {
     "show": {
-      "title": "Star Wars: Andor",
-      "year": 2022,
-      "ids": {
-        "trakt": 170649,
-        "slug": "star-wars-andor",
-        "tvdb": 393189,
-        "imdb": "tt9253284",
-        "tmdb": 83867,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 15,
-      "completed": 12,
-      "last_watched_at": "2023-02-22T07:27:42.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 12,
-          "completed": 12,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-02-16T00:51:08.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-02-17T05:17:59.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-02-17T23:25:20.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-20T06:23:26.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-20T07:09:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-20T08:11:32.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-21T04:07:21.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-02-21T05:05:38.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-02-21T06:00:06.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-02-21T07:49:24.000Z"
-            },
-            {
-              "number": 11,
-              "completed": true,
-              "last_watched_at": "2023-02-22T03:06:34.000Z"
-            },
-            {
-              "number": 12,
-              "completed": true,
-              "last_watched_at": "2023-02-22T07:27:42.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 3,
-          "completed": 0,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "One Year Later",
-        "ids": {
-          "trakt": 12469668,
-          "tvdb": 10793754,
-          "imdb": "tt20258964",
-          "tmdb": 5743095,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 12,
-        "title": "Rix Road",
-        "ids": {
-          "trakt": 6402082,
-          "tvdb": 9285989,
-          "imdb": "tt13848062",
-          "tmdb": 3745393,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "National Treasure: Edge of History",
       "year": 2022,
       "ids": {
@@ -54404,7 +54409,7 @@
       "next_episode": {
         "season": 2,
         "number": 1,
-        "title": "Episode 1",
+        "title": "Here We Woe Again",
         "ids": {
           "trakt": 13033535,
           "tvdb": null,
@@ -59886,8 +59891,8 @@
         "title": "Let the People Decide",
         "ids": {
           "trakt": 6044107,
-          "tvdb": null,
-          "imdb": null,
+          "tvdb": 9151977,
+          "imdb": "tt18967280",
           "tmdb": 3662425,
           "tvrage": null
         }
