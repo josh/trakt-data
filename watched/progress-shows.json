@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 15,
-      "completed": 14,
-      "last_watched_at": "2025-04-27T02:54:43.000Z",
+      "completed": 15,
+      "last_watched_at": "2025-04-27T03:53:40.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -90,7 +90,7 @@
           "number": 2,
           "title": null,
           "aired": 3,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -104,14 +104,26 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-04-27T03:53:40.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Episode 4",
+        "ids": {
+          "trakt": 12479681,
+          "tvdb": 10983008,
+          "imdb": "tt20603294",
+          "tmdb": 5747433,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 3,
         "title": "Harvest",
@@ -120,18 +132,6 @@
           "tvdb": 10983007,
           "imdb": "tt20603292",
           "tmdb": 5747432,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "Sagrona Teema",
-        "ids": {
-          "trakt": 12479679,
-          "tvdb": 10983006,
-          "imdb": "tt20603288",
-          "tmdb": 5747431,
           "tvrage": null
         }
       }
