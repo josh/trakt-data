@@ -9,6 +9,7 @@ from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 from . import logger
 from .export import read_json_data, write_json
 from .trakt import (
+    MOVIE_RELEASE_TYPES,
     CollectedMovie,
     CollectedShow,
     EpisodeExtended,
@@ -18,6 +19,7 @@ from .trakt import (
     ListItem,
     MovieExtended,
     MovieRating,
+    MovieReleaseType,
     SeasonExtended,
     ShowExtended,
     ShowRating,
@@ -44,14 +46,14 @@ _TRAKT_COLLECTION_COUNT = Gauge(
 _TRAKT_LIST_COUNT = Gauge(
     "trakt_list_count",
     documentation="Number of items in Trakt lists",
-    labelnames=["list", "media_type", "year"],
+    labelnames=["list", "media_type", "year", "status", "release_status"],
     registry=_REGISTRY,
 )
 
 _TRAKT_LIST_MINUTES = Gauge(
     "trakt_list_minutes",
     documentation="Number of minutes in Trakt lists",
-    labelnames=["list", "media_type", "year"],
+    labelnames=["list", "media_type", "year", "status", "release_status"],
     registry=_REGISTRY,
 )
 
@@ -79,14 +81,14 @@ _TRAKT_WATCHED_MINUTES = Gauge(
 _TRAKT_WATCHLIST_COUNT = Gauge(
     "trakt_watchlist_count",
     documentation="Number of items in Trakt watchlist",
-    labelnames=["media_type", "status", "year"],
+    labelnames=["media_type", "year", "status", "release_status"],
     registry=_REGISTRY,
 )
 
 _TRAKT_WATCHLIST_MINUTES = Gauge(
     "trakt_watchlist_minutes",
     documentation="Number of minutes in Trakt watchlist",
-    labelnames=["media_type", "status", "year"],
+    labelnames=["media_type", "year", "status", "release_status"],
     registry=_REGISTRY,
 )
 
@@ -266,6 +268,8 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
         path=f"/movies/{trakt_id}",
         params={"extended": "full"},
     )
+    releases = trakt_api_get(ctx.session, path=f"/movies/{trakt_id}/releases/us")
+    data["releases"] = releases
     mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
     write_json(output_path, data, mtime=mtime)
     return cast(MovieExtended, data)
@@ -275,11 +279,30 @@ def _export_media_movie(ctx: Context, trakt_id: int) -> MovieExtended:
 class MetricInfo:
     type: Literal["movie", "show", "episode"]
     status: str
+    release_status: str
     year: str
     runtime: int
 
 
 _FUTURE_YEAR = 3000
+
+
+def _movie_release_status(movie: MovieExtended) -> MovieReleaseType:
+    type_indices = set([0])
+    for release in movie.get("releases", []):
+        rd = datetime.fromisoformat(release["release_date"])
+        if rd > datetime.now():
+            continue
+        try:
+            type_index = MOVIE_RELEASE_TYPES.index(release["release_type"])
+        except ValueError:
+            logger.warning("Unknown release type: '%s'", release["release_type"])
+            continue
+        type_indices.add(type_index)
+
+    type_index = max(type_indices)
+    assert 0 <= type_index < len(MOVIE_RELEASE_TYPES)
+    return MOVIE_RELEASE_TYPES[type_index]
 
 
 def _fetch_movie_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
@@ -289,6 +312,8 @@ def _fetch_movie_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
     if movie["status"]:
         status = movie["status"]
 
+    release_status = _movie_release_status(movie)
+
     year: str = str(_FUTURE_YEAR)
     if movie["year"]:
         year = str(movie["year"])
@@ -297,7 +322,13 @@ def _fetch_movie_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
     if movie["runtime"]:
         runtime = movie["runtime"]
 
-    return MetricInfo(type="movie", status=status, year=year, runtime=runtime)
+    return MetricInfo(
+        type="movie",
+        status=status,
+        release_status=release_status,
+        year=year,
+        runtime=runtime,
+    )
 
 
 def _fetch_show_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
@@ -307,6 +338,9 @@ def _fetch_show_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
     if show["status"]:
         status = show["status"]
 
+    # TODO
+    release_status = "unknown"
+
     year: str = str(_FUTURE_YEAR)
     if show["year"]:
         year = str(show["year"])
@@ -315,7 +349,13 @@ def _fetch_show_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
     if show["runtime"] and show["aired_episodes"]:
         runtime = show["runtime"] * show["aired_episodes"]
 
-    return MetricInfo(type="show", status=status, year=year, runtime=runtime)
+    return MetricInfo(
+        type="show",
+        status=status,
+        release_status=release_status,
+        year=year,
+        runtime=runtime,
+    )
 
 
 def _fetch_episode_metric_info(
@@ -338,6 +378,9 @@ def _fetch_episode_metric_info(
     if show["status"]:
         status = show["status"]
 
+    # TODO
+    release_status = "unknown"
+
     year: str = str(_FUTURE_YEAR)
     if show["year"]:
         year = str(show["year"])
@@ -348,7 +391,13 @@ def _fetch_episode_metric_info(
     if episode["runtime"]:
         runtime = episode["runtime"]
 
-    return MetricInfo(type="episode", status=status, year=year, runtime=runtime)
+    return MetricInfo(
+        type="episode",
+        status=status,
+        release_status=release_status,
+        year=year,
+        runtime=runtime,
+    )
 
 
 def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
@@ -484,11 +533,15 @@ def _generate_list_metrics(ctx: Context, data_path: Path) -> None:
                 list=lst["ids"]["slug"],
                 media_type=info.type,
                 year=info.year,
+                status=info.status,
+                release_status=info.release_status,
             ).inc()
             _TRAKT_LIST_MINUTES.labels(
                 list=lst["ids"]["slug"],
                 media_type=info.type,
                 year=info.year,
+                status=info.status,
+                release_status=info.release_status,
             ).inc(info.runtime)
 
 
@@ -514,13 +567,15 @@ def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
 
         _TRAKT_WATCHLIST_COUNT.labels(
             media_type=info.type,
-            status=info.status,
             year=info.year,
+            status=info.status,
+            release_status=info.release_status,
         ).inc()
         _TRAKT_WATCHLIST_MINUTES.labels(
             media_type=info.type,
-            status=info.status,
             year=info.year,
+            status=info.status,
+            release_status=info.release_status,
         ).inc(info.runtime)
 
 

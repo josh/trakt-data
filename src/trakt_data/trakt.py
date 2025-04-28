@@ -91,6 +91,35 @@ class Movie(TypedDict):
     ids: MovieIDs
 
 
+MovieReleaseType = Literal[
+    "unknown",
+    "premiere",
+    "limited",
+    "theatrical",
+    "digital",
+    "physical",
+    "tv",
+]
+
+MOVIE_RELEASE_TYPES: list[MovieReleaseType] = [
+    "unknown",
+    "premiere",
+    "limited",
+    "theatrical",
+    "digital",
+    "physical",
+    "tv",
+]
+
+
+class MovieRelease(TypedDict):
+    country: str
+    certification: str
+    release_date: str
+    release_type: MovieReleaseType
+    note: str | None
+
+
 class MovieExtended(TypedDict):
     title: str
     year: int
@@ -99,6 +128,8 @@ class MovieExtended(TypedDict):
     runtime: int
     status: str
     updated_at: str
+    # Non-standard fields
+    releases: list[MovieRelease]
 
 
 class ListIDs(TypedDict):
