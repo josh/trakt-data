@@ -21,6 +21,7 @@ from .trakt import (
     MovieRating,
     MovieReleaseType,
     SeasonExtended,
+    Show,
     ShowExtended,
     ShowRating,
     UserProfile,
@@ -118,6 +119,25 @@ def _partition_filename(basedir: Path, id: int, suffix: str) -> Path:
     return basedir / id_prefix / f"{id}{suffix}"
 
 
+def _load_show_info(ctx: Context, trakt_id: int) -> Show | None:
+    output_path = _partition_filename(
+        basedir=ctx.cache_dir / "media" / "shows",
+        id=trakt_id,
+        suffix=".json",
+    )
+    if not output_path.exists():
+        logger.warning("Show info not cached: %s", trakt_id)
+        return None
+
+    extended_show = read_json_data(output_path, ShowExtended)
+    show: Show = {
+        "title": extended_show["title"],
+        "year": extended_show["year"],
+        "ids": extended_show["ids"],
+    }
+    return show
+
+
 def _export_media_season(
     ctx: Context,
     show_trakt_id: int,
@@ -141,6 +161,7 @@ def _export_media_season(
         ctx.session,
         path=f"/shows/{show_trakt_id}/seasons/{season_number}",
     )
+    data["show"] = _load_show_info(ctx, show_trakt_id)
     data["episodes"] = episodes_data
     mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
     write_json(output_path, data, mtime=mtime)

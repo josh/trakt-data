@@ -82,6 +82,7 @@ class SeasonExtended(TypedDict):
     first_aired: str
     updated_at: str
     # Non-standard fields
+    show: Show
     episodes: list[Episode]
 
 
