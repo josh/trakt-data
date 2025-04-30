@@ -243,6 +243,42 @@ class WatchedShow(TypedDict):
     show: Show
 
 
+class WatchedEpisodeProgress(TypedDict):
+    number: int
+    completed: bool
+    last_watched_at: str
+
+
+class WatchedSeasonProgress(TypedDict):
+    number: int
+    title: str
+    aired: int
+    completed: int
+    episodes: list[WatchedEpisodeProgress]
+
+
+class WatchedShowProgress(TypedDict):
+    aired: int
+    completed: int
+    last_watched_at: str
+    reset_at: str | None
+    seasons: list[WatchedSeasonProgress]
+    hidden_seasons: list[Season]
+    next_episode: Episode | None
+    last_episode: Episode | None
+
+
+class HiddenShow(TypedDict):
+    hidden_at: str
+    type: Literal["show"]
+    show: Show
+
+
+class ProgressShow(TypedDict):
+    show: Show
+    progress: WatchedShowProgress
+
+
 class LastActivities(TypedDict):
     all: str
     movies: "MoviesLastActivities"
@@ -287,6 +323,28 @@ class SeasonsLastActivities(TypedDict):
     watchlisted_at: str
     commented_at: str
     hidden_at: str
+
+
+class UpNextShowProgressStats(TypedDict):
+    play_count: int
+    minutes_left: int
+    minutes_watched: int
+
+
+class UpNextShowProgress(TypedDict):
+    aired: int
+    completed: int
+    hidden: int
+    last_watched_at: str | None
+    reset_at: str | None
+    stats: UpNextShowProgressStats
+    next_episode: Episode
+    last_episode: Episode | None
+
+
+class UpNextShow(TypedDict):
+    show: Show
+    progress: UpNextShowProgress
 
 
 _TRAKT_API_HEADERS = {

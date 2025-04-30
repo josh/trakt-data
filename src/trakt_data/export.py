@@ -8,9 +8,12 @@ import requests
 
 from . import logger
 from .trakt import (
+    HiddenShow,
     HistoryItem,
     LastActivities,
     List,
+    ProgressShow,
+    UpNextShow,
     WatchedShow,
     trakt_api_get,
     trakt_api_paginated_get,
@@ -310,6 +313,81 @@ def _compare_datetime_strs(a: str, b: str) -> bool:
     return datetime.fromisoformat(a) >= datetime.fromisoformat(b)
 
 
+def _export_shows_up_next(ctx: Context) -> None:
+    output_path = ctx.output_dir / "watched" / "up-next.json"
+
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
+        return
+
+    watched_shows = read_json_data(
+        ctx.output_dir / "watched" / "watched-shows.json",
+        list[WatchedShow],
+    )
+    watched_show_ids: dict[int, WatchedShow] = {}
+    for watched_show in watched_shows:
+        watched_show_ids[watched_show["show"]["ids"]["trakt"]] = watched_show
+
+    hidden_show_trakt_ids: set[int] = set()
+    dropped_shows = read_json_data(
+        ctx.output_dir / "hidden" / "hidden-dropped.json",
+        list[HiddenShow],
+    )
+    for hidden_show in dropped_shows:
+        hidden_show_trakt_ids.add(hidden_show["show"]["ids"]["trakt"])
+    hidden_progress_watched_shows = read_json_data(
+        ctx.output_dir / "hidden" / "hidden-progress-watched.json",
+        list[HiddenShow],
+    )
+    for hidden_show in hidden_progress_watched_shows:
+        hidden_show_trakt_ids.add(hidden_show["show"]["ids"]["trakt"])
+
+    watched_show_progresses = read_json_data(
+        ctx.output_dir / "watched" / "progress-shows.json",
+        list[ProgressShow],
+    )
+
+    up_next_shows: list[UpNextShow] = []
+    for progress_show in watched_show_progresses:
+        trakt_show_id = progress_show["show"]["ids"]["trakt"]
+        show_title = progress_show["show"]["title"]
+        show_watch = watched_show_ids[trakt_show_id]
+        show_progress = progress_show["progress"]
+
+        if trakt_show_id in hidden_show_trakt_ids:
+            logger.debug("Skipping hidden show: %s", show_title)
+            continue
+
+        if show_progress["aired"] == show_progress["completed"]:
+            logger.debug("Skipping show with all episodes completed: %s", show_title)
+            continue
+
+        next_episode = show_progress["next_episode"]
+        if not next_episode:
+            logger.debug("Skipping show with no next episode: %s", show_title)
+            continue
+
+        up_next_show: UpNextShow = {
+            "show": progress_show["show"],
+            "progress": {
+                "aired": show_progress["aired"],
+                "completed": show_progress["completed"],
+                "hidden": 0,  # TODO
+                "last_watched_at": show_progress["last_watched_at"],
+                "reset_at": show_progress["reset_at"],
+                "stats": {
+                    "play_count": show_watch["plays"],
+                    "minutes_left": 0,  # TODO
+                    "minutes_watched": 0,  # TODO
+                },
+                "next_episode": next_episode,
+                "last_episode": show_progress["last_episode"],
+            },
+        }
+        up_next_shows.append(up_next_show)
+
+    write_json(output_path, up_next_shows)
+
+
 def _activities_outdated_paths(
     data_path: Path,
     old_activities: LastActivities | None,
@@ -336,6 +414,7 @@ def _activities_outdated_paths(
         ),
         ("episodes", "watched_at", data_path / "watched" / "watched-shows.json"),
         ("episodes", "watched_at", data_path / "watched" / "progress-shows.json"),
+        ("episodes", "watched_at", data_path / "watched" / "up-next.json"),
         ("episodes", "rated_at", data_path / "ratings" / "ratings-episodes.json"),
         ("episodes", "commented_at", data_path / "comments" / "comments-episodes.json"),
         ("shows", "rated_at", data_path / "ratings" / "ratings-shows.json"),
@@ -468,3 +547,4 @@ def export_all(
 
     # Non-standard export
     _export_shows_watched_progress(ctx)
+    _export_shows_up_next(ctx)
