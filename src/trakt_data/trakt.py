@@ -364,7 +364,7 @@ def trakt_session(client_id: str, access_token: str) -> requests.Session:
     retry_strategy = Retry(
         total=5,
         backoff_factor=60,
-        status_forcelist=[429],
+        status_forcelist=[429, 502],
     )
     adapter = HTTPAdapter(max_retries=retry_strategy)
     session.mount("https://api.trakt.tv", adapter)
