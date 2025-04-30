@@ -473,8 +473,6 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
             rating=str(movie_rating["rating"]),
         ).inc()
 
-    # TODO: seasons
-
     show_ratings = read_json_data(
         data_path / "ratings" / "ratings-shows.json", list[ShowRating]
     )
