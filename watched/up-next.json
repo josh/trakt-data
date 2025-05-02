@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 16,
+      "completed": 17,
       "hidden": 0,
-      "last_watched_at": "2025-05-02T03:53:16.000Z",
+      "last_watched_at": "2025-05-02T05:56:43.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 29,
+        "play_count": 30,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "What a Festive Evening",
+        "ids": {
+          "trakt": 12479683,
+          "tvdb": 10983010,
+          "imdb": "tt20603302",
+          "tmdb": 5747435,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 5,
         "title": "I Have Friends Everywhere",
@@ -32,18 +44,6 @@
           "tvdb": 10983009,
           "imdb": "tt20603298",
           "tmdb": 5747434,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Ever Been to Ghorman?",
-        "ids": {
-          "trakt": 12479681,
-          "tvdb": 10983008,
-          "imdb": "tt20603294",
-          "tmdb": 5747433,
           "tvrage": null
         }
       }

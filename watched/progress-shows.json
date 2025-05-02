@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 16,
-      "last_watched_at": "2025-05-02T03:53:16.000Z",
+      "completed": 17,
+      "last_watched_at": "2025-05-02T05:56:43.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -90,7 +90,7 @@
           "number": 2,
           "title": null,
           "aired": 6,
-          "completed": 4,
+          "completed": 5,
           "episodes": [
             {
               "number": 1,
@@ -114,8 +114,8 @@
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-02T05:56:43.000Z"
             },
             {
               "number": 6,
@@ -128,6 +128,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 2,
+        "number": 6,
+        "title": "What a Festive Evening",
+        "ids": {
+          "trakt": 12479683,
+          "tvdb": 10983010,
+          "imdb": "tt20603302",
+          "tmdb": 5747435,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
         "number": 5,
         "title": "I Have Friends Everywhere",
         "ids": {
@@ -135,18 +147,6 @@
           "tvdb": 10983009,
           "imdb": "tt20603298",
           "tmdb": 5747434,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Ever Been to Ghorman?",
-        "ids": {
-          "trakt": 12479681,
-          "tvdb": 10983008,
-          "imdb": "tt20603294",
-          "tmdb": 5747433,
           "tvrage": null
         }
       }
@@ -70261,7 +70261,7 @@
       }
     },
     "progress": {
-      "aired": 1654,
+      "aired": 1655,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78066,7 +78066,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 109,
+          "aired": 110,
           "completed": 0,
           "episodes": [
             {
@@ -78611,6 +78611,11 @@
             },
             {
               "number": 109,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 110,
               "completed": false,
               "last_watched_at": null
             }
