@@ -1,6 +1,159 @@
 [
   {
     "show": {
+      "title": "Star Wars: Andor",
+      "year": 2022,
+      "ids": {
+        "trakt": 170649,
+        "slug": "star-wars-andor",
+        "tvdb": 393189,
+        "imdb": "tt9253284",
+        "tmdb": 83867,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 16,
+      "last_watched_at": "2025-05-02T03:53:16.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 12,
+          "completed": 12,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-02-16T00:51:08.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-02-17T05:17:59.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-02-17T23:25:20.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-20T06:23:26.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-20T07:09:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-20T08:11:32.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-21T04:07:21.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-02-21T05:05:38.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-02-21T06:00:06.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-02-21T07:49:24.000Z"
+            },
+            {
+              "number": 11,
+              "completed": true,
+              "last_watched_at": "2023-02-22T03:06:34.000Z"
+            },
+            {
+              "number": 12,
+              "completed": true,
+              "last_watched_at": "2023-02-22T07:27:42.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 6,
+          "completed": 4,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-26T06:02:03.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-27T02:54:43.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-27T03:53:40.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-05-02T03:53:16.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "I Have Friends Everywhere",
+        "ids": {
+          "trakt": 12479682,
+          "tvdb": 10983009,
+          "imdb": "tt20603298",
+          "tmdb": 5747434,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Ever Been to Ghorman?",
+        "ids": {
+          "trakt": 12479681,
+          "tvdb": 10983008,
+          "imdb": "tt20603294",
+          "tmdb": 5747433,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Studio",
       "year": 2025,
       "ids": {
@@ -564,159 +717,6 @@
           "tvdb": 10989208,
           "imdb": "tt35934752",
           "tmdb": 6013095,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Star Wars: Andor",
-      "year": 2022,
-      "ids": {
-        "trakt": 170649,
-        "slug": "star-wars-andor",
-        "tvdb": 393189,
-        "imdb": "tt9253284",
-        "tmdb": 83867,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 18,
-      "completed": 15,
-      "last_watched_at": "2025-04-27T03:53:40.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 12,
-          "completed": 12,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-02-16T00:51:08.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-02-17T05:17:59.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-02-17T23:25:20.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-20T06:23:26.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-20T07:09:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-20T08:11:32.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-21T04:07:21.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-02-21T05:05:38.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-02-21T06:00:06.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-02-21T07:49:24.000Z"
-            },
-            {
-              "number": 11,
-              "completed": true,
-              "last_watched_at": "2023-02-22T03:06:34.000Z"
-            },
-            {
-              "number": 12,
-              "completed": true,
-              "last_watched_at": "2023-02-22T07:27:42.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 6,
-          "completed": 3,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-26T06:02:03.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-27T02:54:43.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-27T03:53:40.000Z"
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Ever Been to Ghorman?",
-        "ids": {
-          "trakt": 12479681,
-          "tvdb": 10983008,
-          "imdb": "tt20603294",
-          "tmdb": 5747433,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "Harvest",
-        "ids": {
-          "trakt": 12479680,
-          "tvdb": 10983007,
-          "imdb": "tt20603292",
-          "tmdb": 5747432,
           "tvrage": null
         }
       }
@@ -4432,7 +4432,7 @@
       }
     },
     "progress": {
-      "aired": 4,
+      "aired": 5,
       "completed": 4,
       "last_watched_at": "2025-04-25T05:31:18.000Z",
       "reset_at": null,
@@ -4440,7 +4440,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 4,
           "episodes": [
             {
@@ -4462,6 +4462,11 @@
               "number": 4,
               "completed": true,
               "last_watched_at": "2025-04-25T05:31:18.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4507,7 +4512,7 @@
       }
     },
     "progress": {
-      "aired": 31,
+      "aired": 32,
       "completed": 31,
       "last_watched_at": "2025-04-25T04:20:26.000Z",
       "reset_at": null,
@@ -4674,7 +4679,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 4,
           "episodes": [
             {
@@ -4696,6 +4701,11 @@
               "number": 4,
               "completed": true,
               "last_watched_at": "2025-04-25T04:20:26.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -5613,9 +5623,9 @@
       }
     },
     "progress": {
-      "aired": 23,
-      "completed": 23,
-      "last_watched_at": "2025-04-06T23:01:32.000Z",
+      "aired": 24,
+      "completed": 24,
+      "last_watched_at": "2025-04-06T23:42:40.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -5722,8 +5732,8 @@
         {
           "number": 3,
           "title": null,
-          "aired": 6,
-          "completed": 6,
+          "aired": 7,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -5754,12 +5764,29 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-04-06T23:01:32.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-04-06T23:42:40.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 3,
+        "number": 8,
+        "title": "Episode 8",
+        "ids": {
+          "trakt": 12891414,
+          "tvdb": 10615398,
+          "imdb": "tt29540483",
+          "tmdb": 6034364,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 3,
         "number": 7,
         "title": "Episode 7",
@@ -5768,18 +5795,6 @@
           "tvdb": 10615397,
           "imdb": "tt29540482",
           "tmdb": 6034362,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 6,
-        "title": "Episode 6",
-        "ids": {
-          "trakt": 12891412,
-          "tvdb": 10615396,
-          "imdb": "tt29540484",
-          "tmdb": 6034361,
           "tvrage": null
         }
       }
@@ -13685,7 +13700,7 @@
       }
     },
     "progress": {
-      "aired": 4399,
+      "aired": 4401,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -35650,7 +35665,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 54,
+          "aired": 56,
           "completed": 0,
           "episodes": [
             {
@@ -35920,6 +35935,16 @@
             },
             {
               "number": 54,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 55,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 56,
               "completed": false,
               "last_watched_at": null
             }
@@ -70236,7 +70261,7 @@
       }
     },
     "progress": {
-      "aired": 1652,
+      "aired": 1654,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78041,7 +78066,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 107,
+          "aired": 109,
           "completed": 0,
           "episodes": [
             {
@@ -78576,6 +78601,16 @@
             },
             {
               "number": 107,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 108,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 109,
               "completed": false,
               "last_watched_at": null
             }

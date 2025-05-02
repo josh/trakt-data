@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 15,
+      "completed": 16,
       "hidden": 0,
-      "last_watched_at": "2025-04-27T03:53:40.000Z",
+      "last_watched_at": "2025-05-02T03:53:16.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 28,
+        "play_count": 29,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "I Have Friends Everywhere",
+        "ids": {
+          "trakt": 12479682,
+          "tvdb": 10983009,
+          "imdb": "tt20603298",
+          "tmdb": 5747434,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 4,
         "title": "Ever Been to Ghorman?",
@@ -34,16 +46,104 @@
           "tmdb": 5747433,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 4,
+      "hidden": 0,
+      "last_watched_at": "2025-04-25T05:31:18.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 4,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "This Tourist Has Balls",
+        "ids": {
+          "trakt": 12523280,
+          "tvdb": 10819896,
+          "imdb": "tt32323065",
+          "tmdb": 5778797,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "Harvest",
+        "season": 1,
+        "number": 4,
+        "title": "Literal Dragons",
         "ids": {
-          "trakt": 12479680,
-          "tvdb": 10983007,
-          "imdb": "tt20603292",
-          "tmdb": 5747432,
+          "trakt": 12523278,
+          "tvdb": 10819895,
+          "imdb": "tt32323064",
+          "tmdb": 5778796,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Hacks",
+      "year": 2021,
+      "ids": {
+        "trakt": 179632,
+        "slug": "hacks-2021",
+        "tvdb": 401582,
+        "imdb": "tt11815682",
+        "tmdb": 124101,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 32,
+      "completed": 31,
+      "hidden": 0,
+      "last_watched_at": "2025-04-25T04:20:26.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 31,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 4,
+        "number": 5,
+        "title": "Episode 5",
+        "ids": {
+          "trakt": 12564192,
+          "tvdb": 11019532,
+          "imdb": "tt33383950",
+          "tmdb": 6040225,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 4,
+        "title": "I Love LA",
+        "ids": {
+          "trakt": 12564191,
+          "tvdb": 10996118,
+          "imdb": "tt33383943",
+          "tmdb": 6040224,
           "tvrage": null
         }
       }
