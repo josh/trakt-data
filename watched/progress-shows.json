@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 17,
-      "last_watched_at": "2025-05-02T05:56:43.000Z",
+      "completed": 18,
+      "last_watched_at": "2025-05-02T06:55:37.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -90,7 +90,7 @@
           "number": 2,
           "title": null,
           "aired": 6,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -119,14 +119,26 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-02T06:55:37.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "Episode 7",
+        "ids": {
+          "trakt": 12479684,
+          "tvdb": 10983011,
+          "imdb": "tt20603306",
+          "tmdb": 5747436,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 6,
         "title": "What a Festive Evening",
@@ -135,18 +147,6 @@
           "tvdb": 10983010,
           "imdb": "tt20603302",
           "tmdb": 5747435,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "I Have Friends Everywhere",
-        "ids": {
-          "trakt": 12479682,
-          "tvdb": 10983009,
-          "imdb": "tt20603298",
-          "tmdb": 5747434,
           "tvrage": null
         }
       }
@@ -4395,7 +4395,7 @@
       "next_episode": {
         "season": 23,
         "number": 14,
-        "title": "May 2, 2025",
+        "title": "May 2, 2025: Cheech Marin, Tommy Chong, Kara Swisher, Kevin McCarthy",
         "ids": {
           "trakt": 12952711,
           "tvdb": null,
