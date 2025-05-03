@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 694,
+      "completed": 693,
+      "hidden": 0,
+      "last_watched_at": "2025-04-26T17:45:48.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 696,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 23,
+        "number": 14,
+        "title": "May 2, 2025: Cheech Marin, Tommy Chong, Kara Swisher, Kevin McCarthy",
+        "ids": {
+          "trakt": 12952711,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6083103,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 23,
+        "number": 13,
+        "title": "April 25, 2025: Al Gore, Sen. Adam Schiff, Bret Stephens",
+        "ids": {
+          "trakt": 12932329,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6067799,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10819895,
           "imdb": "tt32323064",
           "tmdb": 5778796,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Hacks",
-      "year": 2021,
-      "ids": {
-        "trakt": 179632,
-        "slug": "hacks-2021",
-        "tvdb": 401582,
-        "imdb": "tt11815682",
-        "tmdb": 124101,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 32,
-      "completed": 31,
-      "hidden": 0,
-      "last_watched_at": "2025-04-25T04:20:26.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 31,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 4,
-        "number": 5,
-        "title": "Episode 5",
-        "ids": {
-          "trakt": 12564192,
-          "tvdb": 11019532,
-          "imdb": "tt33383950",
-          "tmdb": 6040225,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 4,
-        "number": 4,
-        "title": "I Love LA",
-        "ids": {
-          "trakt": 12564191,
-          "tvdb": 10996118,
-          "imdb": "tt33383943",
-          "tmdb": 6040224,
           "tvrage": null
         }
       }
