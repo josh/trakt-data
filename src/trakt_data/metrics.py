@@ -1,5 +1,6 @@
+from collections.abc import Iterator
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal, cast
 
@@ -14,12 +15,14 @@ from .trakt import (
     CollectedShow,
     EpisodeExtended,
     EpisodeRating,
+    HiddenShow,
     HistoryItem,
     List,
     ListItem,
     MovieExtended,
     MovieRating,
     MovieReleaseType,
+    ProgressShow,
     SeasonExtended,
     Show,
     ShowExtended,
@@ -90,6 +93,20 @@ _TRAKT_WATCHLIST_MINUTES = Gauge(
     "trakt_watchlist_minutes",
     documentation="Number of minutes in Trakt watchlist",
     labelnames=["media_type", "year", "status"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_SHOW_PROGRESS_COUNT = Gauge(
+    "trakt_show_progress_count",
+    documentation="Number of episodes of watched shows",
+    labelnames=["show", "year", "hidden", "season_aired", "episode_aired", "completed"],
+    registry=_REGISTRY,
+)
+
+_TRAKT_SHOW_PROGRESS_MINUTES = Gauge(
+    "trakt_show_progress_minutes",
+    documentation="Number of minutes of watched shows",
+    labelnames=["show", "year", "hidden", "season_aired", "episode_aired", "completed"],
     registry=_REGISTRY,
 )
 
@@ -406,6 +423,21 @@ def _fetch_show_metric_info(ctx: Context, trakt_id: int) -> MetricInfo:
     return MetricInfo(type="show", status=status, year=year, runtime=runtime)
 
 
+def _episode_year_str(
+    show: ShowExtended | None,
+    season: SeasonExtended | None,
+    episode: EpisodeExtended | None,
+) -> str:
+    year: str = str(_FUTURE_YEAR)
+    if show and show["year"]:
+        year = str(show["year"])
+    if season and season["first_aired"]:
+        year = str(int(season["first_aired"].split("-")[0]))
+    if episode and episode["first_aired"]:
+        year = str(int(episode["first_aired"].split("-")[0]))
+    return year
+
+
 def _fetch_episode_metric_info(
     ctx: Context,
     show_trakt_id: int,
@@ -426,11 +458,7 @@ def _fetch_episode_metric_info(
     if show["status"]:
         status = show["status"]
 
-    year: str = str(_FUTURE_YEAR)
-    if show["year"]:
-        year = str(show["year"])
-    if episode["first_aired"]:
-        year = str(int(episode["first_aired"].split("-")[0]))
+    year: str = _episode_year_str(show=show, season=None, episode=episode)
 
     runtime: int = 0
     if episode["runtime"]:
@@ -612,6 +640,159 @@ def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
         ).inc(info.runtime)
 
 
+def _iter_show_episodes(
+    ctx: Context, show: ShowExtended
+) -> Iterator[tuple[SeasonExtended, EpisodeExtended]]:
+    for season_info in show["seasons"]:
+        # Skip special seasons
+        if season_info["number"] == 0:
+            continue
+
+        season = _export_media_season(
+            ctx,
+            show_trakt_id=show["ids"]["trakt"],
+            season_trakt_id=season_info["ids"]["trakt"],
+            season_number=season_info["number"],
+        )
+        for episode_info in season["episodes"]:
+            episode = _export_media_episode(
+                ctx,
+                episode_trakt_id=episode_info["ids"]["trakt"],
+                show_trakt_id=show["ids"]["trakt"],
+                season_number=season_info["number"],
+                episode_number=episode_info["number"],
+            )
+            yield season, episode
+
+
+def _hidden_show_progress_trakt_ids(ctx: Context, data_path: Path) -> set[int]:
+    ids: set[int] = set()
+    hidden_shows = read_json_data(
+        data_path / "hidden" / "hidden-dropped.json",
+        list[HiddenShow],
+    )
+    for hidden_show in hidden_shows:
+        ids.add(hidden_show["show"]["ids"]["trakt"])
+    hidden_shows = read_json_data(
+        data_path / "hidden" / "hidden-progress-watched.json",
+        list[HiddenShow],
+    )
+    for hidden_show in hidden_shows:
+        ids.add(hidden_show["show"]["ids"]["trakt"])
+    return ids
+
+
+def _load_completed_episodes(ctx: Context) -> set[tuple[int, int, int]]:
+    watched_show_progresses = read_json_data(
+        ctx.data_dir / "watched" / "progress-shows.json",
+        list[ProgressShow],
+    )
+    completed_episodes: set[tuple[int, int, int]] = set()
+    for progress_show in watched_show_progresses:
+        for progress_season in progress_show["progress"]["seasons"]:
+            for progress_episode in progress_season["episodes"]:
+                if progress_episode["completed"] is False:
+                    continue
+                episode_id = (
+                    progress_show["show"]["ids"]["trakt"],
+                    progress_season["number"],
+                    progress_episode["number"],
+                )
+                completed_episodes.add(episode_id)
+    return completed_episodes
+
+
+def _generate_up_next_show_metrics(
+    ctx: Context,
+    trakt_show_id: int,
+    hidden_show_trakt_ids: set[int],
+    completed_episodes: set[tuple[int, int, int]],
+) -> None:
+    show = _export_media_show(ctx, trakt_id=trakt_show_id)
+    trakt_show_slug = show["ids"]["slug"]
+    show_hidden_str = "true" if trakt_show_id in hidden_show_trakt_ids else "false"
+
+    for season, episode in _iter_show_episodes(ctx, show):
+        season_aired: Literal["aired", "airing", "not aired"] = "not aired"
+        if season["episode_count"] == season["aired_episodes"]:
+            season_aired = "aired"
+        elif season["aired_episodes"] == 0:
+            season_aired = "not aired"
+        else:
+            season_aired = "airing"
+
+        episode_aired: Literal["aired", "not aired"] = "not aired"
+        if season_aired == "aired":
+            episode_aired = "aired"
+        elif season_aired == "not aired":
+            episode_aired = "not aired"
+        elif season_aired == "airing" and episode.get("first_aired"):
+            episode_aired_dt = datetime.fromisoformat(episode["first_aired"])
+            episode_aired = (
+                "aired"
+                if episode_aired_dt < datetime.now(timezone.utc)
+                else "not aired"
+            )
+
+        year_str = _episode_year_str(show=show, season=season, episode=episode)
+
+        completed_str = (
+            "true"
+            if (trakt_show_id, season["number"], episode["number"])
+            in completed_episodes
+            else "false"
+        )
+
+        _TRAKT_SHOW_PROGRESS_COUNT.labels(
+            show=trakt_show_slug,
+            year=year_str,
+            hidden=show_hidden_str,
+            season_aired=season_aired,
+            episode_aired=episode_aired,
+            completed=completed_str,
+        ).inc()
+        _TRAKT_SHOW_PROGRESS_MINUTES.labels(
+            show=trakt_show_slug,
+            year=year_str,
+            hidden=show_hidden_str,
+            season_aired=season_aired,
+            episode_aired=episode_aired,
+            completed=completed_str,
+        ).inc(episode["runtime"])
+
+
+def _generate_up_next_metrics(ctx: Context) -> None:
+    hidden_show_trakt_ids = _hidden_show_progress_trakt_ids(ctx, ctx.data_dir)
+    logger.debug("%d shows hidden from up next progress", len(hidden_show_trakt_ids))
+
+    completed_episodes = _load_completed_episodes(ctx)
+    logger.debug("%d completed episodes", len(completed_episodes))
+
+    show_ids: set[int] = set()
+
+    watched_show_progresses = read_json_data(
+        ctx.data_dir / "watched" / "progress-shows.json",
+        list[ProgressShow],
+    )
+    for watched_show_progress in watched_show_progresses:
+        show_ids.add(watched_show_progress["show"]["ids"]["trakt"])
+
+    watchlist = read_json_data(
+        ctx.data_dir / "lists" / "watchlist.json", list[ListItem]
+    )
+    for item in watchlist:
+        if item["type"] == "show":
+            show_ids.add(item["show"]["ids"]["trakt"])
+
+    for show_id in show_ids:
+        _generate_up_next_show_metrics(
+            ctx,
+            trakt_show_id=show_id,
+            hidden_show_trakt_ids=hidden_show_trakt_ids,
+            completed_episodes=completed_episodes,
+        )
+
+
 def generate_metrics(
     session: requests.Session,
     data_dir: Path,
@@ -636,6 +817,7 @@ def generate_metrics(
     _generate_list_metrics(ctx, data_dir)
     _generate_watched_metrics(ctx, data_dir)
     _generate_watchlist_metrics(ctx, data_dir)
+    _generate_up_next_metrics(ctx)
 
     metrics_path: str = str(data_dir / "metrics.prom")
     write_to_textfile(metrics_path, _REGISTRY)
