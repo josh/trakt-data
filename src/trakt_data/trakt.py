@@ -88,6 +88,8 @@ class Episode(TypedDict):
 class SeasonExtended(TypedDict):
     number: int
     ids: SeasonIDs
+    episode_count: int
+    aired_episodes: int
     first_aired: str
     updated_at: str
     # Non-standard fields
