@@ -1,6 +1,114 @@
 [
   {
     "show": {
+      "title": "The Rehearsal",
+      "year": 2022,
+      "ids": {
+        "trakt": 182868,
+        "slug": "the-rehearsal",
+        "tvdb": 405593,
+        "imdb": "tt10802170",
+        "tmdb": 204284,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 9,
+      "last_watched_at": "2025-05-05T05:04:47.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-07-18T23:17:15.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-07-23T20:29:10.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-07-30T04:14:55.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-08-06T03:51:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-08-13T22:33:00.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-08-20T18:56:59.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 3,
+          "completed": 3,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-21T04:21:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-28T05:03:31.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-05-05T05:04:47.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Kissme",
+        "ids": {
+          "trakt": 12565647,
+          "tvdb": 10989210,
+          "imdb": "tt35934750",
+          "tmdb": 6013097,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 3,
+        "title": "Pilot's Code",
+        "ids": {
+          "trakt": 12565646,
+          "tvdb": 10989209,
+          "imdb": "tt35934749",
+          "tmdb": 6013096,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -575,7 +683,7 @@
       }
     },
     "progress": {
-      "aired": 12,
+      "aired": 13,
       "completed": 12,
       "last_watched_at": "2025-04-29T05:04:42.000Z",
       "reset_at": null,
@@ -636,7 +744,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 3,
           "episodes": [
             {
@@ -653,6 +761,11 @@
               "number": 3,
               "completed": true,
               "last_watched_at": "2025-04-29T05:04:42.000Z"
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -698,7 +811,7 @@
       }
     },
     "progress": {
-      "aired": 35,
+      "aired": 36,
       "completed": 35,
       "last_watched_at": "2025-04-28T05:49:27.000Z",
       "reset_at": null,
@@ -865,7 +978,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 8,
+          "aired": 9,
           "completed": 8,
           "episodes": [
             {
@@ -907,6 +1020,11 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2025-04-28T05:49:27.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -933,109 +1051,6 @@
           "tvdb": 10938924,
           "imdb": "tt35631343",
           "tmdb": 5951585,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Rehearsal",
-      "year": 2022,
-      "ids": {
-        "trakt": 182868,
-        "slug": "the-rehearsal",
-        "tvdb": 405593,
-        "imdb": "tt10802170",
-        "tmdb": 204284,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 8,
-      "last_watched_at": "2025-04-28T05:03:31.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 6,
-          "completed": 6,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-07-18T23:17:15.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-07-23T20:29:10.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-07-30T04:14:55.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-08-06T03:51:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-08-13T22:33:00.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-08-20T18:56:59.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 2,
-          "completed": 2,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-21T04:21:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-28T05:03:31.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "Pilot's Code",
-        "ids": {
-          "trakt": 12565646,
-          "tvdb": 10989209,
-          "imdb": "tt35934749",
-          "tmdb": 6013096,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "Star Potential",
-        "ids": {
-          "trakt": 12565644,
-          "tvdb": 10989208,
-          "imdb": "tt35934752",
-          "tmdb": 6013095,
           "tvrage": null
         }
       }
@@ -67475,7 +67490,7 @@
       }
     },
     "progress": {
-      "aired": 329,
+      "aired": 330,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -69171,7 +69186,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 9,
+          "aired": 10,
           "completed": 0,
           "episodes": [
             {
@@ -69216,6 +69231,11 @@
             },
             {
               "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
               "completed": false,
               "last_watched_at": null
             }
@@ -122806,7 +122826,7 @@
       }
     },
     "progress": {
-      "aired": 433,
+      "aired": 434,
       "completed": 187,
       "last_watched_at": "2012-05-21T04:00:00.000Z",
       "reset_at": null,
@@ -125105,7 +125125,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 10,
+          "aired": 11,
           "completed": 0,
           "episodes": [
             {
@@ -125155,6 +125175,11 @@
             },
             {
               "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 11,
               "completed": false,
               "last_watched_at": null
             }
