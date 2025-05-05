@@ -24,6 +24,7 @@ class MovieIDs(TypedDict):
 
 class ShowIDs(TypedDict):
     trakt: int
+    slug: str
 
 
 class SeasonIDs(TypedDict):
