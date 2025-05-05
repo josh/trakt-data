@@ -168,13 +168,17 @@ def _export_media_season(
     return cast(SeasonExtended, data)
 
 
-def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
+def _export_media_show(
+    ctx: Context,
+    trakt_id: int,
+    ignore_cache: bool = False,
+) -> ShowExtended:
     output_path = _partition_filename(
         basedir=ctx.cache_dir / "media" / "shows",
         id=trakt_id,
         suffix=".json",
     )
-    if output_path.exists():
+    if output_path.exists() and not ignore_cache:
         return read_json_data(output_path, ShowExtended)
 
     data = trakt_api_get(
@@ -189,15 +193,27 @@ def _export_media_show(ctx: Context, trakt_id: int) -> ShowExtended:
     return cast(ShowExtended, data)
 
 
-def _resolve_episode_trakt_id(
+def _resolve_season_trakt_id(
     ctx: Context,
     show_trakt_id: int,
     season_number: int,
-    episode_number: int,
 ) -> int | None:
     show = _export_media_show(ctx, show_trakt_id)
 
     season_trakt_id: int | None = None
+    for season in show["seasons"]:
+        if season["number"] == season_number:
+            season_trakt_id = season["ids"]["trakt"]
+            break
+
+    if season_trakt_id is None:
+        logger.debug(
+            "Invalid cache for '%s' S%d, re-fetching",
+            show["title"],
+            season_number,
+        )
+        show = _export_media_show(ctx, show_trakt_id, ignore_cache=True)
+
     for season in show["seasons"]:
         if season["number"] == season_number:
             season_trakt_id = season["ids"]["trakt"]
@@ -209,6 +225,23 @@ def _resolve_episode_trakt_id(
             show["title"],
             season_number,
         )
+        return None
+
+    return season_trakt_id
+
+
+def _resolve_episode_trakt_id(
+    ctx: Context,
+    show_trakt_id: int,
+    season_number: int,
+    episode_number: int,
+) -> int | None:
+    season_trakt_id = _resolve_season_trakt_id(
+        ctx,
+        show_trakt_id=show_trakt_id,
+        season_number=season_number,
+    )
+    if season_trakt_id is None:
         return None
 
     season = _export_media_season(
@@ -225,6 +258,7 @@ def _resolve_episode_trakt_id(
             break
 
     if episode_trakt_id is None:
+        show = _export_media_show(ctx, show_trakt_id)
         logger.warning(
             "'%s' missing S%dE%d",
             show["title"],
