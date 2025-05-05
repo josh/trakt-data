@@ -67,7 +67,15 @@ class EpisodeExtended(TypedDict):
     first_aired: str
     updated_at: str
     runtime: int
-    episode_type: str
+    episode_type: Literal[
+        "standard",
+        "series_premiere",
+        "season_premiere",
+        "mid_season_finale",
+        "mid_season_premiere",
+        "season_finale",
+        "series_finale",
+    ]
 
 
 class Episode(TypedDict):
