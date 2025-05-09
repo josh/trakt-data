@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "The Four Seasons",
+      "year": 2025,
+      "ids": {
+        "trakt": 220439,
+        "slug": "the-four-seasons-2025",
+        "tvdb": 444528,
+        "imdb": "tt30826447",
+        "tmdb": 243316,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 1,
+      "last_watched_at": "2025-05-09T03:25:49.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-09T03:25:49.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Garden Party",
+        "ids": {
+          "trakt": 12922704,
+          "tvdb": 10528283,
+          "imdb": "tt30827079",
+          "tmdb": 6062803,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Lake House",
+        "ids": {
+          "trakt": 11322267,
+          "tvdb": 10241568,
+          "imdb": "tt30827080",
+          "tmdb": 5063586,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Real Time with Bill Maher",
       "year": 2003,
       "ids": {
@@ -4070,7 +4165,7 @@
       }
     },
     "progress": {
-      "aired": 5,
+      "aired": 6,
       "completed": 5,
       "last_watched_at": "2025-05-03T06:06:19.000Z",
       "reset_at": null,
@@ -4078,7 +4173,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 5,
           "episodes": [
             {
@@ -4105,6 +4200,11 @@
               "number": 5,
               "completed": true,
               "last_watched_at": "2025-05-03T06:06:19.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4150,7 +4250,7 @@
       }
     },
     "progress": {
-      "aired": 32,
+      "aired": 33,
       "completed": 32,
       "last_watched_at": "2025-05-03T04:54:35.000Z",
       "reset_at": null,
@@ -4317,7 +4417,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 5,
           "episodes": [
             {
@@ -4344,6 +4444,11 @@
               "number": 5,
               "completed": true,
               "last_watched_at": "2025-05-03T04:54:35.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4389,7 +4494,7 @@
       }
     },
     "progress": {
-      "aired": 18,
+      "aired": 21,
       "completed": 18,
       "last_watched_at": "2025-05-02T06:55:37.000Z",
       "reset_at": null,
@@ -4465,7 +4570,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 6,
+          "aired": 9,
           "completed": 6,
           "episodes": [
             {
@@ -4497,6 +4602,21 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-05-02T06:55:37.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4505,7 +4625,7 @@
       "next_episode": {
         "season": 2,
         "number": 7,
-        "title": "Episode 7",
+        "title": "Messenger",
         "ids": {
           "trakt": 12479684,
           "tvdb": 10983011,
@@ -4542,7 +4662,7 @@
       }
     },
     "progress": {
-      "aired": 7,
+      "aired": 8,
       "completed": 7,
       "last_watched_at": "2025-04-30T06:08:54.000Z",
       "reset_at": null,
@@ -4550,7 +4670,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 7,
+          "aired": 8,
           "completed": 7,
           "episodes": [
             {
@@ -4587,6 +4707,11 @@
               "number": 7,
               "completed": true,
               "last_watched_at": "2025-04-30T06:08:54.000Z"
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -5632,9 +5757,9 @@
       }
     },
     "progress": {
-      "aired": 24,
-      "completed": 24,
-      "last_watched_at": "2025-04-06T23:42:40.000Z",
+      "aired": 25,
+      "completed": 25,
+      "last_watched_at": "2025-04-07T00:29:04.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -5741,8 +5866,8 @@
         {
           "number": 3,
           "title": null,
-          "aired": 7,
-          "completed": 7,
+          "aired": 8,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -5778,12 +5903,18 @@
               "number": 7,
               "completed": true,
               "last_watched_at": "2025-04-06T23:42:40.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-04-07T00:29:04.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 3,
         "number": 8,
         "title": "Episode 8",
@@ -5792,18 +5923,6 @@
           "tvdb": 10615398,
           "imdb": "tt29540483",
           "tmdb": 6034364,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 7,
-        "title": "Episode 7",
-        "ids": {
-          "trakt": 12891413,
-          "tvdb": 10615397,
-          "imdb": "tt29540482",
-          "tmdb": 6034362,
           "tvrage": null
         }
       }
@@ -12873,7 +12992,7 @@
       "next_episode": {
         "season": 4,
         "number": 1,
-        "title": "Episode 1",
+        "title": "All In?",
         "ids": {
           "trakt": 12777769,
           "tvdb": null,
@@ -13709,7 +13828,7 @@
       }
     },
     "progress": {
-      "aired": 4401,
+      "aired": 4405,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -35674,7 +35793,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 56,
+          "aired": 60,
           "completed": 0,
           "episodes": [
             {
@@ -35954,6 +36073,26 @@
             },
             {
               "number": 56,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 57,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 58,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 59,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 60,
               "completed": false,
               "last_watched_at": null
             }
@@ -46784,7 +46923,7 @@
       "year": 2023,
       "ids": {
         "trakt": 168898,
-        "slug": "platonic-2023",
+        "slug": "platonic",
         "tvdb": 391020,
         "imdb": "tt13366604",
         "tmdb": 112211,
@@ -52271,7 +52410,7 @@
       }
     },
     "progress": {
-      "aired": 10,
+      "aired": 13,
       "completed": 10,
       "last_watched_at": "2023-03-10T18:46:55.000Z",
       "reset_at": null,
@@ -52331,6 +52470,29 @@
               "number": 10,
               "completed": true,
               "last_watched_at": "2023-03-10T18:46:55.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 3,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -53827,7 +53989,7 @@
         "ids": {
           "trakt": 12817866,
           "tvdb": null,
-          "imdb": null,
+          "imdb": "tt29319948",
           "tmdb": 5981904,
           "tvrage": null
         }
@@ -54497,8 +54659,8 @@
         "title": "Here We Woe Again",
         "ids": {
           "trakt": 13033535,
-          "tvdb": null,
-          "imdb": null,
+          "tvdb": 10486526,
+          "imdb": "tt25754350",
           "tmdb": 6165591,
           "tvrage": null
         }
@@ -70275,7 +70437,7 @@
       }
     },
     "progress": {
-      "aired": 1655,
+      "aired": 1658,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78080,7 +78242,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 110,
+          "aired": 113,
           "completed": 0,
           "episodes": [
             {
@@ -78630,6 +78792,21 @@
             },
             {
               "number": 110,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 111,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 112,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 113,
               "completed": false,
               "last_watched_at": null
             }
@@ -101682,7 +101859,7 @@
       }
     },
     "progress": {
-      "aired": 62,
+      "aired": 63,
       "completed": 10,
       "last_watched_at": "2017-11-25T07:38:47.000Z",
       "reset_at": null,
@@ -102010,7 +102187,7 @@
         {
           "number": 6,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 0,
           "episodes": [
             {
@@ -102040,6 +102217,11 @@
             },
             {
               "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
               "completed": false,
               "last_watched_at": null
             }
