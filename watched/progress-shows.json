@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 41,
-      "last_watched_at": "2025-05-09T05:40:21.000Z",
+      "completed": 42,
+      "last_watched_at": "2025-05-10T05:07:53.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 10,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -263,8 +263,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-10T05:07:53.000Z"
             },
             {
               "number": 3,
@@ -312,6 +312,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 5,
+        "number": 3,
+        "title": "Imposter Syndrome",
+        "ids": {
+          "trakt": 12723629,
+          "tvdb": 10920383,
+          "imdb": "tt33050677",
+          "tmdb": 5912405,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
         "number": 2,
         "title": "Blood Will Have Blood",
         "ids": {
@@ -319,18 +331,6 @@
           "tvdb": 10920382,
           "imdb": "tt33061068",
           "tmdb": 5912404,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 1,
-        "title": "The Luckiest Guy in NY",
-        "ids": {
-          "trakt": 12723627,
-          "tvdb": 10916037,
-          "imdb": "tt27238763",
-          "tmdb": 5910690,
           "tvrage": null
         }
       }
@@ -445,7 +445,7 @@
       }
     },
     "progress": {
-      "aired": 694,
+      "aired": 695,
       "completed": 694,
       "last_watched_at": "2025-05-05T07:09:31.000Z",
       "reset_at": null,
@@ -4029,7 +4029,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 14,
+          "aired": 15,
           "completed": 14,
           "episodes": [
             {
@@ -4101,6 +4101,11 @@
               "number": 14,
               "completed": true,
               "last_watched_at": "2025-05-05T07:09:31.000Z"
+            },
+            {
+              "number": 15,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4109,7 +4114,7 @@
       "next_episode": {
         "season": 23,
         "number": 15,
-        "title": "May 9, 2025",
+        "title": "May 9, 2025: David Hogg, Donna Brazile, Rep. Mike Lawler",
         "ids": {
           "trakt": 12952712,
           "tvdb": null,
@@ -4124,7 +4129,7 @@
         "title": "May 2, 2025: Cheech Marin, Tommy Chong, Kara Swisher, Kevin McCarthy",
         "ids": {
           "trakt": 12952711,
-          "tvdb": null,
+          "tvdb": 11080069,
           "imdb": null,
           "tmdb": 6083103,
           "tvrage": null
@@ -66741,7 +66746,7 @@
       "next_episode": {
         "season": 2,
         "number": 1,
-        "title": "Episode 1",
+        "title": "Zauberwald",
         "ids": {
           "trakt": 10807947,
           "tvdb": null,

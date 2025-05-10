@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 41,
+      "completed": 42,
       "hidden": 0,
-      "last_watched_at": "2025-05-09T05:40:21.000Z",
+      "last_watched_at": "2025-05-10T05:07:53.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 41,
+        "play_count": 42,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 5,
+        "number": 3,
+        "title": "Imposter Syndrome",
+        "ids": {
+          "trakt": 12723629,
+          "tvdb": 10920383,
+          "imdb": "tt33050677",
+          "tmdb": 5912405,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 2,
         "title": "Blood Will Have Blood",
@@ -32,18 +44,6 @@
           "tvdb": 10920382,
           "imdb": "tt33061068",
           "tmdb": 5912404,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 1,
-        "title": "The Luckiest Guy in NY",
-        "ids": {
-          "trakt": 12723627,
-          "tvdb": 10916037,
-          "imdb": "tt27238763",
-          "tmdb": 5910690,
           "tvrage": null
         }
       }
@@ -94,6 +94,56 @@
           "tvdb": 10528284,
           "imdb": "tt30827082",
           "tmdb": 6062804,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 695,
+      "completed": 694,
+      "hidden": 0,
+      "last_watched_at": "2025-05-05T07:09:31.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 697,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 23,
+        "number": 15,
+        "title": "May 9, 2025: David Hogg, Donna Brazile, Rep. Mike Lawler",
+        "ids": {
+          "trakt": 12952712,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6083104,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 23,
+        "number": 14,
+        "title": "May 2, 2025: Cheech Marin, Tommy Chong, Kara Swisher, Kevin McCarthy",
+        "ids": {
+          "trakt": 12952711,
+          "tvdb": 11080069,
+          "imdb": null,
+          "tmdb": 6083103,
           "tvrage": null
         }
       }
