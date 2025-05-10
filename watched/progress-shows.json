@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "The Four Seasons",
+      "year": 2025,
+      "ids": {
+        "trakt": 220439,
+        "slug": "the-four-seasons-2025",
+        "tvdb": 444528,
+        "imdb": "tt30826447",
+        "tmdb": 243316,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 5,
+      "last_watched_at": "2025-05-10T06:38:21.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-09T03:25:49.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-05-09T03:58:51.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-05-09T04:31:38.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-05-10T06:00:51.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-05-10T06:38:21.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Ultimate Frisbee",
+        "ids": {
+          "trakt": 12922708,
+          "tvdb": 10528287,
+          "imdb": "tt30827085",
+          "tmdb": 6062808,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "Family Weekend",
+        "ids": {
+          "trakt": 12922707,
+          "tvdb": 10528286,
+          "imdb": "tt30827083",
+          "tmdb": 6062806,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "You",
       "year": 2018,
       "ids": {
@@ -331,101 +426,6 @@
           "tvdb": 10920382,
           "imdb": "tt33061068",
           "tmdb": 5912404,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Four Seasons",
-      "year": 2025,
-      "ids": {
-        "trakt": 220439,
-        "slug": "the-four-seasons-2025",
-        "tvdb": 444528,
-        "imdb": "tt30826447",
-        "tmdb": 243316,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 3,
-      "last_watched_at": "2025-05-09T04:31:38.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 3,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-05-09T03:25:49.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-05-09T03:58:51.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-05-09T04:31:38.000Z"
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Beach Bar",
-        "ids": {
-          "trakt": 12922706,
-          "tvdb": 10528285,
-          "imdb": "tt30827081",
-          "tmdb": 6062805,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Eco Resort",
-        "ids": {
-          "trakt": 12922705,
-          "tvdb": 10528284,
-          "imdb": "tt30827082",
-          "tmdb": 6062804,
           "tvrage": null
         }
       }
