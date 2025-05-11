@@ -1,5 +1,60 @@
 [
   {
+    "plays": 6,
+    "last_watched_at": "2025-05-11T02:40:24.000Z",
+    "last_updated_at": "2025-05-11T02:08:24.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "The Four Seasons",
+      "year": 2025,
+      "ids": {
+        "trakt": 220439,
+        "slug": "the-four-seasons-2025",
+        "tvdb": 444528,
+        "imdb": "tt30826447",
+        "tmdb": 243316,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-05-09T03:25:49.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-05-09T03:58:51.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-05-09T04:31:38.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-05-10T06:00:51.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-05-10T06:38:21.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-05-11T02:40:24.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 698,
     "last_watched_at": "2025-05-10T18:01:31.000Z",
     "last_updated_at": "2025-05-10T18:01:31.000Z",
@@ -3604,56 +3659,6 @@
             "number": 15,
             "plays": 1,
             "last_watched_at": "2025-05-10T18:01:31.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 5,
-    "last_watched_at": "2025-05-10T06:38:21.000Z",
-    "last_updated_at": "2025-05-10T06:04:21.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "The Four Seasons",
-      "year": 2025,
-      "ids": {
-        "trakt": 220439,
-        "slug": "the-four-seasons-2025",
-        "tvdb": 444528,
-        "imdb": "tt30826447",
-        "tmdb": 243316,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-05-09T03:25:49.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-05-09T03:58:51.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-05-09T04:31:38.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-05-10T06:00:51.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-05-10T06:38:21.000Z"
           }
         ]
       }

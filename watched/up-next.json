@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2025-05-10T06:38:21.000Z",
+      "last_watched_at": "2025-05-11T02:40:24.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Ski Trip",
+        "ids": {
+          "trakt": 12922709,
+          "tvdb": 10528288,
+          "imdb": "tt30827084",
+          "tmdb": 6062809,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 6,
         "title": "Ultimate Frisbee",
@@ -32,18 +44,6 @@
           "tvdb": 10528287,
           "imdb": "tt30827085",
           "tmdb": 6062808,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Family Weekend",
-        "ids": {
-          "trakt": 12922707,
-          "tvdb": 10528286,
-          "imdb": "tt30827083",
-          "tmdb": 6062806,
           "tvrage": null
         }
       }
