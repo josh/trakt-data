@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
-      "last_watched_at": "2025-05-11T02:40:24.000Z",
+      "completed": 7,
+      "last_watched_at": "2025-05-11T03:27:12.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 8,
-          "completed": 6,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -56,8 +56,8 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-11T03:27:12.000Z"
             },
             {
               "number": 8,
@@ -70,6 +70,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 8,
+        "title": "Fun",
+        "ids": {
+          "trakt": 12922710,
+          "tvdb": 10528289,
+          "imdb": "tt30827086",
+          "tmdb": 6062811,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 7,
         "title": "Ski Trip",
         "ids": {
@@ -77,18 +89,6 @@
           "tvdb": 10528288,
           "imdb": "tt30827084",
           "tmdb": 6062809,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Ultimate Frisbee",
-        "ids": {
-          "trakt": 12922708,
-          "tvdb": 10528287,
-          "imdb": "tt30827085",
-          "tmdb": 6062808,
           "tvrage": null
         }
       }
