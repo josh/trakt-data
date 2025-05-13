@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "You",
+      "year": 2018,
+      "ids": {
+        "trakt": 124764,
+        "slug": "you",
+        "tvdb": 336924,
+        "imdb": "tt7335184",
+        "tmdb": 78191,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 50,
+      "completed": 44,
+      "hidden": 0,
+      "last_watched_at": "2025-05-13T06:35:03.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 44,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 5,
+        "number": 5,
+        "title": "Last Dance",
+        "ids": {
+          "trakt": 12723631,
+          "tvdb": 10920385,
+          "imdb": "tt33061070",
+          "tmdb": 5912407,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
+        "number": 4,
+        "title": "My Fair Maddie",
+        "ids": {
+          "trakt": 12723630,
+          "tvdb": 10920384,
+          "imdb": "tt33061069",
+          "tmdb": 5912406,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Last of Us",
       "year": 2023,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10972142,
           "imdb": "tt32550883",
           "tmdb": 5994270,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "You",
-      "year": 2018,
-      "ids": {
-        "trakt": 124764,
-        "slug": "you",
-        "tvdb": 336924,
-        "imdb": "tt7335184",
-        "tmdb": 78191,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 50,
-      "completed": 43,
-      "hidden": 0,
-      "last_watched_at": "2025-05-11T07:06:15.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 43,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 5,
-        "number": 4,
-        "title": "My Fair Maddie",
-        "ids": {
-          "trakt": 12723630,
-          "tvdb": 10920384,
-          "imdb": "tt33061069",
-          "tmdb": 5912406,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 3,
-        "title": "Imposter Syndrome",
-        "ids": {
-          "trakt": 12723629,
-          "tvdb": 10920383,
-          "imdb": "tt33050677",
-          "tmdb": 5912405,
           "tvrage": null
         }
       }
