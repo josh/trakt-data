@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "The Last of Us",
+      "year": 2023,
+      "ids": {
+        "trakt": 158947,
+        "slug": "the-last-of-us",
+        "tvdb": 392256,
+        "imdb": "tt3581920",
+        "tmdb": 100088,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 13,
+      "hidden": 0,
+      "last_watched_at": "2025-05-13T05:07:22.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 13,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Feel Her Love",
+        "ids": {
+          "trakt": 12566356,
+          "tvdb": 10972143,
+          "imdb": "tt32550885",
+          "tmdb": 5994271,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Day One",
+        "ids": {
+          "trakt": 12566354,
+          "tvdb": 10972142,
+          "imdb": "tt32550883",
+          "tmdb": 5994270,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "You",
       "year": 2018,
       "ids": {
@@ -194,56 +244,6 @@
           "tvdb": 10814417,
           "imdb": "tt34901430",
           "tmdb": 5772140,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Last of Us",
-      "year": 2023,
-      "ids": {
-        "trakt": 158947,
-        "slug": "the-last-of-us",
-        "tvdb": 392256,
-        "imdb": "tt3581920",
-        "tmdb": 100088,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 14,
-      "completed": 12,
-      "hidden": 0,
-      "last_watched_at": "2025-04-29T05:04:42.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 12,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Day One",
-        "ids": {
-          "trakt": 12566354,
-          "tvdb": 10972142,
-          "imdb": "tt32550883",
-          "tmdb": 5994270,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "The Path",
-        "ids": {
-          "trakt": 12566351,
-          "tvdb": 10972141,
-          "imdb": "tt32550882",
-          "tmdb": 5994269,
           "tvrage": null
         }
       }
