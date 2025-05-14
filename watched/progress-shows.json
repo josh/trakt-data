@@ -1,6 +1,139 @@
 [
   {
     "show": {
+      "title": "The Last of Us",
+      "year": 2023,
+      "ids": {
+        "trakt": 158947,
+        "slug": "the-last-of-us",
+        "tvdb": 392256,
+        "imdb": "tt3581920",
+        "tmdb": 100088,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 14,
+      "last_watched_at": "2025-05-14T04:14:57.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-01-16T07:17:43.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-01-23T03:51:38.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-01-30T05:25:51.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-06T04:43:36.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-11T03:42:09.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-21T02:49:26.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-27T04:18:00.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-03-06T04:07:45.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-03-13T09:03:24.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 5,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-14T06:08:20.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-21T03:37:19.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-29T05:04:42.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-05-13T05:07:22.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-05-14T04:14:57.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "The Price",
+        "ids": {
+          "trakt": 12566358,
+          "tvdb": 10972144,
+          "imdb": "tt32550886",
+          "tmdb": 5994272,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Feel Her Love",
+        "ids": {
+          "trakt": 12566356,
+          "tvdb": 10972143,
+          "imdb": "tt32550885",
+          "tmdb": 5994271,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "You",
       "year": 2018,
       "ids": {
@@ -331,139 +464,6 @@
           "tvdb": 10920384,
           "imdb": "tt33061069",
           "tmdb": 5912406,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Last of Us",
-      "year": 2023,
-      "ids": {
-        "trakt": 158947,
-        "slug": "the-last-of-us",
-        "tvdb": 392256,
-        "imdb": "tt3581920",
-        "tmdb": 100088,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 14,
-      "completed": 13,
-      "last_watched_at": "2025-05-13T05:07:22.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 9,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-01-16T07:17:43.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-01-23T03:51:38.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-01-30T05:25:51.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-06T04:43:36.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-11T03:42:09.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-21T02:49:26.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-27T04:18:00.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-03-06T04:07:45.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-03-13T09:03:24.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 5,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-14T06:08:20.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-21T03:37:19.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-29T05:04:42.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-05-13T05:07:22.000Z"
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Feel Her Love",
-        "ids": {
-          "trakt": 12566356,
-          "tvdb": 10972143,
-          "imdb": "tt32550885",
-          "tmdb": 5994271,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Day One",
-        "ids": {
-          "trakt": 12566354,
-          "tvdb": 10972142,
-          "imdb": "tt32550883",
-          "tmdb": 5994270,
           "tvrage": null
         }
       }
@@ -847,7 +847,7 @@
       "seasons": [
         {
           "number": 1,
-          "title": null,
+          "title": "Miniseries",
           "aired": 8,
           "completed": 8,
           "episodes": [
@@ -4963,7 +4963,7 @@
       }
     },
     "progress": {
-      "aired": 21,
+      "aired": 24,
       "completed": 18,
       "last_watched_at": "2025-05-02T06:55:37.000Z",
       "reset_at": null,
@@ -5039,7 +5039,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 9,
+          "aired": 12,
           "completed": 6,
           "episodes": [
             {
@@ -5084,6 +5084,21 @@
             },
             {
               "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 11,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 12,
               "completed": false,
               "last_watched_at": null
             }
@@ -5131,7 +5146,7 @@
       }
     },
     "progress": {
-      "aired": 8,
+      "aired": 9,
       "completed": 7,
       "last_watched_at": "2025-04-30T06:08:54.000Z",
       "reset_at": null,
@@ -5139,7 +5154,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 8,
+          "aired": 9,
           "completed": 7,
           "episodes": [
             {
@@ -5179,6 +5194,11 @@
             },
             {
               "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
               "completed": false,
               "last_watched_at": null
             }
@@ -12222,7 +12242,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 4,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 12565626,
+          "tvdb": 11141373,
+          "imdb": "tt32765561",
+          "tmdb": 6231138,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 3,
         "number": 10,
@@ -14169,7 +14200,7 @@
       }
     },
     "progress": {
-      "aired": 4406,
+      "aired": 4407,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -36134,7 +36165,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 61,
+          "aired": 62,
           "completed": 0,
           "episodes": [
             {
@@ -36439,6 +36470,11 @@
             },
             {
               "number": 61,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 62,
               "completed": false,
               "last_watched_at": null
             }
@@ -41207,7 +41243,7 @@
         },
         {
           "number": 2,
-          "title": null,
+          "title": "Part 3",
           "aired": 7,
           "completed": 7,
           "episodes": [
@@ -70451,7 +70487,7 @@
       }
     },
     "progress": {
-      "aired": 1660,
+      "aired": 1661,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78256,7 +78292,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 115,
+          "aired": 116,
           "completed": 0,
           "episodes": [
             {
@@ -78831,6 +78867,11 @@
             },
             {
               "number": 115,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 116,
               "completed": false,
               "last_watched_at": null
             }
