@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 45,
+      "completed": 46,
       "hidden": 0,
-      "last_watched_at": "2025-05-14T06:14:23.000Z",
+      "last_watched_at": "2025-05-14T07:07:23.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 45,
+        "play_count": 46,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 5,
+        "number": 7,
+        "title": "#JoeGoldberg",
+        "ids": {
+          "trakt": 12723633,
+          "tvdb": 10920387,
+          "imdb": "tt32474414",
+          "tmdb": 5912409,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 6,
         "title": "The Dark Face of Love",
@@ -32,18 +44,6 @@
           "tvdb": 10920386,
           "imdb": "tt33061071",
           "tmdb": 5912408,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 5,
-        "title": "Last Dance",
-        "ids": {
-          "trakt": 12723631,
-          "tvdb": 10920385,
-          "imdb": "tt33061070",
-          "tmdb": 5912407,
           "tvrage": null
         }
       }
