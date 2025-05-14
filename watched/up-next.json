@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 44,
+      "completed": 45,
       "hidden": 0,
-      "last_watched_at": "2025-05-13T06:35:03.000Z",
+      "last_watched_at": "2025-05-14T06:14:23.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 44,
+        "play_count": 45,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 5,
+        "number": 6,
+        "title": "The Dark Face of Love",
+        "ids": {
+          "trakt": 12723632,
+          "tvdb": 10920386,
+          "imdb": "tt33061071",
+          "tmdb": 5912408,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 5,
         "title": "Last Dance",
@@ -32,18 +44,6 @@
           "tvdb": 10920385,
           "imdb": "tt33061070",
           "tmdb": 5912407,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 4,
-        "title": "My Fair Maddie",
-        "ids": {
-          "trakt": 12723630,
-          "tvdb": 10920384,
-          "imdb": "tt33061069",
-          "tmdb": 5912406,
           "tvrage": null
         }
       }
