@@ -1,6 +1,91 @@
 [
   {
     "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 6,
+      "last_watched_at": "2025-05-14T05:24:13.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-20T07:33:18.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-21T05:17:31.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-22T06:07:06.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-04-25T05:31:18.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-05-03T06:06:19.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-05-14T05:24:13.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "The First Honest Thing",
+        "ids": {
+          "trakt": 12523284,
+          "tvdb": 10819898,
+          "imdb": "tt32323068",
+          "tmdb": 5778799,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "The Things You Lost Along the Way",
+        "ids": {
+          "trakt": 12523282,
+          "tvdb": 10819897,
+          "imdb": "tt32323066",
+          "tmdb": 5778798,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Last of Us",
       "year": 2023,
       "ids": {
@@ -4859,91 +4944,6 @@
           "tvdb": 10938925,
           "imdb": "tt35631338",
           "tmdb": 5951586,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "tvdb": 443433,
-        "imdb": "tt30459041",
-        "tmdb": 241609,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 5,
-      "last_watched_at": "2025-05-03T06:06:19.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 6,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-20T07:33:18.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-21T05:17:31.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-22T06:07:06.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-04-25T05:31:18.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-05-03T06:06:19.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "The Things You Lost Along the Way",
-        "ids": {
-          "trakt": 12523282,
-          "tvdb": 10819897,
-          "imdb": "tt32323066",
-          "tmdb": 5778798,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "This Tourist Has Balls",
-        "ids": {
-          "trakt": 12523280,
-          "tvdb": 10819896,
-          "imdb": "tt32323065",
-          "tmdb": 5778797,
           "tvrage": null
         }
       }

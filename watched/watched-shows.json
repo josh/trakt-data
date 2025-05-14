@@ -1,5 +1,60 @@
 [
   {
+    "plays": 6,
+    "last_watched_at": "2025-05-14T05:24:13.000Z",
+    "last_updated_at": "2025-05-14T04:35:13.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-04-20T07:33:18.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-04-21T05:17:31.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-04-22T06:07:06.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-04-25T05:31:18.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-05-03T06:06:19.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-05-14T05:24:13.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 14,
     "last_watched_at": "2025-05-14T04:14:57.000Z",
     "last_updated_at": "2025-05-14T03:29:57.000Z",
@@ -4539,56 +4594,6 @@
             "number": 9,
             "plays": 1,
             "last_watched_at": "2025-05-05T06:03:37.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 5,
-    "last_watched_at": "2025-05-03T06:06:19.000Z",
-    "last_updated_at": "2025-05-03T05:15:19.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "tvdb": 443433,
-        "imdb": "tt30459041",
-        "tmdb": 241609,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-04-20T07:33:18.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-04-21T05:17:31.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-04-22T06:07:06.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-04-25T05:31:18.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-05-03T06:06:19.000Z"
           }
         ]
       }
