@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "You",
+      "year": 2018,
+      "ids": {
+        "trakt": 124764,
+        "slug": "you",
+        "tvdb": 336924,
+        "imdb": "tt7335184",
+        "tmdb": 78191,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 50,
+      "completed": 47,
+      "hidden": 0,
+      "last_watched_at": "2025-05-15T06:32:54.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 47,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 5,
+        "number": 8,
+        "title": "Folie a Deux",
+        "ids": {
+          "trakt": 12723634,
+          "tvdb": 10920388,
+          "imdb": "tt33396958",
+          "tmdb": 5912410,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
+        "number": 7,
+        "title": "#JoeGoldberg",
+        "ids": {
+          "trakt": 12723633,
+          "tvdb": 10920387,
+          "imdb": "tt32474414",
+          "tmdb": 5912409,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Star Wars: Andor",
       "year": 2022,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10983011,
           "imdb": "tt20603306",
           "tmdb": 5747436,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "You",
-      "year": 2018,
-      "ids": {
-        "trakt": 124764,
-        "slug": "you",
-        "tvdb": 336924,
-        "imdb": "tt7335184",
-        "tmdb": 78191,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 50,
-      "completed": 46,
-      "hidden": 0,
-      "last_watched_at": "2025-05-14T07:07:23.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 46,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 5,
-        "number": 7,
-        "title": "#JoeGoldberg",
-        "ids": {
-          "trakt": 12723633,
-          "tvdb": 10920387,
-          "imdb": "tt32474414",
-          "tmdb": 5912409,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 6,
-        "title": "The Dark Face of Love",
-        "ids": {
-          "trakt": 12723632,
-          "tvdb": 10920386,
-          "imdb": "tt33061071",
-          "tmdb": 5912408,
           "tvrage": null
         }
       }
