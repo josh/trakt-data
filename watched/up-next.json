@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Star Wars: Andor",
+      "year": 2022,
+      "ids": {
+        "trakt": 170649,
+        "slug": "star-wars-andor",
+        "tvdb": 393189,
+        "imdb": "tt9253284",
+        "tmdb": 83867,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 24,
+      "completed": 19,
+      "hidden": 0,
+      "last_watched_at": "2025-05-15T05:20:41.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 32,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "Who Are You?",
+        "ids": {
+          "trakt": 12479685,
+          "tvdb": 10983013,
+          "imdb": "tt20603308",
+          "tmdb": 5747437,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "Messenger",
+        "ids": {
+          "trakt": 12479684,
+          "tvdb": 10983011,
+          "imdb": "tt20603306",
+          "tmdb": 5747436,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "You",
       "year": 2018,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10920386,
           "imdb": "tt33061071",
           "tmdb": 5912408,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Star Wars: Andor",
-      "year": 2022,
-      "ids": {
-        "trakt": 170649,
-        "slug": "star-wars-andor",
-        "tvdb": 393189,
-        "imdb": "tt9253284",
-        "tmdb": 83867,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 24,
-      "completed": 18,
-      "hidden": 0,
-      "last_watched_at": "2025-05-02T06:55:37.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 31,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "Messenger",
-        "ids": {
-          "trakt": 12479684,
-          "tvdb": 10983011,
-          "imdb": "tt20603306",
-          "tmdb": 5747436,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "What a Festive Evening",
-        "ids": {
-          "trakt": 12479683,
-          "tvdb": 10983010,
-          "imdb": "tt20603302",
-          "tmdb": 5747435,
           "tvrage": null
         }
       }
