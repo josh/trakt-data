@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 49,
-      "last_watched_at": "2025-05-16T07:14:44.000Z",
+      "completed": 50,
+      "last_watched_at": "2025-05-16T08:15:06.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 10,
-          "completed": 9,
+          "completed": 10,
           "episodes": [
             {
               "number": 1,
@@ -303,14 +303,15 @@
             },
             {
               "number": 10,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-16T08:15:06.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 5,
         "number": 10,
         "title": "Finale",
@@ -319,18 +320,6 @@
           "tvdb": 10920390,
           "imdb": "tt33399698",
           "tmdb": 5912413,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 9,
-        "title": "Trial of the Furies",
-        "ids": {
-          "trakt": 12723635,
-          "tvdb": 10920389,
-          "imdb": "tt33396960",
-          "tmdb": 5912412,
           "tvrage": null
         }
       }
