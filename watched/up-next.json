@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 47,
+      "completed": 48,
       "hidden": 0,
-      "last_watched_at": "2025-05-15T06:32:54.000Z",
+      "last_watched_at": "2025-05-16T06:18:53.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 47,
+        "play_count": 48,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 5,
+        "number": 9,
+        "title": "Trial of the Furies",
+        "ids": {
+          "trakt": 12723635,
+          "tvdb": 10920389,
+          "imdb": "tt33396960",
+          "tmdb": 5912412,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 8,
         "title": "Folie a Deux",
@@ -32,18 +44,6 @@
           "tvdb": 10920388,
           "imdb": "tt33396958",
           "tmdb": 5912410,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 7,
-        "title": "#JoeGoldberg",
-        "ids": {
-          "trakt": 12723633,
-          "tvdb": 10920387,
-          "imdb": "tt32474414",
-          "tmdb": 5912409,
           "tvrage": null
         }
       }
@@ -101,6 +101,106 @@
   },
   {
     "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2025-05-14T05:24:13.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "The First Honest Thing",
+        "ids": {
+          "trakt": 12523284,
+          "tvdb": 10819898,
+          "imdb": "tt32323068",
+          "tmdb": 5778799,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "The Things You Lost Along the Way",
+        "ids": {
+          "trakt": 12523282,
+          "tvdb": 10819897,
+          "imdb": "tt32323066",
+          "tmdb": 5778798,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Hacks",
+      "year": 2021,
+      "ids": {
+        "trakt": 179632,
+        "slug": "hacks-2021",
+        "tvdb": 401582,
+        "imdb": "tt11815682",
+        "tmdb": 124101,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 35,
+      "completed": 33,
+      "hidden": 0,
+      "last_watched_at": "2025-05-13T04:14:14.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 33,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 4,
+        "number": 7,
+        "title": "D'Christening",
+        "ids": {
+          "trakt": 12564194,
+          "tvdb": 11019534,
+          "imdb": "tt33383969",
+          "tmdb": 6040227,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 6,
+        "title": "Mrs. Table",
+        "ids": {
+          "trakt": 12564193,
+          "tvdb": 11019533,
+          "imdb": "tt33383960",
+          "tmdb": 6040226,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Studio",
       "year": 2025,
       "ids": {
@@ -144,6 +244,56 @@
           "tvdb": 10814417,
           "imdb": "tt34901430",
           "tmdb": 5772140,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Welcome to Wrexham",
+      "year": 2022,
+      "ids": {
+        "trakt": 191775,
+        "slug": "welcome-to-wrexham",
+        "tvdb": 403119,
+        "imdb": "tt14674086",
+        "tmdb": 126929,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 43,
+      "completed": 41,
+      "hidden": 0,
+      "last_watched_at": "2024-06-17T05:54:46.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 41,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 4,
+        "number": 1,
+        "title": "All In?",
+        "ids": {
+          "trakt": 12777769,
+          "tvdb": null,
+          "imdb": "tt32368637",
+          "tmdb": 5948526,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 8,
+        "title": "Down to the Wire",
+        "ids": {
+          "trakt": 11874454,
+          "tvdb": 10302917,
+          "imdb": "tt31224611",
+          "tmdb": 5348966,
           "tvrage": null
         }
       }
@@ -213,7 +363,7 @@
       }
     },
     "progress": {
-      "aired": 13,
+      "aired": 14,
       "completed": 10,
       "hidden": 0,
       "last_watched_at": "2023-03-10T18:46:55.000Z",

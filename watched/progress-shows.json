@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 47,
-      "last_watched_at": "2025-05-15T06:32:54.000Z",
+      "completed": 48,
+      "last_watched_at": "2025-05-16T06:18:53.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 10,
-          "completed": 7,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -293,8 +293,8 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-16T06:18:53.000Z"
             },
             {
               "number": 9,
@@ -312,6 +312,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 5,
+        "number": 9,
+        "title": "Trial of the Furies",
+        "ids": {
+          "trakt": 12723635,
+          "tvdb": 10920389,
+          "imdb": "tt33396960",
+          "tmdb": 5912412,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
         "number": 8,
         "title": "Folie a Deux",
         "ids": {
@@ -319,18 +331,6 @@
           "tvdb": 10920388,
           "imdb": "tt33396958",
           "tmdb": 5912410,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 7,
-        "title": "#JoeGoldberg",
-        "ids": {
-          "trakt": 12723633,
-          "tvdb": 10920387,
-          "imdb": "tt32474414",
-          "tmdb": 5912409,
           "tvrage": null
         }
       }
@@ -533,7 +533,7 @@
       }
     },
     "progress": {
-      "aired": 6,
+      "aired": 7,
       "completed": 6,
       "last_watched_at": "2025-05-14T05:24:13.000Z",
       "reset_at": null,
@@ -541,7 +541,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 6,
           "episodes": [
             {
@@ -573,6 +573,11 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-05-14T05:24:13.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -751,7 +756,7 @@
       }
     },
     "progress": {
-      "aired": 33,
+      "aired": 35,
       "completed": 33,
       "last_watched_at": "2025-05-13T04:14:14.000Z",
       "reset_at": null,
@@ -918,7 +923,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 6,
+          "aired": 8,
           "completed": 6,
           "episodes": [
             {
@@ -950,6 +955,16 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-05-13T04:14:14.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -958,7 +973,7 @@
       "next_episode": {
         "season": 4,
         "number": 7,
-        "title": "Episode 7",
+        "title": "D'Christening",
         "ids": {
           "trakt": 12564194,
           "tvdb": 11019534,
@@ -1115,7 +1130,7 @@
       "seasons": [
         {
           "number": 1,
-          "title": "Miniseries",
+          "title": null,
           "aired": 8,
           "completed": 8,
           "episodes": [
@@ -4861,7 +4876,7 @@
       "next_episode": {
         "season": 23,
         "number": 16,
-        "title": "May 16, 2025",
+        "title": "May 16, 2025: Stanley A. McChrystal, Scott Jennings, Peter Hamby",
         "ids": {
           "trakt": 12952713,
           "tvdb": null,
@@ -13125,7 +13140,7 @@
       }
     },
     "progress": {
-      "aired": 41,
+      "aired": 43,
       "completed": 41,
       "last_watched_at": "2024-06-17T05:54:46.000Z",
       "reset_at": null,
@@ -13358,6 +13373,24 @@
               "last_watched_at": "2024-06-17T05:54:46.000Z"
             }
           ]
+        },
+        {
+          "number": 4,
+          "title": null,
+          "aired": 2,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
         }
       ],
       "hidden_seasons": [],
@@ -13368,7 +13401,7 @@
         "ids": {
           "trakt": 12777769,
           "tvdb": null,
-          "imdb": null,
+          "imdb": "tt32368637",
           "tmdb": 5948526,
           "tvrage": null
         }
@@ -14200,7 +14233,7 @@
       }
     },
     "progress": {
-      "aired": 4408,
+      "aired": 4409,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -36165,7 +36198,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 63,
+          "aired": 64,
           "completed": 0,
           "episodes": [
             {
@@ -36480,6 +36513,11 @@
             },
             {
               "number": 63,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 64,
               "completed": false,
               "last_watched_at": null
             }
@@ -52460,7 +52498,7 @@
       }
     },
     "progress": {
-      "aired": 13,
+      "aired": 14,
       "completed": 10,
       "last_watched_at": "2023-03-10T18:46:55.000Z",
       "reset_at": null,
@@ -52526,7 +52564,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -52541,6 +52579,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }
@@ -70492,7 +70535,7 @@
       }
     },
     "progress": {
-      "aired": 1662,
+      "aired": 1663,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78297,7 +78340,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 117,
+          "aired": 118,
           "completed": 0,
           "episodes": [
             {
@@ -78882,6 +78925,11 @@
             },
             {
               "number": 117,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 118,
               "completed": false,
               "last_watched_at": null
             }
