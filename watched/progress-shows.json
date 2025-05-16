@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 50,
-      "completed": 48,
-      "last_watched_at": "2025-05-16T06:18:53.000Z",
+      "completed": 49,
+      "last_watched_at": "2025-05-16T07:14:44.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 10,
-          "completed": 8,
+          "completed": 9,
           "episodes": [
             {
               "number": 1,
@@ -298,8 +298,8 @@
             },
             {
               "number": 9,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-16T07:14:44.000Z"
             },
             {
               "number": 10,
@@ -312,6 +312,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 5,
+        "number": 10,
+        "title": "Finale",
+        "ids": {
+          "trakt": 12723636,
+          "tvdb": 10920390,
+          "imdb": "tt33399698",
+          "tmdb": 5912413,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
         "number": 9,
         "title": "Trial of the Furies",
         "ids": {
@@ -319,18 +331,6 @@
           "tvdb": 10920389,
           "imdb": "tt33396960",
           "tmdb": 5912412,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 8,
-        "title": "Folie a Deux",
-        "ids": {
-          "trakt": 12723634,
-          "tvdb": 10920388,
-          "imdb": "tt33396958",
-          "tmdb": 5912410,
           "tvrage": null
         }
       }
