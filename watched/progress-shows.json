@@ -1,6 +1,106 @@
 [
   {
     "show": {
+      "title": "The Studio",
+      "year": 2025,
+      "ids": {
+        "trakt": 228700,
+        "slug": "the-studio-2025",
+        "tvdb": 448147,
+        "imdb": "tt23649128",
+        "tmdb": 247767,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 8,
+      "last_watched_at": "2025-05-17T03:50:13.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-03-30T04:50:19.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-03-30T05:16:29.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-15T05:42:02.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-04-17T05:10:01.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-04-17T05:41:23.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-04-23T05:18:40.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-04-30T06:08:54.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-05-17T03:50:13.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "CinemaCon (1)",
+        "ids": {
+          "trakt": 12509091,
+          "tvdb": 10814419,
+          "imdb": "tt34901433",
+          "tmdb": 5772142,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "The Golden Globes",
+        "ids": {
+          "trakt": 12509090,
+          "tvdb": 10814418,
+          "imdb": "tt34901431",
+          "tmdb": 5772141,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -5136,106 +5236,6 @@
           "tvdb": 10938925,
           "imdb": "tt35631338",
           "tmdb": 5951586,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Studio",
-      "year": 2025,
-      "ids": {
-        "trakt": 228700,
-        "slug": "the-studio-2025",
-        "tvdb": 448147,
-        "imdb": "tt23649128",
-        "tmdb": 247767,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 7,
-      "last_watched_at": "2025-04-30T06:08:54.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-03-30T04:50:19.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-03-30T05:16:29.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-15T05:42:02.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-04-17T05:10:01.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-04-17T05:41:23.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-04-23T05:18:40.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-04-30T06:08:54.000Z"
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "The Golden Globes",
-        "ids": {
-          "trakt": 12509090,
-          "tvdb": 10814418,
-          "imdb": "tt34901431",
-          "tmdb": 5772141,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Casting",
-        "ids": {
-          "trakt": 12509089,
-          "tvdb": 10814417,
-          "imdb": "tt34901430",
-          "tmdb": 5772140,
           "tvrage": null
         }
       }

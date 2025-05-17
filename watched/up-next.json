@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "The Studio",
+      "year": 2025,
+      "ids": {
+        "trakt": 228700,
+        "slug": "the-studio-2025",
+        "tvdb": 448147,
+        "imdb": "tt23649128",
+        "tmdb": 247767,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2025-05-17T03:50:13.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "CinemaCon (1)",
+        "ids": {
+          "trakt": 12509091,
+          "tvdb": 10814419,
+          "imdb": "tt34901433",
+          "tmdb": 5772142,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "The Golden Globes",
+        "ids": {
+          "trakt": 12509090,
+          "tvdb": 10814418,
+          "imdb": "tt34901431",
+          "tmdb": 5772141,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Star Wars: Andor",
       "year": 2022,
       "ids": {
@@ -94,56 +144,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6083104,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Studio",
-      "year": 2025,
-      "ids": {
-        "trakt": 228700,
-        "slug": "the-studio-2025",
-        "tvdb": 448147,
-        "imdb": "tt23649128",
-        "tmdb": 247767,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 7,
-      "hidden": 0,
-      "last_watched_at": "2025-04-30T06:08:54.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 7,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "The Golden Globes",
-        "ids": {
-          "trakt": 12509090,
-          "tvdb": 10814418,
-          "imdb": "tt34901431",
-          "tmdb": 5772141,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Casting",
-        "ids": {
-          "trakt": 12509089,
-          "tvdb": 10814417,
-          "imdb": "tt34901430",
-          "tmdb": 5772140,
           "tvrage": null
         }
       }
