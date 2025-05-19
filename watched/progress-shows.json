@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "Dope Thief",
+      "year": 2025,
+      "ids": {
+        "trakt": 198189,
+        "slug": "dope-thief",
+        "tvdb": 423332,
+        "imdb": "tt21638826",
+        "tmdb": 209876,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 2,
+      "last_watched_at": "2025-05-19T07:28:22.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 8,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-19T06:21:10.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-05-19T07:28:22.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Run, Die, or Relapse",
+        "ids": {
+          "trakt": 7500544,
+          "tvdb": 10816876,
+          "imdb": "tt27502480",
+          "tmdb": 4332949,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Bat Out of Hell",
+        "ids": {
+          "trakt": 7500543,
+          "tvdb": 10816875,
+          "imdb": "tt26458108",
+          "tmdb": 4332948,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Rehearsal",
       "year": 2022,
       "ids": {
