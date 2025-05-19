@@ -101,6 +101,56 @@
   },
   {
     "show": {
+      "title": "The Last of Us",
+      "year": 2023,
+      "ids": {
+        "trakt": 158947,
+        "slug": "the-last-of-us",
+        "tvdb": 392256,
+        "imdb": "tt3581920",
+        "tmdb": 100088,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 15,
+      "completed": 14,
+      "hidden": 0,
+      "last_watched_at": "2025-05-14T04:14:57.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 14,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "The Price",
+        "ids": {
+          "trakt": 12566358,
+          "tvdb": 10972144,
+          "imdb": "tt32550886",
+          "tmdb": 5994272,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Feel Her Love",
+        "ids": {
+          "trakt": 12566356,
+          "tvdb": 10972143,
+          "imdb": "tt32550885",
+          "tmdb": 5994271,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Welcome to Wrexham",
       "year": 2022,
       "ids": {
