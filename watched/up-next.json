@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2025-05-19T07:28:22.000Z",
+      "last_watched_at": "2025-05-20T06:51:41.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Philadelphia Lawyer",
+        "ids": {
+          "trakt": 7500545,
+          "tvdb": 10816877,
+          "imdb": "tt26458116",
+          "tmdb": 4332950,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 3,
         "title": "Run, Die, or Relapse",
@@ -32,18 +44,6 @@
           "tvdb": 10816876,
           "imdb": "tt27502480",
           "tmdb": 4332949,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Bat Out of Hell",
-        "ids": {
-          "trakt": 7500543,
-          "tvdb": 10816875,
-          "imdb": "tt26458108",
-          "tmdb": 4332948,
           "tvrage": null
         }
       }
