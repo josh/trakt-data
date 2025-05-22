@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "The Studio",
+      "year": 2025,
+      "ids": {
+        "trakt": 228700,
+        "slug": "the-studio-2025",
+        "tvdb": 448147,
+        "imdb": "tt23649128",
+        "tmdb": 247767,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 9,
+      "last_watched_at": "2025-05-22T08:26:29.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-03-30T04:50:19.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-03-30T05:16:29.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-15T05:42:02.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-04-17T05:10:01.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-04-17T05:41:23.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-04-23T05:18:40.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-04-30T06:08:54.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-05-17T03:50:13.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-05-22T08:26:29.000Z"
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "The Presentation (2)",
+        "ids": {
+          "trakt": 12509092,
+          "tvdb": 10814420,
+          "imdb": "tt34901435",
+          "tmdb": 5772143,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "CinemaCon (1)",
+        "ids": {
+          "trakt": 12509091,
+          "tvdb": 10814419,
+          "imdb": "tt34901433",
+          "tmdb": 5772142,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dope Thief",
       "year": 2025,
       "ids": {
@@ -14,15 +119,15 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 5,
-      "last_watched_at": "2025-05-22T05:23:20.000Z",
+      "completed": 6,
+      "last_watched_at": "2025-05-22T07:50:18.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": "Miniseries",
           "aired": 8,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -51,8 +156,8 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-22T07:50:18.000Z"
             },
             {
               "number": 7,
@@ -70,6 +175,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 7,
+        "title": "Mussolini",
+        "ids": {
+          "trakt": 7500548,
+          "tvdb": 10816880,
+          "imdb": "tt27679113",
+          "tmdb": 4332953,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 6,
         "title": "Love Songs from Mars",
         "ids": {
@@ -77,18 +194,6 @@
           "tvdb": 10816879,
           "imdb": "tt26458119",
           "tmdb": 4332952,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Fear of God",
-        "ids": {
-          "trakt": 7500546,
-          "tvdb": 10816878,
-          "imdb": "tt27679108",
-          "tmdb": 4332951,
           "tvrage": null
         }
       }
@@ -3918,111 +4023,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6083105,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Studio",
-      "year": 2025,
-      "ids": {
-        "trakt": 228700,
-        "slug": "the-studio-2025",
-        "tvdb": 448147,
-        "imdb": "tt23649128",
-        "tmdb": 247767,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 8,
-      "last_watched_at": "2025-05-17T03:50:13.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-03-30T04:50:19.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-03-30T05:16:29.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-15T05:42:02.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-04-17T05:10:01.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-04-17T05:41:23.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-04-23T05:18:40.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-04-30T06:08:54.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-05-17T03:50:13.000Z"
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "CinemaCon (1)",
-        "ids": {
-          "trakt": 12509091,
-          "tvdb": 10814419,
-          "imdb": "tt34901433",
-          "tmdb": 5772142,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "The Golden Globes",
-        "ids": {
-          "trakt": 12509090,
-          "tvdb": 10814418,
-          "imdb": "tt34901431",
-          "tmdb": 5772141,
           "tvrage": null
         }
       }
@@ -52633,7 +52633,7 @@
       }
     },
     "progress": {
-      "aired": 14,
+      "aired": 15,
       "completed": 10,
       "last_watched_at": "2023-03-10T18:46:55.000Z",
       "reset_at": null,
@@ -52699,7 +52699,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -52719,6 +52719,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }

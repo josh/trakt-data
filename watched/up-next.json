@@ -1,56 +1,6 @@
 [
   {
     "show": {
-      "title": "Dope Thief",
-      "year": 2025,
-      "ids": {
-        "trakt": 198189,
-        "slug": "dope-thief",
-        "tvdb": 423332,
-        "imdb": "tt21638826",
-        "tmdb": 209876,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 5,
-      "hidden": 0,
-      "last_watched_at": "2025-05-22T05:23:20.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 5,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Love Songs from Mars",
-        "ids": {
-          "trakt": 7500547,
-          "tvdb": 10816879,
-          "imdb": "tt26458119",
-          "tmdb": 4332952,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Fear of God",
-        "ids": {
-          "trakt": 7500546,
-          "tvdb": 10816878,
-          "imdb": "tt27679108",
-          "tmdb": 4332951,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "The Studio",
       "year": 2025,
       "ids": {
@@ -64,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 8,
+      "completed": 9,
       "hidden": 0,
-      "last_watched_at": "2025-05-17T03:50:13.000Z",
+      "last_watched_at": "2025-05-22T08:26:29.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 8,
+        "play_count": 9,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "The Presentation (2)",
+        "ids": {
+          "trakt": 12509092,
+          "tvdb": 10814420,
+          "imdb": "tt34901435",
+          "tmdb": 5772143,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 9,
         "title": "CinemaCon (1)",
@@ -84,16 +46,54 @@
           "tmdb": 5772142,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Dope Thief",
+      "year": 2025,
+      "ids": {
+        "trakt": 198189,
+        "slug": "dope-thief",
+        "tvdb": 423332,
+        "imdb": "tt21638826",
+        "tmdb": 209876,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2025-05-22T07:50:18.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Mussolini",
+        "ids": {
+          "trakt": 7500548,
+          "tvdb": 10816880,
+          "imdb": "tt27679113",
+          "tmdb": 4332953,
+          "tvrage": null
+        }
       },
       "last_episode": {
         "season": 1,
-        "number": 8,
-        "title": "The Golden Globes",
+        "number": 6,
+        "title": "Love Songs from Mars",
         "ids": {
-          "trakt": 12509090,
-          "tvdb": 10814418,
-          "imdb": "tt34901431",
-          "tmdb": 5772141,
+          "trakt": 7500547,
+          "tvdb": 10816879,
+          "imdb": "tt26458119",
+          "tmdb": 4332952,
           "tvrage": null
         }
       }
@@ -313,7 +313,7 @@
       }
     },
     "progress": {
-      "aired": 14,
+      "aired": 15,
       "completed": 10,
       "hidden": 0,
       "last_watched_at": "2023-03-10T18:46:55.000Z",
