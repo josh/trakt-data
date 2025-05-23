@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
+      "completed": 7,
       "hidden": 0,
-      "last_watched_at": "2025-05-22T07:50:18.000Z",
+      "last_watched_at": "2025-05-23T07:24:20.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 7,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Innocent People",
+        "ids": {
+          "trakt": 7500549,
+          "tvdb": 10816881,
+          "imdb": "tt26458123",
+          "tmdb": 4332954,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 7,
         "title": "Mussolini",
@@ -34,16 +46,104 @@
           "tmdb": 4332953,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 7,
+      "hidden": 0,
+      "last_watched_at": "2025-05-17T03:17:30.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 7,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "When Did We Become These People?",
+        "ids": {
+          "trakt": 12523286,
+          "tvdb": 10819899,
+          "imdb": "tt32323070",
+          "tmdb": 5778800,
+          "tvrage": null
+        }
       },
       "last_episode": {
         "season": 1,
-        "number": 6,
-        "title": "Love Songs from Mars",
+        "number": 7,
+        "title": "The First Honest Thing",
         "ids": {
-          "trakt": 7500547,
-          "tvdb": 10816879,
-          "imdb": "tt26458119",
-          "tmdb": 4332952,
+          "trakt": 12523284,
+          "tvdb": 10819898,
+          "imdb": "tt32323068",
+          "tmdb": 5778799,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Hacks",
+      "year": 2021,
+      "ids": {
+        "trakt": 179632,
+        "slug": "hacks-2021",
+        "tvdb": 401582,
+        "imdb": "tt11815682",
+        "tmdb": 124101,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 36,
+      "completed": 35,
+      "hidden": 0,
+      "last_watched_at": "2025-05-17T02:26:41.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 35,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 4,
+        "number": 9,
+        "title": "Episode 9",
+        "ids": {
+          "trakt": 12564196,
+          "tvdb": 11019536,
+          "imdb": "tt33383987",
+          "tmdb": 6040229,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 8,
+        "title": "Witch of the Week",
+        "ids": {
+          "trakt": 12564195,
+          "tvdb": 11019535,
+          "imdb": "tt33383976",
+          "tmdb": 6040228,
           "tvrage": null
         }
       }

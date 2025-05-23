@@ -1,5 +1,65 @@
 [
   {
+    "plays": 7,
+    "last_watched_at": "2025-05-23T07:24:20.000Z",
+    "last_updated_at": "2025-05-23T06:39:20.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Dope Thief",
+      "year": 2025,
+      "ids": {
+        "trakt": 198189,
+        "slug": "dope-thief",
+        "tvdb": 423332,
+        "imdb": "tt21638826",
+        "tmdb": 209876,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-05-19T06:21:10.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-05-19T07:28:22.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-05-20T06:51:41.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-05-22T04:21:12.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-05-22T05:23:20.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-05-22T07:50:18.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2025-05-23T07:24:20.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 10,
     "last_watched_at": "2025-05-22T08:50:36.000Z",
     "last_updated_at": "2025-05-22T08:26:36.000Z",
@@ -69,61 +129,6 @@
             "number": 10,
             "plays": 1,
             "last_watched_at": "2025-05-22T08:50:36.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 6,
-    "last_watched_at": "2025-05-22T07:50:18.000Z",
-    "last_updated_at": "2025-05-22T07:06:18.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Dope Thief",
-      "year": 2025,
-      "ids": {
-        "trakt": 198189,
-        "slug": "dope-thief",
-        "tvdb": 423332,
-        "imdb": "tt21638826",
-        "tmdb": 209876,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-05-19T06:21:10.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-05-19T07:28:22.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-05-20T06:51:41.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-05-22T04:21:12.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-05-22T05:23:20.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2025-05-22T07:50:18.000Z"
           }
         ]
       }
