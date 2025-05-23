@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 7,
-      "last_watched_at": "2025-05-23T07:24:20.000Z",
+      "completed": 8,
+      "last_watched_at": "2025-05-23T18:49:17.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": "Miniseries",
           "aired": 8,
-          "completed": 7,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -61,14 +61,15 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-23T18:49:17.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 1,
         "number": 8,
         "title": "Innocent People",
@@ -77,18 +78,6 @@
           "tvdb": 10816881,
           "imdb": "tt26458123",
           "tmdb": 4332954,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Mussolini",
-        "ids": {
-          "trakt": 7500548,
-          "tvdb": 10816880,
-          "imdb": "tt27679113",
-          "tmdb": 4332953,
           "tvrage": null
         }
       }
@@ -4348,7 +4337,7 @@
       "next_episode": {
         "season": 4,
         "number": 9,
-        "title": "Episode 9",
+        "title": "A Slippery Slope",
         "ids": {
           "trakt": 12564196,
           "tvdb": 11019536,
