@@ -1,6 +1,227 @@
 [
   {
     "show": {
+      "title": "Bosch: Legacy",
+      "year": 2022,
+      "ids": {
+        "trakt": 191869,
+        "slug": "bosch-legacy",
+        "tvdb": 414553,
+        "imdb": "tt14168162",
+        "tmdb": 153657,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 21,
+      "last_watched_at": "2025-05-24T20:37:59.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-08-27T05:54:34.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-08-29T06:15:51.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-08-29T20:17:55.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-08-29T21:22:03.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-08-29T23:09:18.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-08-29T23:58:22.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-08-30T00:43:09.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-08-30T01:37:34.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2022-08-30T03:21:31.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2022-08-30T05:48:34.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2024-03-23T23:02:42.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2024-03-23T23:43:37.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2024-03-24T00:35:00.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2024-03-24T01:16:20.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2024-03-24T02:00:24.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2024-03-24T02:46:44.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2024-03-24T03:14:16.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2024-03-24T03:54:39.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2024-03-24T18:19:38.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2024-03-24T19:14:22.000Z"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 10,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-24T20:37:59.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 3,
+        "number": 2,
+        "title": "Bosching Bosch",
+        "ids": {
+          "trakt": 12802122,
+          "tvdb": 11037532,
+          "imdb": "tt32332000",
+          "tmdb": 5966803,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Goes Where It Goes",
+        "ids": {
+          "trakt": 12328645,
+          "tvdb": 10932906,
+          "imdb": "tt27649348",
+          "tmdb": 5931398,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dope Thief",
       "year": 2025,
       "ids": {
@@ -39506,227 +39727,6 @@
   },
   {
     "show": {
-      "title": "Bosch: Legacy",
-      "year": 2022,
-      "ids": {
-        "trakt": 191869,
-        "slug": "bosch-legacy",
-        "tvdb": 414553,
-        "imdb": "tt14168162",
-        "tmdb": 153657,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 20,
-      "last_watched_at": "2024-03-24T19:14:22.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-08-27T05:54:34.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-08-29T06:15:51.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-08-29T20:17:55.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-08-29T21:22:03.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-08-29T23:09:18.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-08-29T23:58:22.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-08-30T00:43:09.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-08-30T01:37:34.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2022-08-30T03:21:31.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2022-08-30T05:48:34.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2024-03-23T23:02:42.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2024-03-23T23:43:37.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2024-03-24T00:35:00.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2024-03-24T01:16:20.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2024-03-24T02:00:24.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2024-03-24T02:46:44.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2024-03-24T03:14:16.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2024-03-24T03:54:39.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2024-03-24T18:19:38.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2024-03-24T19:14:22.000Z"
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "title": null,
-          "aired": 10,
-          "completed": 0,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Goes Where It Goes",
-        "ids": {
-          "trakt": 12328645,
-          "tvdb": 10932906,
-          "imdb": "tt27649348",
-          "tmdb": 5931398,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 10,
-        "title": "A Step Ahead",
-        "ids": {
-          "trakt": 10836604,
-          "tvdb": 9976341,
-          "imdb": "tt23778242",
-          "tmdb": 4678458,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Faraway Downs",
       "year": 2023,
       "ids": {
@@ -42689,7 +42689,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13154058,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6255400,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 1,
         "number": 6,
@@ -50412,7 +50423,7 @@
       }
     },
     "progress": {
-      "aired": 46,
+      "aired": 49,
       "completed": 37,
       "last_watched_at": "2023-05-18T05:16:35.000Z",
       "reset_at": null,
@@ -50629,7 +50640,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 9,
+          "aired": 12,
           "completed": 0,
           "episodes": [
             {
@@ -50674,6 +50685,21 @@
             },
             {
               "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 11,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 12,
               "completed": false,
               "last_watched_at": null
             }
@@ -63666,7 +63692,7 @@
       "seasons": [
         {
           "number": 1,
-          "title": "Miniseries",
+          "title": "Limited Series",
           "aired": 10,
           "completed": 10,
           "episodes": [

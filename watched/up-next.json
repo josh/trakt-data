@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Bosch: Legacy",
+      "year": 2022,
+      "ids": {
+        "trakt": 191869,
+        "slug": "bosch-legacy",
+        "tvdb": 414553,
+        "imdb": "tt14168162",
+        "tmdb": 153657,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 21,
+      "hidden": 0,
+      "last_watched_at": "2025-05-24T20:37:59.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 21,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 2,
+        "title": "Bosching Bosch",
+        "ids": {
+          "trakt": 12802122,
+          "tvdb": 11037532,
+          "imdb": "tt32332000",
+          "tmdb": 5966803,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Goes Where It Goes",
+        "ids": {
+          "trakt": 12328645,
+          "tvdb": 10932906,
+          "imdb": "tt27649348",
+          "tmdb": 5931398,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -244,56 +294,6 @@
           "tvdb": 10302917,
           "imdb": "tt31224611",
           "tmdb": 5348966,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Bosch: Legacy",
-      "year": 2022,
-      "ids": {
-        "trakt": 191869,
-        "slug": "bosch-legacy",
-        "tvdb": 414553,
-        "imdb": "tt14168162",
-        "tmdb": 153657,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 20,
-      "hidden": 0,
-      "last_watched_at": "2024-03-24T19:14:22.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 20,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Goes Where It Goes",
-        "ids": {
-          "trakt": 12328645,
-          "tvdb": 10932906,
-          "imdb": "tt27649348",
-          "tmdb": 5931398,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 10,
-        "title": "A Step Ahead",
-        "ids": {
-          "trakt": 10836604,
-          "tvdb": 9976341,
-          "imdb": "tt23778242",
-          "tmdb": 4678458,
           "tvrage": null
         }
       }
