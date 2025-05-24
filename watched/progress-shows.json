@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 21,
-      "last_watched_at": "2025-05-24T20:37:59.000Z",
+      "completed": 22,
+      "last_watched_at": "2025-05-24T21:29:57.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -138,7 +138,7 @@
           "number": 3,
           "title": null,
           "aired": 10,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -147,8 +147,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-24T21:29:57.000Z"
             },
             {
               "number": 3,
@@ -196,6 +196,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
+        "number": 3,
+        "title": "Blankie",
+        "ids": {
+          "trakt": 12802123,
+          "tvdb": 11037533,
+          "imdb": "tt32160459",
+          "tmdb": 5966804,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 2,
         "title": "Bosching Bosch",
         "ids": {
@@ -203,18 +215,6 @@
           "tvdb": 11037532,
           "imdb": "tt32332000",
           "tmdb": 5966803,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Goes Where It Goes",
-        "ids": {
-          "trakt": 12328645,
-          "tvdb": 10932906,
-          "imdb": "tt27649348",
-          "tmdb": 5931398,
           "tvrage": null
         }
       }
