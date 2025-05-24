@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 22,
+      "completed": 23,
       "hidden": 0,
-      "last_watched_at": "2025-05-24T21:29:57.000Z",
+      "last_watched_at": "2025-05-24T23:01:32.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 22,
+        "play_count": 23,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 3,
+        "number": 4,
+        "title": "Whippoorwills",
+        "ids": {
+          "trakt": 12802124,
+          "tvdb": 11037534,
+          "imdb": "tt32332003",
+          "tmdb": 5966805,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 3,
         "number": 3,
         "title": "Blankie",
@@ -32,18 +44,6 @@
           "tvdb": 11037533,
           "imdb": "tt32160459",
           "tmdb": 5966804,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 2,
-        "title": "Bosching Bosch",
-        "ids": {
-          "trakt": 12802122,
-          "tvdb": 11037532,
-          "imdb": "tt32332000",
-          "tmdb": 5966803,
           "tvrage": null
         }
       }
