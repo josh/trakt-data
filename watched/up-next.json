@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 23,
+      "completed": 24,
       "hidden": 0,
-      "last_watched_at": "2025-05-24T23:01:32.000Z",
+      "last_watched_at": "2025-05-24T23:45:20.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 23,
+        "play_count": 24,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 3,
+        "number": 5,
+        "title": "F***ing Politics",
+        "ids": {
+          "trakt": 12802125,
+          "tvdb": 11037536,
+          "imdb": "tt32313993",
+          "tmdb": 5966806,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 3,
         "number": 4,
         "title": "Whippoorwills",
@@ -32,18 +44,6 @@
           "tvdb": 11037534,
           "imdb": "tt32332003",
           "tmdb": 5966805,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 3,
-        "title": "Blankie",
-        "ids": {
-          "trakt": 12802123,
-          "tvdb": 11037533,
-          "imdb": "tt32160459",
-          "tmdb": 5966804,
           "tvrage": null
         }
       }
