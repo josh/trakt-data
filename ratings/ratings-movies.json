@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-05-25T16:01:33.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "The Friend",
+      "year": 2025,
+      "ids": {
+        "trakt": 956899,
+        "slug": "the-friend-2025",
+        "imdb": "tt18108824",
+        "tmdb": 1186563
+      }
+    }
+  },
+  {
     "rated_at": "2025-05-23T06:02:10.000Z",
     "rating": 8,
     "type": "movie",
@@ -1534,11 +1549,11 @@
     "rating": 3,
     "type": "movie",
     "movie": {
-      "title": "Tanz der Titanen",
+      "title": "Rumours",
       "year": 2024,
       "ids": {
         "trakt": 957569,
-        "slug": "tanz-der-titanen-2024",
+        "slug": "rumours-2024",
         "imdb": "tt30841606",
         "tmdb": 1187417
       }
