@@ -1,6 +1,149 @@
 [
   {
     "show": {
+      "title": "The Last of Us",
+      "year": 2023,
+      "ids": {
+        "trakt": 158947,
+        "slug": "the-last-of-us",
+        "tvdb": 392256,
+        "imdb": "tt3581920",
+        "tmdb": 100088,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 15,
+      "last_watched_at": "2025-05-26T20:32:41.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-01-16T07:17:43.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-01-23T03:51:38.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-01-30T05:25:51.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-06T04:43:36.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-11T03:42:09.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-21T02:49:26.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-27T04:18:00.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-03-06T04:07:45.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-03-13T09:03:24.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 7,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-14T06:08:20.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-21T03:37:19.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-29T05:04:42.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-05-13T05:07:22.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-05-14T04:14:57.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-05-26T20:32:41.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "Convergence",
+        "ids": {
+          "trakt": 12566359,
+          "tvdb": 10972145,
+          "imdb": "tt32550887",
+          "tmdb": 5994273,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "The Price",
+        "ids": {
+          "trakt": 12566358,
+          "tvdb": 10972144,
+          "imdb": "tt32550886",
+          "tmdb": 5994272,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -5079,149 +5222,6 @@
           "tvdb": 10983011,
           "imdb": "tt20603306",
           "tmdb": 5747436,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Last of Us",
-      "year": 2023,
-      "ids": {
-        "trakt": 158947,
-        "slug": "the-last-of-us",
-        "tvdb": 392256,
-        "imdb": "tt3581920",
-        "tmdb": 100088,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 14,
-      "last_watched_at": "2025-05-14T04:14:57.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 9,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-01-16T07:17:43.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-01-23T03:51:38.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-01-30T05:25:51.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-06T04:43:36.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-11T03:42:09.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-21T02:49:26.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-27T04:18:00.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-03-06T04:07:45.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-03-13T09:03:24.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 7,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-14T06:08:20.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-21T03:37:19.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-29T05:04:42.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-05-13T05:07:22.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-05-14T04:14:57.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "The Price",
-        "ids": {
-          "trakt": 12566358,
-          "tvdb": 10972144,
-          "imdb": "tt32550886",
-          "tmdb": 5994272,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Feel Her Love",
-        "ids": {
-          "trakt": 12566356,
-          "tvdb": 10972143,
-          "imdb": "tt32550885",
-          "tmdb": 5994271,
           "tvrage": null
         }
       }
