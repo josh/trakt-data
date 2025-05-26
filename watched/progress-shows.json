@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 15,
-      "last_watched_at": "2025-05-26T20:32:41.000Z",
+      "completed": 16,
+      "last_watched_at": "2025-05-26T21:23:03.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -75,7 +75,7 @@
           "number": 2,
           "title": null,
           "aired": 7,
-          "completed": 6,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -109,14 +109,15 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-26T21:23:03.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 2,
         "number": 7,
         "title": "Convergence",
@@ -125,18 +126,6 @@
           "tvdb": 10972145,
           "imdb": "tt32550887",
           "tmdb": 5994273,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "The Price",
-        "ids": {
-          "trakt": 12566358,
-          "tvdb": 10972144,
-          "imdb": "tt32550886",
-          "tmdb": 5994272,
           "tvrage": null
         }
       }
