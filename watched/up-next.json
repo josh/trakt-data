@@ -213,7 +213,7 @@
       }
     },
     "progress": {
-      "aired": 15,
+      "aired": 16,
       "completed": 14,
       "hidden": 0,
       "last_watched_at": "2025-05-14T04:14:57.000Z",
@@ -294,6 +294,56 @@
           "tvdb": 10302917,
           "imdb": "tt31224611",
           "tmdb": 5348966,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Rick and Morty",
+      "year": 2013,
+      "ids": {
+        "trakt": 69829,
+        "slug": "rick-and-morty",
+        "tvdb": 275274,
+        "imdb": "tt2861424",
+        "tmdb": 60625,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 72,
+      "completed": 71,
+      "hidden": 0,
+      "last_watched_at": "2023-12-19T20:00:32.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 71,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 8,
+        "number": 1,
+        "title": "Summer of All Fears",
+        "ids": {
+          "trakt": 12956006,
+          "tvdb": 11074528,
+          "imdb": "tt28608179",
+          "tmdb": 6085790,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 7,
+        "number": 10,
+        "title": "Fear No Mort",
+        "ids": {
+          "trakt": 10853991,
+          "tvdb": 9986641,
+          "imdb": "tt29371876",
+          "tmdb": 4694210,
           "tvrage": null
         }
       }
