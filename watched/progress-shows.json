@@ -1,6 +1,189 @@
 [
   {
     "show": {
+      "title": "Star Wars: Andor",
+      "year": 2022,
+      "ids": {
+        "trakt": 170649,
+        "slug": "star-wars-andor",
+        "tvdb": 393189,
+        "imdb": "tt9253284",
+        "tmdb": 83867,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 24,
+      "completed": 20,
+      "last_watched_at": "2025-05-26T22:25:44.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 12,
+          "completed": 12,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-02-16T00:51:08.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-02-17T05:17:59.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-02-17T23:25:20.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-20T06:23:26.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-20T07:09:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-20T08:11:32.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-21T04:07:21.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-02-21T05:05:38.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-02-21T06:00:06.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-02-21T07:49:24.000Z"
+            },
+            {
+              "number": 11,
+              "completed": true,
+              "last_watched_at": "2023-02-22T03:06:34.000Z"
+            },
+            {
+              "number": 12,
+              "completed": true,
+              "last_watched_at": "2023-02-22T07:27:42.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 12,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-26T06:02:03.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-27T02:54:43.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-27T03:53:40.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-05-02T03:53:16.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-05-02T05:56:43.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-05-02T06:55:37.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-05-15T05:20:41.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-05-26T22:25:44.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 11,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 12,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 9,
+        "title": "Welcome to the Rebellion",
+        "ids": {
+          "trakt": 12479686,
+          "tvdb": 10983015,
+          "imdb": "tt20603310",
+          "tmdb": 5747438,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "Who Are You?",
+        "ids": {
+          "trakt": 12479685,
+          "tvdb": 10983013,
+          "imdb": "tt20603308",
+          "tmdb": 5747437,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Last of Us",
       "year": 2023,
       "ids": {
@@ -5028,189 +5211,6 @@
           "tvdb": 10920390,
           "imdb": "tt33399698",
           "tmdb": 5912413,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Star Wars: Andor",
-      "year": 2022,
-      "ids": {
-        "trakt": 170649,
-        "slug": "star-wars-andor",
-        "tvdb": 393189,
-        "imdb": "tt9253284",
-        "tmdb": 83867,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 24,
-      "completed": 19,
-      "last_watched_at": "2025-05-15T05:20:41.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 12,
-          "completed": 12,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-02-16T00:51:08.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-02-17T05:17:59.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-02-17T23:25:20.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-20T06:23:26.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-20T07:09:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-20T08:11:32.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-21T04:07:21.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-02-21T05:05:38.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-02-21T06:00:06.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-02-21T07:49:24.000Z"
-            },
-            {
-              "number": 11,
-              "completed": true,
-              "last_watched_at": "2023-02-22T03:06:34.000Z"
-            },
-            {
-              "number": 12,
-              "completed": true,
-              "last_watched_at": "2023-02-22T07:27:42.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 12,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-26T06:02:03.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-27T02:54:43.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-27T03:53:40.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-05-02T03:53:16.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-05-02T05:56:43.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-05-02T06:55:37.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-05-15T05:20:41.000Z"
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 11,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 12,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 8,
-        "title": "Who Are You?",
-        "ids": {
-          "trakt": 12479685,
-          "tvdb": 10983013,
-          "imdb": "tt20603308",
-          "tmdb": 5747437,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "Messenger",
-        "ids": {
-          "trakt": 12479684,
-          "tvdb": 10983011,
-          "imdb": "tt20603306",
-          "tmdb": 5747436,
           "tvrage": null
         }
       }

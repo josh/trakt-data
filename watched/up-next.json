@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Star Wars: Andor",
+      "year": 2022,
+      "ids": {
+        "trakt": 170649,
+        "slug": "star-wars-andor",
+        "tvdb": 393189,
+        "imdb": "tt9253284",
+        "tmdb": 83867,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 24,
+      "completed": 20,
+      "hidden": 0,
+      "last_watched_at": "2025-05-26T22:25:44.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 33,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 9,
+        "title": "Welcome to the Rebellion",
+        "ids": {
+          "trakt": 12479686,
+          "tvdb": 10983015,
+          "imdb": "tt20603310",
+          "tmdb": 5747438,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "Who Are You?",
+        "ids": {
+          "trakt": 12479685,
+          "tvdb": 10983013,
+          "imdb": "tt20603308",
+          "tmdb": 5747437,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Bosch: Legacy",
       "year": 2022,
       "ids": {
@@ -94,56 +144,6 @@
           "tvdb": 10819898,
           "imdb": "tt32323068",
           "tmdb": 5778799,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Star Wars: Andor",
-      "year": 2022,
-      "ids": {
-        "trakt": 170649,
-        "slug": "star-wars-andor",
-        "tvdb": 393189,
-        "imdb": "tt9253284",
-        "tmdb": 83867,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 24,
-      "completed": 19,
-      "hidden": 0,
-      "last_watched_at": "2025-05-15T05:20:41.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 32,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 8,
-        "title": "Who Are You?",
-        "ids": {
-          "trakt": 12479685,
-          "tvdb": 10983013,
-          "imdb": "tt20603308",
-          "tmdb": 5747437,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "Messenger",
-        "ids": {
-          "trakt": 12479684,
-          "tvdb": 10983011,
-          "imdb": "tt20603306",
-          "tmdb": 5747436,
           "tvrage": null
         }
       }
