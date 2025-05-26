@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 24,
-      "completed": 20,
+      "completed": 21,
       "hidden": 0,
-      "last_watched_at": "2025-05-26T22:25:44.000Z",
+      "last_watched_at": "2025-05-26T23:30:07.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 33,
+        "play_count": 34,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 10,
+        "title": "Make It Stop",
+        "ids": {
+          "trakt": 12479687,
+          "tvdb": 10983017,
+          "imdb": "tt20603318",
+          "tmdb": 5747439,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 9,
         "title": "Welcome to the Rebellion",
@@ -32,18 +44,6 @@
           "tvdb": 10983015,
           "imdb": "tt20603310",
           "tmdb": 5747438,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 8,
-        "title": "Who Are You?",
-        "ids": {
-          "trakt": 12479685,
-          "tvdb": 10983013,
-          "imdb": "tt20603308",
-          "tmdb": 5747437,
           "tvrage": null
         }
       }
