@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Bosch: Legacy",
+      "year": 2022,
+      "ids": {
+        "trakt": 191869,
+        "slug": "bosch-legacy",
+        "tvdb": 414553,
+        "imdb": "tt14168162",
+        "tmdb": 153657,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 27,
+      "hidden": 0,
+      "last_watched_at": "2025-05-27T06:24:29.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 27,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 8,
+        "title": "La Zona Rosa",
+        "ids": {
+          "trakt": 12802128,
+          "tvdb": null,
+          "imdb": "tt32332006",
+          "tmdb": 5966809,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 7,
+        "title": "Welcome to the Other Side",
+        "ids": {
+          "trakt": 12802127,
+          "tvdb": null,
+          "imdb": "tt32332004",
+          "tmdb": 5966808,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Star Wars: Andor",
       "year": 2022,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10983015,
           "imdb": "tt20603310",
           "tmdb": 5747438,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Bosch: Legacy",
-      "year": 2022,
-      "ids": {
-        "trakt": 191869,
-        "slug": "bosch-legacy",
-        "tvdb": 414553,
-        "imdb": "tt14168162",
-        "tmdb": 153657,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 26,
-      "hidden": 0,
-      "last_watched_at": "2025-05-25T01:09:20.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 26,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 7,
-        "title": "Welcome to the Other Side",
-        "ids": {
-          "trakt": 12802127,
-          "tvdb": null,
-          "imdb": "tt32332004",
-          "tmdb": 5966808,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 6,
-        "title": "Broken Order",
-        "ids": {
-          "trakt": 12802126,
-          "tvdb": 11037539,
-          "imdb": "tt32204754",
-          "tmdb": 5966807,
           "tvrage": null
         }
       }
