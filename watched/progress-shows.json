@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 24,
-      "completed": 22,
-      "last_watched_at": "2025-05-28T05:19:24.000Z",
+      "completed": 23,
+      "last_watched_at": "2025-05-28T06:04:32.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -90,7 +90,7 @@
           "number": 2,
           "title": null,
           "aired": 12,
-          "completed": 10,
+          "completed": 11,
           "episodes": [
             {
               "number": 1,
@@ -144,8 +144,8 @@
             },
             {
               "number": 11,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-28T06:04:32.000Z"
             },
             {
               "number": 12,
@@ -158,6 +158,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 2,
+        "number": 12,
+        "title": "Jedha, Kyber, Erso",
+        "ids": {
+          "trakt": 12479689,
+          "tvdb": 10983019,
+          "imdb": "tt20603322",
+          "tmdb": 5747441,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
         "number": 11,
         "title": "Who Else Knows?",
         "ids": {
@@ -165,18 +177,6 @@
           "tvdb": 10983018,
           "imdb": "tt20603320",
           "tmdb": 5747440,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 10,
-        "title": "Make It Stop",
-        "ids": {
-          "trakt": 12479687,
-          "tvdb": 10983017,
-          "imdb": "tt20603318",
-          "tmdb": 5747439,
           "tvrage": null
         }
       }
