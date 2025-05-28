@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 27,
-      "last_watched_at": "2025-05-27T06:24:29.000Z",
+      "completed": 28,
+      "last_watched_at": "2025-05-28T02:32:23.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -138,7 +138,7 @@
           "number": 3,
           "title": null,
           "aired": 10,
-          "completed": 7,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -177,8 +177,8 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-28T02:32:23.000Z"
             },
             {
               "number": 9,
@@ -196,6 +196,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
+        "number": 9,
+        "title": "Badlands",
+        "ids": {
+          "trakt": 12802129,
+          "tvdb": null,
+          "imdb": "tt32332008",
+          "tmdb": 5966810,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 8,
         "title": "La Zona Rosa",
         "ids": {
@@ -203,18 +215,6 @@
           "tvdb": null,
           "imdb": "tt32332006",
           "tmdb": 5966809,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 7,
-        "title": "Welcome to the Other Side",
-        "ids": {
-          "trakt": 12802127,
-          "tvdb": null,
-          "imdb": "tt32332004",
-          "tmdb": 5966808,
           "tvrage": null
         }
       }
