@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Bosch: Legacy",
+      "year": 2022,
+      "ids": {
+        "trakt": 191869,
+        "slug": "bosch-legacy",
+        "tvdb": 414553,
+        "imdb": "tt14168162",
+        "tmdb": 153657,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 29,
+      "hidden": 0,
+      "last_watched_at": "2025-05-28T06:41:17.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 29,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 10,
+        "title": "Dig Down",
+        "ids": {
+          "trakt": 12777483,
+          "tvdb": null,
+          "imdb": "tt32331995",
+          "tmdb": 5948985,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 9,
+        "title": "Badlands",
+        "ids": {
+          "trakt": 12802129,
+          "tvdb": null,
+          "imdb": "tt32332008",
+          "tmdb": 5966810,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Star Wars: Andor",
       "year": 2022,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10983018,
           "imdb": "tt20603320",
           "tmdb": 5747440,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Bosch: Legacy",
-      "year": 2022,
-      "ids": {
-        "trakt": 191869,
-        "slug": "bosch-legacy",
-        "tvdb": 414553,
-        "imdb": "tt14168162",
-        "tmdb": 153657,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 28,
-      "hidden": 0,
-      "last_watched_at": "2025-05-28T02:32:23.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 28,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 9,
-        "title": "Badlands",
-        "ids": {
-          "trakt": 12802129,
-          "tvdb": null,
-          "imdb": "tt32332008",
-          "tmdb": 5966810,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 8,
-        "title": "La Zona Rosa",
-        "ids": {
-          "trakt": 12802128,
-          "tvdb": null,
-          "imdb": "tt32332006",
-          "tmdb": 5966809,
           "tvrage": null
         }
       }
