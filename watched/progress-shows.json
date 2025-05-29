@@ -1,6 +1,104 @@
 [
   {
     "show": {
+      "title": "Conan O'Brien Must Go",
+      "year": 2024,
+      "ids": {
+        "trakt": 205484,
+        "slug": "conan-o-brien-must-go",
+        "tvdb": 435035,
+        "imdb": "tt27790101",
+        "tmdb": 226698,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 1,
+      "last_watched_at": "2025-05-29T05:22:51.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 4,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-29T05:22:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 3,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Argentina",
+        "ids": {
+          "trakt": 9913829,
+          "tvdb": 10366566,
+          "imdb": "tt32021265",
+          "tmdb": 5203319,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Norway",
+        "ids": {
+          "trakt": 9913821,
+          "tvdb": 10366564,
+          "imdb": "tt27794870",
+          "tmdb": 5203317,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Star Wars: Andor",
       "year": 2022,
       "ids": {
