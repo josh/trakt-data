@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 3,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2025-05-30T07:04:54.000Z",
+      "last_watched_at": "2025-05-30T07:51:15.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 3,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Spain",
+        "ids": {
+          "trakt": 13014967,
+          "tvdb": 11018949,
+          "imdb": "tt32375336",
+          "tmdb": 6141978,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 4,
         "title": "Ireland",
@@ -32,18 +44,6 @@
           "tvdb": 10366567,
           "imdb": "tt32020101",
           "tmdb": 5203320,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Thailand",
-        "ids": {
-          "trakt": 9913835,
-          "tvdb": 10366565,
-          "imdb": "tt32021178",
-          "tmdb": 5203318,
           "tvrage": null
         }
       }
