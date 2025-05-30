@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 2,
-      "last_watched_at": "2025-05-30T06:24:15.000Z",
+      "completed": 3,
+      "last_watched_at": "2025-05-30T07:04:54.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 4,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -36,8 +36,8 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-30T07:04:54.000Z"
             },
             {
               "number": 4,
@@ -73,6 +73,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 4,
+        "title": "Ireland",
+        "ids": {
+          "trakt": 9913842,
+          "tvdb": 10366567,
+          "imdb": "tt32020101",
+          "tmdb": 5203320,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 3,
         "title": "Thailand",
         "ids": {
@@ -80,18 +92,6 @@
           "tvdb": 10366565,
           "imdb": "tt32021178",
           "tmdb": 5203318,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Argentina",
-        "ids": {
-          "trakt": 9913829,
-          "tvdb": 10366566,
-          "imdb": "tt32021265",
-          "tmdb": 5203319,
           "tvrage": null
         }
       }
