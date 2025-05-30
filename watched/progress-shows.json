@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 1,
-      "last_watched_at": "2025-05-29T05:22:51.000Z",
+      "completed": 2,
+      "last_watched_at": "2025-05-30T06:24:15.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 4,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -31,8 +31,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-30T06:24:15.000Z"
             },
             {
               "number": 3,
@@ -73,6 +73,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 3,
+        "title": "Thailand",
+        "ids": {
+          "trakt": 9913835,
+          "tvdb": 10366565,
+          "imdb": "tt32021178",
+          "tmdb": 5203318,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 2,
         "title": "Argentina",
         "ids": {
@@ -80,18 +92,6 @@
           "tvdb": 10366566,
           "imdb": "tt32021265",
           "tmdb": 5203319,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Norway",
-        "ids": {
-          "trakt": 9913821,
-          "tvdb": 10366564,
-          "imdb": "tt27794870",
-          "tmdb": 5203317,
           "tvrage": null
         }
       }
@@ -504,7 +504,7 @@
       }
     },
     "progress": {
-      "aired": 8,
+      "aired": 9,
       "completed": 8,
       "last_watched_at": "2025-05-27T05:43:45.000Z",
       "reset_at": null,
@@ -512,7 +512,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 8,
+          "aired": 9,
           "completed": 8,
           "episodes": [
             {
@@ -554,6 +554,11 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2025-05-27T05:43:45.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -731,7 +736,7 @@
       }
     },
     "progress": {
-      "aired": 36,
+      "aired": 37,
       "completed": 36,
       "last_watched_at": "2025-05-26T19:31:41.000Z",
       "reset_at": null,
@@ -898,7 +903,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 9,
+          "aired": 10,
           "completed": 9,
           "episodes": [
             {
@@ -945,6 +950,11 @@
               "number": 9,
               "completed": true,
               "last_watched_at": "2025-05-26T19:31:41.000Z"
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -13528,7 +13538,7 @@
       }
     },
     "progress": {
-      "aired": 44,
+      "aired": 45,
       "completed": 41,
       "last_watched_at": "2024-06-17T05:54:46.000Z",
       "reset_at": null,
@@ -13765,7 +13775,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -13780,6 +13790,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }
@@ -43166,7 +43181,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 4,
+        "number": 1,
+        "title": "My Roman Empire",
+        "ids": {
+          "trakt": 12100080,
+          "tvdb": null,
+          "imdb": "tt27647157",
+          "tmdb": 5468049,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 3,
         "number": 10,
@@ -52740,7 +52766,7 @@
       }
     },
     "progress": {
-      "aired": 15,
+      "aired": 16,
       "completed": 10,
       "last_watched_at": "2023-03-10T18:46:55.000Z",
       "reset_at": null,
@@ -52806,7 +52832,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 0,
           "episodes": [
             {
@@ -52831,6 +52857,11 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
               "completed": false,
               "last_watched_at": null
             }
@@ -123430,7 +123461,7 @@
       }
     },
     "progress": {
-      "aired": 436,
+      "aired": 437,
       "completed": 187,
       "last_watched_at": "2012-05-21T04:00:00.000Z",
       "reset_at": null,
@@ -125729,7 +125760,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 13,
+          "aired": 14,
           "completed": 0,
           "episodes": [
             {
@@ -125794,6 +125825,11 @@
             },
             {
               "number": 13,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 14,
               "completed": false,
               "last_watched_at": null
             }
