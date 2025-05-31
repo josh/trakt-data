@@ -1,5 +1,65 @@
 [
   {
+    "plays": 6,
+    "last_watched_at": "2025-05-31T06:40:22.000Z",
+    "last_updated_at": "2025-05-31T06:01:22.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Conan O'Brien Must Go",
+      "year": 2024,
+      "ids": {
+        "trakt": 205484,
+        "slug": "conan-o-brien-must-go",
+        "tvdb": 435035,
+        "imdb": "tt27790101",
+        "tmdb": 226698,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-05-29T05:22:51.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-05-30T06:24:15.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-05-30T07:04:54.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-05-30T07:51:15.000Z"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-05-31T04:08:19.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-05-31T06:40:22.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 700,
     "last_watched_at": "2025-05-31T05:48:53.000Z",
     "last_updated_at": "2025-05-31T04:48:53.000Z",
@@ -3614,61 +3674,6 @@
             "number": 17,
             "plays": 1,
             "last_watched_at": "2025-05-31T05:48:53.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 5,
-    "last_watched_at": "2025-05-31T04:08:19.000Z",
-    "last_updated_at": "2025-05-31T03:25:19.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Conan O'Brien Must Go",
-      "year": 2024,
-      "ids": {
-        "trakt": 205484,
-        "slug": "conan-o-brien-must-go",
-        "tvdb": 435035,
-        "imdb": "tt27790101",
-        "tmdb": 226698,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-05-29T05:22:51.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-05-30T06:24:15.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-05-30T07:04:54.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-05-30T07:51:15.000Z"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-05-31T04:08:19.000Z"
           }
         ]
       }

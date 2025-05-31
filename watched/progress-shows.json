@@ -1,6 +1,104 @@
 [
   {
     "show": {
+      "title": "Conan O'Brien Must Go",
+      "year": 2024,
+      "ids": {
+        "trakt": 205484,
+        "slug": "conan-o-brien-must-go",
+        "tvdb": 435035,
+        "imdb": "tt27790101",
+        "tmdb": 226698,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "last_watched_at": "2025-05-31T06:40:22.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 4,
+          "completed": 4,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-29T05:22:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-05-30T06:24:15.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-05-30T07:04:54.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-05-30T07:51:15.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 3,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-05-31T04:08:19.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-05-31T06:40:22.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 3,
+        "title": "Austria",
+        "ids": {
+          "trakt": 13014969,
+          "tvdb": 11018948,
+          "imdb": "tt32375337",
+          "tmdb": 6141980,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "New Zealand",
+        "ids": {
+          "trakt": 13014968,
+          "tvdb": 11018947,
+          "imdb": "tt32375340",
+          "tmdb": 6141979,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Real Time with Bill Maher",
       "year": 2003,
       "ids": {
@@ -3710,104 +3808,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6083106,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Conan O'Brien Must Go",
-      "year": 2024,
-      "ids": {
-        "trakt": 205484,
-        "slug": "conan-o-brien-must-go",
-        "tvdb": 435035,
-        "imdb": "tt27790101",
-        "tmdb": 226698,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 7,
-      "completed": 5,
-      "last_watched_at": "2025-05-31T04:08:19.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 4,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-05-29T05:22:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-05-30T06:24:15.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-05-30T07:04:54.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-05-30T07:51:15.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 3,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-05-31T04:08:19.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "New Zealand",
-        "ids": {
-          "trakt": 13014968,
-          "tvdb": 11018947,
-          "imdb": "tt32375340",
-          "tmdb": 6141979,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "Spain",
-        "ids": {
-          "trakt": 13014967,
-          "tvdb": 11018949,
-          "imdb": "tt32375336",
-          "tmdb": 6141978,
           "tvrage": null
         }
       }
