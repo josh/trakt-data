@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 6,
-      "last_watched_at": "2025-05-31T06:40:22.000Z",
+      "completed": 7,
+      "last_watched_at": "2025-05-31T07:23:36.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -50,7 +50,7 @@
           "number": 2,
           "title": null,
           "aired": 3,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -64,14 +64,15 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-05-31T07:23:36.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 2,
         "number": 3,
         "title": "Austria",
@@ -80,18 +81,6 @@
           "tvdb": 11018948,
           "imdb": "tt32375337",
           "tmdb": 6141980,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "New Zealand",
-        "ids": {
-          "trakt": 13014968,
-          "tvdb": 11018947,
-          "imdb": "tt32375340",
-          "tmdb": 6141979,
           "tvrage": null
         }
       }
