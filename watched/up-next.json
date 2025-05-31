@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2025-05-30T07:51:15.000Z",
+      "last_watched_at": "2025-05-31T04:08:19.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "New Zealand",
+        "ids": {
+          "trakt": 13014968,
+          "tvdb": 11018947,
+          "imdb": "tt32375340",
+          "tmdb": 6141979,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 1,
         "title": "Spain",
@@ -32,68 +44,6 @@
           "tvdb": 11018949,
           "imdb": "tt32375336",
           "tmdb": 6141978,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Ireland",
-        "ids": {
-          "trakt": 9913842,
-          "tvdb": 10366567,
-          "imdb": "tt32020101",
-          "tmdb": 5203320,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Bosch: Legacy",
-      "year": 2022,
-      "ids": {
-        "trakt": 191869,
-        "slug": "bosch-legacy",
-        "tvdb": 414553,
-        "imdb": "tt14168162",
-        "tmdb": 153657,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 29,
-      "hidden": 0,
-      "last_watched_at": "2025-05-28T06:41:17.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 29,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 10,
-        "title": "Dig Down",
-        "ids": {
-          "trakt": 12777483,
-          "tvdb": null,
-          "imdb": "tt32331995",
-          "tmdb": 5948985,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 9,
-        "title": "Badlands",
-        "ids": {
-          "trakt": 12802129,
-          "tvdb": null,
-          "imdb": "tt32332008",
-          "tmdb": 5966810,
           "tvrage": null
         }
       }
@@ -194,6 +144,56 @@
           "tvdb": 11019536,
           "imdb": "tt33383987",
           "tmdb": 6040229,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 697,
+      "completed": 696,
+      "hidden": 0,
+      "last_watched_at": "2025-05-17T07:17:10.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 699,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 23,
+        "number": 17,
+        "title": "May 30, 2025: Barry Diller, Jake Tapper, Rep. Seth Moulton",
+        "ids": {
+          "trakt": 12952714,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6083106,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 23,
+        "number": 16,
+        "title": "May 16, 2025: Stanley A. McChrystal, Scott Jennings, Peter Hamby",
+        "ids": {
+          "trakt": 12952713,
+          "tvdb": 11102722,
+          "imdb": null,
+          "tmdb": 6083105,
           "tvrage": null
         }
       }
