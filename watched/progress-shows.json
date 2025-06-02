@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "MobLand",
+      "year": 2025,
+      "ids": {
+        "trakt": 228595,
+        "slug": "mobland",
+        "tvdb": 446831,
+        "imdb": "tt31510819",
+        "tmdb": 247718,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 1,
+      "last_watched_at": "2025-06-02T20:41:20.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-02T20:41:20.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Jigsaw Puzzle",
+        "ids": {
+          "trakt": 12855307,
+          "tvdb": 10987394,
+          "imdb": "tt32125920",
+          "tmdb": 6009138,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Stick or Twist",
+        "ids": {
+          "trakt": 11566670,
+          "tvdb": 10345021,
+          "imdb": "tt32125918",
+          "tmdb": 5180391,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Sirens",
       "year": 2025,
       "ids": {
@@ -8018,11 +8123,11 @@
   },
   {
     "show": {
-      "title": "The Agency",
+      "title": "The Agency: Central Intelligence",
       "year": 2024,
       "ids": {
         "trakt": 202341,
-        "slug": "the-agency-2024",
+        "slug": "the-agency-central-intelligence",
         "tvdb": 430769,
         "imdb": "tt26656917",
         "tmdb": 219971,
@@ -11536,7 +11641,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13181172,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6279623,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 1,
         "number": 10,
