@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2025-06-02T21:48:30.000Z",
+      "last_watched_at": "2025-06-02T22:56:03.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Rat Trap",
+        "ids": {
+          "trakt": 12855309,
+          "tvdb": 10987396,
+          "imdb": "tt32125921",
+          "tmdb": 6009140,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 3,
         "title": "Plan B",
@@ -32,18 +44,6 @@
           "tvdb": 10987395,
           "imdb": "tt32125922",
           "tmdb": 6009139,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Jigsaw Puzzle",
-        "ids": {
-          "trakt": 12855307,
-          "tvdb": 10987394,
-          "imdb": "tt32125920",
-          "tmdb": 6009138,
           "tvrage": null
         }
       }
