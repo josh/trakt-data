@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2025-06-02T20:41:20.000Z",
+      "last_watched_at": "2025-06-02T21:48:30.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Plan B",
+        "ids": {
+          "trakt": 12855308,
+          "tvdb": 10987395,
+          "imdb": "tt32125922",
+          "tmdb": 6009139,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 2,
         "title": "Jigsaw Puzzle",
@@ -32,18 +44,6 @@
           "tvdb": 10987394,
           "imdb": "tt32125920",
           "tmdb": 6009138,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Stick or Twist",
-        "ids": {
-          "trakt": 11566670,
-          "tvdb": 10345021,
-          "imdb": "tt32125918",
-          "tmdb": 5180391,
           "tvrage": null
         }
       }
