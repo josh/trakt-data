@@ -1,6 +1,86 @@
 [
   {
     "show": {
+      "title": "Sirens",
+      "year": 2025,
+      "ids": {
+        "trakt": 227139,
+        "slug": "sirens-2025",
+        "tvdb": 446472,
+        "imdb": "tt31429675",
+        "tmdb": 246992,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 1,
+      "last_watched_at": "2025-06-02T07:22:18.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 5,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-02T07:22:18.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Talons",
+        "ids": {
+          "trakt": 12070444,
+          "tvdb": 11034754,
+          "imdb": "tt32829077",
+          "tmdb": 5448162,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Exile",
+        "ids": {
+          "trakt": 11526771,
+          "tvdb": 11119316,
+          "imdb": "tt31434237",
+          "tmdb": 5161099,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Conan O'Brien Must Go",
       "year": 2024,
       "ids": {
@@ -3782,7 +3862,7 @@
         "title": "June 6, 2025",
         "ids": {
           "trakt": 13092674,
-          "tvdb": null,
+          "tvdb": 11158500,
           "imdb": null,
           "tmdb": 6208819,
           "tvrage": null
@@ -3794,7 +3874,7 @@
         "title": "May 30, 2025: Barry Diller, Jake Tapper, Rep. Seth Moulton",
         "ids": {
           "trakt": 12952714,
-          "tvdb": null,
+          "tvdb": 11102723,
           "imdb": null,
           "tmdb": 6083106,
           "tvrage": null
@@ -42011,7 +42091,7 @@
       }
     },
     "progress": {
-      "aired": 72,
+      "aired": 73,
       "completed": 71,
       "last_watched_at": "2023-12-19T20:00:32.000Z",
       "reset_at": null,
@@ -42430,11 +42510,16 @@
         {
           "number": 8,
           "title": null,
-          "aired": 1,
+          "aired": 2,
           "completed": 0,
           "episodes": [
             {
               "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
               "completed": false,
               "last_watched_at": null
             }
@@ -42954,7 +43039,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13178990,
+          "tvdb": 10923469,
+          "imdb": "tt29550655",
+          "tmdb": 6277631,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 1,
         "number": 8,
@@ -68028,7 +68124,7 @@
       }
     },
     "progress": {
-      "aired": 332,
+      "aired": 333,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -69724,7 +69820,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 12,
+          "aired": 13,
           "completed": 0,
           "episodes": [
             {
@@ -69784,6 +69880,11 @@
             },
             {
               "number": 12,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 13,
               "completed": false,
               "last_watched_at": null
             }
