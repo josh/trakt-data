@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 3,
-      "last_watched_at": "2025-06-02T22:56:03.000Z",
+      "completed": 4,
+      "last_watched_at": "2025-06-02T23:30:37.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 3,
+          "completed": 4,
           "episodes": [
             {
               "number": 1,
@@ -41,8 +41,8 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-02T23:30:37.000Z"
             },
             {
               "number": 5,
@@ -80,6 +80,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 5,
+        "title": "Funeral for a Friend",
+        "ids": {
+          "trakt": 12855310,
+          "tvdb": 10987397,
+          "imdb": "tt32125919",
+          "tmdb": 6009141,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 4,
         "title": "Rat Trap",
         "ids": {
@@ -87,18 +99,6 @@
           "tvdb": 10987396,
           "imdb": "tt32125921",
           "tmdb": 6009140,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Plan B",
-        "ids": {
-          "trakt": 12855308,
-          "tvdb": 10987395,
-          "imdb": "tt32125922",
-          "tmdb": 6009139,
           "tvrage": null
         }
       }
