@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Sirens",
+      "year": 2025,
+      "ids": {
+        "trakt": 227139,
+        "slug": "sirens-2025",
+        "tvdb": 446472,
+        "imdb": "tt31429675",
+        "tmdb": 246992,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2025-06-04T04:54:46.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Monster",
+        "ids": {
+          "trakt": 12917501,
+          "tvdb": 11034755,
+          "imdb": "tt32829078",
+          "tmdb": 6057947,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Talons",
+        "ids": {
+          "trakt": 12070444,
+          "tvdb": 11034754,
+          "imdb": "tt32829077",
+          "tmdb": 5448162,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "MobLand",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10987396,
           "imdb": "tt32125921",
           "tmdb": 6009140,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Sirens",
-      "year": 2025,
-      "ids": {
-        "trakt": 227139,
-        "slug": "sirens-2025",
-        "tvdb": 446472,
-        "imdb": "tt31429675",
-        "tmdb": 246992,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 5,
-      "completed": 1,
-      "hidden": 0,
-      "last_watched_at": "2025-06-02T07:22:18.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 1,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Talons",
-        "ids": {
-          "trakt": 12070444,
-          "tvdb": 11034754,
-          "imdb": "tt32829077",
-          "tmdb": 5448162,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Exile",
-        "ids": {
-          "trakt": 11526771,
-          "tvdb": 11119316,
-          "imdb": "tt31434237",
-          "tmdb": 5161099,
           "tvrage": null
         }
       }
@@ -363,7 +363,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 8,
       "hidden": 0,
       "last_watched_at": "2021-09-23T03:07:01.000Z",

@@ -1,6 +1,86 @@
 [
   {
     "show": {
+      "title": "Sirens",
+      "year": 2025,
+      "ids": {
+        "trakt": 227139,
+        "slug": "sirens-2025",
+        "tvdb": 446472,
+        "imdb": "tt31429675",
+        "tmdb": 246992,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 2,
+      "last_watched_at": "2025-06-04T04:54:46.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 5,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-02T07:22:18.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-04T04:54:46.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Monster",
+        "ids": {
+          "trakt": 12917501,
+          "tvdb": 11034755,
+          "imdb": "tt32829078",
+          "tmdb": 6057947,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Talons",
+        "ids": {
+          "trakt": 12070444,
+          "tvdb": 11034754,
+          "imdb": "tt32829077",
+          "tmdb": 5448162,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "MobLand",
       "year": 2025,
       "ids": {
@@ -99,86 +179,6 @@
           "tvdb": 10987396,
           "imdb": "tt32125921",
           "tmdb": 6009140,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Sirens",
-      "year": 2025,
-      "ids": {
-        "trakt": 227139,
-        "slug": "sirens-2025",
-        "tvdb": 446472,
-        "imdb": "tt31429675",
-        "tmdb": 246992,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 5,
-      "completed": 1,
-      "last_watched_at": "2025-06-02T07:22:18.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Limited Series",
-          "aired": 5,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-02T07:22:18.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Talons",
-        "ids": {
-          "trakt": 12070444,
-          "tvdb": 11034754,
-          "imdb": "tt32829077",
-          "tmdb": 5448162,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Exile",
-        "ids": {
-          "trakt": 11526771,
-          "tvdb": 11119316,
-          "imdb": "tt31434237",
-          "tmdb": 5161099,
           "tvrage": null
         }
       }
@@ -14820,7 +14820,7 @@
       }
     },
     "progress": {
-      "aired": 4413,
+      "aired": 4415,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -36785,7 +36785,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 68,
+          "aired": 70,
           "completed": 0,
           "episodes": [
             {
@@ -37125,6 +37125,16 @@
             },
             {
               "number": 68,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 69,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 70,
               "completed": false,
               "last_watched_at": null
             }
@@ -67259,7 +67269,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 8,
       "last_watched_at": "2021-09-23T03:07:01.000Z",
       "reset_at": null,
@@ -67315,7 +67325,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -67330,6 +67340,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }
@@ -71051,7 +71066,7 @@
       }
     },
     "progress": {
-      "aired": 1667,
+      "aired": 1669,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78856,7 +78871,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 122,
+          "aired": 124,
           "completed": 0,
           "episodes": [
             {
@@ -79466,6 +79481,16 @@
             },
             {
               "number": 122,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 123,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 124,
               "completed": false,
               "last_watched_at": null
             }
