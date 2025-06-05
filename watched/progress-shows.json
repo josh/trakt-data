@@ -1,6 +1,95 @@
 [
   {
     "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 9,
+      "last_watched_at": "2025-06-05T05:20:33.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-04-20T07:33:18.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-04-21T05:17:31.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-04-22T06:07:06.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-04-25T05:31:18.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-05-03T06:06:19.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-05-14T05:24:13.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-05-17T03:17:30.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-05-27T05:43:45.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-06-05T05:20:33.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": null,
+      "last_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Everything Becomes Symbol and Irony",
+        "ids": {
+          "trakt": 12523288,
+          "tvdb": 10819900,
+          "imdb": "tt33293607",
+          "tmdb": 5778802,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -4606,106 +4695,6 @@
           "tvdb": 10983019,
           "imdb": "tt20603322",
           "tmdb": 5747441,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "tvdb": 443433,
-        "imdb": "tt30459041",
-        "tmdb": 241609,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 8,
-      "last_watched_at": "2025-05-27T05:43:45.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-04-20T07:33:18.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-04-21T05:17:31.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-04-22T06:07:06.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-04-25T05:31:18.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-05-03T06:06:19.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-05-14T05:24:13.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-05-17T03:17:30.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-05-27T05:43:45.000Z"
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Everything Becomes Symbol and Irony",
-        "ids": {
-          "trakt": 12523288,
-          "tvdb": 10819900,
-          "imdb": "tt33293607",
-          "tmdb": 5778802,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "When Did We Become These People?",
-        "ids": {
-          "trakt": 12523286,
-          "tvdb": 10819899,
-          "imdb": "tt32323070",
-          "tmdb": 5778800,
           "tvrage": null
         }
       }

@@ -1,6 +1,23 @@
 [
   {
     "rank": 1,
+    "id": 1240441356,
+    "listed_at": "2025-05-30T16:58:45.000Z",
+    "notes": null,
+    "type": "movie",
+    "movie": {
+      "title": "Mountainhead",
+      "year": 2025,
+      "ids": {
+        "trakt": 1158961,
+        "slug": "mountainhead-2025",
+        "imdb": "tt35396529",
+        "tmdb": 1417059
+      }
+    }
+  },
+  {
+    "rank": 2,
     "id": 1158377590,
     "listed_at": "2025-01-18T18:53:10.000Z",
     "notes": null,
@@ -15,23 +32,6 @@
         "imdb": "tt0350448",
         "tmdb": 4419,
         "tvrage": null
-      }
-    }
-  },
-  {
-    "rank": 2,
-    "id": 1244571574,
-    "listed_at": "2025-06-05T03:53:03.000Z",
-    "notes": null,
-    "type": "movie",
-    "movie": {
-      "title": "Sharp Corner",
-      "year": 2025,
-      "ids": {
-        "trakt": 1008117,
-        "slug": "sharp-corner-2025",
-        "imdb": "tt9569096",
-        "tmdb": 1244890
       }
     }
   },
@@ -73,37 +73,18 @@
   },
   {
     "rank": 5,
-    "id": 1240441356,
-    "listed_at": "2025-05-30T16:58:45.000Z",
+    "id": 1244571574,
+    "listed_at": "2025-06-05T03:53:03.000Z",
     "notes": null,
     "type": "movie",
     "movie": {
-      "title": "Mountainhead",
+      "title": "Sharp Corner",
       "year": 2025,
       "ids": {
-        "trakt": 1158961,
-        "slug": "mountainhead-2025",
-        "imdb": "tt35396529",
-        "tmdb": 1417059
-      }
-    }
-  },
-  {
-    "rank": 6,
-    "id": 1212988244,
-    "listed_at": "2025-04-20T06:36:23.000Z",
-    "notes": null,
-    "type": "show",
-    "show": {
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "tvdb": 443433,
-        "imdb": "tt30459041",
-        "tmdb": 241609,
-        "tvrage": null
+        "trakt": 1008117,
+        "slug": "sharp-corner-2025",
+        "imdb": "tt9569096",
+        "tmdb": 1244890
       }
     }
   }
