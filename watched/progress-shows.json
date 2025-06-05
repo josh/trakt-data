@@ -1,6 +1,86 @@
 [
   {
     "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 1,
+      "last_watched_at": "2025-06-05T06:34:23.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 5,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-05T06:34:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Route Canal",
+        "ids": {
+          "trakt": 12220762,
+          "tvdb": 10653336,
+          "imdb": "tt36687780",
+          "tmdb": 5938537,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Gears, Fears, and Tears",
+        "ids": {
+          "trakt": 12220761,
+          "tvdb": 10653335,
+          "imdb": "tt36687781",
+          "tmdb": 5547448,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
