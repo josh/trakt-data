@@ -1,6 +1,154 @@
 [
   {
     "show": {
+      "title": "Poker Face",
+      "year": 2023,
+      "ids": {
+        "trakt": 187032,
+        "slug": "poker-face-2023",
+        "tvdb": 398822,
+        "imdb": "tt14269590",
+        "tmdb": 120998,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 17,
+      "completed": 11,
+      "last_watched_at": "2025-06-07T04:53:48.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-01-31T05:56:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-02-05T00:56:24.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-01-26T11:55:00.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-05T05:08:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-05T23:28:16.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-10T06:51:49.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-17T07:04:19.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-02-25T05:41:06.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-03-04T05:24:51.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-03-10T18:46:55.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 7,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-07T04:53:48.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "Last Looks",
+        "ids": {
+          "trakt": 12899731,
+          "tvdb": 11021059,
+          "imdb": "tt32810910",
+          "tmdb": 6041739,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "The Game Is a Foot",
+        "ids": {
+          "trakt": 12605600,
+          "tvdb": 11020991,
+          "imdb": "tt26740933",
+          "tmdb": 6041738,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Long Way Home",
       "year": 2025,
       "ids": {
@@ -13,7 +161,7 @@
       }
     },
     "progress": {
-      "aired": 5,
+      "aired": 6,
       "completed": 2,
       "last_watched_at": "2025-06-05T07:20:34.000Z",
       "reset_at": null,
@@ -21,7 +169,7 @@
         {
           "number": 1,
           "title": "Miniseries",
-          "aired": 5,
+          "aired": 6,
           "completed": 2,
           "episodes": [
             {
@@ -46,6 +194,11 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
               "completed": false,
               "last_watched_at": null
             }
@@ -696,7 +849,7 @@
       }
     },
     "progress": {
-      "aired": 697,
+      "aired": 698,
       "completed": 697,
       "last_watched_at": "2025-05-31T05:48:53.000Z",
       "reset_at": null,
@@ -4280,7 +4433,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 17,
+          "aired": 18,
           "completed": 17,
           "episodes": [
             {
@@ -4367,6 +4520,11 @@
               "number": 17,
               "completed": true,
               "last_watched_at": "2025-05-31T05:48:53.000Z"
+            },
+            {
+              "number": 18,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4375,7 +4533,7 @@
       "next_episode": {
         "season": 23,
         "number": 18,
-        "title": "June 6, 2025",
+        "title": "June 6, 2025: Whitney Cummings, Jonah Goldberg, Stephanie Ruhle",
         "ids": {
           "trakt": 13092674,
           "tvdb": 11158500,
@@ -13775,7 +13933,7 @@
       }
     },
     "progress": {
-      "aired": 45,
+      "aired": 46,
       "completed": 41,
       "last_watched_at": "2024-06-17T05:54:46.000Z",
       "reset_at": null,
@@ -14012,7 +14170,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -14032,6 +14190,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }
@@ -14878,7 +15041,7 @@
       }
     },
     "progress": {
-      "aired": 4416,
+      "aired": 4417,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -36843,7 +37006,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 71,
+          "aired": 72,
           "completed": 0,
           "episodes": [
             {
@@ -37198,6 +37361,11 @@
             },
             {
               "number": 71,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 72,
               "completed": false,
               "last_watched_at": null
             }
@@ -50805,7 +50973,7 @@
       }
     },
     "progress": {
-      "aired": 51,
+      "aired": 53,
       "completed": 37,
       "last_watched_at": "2023-05-18T05:16:35.000Z",
       "reset_at": null,
@@ -51022,7 +51190,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 14,
+          "aired": 16,
           "completed": 0,
           "episodes": [
             {
@@ -51092,6 +51260,16 @@
             },
             {
               "number": 14,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 15,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 16,
               "completed": false,
               "last_watched_at": null
             }
@@ -53025,154 +53203,6 @@
           "tvdb": 6928084,
           "imdb": "tt7009008",
           "tmdb": 1657780,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Poker Face",
-      "year": 2023,
-      "ids": {
-        "trakt": 187032,
-        "slug": "poker-face-2023",
-        "tvdb": 398822,
-        "imdb": "tt14269590",
-        "tmdb": 120998,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 17,
-      "completed": 10,
-      "last_watched_at": "2023-03-10T18:46:55.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-01-31T05:56:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-02-05T00:56:24.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-01-26T11:55:00.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-05T05:08:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-05T23:28:16.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-10T06:51:49.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-17T07:04:19.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-02-25T05:41:06.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-03-04T05:24:51.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-03-10T18:46:55.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 7,
-          "completed": 0,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "The Game Is a Foot",
-        "ids": {
-          "trakt": 12605600,
-          "tvdb": 11020991,
-          "imdb": "tt26740933",
-          "tmdb": 6041738,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 10,
-        "title": "The Hook",
-        "ids": {
-          "trakt": 6817625,
-          "tvdb": 9421259,
-          "imdb": "tt19636674",
-          "tmdb": 4026508,
           "tvrage": null
         }
       }
@@ -71134,7 +71164,7 @@
       }
     },
     "progress": {
-      "aired": 1670,
+      "aired": 1671,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -78939,7 +78969,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 125,
+          "aired": 126,
           "completed": 0,
           "episodes": [
             {
@@ -79564,6 +79594,11 @@
             },
             {
               "number": 125,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 126,
               "completed": false,
               "last_watched_at": null
             }
@@ -123769,7 +123804,7 @@
       }
     },
     "progress": {
-      "aired": 437,
+      "aired": 438,
       "completed": 187,
       "last_watched_at": "2012-05-21T04:00:00.000Z",
       "reset_at": null,
@@ -126068,7 +126103,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 14,
+          "aired": 15,
           "completed": 0,
           "episodes": [
             {
@@ -126138,6 +126173,11 @@
             },
             {
               "number": 14,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 15,
               "completed": false,
               "last_watched_at": null
             }
