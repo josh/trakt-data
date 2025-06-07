@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 17,
-      "completed": 11,
-      "last_watched_at": "2025-06-07T04:53:48.000Z",
+      "completed": 12,
+      "last_watched_at": "2025-06-07T06:01:55.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -80,7 +80,7 @@
           "number": 2,
           "title": null,
           "aired": 7,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -89,8 +89,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-07T06:01:55.000Z"
             },
             {
               "number": 3,
@@ -123,6 +123,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 2,
+        "number": 3,
+        "title": "Whack-A-Mole",
+        "ids": {
+          "trakt": 12899733,
+          "tvdb": 11021060,
+          "imdb": "tt36143699",
+          "tmdb": 6041740,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
         "number": 2,
         "title": "Last Looks",
         "ids": {
@@ -130,18 +142,6 @@
           "tvdb": 11021059,
           "imdb": "tt32810910",
           "tmdb": 6041739,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "The Game Is a Foot",
-        "ids": {
-          "trakt": 12605600,
-          "tvdb": 11020991,
-          "imdb": "tt26740933",
-          "tmdb": 6041738,
           "tvrage": null
         }
       }
