@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "MobLand",
+      "year": 2025,
+      "ids": {
+        "trakt": 228595,
+        "slug": "mobland",
+        "tvdb": 446831,
+        "imdb": "tt31510819",
+        "tmdb": 247718,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 6,
+      "last_watched_at": "2025-06-09T01:26:08.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-02T20:41:20.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-02T21:48:30.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-02T22:56:03.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-02T23:30:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-09T00:42:38.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-09T01:26:08.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "The Crossroads",
+        "ids": {
+          "trakt": 12855312,
+          "tvdb": 10987399,
+          "imdb": "tt32125927",
+          "tmdb": 6009143,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Antwerp Blues",
+        "ids": {
+          "trakt": 12855311,
+          "tvdb": 10987398,
+          "imdb": "tt32125925",
+          "tmdb": 6009142,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Long Way Home",
       "year": 2025,
       "ids": {
@@ -4359,111 +4464,6 @@
           "tvdb": 11034757,
           "imdb": "tt32829079",
           "tmdb": 6057949,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "MobLand",
-      "year": 2025,
-      "ids": {
-        "trakt": 228595,
-        "slug": "mobland",
-        "tvdb": 446831,
-        "imdb": "tt31510819",
-        "tmdb": 247718,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 4,
-      "last_watched_at": "2025-06-02T23:30:37.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-02T20:41:20.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-02T21:48:30.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-02T22:56:03.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-02T23:30:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Funeral for a Friend",
-        "ids": {
-          "trakt": 12855310,
-          "tvdb": 10987397,
-          "imdb": "tt32125919",
-          "tmdb": 6009141,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Rat Trap",
-        "ids": {
-          "trakt": 12855309,
-          "tvdb": 10987396,
-          "imdb": "tt32125921",
-          "tmdb": 6009140,
           "tvrage": null
         }
       }
