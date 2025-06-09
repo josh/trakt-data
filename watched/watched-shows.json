@@ -1,5 +1,45 @@
 [
   {
+    "plays": 3,
+    "last_watched_at": "2025-06-08T23:43:21.000Z",
+    "last_updated_at": "2025-06-08T23:43:22.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-06-05T06:34:23.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-06-05T07:20:34.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-06-08T23:43:21.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 701,
     "last_watched_at": "2025-06-07T07:10:45.000Z",
     "last_updated_at": "2025-06-07T06:10:45.000Z",
@@ -3709,41 +3749,6 @@
             "number": 2,
             "plays": 1,
             "last_watched_at": "2025-06-07T06:01:55.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 2,
-    "last_watched_at": "2025-06-05T07:20:34.000Z",
-    "last_updated_at": "2025-06-05T06:34:34.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-06-05T06:34:23.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-06-05T07:20:34.000Z"
           }
         ]
       }

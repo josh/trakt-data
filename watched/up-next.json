@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2025-06-08T23:43:21.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Fjord Focus",
+        "ids": {
+          "trakt": 12220764,
+          "tvdb": 10653338,
+          "imdb": "tt36687783",
+          "tmdb": 5938539,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Survive the Ride",
+        "ids": {
+          "trakt": 12220763,
+          "tvdb": 10653337,
+          "imdb": "tt36687782",
+          "tmdb": 5938538,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Poker Face",
       "year": 2023,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 11021059,
           "imdb": "tt32810910",
           "tmdb": 6041739,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 2,
-      "hidden": 0,
-      "last_watched_at": "2025-06-05T07:20:34.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 2,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Survive the Ride",
-        "ids": {
-          "trakt": 12220763,
-          "tvdb": 10653337,
-          "imdb": "tt36687782",
-          "tmdb": 5938538,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Route Canal",
-        "ids": {
-          "trakt": 12220762,
-          "tvdb": 10653336,
-          "imdb": "tt36687780",
-          "tmdb": 5938537,
           "tvrage": null
         }
       }
@@ -244,6 +244,56 @@
           "tvdb": 9986641,
           "imdb": "tt29371876",
           "tmdb": 4694210,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Gold",
+      "year": 2023,
+      "ids": {
+        "trakt": 201653,
+        "slug": "the-gold",
+        "tvdb": 421656,
+        "imdb": "tt14063678",
+        "tmdb": 218351,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2023-11-27T06:43:50.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13154058,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6255400,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "I'll Be Remembered",
+        "ids": {
+          "trakt": 7311060,
+          "tvdb": 9599807,
+          "imdb": "tt19623304",
+          "tmdb": 4212818,
           "tvrage": null
         }
       }
