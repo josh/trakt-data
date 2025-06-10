@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 4,
+      "hidden": 0,
+      "last_watched_at": "2025-06-10T06:33:45.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 4,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "Ice, Snow, and Bears",
+        "ids": {
+          "trakt": 12220765,
+          "tvdb": 10653339,
+          "imdb": "tt37065316",
+          "tmdb": 5938540,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Fjord Focus",
+        "ids": {
+          "trakt": 12220764,
+          "tvdb": 10653338,
+          "imdb": "tt36687783",
+          "tmdb": 5938539,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "MobLand",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10987398,
           "imdb": "tt32125925",
           "tmdb": 6009142,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 3,
-      "hidden": 0,
-      "last_watched_at": "2025-06-08T23:43:21.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 3,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Fjord Focus",
-        "ids": {
-          "trakt": 12220764,
-          "tvdb": 10653338,
-          "imdb": "tt36687783",
-          "tmdb": 5938539,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Survive the Ride",
-        "ids": {
-          "trakt": 12220763,
-          "tvdb": 10653337,
-          "imdb": "tt36687782",
-          "tmdb": 5938538,
           "tvrage": null
         }
       }
@@ -213,7 +213,7 @@
       }
     },
     "progress": {
-      "aired": 73,
+      "aired": 74,
       "completed": 71,
       "hidden": 0,
       "last_watched_at": "2023-12-19T20:00:32.000Z",
@@ -263,7 +263,7 @@
       }
     },
     "progress": {
-      "aired": 7,
+      "aired": 8,
       "completed": 6,
       "hidden": 0,
       "last_watched_at": "2023-11-27T06:43:50.000Z",
