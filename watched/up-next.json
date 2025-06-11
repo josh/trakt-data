@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 7,
+      "completed": 8,
       "hidden": 0,
-      "last_watched_at": "2025-06-11T03:09:36.000Z",
+      "last_watched_at": "2025-06-11T04:03:16.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 7,
+        "play_count": 8,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Beggars Banquet",
+        "ids": {
+          "trakt": 12855314,
+          "tvdb": 10987401,
+          "imdb": "tt32125933",
+          "tmdb": 6009145,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 8,
         "title": "Helter Skelter",
@@ -32,18 +44,6 @@
           "tvdb": 10987400,
           "imdb": "tt32125926",
           "tmdb": 6009144,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "The Crossroads",
-        "ids": {
-          "trakt": 12855312,
-          "tvdb": 10987399,
-          "imdb": "tt32125927",
-          "tmdb": 6009143,
           "tvrage": null
         }
       }
