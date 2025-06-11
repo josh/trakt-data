@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 8,
-      "last_watched_at": "2025-06-11T04:03:16.000Z",
+      "completed": 9,
+      "last_watched_at": "2025-06-11T04:51:49.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 8,
+          "completed": 9,
           "episodes": [
             {
               "number": 1,
@@ -66,8 +66,8 @@
             },
             {
               "number": 9,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-11T04:51:49.000Z"
             },
             {
               "number": 10,
@@ -80,6 +80,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 10,
+        "title": "The Beast in Me",
+        "ids": {
+          "trakt": 12855315,
+          "tvdb": 10987402,
+          "imdb": "tt32125932",
+          "tmdb": 6009146,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 9,
         "title": "Beggars Banquet",
         "ids": {
@@ -87,18 +99,6 @@
           "tvdb": 10987401,
           "imdb": "tt32125933",
           "tmdb": 6009145,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Helter Skelter",
-        "ids": {
-          "trakt": 12855313,
-          "tvdb": 10987400,
-          "imdb": "tt32125926",
-          "tmdb": 6009144,
           "tvrage": null
         }
       }
@@ -67400,7 +67400,7 @@
       }
     },
     "progress": {
-      "aired": 12,
+      "aired": 13,
       "completed": 8,
       "last_watched_at": "2021-09-23T03:07:01.000Z",
       "reset_at": null,
@@ -67456,7 +67456,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -67476,6 +67476,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }
@@ -71202,7 +71207,7 @@
       }
     },
     "progress": {
-      "aired": 1672,
+      "aired": 1673,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79007,7 +79012,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 127,
+          "aired": 128,
           "completed": 0,
           "episodes": [
             {
@@ -79642,6 +79647,11 @@
             },
             {
               "number": 127,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 128,
               "completed": false,
               "last_watched_at": null
             }
