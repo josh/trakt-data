@@ -1,6 +1,91 @@
 [
   {
     "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 5,
+      "last_watched_at": "2025-06-11T05:42:53.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 6,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-05T06:34:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-05T07:20:34.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-08T23:43:21.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-10T06:33:45.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-11T05:42:53.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Lost in Lapland",
+        "ids": {
+          "trakt": 12220766,
+          "tvdb": 10653340,
+          "imdb": "tt37180734",
+          "tmdb": 5938542,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "Ice, Snow, and Bears",
+        "ids": {
+          "trakt": 12220765,
+          "tvdb": 10653339,
+          "imdb": "tt37065316",
+          "tmdb": 5938540,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "MobLand",
       "year": 2025,
       "ids": {
@@ -99,91 +184,6 @@
           "tvdb": 10987401,
           "imdb": "tt32125933",
           "tmdb": 6009145,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 4,
-      "last_watched_at": "2025-06-10T06:33:45.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Miniseries",
-          "aired": 6,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-05T06:34:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-05T07:20:34.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-08T23:43:21.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-10T06:33:45.000Z"
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Ice, Snow, and Bears",
-        "ids": {
-          "trakt": 12220765,
-          "tvdb": 10653339,
-          "imdb": "tt37065316",
-          "tmdb": 5938540,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Fjord Focus",
-        "ids": {
-          "trakt": 12220764,
-          "tvdb": 10653338,
-          "imdb": "tt36687783",
-          "tmdb": 5938539,
           "tvrage": null
         }
       }
