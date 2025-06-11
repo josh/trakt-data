@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 6,
-      "completed": 5,
-      "last_watched_at": "2025-06-11T05:42:53.000Z",
+      "completed": 6,
+      "last_watched_at": "2025-06-11T06:06:44.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": "Miniseries",
           "aired": 6,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -51,14 +51,26 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-11T06:06:44.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Deep in the Forest",
+        "ids": {
+          "trakt": 12220767,
+          "tvdb": 10653341,
+          "imdb": "tt37180760",
+          "tmdb": 5938543,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 6,
         "title": "Lost in Lapland",
@@ -67,18 +79,6 @@
           "tvdb": 10653340,
           "imdb": "tt37180734",
           "tmdb": 5938542,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Ice, Snow, and Bears",
-        "ids": {
-          "trakt": 12220765,
-          "tvdb": 10653339,
-          "imdb": "tt37065316",
-          "tmdb": 5938540,
           "tvrage": null
         }
       }
