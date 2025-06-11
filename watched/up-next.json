@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "MobLand",
+      "year": 2025,
+      "ids": {
+        "trakt": 228595,
+        "slug": "mobland",
+        "tvdb": 446831,
+        "imdb": "tt31510819",
+        "tmdb": 247718,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 7,
+      "hidden": 0,
+      "last_watched_at": "2025-06-11T03:09:36.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 7,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Helter Skelter",
+        "ids": {
+          "trakt": 12855313,
+          "tvdb": 10987400,
+          "imdb": "tt32125926",
+          "tmdb": 6009144,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "The Crossroads",
+        "ids": {
+          "trakt": 12855312,
+          "tvdb": 10987399,
+          "imdb": "tt32125927",
+          "tmdb": 6009143,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Long Way Home",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10653338,
           "imdb": "tt36687783",
           "tmdb": 5938539,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "MobLand",
-      "year": 2025,
-      "ids": {
-        "trakt": 228595,
-        "slug": "mobland",
-        "tvdb": 446831,
-        "imdb": "tt31510819",
-        "tmdb": 247718,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 6,
-      "hidden": 0,
-      "last_watched_at": "2025-06-09T01:26:08.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 6,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "The Crossroads",
-        "ids": {
-          "trakt": 12855312,
-          "tvdb": 10987399,
-          "imdb": "tt32125927",
-          "tmdb": 6009143,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Antwerp Blues",
-        "ids": {
-          "trakt": 12855311,
-          "tvdb": 10987398,
-          "imdb": "tt32125925",
-          "tmdb": 6009142,
           "tvrage": null
         }
       }

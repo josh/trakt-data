@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "MobLand",
+      "year": 2025,
+      "ids": {
+        "trakt": 228595,
+        "slug": "mobland",
+        "tvdb": 446831,
+        "imdb": "tt31510819",
+        "tmdb": 247718,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 7,
+      "last_watched_at": "2025-06-11T03:09:36.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 7,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-02T20:41:20.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-02T21:48:30.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-02T22:56:03.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-02T23:30:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-09T00:42:38.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-09T01:26:08.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-06-11T03:09:36.000Z"
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Helter Skelter",
+        "ids": {
+          "trakt": 12855313,
+          "tvdb": 10987400,
+          "imdb": "tt32125926",
+          "tmdb": 6009144,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "The Crossroads",
+        "ids": {
+          "trakt": 12855312,
+          "tvdb": 10987399,
+          "imdb": "tt32125927",
+          "tmdb": 6009143,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Long Way Home",
       "year": 2025,
       "ids": {
@@ -79,111 +184,6 @@
           "tvdb": 10653338,
           "imdb": "tt36687783",
           "tmdb": 5938539,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "MobLand",
-      "year": 2025,
-      "ids": {
-        "trakt": 228595,
-        "slug": "mobland",
-        "tvdb": 446831,
-        "imdb": "tt31510819",
-        "tmdb": 247718,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 6,
-      "last_watched_at": "2025-06-09T01:26:08.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 6,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-02T20:41:20.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-02T21:48:30.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-02T22:56:03.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-02T23:30:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-06-09T00:42:38.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-06-09T01:26:08.000Z"
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "The Crossroads",
-        "ids": {
-          "trakt": 12855312,
-          "tvdb": 10987399,
-          "imdb": "tt32125927",
-          "tmdb": 6009143,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Antwerp Blues",
-        "ids": {
-          "trakt": 12855311,
-          "tvdb": 10987398,
-          "imdb": "tt32125925",
-          "tmdb": 6009142,
           "tvrage": null
         }
       }
@@ -9519,7 +9519,7 @@
         "ids": {
           "trakt": 12676829,
           "tvdb": null,
-          "imdb": null,
+          "imdb": "tt33056155",
           "tmdb": 5884550,
           "tvrage": null
         }
