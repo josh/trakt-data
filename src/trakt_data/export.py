@@ -295,10 +295,6 @@ def _last_hidden_at_activities(activities: LastActivities) -> datetime:
     )
 
 
-def _last_dropped_at_activities(activities: LastActivities) -> datetime:
-    return datetime.fromisoformat(activities["shows"]["dropped_at"])
-
-
 def _last_watched_at_activities(activities: LastActivities) -> datetime:
     return max(
         datetime.fromisoformat(activities["movies"]["watched_at"]),
@@ -421,8 +417,9 @@ def _activities_outdated_paths(
         ("episodes", "watched_at", data_path / "watched" / "up-next.json"),
         ("episodes", "rated_at", data_path / "ratings" / "ratings-episodes.json"),
         ("episodes", "commented_at", data_path / "comments" / "comments-episodes.json"),
-        ("shows", "rated_at", data_path / "ratings" / "ratings-shows.json"),
         ("shows", "commented_at", data_path / "comments" / "comments-shows.json"),
+        ("shows", "dropped_at", data_path / "hidden" / "hidden-dropped.json"),
+        ("shows", "rated_at", data_path / "ratings" / "ratings-shows.json"),
         ("seasons", "rated_at", data_path / "ratings" / "ratings-seasons.json"),
         ("seasons", "commented_at", data_path / "comments" / "comments-seasons.json"),
         ("comments", "liked_at", data_path / "likes" / "likes-comments.json"),
@@ -462,13 +459,6 @@ def _activities_outdated_paths(
             new_date_str = cast(Any, new_activities)[namespace_key][activity_key]
             fresh = _compare_datetime_strs(old_date_str, new_date_str)
         _mark_path(path, fresh)
-
-    dropped_at_fresh = False
-    if old_activities:
-        dropped_at_fresh = _last_dropped_at_activities(
-            new_activities
-        ) >= _last_dropped_at_activities(old_activities)
-    _mark_path(data_path / "hidden" / "hidden-dropped.json", dropped_at_fresh)
 
     old_activities_hidden_at = datetime.fromtimestamp(0, tz=timezone.utc)
     if old_activities:
