@@ -295,6 +295,12 @@ def _last_hidden_at_activities(activities: LastActivities) -> datetime:
     )
 
 
+def _last_dropped_at_activities(activities: LastActivities) -> datetime:
+    return max(
+        datetime.fromisoformat(activities["shows"]["dropped_at"]),
+    )
+
+
 def _last_watched_at_activities(activities: LastActivities) -> datetime:
     return max(
         datetime.fromisoformat(activities["movies"]["watched_at"]),
@@ -459,13 +465,19 @@ def _activities_outdated_paths(
             fresh = _compare_datetime_strs(old_date_str, new_date_str)
         _mark_path(path, fresh)
 
+    dropped_at_fresh = False
+    if old_activities:
+        dropped_at_fresh = _last_dropped_at_activities(
+            new_activities
+        ) >= _last_dropped_at_activities(old_activities)
+    _mark_path(data_path / "hidden" / "hidden-dropped.json", dropped_at_fresh)
+
     old_activities_hidden_at = datetime.fromtimestamp(0, tz=timezone.utc)
     if old_activities:
         old_activities_hidden_at = _last_hidden_at_activities(old_activities)
     new_activities_hidden_at = _last_hidden_at_activities(new_activities)
     hidden_at_fresh = old_activities_hidden_at >= new_activities_hidden_at
     _mark_path(data_path / "hidden" / "hidden-calendar.json", hidden_at_fresh)
-    _mark_path(data_path / "hidden" / "hidden-dropped.json", hidden_at_fresh)
     _mark_path(data_path / "hidden" / "hidden-progress-collected.json", hidden_at_fresh)
     _mark_path(
         data_path / "hidden" / "hidden-progress-watched-reset.json", hidden_at_fresh
