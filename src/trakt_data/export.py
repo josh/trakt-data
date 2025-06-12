@@ -296,9 +296,7 @@ def _last_hidden_at_activities(activities: LastActivities) -> datetime:
 
 
 def _last_dropped_at_activities(activities: LastActivities) -> datetime:
-    return max(
-        datetime.fromisoformat(activities["shows"]["dropped_at"]),
-    )
+    return datetime.fromisoformat(activities["shows"]["dropped_at"])
 
 
 def _last_watched_at_activities(activities: LastActivities) -> datetime:
