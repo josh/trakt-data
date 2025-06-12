@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 1,
-      "last_watched_at": "2025-06-12T04:30:12.000Z",
+      "completed": 2,
+      "last_watched_at": "2025-06-12T05:09:06.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -31,8 +31,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-12T05:09:06.000Z"
             },
             {
               "number": 3,
@@ -80,6 +80,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 3,
+        "title": "First Blood",
+        "ids": {
+          "trakt": 13024037,
+          "tvdb": 11144087,
+          "imdb": "tt32509257",
+          "tmdb": 6150706,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 2,
         "title": "Icebreaker",
         "ids": {
@@ -87,18 +99,6 @@
           "tvdb": 11144086,
           "imdb": "tt32509256",
           "tmdb": 6150705,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Game On",
-        "ids": {
-          "trakt": 11936641,
-          "tvdb": 10521020,
-          "imdb": "tt32509255",
-          "tmdb": 5382864,
           "tvrage": null
         }
       }
