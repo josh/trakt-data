@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 2,
-      "last_watched_at": "2025-06-12T05:09:06.000Z",
+      "completed": 5,
+      "last_watched_at": "2025-06-12T06:34:16.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 2,
+          "completed": 5,
           "episodes": [
             {
               "number": 1,
@@ -36,18 +36,18 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-12T05:16:07.000Z"
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-12T06:00:13.000Z"
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-12T06:34:16.000Z"
             },
             {
               "number": 6,
@@ -80,25 +80,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
-        "number": 3,
-        "title": "First Blood",
+        "number": 6,
+        "title": "The Bet Gala",
         "ids": {
-          "trakt": 13024037,
-          "tvdb": 11144087,
-          "imdb": "tt32509257",
-          "tmdb": 6150706,
+          "trakt": 13024043,
+          "tvdb": 11144090,
+          "imdb": "tt32509261",
+          "tmdb": 6150709,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 1,
-        "number": 2,
-        "title": "Icebreaker",
+        "number": 5,
+        "title": "House Wars",
         "ids": {
-          "trakt": 13024035,
-          "tvdb": 11144086,
-          "imdb": "tt32509256",
-          "tmdb": 6150705,
+          "trakt": 13024041,
+          "tvdb": 11144089,
+          "imdb": "tt32509258",
+          "tmdb": 6150708,
           "tvrage": null
         }
       }
