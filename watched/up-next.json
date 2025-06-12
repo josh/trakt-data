@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2025-06-12T06:34:16.000Z",
+      "last_watched_at": "2025-06-12T06:50:33.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "The Hunt",
+        "ids": {
+          "trakt": 13024046,
+          "tvdb": 11144091,
+          "imdb": "tt32509262",
+          "tmdb": 6150710,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 6,
         "title": "The Bet Gala",
@@ -32,18 +44,6 @@
           "tvdb": 11144090,
           "imdb": "tt32509261",
           "tmdb": 6150709,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "House Wars",
-        "ids": {
-          "trakt": 13024041,
-          "tvdb": 11144089,
-          "imdb": "tt32509258",
-          "tmdb": 6150708,
           "tvrage": null
         }
       }
@@ -113,7 +113,7 @@
       }
     },
     "progress": {
-      "aired": 17,
+      "aired": 18,
       "completed": 12,
       "hidden": 0,
       "last_watched_at": "2025-06-07T06:01:55.000Z",
@@ -294,6 +294,56 @@
           "tvdb": 9599807,
           "imdb": "tt19623304",
           "tmdb": 4212818,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "FUBAR",
+      "year": 2023,
+      "ids": {
+        "trakt": 202845,
+        "slug": "fubar",
+        "tvdb": 427281,
+        "imdb": "tt13064902",
+        "tmdb": 221300,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2023-06-21T04:48:34.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 12965246,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6093540,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "That's It and That's All",
+        "ids": {
+          "trakt": 7361997,
+          "tvdb": 9797411,
+          "imdb": "tt18500794",
+          "tmdb": 4263895,
           "tvrage": null
         }
       }

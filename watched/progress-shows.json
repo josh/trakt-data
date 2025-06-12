@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 5,
-      "last_watched_at": "2025-06-12T06:34:16.000Z",
+      "completed": 6,
+      "last_watched_at": "2025-06-12T06:50:33.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -51,8 +51,8 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-12T06:50:33.000Z"
             },
             {
               "number": 7,
@@ -80,6 +80,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 7,
+        "title": "The Hunt",
+        "ids": {
+          "trakt": 13024046,
+          "tvdb": 11144091,
+          "imdb": "tt32509262",
+          "tmdb": 6150710,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 6,
         "title": "The Bet Gala",
         "ids": {
@@ -87,18 +99,6 @@
           "tvdb": 11144090,
           "imdb": "tt32509261",
           "tmdb": 6150709,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "House Wars",
-        "ids": {
-          "trakt": 13024041,
-          "tvdb": 11144089,
-          "imdb": "tt32509258",
-          "tmdb": 6150708,
           "tvrage": null
         }
       }
@@ -4029,7 +4029,7 @@
       }
     },
     "progress": {
-      "aired": 17,
+      "aired": 18,
       "completed": 12,
       "last_watched_at": "2025-06-07T06:01:55.000Z",
       "reset_at": null,
@@ -4095,7 +4095,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 7,
+          "aired": 8,
           "completed": 2,
           "episodes": [
             {
@@ -4130,6 +4130,11 @@
             },
             {
               "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             }
@@ -49187,7 +49192,7 @@
       }
     },
     "progress": {
-      "aired": 8,
+      "aired": 16,
       "completed": 8,
       "last_watched_at": "2023-06-21T04:48:34.000Z",
       "reset_at": null,
@@ -49237,6 +49242,54 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2023-06-21T04:48:34.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 8,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
