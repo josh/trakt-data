@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Bet",
+      "year": 2025,
+      "ids": {
+        "trakt": 242565,
+        "slug": "bet",
+        "tvdb": 450686,
+        "imdb": "tt32063523",
+        "tmdb": 255779,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2025-06-12T04:30:12.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Icebreaker",
+        "ids": {
+          "trakt": 13024035,
+          "tvdb": 11144086,
+          "imdb": "tt32509256",
+          "tmdb": 6150705,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Game On",
+        "ids": {
+          "trakt": 11936641,
+          "tvdb": 10521020,
+          "imdb": "tt32509255",
+          "tmdb": 5382864,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "MobLand",
       "year": 2025,
       "ids": {

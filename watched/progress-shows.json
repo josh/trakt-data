@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "Bet",
+      "year": 2025,
+      "ids": {
+        "trakt": 242565,
+        "slug": "bet",
+        "tvdb": 450686,
+        "imdb": "tt32063523",
+        "tmdb": 255779,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 1,
+      "last_watched_at": "2025-06-12T04:30:12.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-12T04:30:12.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Icebreaker",
+        "ids": {
+          "trakt": 13024035,
+          "tvdb": 11144086,
+          "imdb": "tt32509256",
+          "tmdb": 6150705,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Game On",
+        "ids": {
+          "trakt": 11936641,
+          "tvdb": 10521020,
+          "imdb": "tt32509255",
+          "tmdb": 5382864,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Long Way Home",
       "year": 2025,
       "ids": {
@@ -15041,7 +15146,7 @@
       }
     },
     "progress": {
-      "aired": 4419,
+      "aired": 4420,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -37006,7 +37111,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 74,
+          "aired": 75,
           "completed": 0,
           "episodes": [
             {
@@ -37376,6 +37481,11 @@
             },
             {
               "number": 74,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 75,
               "completed": false,
               "last_watched_at": null
             }
@@ -47752,7 +47862,7 @@
         "ids": {
           "trakt": 13012669,
           "tvdb": null,
-          "imdb": null,
+          "imdb": "tt13622888",
           "tmdb": 6138528,
           "tvrage": null
         }
@@ -48139,7 +48249,7 @@
         "ids": {
           "trakt": 13144324,
           "tvdb": null,
-          "imdb": null,
+          "imdb": "tt30444778",
           "tmdb": 6249762,
           "tvrage": null
         }
@@ -71207,7 +71317,7 @@
       }
     },
     "progress": {
-      "aired": 1673,
+      "aired": 1674,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79012,7 +79122,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 128,
+          "aired": 129,
           "completed": 0,
           "episodes": [
             {
@@ -79652,6 +79762,11 @@
             },
             {
               "number": 128,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 129,
               "completed": false,
               "last_watched_at": null
             }
