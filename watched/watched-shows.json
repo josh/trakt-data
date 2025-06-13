@@ -1,6 +1,81 @@
 [
   {
     "plays": 10,
+    "last_watched_at": "2025-06-13T20:47:45.000Z",
+    "last_updated_at": "2025-06-13T19:52:45.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "MobLand",
+      "year": 2025,
+      "ids": {
+        "trakt": 228595,
+        "slug": "mobland",
+        "tvdb": 446831,
+        "imdb": "tt31510819",
+        "tmdb": 247718,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-06-02T20:41:20.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-06-02T21:48:30.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-06-02T22:56:03.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-06-02T23:30:37.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-06-09T00:42:38.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-06-09T01:26:08.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2025-06-11T03:09:36.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2025-06-11T04:03:16.000Z"
+          },
+          {
+            "number": 9,
+            "plays": 1,
+            "last_watched_at": "2025-06-11T04:51:49.000Z"
+          },
+          {
+            "number": 10,
+            "plays": 1,
+            "last_watched_at": "2025-06-13T20:47:45.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 10,
     "last_watched_at": "2025-06-13T03:33:29.000Z",
     "last_updated_at": "2025-06-13T02:57:29.000Z",
     "reset_at": null,
@@ -124,76 +199,6 @@
             "number": 6,
             "plays": 1,
             "last_watched_at": "2025-06-11T06:06:44.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 9,
-    "last_watched_at": "2025-06-11T04:51:49.000Z",
-    "last_updated_at": "2025-06-11T04:03:49.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "MobLand",
-      "year": 2025,
-      "ids": {
-        "trakt": 228595,
-        "slug": "mobland",
-        "tvdb": 446831,
-        "imdb": "tt31510819",
-        "tmdb": 247718,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-06-02T20:41:20.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-06-02T21:48:30.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-06-02T22:56:03.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-06-02T23:30:37.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-06-09T00:42:38.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2025-06-09T01:26:08.000Z"
-          },
-          {
-            "number": 7,
-            "plays": 1,
-            "last_watched_at": "2025-06-11T03:09:36.000Z"
-          },
-          {
-            "number": 8,
-            "plays": 1,
-            "last_watched_at": "2025-06-11T04:03:16.000Z"
-          },
-          {
-            "number": 9,
-            "plays": 1,
-            "last_watched_at": "2025-06-11T04:51:49.000Z"
           }
         ]
       }
