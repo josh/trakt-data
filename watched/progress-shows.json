@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 9,
-      "last_watched_at": "2025-06-13T02:56:08.000Z",
+      "completed": 10,
+      "last_watched_at": "2025-06-13T03:33:29.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 9,
+          "completed": 10,
           "episodes": [
             {
               "number": 1,
@@ -71,14 +71,15 @@
             },
             {
               "number": 10,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-13T03:33:29.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 1,
         "number": 10,
         "title": "Winner Takes All",
@@ -87,18 +88,6 @@
           "tvdb": 11144094,
           "imdb": "tt32509265",
           "tmdb": 6150721,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Meet the Parents",
-        "ids": {
-          "trakt": 13024048,
-          "tvdb": 11144093,
-          "imdb": "tt32509264",
-          "tmdb": 6150720,
           "tvrage": null
         }
       }
@@ -15161,7 +15150,7 @@
       }
     },
     "progress": {
-      "aired": 4420,
+      "aired": 4421,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -37126,7 +37115,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 75,
+          "aired": 76,
           "completed": 0,
           "episodes": [
             {
@@ -37501,6 +37490,11 @@
             },
             {
               "number": 75,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 76,
               "completed": false,
               "last_watched_at": null
             }
