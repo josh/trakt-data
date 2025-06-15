@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 13,
+      "completed": 14,
       "hidden": 0,
-      "last_watched_at": "2025-06-14T23:31:57.000Z",
+      "last_watched_at": "2025-06-15T00:21:23.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 14,
+        "play_count": 15,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Hometown Hero",
+        "ids": {
+          "trakt": 12899735,
+          "tvdb": 11021062,
+          "imdb": "tt36143701",
+          "tmdb": 6041742,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 4,
         "title": "The Taste of Human Blood",
@@ -32,18 +44,6 @@
           "tvdb": 11021061,
           "imdb": "tt36143700",
           "tmdb": 6041741,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "Whack-A-Mole",
-        "ids": {
-          "trakt": 12899733,
-          "tvdb": 11021060,
-          "imdb": "tt36143699",
-          "tmdb": 6041740,
           "tvrage": null
         }
       }
