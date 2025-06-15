@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 7,
+      "last_watched_at": "2025-06-15T06:26:12.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 7,
+          "completed": 7,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-05T06:34:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-05T07:20:34.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-08T23:43:21.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-10T06:33:45.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-11T05:42:53.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-11T06:06:44.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-06-15T06:26:12.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "It's Baltic Outside",
+        "ids": {
+          "trakt": 12220768,
+          "tvdb": 10653342,
+          "imdb": "tt37180761",
+          "tmdb": 5938545,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Deep in the Forest",
+        "ids": {
+          "trakt": 12220767,
+          "tvdb": 10653341,
+          "imdb": "tt37180760",
+          "tmdb": 5938543,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Poker Face",
       "year": 2023,
       "ids": {
@@ -4061,96 +4151,6 @@
           "tvdb": 11144094,
           "imdb": "tt32509265",
           "tmdb": 6150721,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 7,
-      "completed": 6,
-      "last_watched_at": "2025-06-11T06:06:44.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Miniseries",
-          "aired": 7,
-          "completed": 6,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-05T06:34:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-05T07:20:34.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-08T23:43:21.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-10T06:33:45.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-06-11T05:42:53.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-06-11T06:06:44.000Z"
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Deep in the Forest",
-        "ids": {
-          "trakt": 12220767,
-          "tvdb": 10653341,
-          "imdb": "tt37180760",
-          "tmdb": 5938543,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Lost in Lapland",
-        "ids": {
-          "trakt": 12220766,
-          "tvdb": 10653340,
-          "imdb": "tt37180734",
-          "tmdb": 5938542,
           "tvrage": null
         }
       }
