@@ -1,6 +1,159 @@
 [
   {
     "show": {
+      "title": "Poker Face",
+      "year": 2023,
+      "ids": {
+        "trakt": 187032,
+        "slug": "poker-face-2023",
+        "tvdb": 398822,
+        "imdb": "tt14269590",
+        "tmdb": 120998,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 16,
+      "last_watched_at": "2025-06-17T06:41:56.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-01-31T05:56:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-02-05T00:56:24.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-01-26T11:55:00.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-05T05:08:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-05T23:28:16.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-10T06:51:49.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-17T07:04:19.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-02-25T05:41:06.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-03-04T05:24:51.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-03-10T18:46:55.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 8,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-07T04:53:48.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-07T06:01:55.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-14T23:31:57.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-15T00:21:23.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-16T05:56:19.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-17T06:41:56.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "One Last Job",
+        "ids": {
+          "trakt": 12899737,
+          "tvdb": 11021064,
+          "imdb": "tt35170355",
+          "tmdb": 6041744,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Sloppy Joseph",
+        "ids": {
+          "trakt": 12899736,
+          "tvdb": 11021063,
+          "imdb": "tt34930861",
+          "tmdb": 6041743,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dept. Q",
       "year": 2025,
       "ids": {
@@ -94,159 +247,6 @@
           "tvdb": 10296840,
           "imdb": "tt28035408",
           "tmdb": 5129235,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Poker Face",
-      "year": 2023,
-      "ids": {
-        "trakt": 187032,
-        "slug": "poker-face-2023",
-        "tvdb": 398822,
-        "imdb": "tt14269590",
-        "tmdb": 120998,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 18,
-      "completed": 15,
-      "last_watched_at": "2025-06-16T05:56:19.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-01-31T05:56:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-02-05T00:56:24.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-01-26T11:55:00.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-05T05:08:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-05T23:28:16.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-10T06:51:49.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-17T07:04:19.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-02-25T05:41:06.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-03-04T05:24:51.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-03-10T18:46:55.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 8,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-07T04:53:48.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-07T06:01:55.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-14T23:31:57.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-15T00:21:23.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-06-16T05:56:19.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Sloppy Joseph",
-        "ids": {
-          "trakt": 12899736,
-          "tvdb": 11021063,
-          "imdb": "tt34930861",
-          "tmdb": 6041743,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Hometown Hero",
-        "ids": {
-          "trakt": 12899735,
-          "tvdb": 11021062,
-          "imdb": "tt36143701",
-          "tmdb": 6041742,
           "tvrage": null
         }
       }

@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Poker Face",
+      "year": 2023,
+      "ids": {
+        "trakt": 187032,
+        "slug": "poker-face-2023",
+        "tvdb": 398822,
+        "imdb": "tt14269590",
+        "tmdb": 120998,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 16,
+      "hidden": 0,
+      "last_watched_at": "2025-06-17T06:41:56.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 17,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "One Last Job",
+        "ids": {
+          "trakt": 12899737,
+          "tvdb": 11021064,
+          "imdb": "tt35170355",
+          "tmdb": 6041744,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Sloppy Joseph",
+        "ids": {
+          "trakt": 12899736,
+          "tvdb": 11021063,
+          "imdb": "tt34930861",
+          "tmdb": 6041743,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dept. Q",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10296840,
           "imdb": "tt28035408",
           "tmdb": 5129235,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Poker Face",
-      "year": 2023,
-      "ids": {
-        "trakt": 187032,
-        "slug": "poker-face-2023",
-        "tvdb": 398822,
-        "imdb": "tt14269590",
-        "tmdb": 120998,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 18,
-      "completed": 15,
-      "hidden": 0,
-      "last_watched_at": "2025-06-16T05:56:19.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 16,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Sloppy Joseph",
-        "ids": {
-          "trakt": 12899736,
-          "tvdb": 11021063,
-          "imdb": "tt34930861",
-          "tmdb": 6041743,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Hometown Hero",
-        "ids": {
-          "trakt": 12899735,
-          "tvdb": 11021062,
-          "imdb": "tt36143701",
-          "tmdb": 6041742,
           "tvrage": null
         }
       }
