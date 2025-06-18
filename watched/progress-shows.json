@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 16,
-      "last_watched_at": "2025-06-17T06:41:56.000Z",
+      "completed": 17,
+      "last_watched_at": "2025-06-18T07:05:06.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -80,7 +80,7 @@
           "number": 2,
           "title": null,
           "aired": 8,
-          "completed": 6,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -114,8 +114,8 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-18T07:05:06.000Z"
             },
             {
               "number": 8,
@@ -128,6 +128,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 2,
+        "number": 8,
+        "title": "The Sleazy Georgian",
+        "ids": {
+          "trakt": 12899738,
+          "tvdb": 11021065,
+          "imdb": "tt34674411",
+          "tmdb": 6041745,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
         "number": 7,
         "title": "One Last Job",
         "ids": {
@@ -135,18 +147,6 @@
           "tvdb": 11021064,
           "imdb": "tt35170355",
           "tmdb": 6041744,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Sloppy Joseph",
-        "ids": {
-          "trakt": 12899736,
-          "tvdb": 11021063,
-          "imdb": "tt34930861",
-          "tmdb": 6041743,
           "tvrage": null
         }
       }
@@ -15244,7 +15244,7 @@
       }
     },
     "progress": {
-      "aired": 4422,
+      "aired": 4423,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -37209,7 +37209,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 77,
+          "aired": 78,
           "completed": 0,
           "episodes": [
             {
@@ -37594,6 +37594,11 @@
             },
             {
               "number": 77,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 78,
               "completed": false,
               "last_watched_at": null
             }
@@ -47981,7 +47986,7 @@
       "next_episode": {
         "season": 17,
         "number": 1,
-        "title": "The Gang F**ks Up Abbott Elementary",
+        "title": "The Gang F***s Up Abbott Elementary",
         "ids": {
           "trakt": 13012669,
           "tvdb": null,
@@ -67691,7 +67696,7 @@
       }
     },
     "progress": {
-      "aired": 13,
+      "aired": 14,
       "completed": 8,
       "last_watched_at": "2021-09-23T03:07:01.000Z",
       "reset_at": null,
@@ -67747,7 +67752,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 0,
           "episodes": [
             {
@@ -67772,6 +67777,11 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
               "completed": false,
               "last_watched_at": null
             }
@@ -71503,7 +71513,7 @@
       }
     },
     "progress": {
-      "aired": 1676,
+      "aired": 1677,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79308,7 +79318,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 131,
+          "aired": 132,
           "completed": 0,
           "episodes": [
             {
@@ -79963,6 +79973,11 @@
             },
             {
               "number": 131,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 132,
               "completed": false,
               "last_watched_at": null
             }
