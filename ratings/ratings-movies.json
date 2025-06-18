@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-06-17T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "title": "Ballerina",
+      "year": 2025,
+      "ids": {
+        "trakt": 392717,
+        "slug": "ballerina-2025",
+        "imdb": "tt7181546",
+        "tmdb": 541671
+      }
+    }
+  },
+  {
     "rated_at": "2025-06-16T06:02:09.000Z",
     "rating": 7,
     "type": "movie",
@@ -1625,10 +1640,10 @@
     "type": "movie",
     "movie": {
       "title": "Presence",
-      "year": 2025,
+      "year": 2024,
       "ids": {
         "trakt": 918315,
-        "slug": "presence-2025",
+        "slug": "presence-2024",
         "imdb": "tt28249919",
         "tmdb": 1140535
       }
