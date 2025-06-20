@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 8,
+      "last_watched_at": "2025-06-20T07:07:53.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-05T06:34:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-05T07:20:34.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-08T23:43:21.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-10T06:33:45.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-11T05:42:53.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-11T06:06:44.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-06-15T06:26:12.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-06-20T07:07:53.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Pinball and Pierogies",
+        "ids": {
+          "trakt": 12220769,
+          "tvdb": 10653343,
+          "imdb": null,
+          "tmdb": 5938546,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "It's Baltic Outside",
+        "ids": {
+          "trakt": 12220768,
+          "tvdb": 10653342,
+          "imdb": "tt37180761",
+          "tmdb": 5938545,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Poker Face",
       "year": 2023,
       "ids": {
@@ -252,96 +347,6 @@
           "tvdb": 10296840,
           "imdb": "tt28035408",
           "tmdb": 5129235,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 7,
-      "completed": 7,
-      "last_watched_at": "2025-06-15T06:26:12.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Miniseries",
-          "aired": 7,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-05T06:34:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-05T07:20:34.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-08T23:43:21.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-10T06:33:45.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-06-11T05:42:53.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-06-11T06:06:44.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-06-15T06:26:12.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "It's Baltic Outside",
-        "ids": {
-          "trakt": 12220768,
-          "tvdb": 10653342,
-          "imdb": "tt37180761",
-          "tmdb": 5938545,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Deep in the Forest",
-        "ids": {
-          "trakt": 12220767,
-          "tvdb": 10653341,
-          "imdb": "tt37180760",
-          "tmdb": 5938543,
           "tvrage": null
         }
       }
@@ -14136,7 +14141,7 @@
       }
     },
     "progress": {
-      "aired": 47,
+      "aired": 48,
       "completed": 41,
       "last_watched_at": "2024-06-17T05:54:46.000Z",
       "reset_at": null,
@@ -14373,7 +14378,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 0,
           "episodes": [
             {
@@ -14403,6 +14408,11 @@
             },
             {
               "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
               "completed": false,
               "last_watched_at": null
             }
@@ -71523,7 +71533,7 @@
       }
     },
     "progress": {
-      "aired": 1678,
+      "aired": 1679,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79328,7 +79338,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 133,
+          "aired": 134,
           "completed": 0,
           "episodes": [
             {
@@ -79993,6 +80003,11 @@
             },
             {
               "number": 133,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 134,
               "completed": false,
               "last_watched_at": null
             }
