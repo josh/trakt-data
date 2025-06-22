@@ -1,6 +1,106 @@
 [
   {
     "show": {
+      "title": "Dept. Q",
+      "year": 2025,
+      "ids": {
+        "trakt": 224621,
+        "slug": "dept-q",
+        "tvdb": 445802,
+        "imdb": "tt27995114",
+        "tmdb": 245703,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 2,
+      "last_watched_at": "2025-06-22T06:49:39.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-17T06:04:45.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-22T06:49:39.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Episode 3",
+        "ids": {
+          "trakt": 13024658,
+          "tvdb": 11128001,
+          "imdb": "tt31260246",
+          "tmdb": 6153378,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Episode 2",
+        "ids": {
+          "trakt": 11457806,
+          "tvdb": 11128000,
+          "imdb": "tt31260244",
+          "tmdb": 5129236,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Poker Face",
       "year": 2023,
       "ids": {
@@ -233,7 +333,7 @@
         "ids": {
           "trakt": 12220769,
           "tvdb": 10653343,
-          "imdb": null,
+          "imdb": "tt37205961",
           "tmdb": 5938546,
           "tvrage": null
         }
@@ -247,106 +347,6 @@
           "tvdb": 10653342,
           "imdb": "tt37180761",
           "tmdb": 5938545,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Dept. Q",
-      "year": 2025,
-      "ids": {
-        "trakt": 224621,
-        "slug": "dept-q",
-        "tvdb": 445802,
-        "imdb": "tt27995114",
-        "tmdb": 245703,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 1,
-      "last_watched_at": "2025-06-17T06:04:45.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-17T06:04:45.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Episode 2",
-        "ids": {
-          "trakt": 11457806,
-          "tvdb": 11128000,
-          "imdb": "tt31260244",
-          "tmdb": 5129236,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Episode 1",
-        "ids": {
-          "trakt": 11457805,
-          "tvdb": 10296840,
-          "imdb": "tt28035408",
-          "tmdb": 5129235,
           "tvrage": null
         }
       }
