@@ -1,6 +1,106 @@
 [
   {
     "show": {
+      "title": "Dept. Q",
+      "year": 2025,
+      "ids": {
+        "trakt": 224621,
+        "slug": "dept-q",
+        "tvdb": 445802,
+        "imdb": "tt27995114",
+        "tmdb": 245703,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 3,
+      "last_watched_at": "2025-06-23T03:37:31.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 3,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-17T06:04:45.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-22T06:49:39.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-23T03:37:31.000Z"
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Episode 4",
+        "ids": {
+          "trakt": 13024659,
+          "tvdb": 11128002,
+          "imdb": "tt31260247",
+          "tmdb": 6153379,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Episode 3",
+        "ids": {
+          "trakt": 13024658,
+          "tvdb": 11128001,
+          "imdb": "tt31260246",
+          "tmdb": 6153378,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Real Time with Bill Maher",
       "year": 2003,
       "ids": {
@@ -3725,106 +3825,6 @@
           "tvdb": 11158502,
           "imdb": null,
           "tmdb": 6208821,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Dept. Q",
-      "year": 2025,
-      "ids": {
-        "trakt": 224621,
-        "slug": "dept-q",
-        "tvdb": 445802,
-        "imdb": "tt27995114",
-        "tmdb": 245703,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 2,
-      "last_watched_at": "2025-06-22T06:49:39.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 2,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-17T06:04:45.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-22T06:49:39.000Z"
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Episode 3",
-        "ids": {
-          "trakt": 13024658,
-          "tvdb": 11128001,
-          "imdb": "tt31260246",
-          "tmdb": 6153378,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Episode 2",
-        "ids": {
-          "trakt": 11457806,
-          "tvdb": 11128000,
-          "imdb": "tt31260244",
-          "tmdb": 5129236,
           "tvrage": null
         }
       }
@@ -9728,7 +9728,7 @@
       "next_episode": {
         "season": 3,
         "number": 1,
-        "title": "Episode 1",
+        "title": "Keys and Knives",
         "ids": {
           "trakt": 12676829,
           "tvdb": null,
@@ -42706,7 +42706,7 @@
       }
     },
     "progress": {
-      "aired": 75,
+      "aired": 76,
       "completed": 71,
       "last_watched_at": "2023-12-19T20:00:32.000Z",
       "reset_at": null,
@@ -43125,7 +43125,7 @@
         {
           "number": 8,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -43145,6 +43145,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }
@@ -43440,7 +43445,7 @@
       }
     },
     "progress": {
-      "aired": 10,
+      "aired": 11,
       "completed": 6,
       "last_watched_at": "2023-11-27T06:43:50.000Z",
       "reset_at": null,
@@ -43486,7 +43491,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -43506,6 +43511,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }
@@ -68717,7 +68727,7 @@
       }
     },
     "progress": {
-      "aired": 335,
+      "aired": 336,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -70413,7 +70423,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 15,
+          "aired": 16,
           "completed": 0,
           "episodes": [
             {
@@ -70488,6 +70498,11 @@
             },
             {
               "number": 15,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 16,
               "completed": false,
               "last_watched_at": null
             }

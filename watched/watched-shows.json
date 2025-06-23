@@ -1,5 +1,45 @@
 [
   {
+    "plays": 3,
+    "last_watched_at": "2025-06-23T03:37:31.000Z",
+    "last_updated_at": "2025-06-23T02:42:31.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Dept. Q",
+      "year": 2025,
+      "ids": {
+        "trakt": 224621,
+        "slug": "dept-q",
+        "tvdb": 445802,
+        "imdb": "tt27995114",
+        "tmdb": 245703,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-06-17T06:04:45.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-06-22T06:49:39.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-06-23T03:37:31.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 703,
     "last_watched_at": "2025-06-22T07:26:18.000Z",
     "last_updated_at": "2025-06-22T07:26:18.000Z",
@@ -3629,41 +3669,6 @@
             "number": 20,
             "plays": 1,
             "last_watched_at": "2025-06-22T07:26:18.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 2,
-    "last_watched_at": "2025-06-22T06:49:39.000Z",
-    "last_updated_at": "2025-06-22T05:55:39.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Dept. Q",
-      "year": 2025,
-      "ids": {
-        "trakt": 224621,
-        "slug": "dept-q",
-        "tvdb": 445802,
-        "imdb": "tt27995114",
-        "tmdb": 245703,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-06-17T06:04:45.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-06-22T06:49:39.000Z"
           }
         ]
       }
