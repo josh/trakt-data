@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 9,
-      "completed": 3,
-      "last_watched_at": "2025-06-23T03:37:31.000Z",
+      "completed": 4,
+      "last_watched_at": "2025-06-23T04:36:31.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 9,
-          "completed": 3,
+          "completed": 4,
           "episodes": [
             {
               "number": 1,
@@ -41,8 +41,8 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-23T04:36:31.000Z"
             },
             {
               "number": 5,
@@ -75,6 +75,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 5,
+        "title": "Episode 5",
+        "ids": {
+          "trakt": 13024660,
+          "tvdb": 11128003,
+          "imdb": "tt31260245",
+          "tmdb": 6153380,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 4,
         "title": "Episode 4",
         "ids": {
@@ -82,18 +94,6 @@
           "tvdb": 11128002,
           "imdb": "tt31260247",
           "tmdb": 6153379,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Episode 3",
-        "ids": {
-          "trakt": 13024658,
-          "tvdb": 11128001,
-          "imdb": "tt31260246",
-          "tmdb": 6153378,
           "tvrage": null
         }
       }
