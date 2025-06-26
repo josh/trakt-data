@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 9,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2025-06-23T05:30:55.000Z",
+      "last_watched_at": "2025-06-26T03:13:10.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Episode 7",
+        "ids": {
+          "trakt": 13024662,
+          "tvdb": 11128005,
+          "imdb": "tt31260249",
+          "tmdb": 6153382,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 6,
         "title": "Episode 6",
@@ -34,16 +46,54 @@
           "tmdb": 6153381,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Bear",
+      "year": 2022,
+      "ids": {
+        "trakt": 189717,
+        "slug": "the-bear",
+        "tvdb": 403294,
+        "imdb": "tt14452776",
+        "tmdb": 136315,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 38,
+      "completed": 28,
+      "hidden": 0,
+      "last_watched_at": "2024-08-01T06:59:16.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 28,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 4,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 12565626,
+          "tvdb": 11141373,
+          "imdb": "tt32765561",
+          "tmdb": 6231138,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Episode 5",
+        "season": 3,
+        "number": 10,
+        "title": "Forever",
         "ids": {
-          "trakt": 13024660,
-          "tvdb": 11128003,
-          "imdb": "tt31260245",
-          "tmdb": 6153380,
+          "trakt": 11852214,
+          "tvdb": 10488509,
+          "imdb": "tt32330866",
+          "tmdb": 5334931,
           "tvrage": null
         }
       }

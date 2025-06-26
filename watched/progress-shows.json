@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 9,
-      "completed": 5,
-      "last_watched_at": "2025-06-23T05:30:55.000Z",
+      "completed": 6,
+      "last_watched_at": "2025-06-26T03:13:10.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 9,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -51,8 +51,8 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-26T03:13:10.000Z"
             },
             {
               "number": 7,
@@ -75,6 +75,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 7,
+        "title": "Episode 7",
+        "ids": {
+          "trakt": 13024662,
+          "tvdb": 11128005,
+          "imdb": "tt31260249",
+          "tmdb": 6153382,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 6,
         "title": "Episode 6",
         "ids": {
@@ -82,18 +94,6 @@
           "tvdb": 11128004,
           "imdb": "tt31260248",
           "tmdb": 6153381,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Episode 5",
-        "ids": {
-          "trakt": 13024660,
-          "tvdb": 11128003,
-          "imdb": "tt31260245",
-          "tmdb": 6153380,
           "tvrage": null
         }
       }
@@ -13092,7 +13092,7 @@
       }
     },
     "progress": {
-      "aired": 28,
+      "aired": 38,
       "completed": 28,
       "last_watched_at": "2024-08-01T06:59:16.000Z",
       "reset_at": null,
@@ -13258,6 +13258,64 @@
               "number": 10,
               "completed": true,
               "last_watched_at": "2024-08-01T06:59:16.000Z"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": null,
+          "aired": 10,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -43445,7 +43503,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 6,
       "last_watched_at": "2023-11-27T06:43:50.000Z",
       "reset_at": null,
@@ -43491,7 +43549,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 0,
           "episodes": [
             {
@@ -43516,6 +43574,11 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
               "completed": false,
               "last_watched_at": null
             }
@@ -67731,7 +67794,7 @@
       }
     },
     "progress": {
-      "aired": 14,
+      "aired": 15,
       "completed": 8,
       "last_watched_at": "2021-09-23T03:07:01.000Z",
       "reset_at": null,
@@ -67787,7 +67850,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 0,
           "episodes": [
             {
@@ -67817,6 +67880,11 @@
             },
             {
               "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
               "completed": false,
               "last_watched_at": null
             }
@@ -71553,7 +71621,7 @@
       }
     },
     "progress": {
-      "aired": 1679,
+      "aired": 1681,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79358,7 +79426,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 134,
+          "aired": 136,
           "completed": 0,
           "episodes": [
             {
@@ -80028,6 +80096,16 @@
             },
             {
               "number": 134,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 135,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 136,
               "completed": false,
               "last_watched_at": null
             }
