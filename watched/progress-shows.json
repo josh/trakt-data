@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 9,
-      "completed": 7,
-      "last_watched_at": "2025-06-26T04:05:16.000Z",
+      "completed": 8,
+      "last_watched_at": "2025-06-26T04:51:20.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 9,
-          "completed": 7,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -61,8 +61,8 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-06-26T04:51:20.000Z"
             },
             {
               "number": 9,
@@ -75,6 +75,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 9,
+        "title": "Episode 9",
+        "ids": {
+          "trakt": 13024664,
+          "tvdb": 11128007,
+          "imdb": "tt36809513",
+          "tmdb": 6153384,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 8,
         "title": "Episode 8",
         "ids": {
@@ -82,18 +94,6 @@
           "tvdb": 11128006,
           "imdb": "tt31260250",
           "tmdb": 6153383,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Episode 7",
-        "ids": {
-          "trakt": 13024662,
-          "tvdb": 11128005,
-          "imdb": "tt31260249",
-          "tmdb": 6153382,
           "tvrage": null
         }
       }
@@ -71621,7 +71621,7 @@
       }
     },
     "progress": {
-      "aired": 1681,
+      "aired": 1682,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79426,7 +79426,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 136,
+          "aired": 137,
           "completed": 0,
           "episodes": [
             {
@@ -80106,6 +80106,11 @@
             },
             {
               "number": 136,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 137,
               "completed": false,
               "last_watched_at": null
             }
