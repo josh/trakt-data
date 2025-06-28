@@ -1,6 +1,187 @@
 [
   {
     "show": {
+      "title": "Squid Game",
+      "year": 2021,
+      "ids": {
+        "trakt": 162712,
+        "slug": "squid-game",
+        "tvdb": 383275,
+        "imdb": "tt10919420",
+        "tmdb": 93405,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 17,
+      "last_watched_at": "2025-06-28T21:25:04.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 9,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2021-09-22T04:15:58.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2021-09-22T04:42:49.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2021-09-22T05:31:20.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2021-09-23T04:08:51.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2021-09-23T05:24:03.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2021-09-26T21:55:07.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2021-09-26T22:58:31.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2021-09-26T23:21:01.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2021-09-27T00:15:20.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 7,
+          "completed": 7,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2024-12-27T00:12:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2024-12-27T01:10:45.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2024-12-27T02:56:54.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2024-12-27T06:55:10.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2024-12-27T23:28:01.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2024-12-28T00:45:23.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2024-12-28T01:46:37.000Z"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 6,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-28T21:25:04.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 3,
+        "number": 2,
+        "title": "The Starry Night",
+        "ids": {
+          "trakt": 12681892,
+          "tvdb": 11126291,
+          "imdb": "tt35643632",
+          "tmdb": 5884551,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Keys and Knives",
+        "ids": {
+          "trakt": 12676829,
+          "tvdb": 10936217,
+          "imdb": "tt33056155",
+          "tmdb": 5884550,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dept. Q",
       "year": 2025,
       "ids": {
@@ -3833,7 +4014,7 @@
       }
     },
     "progress": {
-      "aired": 19,
+      "aired": 20,
       "completed": 19,
       "last_watched_at": "2025-06-21T07:16:10.000Z",
       "reset_at": null,
@@ -3899,7 +4080,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 9,
+          "aired": 10,
           "completed": 9,
           "episodes": [
             {
@@ -3946,6 +4127,11 @@
               "number": 9,
               "completed": true,
               "last_watched_at": "2025-06-21T07:16:10.000Z"
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -3991,7 +4177,7 @@
       }
     },
     "progress": {
-      "aired": 8,
+      "aired": 9,
       "completed": 8,
       "last_watched_at": "2025-06-20T07:07:53.000Z",
       "reset_at": null,
@@ -3999,7 +4185,7 @@
         {
           "number": 1,
           "title": "Miniseries",
-          "aired": 8,
+          "aired": 9,
           "completed": 8,
           "episodes": [
             {
@@ -4041,6 +4227,11 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2025-06-20T07:07:53.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -9599,149 +9790,6 @@
   },
   {
     "show": {
-      "title": "Squid Game",
-      "year": 2021,
-      "ids": {
-        "trakt": 162712,
-        "slug": "squid-game",
-        "tvdb": 383275,
-        "imdb": "tt10919420",
-        "tmdb": 93405,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 16,
-      "last_watched_at": "2024-12-28T01:46:37.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 9,
-          "completed": 9,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2021-09-22T04:15:58.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2021-09-22T04:42:49.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2021-09-22T05:31:20.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2021-09-23T04:08:51.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2021-09-23T05:24:03.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2021-09-26T21:55:07.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2021-09-26T22:58:31.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2021-09-26T23:21:01.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2021-09-27T00:15:20.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 7,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2024-12-27T00:12:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2024-12-27T01:10:45.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2024-12-27T02:56:54.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2024-12-27T06:55:10.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2024-12-27T23:28:01.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2024-12-28T00:45:23.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2024-12-28T01:46:37.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Keys and Knives",
-        "ids": {
-          "trakt": 12676829,
-          "tvdb": null,
-          "imdb": "tt33056155",
-          "tmdb": 5884550,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "Friend or Foe",
-        "ids": {
-          "trakt": 12482882,
-          "tvdb": 10863921,
-          "imdb": "tt35153959",
-          "tmdb": 5747919,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "It's Florida, Man.",
       "year": 2024,
       "ids": {
@@ -13313,7 +13361,7 @@
       "next_episode": {
         "season": 4,
         "number": 1,
-        "title": "Episode 1",
+        "title": "Groundhogs",
         "ids": {
           "trakt": 12565626,
           "tvdb": 11141373,
@@ -14193,7 +14241,7 @@
       }
     },
     "progress": {
-      "aired": 48,
+      "aired": 49,
       "completed": 41,
       "last_watched_at": "2024-06-17T05:54:46.000Z",
       "reset_at": null,
@@ -14430,7 +14478,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 7,
+          "aired": 8,
           "completed": 0,
           "episodes": [
             {
@@ -14465,6 +14513,11 @@
             },
             {
               "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             }
