@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 18,
-      "last_watched_at": "2025-06-28T22:33:20.000Z",
+      "completed": 17,
+      "last_watched_at": "2025-06-28T21:25:04.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -118,7 +118,7 @@
           "number": 3,
           "title": null,
           "aired": 6,
-          "completed": 2,
+          "completed": 1,
           "episodes": [
             {
               "number": 1,
@@ -127,8 +127,8 @@
             },
             {
               "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-28T22:33:20.000Z"
+              "completed": false,
+              "last_watched_at": null
             },
             {
               "number": 3,
@@ -156,18 +156,6 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
-        "number": 3,
-        "title": "It's Not Your Fault",
-        "ids": {
-          "trakt": 12681893,
-          "tvdb": 11126292,
-          "imdb": "tt37427768",
-          "tmdb": 5884553,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
         "number": 2,
         "title": "The Starry Night",
         "ids": {
@@ -175,6 +163,18 @@
           "tvdb": 11126291,
           "imdb": "tt35643632",
           "tmdb": 5884551,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Keys and Knives",
+        "ids": {
+          "trakt": 12676829,
+          "tvdb": 10936217,
+          "imdb": "tt33056155",
+          "tmdb": 5884550,
           "tvrage": null
         }
       }
