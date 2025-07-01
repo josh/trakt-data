@@ -1,106 +1,6 @@
 [
   {
     "show": {
-      "title": "Long Way Home",
-      "year": 2025,
-      "ids": {
-        "trakt": 253389,
-        "slug": "long-way-home-2025",
-        "tvdb": 453705,
-        "imdb": "tt33096033",
-        "tmdb": 262594,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 9,
-      "last_watched_at": "2025-06-29T06:06:51.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Miniseries",
-          "aired": 9,
-          "completed": 9,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-05T06:34:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-05T07:20:34.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-08T23:43:21.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-10T06:33:45.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-06-11T05:42:53.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-06-11T06:06:44.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-06-15T06:26:12.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-06-20T07:07:53.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2025-06-29T06:06:51.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 10,
-        "title": "The Home Straight",
-        "ids": {
-          "trakt": 12220770,
-          "tvdb": 10653344,
-          "imdb": null,
-          "tmdb": 5938548,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Pinball and Pierogies",
-        "ids": {
-          "trakt": 12220769,
-          "tvdb": 10653343,
-          "imdb": "tt37205961",
-          "tmdb": 5938546,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Squid Game",
       "year": 2021,
       "ids": {
@@ -114,8 +14,8 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 18,
-      "last_watched_at": "2025-06-29T04:30:18.000Z",
+      "completed": 19,
+      "last_watched_at": "2025-07-01T05:17:19.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -218,7 +118,7 @@
           "number": 3,
           "title": null,
           "aired": 6,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -232,8 +132,8 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-01T05:17:19.000Z"
             },
             {
               "number": 4,
@@ -256,6 +156,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
+        "number": 4,
+        "title": "222",
+        "ids": {
+          "trakt": 12681894,
+          "tvdb": 11126293,
+          "imdb": "tt37427772",
+          "tmdb": 5884554,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 3,
         "title": "It's Not Your Fault",
         "ids": {
@@ -265,16 +177,267 @@
           "tmdb": 5884553,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Poker Face",
+      "year": 2023,
+      "ids": {
+        "trakt": 187032,
+        "slug": "poker-face-2023",
+        "tvdb": 398822,
+        "imdb": "tt14269590",
+        "tmdb": 120998,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 20,
+      "completed": 20,
+      "last_watched_at": "2025-07-01T04:05:50.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-01-31T05:56:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-02-05T00:56:24.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-01-26T11:55:00.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-02-05T05:08:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-02-05T23:28:16.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-02-10T06:51:49.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-02-17T07:04:19.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-02-25T05:41:06.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-03-04T05:24:51.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-03-10T18:46:55.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-07T04:53:48.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-07T06:01:55.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-14T23:31:57.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-15T00:21:23.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-16T05:56:19.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-17T06:41:56.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-06-18T07:05:06.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-06-19T07:06:04.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-06-21T07:16:10.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2025-07-01T04:05:50.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 11,
+        "title": "Day of the Iguana",
+        "ids": {
+          "trakt": 12899741,
+          "tvdb": 11021068,
+          "imdb": "tt36143860",
+          "tmdb": 6041748,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 3,
-        "number": 2,
-        "title": "The Starry Night",
+        "season": 2,
+        "number": 10,
+        "title": "The Big Pump",
         "ids": {
-          "trakt": 12681892,
-          "tvdb": 11126291,
-          "imdb": "tt35643632",
-          "tmdb": 5884551,
+          "trakt": 12899740,
+          "tvdb": 11021067,
+          "imdb": "tt34981283",
+          "tmdb": 6041747,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Long Way Home",
+      "year": 2025,
+      "ids": {
+        "trakt": 253389,
+        "slug": "long-way-home-2025",
+        "tvdb": 453705,
+        "imdb": "tt33096033",
+        "tmdb": 262594,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 9,
+      "last_watched_at": "2025-06-29T06:06:51.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 9,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-06-05T06:34:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-06-05T07:20:34.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-06-08T23:43:21.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-06-10T06:33:45.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-06-11T05:42:53.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-06-11T06:06:44.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-06-15T06:26:12.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-06-20T07:07:53.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-06-29T06:06:51.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "The Home Straight",
+        "ids": {
+          "trakt": 12220770,
+          "tvdb": 10653344,
+          "imdb": null,
+          "tmdb": 5938548,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Pinball and Pierogies",
+        "ids": {
+          "trakt": 12220769,
+          "tvdb": 10653343,
+          "imdb": "tt37205961",
+          "tmdb": 5938546,
           "tvrage": null
         }
       }
@@ -4095,169 +4258,6 @@
           "tvdb": 11158502,
           "imdb": null,
           "tmdb": 6208821,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Poker Face",
-      "year": 2023,
-      "ids": {
-        "trakt": 187032,
-        "slug": "poker-face-2023",
-        "tvdb": 398822,
-        "imdb": "tt14269590",
-        "tmdb": 120998,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 20,
-      "completed": 19,
-      "last_watched_at": "2025-06-21T07:16:10.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-01-31T05:56:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-02-05T00:56:24.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-01-26T11:55:00.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-02-05T05:08:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-02-05T23:28:16.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-02-10T06:51:49.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-02-17T07:04:19.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-02-25T05:41:06.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-03-04T05:24:51.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-03-10T18:46:55.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 10,
-          "completed": 9,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-06-07T04:53:48.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-06-07T06:01:55.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-06-14T23:31:57.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-06-15T00:21:23.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-06-16T05:56:19.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-06-17T06:41:56.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-06-18T07:05:06.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-06-19T07:06:04.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2025-06-21T07:16:10.000Z"
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 10,
-        "title": "The Big Pump",
-        "ids": {
-          "trakt": 12899740,
-          "tvdb": 11021067,
-          "imdb": "tt34981283",
-          "tmdb": 6041747,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 9,
-        "title": "A New Lease on Death",
-        "ids": {
-          "trakt": 12899739,
-          "tvdb": 11021066,
-          "imdb": "tt36143799",
-          "tmdb": 6041746,
           "tvrage": null
         }
       }
@@ -42806,7 +42806,7 @@
       }
     },
     "progress": {
-      "aired": 76,
+      "aired": 77,
       "completed": 71,
       "last_watched_at": "2023-12-19T20:00:32.000Z",
       "reset_at": null,
@@ -43225,7 +43225,7 @@
         {
           "number": 8,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 0,
           "episodes": [
             {
@@ -43250,6 +43250,11 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
               "completed": false,
               "last_watched_at": null
             }
@@ -68837,7 +68842,7 @@
       }
     },
     "progress": {
-      "aired": 336,
+      "aired": 337,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -70533,7 +70538,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 16,
+          "aired": 17,
           "completed": 0,
           "episodes": [
             {
@@ -70613,6 +70618,11 @@
             },
             {
               "number": 16,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 17,
               "completed": false,
               "last_watched_at": null
             }
@@ -118215,7 +118225,7 @@
         },
         {
           "number": 4,
-          "title": null,
+          "title": "\u6765\u770b\u6deb\u59b9\u6027\u4ea4\u7247\u7f51\uff1a448.com  \u770b\u6deb\u59b9\u6027\u4ea4\u7247\u7f51\uff1a448.com       \u770b\u6deb\u59b9\u6027\u4ea4\u7247\u7f51\uff1a448.com",
           "aired": 24,
           "completed": 24,
           "episodes": [

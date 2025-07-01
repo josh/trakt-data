@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 18,
+      "completed": 19,
       "hidden": 0,
-      "last_watched_at": "2025-06-29T04:30:18.000Z",
+      "last_watched_at": "2025-07-01T05:17:19.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 18,
+        "play_count": 19,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 3,
+        "number": 4,
+        "title": "222",
+        "ids": {
+          "trakt": 12681894,
+          "tvdb": 11126293,
+          "imdb": "tt37427772",
+          "tmdb": 5884554,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 3,
         "number": 3,
         "title": "It's Not Your Fault",
@@ -32,68 +44,6 @@
           "tvdb": 11126292,
           "imdb": "tt37427768",
           "tmdb": 5884553,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 2,
-        "title": "The Starry Night",
-        "ids": {
-          "trakt": 12681892,
-          "tvdb": 11126291,
-          "imdb": "tt35643632",
-          "tmdb": 5884551,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Poker Face",
-      "year": 2023,
-      "ids": {
-        "trakt": 187032,
-        "slug": "poker-face-2023",
-        "tvdb": 398822,
-        "imdb": "tt14269590",
-        "tmdb": 120998,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 20,
-      "completed": 19,
-      "hidden": 0,
-      "last_watched_at": "2025-06-21T07:16:10.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 20,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 10,
-        "title": "The Big Pump",
-        "ids": {
-          "trakt": 12899740,
-          "tvdb": 11021067,
-          "imdb": "tt34981283",
-          "tmdb": 6041747,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 9,
-        "title": "A New Lease on Death",
-        "ids": {
-          "trakt": 12899739,
-          "tvdb": 11021066,
-          "imdb": "tt36143799",
-          "tmdb": 6041746,
           "tvrage": null
         }
       }
@@ -163,7 +113,7 @@
       }
     },
     "progress": {
-      "aired": 76,
+      "aired": 77,
       "completed": 71,
       "hidden": 0,
       "last_watched_at": "2023-12-19T20:00:32.000Z",
