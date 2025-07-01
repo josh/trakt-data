@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 19,
-      "last_watched_at": "2025-07-01T05:17:19.000Z",
+      "completed": 20,
+      "last_watched_at": "2025-07-01T06:24:47.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -118,7 +118,7 @@
           "number": 3,
           "title": null,
           "aired": 6,
-          "completed": 3,
+          "completed": 4,
           "episodes": [
             {
               "number": 1,
@@ -137,8 +137,8 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-01T06:24:47.000Z"
             },
             {
               "number": 5,
@@ -156,6 +156,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
+        "number": 5,
+        "title": "\u25cb\u25b3\u25a1",
+        "ids": {
+          "trakt": 12681895,
+          "tvdb": 11126294,
+          "imdb": "tt37427776",
+          "tmdb": 5884555,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 4,
         "title": "222",
         "ids": {
@@ -163,18 +175,6 @@
           "tvdb": 11126293,
           "imdb": "tt37427772",
           "tmdb": 5884554,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 3,
-        "title": "It's Not Your Fault",
-        "ids": {
-          "trakt": 12681893,
-          "tvdb": 11126292,
-          "imdb": "tt37427768",
-          "tmdb": 5884553,
           "tvrage": null
         }
       }
