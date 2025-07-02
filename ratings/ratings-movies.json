@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-07-02T16:01:45.000Z",
+    "rating": 7,
+    "type": "movie",
+    "movie": {
+      "title": "Thunderbolts*",
+      "year": 2025,
+      "ids": {
+        "trakt": 792299,
+        "slug": "thunderbolts-2025",
+        "imdb": "tt20969586",
+        "tmdb": 986056
+      }
+    }
+  },
+  {
     "rated_at": "2025-07-01T06:02:05.000Z",
     "rating": 7,
     "type": "movie",
@@ -49,11 +64,11 @@
     "rating": 8,
     "type": "movie",
     "movie": {
-      "title": "F1 The Movie",
+      "title": "F1",
       "year": 2025,
       "ids": {
         "trakt": 729817,
-        "slug": "f1-the-movie-2025",
+        "slug": "f1-2025",
         "imdb": "tt16311594",
         "tmdb": 911430
       }
