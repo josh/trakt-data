@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 21,
-      "last_watched_at": "2025-07-06T01:32:23.000Z",
+      "completed": 22,
+      "last_watched_at": "2025-07-06T04:07:40.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -118,7 +118,7 @@
           "number": 3,
           "title": null,
           "aired": 6,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -147,14 +147,15 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-06T04:07:40.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 3,
         "number": 6,
         "title": "Humans Are...",
@@ -163,18 +164,6 @@
           "tvdb": 11126295,
           "imdb": "tt37427778",
           "tmdb": 5884557,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 5,
-        "title": "\u25cb\u25b3\u25a1",
-        "ids": {
-          "trakt": 12681895,
-          "tvdb": 11126294,
-          "imdb": "tt37427776",
-          "tmdb": 5884555,
           "tvrage": null
         }
       }
