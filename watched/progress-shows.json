@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 20,
-      "last_watched_at": "2025-07-01T06:24:47.000Z",
+      "completed": 21,
+      "last_watched_at": "2025-07-06T01:32:23.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -118,7 +118,7 @@
           "number": 3,
           "title": null,
           "aired": 6,
-          "completed": 4,
+          "completed": 5,
           "episodes": [
             {
               "number": 1,
@@ -142,8 +142,8 @@
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-06T01:32:23.000Z"
             },
             {
               "number": 6,
@@ -156,6 +156,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
+        "number": 6,
+        "title": "Humans Are...",
+        "ids": {
+          "trakt": 12681896,
+          "tvdb": 11126295,
+          "imdb": "tt37427778",
+          "tmdb": 5884557,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 5,
         "title": "\u25cb\u25b3\u25a1",
         "ids": {
@@ -163,18 +175,6 @@
           "tvdb": 11126294,
           "imdb": "tt37427776",
           "tmdb": 5884555,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 4,
-        "title": "222",
-        "ids": {
-          "trakt": 12681894,
-          "tvdb": 11126293,
-          "imdb": "tt37427772",
-          "tmdb": 5884554,
           "tvrage": null
         }
       }
@@ -194,7 +194,7 @@
       }
     },
     "progress": {
-      "aired": 20,
+      "aired": 21,
       "completed": 20,
       "last_watched_at": "2025-07-01T04:05:50.000Z",
       "reset_at": null,
@@ -260,7 +260,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 10,
+          "aired": 11,
           "completed": 10,
           "episodes": [
             {
@@ -312,6 +312,11 @@
               "number": 10,
               "completed": true,
               "last_watched_at": "2025-07-01T04:05:50.000Z"
+            },
+            {
+              "number": 11,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -357,7 +362,7 @@
       }
     },
     "progress": {
-      "aired": 9,
+      "aired": 10,
       "completed": 9,
       "last_watched_at": "2025-06-29T06:06:51.000Z",
       "reset_at": null,
@@ -365,7 +370,7 @@
         {
           "number": 1,
           "title": "Miniseries",
-          "aired": 9,
+          "aired": 10,
           "completed": 9,
           "episodes": [
             {
@@ -412,6 +417,11 @@
               "number": 9,
               "completed": true,
               "last_watched_at": "2025-06-29T06:06:51.000Z"
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -424,7 +434,7 @@
         "ids": {
           "trakt": 12220770,
           "tvdb": 10653344,
-          "imdb": null,
+          "imdb": "tt37469264",
           "tmdb": 5938548,
           "tvrage": null
         }
@@ -56964,7 +56974,7 @@
       "seasons": [
         {
           "number": 1,
-          "title": null,
+          "title": "Cyberpunk: Edgerunners",
           "aired": 10,
           "completed": 10,
           "episodes": [
@@ -58423,7 +58433,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 17,
       "completed": 11,
       "last_watched_at": "2022-08-19T20:50:10.000Z",
       "reset_at": null,
@@ -58488,6 +58498,44 @@
               "number": 11,
               "completed": true,
               "last_watched_at": "2022-08-19T20:50:10.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 6,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -67841,7 +67889,7 @@
       }
     },
     "progress": {
-      "aired": 15,
+      "aired": 16,
       "completed": 8,
       "last_watched_at": "2021-09-23T03:07:01.000Z",
       "reset_at": null,
@@ -67897,7 +67945,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 7,
+          "aired": 8,
           "completed": 0,
           "episodes": [
             {
@@ -67932,6 +67980,11 @@
             },
             {
               "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             }
@@ -118225,7 +118278,7 @@
         },
         {
           "number": 4,
-          "title": "\u6765\u770b\u6deb\u59b9\u6027\u4ea4\u7247\u7f51\uff1a448.com  \u770b\u6deb\u59b9\u6027\u4ea4\u7247\u7f51\uff1a448.com       \u770b\u6deb\u59b9\u6027\u4ea4\u7247\u7f51\uff1a448.com",
+          "title": null,
           "aired": 24,
           "completed": 24,
           "episodes": [
@@ -124368,7 +124421,7 @@
       }
     },
     "progress": {
-      "aired": 438,
+      "aired": 439,
       "completed": 187,
       "last_watched_at": "2012-05-21T04:00:00.000Z",
       "reset_at": null,
@@ -126667,7 +126720,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 15,
+          "aired": 16,
           "completed": 0,
           "episodes": [
             {
@@ -126742,6 +126795,11 @@
             },
             {
               "number": 15,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 16,
               "completed": false,
               "last_watched_at": null
             }
