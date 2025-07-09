@@ -1,6 +1,275 @@
 [
   {
     "show": {
+      "title": "The Bear",
+      "year": 2022,
+      "ids": {
+        "trakt": 189717,
+        "slug": "the-bear",
+        "tvdb": 403294,
+        "imdb": "tt14452776",
+        "tmdb": 136315,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 38,
+      "completed": 30,
+      "last_watched_at": "2025-07-09T05:26:35.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-07-04T20:17:04.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-07-05T17:56:28.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-07-06T17:08:00.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-07-06T17:38:25.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-07-06T18:08:32.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-07-06T18:38:42.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-07-06T19:08:54.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-07-06T19:47:49.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-06-29T04:39:16.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-06-29T05:23:59.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-07-02T05:27:19.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-07-02T18:28:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-07-02T19:02:23.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-07-03T00:14:28.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-07-03T01:53:03.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-07-03T02:25:38.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-07-03T03:47:21.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-07-03T04:26:50.000Z"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2024-07-28T19:17:34.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2024-07-28T19:46:17.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2024-07-28T20:19:28.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2024-07-28T20:54:08.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2024-07-28T21:37:51.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2024-07-28T22:13:05.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2024-07-30T05:06:42.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2024-07-30T05:35:22.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2024-08-01T06:13:11.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2024-08-01T06:59:16.000Z"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": null,
+          "aired": 10,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-09T04:53:13.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-07-09T05:26:35.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 4,
+        "number": 3,
+        "title": "Scallop",
+        "ids": {
+          "trakt": 12565628,
+          "tvdb": 11160503,
+          "imdb": "tt36943983",
+          "tmdb": 6231143,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 2,
+        "title": "Soubise",
+        "ids": {
+          "trakt": 12565627,
+          "tvdb": 11160502,
+          "imdb": "tt36943978",
+          "tmdb": 6231141,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Long Way Home",
       "year": 2025,
       "ids": {
@@ -13105,275 +13374,6 @@
   },
   {
     "show": {
-      "title": "The Bear",
-      "year": 2022,
-      "ids": {
-        "trakt": 189717,
-        "slug": "the-bear",
-        "tvdb": 403294,
-        "imdb": "tt14452776",
-        "tmdb": 136315,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 38,
-      "completed": 28,
-      "last_watched_at": "2024-08-01T06:59:16.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-07-04T20:17:04.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-07-05T17:56:28.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-07-06T17:08:00.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-07-06T17:38:25.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-07-06T18:08:32.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-07-06T18:38:42.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-07-06T19:08:54.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-07-06T19:47:49.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-06-29T04:39:16.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-06-29T05:23:59.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-07-02T05:27:19.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-07-02T18:28:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-07-02T19:02:23.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-07-03T00:14:28.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-07-03T01:53:03.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-07-03T02:25:38.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-07-03T03:47:21.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-07-03T04:26:50.000Z"
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2024-07-28T19:17:34.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2024-07-28T19:46:17.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2024-07-28T20:19:28.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2024-07-28T20:54:08.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2024-07-28T21:37:51.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2024-07-28T22:13:05.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2024-07-30T05:06:42.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2024-07-30T05:35:22.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2024-08-01T06:13:11.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2024-08-01T06:59:16.000Z"
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "title": null,
-          "aired": 10,
-          "completed": 0,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 4,
-        "number": 1,
-        "title": "Groundhogs",
-        "ids": {
-          "trakt": 12565626,
-          "tvdb": 11141373,
-          "imdb": "tt32765561",
-          "tmdb": 6231138,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 10,
-        "title": "Forever",
-        "ids": {
-          "trakt": 11852214,
-          "tvdb": 10488509,
-          "imdb": "tt32330866",
-          "tmdb": 5334931,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Presumed Innocent",
       "year": 2024,
       "ids": {
@@ -15352,7 +15352,7 @@
       }
     },
     "progress": {
-      "aired": 4425,
+      "aired": 4426,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -37317,7 +37317,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 80,
+          "aired": 81,
           "completed": 0,
           "episodes": [
             {
@@ -37717,6 +37717,11 @@
             },
             {
               "number": 80,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 81,
               "completed": false,
               "last_watched_at": null
             }
