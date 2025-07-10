@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 30,
+      "completed": 31,
       "hidden": 0,
-      "last_watched_at": "2025-07-09T05:26:35.000Z",
+      "last_watched_at": "2025-07-10T02:58:50.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 30,
+        "play_count": 31,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 4,
+        "number": 4,
+        "title": "Worms",
+        "ids": {
+          "trakt": 12565629,
+          "tvdb": 11160504,
+          "imdb": "tt36943992",
+          "tmdb": 6231151,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 4,
         "number": 3,
         "title": "Scallop",
@@ -32,18 +44,6 @@
           "tvdb": 11160503,
           "imdb": "tt36943983",
           "tmdb": 6231143,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 4,
-        "number": 2,
-        "title": "Soubise",
-        "ids": {
-          "trakt": 12565627,
-          "tvdb": 11160502,
-          "imdb": "tt36943978",
-          "tmdb": 6231141,
           "tvrage": null
         }
       }
@@ -94,6 +94,56 @@
           "tvdb": 9986641,
           "imdb": "tt29371876",
           "tmdb": 4694210,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "It's Always Sunny in Philadelphia",
+      "year": 2005,
+      "ids": {
+        "trakt": 2692,
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tvdb": 75805,
+        "imdb": "tt0472954",
+        "tmdb": 2710,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 171,
+      "completed": 169,
+      "hidden": 0,
+      "last_watched_at": "2023-07-21T06:19:55.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 169,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 17,
+        "number": 1,
+        "title": "The Gang F***s Up Abbott Elementary",
+        "ids": {
+          "trakt": 13012669,
+          "tvdb": null,
+          "imdb": "tt13622888",
+          "tmdb": 6138528,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 16,
+        "number": 8,
+        "title": "Dennis Takes a Mental Health Day",
+        "ids": {
+          "trakt": 9992755,
+          "tvdb": 9794770,
+          "imdb": "tt28056422",
+          "tmdb": 4449752,
           "tvrage": null
         }
       }

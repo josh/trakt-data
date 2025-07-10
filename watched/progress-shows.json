@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 30,
-      "last_watched_at": "2025-07-09T05:26:35.000Z",
+      "completed": 31,
+      "last_watched_at": "2025-07-10T02:58:50.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -186,7 +186,7 @@
           "number": 4,
           "title": null,
           "aired": 10,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -200,8 +200,8 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-10T02:58:50.000Z"
             },
             {
               "number": 4,
@@ -244,6 +244,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 4,
+        "number": 4,
+        "title": "Worms",
+        "ids": {
+          "trakt": 12565629,
+          "tvdb": 11160504,
+          "imdb": "tt36943992",
+          "tmdb": 6231151,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
         "number": 3,
         "title": "Scallop",
         "ids": {
@@ -251,18 +263,6 @@
           "tvdb": 11160503,
           "imdb": "tt36943983",
           "tmdb": 6231143,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 4,
-        "number": 2,
-        "title": "Soubise",
-        "ids": {
-          "trakt": 12565627,
-          "tvdb": 11160502,
-          "imdb": "tt36943978",
-          "tmdb": 6231141,
           "tvrage": null
         }
       }
@@ -47151,7 +47151,7 @@
       }
     },
     "progress": {
-      "aired": 169,
+      "aired": 171,
       "completed": 169,
       "last_watched_at": "2023-07-21T06:19:55.000Z",
       "reset_at": null,
@@ -48126,6 +48126,24 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2023-07-21T06:19:55.000Z"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "title": null,
+          "aired": 2,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
