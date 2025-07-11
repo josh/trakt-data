@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "It's Always Sunny in Philadelphia",
+      "year": 2005,
+      "ids": {
+        "trakt": 2692,
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tvdb": 75805,
+        "imdb": "tt0472954",
+        "tmdb": 2710,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 171,
+      "completed": 170,
+      "hidden": 0,
+      "last_watched_at": "2025-07-11T20:25:45.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 170,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 17,
+        "number": 2,
+        "title": "Frank Is in a Coma",
+        "ids": {
+          "trakt": 13012672,
+          "tvdb": 11200014,
+          "imdb": "tt35252523",
+          "tmdb": 6138529,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 17,
+        "number": 1,
+        "title": "The Gang F***s Up Abbott Elementary",
+        "ids": {
+          "trakt": 13012669,
+          "tvdb": 11124943,
+          "imdb": "tt13622888",
+          "tmdb": 6138528,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -51,6 +101,56 @@
   },
   {
     "show": {
+      "title": "Poker Face",
+      "year": 2023,
+      "ids": {
+        "trakt": 187032,
+        "slug": "poker-face-2023",
+        "tvdb": 398822,
+        "imdb": "tt14269590",
+        "tmdb": 120998,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 21,
+      "hidden": 0,
+      "last_watched_at": "2025-07-06T04:40:39.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 22,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 12,
+        "title": "The End of the Road",
+        "ids": {
+          "trakt": 12899742,
+          "tvdb": 11021069,
+          "imdb": "tt35498703",
+          "tmdb": 6041749,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 11,
+        "title": "Day of the Iguana",
+        "ids": {
+          "trakt": 12899741,
+          "tvdb": 11021068,
+          "imdb": "tt36143860",
+          "tmdb": 6041748,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Rick and Morty",
       "year": 2013,
       "ids": {
@@ -94,56 +194,6 @@
           "tvdb": 9986641,
           "imdb": "tt29371876",
           "tmdb": 4694210,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "It's Always Sunny in Philadelphia",
-      "year": 2005,
-      "ids": {
-        "trakt": 2692,
-        "slug": "it-s-always-sunny-in-philadelphia",
-        "tvdb": 75805,
-        "imdb": "tt0472954",
-        "tmdb": 2710,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 171,
-      "completed": 169,
-      "hidden": 0,
-      "last_watched_at": "2023-07-21T06:19:55.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 169,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 17,
-        "number": 1,
-        "title": "The Gang F***s Up Abbott Elementary",
-        "ids": {
-          "trakt": 13012669,
-          "tvdb": null,
-          "imdb": "tt13622888",
-          "tmdb": 6138528,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 16,
-        "number": 8,
-        "title": "Dennis Takes a Mental Health Day",
-        "ids": {
-          "trakt": 9992755,
-          "tvdb": 9794770,
-          "imdb": "tt28056422",
-          "tmdb": 4449752,
           "tvrage": null
         }
       }
