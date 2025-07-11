@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 171,
-      "completed": 170,
-      "last_watched_at": "2025-07-11T20:25:45.000Z",
+      "completed": 171,
+      "last_watched_at": "2025-07-11T20:53:06.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -995,7 +995,7 @@
           "number": 17,
           "title": null,
           "aired": 2,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -1004,14 +1004,26 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-11T20:53:06.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 17,
+        "number": 3,
+        "title": "Mac and Dennis Become EMTs",
+        "ids": {
+          "trakt": 13012673,
+          "tvdb": 11200015,
+          "imdb": "tt35252524",
+          "tmdb": 6138530,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 17,
         "number": 2,
         "title": "Frank Is in a Coma",
@@ -1020,18 +1032,6 @@
           "tvdb": 11200014,
           "imdb": "tt35252523",
           "tmdb": 6138529,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 17,
-        "number": 1,
-        "title": "The Gang F***s Up Abbott Elementary",
-        "ids": {
-          "trakt": 13012669,
-          "tvdb": 11124943,
-          "imdb": "tt13622888",
-          "tmdb": 6138528,
           "tvrage": null
         }
       }
