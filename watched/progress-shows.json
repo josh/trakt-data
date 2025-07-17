@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 79,
-      "completed": 77,
-      "last_watched_at": "2025-07-17T03:54:30.000Z",
+      "completed": 79,
+      "last_watched_at": "2025-07-17T04:38:15.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -433,7 +433,7 @@
           "number": 8,
           "title": null,
           "aired": 8,
-          "completed": 6,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -467,13 +467,13 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T04:16:50.000Z"
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T04:38:15.000Z"
             }
           ]
         }
@@ -481,25 +481,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 8,
-        "number": 7,
-        "title": "Ricker than Fiction",
+        "number": 9,
+        "title": "Morty Daddy",
         "ids": {
-          "trakt": 12993649,
-          "tvdb": 11077162,
-          "imdb": "tt36329666",
-          "tmdb": 6122207,
+          "trakt": 12993652,
+          "tvdb": 11077164,
+          "imdb": "tt36329670",
+          "tmdb": 6122209,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 8,
-        "number": 6,
-        "title": "The CuRicksous Case of Bethjamin Button",
+        "number": 8,
+        "title": "Nomortland",
         "ids": {
-          "trakt": 12993648,
-          "tvdb": 11077161,
-          "imdb": "tt36329665",
-          "tmdb": 6122205,
+          "trakt": 12993651,
+          "tvdb": 11077163,
+          "imdb": "tt36329667",
+          "tmdb": 6122208,
           "tvrage": null
         }
       }
