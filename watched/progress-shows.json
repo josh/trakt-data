@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 79,
-      "completed": 74,
-      "last_watched_at": "2025-07-17T02:24:25.000Z",
+      "completed": 76,
+      "last_watched_at": "2025-07-17T03:07:57.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -433,7 +433,7 @@
           "number": 8,
           "title": null,
           "aired": 8,
-          "completed": 3,
+          "completed": 5,
           "episodes": [
             {
               "number": 1,
@@ -452,13 +452,13 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T02:46:26.000Z"
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T03:07:57.000Z"
             },
             {
               "number": 6,
@@ -481,25 +481,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 8,
-        "number": 4,
-        "title": "The Last Temptation of Jerry",
+        "number": 6,
+        "title": "The CuRicksous Case of Bethjamin Button",
         "ids": {
-          "trakt": 12993645,
-          "tvdb": 11077159,
-          "imdb": "tt36329661",
-          "tmdb": 6122203,
+          "trakt": 12993648,
+          "tvdb": 11077161,
+          "imdb": "tt36329665",
+          "tmdb": 6122205,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 8,
-        "number": 3,
-        "title": "The Rick, the Mort & the Ugly",
+        "number": 5,
+        "title": "Cryo Mort a Rickver",
         "ids": {
-          "trakt": 12993644,
-          "tvdb": 11077158,
-          "imdb": "tt33290444",
-          "tmdb": 6122201,
+          "trakt": 12993647,
+          "tvdb": 11077160,
+          "imdb": "tt36329663",
+          "tmdb": 6122204,
           "tvrage": null
         }
       }
@@ -16895,7 +16895,7 @@
       }
     },
     "progress": {
-      "aired": 4430,
+      "aired": 4431,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -38860,7 +38860,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 85,
+          "aired": 86,
           "completed": 0,
           "episodes": [
             {
@@ -39285,6 +39285,11 @@
             },
             {
               "number": 85,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 86,
               "completed": false,
               "last_watched_at": null
             }
@@ -71785,7 +71790,7 @@
       }
     },
     "progress": {
-      "aired": 1684,
+      "aired": 1685,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79590,7 +79595,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 139,
+          "aired": 140,
           "completed": 0,
           "episodes": [
             {
@@ -80285,6 +80290,11 @@
             },
             {
               "number": 139,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 140,
               "completed": false,
               "last_watched_at": null
             }
