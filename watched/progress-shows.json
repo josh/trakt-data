@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 33,
-      "last_watched_at": "2025-07-17T21:25:16.000Z",
+      "completed": 35,
+      "last_watched_at": "2025-07-17T22:52:34.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -186,7 +186,7 @@
           "number": 4,
           "title": null,
           "aired": 10,
-          "completed": 5,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -215,13 +215,13 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T21:42:25.000Z"
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T22:52:34.000Z"
             },
             {
               "number": 8,
@@ -244,25 +244,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 4,
-        "number": 6,
-        "title": "Sophie",
+        "number": 8,
+        "title": "Green",
         "ids": {
-          "trakt": 12565631,
-          "tvdb": 11160506,
-          "imdb": "tt36943999",
-          "tmdb": 6231153,
+          "trakt": 12565633,
+          "tvdb": 11160508,
+          "imdb": "tt36944022",
+          "tmdb": 6231156,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 4,
-        "number": 5,
-        "title": "Replicants",
+        "number": 7,
+        "title": "Bears",
         "ids": {
-          "trakt": 12565630,
-          "tvdb": 11160505,
-          "imdb": "tt36943997",
-          "tmdb": 6231152,
+          "trakt": 12565632,
+          "tvdb": 11160507,
+          "imdb": "tt36944003",
+          "tmdb": 6231155,
           "tvrage": null
         }
       }
