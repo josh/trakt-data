@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 79,
-      "completed": 76,
+      "completed": 77,
       "hidden": 0,
-      "last_watched_at": "2025-07-17T03:07:57.000Z",
+      "last_watched_at": "2025-07-17T03:54:30.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 76,
+        "play_count": 77,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 8,
+        "number": 7,
+        "title": "Ricker than Fiction",
+        "ids": {
+          "trakt": 12993649,
+          "tvdb": 11077162,
+          "imdb": "tt36329666",
+          "tmdb": 6122207,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 8,
         "number": 6,
         "title": "The CuRicksous Case of Bethjamin Button",
@@ -32,18 +44,6 @@
           "tvdb": 11077161,
           "imdb": "tt36329665",
           "tmdb": 6122205,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 8,
-        "number": 5,
-        "title": "Cryo Mort a Rickver",
-        "ids": {
-          "trakt": 12993647,
-          "tvdb": 11077160,
-          "imdb": "tt36329663",
-          "tmdb": 6122204,
           "tvrage": null
         }
       }
