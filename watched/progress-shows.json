@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 79,
-      "completed": 72,
-      "last_watched_at": "2025-07-15T00:22:56.000Z",
+      "completed": 74,
+      "last_watched_at": "2025-07-17T02:24:25.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -433,7 +433,7 @@
           "number": 8,
           "title": null,
           "aired": 8,
-          "completed": 1,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -442,13 +442,13 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T02:02:48.000Z"
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-17T02:24:25.000Z"
             },
             {
               "number": 4,
@@ -481,25 +481,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 8,
-        "number": 2,
-        "title": "Valkyrick",
+        "number": 4,
+        "title": "The Last Temptation of Jerry",
         "ids": {
-          "trakt": 12993642,
-          "tvdb": 11077157,
-          "imdb": "tt33253107",
-          "tmdb": 6122200,
+          "trakt": 12993645,
+          "tvdb": 11077159,
+          "imdb": "tt36329661",
+          "tmdb": 6122203,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 8,
-        "number": 1,
-        "title": "Summer of All Fears",
+        "number": 3,
+        "title": "The Rick, the Mort & the Ugly",
         "ids": {
-          "trakt": 12956006,
-          "tvdb": 11074528,
-          "imdb": "tt28608179",
-          "tmdb": 6085790,
+          "trakt": 12993644,
+          "tvdb": 11077158,
+          "imdb": "tt33290444",
+          "tmdb": 6122201,
           "tvrage": null
         }
       }
@@ -681,7 +681,7 @@
       }
     },
     "progress": {
-      "aired": 171,
+      "aired": 172,
       "completed": 171,
       "last_watched_at": "2025-07-11T20:53:06.000Z",
       "reset_at": null,
@@ -1662,7 +1662,7 @@
         {
           "number": 17,
           "title": null,
-          "aired": 2,
+          "aired": 3,
           "completed": 2,
           "episodes": [
             {
@@ -1674,6 +1674,11 @@
               "number": 2,
               "completed": true,
               "last_watched_at": "2025-07-11T20:53:06.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -16890,7 +16895,7 @@
       }
     },
     "progress": {
-      "aired": 4428,
+      "aired": 4430,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -38855,7 +38860,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 83,
+          "aired": 85,
           "completed": 0,
           "episodes": [
             {
@@ -39270,6 +39275,16 @@
             },
             {
               "number": 83,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 84,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 85,
               "completed": false,
               "last_watched_at": null
             }
@@ -55718,7 +55733,7 @@
       "year": 2022,
       "ids": {
         "trakt": 163643,
-        "slug": "1899",
+        "slug": "1899-2022",
         "tvdb": 384429,
         "imdb": "tt9319668",
         "tmdb": 90669,
@@ -71770,7 +71785,7 @@
       }
     },
     "progress": {
-      "aired": 1682,
+      "aired": 1684,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79575,7 +79590,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 137,
+          "aired": 139,
           "completed": 0,
           "episodes": [
             {
@@ -80260,6 +80275,16 @@
             },
             {
               "number": 137,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 138,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 139,
               "completed": false,
               "last_watched_at": null
             }
