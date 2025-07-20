@@ -1,38 +1,38 @@
 [
   {
     "show": {
-      "title": "Too Much",
+      "title": "Murderbot",
       "year": 2025,
       "ids": {
-        "trakt": 217578,
-        "slug": "too-much",
-        "tvdb": 443261,
-        "imdb": "tt30406366",
-        "tmdb": 241361,
+        "trakt": 217658,
+        "slug": "murderbot",
+        "tvdb": 443396,
+        "imdb": "tt30444310",
+        "tmdb": 241554,
         "tvrage": null
       }
     },
     "progress": {
       "aired": 10,
-      "completed": 2,
-      "last_watched_at": "2025-07-20T04:08:44.000Z",
+      "completed": 1,
+      "last_watched_at": "2025-07-20T04:36:48.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 2,
+          "completed": 1,
           "episodes": [
             {
               "number": 1,
               "completed": true,
-              "last_watched_at": "2025-07-20T03:29:04.000Z"
+              "last_watched_at": "2025-07-20T04:36:48.000Z"
             },
             {
               "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-07-20T04:08:44.000Z"
+              "completed": false,
+              "last_watched_at": null
             },
             {
               "number": 3,
@@ -80,25 +80,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
-        "number": 3,
-        "title": "Ignore Sunrise",
+        "number": 2,
+        "title": "Eye Contact",
         "ids": {
-          "trakt": 12450316,
-          "tvdb": 10927909,
-          "imdb": "tt30412808",
-          "tmdb": 5725868,
+          "trakt": 12840018,
+          "tvdb": 10973705,
+          "imdb": "tt34767980",
+          "tmdb": 5995954,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 1,
-        "number": 2,
-        "title": "Pity Woman",
+        "number": 1,
+        "title": "FreeCommerce",
         "ids": {
-          "trakt": 12450314,
-          "tvdb": 10927908,
-          "imdb": "tt30412805",
-          "tmdb": 5725867,
+          "trakt": 11209976,
+          "tvdb": 10191867,
+          "imdb": "tt30971494",
+          "tmdb": 4998071,
           "tvrage": null
         }
       }
