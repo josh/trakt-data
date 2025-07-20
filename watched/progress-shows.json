@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "Too Much",
+      "year": 2025,
+      "ids": {
+        "trakt": 217578,
+        "slug": "too-much",
+        "tvdb": 443261,
+        "imdb": "tt30406366",
+        "tmdb": 241361,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 2,
+      "last_watched_at": "2025-07-20T04:08:44.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-20T03:29:04.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-07-20T04:08:44.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Ignore Sunrise",
+        "ids": {
+          "trakt": 12450316,
+          "tvdb": 10927909,
+          "imdb": "tt30412808",
+          "tmdb": 5725868,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Pity Woman",
+        "ids": {
+          "trakt": 12450314,
+          "tvdb": 10927908,
+          "imdb": "tt30412805",
+          "tmdb": 5725867,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -16895,7 +17000,7 @@
       }
     },
     "progress": {
-      "aired": 4431,
+      "aired": 4432,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -38860,7 +38965,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 86,
+          "aired": 87,
           "completed": 0,
           "episodes": [
             {
@@ -39290,6 +39395,11 @@
             },
             {
               "number": 86,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 87,
               "completed": false,
               "last_watched_at": null
             }
@@ -41723,7 +41833,7 @@
       }
     },
     "progress": {
-      "aired": 21,
+      "aired": 22,
       "completed": 11,
       "last_watched_at": "2024-03-28T05:51:55.000Z",
       "reset_at": null,
@@ -41847,11 +41957,16 @@
         {
           "number": 3,
           "title": null,
-          "aired": 1,
+          "aired": 2,
           "completed": 0,
           "episodes": [
             {
               "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
               "completed": false,
               "last_watched_at": null
             }
@@ -48595,7 +48710,7 @@
         "title": "Episode 1",
         "ids": {
           "trakt": 13144324,
-          "tvdb": null,
+          "tvdb": 11127698,
           "imdb": "tt30444778",
           "tmdb": 6249762,
           "tvrage": null
@@ -71790,7 +71905,7 @@
       }
     },
     "progress": {
-      "aired": 1685,
+      "aired": 1686,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79595,7 +79710,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 140,
+          "aired": 141,
           "completed": 0,
           "episodes": [
             {
@@ -80295,6 +80410,11 @@
             },
             {
               "number": 140,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 141,
               "completed": false,
               "last_watched_at": null
             }
@@ -124500,7 +124620,7 @@
       }
     },
     "progress": {
-      "aired": 440,
+      "aired": 441,
       "completed": 187,
       "last_watched_at": "2012-05-21T04:00:00.000Z",
       "reset_at": null,
@@ -126799,7 +126919,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 17,
+          "aired": 18,
           "completed": 0,
           "episodes": [
             {
@@ -126884,6 +127004,11 @@
             },
             {
               "number": 17,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 18,
               "completed": false,
               "last_watched_at": null
             }

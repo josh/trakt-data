@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Too Much",
+      "year": 2025,
+      "ids": {
+        "trakt": 217578,
+        "slug": "too-much",
+        "tvdb": 443261,
+        "imdb": "tt30406366",
+        "tmdb": 241361,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2025-07-20T04:08:44.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Ignore Sunrise",
+        "ids": {
+          "trakt": 12450316,
+          "tvdb": 10927909,
+          "imdb": "tt30412808",
+          "tmdb": 5725868,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Pity Woman",
+        "ids": {
+          "trakt": 12450314,
+          "tvdb": 10927908,
+          "imdb": "tt30412805",
+          "tmdb": 5725867,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
