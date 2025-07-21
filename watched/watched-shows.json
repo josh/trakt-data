@@ -1,43 +1,8 @@
 [
   {
-    "plays": 2,
-    "last_watched_at": "2025-07-20T05:02:22.000Z",
-    "last_updated_at": "2025-07-20T04:37:22.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Murderbot",
-      "year": 2025,
-      "ids": {
-        "trakt": 217658,
-        "slug": "murderbot",
-        "tvdb": 443396,
-        "imdb": "tt30444310",
-        "tmdb": 241554,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-07-20T04:36:48.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-07-20T05:02:22.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 35,
-    "last_watched_at": "2025-07-17T22:52:34.000Z",
-    "last_updated_at": "2025-07-17T21:42:35.000Z",
+    "plays": 37,
+    "last_watched_at": "2025-07-21T03:20:01.000Z",
+    "last_updated_at": "2025-07-21T02:41:01.000Z",
     "reset_at": null,
     "show": {
       "title": "The Bear",
@@ -244,6 +209,51 @@
             "number": 7,
             "plays": 1,
             "last_watched_at": "2025-07-17T22:52:34.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2025-07-21T02:40:56.000Z"
+          },
+          {
+            "number": 9,
+            "plays": 1,
+            "last_watched_at": "2025-07-21T03:20:01.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 2,
+    "last_watched_at": "2025-07-20T05:02:22.000Z",
+    "last_updated_at": "2025-07-20T04:37:22.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Murderbot",
+      "year": 2025,
+      "ids": {
+        "trakt": 217658,
+        "slug": "murderbot",
+        "tvdb": 443396,
+        "imdb": "tt30444310",
+        "tmdb": 241554,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-07-20T04:36:48.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-07-20T05:02:22.000Z"
           }
         ]
       }

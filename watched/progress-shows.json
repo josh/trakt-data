@@ -1,111 +1,6 @@
 [
   {
     "show": {
-      "title": "Murderbot",
-      "year": 2025,
-      "ids": {
-        "trakt": 217658,
-        "slug": "murderbot",
-        "tvdb": 443396,
-        "imdb": "tt30444310",
-        "tmdb": 241554,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 2,
-      "last_watched_at": "2025-07-20T05:02:22.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 2,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-07-20T04:36:48.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-07-20T05:02:22.000Z"
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Risk Assessment",
-        "ids": {
-          "trakt": 12840019,
-          "tvdb": 10973706,
-          "imdb": "tt34767982",
-          "tmdb": 5995955,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Eye Contact",
-        "ids": {
-          "trakt": 12840018,
-          "tvdb": 10973705,
-          "imdb": "tt34767980",
-          "tmdb": 5995954,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -119,8 +14,8 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 35,
-      "last_watched_at": "2025-07-17T22:52:34.000Z",
+      "completed": 37,
+      "last_watched_at": "2025-07-21T03:20:01.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -291,7 +186,7 @@
           "number": 4,
           "title": null,
           "aired": 10,
-          "completed": 7,
+          "completed": 9,
           "episodes": [
             {
               "number": 1,
@@ -330,6 +225,111 @@
             },
             {
               "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-07-21T02:40:56.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-07-21T03:20:01.000Z"
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 4,
+        "number": 10,
+        "title": "Goodbye",
+        "ids": {
+          "trakt": 12565635,
+          "tvdb": 11160510,
+          "imdb": "tt36944202",
+          "tmdb": 6231158,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 9,
+        "title": "Tonnato",
+        "ids": {
+          "trakt": 12565634,
+          "tvdb": 11160509,
+          "imdb": "tt36944093",
+          "tmdb": 6231157,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Murderbot",
+      "year": 2025,
+      "ids": {
+        "trakt": 217658,
+        "slug": "murderbot",
+        "tvdb": 443396,
+        "imdb": "tt30444310",
+        "tmdb": 241554,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 2,
+      "last_watched_at": "2025-07-20T05:02:22.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-20T04:36:48.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-07-20T05:02:22.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             },
@@ -348,26 +348,26 @@
       ],
       "hidden_seasons": [],
       "next_episode": {
-        "season": 4,
-        "number": 8,
-        "title": "Green",
+        "season": 1,
+        "number": 3,
+        "title": "Risk Assessment",
         "ids": {
-          "trakt": 12565633,
-          "tvdb": 11160508,
-          "imdb": "tt36944022",
-          "tmdb": 6231156,
+          "trakt": 12840019,
+          "tvdb": 10973706,
+          "imdb": "tt34767982",
+          "tmdb": 5995955,
           "tvrage": null
         }
       },
       "last_episode": {
-        "season": 4,
-        "number": 7,
-        "title": "Bears",
+        "season": 1,
+        "number": 2,
+        "title": "Eye Contact",
         "ids": {
-          "trakt": 12565632,
-          "tvdb": 11160507,
-          "imdb": "tt36944003",
-          "tmdb": 6231155,
+          "trakt": 12840018,
+          "tvdb": 10973705,
+          "imdb": "tt34767980",
+          "tmdb": 5995954,
           "tvrage": null
         }
       }

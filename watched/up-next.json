@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "The Bear",
+      "year": 2022,
+      "ids": {
+        "trakt": 189717,
+        "slug": "the-bear",
+        "tvdb": 403294,
+        "imdb": "tt14452776",
+        "tmdb": 136315,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 38,
+      "completed": 37,
+      "hidden": 0,
+      "last_watched_at": "2025-07-21T03:20:01.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 37,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 4,
+        "number": 10,
+        "title": "Goodbye",
+        "ids": {
+          "trakt": 12565635,
+          "tvdb": 11160510,
+          "imdb": "tt36944202",
+          "tmdb": 6231158,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 9,
+        "title": "Tonnato",
+        "ids": {
+          "trakt": 12565634,
+          "tvdb": 11160509,
+          "imdb": "tt36944093",
+          "tmdb": 6231157,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Murderbot",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 10973705,
           "imdb": "tt34767980",
           "tmdb": 5995954,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Bear",
-      "year": 2022,
-      "ids": {
-        "trakt": 189717,
-        "slug": "the-bear",
-        "tvdb": 403294,
-        "imdb": "tt14452776",
-        "tmdb": 136315,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 38,
-      "completed": 35,
-      "hidden": 0,
-      "last_watched_at": "2025-07-17T22:52:34.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 35,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 4,
-        "number": 8,
-        "title": "Green",
-        "ids": {
-          "trakt": 12565633,
-          "tvdb": 11160508,
-          "imdb": "tt36944022",
-          "tmdb": 6231156,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 4,
-        "number": 7,
-        "title": "Bears",
-        "ids": {
-          "trakt": 12565632,
-          "tvdb": 11160507,
-          "imdb": "tt36944003",
-          "tmdb": 6231155,
           "tvrage": null
         }
       }
