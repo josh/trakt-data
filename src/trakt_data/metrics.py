@@ -552,19 +552,25 @@ def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
         data_path / "watched" / "history.json", list[HistoryItem]
     )
     for history_item in history_items:
-        if history_item["type"] == "movie":
-            info = _fetch_movie_metric_info(ctx, history_item["movie"]["ids"]["trakt"])
-        elif history_item["type"] == "episode":
-            info = _fetch_episode_metric_info(
-                ctx,
-                show_trakt_id=history_item["show"]["ids"]["trakt"],
-                episode_trakt_id=history_item["episode"]["ids"]["trakt"],
-                season_number=history_item["episode"]["season"],
-                episode_number=history_item["episode"]["number"],
-            )
-        else:
-            info = None
-            logger.warning("Unknown media type: %s", history_item["type"])
+        try:
+            if history_item["type"] == "movie":
+                info = _fetch_movie_metric_info(
+                    ctx, history_item["movie"]["ids"]["trakt"]
+                )
+            elif history_item["type"] == "episode":
+                info = _fetch_episode_metric_info(
+                    ctx,
+                    show_trakt_id=history_item["show"]["ids"]["trakt"],
+                    episode_trakt_id=history_item["episode"]["ids"]["trakt"],
+                    season_number=history_item["episode"]["season"],
+                    episode_number=history_item["episode"]["number"],
+                )
+            else:
+                info = None
+                logger.warning("Unknown media type: %s", history_item["type"])
+                continue
+        except Exception as error:
+            logger.error(error)
             continue
 
         _TRAKT_WATCHED_COUNT.labels(
@@ -585,13 +591,17 @@ def _generate_list_metrics(ctx: Context, data_path: Path) -> None:
         list_path = data_path / "lists" / list_filename
         list_items = read_json_data(list_path, list[ListItem])
         for item in list_items:
-            if item["type"] == "movie":
-                info = _fetch_movie_metric_info(ctx, item["movie"]["ids"]["trakt"])
-            elif item["type"] == "show":
-                info = _fetch_show_metric_info(ctx, item["show"]["ids"]["trakt"])
-            else:
-                info = None
-                logger.warning("Unknown media type: %s", item["type"])
+            try:
+                if item["type"] == "movie":
+                    info = _fetch_movie_metric_info(ctx, item["movie"]["ids"]["trakt"])
+                elif item["type"] == "show":
+                    info = _fetch_show_metric_info(ctx, item["show"]["ids"]["trakt"])
+                else:
+                    info = None
+                    logger.warning("Unknown media type: %s", item["type"])
+                    continue
+            except Exception as error:
+                logger.error(error)
                 continue
 
             _TRAKT_LIST_COUNT.labels(
@@ -611,21 +621,25 @@ def _generate_list_metrics(ctx: Context, data_path: Path) -> None:
 def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
     watchlist = read_json_data(data_path / "lists" / "watchlist.json", list[ListItem])
     for item in watchlist:
-        if item["type"] == "movie":
-            info = _fetch_movie_metric_info(ctx, item["movie"]["ids"]["trakt"])
-        elif item["type"] == "show":
-            info = _fetch_show_metric_info(ctx, item["show"]["ids"]["trakt"])
-        elif item["type"] == "episode":
-            info = _fetch_episode_metric_info(
-                ctx,
-                show_trakt_id=item["show"]["ids"]["trakt"],
-                episode_trakt_id=item["episode"]["ids"]["trakt"],
-                season_number=item["episode"]["season"],
-                episode_number=item["episode"]["number"],
-            )
-        else:
-            info = None
-            logger.warning("Unknown media type: %s", item["type"])
+        try:
+            if item["type"] == "movie":
+                info = _fetch_movie_metric_info(ctx, item["movie"]["ids"]["trakt"])
+            elif item["type"] == "show":
+                info = _fetch_show_metric_info(ctx, item["show"]["ids"]["trakt"])
+            elif item["type"] == "episode":
+                info = _fetch_episode_metric_info(
+                    ctx,
+                    show_trakt_id=item["show"]["ids"]["trakt"],
+                    episode_trakt_id=item["episode"]["ids"]["trakt"],
+                    season_number=item["episode"]["season"],
+                    episode_number=item["episode"]["number"],
+                )
+            else:
+                info = None
+                logger.warning("Unknown media type: %s", item["type"])
+                continue
+        except Exception as error:
+            logger.error(error)
             continue
 
         _TRAKT_WATCHLIST_COUNT.labels(
