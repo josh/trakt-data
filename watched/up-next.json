@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Smoke",
+      "year": 2025,
+      "ids": {
+        "trakt": 200643,
+        "slug": "smoke-2025",
+        "tvdb": 428137,
+        "imdb": "tt24163532",
+        "tmdb": 215995,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2025-07-22T06:28:32.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Your Happy Makes Me Sad",
+        "ids": {
+          "trakt": 13009097,
+          "tvdb": 11086480,
+          "imdb": "tt32568283",
+          "tmdb": 6136854,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Pilot",
+        "ids": {
+          "trakt": 6961109,
+          "tvdb": 9496854,
+          "imdb": "tt31715491",
+          "tmdb": 4095180,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -94,6 +144,56 @@
           "tvdb": 10973705,
           "imdb": "tt34767980",
           "tmdb": 5995954,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Rick and Morty",
+      "year": 2013,
+      "ids": {
+        "trakt": 69829,
+        "slug": "rick-and-morty",
+        "tvdb": 275274,
+        "imdb": "tt2861424",
+        "tmdb": 60625,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 80,
+      "completed": 79,
+      "hidden": 0,
+      "last_watched_at": "2025-07-17T04:38:15.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 79,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 8,
+        "number": 9,
+        "title": "Morty Daddy",
+        "ids": {
+          "trakt": 12993652,
+          "tvdb": 11077164,
+          "imdb": "tt36329670",
+          "tmdb": 6122209,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 8,
+        "number": 8,
+        "title": "Nomortland",
+        "ids": {
+          "trakt": 12993651,
+          "tvdb": 11077163,
+          "imdb": "tt36329667",
+          "tmdb": 6122208,
           "tvrage": null
         }
       }

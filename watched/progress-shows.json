@@ -1,6 +1,86 @@
 [
   {
     "show": {
+      "title": "Smoke",
+      "year": 2025,
+      "ids": {
+        "trakt": 200643,
+        "slug": "smoke-2025",
+        "tvdb": 428137,
+        "imdb": "tt24163532",
+        "tmdb": 215995,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 1,
+      "last_watched_at": "2025-07-22T06:28:32.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 5,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-22T06:28:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Your Happy Makes Me Sad",
+        "ids": {
+          "trakt": 13009097,
+          "tvdb": 11086480,
+          "imdb": "tt32568283",
+          "tmdb": 6136854,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Pilot",
+        "ids": {
+          "trakt": 6961109,
+          "tvdb": 9496854,
+          "imdb": "tt31715491",
+          "tmdb": 4095180,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -1430,7 +1510,7 @@
       }
     },
     "progress": {
-      "aired": 79,
+      "aired": 80,
       "completed": 79,
       "last_watched_at": "2025-07-17T04:38:15.000Z",
       "reset_at": null,
@@ -1849,7 +1929,7 @@
         {
           "number": 8,
           "title": null,
-          "aired": 8,
+          "aired": 9,
           "completed": 8,
           "episodes": [
             {
@@ -1891,6 +1971,11 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2025-07-17T04:38:15.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -17000,7 +17085,7 @@
       }
     },
     "progress": {
-      "aired": 4432,
+      "aired": 4433,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -38965,7 +39050,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 87,
+          "aired": 88,
           "completed": 0,
           "episodes": [
             {
@@ -39400,6 +39485,11 @@
             },
             {
               "number": 87,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 88,
               "completed": false,
               "last_watched_at": null
             }
@@ -71905,7 +71995,7 @@
       }
     },
     "progress": {
-      "aired": 1686,
+      "aired": 1687,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79710,7 +79800,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 141,
+          "aired": 142,
           "completed": 0,
           "episodes": [
             {
@@ -80415,6 +80505,11 @@
             },
             {
               "number": 141,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 142,
               "completed": false,
               "last_watched_at": null
             }
