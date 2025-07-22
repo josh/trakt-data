@@ -1,86 +1,6 @@
 [
   {
     "show": {
-      "title": "Smoke",
-      "year": 2025,
-      "ids": {
-        "trakt": 200643,
-        "slug": "smoke-2025",
-        "tvdb": 428137,
-        "imdb": "tt24163532",
-        "tmdb": 215995,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 5,
-      "completed": 1,
-      "last_watched_at": "2025-07-22T06:28:32.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Miniseries",
-          "aired": 5,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-07-22T06:28:32.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Your Happy Makes Me Sad",
-        "ids": {
-          "trakt": 13009097,
-          "tvdb": 11086480,
-          "imdb": "tt32568283",
-          "tmdb": 6136854,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Pilot",
-        "ids": {
-          "trakt": 6961109,
-          "tvdb": 9496854,
-          "imdb": "tt31715491",
-          "tmdb": 4095180,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -94,8 +14,8 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 37,
-      "last_watched_at": "2025-07-21T03:20:01.000Z",
+      "completed": 38,
+      "last_watched_at": "2025-07-22T21:56:58.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -266,7 +186,7 @@
           "number": 4,
           "title": null,
           "aired": 10,
-          "completed": 9,
+          "completed": 10,
           "episodes": [
             {
               "number": 1,
@@ -315,14 +235,15 @@
             },
             {
               "number": 10,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-22T21:56:58.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 4,
         "number": 10,
         "title": "Goodbye",
@@ -333,16 +254,84 @@
           "tmdb": 6231158,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Smoke",
+      "year": 2025,
+      "ids": {
+        "trakt": 200643,
+        "slug": "smoke-2025",
+        "tvdb": 428137,
+        "imdb": "tt24163532",
+        "tmdb": 215995,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 1,
+      "last_watched_at": "2025-07-22T06:28:32.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 5,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-22T06:28:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Your Happy Makes Me Sad",
+        "ids": {
+          "trakt": 13009097,
+          "tvdb": 11086480,
+          "imdb": "tt32568283",
+          "tmdb": 6136854,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 4,
-        "number": 9,
-        "title": "Tonnato",
+        "season": 1,
+        "number": 1,
+        "title": "Pilot",
         "ids": {
-          "trakt": 12565634,
-          "tvdb": 11160509,
-          "imdb": "tt36944093",
-          "tmdb": 6231157,
+          "trakt": 6961109,
+          "tvdb": 9496854,
+          "imdb": "tt31715491",
+          "tmdb": 4095180,
           "tvrage": null
         }
       }
