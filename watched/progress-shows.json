@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 8,
-      "last_watched_at": "2025-07-24T18:13:18.000Z",
+      "completed": 10,
+      "last_watched_at": "2025-07-24T19:22:58.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 8,
+          "completed": 10,
           "episodes": [
             {
               "number": 1,
@@ -66,39 +66,28 @@
             },
             {
               "number": 9,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-24T18:45:01.000Z"
             },
             {
               "number": 10,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-24T19:22:58.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "All Systems Red",
-        "ids": {
-          "trakt": 12840025,
-          "tvdb": 10973712,
-          "imdb": "tt34377443",
-          "tmdb": 5995962,
-          "tvrage": null
-        }
-      },
+      "next_episode": null,
       "last_episode": {
         "season": 1,
-        "number": 8,
-        "title": "Foreign Object",
+        "number": 10,
+        "title": "The Perimeter",
         "ids": {
-          "trakt": 12840024,
-          "tvdb": 10973711,
-          "imdb": "tt34767991",
-          "tmdb": 5995961,
+          "trakt": 12840026,
+          "tvdb": 10973713,
+          "imdb": "tt34767992",
+          "tmdb": 5995963,
           "tvrage": null
         }
       }
