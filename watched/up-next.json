@@ -1,6 +1,57 @@
 [
   {
     "show": {
+      "title": "Murderbot",
+      "year": 2025,
+      "ids": {
+        "trakt": 217658,
+        "slug": "murderbot",
+        "tvdb": 443396,
+        "imdb": "tt30444310",
+        "tmdb": 241554,
+        "tvrage": null
+      },
+      "aired_episodes": 10
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2025-07-24T08:44:44.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Complementary Species",
+        "ids": {
+          "trakt": 12840023,
+          "tvdb": 10973710,
+          "imdb": "tt34767989",
+          "tmdb": 5995960,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Command Feed",
+        "ids": {
+          "trakt": 12840022,
+          "tvdb": 10973709,
+          "imdb": "tt34767988",
+          "tmdb": 5995958,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "UNTAMED",
       "year": 2025,
       "ids": {
@@ -10,7 +61,8 @@
         "imdb": "tt31710822",
         "tmdb": 248852,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 6
     },
     "progress": {
       "aired": 6,
@@ -60,7 +112,8 @@
         "imdb": "tt24163532",
         "tmdb": 215995,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 5
     },
     "progress": {
       "aired": 5,
@@ -101,56 +154,6 @@
   },
   {
     "show": {
-      "title": "Murderbot",
-      "year": 2025,
-      "ids": {
-        "trakt": 217658,
-        "slug": "murderbot",
-        "tvdb": 443396,
-        "imdb": "tt30444310",
-        "tmdb": 241554,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 2,
-      "hidden": 0,
-      "last_watched_at": "2025-07-20T05:02:22.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 2,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Risk Assessment",
-        "ids": {
-          "trakt": 12840019,
-          "tvdb": 10973706,
-          "imdb": "tt34767982",
-          "tmdb": 5995955,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Eye Contact",
-        "ids": {
-          "trakt": 12840018,
-          "tvdb": 10973705,
-          "imdb": "tt34767980",
-          "tmdb": 5995954,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "It's Always Sunny in Philadelphia",
       "year": 2005,
       "ids": {
@@ -160,7 +163,8 @@
         "imdb": "tt0472954",
         "tmdb": 2710,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 173
     },
     "progress": {
       "aired": 173,
@@ -210,7 +214,8 @@
         "imdb": "tt2861424",
         "tmdb": 60625,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 80
     },
     "progress": {
       "aired": 80,
