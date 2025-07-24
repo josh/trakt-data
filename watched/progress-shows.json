@@ -1,6 +1,91 @@
 [
   {
     "show": {
+      "title": "UNTAMED",
+      "year": 2025,
+      "ids": {
+        "trakt": 230614,
+        "slug": "untamed",
+        "tvdb": 447456,
+        "imdb": "tt31710822",
+        "tmdb": 248852,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 1,
+      "last_watched_at": "2025-07-24T03:46:04.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 6,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-24T03:46:04.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Jane Doe",
+        "ids": {
+          "trakt": 13144297,
+          "tvdb": 10379999,
+          "imdb": "tt31719519",
+          "tmdb": 6248645,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "A Celestial Event",
+        "ids": {
+          "trakt": 11624532,
+          "tvdb": 10373538,
+          "imdb": "tt31719522",
+          "tmdb": 5208645,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Bear",
       "year": 2022,
       "ids": {
@@ -456,7 +541,7 @@
       }
     },
     "progress": {
-      "aired": 172,
+      "aired": 173,
       "completed": 172,
       "last_watched_at": "2025-07-17T20:16:06.000Z",
       "reset_at": null,
@@ -1437,7 +1522,7 @@
         {
           "number": 17,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 3,
           "episodes": [
             {
@@ -1454,6 +1539,11 @@
               "number": 3,
               "completed": true,
               "last_watched_at": "2025-07-17T20:16:06.000Z"
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -16635,7 +16725,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13344273,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6399351,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 2,
         "number": 10,
@@ -17074,7 +17175,7 @@
       }
     },
     "progress": {
-      "aired": 4433,
+      "aired": 4435,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39039,7 +39140,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 88,
+          "aired": 90,
           "completed": 0,
           "episodes": [
             {
@@ -39479,6 +39580,16 @@
             },
             {
               "number": 88,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 89,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 90,
               "completed": false,
               "last_watched_at": null
             }
@@ -71984,7 +72095,7 @@
       }
     },
     "progress": {
-      "aired": 1687,
+      "aired": 1689,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79789,7 +79900,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 142,
+          "aired": 144,
           "completed": 0,
           "episodes": [
             {
@@ -80499,6 +80610,16 @@
             },
             {
               "number": 142,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 143,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 144,
               "completed": false,
               "last_watched_at": null
             }
@@ -120058,7 +120179,7 @@
       }
     },
     "progress": {
-      "aired": 321,
+      "aired": 322,
       "completed": 247,
       "last_watched_at": "2013-12-12T06:00:00.000Z",
       "reset_at": null,
@@ -121871,6 +121992,19 @@
             },
             {
               "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "title": null,
+          "aired": 1,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
               "completed": false,
               "last_watched_at": null
             }
