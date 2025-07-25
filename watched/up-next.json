@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 6,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2025-07-24T03:46:04.000Z",
+      "last_watched_at": "2025-07-25T05:19:06.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "El-o'-win",
+        "ids": {
+          "trakt": 13144298,
+          "tvdb": 10380001,
+          "imdb": "tt31719520",
+          "tmdb": 6248647,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 2,
         "title": "Jane Doe",
@@ -32,18 +44,6 @@
           "tvdb": 10379999,
           "imdb": "tt31719519",
           "tmdb": 6248645,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "A Celestial Event",
-        "ids": {
-          "trakt": 11624532,
-          "tvdb": 10373538,
-          "imdb": "tt31719522",
-          "tmdb": 5208645,
           "tvrage": null
         }
       }
@@ -63,7 +63,7 @@
       }
     },
     "progress": {
-      "aired": 5,
+      "aired": 6,
       "completed": 1,
       "hidden": 0,
       "last_watched_at": "2025-07-22T06:28:32.000Z",
