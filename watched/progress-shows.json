@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 6,
-      "completed": 2,
-      "last_watched_at": "2025-07-25T05:19:06.000Z",
+      "completed": 3,
+      "last_watched_at": "2025-07-26T05:09:11.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": "Limited Series",
           "aired": 6,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -36,8 +36,8 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-07-26T05:09:11.000Z"
             },
             {
               "number": 4,
@@ -60,6 +60,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 4,
+        "title": "Gold Rush",
+        "ids": {
+          "trakt": 13144299,
+          "tvdb": 10380003,
+          "imdb": "tt31719523",
+          "tmdb": 6248648,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 3,
         "title": "El-o'-win",
         "ids": {
@@ -67,18 +79,6 @@
           "tvdb": 10380001,
           "imdb": "tt31719520",
           "tmdb": 6248647,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Jane Doe",
-        "ids": {
-          "trakt": 13144297,
-          "tvdb": 10379999,
-          "imdb": "tt31719519",
-          "tmdb": 6248645,
           "tvrage": null
         }
       }
