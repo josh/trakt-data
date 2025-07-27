@@ -472,38 +472,50 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
         data_path / "collection" / "collection-movies.json", list[CollectedMovie]
     )
     for collected_movie in movies_collection:
-        trakt_id = collected_movie["movie"]["ids"]["trakt"]
-        info = _fetch_movie_metric_info(ctx, trakt_id)
-        _TRAKT_COLLECTION_COUNT.labels(
-            media_type="movie",
-            year=info.year,
-        ).inc()
+        try:
+            trakt_id = collected_movie["movie"]["ids"]["trakt"]
+            info = _fetch_movie_metric_info(ctx, trakt_id)
+            _TRAKT_COLLECTION_COUNT.labels(
+                media_type="movie",
+                year=info.year,
+            ).inc()
+        except Exception as error:
+            logger.error(error)
+            continue
 
     shows_collection = read_json_data(
         data_path / "collection" / "collection-shows.json", list[CollectedShow]
     )
     for collected_show in shows_collection:
-        show_trakt_id = collected_show["show"]["ids"]["trakt"]
-        info = _fetch_show_metric_info(ctx, trakt_id=show_trakt_id)
-        _TRAKT_COLLECTION_COUNT.labels(
-            media_type="show",
-            year=info.year,
-        ).inc()
+        try:
+            show_trakt_id = collected_show["show"]["ids"]["trakt"]
+            info = _fetch_show_metric_info(ctx, trakt_id=show_trakt_id)
+            _TRAKT_COLLECTION_COUNT.labels(
+                media_type="show",
+                year=info.year,
+            ).inc()
+        except Exception as error:
+            logger.error(error)
+            continue
 
         for collected_season in collected_show["seasons"]:
             for collected_episode in collected_season["episodes"]:
-                info2 = _fetch_episode_metric_info(
-                    ctx,
-                    show_trakt_id=show_trakt_id,
-                    episode_trakt_id=None,
-                    season_number=collected_season["number"],
-                    episode_number=collected_episode["number"],
-                )
-                if info2:
-                    _TRAKT_COLLECTION_COUNT.labels(
-                        media_type="episode",
-                        year=info2.year,
-                    ).inc()
+                try:
+                    info2 = _fetch_episode_metric_info(
+                        ctx,
+                        show_trakt_id=show_trakt_id,
+                        episode_trakt_id=None,
+                        season_number=collected_season["number"],
+                        episode_number=collected_episode["number"],
+                    )
+                    if info2:
+                        _TRAKT_COLLECTION_COUNT.labels(
+                            media_type="episode",
+                            year=info2.year,
+                        ).inc()
+                except Exception as error:
+                    logger.error(error)
+                    continue
 
 
 def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
