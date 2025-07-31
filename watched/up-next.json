@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Smoke",
+      "year": 2025,
+      "ids": {
+        "trakt": 200643,
+        "slug": "smoke-2025",
+        "tvdb": 428137,
+        "imdb": "tt24163532",
+        "tmdb": 215995,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2025-07-31T06:45:43.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Weird Milk",
+        "ids": {
+          "trakt": 13009098,
+          "tvdb": 11086481,
+          "imdb": "tt32568284",
+          "tmdb": 6136856,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Your Happy Makes Me Sad",
+        "ids": {
+          "trakt": 13009097,
+          "tvdb": 11086480,
+          "imdb": "tt32568283",
+          "tmdb": 6136854,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "UNTAMED",
       "year": 2025,
       "ids": {
@@ -51,49 +101,49 @@
   },
   {
     "show": {
-      "title": "Smoke",
-      "year": 2025,
+      "title": "It's Always Sunny in Philadelphia",
+      "year": 2005,
       "ids": {
-        "trakt": 200643,
-        "slug": "smoke-2025",
-        "tvdb": 428137,
-        "imdb": "tt24163532",
-        "tmdb": 215995,
+        "trakt": 2692,
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tvdb": 75805,
+        "imdb": "tt0472954",
+        "tmdb": 2710,
         "tvrage": null
       }
     },
     "progress": {
-      "aired": 6,
-      "completed": 1,
+      "aired": 174,
+      "completed": 173,
       "hidden": 0,
-      "last_watched_at": "2025-07-22T06:28:32.000Z",
+      "last_watched_at": "2025-07-24T19:59:12.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 173,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Your Happy Makes Me Sad",
+        "season": 17,
+        "number": 5,
+        "title": "The Gang Goes to a Dog Track",
         "ids": {
-          "trakt": 13009097,
-          "tvdb": 11086480,
-          "imdb": "tt32568283",
-          "tmdb": 6136854,
+          "trakt": 13272363,
+          "tvdb": 11200017,
+          "imdb": "tt35252527",
+          "tmdb": 6352226,
           "tvrage": null
         }
       },
       "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Pilot",
+        "season": 17,
+        "number": 4,
+        "title": "Thought Leadership: A Corporate Conversation",
         "ids": {
-          "trakt": 6961109,
-          "tvdb": 9496854,
-          "imdb": "tt31715491",
-          "tmdb": 4095180,
+          "trakt": 13272362,
+          "tvdb": 11200016,
+          "imdb": "tt35252526",
+          "tmdb": 6352192,
           "tvrage": null
         }
       }

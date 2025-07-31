@@ -1,6 +1,91 @@
 [
   {
     "show": {
+      "title": "Smoke",
+      "year": 2025,
+      "ids": {
+        "trakt": 200643,
+        "slug": "smoke-2025",
+        "tvdb": 428137,
+        "imdb": "tt24163532",
+        "tmdb": 215995,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 2,
+      "last_watched_at": "2025-07-31T06:45:43.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 6,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-07-22T06:28:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-07-31T06:45:43.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Weird Milk",
+        "ids": {
+          "trakt": 13009098,
+          "tvdb": 11086481,
+          "imdb": "tt32568284",
+          "tmdb": 6136856,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Your Happy Makes Me Sad",
+        "ids": {
+          "trakt": 13009097,
+          "tvdb": 11086480,
+          "imdb": "tt32568283",
+          "tmdb": 6136854,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Rick and Morty",
       "year": 2013,
       "ids": {
@@ -525,7 +610,7 @@
       "seasons": [
         {
           "number": 1,
-          "title": "Limited Series",
+          "title": null,
           "aired": 6,
           "completed": 4,
           "episodes": [
@@ -603,7 +688,7 @@
       }
     },
     "progress": {
-      "aired": 173,
+      "aired": 174,
       "completed": 173,
       "last_watched_at": "2025-07-24T19:59:12.000Z",
       "reset_at": null,
@@ -1584,7 +1669,7 @@
         {
           "number": 17,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 4,
           "episodes": [
             {
@@ -1606,6 +1691,11 @@
               "number": 4,
               "completed": true,
               "last_watched_at": "2025-07-24T19:59:12.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -1984,91 +2074,6 @@
           "tvdb": 11160510,
           "imdb": "tt36944202",
           "tmdb": 6231158,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Smoke",
-      "year": 2025,
-      "ids": {
-        "trakt": 200643,
-        "slug": "smoke-2025",
-        "tvdb": 428137,
-        "imdb": "tt24163532",
-        "tmdb": 215995,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 1,
-      "last_watched_at": "2025-07-22T06:28:32.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Miniseries",
-          "aired": 6,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-07-22T06:28:32.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Your Happy Makes Me Sad",
-        "ids": {
-          "trakt": 13009097,
-          "tvdb": 11086480,
-          "imdb": "tt32568283",
-          "tmdb": 6136854,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Pilot",
-        "ids": {
-          "trakt": 6961109,
-          "tvdb": 9496854,
-          "imdb": "tt31715491",
-          "tmdb": 4095180,
           "tvrage": null
         }
       }
@@ -17174,7 +17179,7 @@
       }
     },
     "progress": {
-      "aired": 4436,
+      "aired": 4439,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39139,7 +39144,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 91,
+          "aired": 94,
           "completed": 0,
           "episodes": [
             {
@@ -39594,6 +39599,21 @@
             },
             {
               "number": 91,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 92,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 93,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 94,
               "completed": false,
               "last_watched_at": null
             }
@@ -58822,7 +58842,7 @@
       }
     },
     "progress": {
-      "aired": 22,
+      "aired": 23,
       "completed": 11,
       "last_watched_at": "2022-08-19T20:50:10.000Z",
       "reset_at": null,
@@ -58893,7 +58913,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 11,
+          "aired": 12,
           "completed": 0,
           "episodes": [
             {
@@ -58948,6 +58968,11 @@
             },
             {
               "number": 11,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 12,
               "completed": false,
               "last_watched_at": null
             }
@@ -72145,7 +72170,7 @@
       }
     },
     "progress": {
-      "aired": 1690,
+      "aired": 1693,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -79950,7 +79975,7 @@
         {
           "number": 10,
           "title": null,
-          "aired": 145,
+          "aired": 148,
           "completed": 0,
           "episodes": [
             {
@@ -80675,6 +80700,21 @@
             },
             {
               "number": 145,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 146,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 147,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 148,
               "completed": false,
               "last_watched_at": null
             }
