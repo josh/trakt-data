@@ -16,7 +16,7 @@
       "aired": 6,
       "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2025-07-31T06:45:43.000Z",
+      "last_watched_at": "2025-07-31T07:32:20.000Z",
       "reset_at": null,
       "stats": {
         "play_count": 2,
@@ -144,6 +144,56 @@
           "tvdb": 11200016,
           "imdb": "tt35252526",
           "tmdb": 6352192,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Twisted Metal",
+      "year": 2023,
+      "ids": {
+        "trakt": 188204,
+        "slug": "twisted-metal",
+        "tvdb": 366532,
+        "imdb": "tt14261112",
+        "tmdb": 133748,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 13,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2023-08-06T03:56:43.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 10,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "PRSRPNT",
+        "ids": {
+          "trakt": 13013530,
+          "tvdb": null,
+          "imdb": "tt30333433",
+          "tmdb": 6139923,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "SHNGRLA",
+        "ids": {
+          "trakt": 10693417,
+          "tvdb": 9843523,
+          "imdb": "tt21361266",
+          "tmdb": 4425657,
           "tvrage": null
         }
       }
