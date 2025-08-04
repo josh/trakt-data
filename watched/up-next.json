@@ -10,20 +10,33 @@
         "imdb": "tt24163532",
         "tmdb": 215995,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 7
     },
     "progress": {
       "aired": 7,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2025-08-01T06:38:56.000Z",
+      "last_watched_at": "2025-08-04T04:52:14.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Manhood",
+        "ids": {
+          "trakt": 13009101,
+          "tvdb": 11086484,
+          "imdb": "tt32568286",
+          "tmdb": 6136860,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 5,
         "title": "Size Matters",
@@ -32,18 +45,6 @@
           "tvdb": 11086483,
           "imdb": "tt32502783",
           "tmdb": 6136858,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Strawberry",
-        "ids": {
-          "trakt": 13009099,
-          "tvdb": 11086482,
-          "imdb": "tt32568285",
-          "tmdb": 6136857,
           "tvrage": null
         }
       }
@@ -60,7 +61,8 @@
         "imdb": "tt31710822",
         "tmdb": 248852,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 6
     },
     "progress": {
       "aired": 6,
@@ -110,7 +112,8 @@
         "imdb": "tt0472954",
         "tmdb": 2710,
         "tvrage": null
-      }
+      },
+      "aired_episodes": 174
     },
     "progress": {
       "aired": 174,
