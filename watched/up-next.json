@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "It's Always Sunny in Philadelphia",
+      "year": 2005,
+      "ids": {
+        "trakt": 2692,
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tvdb": 75805,
+        "imdb": "tt0472954",
+        "tmdb": 2710,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 175,
+      "completed": 174,
+      "hidden": 0,
+      "last_watched_at": "2025-08-07T03:26:55.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 174,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 17,
+        "number": 6,
+        "title": "Overage Drinking: A National Concern",
+        "ids": {
+          "trakt": 13272364,
+          "tvdb": 11200018,
+          "imdb": "tt35252528",
+          "tmdb": 6352227,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 17,
+        "number": 5,
+        "title": "The Gang Goes to a Dog Track",
+        "ids": {
+          "trakt": 13272363,
+          "tvdb": 11200017,
+          "imdb": "tt35252527",
+          "tmdb": 6352226,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Smoke",
       "year": 2025,
       "ids": {
@@ -10,8 +60,7 @@
         "imdb": "tt24163532",
         "tmdb": 215995,
         "tvrage": null
-      },
-      "aired_episodes": 7
+      }
     },
     "progress": {
       "aired": 7,
@@ -52,57 +101,6 @@
   },
   {
     "show": {
-      "title": "It's Always Sunny in Philadelphia",
-      "year": 2005,
-      "ids": {
-        "trakt": 2692,
-        "slug": "it-s-always-sunny-in-philadelphia",
-        "tvdb": 75805,
-        "imdb": "tt0472954",
-        "tmdb": 2710,
-        "tvrage": null
-      },
-      "aired_episodes": 174
-    },
-    "progress": {
-      "aired": 174,
-      "completed": 173,
-      "hidden": 0,
-      "last_watched_at": "2025-07-24T19:59:12.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 173,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 17,
-        "number": 5,
-        "title": "The Gang Goes to a Dog Track",
-        "ids": {
-          "trakt": 13272363,
-          "tvdb": 11200017,
-          "imdb": "tt35252527",
-          "tmdb": 6352226,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 17,
-        "number": 4,
-        "title": "Thought Leadership: A Corporate Conversation",
-        "ids": {
-          "trakt": 13272362,
-          "tvdb": 11200016,
-          "imdb": "tt35252526",
-          "tmdb": 6352192,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -112,8 +110,7 @@
         "imdb": "tt13366604",
         "tmdb": 112211,
         "tvrage": null
-      },
-      "aired_episodes": 12
+      }
     },
     "progress": {
       "aired": 12,
@@ -147,6 +144,56 @@
           "tvdb": 9686416,
           "imdb": "tt21228986",
           "tmdb": 4314654,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Wednesday",
+      "year": 2022,
+      "ids": {
+        "trakt": 173996,
+        "slug": "wednesday",
+        "tvdb": 397060,
+        "imdb": "tt13443470",
+        "tmdb": 119051,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2022-11-25T06:35:48.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Here We Woe Again",
+        "ids": {
+          "trakt": 13033535,
+          "tvdb": 10486526,
+          "imdb": "tt25754350",
+          "tmdb": 6165591,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "A Murder of Woes",
+        "ids": {
+          "trakt": 6621515,
+          "tvdb": 9302846,
+          "imdb": "tt14077406",
+          "tmdb": 3901544,
           "tvrage": null
         }
       }
