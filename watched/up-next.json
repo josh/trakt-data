@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2025-08-04T04:52:14.000Z",
+      "last_watched_at": "2025-08-12T04:18:57.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Whitewashed Tombs",
+        "ids": {
+          "trakt": 13009102,
+          "tvdb": 11086485,
+          "imdb": "tt32568287",
+          "tmdb": 6136861,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 6,
         "title": "Manhood",
@@ -32,18 +44,6 @@
           "tvdb": 11086484,
           "imdb": "tt32568286",
           "tmdb": 6136860,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Size Matters",
-        "ids": {
-          "trakt": 13009100,
-          "tvdb": 11086483,
-          "imdb": "tt32502783",
-          "tmdb": 6136858,
           "tvrage": null
         }
       }
