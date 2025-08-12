@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-08-12T06:01:55.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "Ne Zha",
+      "year": 2019,
+      "ids": {
+        "trakt": 459090,
+        "slug": "ne-zha-2019",
+        "imdb": "tt10627720",
+        "tmdb": 615453
+      }
+    }
+  },
+  {
     "rated_at": "2025-08-02T23:59:59.000Z",
     "rating": 4,
     "type": "movie",
@@ -16085,10 +16100,10 @@
     "type": "movie",
     "movie": {
       "title": "Hamilton",
-      "year": 2020,
+      "year": 2025,
       "ids": {
         "trakt": 407854,
-        "slug": "hamilton-2020",
+        "slug": "hamilton-2025",
         "imdb": "tt8503618",
         "tmdb": 556574
       }
@@ -25538,7 +25553,7 @@
       "year": 2016,
       "ids": {
         "trakt": 219870,
-        "slug": "christine-2016-10-14",
+        "slug": "christine-2016",
         "imdb": "tt4666726",
         "tmdb": 339405
       }
