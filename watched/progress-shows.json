@@ -1,6 +1,71 @@
 [
   {
     "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 2,
+      "completed": 2,
+      "last_watched_at": "2025-08-13T07:08:45.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 2,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T02:44:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T07:08:45.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Metamorphosis",
+        "ids": {
+          "trakt": 13119035,
+          "tvdb": 10945243,
+          "imdb": "tt32572895",
+          "tmdb": 6231084,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Mr. October",
+        "ids": {
+          "trakt": 13119034,
+          "tvdb": 10945242,
+          "imdb": "tt32572892",
+          "tmdb": 6231083,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -122,71 +187,6 @@
           "tvdb": 11229295,
           "imdb": "tt33307963",
           "tmdb": 6249764,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 2,
-      "completed": 1,
-      "last_watched_at": "2025-08-13T02:44:14.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 2,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T02:44:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Mr. October",
-        "ids": {
-          "trakt": 13119034,
-          "tvdb": 10945242,
-          "imdb": "tt32572892",
-          "tmdb": 6231083,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Neverland",
-        "ids": {
-          "trakt": 11834179,
-          "tvdb": 10929566,
-          "imdb": "tt13623634",
-          "tmdb": 5324625,
           "tvrage": null
         }
       }

@@ -1,5 +1,40 @@
 [
   {
+    "plays": 2,
+    "last_watched_at": "2025-08-13T07:08:45.000Z",
+    "last_updated_at": "2025-08-13T06:13:45.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T02:44:14.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T07:08:45.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 13,
     "last_watched_at": "2025-08-13T05:40:32.000Z",
     "last_updated_at": "2025-08-13T05:10:32.000Z",
@@ -89,36 +124,6 @@
             "number": 3,
             "plays": 1,
             "last_watched_at": "2025-08-13T05:40:32.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 1,
-    "last_watched_at": "2025-08-13T02:44:14.000Z",
-    "last_updated_at": "2025-08-13T01:41:14.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-08-13T02:44:14.000Z"
           }
         ]
       }
