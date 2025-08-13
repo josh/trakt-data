@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 13,
-      "completed": 12,
-      "last_watched_at": "2025-08-13T05:10:27.000Z",
+      "completed": 13,
+      "last_watched_at": "2025-08-13T05:40:32.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -80,7 +80,7 @@
           "number": 2,
           "title": null,
           "aired": 3,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -94,14 +94,26 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:40:32.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Fore!",
+        "ids": {
+          "trakt": 13144327,
+          "tvdb": 11229296,
+          "imdb": "tt33307964",
+          "tmdb": 6249765,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 3,
         "title": "The Bachelor Party",
@@ -110,18 +122,6 @@
           "tvdb": 11229295,
           "imdb": "tt33307963",
           "tmdb": 6249764,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "The Dinner Party",
-        "ids": {
-          "trakt": 13144325,
-          "tvdb": 11229294,
-          "imdb": "tt33307962",
-          "tmdb": 6249763,
           "tvrage": null
         }
       }
