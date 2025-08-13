@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 2,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2025-08-13T02:44:14.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Mr. October",
+        "ids": {
+          "trakt": 13119034,
+          "tvdb": 10945242,
+          "imdb": "tt32572892",
+          "tmdb": 6231083,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Neverland",
+        "ids": {
+          "trakt": 11834179,
+          "tvdb": 10929566,
+          "imdb": "tt13623634",
+          "tmdb": 5324625,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -10,8 +60,7 @@
         "imdb": "tt13366604",
         "tmdb": 112211,
         "tvrage": null
-      },
-      "aired_episodes": 12
+      }
     },
     "progress": {
       "aired": 13,
@@ -61,8 +110,7 @@
         "imdb": "tt13443470",
         "tmdb": 119051,
         "tvrage": null
-      },
-      "aired_episodes": 12
+      }
     },
     "progress": {
       "aired": 12,
