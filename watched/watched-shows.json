@@ -1,5 +1,80 @@
 [
   {
+    "plays": 9,
+    "last_watched_at": "2025-08-14T06:32:55.000Z",
+    "last_updated_at": "2025-08-14T05:32:55.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Wednesday",
+      "year": 2022,
+      "ids": {
+        "trakt": 173996,
+        "slug": "wednesday",
+        "tvdb": 397060,
+        "imdb": "tt13443470",
+        "tmdb": 119051,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2022-11-24T23:35:39.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T01:31:02.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T02:31:35.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T03:10:54.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T04:04:14.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T04:43:34.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T05:39:41.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2022-11-25T06:35:48.000Z"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-08-14T06:32:55.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 2,
     "last_watched_at": "2025-08-13T07:08:45.000Z",
     "last_updated_at": "2025-08-13T06:13:45.000Z",
@@ -39764,71 +39839,6 @@
             "number": 8,
             "plays": 1,
             "last_watched_at": "2022-12-01T19:24:32.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 8,
-    "last_watched_at": "2022-11-25T06:35:48.000Z",
-    "last_updated_at": "2022-11-25T06:35:48.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Wednesday",
-      "year": 2022,
-      "ids": {
-        "trakt": 173996,
-        "slug": "wednesday",
-        "tvdb": 397060,
-        "imdb": "tt13443470",
-        "tmdb": 119051,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2022-11-24T23:35:39.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T01:31:02.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T02:31:35.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T03:10:54.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T04:04:14.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T04:43:34.000Z"
-          },
-          {
-            "number": 7,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T05:39:41.000Z"
-          },
-          {
-            "number": 8,
-            "plays": 1,
-            "last_watched_at": "2022-11-25T06:35:48.000Z"
           }
         ]
       }
