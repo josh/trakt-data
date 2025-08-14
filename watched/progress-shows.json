@@ -1,129 +1,6 @@
 [
   {
     "show": {
-      "title": "Wednesday",
-      "year": 2022,
-      "ids": {
-        "trakt": 173996,
-        "slug": "wednesday",
-        "tvdb": 397060,
-        "imdb": "tt13443470",
-        "tmdb": 119051,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 12,
-      "completed": 9,
-      "last_watched_at": "2025-08-14T06:32:55.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-11-24T23:35:39.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-11-25T01:31:02.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-11-25T02:31:35.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-11-25T03:10:54.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-11-25T04:04:14.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-11-25T04:43:34.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-11-25T05:39:41.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-11-25T06:35:48.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 4,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-14T06:32:55.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "The Devil You Woe",
-        "ids": {
-          "trakt": 13033540,
-          "tvdb": 10927589,
-          "imdb": "tt33100407",
-          "tmdb": 6165592,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "Here We Woe Again",
-        "ids": {
-          "trakt": 13033535,
-          "tvdb": 10486526,
-          "imdb": "tt25754350",
-          "tmdb": 6165591,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Alien: Earth",
       "year": 2025,
       "ids": {
@@ -48247,7 +48124,7 @@
       }
     },
     "progress": {
-      "aired": 15,
+      "aired": 17,
       "completed": 10,
       "last_watched_at": "2023-08-06T03:56:43.000Z",
       "reset_at": null,
@@ -48313,7 +48190,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 5,
+          "aired": 7,
           "completed": 0,
           "episodes": [
             {
@@ -48338,6 +48215,16 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
               "completed": false,
               "last_watched_at": null
             }
@@ -56434,6 +56321,129 @@
           "tvdb": 9348593,
           "imdb": "tt14572510",
           "tmdb": 3915217,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Wednesday",
+      "year": 2022,
+      "ids": {
+        "trakt": 173996,
+        "slug": "wednesday",
+        "tvdb": 397060,
+        "imdb": "tt13443470",
+        "tmdb": 119051,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 8,
+      "last_watched_at": "2022-11-25T06:35:48.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-11-24T23:35:39.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-11-25T01:31:02.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-11-25T02:31:35.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-11-25T03:10:54.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-11-25T04:04:14.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-11-25T04:43:34.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-11-25T05:39:41.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-11-25T06:35:48.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 4,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Here We Woe Again",
+        "ids": {
+          "trakt": 13033535,
+          "tvdb": 10486526,
+          "imdb": "tt25754350",
+          "tmdb": 6165591,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "A Murder of Woes",
+        "ids": {
+          "trakt": 6621515,
+          "tvdb": 9302846,
+          "imdb": "tt14077406",
+          "tmdb": 3901544,
           "tvrage": null
         }
       }
