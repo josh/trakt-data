@@ -1,5 +1,75 @@
 [
   {
+    "plays": 9,
+    "last_watched_at": "2025-08-15T05:42:47.000Z",
+    "last_updated_at": "2025-08-15T04:42:47.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Smoke",
+      "year": 2025,
+      "ids": {
+        "trakt": 200643,
+        "slug": "smoke-2025",
+        "tvdb": 428137,
+        "imdb": "tt24163532",
+        "tmdb": 215995,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-07-22T06:28:32.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-07-31T07:32:20.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-07-31T08:16:29.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-08-01T06:38:56.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-08-04T04:52:14.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-08-12T04:18:57.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2025-08-12T07:22:00.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T01:40:58.000Z"
+          },
+          {
+            "number": 9,
+            "plays": 1,
+            "last_watched_at": "2025-08-15T05:42:47.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 2,
     "last_watched_at": "2025-08-13T07:08:45.000Z",
     "last_updated_at": "2025-08-13T06:13:45.000Z",
@@ -124,71 +194,6 @@
             "number": 3,
             "plays": 1,
             "last_watched_at": "2025-08-13T05:40:32.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 8,
-    "last_watched_at": "2025-08-13T01:40:58.000Z",
-    "last_updated_at": "2025-08-13T00:51:58.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Smoke",
-      "year": 2025,
-      "ids": {
-        "trakt": 200643,
-        "slug": "smoke-2025",
-        "tvdb": 428137,
-        "imdb": "tt24163532",
-        "tmdb": 215995,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-07-22T06:28:32.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-07-31T07:32:20.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-07-31T08:16:29.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-08-01T06:38:56.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-08-04T04:52:14.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2025-08-12T04:18:57.000Z"
-          },
-          {
-            "number": 7,
-            "plays": 1,
-            "last_watched_at": "2025-08-12T07:22:00.000Z"
-          },
-          {
-            "number": 8,
-            "plays": 1,
-            "last_watched_at": "2025-08-13T01:40:58.000Z"
           }
         ]
       }
