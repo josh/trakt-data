@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-08-20T06:01:50.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "Elio",
+      "year": 2025,
+      "ids": {
+        "trakt": 822165,
+        "slug": "elio-2025",
+        "imdb": "tt4900148",
+        "tmdb": 1022787
+      }
+    }
+  },
+  {
     "rated_at": "2025-08-17T23:59:59.000Z",
     "rating": 5,
     "type": "movie",
@@ -31610,10 +31625,10 @@
     "type": "movie",
     "movie": {
       "title": "Snow White and the Seven Dwarfs",
-      "year": 1938,
+      "year": 1937,
       "ids": {
         "trakt": 326,
-        "slug": "snow-white-and-the-seven-dwarfs-1938",
+        "slug": "snow-white-and-the-seven-dwarfs-1937",
         "imdb": "tt0029583",
         "tmdb": 408
       }
