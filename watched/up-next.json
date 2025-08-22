@@ -1,56 +1,6 @@
 [
   {
     "show": {
-      "title": "Platonic",
-      "year": 2023,
-      "ids": {
-        "trakt": 168898,
-        "slug": "platonic",
-        "tvdb": 391020,
-        "imdb": "tt13366604",
-        "tmdb": 112211,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 14,
-      "completed": 13,
-      "hidden": 0,
-      "last_watched_at": "2025-08-13T05:40:32.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 13,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Fore!",
-        "ids": {
-          "trakt": 13144327,
-          "tvdb": 11229296,
-          "imdb": "tt33307964",
-          "tmdb": 6249765,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "The Bachelor Party",
-        "ids": {
-          "trakt": 13144326,
-          "tvdb": 11229295,
-          "imdb": "tt33307963",
-          "tmdb": 6249764,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "007: Road to a Million",
       "year": 2023,
       "ids": {
@@ -94,6 +44,56 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 4715888,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2022-02-18T06:57:22.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "The Ties That Grind",
+        "ids": {
+          "trakt": 12483930,
+          "tvdb": 11071140,
+          "imdb": "tt18263680",
+          "tmdb": 6108954,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "It's Cow or Never",
+        "ids": {
+          "trakt": 4720836,
+          "tvdb": 8869910,
+          "imdb": "tt13152062",
+          "tmdb": 2438363,
           "tvrage": null
         }
       }
