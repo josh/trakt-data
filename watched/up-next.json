@@ -14,19 +14,31 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 8,
+      "completed": 9,
       "hidden": 0,
-      "last_watched_at": "2023-11-12T21:11:20.000Z",
+      "last_watched_at": "2025-08-23T04:24:23.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 8,
+        "play_count": 9,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "season": 2,
+        "number": 2,
+        "title": "Mission 1: Thailand Continued",
+        "ids": {
+          "trakt": 13424189,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464506,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
         "number": 1,
-        "title": "Episode 1",
+        "title": "Mission 1: Thailand",
         "ids": {
           "trakt": 13352031,
           "tvdb": null,
@@ -34,16 +46,54 @@
           "tmdb": 6406311,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 704,
+      "completed": 703,
+      "hidden": 0,
+      "last_watched_at": "2025-08-16T04:35:09.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 706,
+        "minutes_left": 0,
+        "minutes_watched": 0
       },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "EPISODE EIGHT",
+      "next_episode": {
+        "season": 23,
+        "number": 24,
+        "title": "August 22, 2025: Andrew Huberman, Frank Bruni, Christopher Rufo",
         "ids": {
-          "trakt": 10891164,
+          "trakt": 13338211,
           "tvdb": null,
           "imdb": null,
-          "tmdb": 4715888,
+          "tmdb": 6392577,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 23,
+        "number": 23,
+        "title": "August 15, 2025: Thomas Chatterton Williams, Walter Kirn, Molly Jong-Fast",
+        "ids": {
+          "trakt": 13338210,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6392576,
           "tvrage": null
         }
       }
