@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 9,
+      "completed": 10,
       "hidden": 0,
-      "last_watched_at": "2025-08-23T04:24:23.000Z",
+      "last_watched_at": "2025-08-23T05:00:42.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 9,
+        "play_count": 10,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 3,
+        "title": "Mission 2: Austria",
+        "ids": {
+          "trakt": 13424190,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464507,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 2,
         "title": "Mission 1: Thailand Continued",
@@ -32,18 +44,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6464506,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "Mission 1: Thailand",
-        "ids": {
-          "trakt": 13352031,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6406311,
           "tvrage": null
         }
       }
