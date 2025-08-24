@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Dexter: Resurrection",
+      "year": 2025,
+      "ids": {
+        "trakt": 249647,
+        "slug": "dexter-resurrection",
+        "tvdb": 452595,
+        "imdb": "tt33043892",
+        "tmdb": 259909,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 1,
+      "last_watched_at": "2025-08-24T05:56:39.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 7,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-24T05:56:39.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Camera Shy",
+        "ids": {
+          "trakt": 12853592,
+          "tvdb": 11088742,
+          "imdb": "tt36351463",
+          "tmdb": 6192926,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "A Beating Heart...",
+        "ids": {
+          "trakt": 12142723,
+          "tvdb": 10607376,
+          "imdb": "tt34718924",
+          "tmdb": 5498853,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
