@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 12,
+      "completed": 13,
       "hidden": 0,
-      "last_watched_at": "2025-08-23T06:34:45.000Z",
+      "last_watched_at": "2025-08-24T04:11:50.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 12,
+        "play_count": 13,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Mission 5: Day of the Dead",
+        "ids": {
+          "trakt": 13424193,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464510,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 5,
         "title": "Mission 4: Mexico",
@@ -32,18 +44,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6464509,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Mission 3: Location Classified",
-        "ids": {
-          "trakt": 13424191,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464508,
           "tvrage": null
         }
       }
