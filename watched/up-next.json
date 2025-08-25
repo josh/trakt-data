@@ -13,17 +13,29 @@
       }
     },
     "progress": {
-      "aired": 7,
-      "completed": 1,
+      "aired": 8,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2025-08-24T05:56:39.000Z",
+      "last_watched_at": "2025-08-25T02:33:18.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Backseat Driver",
+        "ids": {
+          "trakt": 12853593,
+          "tvdb": 11088743,
+          "imdb": "tt36351465",
+          "tmdb": 6192927,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 2,
         "title": "Camera Shy",
@@ -32,18 +44,6 @@
           "tvdb": 11088742,
           "imdb": "tt36351463",
           "tmdb": 6192926,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "A Beating Heart...",
-        "ids": {
-          "trakt": 12142723,
-          "tvdb": 10607376,
-          "imdb": "tt34718924",
-          "tmdb": 5498853,
           "tvrage": null
         }
       }
