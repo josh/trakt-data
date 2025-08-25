@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 14,
+      "completed": 15,
       "hidden": 0,
-      "last_watched_at": "2025-08-25T03:29:33.000Z",
+      "last_watched_at": "2025-08-25T03:57:55.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 14,
+        "play_count": 15,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "The Final Mission: London",
+        "ids": {
+          "trakt": 13424195,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464512,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 7,
         "title": "Mission 6: Bahamas",
@@ -32,18 +44,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6464511,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Mission 5: Day of the Dead",
-        "ids": {
-          "trakt": 13424193,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464510,
           "tvrage": null
         }
       }
