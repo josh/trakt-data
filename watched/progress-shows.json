@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 15,
-      "last_watched_at": "2025-08-25T03:57:55.000Z",
+      "completed": 16,
+      "last_watched_at": "2025-08-25T04:43:08.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -70,7 +70,7 @@
           "number": 2,
           "title": null,
           "aired": 8,
-          "completed": 7,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -109,14 +109,15 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-08-25T04:43:08.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 2,
         "number": 8,
         "title": "The Final Mission: London",
@@ -125,18 +126,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6464512,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "Mission 6: Bahamas",
-        "ids": {
-          "trakt": 13424194,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464511,
           "tvrage": null
         }
       }
