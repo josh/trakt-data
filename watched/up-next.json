@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "007: Road to a Million",
+      "year": 2023,
+      "ids": {
+        "trakt": 209558,
+        "slug": "007-road-to-a-million",
+        "tvdb": 418229,
+        "imdb": "tt19049680",
+        "tmdb": 234455,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 14,
+      "hidden": 0,
+      "last_watched_at": "2025-08-25T03:29:33.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 14,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "Mission 6: Bahamas",
+        "ids": {
+          "trakt": 13424194,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464511,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Mission 5: Day of the Dead",
+        "ids": {
+          "trakt": 13424193,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464510,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dexter: Resurrection",
       "year": 2025,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 11088742,
           "imdb": "tt36351463",
           "tmdb": 6192926,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "007: Road to a Million",
-      "year": 2023,
-      "ids": {
-        "trakt": 209558,
-        "slug": "007-road-to-a-million",
-        "tvdb": 418229,
-        "imdb": "tt19049680",
-        "tmdb": 234455,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 13,
-      "hidden": 0,
-      "last_watched_at": "2025-08-24T04:11:50.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 13,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Mission 5: Day of the Dead",
-        "ids": {
-          "trakt": 13424193,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464510,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Mission 4: Mexico",
-        "ids": {
-          "trakt": 13424192,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464509,
           "tvrage": null
         }
       }

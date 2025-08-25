@@ -1,6 +1,149 @@
 [
   {
     "show": {
+      "title": "007: Road to a Million",
+      "year": 2023,
+      "ids": {
+        "trakt": 209558,
+        "slug": "007-road-to-a-million",
+        "tvdb": 418229,
+        "imdb": "tt19049680",
+        "tmdb": 234455,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 14,
+      "last_watched_at": "2025-08-25T03:29:33.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-11-10T07:11:06.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-11-10T08:01:14.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-11-11T08:38:53.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-11-12T07:23:08.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-11-12T08:12:49.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-11-12T08:39:55.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-11-12T20:11:10.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-11-12T21:11:20.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 8,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-23T04:24:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-23T05:00:42.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-23T05:48:23.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-23T06:34:45.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-08-24T04:11:50.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-08-25T03:29:33.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "Mission 6: Bahamas",
+        "ids": {
+          "trakt": 13424194,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464511,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Mission 5: Day of the Dead",
+        "ids": {
+          "trakt": 13424193,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6464510,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dexter: Resurrection",
       "year": 2025,
       "ids": {
@@ -197,149 +340,6 @@
           "tvdb": 11071140,
           "imdb": "tt18263680",
           "tmdb": 6108954,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "007: Road to a Million",
-      "year": 2023,
-      "ids": {
-        "trakt": 209558,
-        "slug": "007-road-to-a-million",
-        "tvdb": 418229,
-        "imdb": "tt19049680",
-        "tmdb": 234455,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 13,
-      "last_watched_at": "2025-08-24T04:11:50.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-11-10T07:11:06.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-11-10T08:01:14.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-11-11T08:38:53.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-11-12T07:23:08.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-11-12T08:12:49.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-11-12T08:39:55.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-11-12T20:11:10.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-11-12T21:11:20.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 8,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-23T04:24:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-23T05:00:42.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-23T05:48:23.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-23T06:34:45.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-08-24T04:11:50.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Mission 5: Day of the Dead",
-        "ids": {
-          "trakt": 13424193,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464510,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Mission 4: Mexico",
-        "ids": {
-          "trakt": 13424192,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6464509,
           "tvrage": null
         }
       }
