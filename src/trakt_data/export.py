@@ -270,7 +270,13 @@ def _export_shows_watched_progress(ctx: Context) -> None:
     for watched_show in watched_shows:
         show_id = watched_show["show"]["ids"]["trakt"]
         path = f"/shows/{show_id}/progress/watched"
-        data = trakt_api_get(ctx.session, path=path)
+        try:
+            data = trakt_api_get(ctx.session, path=path)
+        except requests.HTTPError as exc:
+            if exc.response is not None and exc.response.status_code == 404:
+                logger.error("Show progress not found: %s", show_id)
+                continue
+            raise
         show_progress = {
             "show": watched_show["show"],
             "progress": data,
