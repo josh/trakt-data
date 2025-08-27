@@ -119,7 +119,7 @@ jobs:
       - name: Fetch deployed checksum
         id: deployed-checksum
         run: |
-          curl --silent https://josh.github.io/trakt-data/.checksum | tee "$RUNNER_TEMP/checksum"
+          curl --silent https://josh.github.io/trakt-data/checksum | tee "$RUNNER_TEMP/checksum"
           (echo -n "checksum=" ; head -n1 "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
 
       - name: Compute checksum
@@ -127,7 +127,7 @@ jobs:
         run: |
           find . -type f -not -path '*/\.*' -print0 | sort -z | xargs -0 sha256sum | sha256sum | awk '{print $1}' | tee "$RUNNER_TEMP/checksum"
           (echo -n "checksum=" ; cat "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
-          mv "$RUNNER_TEMP/checksum" .checksum
+          mv "$RUNNER_TEMP/checksum" checksum
         working-directory: data/
 
       - name: Upload artifact
