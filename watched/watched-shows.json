@@ -1,6 +1,51 @@
 [
   {
     "plays": 4,
+    "last_watched_at": "2025-08-28T06:06:12.000Z",
+    "last_updated_at": "2025-08-28T05:06:12.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T02:44:14.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T07:08:45.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-08-21T23:55:45.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-08-28T06:06:12.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 4,
     "last_watched_at": "2025-08-25T23:53:41.000Z",
     "last_updated_at": "2025-08-25T22:46:41.000Z",
     "reset_at": null,
@@ -3979,46 +4024,6 @@
             "number": 4,
             "plays": 1,
             "last_watched_at": "2025-08-22T07:05:31.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 3,
-    "last_watched_at": "2025-08-21T23:55:45.000Z",
-    "last_updated_at": "2025-08-21T23:00:45.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-08-13T02:44:14.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-08-13T07:08:45.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-08-21T23:55:45.000Z"
           }
         ]
       }

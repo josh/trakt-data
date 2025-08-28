@@ -1,6 +1,81 @@
 [
   {
     "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 4,
+      "completed": 4,
+      "last_watched_at": "2025-08-28T06:06:12.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 4,
+          "completed": 4,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T02:44:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T07:08:45.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-21T23:55:45.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-28T06:06:12.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "In Space, No One...",
+        "ids": {
+          "trakt": 13119037,
+          "tvdb": 10945247,
+          "imdb": "tt32572899",
+          "tmdb": 6231086,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Observation",
+        "ids": {
+          "trakt": 13119036,
+          "tvdb": 10945244,
+          "imdb": "tt32572896",
+          "tmdb": 6231085,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dexter: Resurrection",
       "year": 2025,
       "ids": {
@@ -4099,7 +4174,7 @@
       }
     },
     "progress": {
-      "aired": 14,
+      "aired": 15,
       "completed": 14,
       "last_watched_at": "2025-08-22T07:05:31.000Z",
       "reset_at": null,
@@ -4165,7 +4240,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 4,
           "episodes": [
             {
@@ -4187,6 +4262,11 @@
               "number": 4,
               "completed": true,
               "last_watched_at": "2025-08-22T07:05:31.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4213,76 +4293,6 @@
           "tvdb": 11229296,
           "imdb": "tt33307964",
           "tmdb": 6249765,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 3,
-      "completed": 3,
-      "last_watched_at": "2025-08-21T23:55:45.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 3,
-          "completed": 3,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T02:44:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-13T07:08:45.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-21T23:55:45.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Observation",
-        "ids": {
-          "trakt": 13119036,
-          "tvdb": 10945244,
-          "imdb": "tt32572896",
-          "tmdb": 6231085,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Metamorphosis",
-        "ids": {
-          "trakt": 13119035,
-          "tvdb": 10945243,
-          "imdb": "tt32572895",
-          "tmdb": 6231084,
           "tvrage": null
         }
       }
@@ -14370,7 +14380,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13445815,
+          "tvdb": 11162584,
+          "imdb": "tt35676129",
+          "tmdb": 6481076,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 1,
         "number": 8,
@@ -49876,6 +49897,121 @@
   },
   {
     "show": {
+      "title": "Disney Gallery: The Mandalorian",
+      "year": 2020,
+      "ids": {
+        "trakt": 160568,
+        "slug": "disney-gallery-the-mandalorian",
+        "tvdb": 380352,
+        "imdb": "tt12162902",
+        "tmdb": 101978,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 11,
+      "last_watched_at": "2023-06-29T01:46:34.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2020-05-05T03:46:40.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2020-05-08T23:07:40.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2020-05-28T22:38:20.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2020-05-28T23:29:24.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2020-05-29T20:18:12.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2020-06-12T23:39:16.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2020-06-12T23:55:21.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2020-06-28T17:29:22.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 2,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2020-12-26T02:11:04.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2021-08-25T22:25:40.000Z"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 1,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-06-29T01:46:34.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": null,
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Making of Season 3",
+        "ids": {
+          "trakt": 9963264,
+          "tvdb": 9795187,
+          "imdb": "tt27798075",
+          "tmdb": 4444105,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Class of '09",
       "year": 2023,
       "ids": {
@@ -53128,6 +53264,80 @@
           "tvdb": 9549495,
           "imdb": "tt16433682",
           "tmdb": 4222237,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Dead Ringers",
+      "year": 2023,
+      "ids": {
+        "trakt": 198208,
+        "slug": "dead-ringers-2023",
+        "tvdb": 387113,
+        "imdb": "tt12923632",
+        "tmdb": 130987,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 6,
+      "last_watched_at": "2023-04-25T01:02:31.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-04-23T05:26:42.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-04-24T00:11:55.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-04-24T00:56:03.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-04-24T23:14:32.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-04-25T00:27:20.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-04-25T01:02:31.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": null,
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Six",
+        "ids": {
+          "trakt": 7339060,
+          "tvdb": 9618046,
+          "imdb": "tt15940518",
+          "tmdb": 4234245,
           "tvrage": null
         }
       }
