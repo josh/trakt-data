@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2025-08-25T23:53:41.000Z",
+      "last_watched_at": "2025-08-29T19:34:54.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Cats & Mouse",
+        "ids": {
+          "trakt": 12853596,
+          "tvdb": 11148610,
+          "imdb": "tt36351472",
+          "tmdb": 6201596,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 5,
         "title": "Murder Horny",
@@ -32,18 +44,6 @@
           "tvdb": 11148584,
           "imdb": "tt36351470",
           "tmdb": 6201595,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Call Me Red",
-        "ids": {
-          "trakt": 12853594,
-          "tvdb": 11088744,
-          "imdb": "tt36351467",
-          "tmdb": 6201594,
           "tvrage": null
         }
       }

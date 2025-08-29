@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "Dexter: Resurrection",
+      "year": 2025,
+      "ids": {
+        "trakt": 249647,
+        "slug": "dexter-resurrection",
+        "tvdb": 452595,
+        "imdb": "tt33043892",
+        "tmdb": 259909,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 5,
+      "last_watched_at": "2025-08-29T19:34:54.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-24T05:56:39.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-25T02:33:18.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-25T22:46:07.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-25T23:53:41.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-08-29T19:34:54.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Cats & Mouse",
+        "ids": {
+          "trakt": 12853596,
+          "tvdb": 11148610,
+          "imdb": "tt36351472",
+          "tmdb": 6201596,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "Murder Horny",
+        "ids": {
+          "trakt": 12853595,
+          "tvdb": 11148584,
+          "imdb": "tt36351470",
+          "tmdb": 6201595,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -182,101 +277,6 @@
           "tvdb": 10945244,
           "imdb": "tt32572896",
           "tmdb": 6231085,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Dexter: Resurrection",
-      "year": 2025,
-      "ids": {
-        "trakt": 249647,
-        "slug": "dexter-resurrection",
-        "tvdb": 452595,
-        "imdb": "tt33043892",
-        "tmdb": 259909,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 4,
-      "last_watched_at": "2025-08-25T23:53:41.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-24T05:56:39.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-25T02:33:18.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-25T22:46:07.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-25T23:53:41.000Z"
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Murder Horny",
-        "ids": {
-          "trakt": 12853595,
-          "tvdb": 11148584,
-          "imdb": "tt36351470",
-          "tmdb": 6201595,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Call Me Red",
-        "ids": {
-          "trakt": 12853594,
-          "tvdb": 11088744,
-          "imdb": "tt36351467",
-          "tmdb": 6201594,
           "tvrage": null
         }
       }
