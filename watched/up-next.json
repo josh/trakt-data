@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
+      "completed": 7,
       "hidden": 0,
-      "last_watched_at": "2025-08-29T20:37:26.000Z",
+      "last_watched_at": "2025-08-29T21:57:29.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 7,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "The Kill Room Where It Happens",
+        "ids": {
+          "trakt": 12853598,
+          "tvdb": 11167529,
+          "imdb": "tt36351483",
+          "tmdb": 6201598,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 7,
         "title": "Course Correction",
@@ -32,18 +44,6 @@
           "tvdb": 11167528,
           "imdb": "tt36351476",
           "tmdb": 6201597,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Cats & Mouse",
-        "ids": {
-          "trakt": 12853596,
-          "tvdb": 11148610,
-          "imdb": "tt36351472",
-          "tmdb": 6201596,
           "tvrage": null
         }
       }
