@@ -1,6 +1,119 @@
 [
   {
     "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 10,
+      "last_watched_at": "2025-08-29T05:05:27.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-01-14T05:48:28.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-01-15T01:59:54.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-01-15T03:07:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-01-21T05:28:21.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-01-28T03:27:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-02-05T06:56:14.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-02-11T07:21:26.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-02-18T06:57:22.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 2,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-24T04:56:27.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-29T05:05:27.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 3,
+        "title": "Another Rick Up My Sleeve",
+        "ids": {
+          "trakt": 12565761,
+          "tvdb": 11130237,
+          "imdb": "tt35530357",
+          "tmdb": 6209412,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "A Man Is Only As Good As His Bird",
+        "ids": {
+          "trakt": 12565759,
+          "tvdb": 11130236,
+          "imdb": "tt35530355",
+          "tmdb": 6209411,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Alien: Earth",
       "year": 2025,
       "ids": {
@@ -296,114 +409,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6464512,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Peacemaker",
-      "year": 2022,
-      "ids": {
-        "trakt": 169009,
-        "slug": "peacemaker-2022",
-        "tvdb": 391153,
-        "imdb": "tt13146488",
-        "tmdb": 110492,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 9,
-      "completed": 9,
-      "last_watched_at": "2025-08-24T04:56:27.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-01-14T05:48:28.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-01-15T01:59:54.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-01-15T03:07:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-01-21T05:28:21.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-01-28T03:27:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-02-05T06:56:14.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-02-11T07:21:26.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-02-18T06:57:22.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 1,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-24T04:56:27.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "A Man Is Only As Good As His Bird",
-        "ids": {
-          "trakt": 12565759,
-          "tvdb": 11130236,
-          "imdb": "tt35530355",
-          "tmdb": 6209411,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "The Ties That Grind",
-        "ids": {
-          "trakt": 12483930,
-          "tvdb": 11071140,
-          "imdb": "tt18263680",
-          "tmdb": 6108954,
           "tvrage": null
         }
       }
@@ -4275,7 +4280,7 @@
       "next_episode": {
         "season": 2,
         "number": 5,
-        "title": "Jeopardy",
+        "title": "Jeopardy!",
         "ids": {
           "trakt": 13144328,
           "tvdb": 11229297,
@@ -14957,7 +14962,7 @@
       "seasons": [
         {
           "number": 1,
-          "title": "The Lyle and Erik Menendez Story",
+          "title": "Miniseries",
           "aired": 9,
           "completed": 9,
           "episodes": [
@@ -42672,7 +42677,7 @@
       }
     },
     "progress": {
-      "aired": 27,
+      "aired": 28,
       "completed": 11,
       "last_watched_at": "2024-03-28T05:51:55.000Z",
       "reset_at": null,
@@ -42796,7 +42801,7 @@
         {
           "number": 3,
           "title": null,
-          "aired": 7,
+          "aired": 8,
           "completed": 0,
           "episodes": [
             {
@@ -42831,6 +42836,11 @@
             },
             {
               "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             }
@@ -48447,7 +48457,7 @@
       }
     },
     "progress": {
-      "aired": 19,
+      "aired": 22,
       "completed": 10,
       "last_watched_at": "2023-08-06T03:56:43.000Z",
       "reset_at": null,
@@ -48513,7 +48523,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 9,
+          "aired": 12,
           "completed": 0,
           "episodes": [
             {
@@ -48558,6 +48568,21 @@
             },
             {
               "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 11,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 12,
               "completed": false,
               "last_watched_at": null
             }
