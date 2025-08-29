@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 5,
-      "last_watched_at": "2025-08-29T19:34:54.000Z",
+      "completed": 6,
+      "last_watched_at": "2025-08-29T20:37:26.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 8,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -51,8 +51,8 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-08-29T20:37:26.000Z"
             },
             {
               "number": 7,
@@ -70,6 +70,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
+        "number": 7,
+        "title": "Course Correction",
+        "ids": {
+          "trakt": 12853597,
+          "tvdb": 11167528,
+          "imdb": "tt36351476",
+          "tmdb": 6201597,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
         "number": 6,
         "title": "Cats & Mouse",
         "ids": {
@@ -77,18 +89,6 @@
           "tvdb": 11148610,
           "imdb": "tt36351472",
           "tmdb": 6201596,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Murder Horny",
-        "ids": {
-          "trakt": 12853595,
-          "tvdb": 11148584,
-          "imdb": "tt36351470",
-          "tmdb": 6201595,
           "tvrage": null
         }
       }
