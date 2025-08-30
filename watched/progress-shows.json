@@ -1,6 +1,144 @@
 [
   {
     "show": {
+      "title": "Platonic",
+      "year": 2023,
+      "ids": {
+        "trakt": 168898,
+        "slug": "platonic",
+        "tvdb": 391020,
+        "imdb": "tt13366604",
+        "tmdb": 112211,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 15,
+      "completed": 15,
+      "last_watched_at": "2025-08-30T06:08:18.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-05-30T00:09:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-05-30T05:44:04.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-05-31T05:13:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-06-04T02:13:06.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-06-07T05:04:25.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-06-14T05:52:54.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-06-28T05:26:22.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-06-28T05:57:37.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-07-04T03:50:02.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-07-14T01:36:48.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 5,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T04:43:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:10:27.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:40:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-22T07:05:31.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-08-30T06:08:18.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Road Trip",
+        "ids": {
+          "trakt": 13144329,
+          "tvdb": 11229298,
+          "imdb": "tt33307966",
+          "tmdb": 6249767,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Jeopardy!",
+        "ids": {
+          "trakt": 13144328,
+          "tvdb": 11229297,
+          "imdb": "tt33307965",
+          "tmdb": 6249766,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dexter: Resurrection",
       "year": 2025,
       "ids": {
@@ -4160,144 +4298,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6392577,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Platonic",
-      "year": 2023,
-      "ids": {
-        "trakt": 168898,
-        "slug": "platonic",
-        "tvdb": 391020,
-        "imdb": "tt13366604",
-        "tmdb": 112211,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 15,
-      "completed": 14,
-      "last_watched_at": "2025-08-22T07:05:31.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-05-30T00:09:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-05-30T05:44:04.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-05-31T05:13:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-06-04T02:13:06.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-06-07T05:04:25.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-06-14T05:52:54.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-06-28T05:26:22.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-06-28T05:57:37.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-07-04T03:50:02.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-07-14T01:36:48.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 5,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T04:43:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-13T05:10:27.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-13T05:40:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-22T07:05:31.000Z"
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Jeopardy!",
-        "ids": {
-          "trakt": 13144328,
-          "tvdb": 11229297,
-          "imdb": "tt33307965",
-          "tmdb": 6249766,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Fore!",
-        "ids": {
-          "trakt": 13144327,
-          "tvdb": 11229296,
-          "imdb": "tt33307964",
-          "tmdb": 6249765,
           "tvrage": null
         }
       }
