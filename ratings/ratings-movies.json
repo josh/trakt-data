@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-09-02T16:01:53.000Z",
+    "rating": 2,
+    "type": "movie",
+    "movie": {
+      "title": "Do the Right Thing",
+      "year": 1989,
+      "ids": {
+        "trakt": 767,
+        "slug": "do-the-right-thing-1989",
+        "imdb": "tt0097216",
+        "tmdb": 925
+      }
+    }
+  },
+  {
     "rated_at": "2025-08-26T16:01:45.000Z",
     "rating": 5,
     "type": "movie",
@@ -2825,10 +2840,10 @@
     "type": "movie",
     "movie": {
       "title": "Strange Darling",
-      "year": 2024,
+      "year": 2023,
       "ids": {
         "trakt": 827707,
-        "slug": "strange-darling-2024",
+        "slug": "strange-darling-2023",
         "imdb": "tt22375054",
         "tmdb": 1029281
       }
@@ -45829,7 +45844,7 @@
     "rating": 5,
     "type": "movie",
     "movie": {
-      "title": "This is Spinal Tap",
+      "title": "This Is Spinal Tap",
       "year": 1984,
       "ids": {
         "trakt": 6168,
