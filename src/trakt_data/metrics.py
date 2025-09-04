@@ -237,7 +237,7 @@ def _resolve_season_trakt_id(
             break
 
     if season_trakt_id is None:
-        logger.warning(
+        logger.error(
             "'%s' missing S%d",
             show["title"],
             season_number,
@@ -276,7 +276,7 @@ def _resolve_episode_trakt_id(
 
     if episode_trakt_id is None:
         show = _export_media_show(ctx, show_trakt_id)
-        logger.warning(
+        logger.error(
             "'%s' missing S%dE%d",
             show["title"],
             season_number,
@@ -751,7 +751,7 @@ def _generate_up_next_show_metrics(
         show = _export_media_show(ctx, trakt_id=trakt_show_id)
     except requests.HTTPError as exc:
         if exc.response is not None and exc.response.status_code == 404:
-            logger.error("Show not found: %s", trakt_show_id)
+            logger.warning("Show not found: %s", trakt_show_id)
             return
         raise
     trakt_show_slug = show["ids"]["slug"]
