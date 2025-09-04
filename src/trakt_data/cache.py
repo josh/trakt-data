@@ -116,6 +116,6 @@ def prune_cache_dir(
     for idx in expired_indices:
         file, mtime, age = files[idx]
         age_dt = timedelta(seconds=int(age))
-        logger.info("Prune '%s' (%s, %s)", file, mtime, age_dt)
+        logger.debug("Prune '%s' (%s, %s)", file, mtime, age_dt)
         if not dry_run:
             file.unlink()

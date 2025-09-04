@@ -391,7 +391,7 @@ def trakt_api_get(
     if not path.startswith("/"):
         path = f"/{path}"
 
-    logger.info("GET %s", f"https://api.trakt.tv{path}")
+    logger.debug("GET %s", f"https://api.trakt.tv{path}")
     response = session.get(f"https://api.trakt.tv{path}", params=params)
     response.raise_for_status()
 
@@ -420,7 +420,7 @@ def trakt_api_paginated_get(
         params["page"] = str(page)
         params["limit"] = str(limit)
 
-        logger.info("GET %s", f"https://api.trakt.tv{path}")
+        logger.debug("GET %s", f"https://api.trakt.tv{path}")
         response = session.get(f"https://api.trakt.tv{path}", params=params)
         response.raise_for_status()
 
