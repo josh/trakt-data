@@ -747,7 +747,13 @@ def _generate_up_next_show_metrics(
     hidden_show_trakt_ids: set[int],
     completed_episodes: set[tuple[int, int, int]],
 ) -> None:
-    show = _export_media_show(ctx, trakt_id=trakt_show_id)
+    try:
+        show = _export_media_show(ctx, trakt_id=trakt_show_id)
+    except requests.HTTPError as exc:
+        if exc.response is not None and exc.response.status_code == 404:
+            logger.error("Show not found: %s", trakt_show_id)
+            return
+        raise
     trakt_show_slug = show["ids"]["slug"]
     show_hidden_str = "true" if trakt_show_id in hidden_show_trakt_ids else "false"
 
