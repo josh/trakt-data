@@ -274,7 +274,7 @@ def _export_shows_watched_progress(ctx: Context) -> None:
             data = trakt_api_get(ctx.session, path=path)
         except requests.HTTPError as exc:
             if exc.response is not None and exc.response.status_code == 404:
-                logger.error("Show progress not found: %s", show_id)
+                logger.warning("Show progress not found: %s", show_id)
                 continue
             raise
         show_progress = {
