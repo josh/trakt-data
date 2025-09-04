@@ -1,4 +1,5 @@
 import logging
+import os
 from datetime import timedelta
 from pathlib import Path
 
@@ -15,6 +16,22 @@ from .metrics import generate_metrics
 from .trakt import trakt_session
 
 
+def _configure_logger(verbose: bool) -> None:
+    in_gha = os.getenv("GITHUB_ACTIONS") == "true"
+    gh_fmt = "::%(levelname)s file=%(pathname)s,line=%(lineno)d::%(message)s"
+    default_fmt = "%(levelname)s %(name)s:%(lineno)d %(message)s"
+    logging.basicConfig(
+        level=logging.DEBUG if verbose else logging.INFO,
+        format=gh_fmt if in_gha else default_fmt,
+        datefmt="%Y-%m-%d %H:%M",
+        force=True,
+    )
+    logging.addLevelName(logging.ERROR, "error")
+    logging.addLevelName(logging.WARNING, "warning")
+    logging.addLevelName(logging.INFO, "notice")
+    logging.addLevelName(logging.DEBUG, "debug")
+
+
 @click.group()
 @click.option(
     "--verbose",
@@ -24,7 +41,7 @@ from .trakt import trakt_session
 )
 @click.version_option()
 def main(verbose: bool) -> None:
-    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
+    _configure_logger(verbose)
 
 
 @main.command()
