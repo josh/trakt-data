@@ -1,6 +1,86 @@
 [
   {
     "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 5,
+      "last_watched_at": "2025-09-04T06:53:51.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 5,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T02:44:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T07:08:45.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-21T23:55:45.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-28T06:06:12.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-04T06:53:51.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "The Fly",
+        "ids": {
+          "trakt": 13119038,
+          "tvdb": 10945246,
+          "imdb": "tt32572904",
+          "tmdb": 6231388,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "In Space, No One...",
+        "ids": {
+          "trakt": 13119037,
+          "tvdb": 10945247,
+          "imdb": "tt32572899",
+          "tmdb": 6231086,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -13,7 +93,7 @@
       }
     },
     "progress": {
-      "aired": 15,
+      "aired": 16,
       "completed": 15,
       "last_watched_at": "2025-08-30T06:08:18.000Z",
       "reset_at": null,
@@ -79,7 +159,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 5,
           "episodes": [
             {
@@ -106,6 +186,11 @@
               "number": 5,
               "completed": true,
               "last_watched_at": "2025-08-30T06:08:18.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -151,16 +236,16 @@
       }
     },
     "progress": {
-      "aired": 8,
-      "completed": 8,
-      "last_watched_at": "2025-08-29T22:45:40.000Z",
+      "aired": 9,
+      "completed": 9,
+      "last_watched_at": "2025-08-29T22:55:06.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
-          "aired": 8,
-          "completed": 8,
+          "aired": 9,
+          "completed": 9,
           "episodes": [
             {
               "number": 1,
@@ -201,12 +286,29 @@
               "number": 8,
               "completed": true,
               "last_watched_at": "2025-08-29T22:45:40.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-08-29T22:55:06.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "And Justice for All\u2026",
+        "ids": {
+          "trakt": 12853600,
+          "tvdb": 11167531,
+          "imdb": "tt36332569",
+          "tmdb": 6201600,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 9,
         "title": "Touched by an \u00c1ngel",
@@ -215,18 +317,6 @@
           "tvdb": 11167530,
           "imdb": "tt36351486",
           "tmdb": 6201599,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "The Kill Room Where It Happens",
-        "ids": {
-          "trakt": 12853598,
-          "tvdb": 11167529,
-          "imdb": "tt36351483",
-          "tmdb": 6201598,
           "tvrage": null
         }
       }
@@ -340,81 +430,6 @@
           "tvdb": 11130236,
           "imdb": "tt35530355",
           "tmdb": 6209411,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 4,
-      "completed": 4,
-      "last_watched_at": "2025-08-28T06:06:12.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 4,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T02:44:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-13T07:08:45.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-21T23:55:45.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-28T06:06:12.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "In Space, No One...",
-        "ids": {
-          "trakt": 13119037,
-          "tvdb": 10945247,
-          "imdb": "tt32572899",
-          "tmdb": 6231086,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Observation",
-        "ids": {
-          "trakt": 13119036,
-          "tvdb": 10945244,
-          "imdb": "tt32572896",
-          "tmdb": 6231085,
           "tvrage": null
         }
       }
@@ -14587,7 +14602,7 @@
       "next_episode": {
         "season": 5,
         "number": 1,
-        "title": "Episode 1",
+        "title": "Bad Dates",
         "ids": {
           "trakt": 13189747,
           "tvdb": 11175982,
@@ -56698,7 +56713,7 @@
       }
     },
     "progress": {
-      "aired": 12,
+      "aired": 16,
       "completed": 8,
       "last_watched_at": "2022-11-25T06:35:48.000Z",
       "reset_at": null,
@@ -56754,7 +56769,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 4,
+          "aired": 8,
           "completed": 0,
           "episodes": [
             {
@@ -56774,6 +56789,26 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             }
@@ -72641,7 +72676,7 @@
       }
     },
     "progress": {
-      "aired": 1698,
+      "aired": 1700,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81215,6 +81250,24 @@
               "last_watched_at": null
             }
           ]
+        },
+        {
+          "number": 11,
+          "title": null,
+          "aired": 2,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
         }
       ],
       "hidden_seasons": [],
@@ -83100,8 +83153,8 @@
       }
     },
     "progress": {
-      "aired": 229,
-      "completed": 229,
+      "aired": 228,
+      "completed": 228,
       "last_watched_at": "2020-12-09T07:30:00.000Z",
       "reset_at": null,
       "seasons": [
@@ -83743,8 +83796,8 @@
         {
           "number": 6,
           "title": null,
-          "aired": 24,
-          "completed": 24,
+          "aired": 23,
+          "completed": 23,
           "episodes": [
             {
               "number": 1,
@@ -83819,50 +83872,45 @@
             {
               "number": 15,
               "completed": true,
-              "last_watched_at": "2020-09-20T22:27:23.000Z"
+              "last_watched_at": "2020-09-20T22:27:27.000Z"
             },
             {
               "number": 16,
               "completed": true,
-              "last_watched_at": "2020-09-20T22:27:27.000Z"
+              "last_watched_at": "2020-09-20T22:34:32.000Z"
             },
             {
               "number": 17,
               "completed": true,
-              "last_watched_at": "2020-09-20T22:34:32.000Z"
+              "last_watched_at": "2020-09-21T05:49:01.000Z"
             },
             {
               "number": 18,
               "completed": true,
-              "last_watched_at": "2020-09-21T05:49:01.000Z"
+              "last_watched_at": "2020-09-21T06:07:56.000Z"
             },
             {
               "number": 19,
               "completed": true,
-              "last_watched_at": "2020-09-21T06:07:56.000Z"
+              "last_watched_at": "2020-09-21T06:08:10.000Z"
             },
             {
               "number": 20,
               "completed": true,
-              "last_watched_at": "2020-09-21T06:08:10.000Z"
+              "last_watched_at": "2020-09-21T06:23:12.000Z"
             },
             {
               "number": 21,
               "completed": true,
-              "last_watched_at": "2020-09-21T06:23:12.000Z"
+              "last_watched_at": "2020-09-21T22:58:35.000Z"
             },
             {
               "number": 22,
               "completed": true,
-              "last_watched_at": "2020-09-21T22:58:35.000Z"
-            },
-            {
-              "number": 23,
-              "completed": true,
               "last_watched_at": "2020-09-21T23:10:20.000Z"
             },
             {
-              "number": 24,
+              "number": 23,
               "completed": true,
               "last_watched_at": "2020-10-02T05:26:35.000Z"
             }
@@ -120770,7 +120818,7 @@
       }
     },
     "progress": {
-      "aired": 324,
+      "aired": 325,
       "completed": 247,
       "last_watched_at": "2013-12-12T06:00:00.000Z",
       "reset_at": null,
@@ -122591,7 +122639,7 @@
         {
           "number": 27,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -122606,6 +122654,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }

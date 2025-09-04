@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "show": {
+      "title": "Platonic",
+      "year": 2023,
+      "ids": {
+        "trakt": 168898,
+        "slug": "platonic",
+        "tvdb": 391020,
+        "imdb": "tt13366604",
+        "tmdb": 112211,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 15,
+      "hidden": 0,
+      "last_watched_at": "2025-08-30T06:08:18.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 15,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Road Trip",
+        "ids": {
+          "trakt": 13144329,
+          "tvdb": 11229298,
+          "imdb": "tt33307966",
+          "tmdb": 6249767,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Jeopardy!",
+        "ids": {
+          "trakt": 13144328,
+          "tvdb": 11229297,
+          "imdb": "tt33307965",
+          "tmdb": 6249766,
+          "tvrage": null
+        }
+      }
+    }
+  }
+]
