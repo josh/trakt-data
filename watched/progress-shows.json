@@ -1,6 +1,229 @@
 [
   {
     "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 11,
+      "last_watched_at": "2025-09-08T06:56:44.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-01-14T05:48:28.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-01-15T01:59:54.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-01-15T03:07:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-01-21T05:28:21.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-01-28T03:27:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-02-05T06:56:14.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-02-11T07:21:26.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-02-18T06:57:22.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 3,
+          "completed": 3,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-24T04:56:27.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-29T05:05:27.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:56:44.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Need I Say Door",
+        "ids": {
+          "trakt": 12565762,
+          "tvdb": 11130238,
+          "imdb": "tt35530359",
+          "tmdb": 6209413,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 3,
+        "title": "Another Rick Up My Sleeve",
+        "ids": {
+          "trakt": 12565761,
+          "tvdb": 11130237,
+          "imdb": "tt35530357",
+          "tmdb": 6209412,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Paper",
+      "year": 2025,
+      "ids": {
+        "trakt": 239158,
+        "slug": "the-paper-2025",
+        "tvdb": 449872,
+        "imdb": "tt32159809",
+        "tmdb": 253941,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 1,
+      "last_watched_at": "2025-09-08T06:15:57.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:15:57.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "The Five W's",
+        "ids": {
+          "trakt": 13301424,
+          "tvdb": 11237481,
+          "imdb": "tt36848184",
+          "tmdb": 6372045,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "Pilot",
+        "ids": {
+          "trakt": 11849732,
+          "tvdb": 10487117,
+          "imdb": "tt33362999",
+          "tmdb": 5333190,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Dexter: Resurrection",
       "year": 2025,
       "ids": {
@@ -13,16 +236,16 @@
       }
     },
     "progress": {
-      "aired": 9,
-      "completed": 9,
-      "last_watched_at": "2025-08-29T22:55:06.000Z",
+      "aired": 10,
+      "completed": 10,
+      "last_watched_at": "2025-09-07T06:35:52.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
-          "aired": 9,
-          "completed": 9,
+          "aired": 10,
+          "completed": 10,
           "episodes": [
             {
               "number": 1,
@@ -68,12 +291,18 @@
               "number": 9,
               "completed": true,
               "last_watched_at": "2025-08-29T22:55:06.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2025-09-07T06:35:52.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 1,
         "number": 10,
         "title": "And Justice for All",
@@ -82,18 +311,6 @@
           "tvdb": 11167531,
           "imdb": "tt36332569",
           "tmdb": 6201600,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Touched by an \u00c1ngel",
-        "ids": {
-          "trakt": 12853599,
-          "tvdb": 11167530,
-          "imdb": "tt36351486",
-          "tmdb": 6201599,
           "tvrage": null
         }
       }
@@ -4073,124 +4290,6 @@
           "tvdb": 11229297,
           "imdb": "tt33307965",
           "tmdb": 6249766,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Peacemaker",
-      "year": 2022,
-      "ids": {
-        "trakt": 169009,
-        "slug": "peacemaker-2022",
-        "tvdb": 391153,
-        "imdb": "tt13146488",
-        "tmdb": 110492,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 11,
-      "completed": 10,
-      "last_watched_at": "2025-08-29T05:05:27.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-01-14T05:48:28.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-01-15T01:59:54.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-01-15T03:07:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-01-21T05:28:21.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-01-28T03:27:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-02-05T06:56:14.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-02-11T07:21:26.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-02-18T06:57:22.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 3,
-          "completed": 2,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-24T04:56:27.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-29T05:05:27.000Z"
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "Another Rick Up My Sleeve",
-        "ids": {
-          "trakt": 12565761,
-          "tvdb": 11130237,
-          "imdb": "tt35530357",
-          "tmdb": 6209412,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "A Man Is Only As Good As His Bird",
-        "ids": {
-          "trakt": 12565759,
-          "tvdb": 11130236,
-          "imdb": "tt35530355",
-          "tmdb": 6209411,
           "tvrage": null
         }
       }
@@ -69840,7 +69939,7 @@
       }
     },
     "progress": {
-      "aired": 341,
+      "aired": 342,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -71536,7 +71635,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 21,
+          "aired": 22,
           "completed": 0,
           "episodes": [
             {
@@ -71641,6 +71740,11 @@
             },
             {
               "number": 21,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 22,
               "completed": false,
               "last_watched_at": null
             }
