@@ -1,6 +1,149 @@
 [
   {
     "show": {
+      "title": "Platonic",
+      "year": 2023,
+      "ids": {
+        "trakt": 168898,
+        "slug": "platonic",
+        "tvdb": 391020,
+        "imdb": "tt13366604",
+        "tmdb": 112211,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 16,
+      "last_watched_at": "2025-09-09T05:00:03.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-05-30T00:09:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-05-30T05:44:04.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-05-31T05:13:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-06-04T02:13:06.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-06-07T05:04:25.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-06-14T05:52:54.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-06-28T05:26:22.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-06-28T05:57:37.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-07-04T03:50:02.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-07-14T01:36:48.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T04:43:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:10:27.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:40:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-22T07:05:31.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-08-30T06:08:18.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-09T05:00:03.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "The Office Party",
+        "ids": {
+          "trakt": 13144330,
+          "tvdb": 11229299,
+          "imdb": "tt33307967",
+          "tmdb": 6249768,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Road Trip",
+        "ids": {
+          "trakt": 13144329,
+          "tvdb": 11229298,
+          "imdb": "tt33307966",
+          "tmdb": 6249767,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Paper",
       "year": 2025,
       "ids": {
@@ -14,15 +157,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 2,
-      "last_watched_at": "2025-09-09T03:36:05.000Z",
+      "completed": 4,
+      "last_watched_at": "2025-09-09T04:33:01.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 2,
+          "completed": 4,
           "episodes": [
             {
               "number": 1,
@@ -36,13 +179,13 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:05:30.000Z"
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:33:01.000Z"
             },
             {
               "number": 5,
@@ -80,25 +223,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 1,
-        "number": 3,
-        "title": "Buddy and the Dude",
+        "number": 5,
+        "title": "Scam Alert!",
         "ids": {
-          "trakt": 13301425,
-          "tvdb": 11237482,
-          "imdb": "tt37027809",
-          "tmdb": 6372046,
+          "trakt": 13301427,
+          "tvdb": 11237484,
+          "imdb": "tt33519284",
+          "tmdb": 6372048,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 1,
-        "number": 2,
-        "title": "The Five W's",
+        "number": 4,
+        "title": "TTT vs the Blogger",
         "ids": {
-          "trakt": 13301424,
-          "tvdb": 11237481,
-          "imdb": "tt36848184",
-          "tmdb": 6372045,
+          "trakt": 13301426,
+          "tvdb": 11237483,
+          "imdb": "tt37037346",
+          "tmdb": 6372047,
           "tvrage": null
         }
       }
@@ -4147,149 +4290,6 @@
           "tvdb": 10945247,
           "imdb": "tt32572899",
           "tmdb": 6231086,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Platonic",
-      "year": 2023,
-      "ids": {
-        "trakt": 168898,
-        "slug": "platonic",
-        "tvdb": 391020,
-        "imdb": "tt13366604",
-        "tmdb": 112211,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 15,
-      "last_watched_at": "2025-08-30T06:08:18.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-05-30T00:09:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-05-30T05:44:04.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-05-31T05:13:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-06-04T02:13:06.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-06-07T05:04:25.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-06-14T05:52:54.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-06-28T05:26:22.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-06-28T05:57:37.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-07-04T03:50:02.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-07-14T01:36:48.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 6,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T04:43:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-13T05:10:27.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-13T05:40:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-22T07:05:31.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-08-30T06:08:18.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Road Trip",
-        "ids": {
-          "trakt": 13144329,
-          "tvdb": 11229298,
-          "imdb": "tt33307966",
-          "tmdb": 6249767,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Jeopardy!",
-        "ids": {
-          "trakt": 13144328,
-          "tvdb": 11229297,
-          "imdb": "tt33307965",
-          "tmdb": 6249766,
           "tvrage": null
         }
       }
