@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "The Paper",
+      "year": 2025,
+      "ids": {
+        "trakt": 239158,
+        "slug": "the-paper-2025",
+        "tvdb": 449872,
+        "imdb": "tt32159809",
+        "tmdb": 253941,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 2,
+      "last_watched_at": "2025-09-09T03:36:05.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:15:57.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-09T03:36:05.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Buddy and the Dude",
+        "ids": {
+          "trakt": 13301425,
+          "tvdb": 11237482,
+          "imdb": "tt37027809",
+          "tmdb": 6372046,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "The Five W's",
+        "ids": {
+          "trakt": 13301424,
+          "tvdb": 11237481,
+          "imdb": "tt36848184",
+          "tmdb": 6372045,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -119,111 +224,6 @@
   },
   {
     "show": {
-      "title": "The Paper",
-      "year": 2025,
-      "ids": {
-        "trakt": 239158,
-        "slug": "the-paper-2025",
-        "tvdb": 449872,
-        "imdb": "tt32159809",
-        "tmdb": 253941,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 1,
-      "last_watched_at": "2025-09-08T06:15:57.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:15:57.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "The Five W's",
-        "ids": {
-          "trakt": 13301424,
-          "tvdb": 11237481,
-          "imdb": "tt36848184",
-          "tmdb": 6372045,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Pilot",
-        "ids": {
-          "trakt": 11849732,
-          "tvdb": 10487117,
-          "imdb": "tt33362999",
-          "tmdb": 5333190,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Dexter: Resurrection",
       "year": 2025,
       "ids": {
@@ -305,7 +305,7 @@
       "last_episode": {
         "season": 1,
         "number": 10,
-        "title": "And Justice for All",
+        "title": "And Justice for All...",
         "ids": {
           "trakt": 12853600,
           "tvdb": 11167531,
@@ -14175,7 +14175,7 @@
       }
     },
     "progress": {
-      "aired": 40,
+      "aired": 43,
       "completed": 40,
       "last_watched_at": "2024-10-30T04:07:05.000Z",
       "reset_at": null,
@@ -14409,6 +14409,29 @@
               "number": 10,
               "completed": true,
               "last_watched_at": "2024-10-30T04:07:05.000Z"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": null,
+          "aired": 3,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -17917,7 +17940,7 @@
       }
     },
     "progress": {
-      "aired": 4440,
+      "aired": 4441,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39882,7 +39905,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 95,
+          "aired": 96,
           "completed": 0,
           "episodes": [
             {
@@ -40357,6 +40380,11 @@
             },
             {
               "number": 95,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 96,
               "completed": false,
               "last_watched_at": null
             }
@@ -72795,7 +72823,7 @@
       }
     },
     "progress": {
-      "aired": 1701,
+      "aired": 1702,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81373,7 +81401,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -81388,6 +81416,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }

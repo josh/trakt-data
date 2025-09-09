@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2025-09-08T06:15:57.000Z",
+      "last_watched_at": "2025-09-09T03:36:05.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Buddy and the Dude",
+        "ids": {
+          "trakt": 13301425,
+          "tvdb": 11237482,
+          "imdb": "tt37027809",
+          "tmdb": 6372046,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 2,
         "title": "The Five W's",
@@ -32,18 +44,6 @@
           "tvdb": 11237481,
           "imdb": "tt36848184",
           "tmdb": 6372045,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Pilot",
-        "ids": {
-          "trakt": 11849732,
-          "tvdb": 10487117,
-          "imdb": "tt33362999",
-          "tmdb": 5333190,
           "tvrage": null
         }
       }
@@ -94,6 +94,56 @@
           "tvdb": 11229297,
           "imdb": "tt33307965",
           "tmdb": 6249766,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Only Murders in the Building",
+      "year": 2021,
+      "ids": {
+        "trakt": 165314,
+        "slug": "only-murders-in-the-building",
+        "tvdb": 399959,
+        "imdb": "tt11691774",
+        "tmdb": 107113,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 43,
+      "completed": 40,
+      "hidden": 0,
+      "last_watched_at": "2024-10-30T04:07:05.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 40,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 5,
+        "number": 1,
+        "title": "Nail in the Coffin",
+        "ids": {
+          "trakt": 13347305,
+          "tvdb": null,
+          "imdb": "tt33333194",
+          "tmdb": 6402072,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 10,
+        "title": "My Best Friend's Wedding",
+        "ids": {
+          "trakt": 12211627,
+          "tvdb": 10593234,
+          "imdb": "tt30252921",
+          "tmdb": 5541148,
           "tvrage": null
         }
       }
