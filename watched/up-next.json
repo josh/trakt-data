@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2025-09-09T04:33:01.000Z",
+      "last_watched_at": "2025-09-10T04:57:15.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Churnalism",
+        "ids": {
+          "trakt": 13301428,
+          "tvdb": 11237485,
+          "imdb": "tt37040072",
+          "tmdb": 6372049,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 5,
         "title": "Scam Alert!",
@@ -34,16 +46,104 @@
           "tmdb": 6372048,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Platonic",
+      "year": 2023,
+      "ids": {
+        "trakt": 168898,
+        "slug": "platonic",
+        "tvdb": 391020,
+        "imdb": "tt13366604",
+        "tmdb": 112211,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 17,
+      "completed": 16,
+      "hidden": 0,
+      "last_watched_at": "2025-09-09T05:00:03.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 16,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "The Office Party",
+        "ids": {
+          "trakt": 13144330,
+          "tvdb": 11229299,
+          "imdb": "tt33307967",
+          "tmdb": 6249768,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Road Trip",
+        "ids": {
+          "trakt": 13144329,
+          "tvdb": 11229298,
+          "imdb": "tt33307966",
+          "tmdb": 6249767,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2025-09-04T06:53:51.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "The Fly",
+        "ids": {
+          "trakt": 13119038,
+          "tvdb": 10945246,
+          "imdb": "tt32572904",
+          "tmdb": 6231388,
+          "tvrage": null
+        }
       },
       "last_episode": {
         "season": 1,
-        "number": 4,
-        "title": "TTT vs the Blogger",
+        "number": 5,
+        "title": "In Space, No One...",
         "ids": {
-          "trakt": 13301426,
-          "tvdb": 11237483,
-          "imdb": "tt37037346",
-          "tmdb": 6372047,
+          "trakt": 13119037,
+          "tvdb": 10945247,
+          "imdb": "tt32572899",
+          "tmdb": 6231086,
           "tvrage": null
         }
       }
@@ -79,7 +179,7 @@
         "title": "Nail in the Coffin",
         "ids": {
           "trakt": 13347305,
-          "tvdb": null,
+          "tvdb": 11256808,
           "imdb": "tt33333194",
           "tmdb": 6402072,
           "tvrage": null

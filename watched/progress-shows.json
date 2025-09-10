@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "The Paper",
+      "year": 2025,
+      "ids": {
+        "trakt": 239158,
+        "slug": "the-paper-2025",
+        "tvdb": 449872,
+        "imdb": "tt32159809",
+        "tmdb": 253941,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 5,
+      "last_watched_at": "2025-09-10T04:57:15.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:15:57.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-09T03:36:05.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:05:30.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:33:01.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-10T04:57:15.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Churnalism",
+        "ids": {
+          "trakt": 13301428,
+          "tvdb": 11237485,
+          "imdb": "tt37040072",
+          "tmdb": 6372049,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "Scam Alert!",
+        "ids": {
+          "trakt": 13301427,
+          "tvdb": 11237484,
+          "imdb": "tt33519284",
+          "tmdb": 6372048,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -13,7 +118,7 @@
       }
     },
     "progress": {
-      "aired": 16,
+      "aired": 17,
       "completed": 16,
       "last_watched_at": "2025-09-09T05:00:03.000Z",
       "reset_at": null,
@@ -79,7 +184,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 6,
           "episodes": [
             {
@@ -111,6 +216,11 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-09-09T05:00:03.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -137,111 +247,6 @@
           "tvdb": 11229298,
           "imdb": "tt33307966",
           "tmdb": 6249767,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Paper",
-      "year": 2025,
-      "ids": {
-        "trakt": 239158,
-        "slug": "the-paper-2025",
-        "tvdb": 449872,
-        "imdb": "tt32159809",
-        "tmdb": 253941,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 4,
-      "last_watched_at": "2025-09-09T04:33:01.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:15:57.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-09T03:36:05.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:05:30.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:33:01.000Z"
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "Scam Alert!",
-        "ids": {
-          "trakt": 13301427,
-          "tvdb": 11237484,
-          "imdb": "tt33519284",
-          "tmdb": 6372048,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "TTT vs the Blogger",
-        "ids": {
-          "trakt": 13301426,
-          "tvdb": 11237483,
-          "imdb": "tt37037346",
-          "tmdb": 6372047,
           "tvrage": null
         }
       }
@@ -4229,7 +4234,7 @@
       }
     },
     "progress": {
-      "aired": 5,
+      "aired": 6,
       "completed": 5,
       "last_watched_at": "2025-09-04T06:53:51.000Z",
       "reset_at": null,
@@ -4237,7 +4242,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 5,
           "episodes": [
             {
@@ -4264,6 +4269,11 @@
               "number": 5,
               "completed": true,
               "last_watched_at": "2025-09-04T06:53:51.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -14443,7 +14453,7 @@
         "title": "Nail in the Coffin",
         "ids": {
           "trakt": 13347305,
-          "tvdb": null,
+          "tvdb": 11256808,
           "imdb": "tt33333194",
           "tmdb": 6402072,
           "tvrage": null
@@ -17940,7 +17950,7 @@
       }
     },
     "progress": {
-      "aired": 4441,
+      "aired": 4442,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39905,7 +39915,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 96,
+          "aired": 97,
           "completed": 0,
           "episodes": [
             {
@@ -40385,6 +40395,11 @@
             },
             {
               "number": 96,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 97,
               "completed": false,
               "last_watched_at": null
             }
@@ -72823,7 +72838,7 @@
       }
     },
     "progress": {
-      "aired": 1702,
+      "aired": 1703,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81401,7 +81416,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -81421,6 +81436,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }
