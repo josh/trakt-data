@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 7,
+      "completed": 8,
       "hidden": 0,
-      "last_watched_at": "2025-09-10T05:56:33.000Z",
+      "last_watched_at": "2025-09-11T05:07:50.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 7,
+        "play_count": 8,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Matching Ponchos",
+        "ids": {
+          "trakt": 13301431,
+          "tvdb": 11237488,
+          "imdb": "tt37041341",
+          "tmdb": 6372053,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 8,
         "title": "Church and State",
@@ -32,68 +44,6 @@
           "tvdb": 11237487,
           "imdb": "tt37041108",
           "tmdb": 6372052,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "I Love You",
-        "ids": {
-          "trakt": 13301429,
-          "tvdb": 11237486,
-          "imdb": "tt37040192",
-          "tmdb": 6372050,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Platonic",
-      "year": 2023,
-      "ids": {
-        "trakt": 168898,
-        "slug": "platonic",
-        "tvdb": 391020,
-        "imdb": "tt13366604",
-        "tmdb": 112211,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 17,
-      "completed": 16,
-      "hidden": 0,
-      "last_watched_at": "2025-09-09T05:00:03.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 16,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "The Office Party",
-        "ids": {
-          "trakt": 13144330,
-          "tvdb": 11229299,
-          "imdb": "tt33307967",
-          "tmdb": 6249768,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Road Trip",
-        "ids": {
-          "trakt": 13144329,
-          "tvdb": 11229298,
-          "imdb": "tt33307966",
-          "tmdb": 6249767,
           "tvrage": null
         }
       }

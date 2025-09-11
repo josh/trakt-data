@@ -1,111 +1,6 @@
 [
   {
     "show": {
-      "title": "The Paper",
-      "year": 2025,
-      "ids": {
-        "trakt": 239158,
-        "slug": "the-paper-2025",
-        "tvdb": 449872,
-        "imdb": "tt32159809",
-        "tmdb": 253941,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 7,
-      "last_watched_at": "2025-09-10T05:56:33.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:15:57.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-09T03:36:05.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:05:30.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:33:01.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-09-10T04:57:15.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-09-10T05:27:10.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-09-10T05:56:33.000Z"
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Church and State",
-        "ids": {
-          "trakt": 13301430,
-          "tvdb": 11237487,
-          "imdb": "tt37041108",
-          "tmdb": 6372052,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "I Love You",
-        "ids": {
-          "trakt": 13301429,
-          "tvdb": 11237486,
-          "imdb": "tt37040192",
-          "tmdb": 6372050,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -119,8 +14,8 @@
     },
     "progress": {
       "aired": 17,
-      "completed": 16,
-      "last_watched_at": "2025-09-09T05:00:03.000Z",
+      "completed": 17,
+      "last_watched_at": "2025-09-11T05:45:08.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -185,7 +80,7 @@
           "number": 2,
           "title": null,
           "aired": 7,
-          "completed": 6,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -219,14 +114,26 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-11T05:45:08.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "Young Darcy Mysteries",
+        "ids": {
+          "trakt": 13144331,
+          "tvdb": 11229300,
+          "imdb": "tt33307969",
+          "tmdb": 6249769,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 7,
         "title": "The Office Party",
@@ -237,16 +144,109 @@
           "tmdb": 6249768,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Paper",
+      "year": 2025,
+      "ids": {
+        "trakt": 239158,
+        "slug": "the-paper-2025",
+        "tvdb": 449872,
+        "imdb": "tt32159809",
+        "tmdb": 253941,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 8,
+      "last_watched_at": "2025-09-11T05:07:50.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:15:57.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-09T03:36:05.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:05:30.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:33:01.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-10T04:57:15.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-10T05:27:10.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-09-10T05:56:33.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-09-11T05:07:50.000Z"
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Matching Ponchos",
+        "ids": {
+          "trakt": 13301431,
+          "tvdb": 11237488,
+          "imdb": "tt37041341",
+          "tmdb": 6372053,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Road Trip",
+        "season": 1,
+        "number": 8,
+        "title": "Church and State",
         "ids": {
-          "trakt": 13144329,
-          "tvdb": 11229298,
-          "imdb": "tt33307966",
-          "tmdb": 6249767,
+          "trakt": 13301430,
+          "tvdb": 11237487,
+          "imdb": "tt37041108",
+          "tmdb": 6372052,
           "tvrage": null
         }
       }
@@ -17950,7 +17950,7 @@
       }
     },
     "progress": {
-      "aired": 4442,
+      "aired": 4443,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39915,7 +39915,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 97,
+          "aired": 98,
           "completed": 0,
           "episodes": [
             {
@@ -40400,6 +40400,11 @@
             },
             {
               "number": 97,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 98,
               "completed": false,
               "last_watched_at": null
             }
@@ -72838,7 +72843,7 @@
       }
     },
     "progress": {
-      "aired": 1703,
+      "aired": 1704,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81416,7 +81421,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 0,
           "episodes": [
             {
@@ -81441,6 +81446,11 @@
             },
             {
               "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
               "completed": false,
               "last_watched_at": null
             }
