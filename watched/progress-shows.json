@@ -1,6 +1,91 @@
 [
   {
     "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 6,
+      "last_watched_at": "2025-09-11T07:13:55.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T02:44:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T07:08:45.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-21T23:55:45.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-28T06:06:12.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-04T06:53:51.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-11T07:13:55.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Emergence",
+        "ids": {
+          "trakt": 13119039,
+          "tvdb": 10945245,
+          "imdb": "tt32572903",
+          "tmdb": 6231389,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "The Fly",
+        "ids": {
+          "trakt": 13119038,
+          "tvdb": 10945246,
+          "imdb": "tt32572904",
+          "tmdb": 6231388,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Platonic",
       "year": 2023,
       "ids": {
@@ -4215,91 +4300,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6392578,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 5,
-      "last_watched_at": "2025-09-04T06:53:51.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 6,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T02:44:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-13T07:08:45.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-21T23:55:45.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-28T06:06:12.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-09-04T06:53:51.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "The Fly",
-        "ids": {
-          "trakt": 13119038,
-          "tvdb": 10945246,
-          "imdb": "tt32572904",
-          "tmdb": 6231388,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "In Space, No One...",
-        "ids": {
-          "trakt": 13119037,
-          "tvdb": 10945247,
-          "imdb": "tt32572899",
-          "tmdb": 6231086,
           "tvrage": null
         }
       }

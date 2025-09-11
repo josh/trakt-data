@@ -1,5 +1,60 @@
 [
   {
+    "plays": 6,
+    "last_watched_at": "2025-09-11T07:13:55.000Z",
+    "last_updated_at": "2025-09-11T06:15:55.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Alien: Earth",
+      "year": 2025,
+      "ids": {
+        "trakt": 170689,
+        "slug": "alien-earth",
+        "tvdb": 458912,
+        "imdb": "tt13623632",
+        "tmdb": 157239,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T02:44:14.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-08-13T07:08:45.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-08-21T23:55:45.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-08-28T06:06:12.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-09-04T06:53:51.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-09-11T07:13:55.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 17,
     "last_watched_at": "2025-09-11T05:45:08.000Z",
     "last_updated_at": "2025-09-11T05:10:08.000Z",
@@ -3994,56 +4049,6 @@
             "number": 25,
             "plays": 1,
             "last_watched_at": "2025-09-06T18:20:13.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 5,
-    "last_watched_at": "2025-09-04T06:53:51.000Z",
-    "last_updated_at": "2025-09-04T05:49:51.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-08-13T02:44:14.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-08-13T07:08:45.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-08-21T23:55:45.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-08-28T06:06:12.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-09-04T06:53:51.000Z"
           }
         ]
       }
