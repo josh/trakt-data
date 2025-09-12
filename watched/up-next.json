@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 8,
+      "completed": 9,
       "hidden": 0,
-      "last_watched_at": "2025-09-11T05:07:50.000Z",
+      "last_watched_at": "2025-09-12T06:27:11.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 8,
+        "play_count": 9,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "The Ohio Journalism Awards",
+        "ids": {
+          "trakt": 13301432,
+          "tvdb": 11237489,
+          "imdb": "tt37041730",
+          "tmdb": 6372054,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 9,
         "title": "Matching Ponchos",
@@ -34,16 +46,54 @@
           "tmdb": 6372053,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 11,
+      "hidden": 0,
+      "last_watched_at": "2025-09-08T06:56:44.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 11,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Need I Say Door",
+        "ids": {
+          "trakt": 12565762,
+          "tvdb": 11130238,
+          "imdb": "tt35530359",
+          "tmdb": 6209413,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Church and State",
+        "season": 2,
+        "number": 3,
+        "title": "Another Rick Up My Sleeve",
         "ids": {
-          "trakt": 13301430,
-          "tvdb": 11237487,
-          "imdb": "tt37041108",
-          "tmdb": 6372052,
+          "trakt": 12565761,
+          "tvdb": 11130237,
+          "imdb": "tt35530357",
+          "tmdb": 6209412,
           "tvrage": null
         }
       }

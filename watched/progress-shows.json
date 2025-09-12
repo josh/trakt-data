@@ -1,6 +1,111 @@
 [
   {
     "show": {
+      "title": "The Paper",
+      "year": 2025,
+      "ids": {
+        "trakt": 239158,
+        "slug": "the-paper-2025",
+        "tvdb": 449872,
+        "imdb": "tt32159809",
+        "tmdb": 253941,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 9,
+      "last_watched_at": "2025-09-12T06:27:11.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 9,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:15:57.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-09T03:36:05.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:05:30.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:33:01.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-10T04:57:15.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-10T05:27:10.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-09-10T05:56:33.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-09-11T05:07:50.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-09-12T06:27:11.000Z"
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 10,
+        "title": "The Ohio Journalism Awards",
+        "ids": {
+          "trakt": 13301432,
+          "tvdb": 11237489,
+          "imdb": "tt37041730",
+          "tmdb": 6372054,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 9,
+        "title": "Matching Ponchos",
+        "ids": {
+          "trakt": 13301431,
+          "tvdb": 11237488,
+          "imdb": "tt37041341",
+          "tmdb": 6372053,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Alien: Earth",
       "year": 2025,
       "ids": {
@@ -234,111 +339,6 @@
   },
   {
     "show": {
-      "title": "The Paper",
-      "year": 2025,
-      "ids": {
-        "trakt": 239158,
-        "slug": "the-paper-2025",
-        "tvdb": 449872,
-        "imdb": "tt32159809",
-        "tmdb": 253941,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 8,
-      "last_watched_at": "2025-09-11T05:07:50.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:15:57.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-09T03:36:05.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:05:30.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:33:01.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-09-10T04:57:15.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-09-10T05:27:10.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-09-10T05:56:33.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-09-11T05:07:50.000Z"
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Matching Ponchos",
-        "ids": {
-          "trakt": 13301431,
-          "tvdb": 11237488,
-          "imdb": "tt37041341",
-          "tmdb": 6372053,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Church and State",
-        "ids": {
-          "trakt": 13301430,
-          "tvdb": 11237487,
-          "imdb": "tt37041108",
-          "tmdb": 6372052,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -351,7 +351,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 11,
       "last_watched_at": "2025-09-08T06:56:44.000Z",
       "reset_at": null,
@@ -407,7 +407,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 3,
           "episodes": [
             {
@@ -424,6 +424,11 @@
               "number": 3,
               "completed": true,
               "last_watched_at": "2025-09-08T06:56:44.000Z"
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4282,7 +4287,7 @@
       "next_episode": {
         "season": 23,
         "number": 26,
-        "title": "September 12, 2025",
+        "title": "September 12, 2025: Charlie Sheen, Tim Alberta, Ben Shapiro",
         "ids": {
           "trakt": 13441713,
           "tvdb": null,
@@ -17950,7 +17955,7 @@
       }
     },
     "progress": {
-      "aired": 4443,
+      "aired": 4444,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39915,7 +39920,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 98,
+          "aired": 99,
           "completed": 0,
           "episodes": [
             {
@@ -40405,6 +40410,11 @@
             },
             {
               "number": 98,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 99,
               "completed": false,
               "last_watched_at": null
             }
@@ -42849,7 +42859,7 @@
       }
     },
     "progress": {
-      "aired": 29,
+      "aired": 30,
       "completed": 11,
       "last_watched_at": "2024-03-28T05:51:55.000Z",
       "reset_at": null,
@@ -42973,7 +42983,7 @@
         {
           "number": 3,
           "title": null,
-          "aired": 9,
+          "aired": 10,
           "completed": 0,
           "episodes": [
             {
@@ -43018,6 +43028,11 @@
             },
             {
               "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
               "completed": false,
               "last_watched_at": null
             }
@@ -72843,7 +72858,7 @@
       }
     },
     "progress": {
-      "aired": 1704,
+      "aired": 1705,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81421,7 +81436,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 0,
           "episodes": [
             {
@@ -81451,6 +81466,11 @@
             },
             {
               "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
               "completed": false,
               "last_watched_at": null
             }
