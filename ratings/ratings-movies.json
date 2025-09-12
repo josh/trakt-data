@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-09-11T23:59:59.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "Nobody 2",
+      "year": 2025,
+      "ids": {
+        "trakt": 810123,
+        "slug": "nobody-2-2025",
+        "imdb": "tt28996126",
+        "tmdb": 1007734
+      }
+    }
+  },
+  {
     "rated_at": "2025-09-06T16:01:44.000Z",
     "rating": 3,
     "type": "movie",
@@ -2885,10 +2900,10 @@
     "type": "movie",
     "movie": {
       "title": "Strange Darling",
-      "year": 2023,
+      "year": 2024,
       "ids": {
         "trakt": 827707,
-        "slug": "strange-darling-2023",
+        "slug": "strange-darling-2024",
         "imdb": "tt22375054",
         "tmdb": 1029281
       }
