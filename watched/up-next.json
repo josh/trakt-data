@@ -1,56 +1,6 @@
 [
   {
     "show": {
-      "title": "The Paper",
-      "year": 2025,
-      "ids": {
-        "trakt": 239158,
-        "slug": "the-paper-2025",
-        "tvdb": 449872,
-        "imdb": "tt32159809",
-        "tmdb": 253941,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 9,
-      "hidden": 0,
-      "last_watched_at": "2025-09-12T06:27:11.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 9,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 10,
-        "title": "The Ohio Journalism Awards",
-        "ids": {
-          "trakt": 13301432,
-          "tvdb": 11237489,
-          "imdb": "tt37041730",
-          "tmdb": 6372054,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Matching Ponchos",
-        "ids": {
-          "trakt": 13301431,
-          "tvdb": 11237488,
-          "imdb": "tt37041341",
-          "tmdb": 6372053,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -94,6 +44,56 @@
           "tvdb": 11130237,
           "imdb": "tt35530357",
           "tmdb": 6209412,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 706,
+      "completed": 705,
+      "hidden": 0,
+      "last_watched_at": "2025-09-06T18:20:13.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 708,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 23,
+        "number": 26,
+        "title": "September 12, 2025: Charlie Sheen, Tim Alberta, Ben Shapiro",
+        "ids": {
+          "trakt": 13441713,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6478499,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 23,
+        "number": 25,
+        "title": "September 5, 2025: Steven Pinker, Kaitlan Collins, Stephen Moore",
+        "ids": {
+          "trakt": 13338212,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6392578,
           "tvrage": null
         }
       }

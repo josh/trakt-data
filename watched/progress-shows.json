@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 9,
-      "last_watched_at": "2025-09-12T06:27:11.000Z",
+      "completed": 10,
+      "last_watched_at": "2025-09-13T04:07:54.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 10,
-          "completed": 9,
+          "completed": 10,
           "episodes": [
             {
               "number": 1,
@@ -71,14 +71,15 @@
             },
             {
               "number": 10,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-13T04:07:54.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 1,
         "number": 10,
         "title": "The Ohio Journalism Awards",
@@ -87,18 +88,6 @@
           "tvdb": 11237489,
           "imdb": "tt37041730",
           "tmdb": 6372054,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 9,
-        "title": "Matching Ponchos",
-        "ids": {
-          "trakt": 13301431,
-          "tvdb": 11237488,
-          "imdb": "tt37041341",
-          "tmdb": 6372053,
           "tvrage": null
         }
       }
@@ -568,7 +557,7 @@
       }
     },
     "progress": {
-      "aired": 705,
+      "aired": 706,
       "completed": 705,
       "last_watched_at": "2025-09-06T18:20:13.000Z",
       "reset_at": null,
@@ -4152,7 +4141,7 @@
         {
           "number": 23,
           "title": null,
-          "aired": 25,
+          "aired": 26,
           "completed": 25,
           "episodes": [
             {
@@ -4279,6 +4268,11 @@
               "number": 25,
               "completed": true,
               "last_watched_at": "2025-09-06T18:20:13.000Z"
+            },
+            {
+              "number": 26,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
