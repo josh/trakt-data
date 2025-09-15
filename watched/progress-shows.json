@@ -1,6 +1,129 @@
 [
   {
     "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 12,
+      "last_watched_at": "2025-09-15T06:49:18.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-01-14T05:48:28.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-01-15T01:59:54.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-01-15T03:07:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-01-21T05:28:21.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-01-28T03:27:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-02-05T06:56:14.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-02-11T07:21:26.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-02-18T06:57:22.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 4,
+          "completed": 4,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-24T04:56:27.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-29T05:05:27.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:56:44.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-09-15T06:49:18.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Back to the Suture",
+        "ids": {
+          "trakt": 12565764,
+          "tvdb": 11130239,
+          "imdb": "tt35530360",
+          "tmdb": 6209414,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Need I Say Door",
+        "ids": {
+          "trakt": 12565762,
+          "tvdb": 11130238,
+          "imdb": "tt35530359",
+          "tmdb": 6209413,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Real Time with Bill Maher",
       "year": 2003,
       "ids": {
@@ -4082,129 +4205,6 @@
           "tvdb": 11229299,
           "imdb": "tt33307967",
           "tmdb": 6249768,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Peacemaker",
-      "year": 2022,
-      "ids": {
-        "trakt": 169009,
-        "slug": "peacemaker-2022",
-        "tvdb": 391153,
-        "imdb": "tt13146488",
-        "tmdb": 110492,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 12,
-      "completed": 11,
-      "last_watched_at": "2025-09-08T06:56:44.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-01-14T05:48:28.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-01-15T01:59:54.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-01-15T03:07:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-01-21T05:28:21.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-01-28T03:27:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-02-05T06:56:14.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-02-11T07:21:26.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-02-18T06:57:22.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 4,
-          "completed": 3,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-24T04:56:27.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-29T05:05:27.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:56:44.000Z"
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 4,
-        "title": "Need I Say Door",
-        "ids": {
-          "trakt": 12565762,
-          "tvdb": 11130238,
-          "imdb": "tt35530359",
-          "tmdb": 6209413,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 3,
-        "title": "Another Rick Up My Sleeve",
-        "ids": {
-          "trakt": 12565761,
-          "tvdb": 11130237,
-          "imdb": "tt35530357",
-          "tmdb": 6209412,
           "tvrage": null
         }
       }
@@ -48967,7 +48967,18 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": null,
+      "next_episode": {
+        "season": 4,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 13512038,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6527377,
+          "tvrage": null
+        }
+      },
       "last_episode": {
         "season": 3,
         "number": 8,
