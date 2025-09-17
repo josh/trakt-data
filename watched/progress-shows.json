@@ -1,6 +1,159 @@
 [
   {
     "show": {
+      "title": "Platonic",
+      "year": 2023,
+      "ids": {
+        "trakt": 168898,
+        "slug": "platonic",
+        "tvdb": 391020,
+        "imdb": "tt13366604",
+        "tmdb": 112211,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 18,
+      "last_watched_at": "2025-09-17T05:30:06.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-05-30T00:09:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-05-30T05:44:04.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-05-31T05:13:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-06-04T02:13:06.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-06-07T05:04:25.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-06-14T05:52:54.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-06-28T05:26:22.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-06-28T05:57:37.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-07-04T03:50:02.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-07-14T01:36:48.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-13T04:43:51.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:10:27.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-08-13T05:40:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-08-22T07:05:31.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-08-30T06:08:18.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-09T05:00:03.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-09-11T05:45:08.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-09-17T05:30:06.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 9,
+        "title": "Boundaries",
+        "ids": {
+          "trakt": 13144332,
+          "tvdb": 11229301,
+          "imdb": "tt33307968",
+          "tmdb": 6249770,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "Young Darcy Mysteries",
+        "ids": {
+          "trakt": 13144331,
+          "tvdb": 11229300,
+          "imdb": "tt33307969",
+          "tmdb": 6249769,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -3991,7 +4144,7 @@
       }
     },
     "progress": {
-      "aired": 6,
+      "aired": 7,
       "completed": 6,
       "last_watched_at": "2025-09-11T07:13:55.000Z",
       "reset_at": null,
@@ -3999,7 +4152,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 6,
           "episodes": [
             {
@@ -4031,6 +4184,11 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-09-11T07:13:55.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4057,154 +4215,6 @@
           "tvdb": 10945246,
           "imdb": "tt32572904",
           "tmdb": 6231388,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Platonic",
-      "year": 2023,
-      "ids": {
-        "trakt": 168898,
-        "slug": "platonic",
-        "tvdb": 391020,
-        "imdb": "tt13366604",
-        "tmdb": 112211,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 17,
-      "completed": 17,
-      "last_watched_at": "2025-09-11T05:45:08.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-05-30T00:09:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-05-30T05:44:04.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-05-31T05:13:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-06-04T02:13:06.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-06-07T05:04:25.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-06-14T05:52:54.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-06-28T05:26:22.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-06-28T05:57:37.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-07-04T03:50:02.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-07-14T01:36:48.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 7,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-13T04:43:51.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-13T05:10:27.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-08-13T05:40:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-08-22T07:05:31.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-08-30T06:08:18.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-09-09T05:00:03.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-09-11T05:45:08.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 8,
-        "title": "Young Darcy Mysteries",
-        "ids": {
-          "trakt": 13144331,
-          "tvdb": 11229300,
-          "imdb": "tt33307969",
-          "tmdb": 6249769,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 7,
-        "title": "The Office Party",
-        "ids": {
-          "trakt": 13144330,
-          "tvdb": 11229299,
-          "imdb": "tt33307967",
-          "tmdb": 6249768,
           "tvrage": null
         }
       }
@@ -14184,7 +14194,7 @@
       }
     },
     "progress": {
-      "aired": 43,
+      "aired": 44,
       "completed": 40,
       "last_watched_at": "2024-10-30T04:07:05.000Z",
       "reset_at": null,
@@ -14424,7 +14434,7 @@
         {
           "number": 5,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -14439,6 +14449,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }
@@ -17949,7 +17964,7 @@
       }
     },
     "progress": {
-      "aired": 4444,
+      "aired": 4445,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39914,7 +39929,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 99,
+          "aired": 100,
           "completed": 0,
           "episodes": [
             {
@@ -40409,6 +40424,11 @@
             },
             {
               "number": 99,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 100,
               "completed": false,
               "last_watched_at": null
             }
@@ -46121,7 +46141,7 @@
       }
     },
     "progress": {
-      "aired": 30,
+      "aired": 31,
       "completed": 30,
       "last_watched_at": "2023-11-16T08:10:39.000Z",
       "reset_at": null,
@@ -46297,6 +46317,19 @@
               "number": 10,
               "completed": true,
               "last_watched_at": "2023-11-16T08:10:39.000Z"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": null,
+          "aired": 1,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -48973,8 +49006,8 @@
         "title": "Episode 1",
         "ids": {
           "trakt": 13512038,
-          "tvdb": null,
-          "imdb": null,
+          "tvdb": 11336518,
+          "imdb": "tt23132038",
           "tmdb": 6527377,
           "tvrage": null
         }
@@ -72863,7 +72896,7 @@
       }
     },
     "progress": {
-      "aired": 1705,
+      "aired": 1706,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81441,7 +81474,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 7,
+          "aired": 8,
           "completed": 0,
           "episodes": [
             {
@@ -81476,6 +81509,11 @@
             },
             {
               "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
               "completed": false,
               "last_watched_at": null
             }
