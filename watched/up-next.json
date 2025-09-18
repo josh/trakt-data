@@ -1,56 +1,6 @@
 [
   {
     "show": {
-      "title": "Alien: Earth",
-      "year": 2025,
-      "ids": {
-        "trakt": 170689,
-        "slug": "alien-earth",
-        "tvdb": 458912,
-        "imdb": "tt13623632",
-        "tmdb": 157239,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 7,
-      "completed": 6,
-      "hidden": 0,
-      "last_watched_at": "2025-09-11T07:13:55.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 6,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Emergence",
-        "ids": {
-          "trakt": 13119039,
-          "tvdb": 10945245,
-          "imdb": "tt32572903",
-          "tmdb": 6231389,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "The Fly",
-        "ids": {
-          "trakt": 13119038,
-          "tvdb": 10945246,
-          "imdb": "tt32572904",
-          "tmdb": 6231388,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Only Murders in the Building",
       "year": 2021,
       "ids": {
@@ -94,6 +44,56 @@
           "tvdb": 10593234,
           "imdb": "tt30252921",
           "tmdb": 5541148,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Gen V",
+      "year": 2023,
+      "ids": {
+        "trakt": 196842,
+        "slug": "gen-v",
+        "tvdb": 417909,
+        "imdb": "tt13159924",
+        "tmdb": 205715,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2023-11-20T21:27:09.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "New Year, New U",
+        "ids": {
+          "trakt": 13178990,
+          "tvdb": 10923469,
+          "imdb": "tt29550655",
+          "tmdb": 6277631,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Guardians of Godolkin",
+        "ids": {
+          "trakt": 10784214,
+          "tvdb": 9907873,
+          "imdb": "tt28485909",
+          "tmdb": 4591464,
           "tvrage": null
         }
       }
