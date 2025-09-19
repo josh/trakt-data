@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 13,
+      "completed": 12,
+      "hidden": 0,
+      "last_watched_at": "2025-09-15T06:49:18.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 12,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 5,
+        "title": "Back to the Suture",
+        "ids": {
+          "trakt": 12565764,
+          "tvdb": 11130239,
+          "imdb": "tt35530360",
+          "tmdb": 6209414,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "Need I Say Door",
+        "ids": {
+          "trakt": 12565762,
+          "tvdb": 11130238,
+          "imdb": "tt35530359",
+          "tmdb": 6209413,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Only Murders in the Building",
       "year": 2021,
       "ids": {
@@ -94,56 +144,6 @@
           "tvdb": 9907873,
           "imdb": "tt28485909",
           "tmdb": 4591464,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Morning Show",
-      "year": 2019,
-      "ids": {
-        "trakt": 145783,
-        "slug": "the-morning-show",
-        "tvdb": 361563,
-        "imdb": "tt7203552",
-        "tmdb": 90282,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 31,
-      "completed": 30,
-      "hidden": 0,
-      "last_watched_at": "2023-11-16T08:10:39.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 30,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 4,
-        "number": 1,
-        "title": "My Roman Empire",
-        "ids": {
-          "trakt": 12100080,
-          "tvdb": 11167947,
-          "imdb": "tt27647157",
-          "tmdb": 5468049,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 10,
-        "title": "The Overview Effect",
-        "ids": {
-          "trakt": 10739604,
-          "tvdb": 9875727,
-          "imdb": "tt26921543",
-          "tmdb": 4556119,
           "tvrage": null
         }
       }

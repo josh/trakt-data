@@ -1,5 +1,55 @@
 [
   {
+    "plays": 5,
+    "last_watched_at": "2025-09-19T05:03:00.000Z",
+    "last_updated_at": "2025-09-19T15:41:48.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "The Case Against Adnan Syed",
+      "year": 2019,
+      "ids": {
+        "trakt": 130988,
+        "slug": "the-case-against-adnan-syed",
+        "tvdb": 347833,
+        "imdb": "tt8425310",
+        "tmdb": 86598,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2019-03-14T04:28:22.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2019-03-20T04:12:05.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2019-03-25T03:35:06.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2019-04-01T23:11:11.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-09-19T05:03:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 7,
     "last_watched_at": "2025-09-18T06:52:27.000Z",
     "last_updated_at": "2025-09-18T06:07:27.000Z",
@@ -67224,51 +67274,6 @@
             "number": 10,
             "plays": 1,
             "last_watched_at": "2019-04-08T22:43:33.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 4,
-    "last_watched_at": "2019-04-01T23:11:11.000Z",
-    "last_updated_at": "2019-04-01T23:11:11.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "The Case Against Adnan Syed",
-      "year": 2019,
-      "ids": {
-        "trakt": 130988,
-        "slug": "the-case-against-adnan-syed",
-        "tvdb": 347833,
-        "imdb": "tt8425310",
-        "tmdb": 86598,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2019-03-14T04:28:22.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2019-03-20T04:12:05.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2019-03-25T03:35:06.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2019-04-01T23:11:11.000Z"
           }
         ]
       }

@@ -1,6 +1,75 @@
 [
   {
     "show": {
+      "title": "The Case Against Adnan Syed",
+      "year": 2019,
+      "ids": {
+        "trakt": 130988,
+        "slug": "the-case-against-adnan-syed",
+        "tvdb": 347833,
+        "imdb": "tt8425310",
+        "tmdb": 86598,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 5,
+      "last_watched_at": "2025-09-19T05:03:00.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 5,
+          "completed": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2019-03-14T04:28:22.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2019-03-20T04:12:05.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2019-03-25T03:35:06.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2019-04-01T23:11:11.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-19T05:03:00.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": null,
+      "last_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "The Tree Grew",
+        "ids": {
+          "trakt": 13482712,
+          "tvdb": 11320540,
+          "imdb": "tt38120469",
+          "tmdb": 6503118,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Alien: Earth",
       "year": 2025,
       "ids": {
@@ -256,7 +325,7 @@
       }
     },
     "progress": {
-      "aired": 12,
+      "aired": 13,
       "completed": 12,
       "last_watched_at": "2025-09-15T06:49:18.000Z",
       "reset_at": null,
@@ -312,7 +381,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 4,
           "episodes": [
             {
@@ -334,6 +403,11 @@
               "number": 4,
               "completed": true,
               "last_watched_at": "2025-09-15T06:49:18.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -17964,7 +18038,7 @@
       }
     },
     "progress": {
-      "aired": 4446,
+      "aired": 4447,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -39929,7 +40003,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 101,
+          "aired": 102,
           "completed": 0,
           "episodes": [
             {
@@ -40434,6 +40508,11 @@
             },
             {
               "number": 101,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 102,
               "completed": false,
               "last_watched_at": null
             }
@@ -72924,7 +73003,7 @@
       }
     },
     "progress": {
-      "aired": 1707,
+      "aired": 1708,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81502,7 +81581,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 9,
+          "aired": 10,
           "completed": 0,
           "episodes": [
             {
@@ -81547,6 +81626,11 @@
             },
             {
               "number": 9,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 10,
               "completed": false,
               "last_watched_at": null
             }
@@ -98179,81 +98263,6 @@
           "tvdb": 7109112,
           "imdb": "tt8389108",
           "tmdb": 1738718,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Case Against Adnan Syed",
-      "year": 2019,
-      "ids": {
-        "trakt": 130988,
-        "slug": "the-case-against-adnan-syed",
-        "tvdb": 347833,
-        "imdb": "tt8425310",
-        "tmdb": 86598,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 4,
-      "completed": 4,
-      "last_watched_at": "2019-04-01T23:11:11.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 4,
-          "completed": 4,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2019-03-14T04:28:22.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2019-03-20T04:12:05.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2019-03-25T03:35:06.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2019-04-01T23:11:11.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "The Tree Grew",
-        "ids": {
-          "trakt": 13482712,
-          "tvdb": 11320540,
-          "imdb": "tt38120469",
-          "tmdb": 6503118,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "Time Is the Killer",
-        "ids": {
-          "trakt": 3423758,
-          "tvdb": 7081108,
-          "imdb": "tt9749084",
-          "tmdb": 1704943,
           "tvrage": null
         }
       }
