@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "Black Rabbit",
+      "year": 2025,
+      "ids": {
+        "trakt": 230778,
+        "slug": "black-rabbit",
+        "tvdb": 447579,
+        "imdb": "tt23055142",
+        "tmdb": 249039,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 1,
+      "last_watched_at": "2025-09-23T06:20:32.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 8,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-23T06:20:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "The Black Rabbits",
+        "ids": {
+          "trakt": 11629999,
+          "tvdb": 10509404,
+          "imdb": "tt32445248",
+          "tmdb": 5212190,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 1,
+        "title": "The Cyclone",
+        "ids": {
+          "trakt": 11627828,
+          "tvdb": 10379079,
+          "imdb": "tt23117512",
+          "tmdb": 5211617,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -3882,7 +3977,7 @@
       "last_episode": {
         "season": 23,
         "number": 27,
-        "title": "September 19, 2025",
+        "title": "September 19, 2025: Tom Homan, Alex Wagner, Joe Manchin",
         "ids": {
           "trakt": 13441714,
           "tvdb": null,
@@ -14273,7 +14368,7 @@
       }
     },
     "progress": {
-      "aired": 44,
+      "aired": 45,
       "completed": 40,
       "last_watched_at": "2024-10-30T04:07:05.000Z",
       "reset_at": null,
@@ -14513,7 +14608,7 @@
         {
           "number": 5,
           "title": null,
-          "aired": 4,
+          "aired": 5,
           "completed": 0,
           "episodes": [
             {
@@ -14533,6 +14628,11 @@
             },
             {
               "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
               "completed": false,
               "last_watched_at": null
             }
@@ -18043,7 +18143,7 @@
       }
     },
     "progress": {
-      "aired": 4447,
+      "aired": 4448,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -40008,7 +40108,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 102,
+          "aired": 103,
           "completed": 0,
           "episodes": [
             {
@@ -40518,6 +40618,11 @@
             },
             {
               "number": 102,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 103,
               "completed": false,
               "last_watched_at": null
             }
@@ -55784,7 +55889,7 @@
       }
     },
     "progress": {
-      "aired": 19,
+      "aired": 20,
       "completed": 9,
       "last_watched_at": "2023-01-08T20:49:13.000Z",
       "reset_at": null,
@@ -55895,6 +56000,19 @@
             },
             {
               "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 1,
+          "completed": 0,
+          "episodes": [
+            {
+              "number": 1,
               "completed": false,
               "last_watched_at": null
             }
@@ -70152,7 +70270,7 @@
       }
     },
     "progress": {
-      "aired": 342,
+      "aired": 343,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -71848,7 +71966,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 22,
+          "aired": 23,
           "completed": 0,
           "episodes": [
             {
@@ -71958,6 +72076,11 @@
             },
             {
               "number": 22,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 23,
               "completed": false,
               "last_watched_at": null
             }
@@ -73008,7 +73131,7 @@
       }
     },
     "progress": {
-      "aired": 1708,
+      "aired": 1709,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81586,7 +81709,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 10,
+          "aired": 11,
           "completed": 0,
           "episodes": [
             {
@@ -81636,6 +81759,11 @@
             },
             {
               "number": 10,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 11,
               "completed": false,
               "last_watched_at": null
             }
