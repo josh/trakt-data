@@ -101,6 +101,56 @@
   },
   {
     "show": {
+      "title": "Slow Horses",
+      "year": 2022,
+      "ids": {
+        "trakt": 155534,
+        "slug": "slow-horses",
+        "tvdb": 372264,
+        "imdb": "tt5875444",
+        "tmdb": 95480,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 25,
+      "completed": 24,
+      "hidden": 0,
+      "last_watched_at": "2024-10-10T00:17:39.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 24,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 5,
+        "number": 1,
+        "title": "Bad Dates",
+        "ids": {
+          "trakt": 13189747,
+          "tvdb": 11175982,
+          "imdb": "tt30765140",
+          "tmdb": 6284963,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 4,
+        "number": 6,
+        "title": "Hello Goodbye",
+        "ids": {
+          "trakt": 12059077,
+          "tvdb": 10586002,
+          "imdb": "tt27243355",
+          "tmdb": 5440290,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Gen V",
       "year": 2023,
       "ids": {
@@ -113,7 +163,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 8,
       "hidden": 0,
       "last_watched_at": "2023-11-20T21:27:09.000Z",
