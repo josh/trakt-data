@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2025-09-27T04:08:21.000Z",
+      "last_watched_at": "2025-09-27T05:08:52.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "No More F**k-Ups",
+        "ids": {
+          "trakt": 11909966,
+          "tvdb": 10509406,
+          "imdb": "tt32445251",
+          "tmdb": 5367750,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 3,
         "title": "Skin Contact",
@@ -32,18 +44,6 @@
           "tvdb": 10509405,
           "imdb": "tt32445250",
           "tmdb": 5367749,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "The Black Rabbits",
-        "ids": {
-          "trakt": 11629999,
-          "tvdb": 10509404,
-          "imdb": "tt32445248",
-          "tmdb": 5212190,
           "tvrage": null
         }
       }
