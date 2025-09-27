@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2025-09-23T06:20:32.000Z",
+      "last_watched_at": "2025-09-27T04:08:21.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Skin Contact",
+        "ids": {
+          "trakt": 11909965,
+          "tvdb": 10509405,
+          "imdb": "tt32445250",
+          "tmdb": 5367749,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 2,
         "title": "The Black Rabbits",
@@ -34,16 +46,104 @@
           "tmdb": 5212190,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 13,
+      "hidden": 0,
+      "last_watched_at": "2025-09-20T06:06:29.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 13,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Ignorance Is Chris",
+        "ids": {
+          "trakt": 12565765,
+          "tvdb": 11130240,
+          "imdb": "tt35530361",
+          "tmdb": 6209415,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "The Cyclone",
+        "season": 2,
+        "number": 5,
+        "title": "Back to the Suture",
         "ids": {
-          "trakt": 11627828,
-          "tvdb": 10379079,
-          "imdb": "tt23117512",
-          "tmdb": 5211617,
+          "trakt": 12565764,
+          "tvdb": 11130239,
+          "imdb": "tt35530360",
+          "tmdb": 6209414,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 708,
+      "completed": 707,
+      "hidden": 0,
+      "last_watched_at": "2025-09-20T05:16:25.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 710,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 23,
+        "number": 28,
+        "title": "September 26, 2025: Aiden Walker, Michael Smerconish, Rep. Nancy Mace",
+        "ids": {
+          "trakt": 13441715,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6478501,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 23,
+        "number": 27,
+        "title": "September 19, 2025: Tom Homan, Alex Wagner, Joe Manchin",
+        "ids": {
+          "trakt": 13441714,
+          "tvdb": null,
+          "imdb": null,
+          "tmdb": 6478500,
           "tvrage": null
         }
       }
@@ -94,6 +194,56 @@
           "tvdb": 10593234,
           "imdb": "tt30252921",
           "tmdb": 5541148,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "English Teacher",
+      "year": 2024,
+      "ids": {
+        "trakt": 248247,
+        "slug": "english-teacher",
+        "tvdb": 421968,
+        "imdb": "tt20782190",
+        "tmdb": 258902,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2024-10-22T05:04:38.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Covid in America",
+        "ids": {
+          "trakt": 13445815,
+          "tvdb": 11162584,
+          "imdb": "tt35676129",
+          "tmdb": 6481076,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Birthday",
+        "ids": {
+          "trakt": 12209175,
+          "tvdb": 10626467,
+          "imdb": "tt32880999",
+          "tmdb": 5539064,
           "tvrage": null
         }
       }
@@ -194,6 +344,56 @@
           "tvdb": 9907873,
           "imdb": "tt28485909",
           "tmdb": 4591464,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Alice in Borderland",
+      "year": 2020,
+      "ids": {
+        "trakt": 157841,
+        "slug": "alice-in-borderland-2020",
+        "tvdb": 376472,
+        "imdb": "tt10795658",
+        "tmdb": 110316,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 16,
+      "hidden": 0,
+      "last_watched_at": "2022-12-28T20:18:35.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 16,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 12817866,
+          "tvdb": 11156503,
+          "imdb": "tt29319948",
+          "tmdb": 5981904,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 8,
+        "title": "Episode 8",
+        "ids": {
+          "trakt": 6987369,
+          "tvdb": 9476219,
+          "imdb": "tt23134112",
+          "tmdb": 4110591,
           "tvrage": null
         }
       }
