@@ -1,6 +1,139 @@
 [
   {
     "show": {
+      "title": "Peacemaker",
+      "year": 2022,
+      "ids": {
+        "trakt": 169009,
+        "slug": "peacemaker-2022",
+        "tvdb": 391153,
+        "imdb": "tt13146488",
+        "tmdb": 110492,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 14,
+      "last_watched_at": "2025-09-27T20:04:53.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-01-14T05:48:28.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-01-15T01:59:54.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-01-15T03:07:32.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-01-21T05:28:21.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-01-28T03:27:44.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-02-05T06:56:14.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-02-11T07:21:26.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-02-18T06:57:22.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-08-24T04:56:27.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-08-29T05:05:27.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:56:44.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-09-15T06:49:18.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-20T06:06:29.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-27T20:04:53.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 7,
+        "title": "Like a Keith in the Night",
+        "ids": {
+          "trakt": 12565767,
+          "tvdb": 11130241,
+          "imdb": "tt35530363",
+          "tmdb": 6209416,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 6,
+        "title": "Ignorance Is Chris",
+        "ids": {
+          "trakt": 12565765,
+          "tvdb": 11130240,
+          "imdb": "tt35530361",
+          "tmdb": 6209415,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Real Time with Bill Maher",
       "year": 2003,
       "ids": {
@@ -4102,139 +4235,6 @@
           "tvdb": 10945248,
           "imdb": "tt32572889",
           "tmdb": 6231390,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Peacemaker",
-      "year": 2022,
-      "ids": {
-        "trakt": 169009,
-        "slug": "peacemaker-2022",
-        "tvdb": 391153,
-        "imdb": "tt13146488",
-        "tmdb": 110492,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 14,
-      "completed": 13,
-      "last_watched_at": "2025-09-20T06:06:29.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-01-14T05:48:28.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-01-15T01:59:54.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-01-15T03:07:32.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-01-21T05:28:21.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-01-28T03:27:44.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-02-05T06:56:14.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-02-11T07:21:26.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-02-18T06:57:22.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 6,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-08-24T04:56:27.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-08-29T05:05:27.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:56:44.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-09-15T06:49:18.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-09-20T06:06:29.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 6,
-        "title": "Ignorance Is Chris",
-        "ids": {
-          "trakt": 12565765,
-          "tvdb": 11130240,
-          "imdb": "tt35530361",
-          "tmdb": 6209415,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 5,
-        "title": "Back to the Suture",
-        "ids": {
-          "trakt": 12565764,
-          "tvdb": 11130239,
-          "imdb": "tt35530360",
-          "tmdb": 6209414,
           "tvrage": null
         }
       }
