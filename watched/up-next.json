@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "English Teacher",
+      "year": 2024,
+      "ids": {
+        "trakt": 248247,
+        "slug": "english-teacher",
+        "tvdb": 421968,
+        "imdb": "tt20782190",
+        "tmdb": 258902,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2025-09-28T05:41:41.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "Trash",
+        "ids": {
+          "trakt": 13445818,
+          "tvdb": 11162585,
+          "imdb": "tt35676134",
+          "tmdb": 6481079,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "Covid in America",
+        "ids": {
+          "trakt": 13445815,
+          "tvdb": 11162584,
+          "imdb": "tt35676129",
+          "tmdb": 6481076,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Alice in Borderland",
       "year": 2020,
       "ids": {
@@ -144,56 +194,6 @@
           "tvdb": 10593234,
           "imdb": "tt30252921",
           "tmdb": 5541148,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "English Teacher",
-      "year": 2024,
-      "ids": {
-        "trakt": 248247,
-        "slug": "english-teacher",
-        "tvdb": 421968,
-        "imdb": "tt20782190",
-        "tmdb": 258902,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 11,
-      "completed": 8,
-      "hidden": 0,
-      "last_watched_at": "2024-10-22T05:04:38.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 8,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "Covid in America",
-        "ids": {
-          "trakt": 13445815,
-          "tvdb": 11162584,
-          "imdb": "tt35676129",
-          "tmdb": 6481076,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Birthday",
-        "ids": {
-          "trakt": 12209175,
-          "tvdb": 10626467,
-          "imdb": "tt32880999",
-          "tmdb": 5539064,
           "tvrage": null
         }
       }
