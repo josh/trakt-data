@@ -1,6 +1,187 @@
 [
   {
     "show": {
+      "title": "Alice in Borderland",
+      "year": 2020,
+      "ids": {
+        "trakt": 157841,
+        "slug": "alice-in-borderland-2020",
+        "tvdb": 376472,
+        "imdb": "tt10795658",
+        "tmdb": 110316,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 17,
+      "last_watched_at": "2025-09-28T05:26:09.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2020-12-28T02:00:00.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2020-12-28T07:00:00.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2020-12-29T02:23:44.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2020-12-29T03:06:20.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2020-12-29T04:11:07.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2020-12-29T05:36:06.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2020-12-29T06:18:52.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2020-12-29T07:07:03.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-12-24T02:08:25.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-12-24T03:31:59.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-12-24T05:29:30.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-12-24T05:43:38.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-12-24T06:51:20.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-12-26T22:47:19.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-12-28T04:22:28.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-12-28T20:18:35.000Z"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 6,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-28T05:26:09.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 3,
+        "number": 2,
+        "title": "Episode 2",
+        "ids": {
+          "trakt": 13511912,
+          "tvdb": 11167777,
+          "imdb": null,
+          "tmdb": 6527738,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 12817866,
+          "tvdb": 11156503,
+          "imdb": "tt29319948",
+          "tmdb": 5981904,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Peacemaker",
       "year": 2022,
       "ids": {
@@ -56490,187 +56671,6 @@
           "tvdb": 9476788,
           "imdb": "tt16452478",
           "tmdb": 4066286,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alice in Borderland",
-      "year": 2020,
-      "ids": {
-        "trakt": 157841,
-        "slug": "alice-in-borderland-2020",
-        "tvdb": 376472,
-        "imdb": "tt10795658",
-        "tmdb": 110316,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 22,
-      "completed": 16,
-      "last_watched_at": "2022-12-28T20:18:35.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2020-12-28T02:00:00.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2020-12-28T07:00:00.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2020-12-29T02:23:44.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2020-12-29T03:06:20.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2020-12-29T04:11:07.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2020-12-29T05:36:06.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2020-12-29T06:18:52.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2020-12-29T07:07:03.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-12-24T02:08:25.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-12-24T03:31:59.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-12-24T05:29:30.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-12-24T05:43:38.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-12-24T06:51:20.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-12-26T22:47:19.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-12-28T04:22:28.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-12-28T20:18:35.000Z"
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "title": null,
-          "aired": 6,
-          "completed": 0,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Episode 1",
-        "ids": {
-          "trakt": 12817866,
-          "tvdb": 11156503,
-          "imdb": "tt29319948",
-          "tmdb": 5981904,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 8,
-        "title": "Episode 8",
-        "ids": {
-          "trakt": 6987369,
-          "tvdb": 9476219,
-          "imdb": "tt23134112",
-          "tmdb": 4110591,
           "tvrage": null
         }
       }

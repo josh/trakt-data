@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Alice in Borderland",
+      "year": 2020,
+      "ids": {
+        "trakt": 157841,
+        "slug": "alice-in-borderland-2020",
+        "tvdb": 376472,
+        "imdb": "tt10795658",
+        "tmdb": 110316,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 17,
+      "hidden": 0,
+      "last_watched_at": "2025-09-28T05:26:09.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 17,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 2,
+        "title": "Episode 2",
+        "ids": {
+          "trakt": 13511912,
+          "tvdb": 11167777,
+          "imdb": null,
+          "tmdb": 6527738,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 1,
+        "title": "Episode 1",
+        "ids": {
+          "trakt": 12817866,
+          "tvdb": 11156503,
+          "imdb": "tt29319948",
+          "tmdb": 5981904,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Black Rabbit",
       "year": 2025,
       "ids": {
@@ -244,56 +294,6 @@
           "tvdb": 9907873,
           "imdb": "tt28485909",
           "tmdb": 4591464,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alice in Borderland",
-      "year": 2020,
-      "ids": {
-        "trakt": 157841,
-        "slug": "alice-in-borderland-2020",
-        "tvdb": 376472,
-        "imdb": "tt10795658",
-        "tmdb": 110316,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 22,
-      "completed": 16,
-      "hidden": 0,
-      "last_watched_at": "2022-12-28T20:18:35.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 16,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Episode 1",
-        "ids": {
-          "trakt": 12817866,
-          "tvdb": 11156503,
-          "imdb": "tt29319948",
-          "tmdb": 5981904,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 8,
-        "title": "Episode 8",
-        "ids": {
-          "trakt": 6987369,
-          "tvdb": 9476219,
-          "imdb": "tt23134112",
-          "tmdb": 4110591,
           "tvrage": null
         }
       }
