@@ -1,6 +1,129 @@
 [
   {
     "show": {
+      "title": "Gen V",
+      "year": 2023,
+      "ids": {
+        "trakt": 196842,
+        "slug": "gen-v",
+        "tvdb": 417909,
+        "imdb": "tt13159924",
+        "tmdb": 205715,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 9,
+      "last_watched_at": "2025-09-29T04:11:23.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-10-16T20:33:31.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-10-16T21:23:56.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-10-16T21:58:31.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-10-16T22:45:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-10-16T23:29:38.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-10-25T18:24:30.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-10-31T06:56:23.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-11-20T21:27:09.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 4,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-29T04:11:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "Justice Never Forgets",
+        "ids": {
+          "trakt": 13178991,
+          "tvdb": 11171543,
+          "imdb": "tt29571844",
+          "tmdb": 6277632,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "New Year, New U",
+        "ids": {
+          "trakt": 13178990,
+          "tvdb": 10923469,
+          "imdb": "tt29550655",
+          "tmdb": 6277631,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -132,8 +255,8 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 17,
-      "last_watched_at": "2025-09-28T05:26:09.000Z",
+      "completed": 18,
+      "last_watched_at": "2025-09-29T05:56:29.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -236,7 +359,7 @@
           "number": 3,
           "title": null,
           "aired": 6,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -245,8 +368,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-29T05:56:29.000Z"
             },
             {
               "number": 3,
@@ -274,6 +397,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 3,
+        "number": 3,
+        "title": "Episode 3",
+        "ids": {
+          "trakt": 13511915,
+          "tvdb": 11167778,
+          "imdb": null,
+          "tmdb": 6527739,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 2,
         "title": "Episode 2",
         "ids": {
@@ -281,18 +416,6 @@
           "tvdb": 11167777,
           "imdb": null,
           "tmdb": 6527738,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Episode 1",
-        "ids": {
-          "trakt": 12817866,
-          "tvdb": 11156503,
-          "imdb": "tt29319948",
-          "tmdb": 5981904,
           "tvrage": null
         }
       }
@@ -46469,129 +46592,6 @@
   },
   {
     "show": {
-      "title": "Gen V",
-      "year": 2023,
-      "ids": {
-        "trakt": 196842,
-        "slug": "gen-v",
-        "tvdb": 417909,
-        "imdb": "tt13159924",
-        "tmdb": 205715,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 12,
-      "completed": 8,
-      "last_watched_at": "2023-11-20T21:27:09.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-10-16T20:33:31.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-10-16T21:23:56.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-10-16T21:58:31.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-10-16T22:45:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-10-16T23:29:38.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-10-25T18:24:30.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-10-31T06:56:23.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-11-20T21:27:09.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 4,
-          "completed": 0,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "New Year, New U",
-        "ids": {
-          "trakt": 13178990,
-          "tvdb": 10923469,
-          "imdb": "tt29550655",
-          "tmdb": 6277631,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Guardians of Godolkin",
-        "ids": {
-          "trakt": 10784214,
-          "tvdb": 9907873,
-          "imdb": "tt28485909",
-          "tmdb": 4591464,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "The Morning Show",
       "year": 2019,
       "ids": {
@@ -56140,7 +56140,7 @@
       }
     },
     "progress": {
-      "aired": 20,
+      "aired": 21,
       "completed": 9,
       "last_watched_at": "2023-01-08T20:49:13.000Z",
       "reset_at": null,
@@ -56259,11 +56259,16 @@
         {
           "number": 3,
           "title": null,
-          "aired": 1,
+          "aired": 2,
           "completed": 0,
           "episodes": [
             {
               "number": 1,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 2,
               "completed": false,
               "last_watched_at": null
             }
@@ -70378,7 +70383,7 @@
       }
     },
     "progress": {
-      "aired": 343,
+      "aired": 344,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -72074,7 +72079,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 23,
+          "aired": 24,
           "completed": 0,
           "episodes": [
             {
@@ -72189,6 +72194,11 @@
             },
             {
               "number": 23,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 24,
               "completed": false,
               "last_watched_at": null
             }

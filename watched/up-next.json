@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Gen V",
+      "year": 2023,
+      "ids": {
+        "trakt": 196842,
+        "slug": "gen-v",
+        "tvdb": 417909,
+        "imdb": "tt13159924",
+        "tmdb": 205715,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2025-09-29T04:11:23.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "Justice Never Forgets",
+        "ids": {
+          "trakt": 13178991,
+          "tvdb": 11171543,
+          "imdb": "tt29571844",
+          "tmdb": 6277632,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "New Year, New U",
+        "ids": {
+          "trakt": 13178990,
+          "tvdb": 10923469,
+          "imdb": "tt29550655",
+          "tmdb": 6277631,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -64,9 +114,9 @@
     },
     "progress": {
       "aired": 22,
-      "completed": 17,
+      "completed": 18,
       "hidden": 0,
-      "last_watched_at": "2025-09-28T05:26:09.000Z",
+      "last_watched_at": "2025-09-29T05:56:29.000Z",
       "reset_at": null,
       "stats": {
         "play_count": 17,
@@ -75,6 +125,18 @@
       },
       "next_episode": {
         "season": 3,
+        "number": 3,
+        "title": "Episode 3",
+        "ids": {
+          "trakt": 13511915,
+          "tvdb": 11167778,
+          "imdb": null,
+          "tmdb": 6527739,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
         "number": 2,
         "title": "Episode 2",
         "ids": {
@@ -82,18 +144,6 @@
           "tvdb": 11167777,
           "imdb": null,
           "tmdb": 6527738,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 1,
-        "title": "Episode 1",
-        "ids": {
-          "trakt": 12817866,
-          "tvdb": 11156503,
-          "imdb": "tt29319948",
-          "tmdb": 5981904,
           "tvrage": null
         }
       }
@@ -244,56 +294,6 @@
           "tvdb": 10586002,
           "imdb": "tt27243355",
           "tmdb": 5440290,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Gen V",
-      "year": 2023,
-      "ids": {
-        "trakt": 196842,
-        "slug": "gen-v",
-        "tvdb": 417909,
-        "imdb": "tt13159924",
-        "tmdb": 205715,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 12,
-      "completed": 8,
-      "hidden": 0,
-      "last_watched_at": "2023-11-20T21:27:09.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 8,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "New Year, New U",
-        "ids": {
-          "trakt": 13178990,
-          "tvdb": 10923469,
-          "imdb": "tt29550655",
-          "tmdb": 6277631,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Guardians of Godolkin",
-        "ids": {
-          "trakt": 10784214,
-          "tvdb": 9907873,
-          "imdb": "tt28485909",
-          "tmdb": 4591464,
           "tvrage": null
         }
       }

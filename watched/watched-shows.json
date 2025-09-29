@@ -1,6 +1,81 @@
 [
   {
     "plays": 9,
+    "last_watched_at": "2025-09-29T04:11:23.000Z",
+    "last_updated_at": "2025-09-29T04:11:23.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Gen V",
+      "year": 2023,
+      "ids": {
+        "trakt": 196842,
+        "slug": "gen-v",
+        "tvdb": 417909,
+        "imdb": "tt13159924",
+        "tmdb": 205715,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2023-10-16T20:33:31.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2023-10-16T21:23:56.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2023-10-16T21:58:31.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2023-10-16T22:45:37.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2023-10-16T23:29:38.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2023-10-25T18:24:30.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2023-10-31T06:56:23.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2023-11-20T21:27:09.000Z"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-09-29T04:11:23.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 9,
     "last_watched_at": "2025-09-28T05:41:41.000Z",
     "last_updated_at": "2025-09-28T05:41:41.000Z",
     "reset_at": null,
@@ -31989,71 +32064,6 @@
             "number": 7,
             "plays": 1,
             "last_watched_at": "2023-11-17T07:14:35.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 8,
-    "last_watched_at": "2023-11-20T21:27:09.000Z",
-    "last_updated_at": "2023-11-20T21:27:09.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Gen V",
-      "year": 2023,
-      "ids": {
-        "trakt": 196842,
-        "slug": "gen-v",
-        "tvdb": 417909,
-        "imdb": "tt13159924",
-        "tmdb": 205715,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2023-10-16T20:33:31.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2023-10-16T21:23:56.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2023-10-16T21:58:31.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2023-10-16T22:45:37.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2023-10-16T23:29:38.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2023-10-25T18:24:30.000Z"
-          },
-          {
-            "number": 7,
-            "plays": 1,
-            "last_watched_at": "2023-10-31T06:56:23.000Z"
-          },
-          {
-            "number": 8,
-            "plays": 1,
-            "last_watched_at": "2023-11-20T21:27:09.000Z"
           }
         ]
       }
