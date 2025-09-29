@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-09-28T23:59:59.000Z",
+    "rating": 3,
+    "type": "movie",
+    "movie": {
+      "title": "Silent Hill",
+      "year": 2006,
+      "ids": {
+        "trakt": 467,
+        "slug": "silent-hill-2006",
+        "imdb": "tt0384537",
+        "tmdb": 588
+      }
+    }
+  },
+  {
     "rated_at": "2025-09-28T06:02:05.000Z",
     "rating": 6,
     "type": "movie",
@@ -47765,10 +47780,10 @@
     "type": "movie",
     "movie": {
       "title": "Spun",
-      "year": 2003,
+      "year": 2002,
       "ids": {
         "trakt": 7003,
-        "slug": "spun-2003",
+        "slug": "spun-2002",
         "imdb": "tt0283003",
         "tmdb": 12079
       }
