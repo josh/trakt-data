@@ -1,129 +1,6 @@
 [
   {
     "show": {
-      "title": "Gen V",
-      "year": 2023,
-      "ids": {
-        "trakt": 196842,
-        "slug": "gen-v",
-        "tvdb": 417909,
-        "imdb": "tt13159924",
-        "tmdb": 205715,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 12,
-      "completed": 9,
-      "last_watched_at": "2025-09-29T04:11:23.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-10-16T20:33:31.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-10-16T21:23:56.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-10-16T21:58:31.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-10-16T22:45:37.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-10-16T23:29:38.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-10-25T18:24:30.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-10-31T06:56:23.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-11-20T21:27:09.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 4,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-29T04:11:23.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "Justice Never Forgets",
-        "ids": {
-          "trakt": 13178991,
-          "tvdb": 11171543,
-          "imdb": "tt29571844",
-          "tmdb": 6277632,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "New Year, New U",
-        "ids": {
-          "trakt": 13178990,
-          "tvdb": 10923469,
-          "imdb": "tt29550655",
-          "tmdb": 6277631,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -137,8 +14,8 @@
     },
     "progress": {
       "aired": 11,
-      "completed": 9,
-      "last_watched_at": "2025-09-28T05:41:41.000Z",
+      "completed": 10,
+      "last_watched_at": "2025-09-29T06:08:10.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -193,7 +70,7 @@
           "number": 2,
           "title": null,
           "aired": 3,
-          "completed": 1,
+          "completed": 2,
           "episodes": [
             {
               "number": 1,
@@ -202,8 +79,8 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-29T06:08:10.000Z"
             },
             {
               "number": 3,
@@ -216,6 +93,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 2,
+        "number": 3,
+        "title": "Grant's Dinner Party",
+        "ids": {
+          "trakt": 13445819,
+          "tvdb": 11162586,
+          "imdb": "tt35676135",
+          "tmdb": 6481080,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
         "number": 2,
         "title": "Trash",
         "ids": {
@@ -223,18 +112,6 @@
           "tvdb": 11162585,
           "imdb": "tt35676134",
           "tmdb": 6481079,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 1,
-        "title": "Covid in America",
-        "ids": {
-          "trakt": 13445815,
-          "tvdb": 11162584,
-          "imdb": "tt35676129",
-          "tmdb": 6481076,
           "tvrage": null
         }
       }
@@ -416,6 +293,129 @@
           "tvdb": 11167777,
           "imdb": null,
           "tmdb": 6527738,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Gen V",
+      "year": 2023,
+      "ids": {
+        "trakt": 196842,
+        "slug": "gen-v",
+        "tvdb": 417909,
+        "imdb": "tt13159924",
+        "tmdb": 205715,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 9,
+      "last_watched_at": "2025-09-29T04:11:23.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-10-16T20:33:31.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-10-16T21:23:56.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-10-16T21:58:31.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-10-16T22:45:37.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-10-16T23:29:38.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-10-25T18:24:30.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-10-31T06:56:23.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-11-20T21:27:09.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 4,
+          "completed": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-29T04:11:23.000Z"
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 2,
+        "number": 2,
+        "title": "Justice Never Forgets",
+        "ids": {
+          "trakt": 13178991,
+          "tvdb": 11171543,
+          "imdb": "tt29571844",
+          "tmdb": 6277632,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 1,
+        "title": "New Year, New U",
+        "ids": {
+          "trakt": 13178990,
+          "tvdb": 10923469,
+          "imdb": "tt29550655",
+          "tmdb": 6277631,
           "tvrage": null
         }
       }
