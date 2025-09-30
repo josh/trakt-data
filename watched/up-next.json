@@ -1,6 +1,56 @@
 [
   {
     "show": {
+      "title": "Alice in Borderland",
+      "year": 2020,
+      "ids": {
+        "trakt": 157841,
+        "slug": "alice-in-borderland-2020",
+        "tvdb": 376472,
+        "imdb": "tt10795658",
+        "tmdb": 110316,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 19,
+      "hidden": 0,
+      "last_watched_at": "2025-09-30T04:09:12.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 19,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 4,
+        "title": "Episode 4",
+        "ids": {
+          "trakt": 13511919,
+          "tvdb": 11167779,
+          "imdb": null,
+          "tmdb": 6527740,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 3,
+        "title": "Episode 3",
+        "ids": {
+          "trakt": 13511915,
+          "tvdb": 11167778,
+          "imdb": null,
+          "tmdb": 6527739,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -44,56 +94,6 @@
           "tvdb": 11162585,
           "imdb": "tt35676134",
           "tmdb": 6481079,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Alice in Borderland",
-      "year": 2020,
-      "ids": {
-        "trakt": 157841,
-        "slug": "alice-in-borderland-2020",
-        "tvdb": 376472,
-        "imdb": "tt10795658",
-        "tmdb": 110316,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 22,
-      "completed": 18,
-      "hidden": 0,
-      "last_watched_at": "2025-09-29T05:56:29.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 18,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 3,
-        "title": "Episode 3",
-        "ids": {
-          "trakt": 13511915,
-          "tvdb": 11167778,
-          "imdb": null,
-          "tmdb": 6527739,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 2,
-        "title": "Episode 2",
-        "ids": {
-          "trakt": 13511912,
-          "tvdb": 11167777,
-          "imdb": null,
-          "tmdb": 6527738,
           "tvrage": null
         }
       }
