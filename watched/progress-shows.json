@@ -195,8 +195,8 @@
     },
     "progress": {
       "aired": 11,
-      "completed": 10,
-      "last_watched_at": "2025-09-29T06:08:10.000Z",
+      "completed": 11,
+      "last_watched_at": "2025-09-30T06:38:34.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -251,7 +251,7 @@
           "number": 2,
           "title": null,
           "aired": 3,
-          "completed": 2,
+          "completed": 3,
           "episodes": [
             {
               "number": 1,
@@ -265,14 +265,26 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-09-30T06:38:34.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 2,
+        "number": 4,
+        "title": "College Week",
+        "ids": {
+          "trakt": 13445821,
+          "tvdb": 11162587,
+          "imdb": "tt35676136",
+          "tmdb": 6481082,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 2,
         "number": 3,
         "title": "Grant's Dinner Party",
@@ -281,18 +293,6 @@
           "tvdb": 11162586,
           "imdb": "tt35676135",
           "tmdb": 6481080,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 2,
-        "number": 2,
-        "title": "Trash",
-        "ids": {
-          "trakt": 13445818,
-          "tvdb": 11162585,
-          "imdb": "tt35676134",
-          "tmdb": 6481079,
           "tvrage": null
         }
       }
