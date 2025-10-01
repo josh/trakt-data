@@ -1,56 +1,6 @@
 [
   {
     "show": {
-      "title": "Alice in Borderland",
-      "year": 2020,
-      "ids": {
-        "trakt": 157841,
-        "slug": "alice-in-borderland-2020",
-        "tvdb": 376472,
-        "imdb": "tt10795658",
-        "tmdb": 110316,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 22,
-      "completed": 21,
-      "hidden": 0,
-      "last_watched_at": "2025-09-30T06:57:46.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 21,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 3,
-        "number": 6,
-        "title": "Episode 6",
-        "ids": {
-          "trakt": 13511923,
-          "tvdb": 11167781,
-          "imdb": null,
-          "tmdb": 6527743,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 5,
-        "title": "Episode 5",
-        "ids": {
-          "trakt": 13511922,
-          "tvdb": 11167780,
-          "imdb": null,
-          "tmdb": 6527742,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Gen V",
       "year": 2023,
       "ids": {
@@ -151,6 +101,56 @@
   },
   {
     "show": {
+      "title": "Platonic",
+      "year": 2023,
+      "ids": {
+        "trakt": 168898,
+        "slug": "platonic",
+        "tvdb": 391020,
+        "imdb": "tt13366604",
+        "tmdb": 112211,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 20,
+      "completed": 19,
+      "hidden": 0,
+      "last_watched_at": "2025-09-24T22:32:11.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 19,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 2,
+        "number": 10,
+        "title": "Brett Coyote's Last Stand",
+        "ids": {
+          "trakt": 13144333,
+          "tvdb": 11229302,
+          "imdb": "tt33307970",
+          "tmdb": 6249771,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 2,
+        "number": 9,
+        "title": "Boundaries",
+        "ids": {
+          "trakt": 13144332,
+          "tvdb": 11229301,
+          "imdb": "tt33307968",
+          "tmdb": 6249770,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Only Murders in the Building",
       "year": 2021,
       "ids": {
@@ -213,7 +213,7 @@
       }
     },
     "progress": {
-      "aired": 25,
+      "aired": 26,
       "completed": 24,
       "hidden": 0,
       "last_watched_at": "2024-10-10T00:17:39.000Z",
