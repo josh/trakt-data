@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "Black Rabbit",
+      "year": 2025,
+      "ids": {
+        "trakt": 230778,
+        "slug": "black-rabbit",
+        "tvdb": 447579,
+        "imdb": "tt23055142",
+        "tmdb": 249039,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 4,
+      "last_watched_at": "2025-10-03T06:50:23.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 8,
+          "completed": 4,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-23T06:20:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-27T04:08:21.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-27T05:08:52.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-10-03T06:50:23.000Z"
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "Trailblazer",
+        "ids": {
+          "trakt": 11909967,
+          "tvdb": 10509407,
+          "imdb": "tt32445252",
+          "tmdb": 5367752,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "No More F**k-Ups",
+        "ids": {
+          "trakt": 11909966,
+          "tvdb": 10509406,
+          "imdb": "tt32445251",
+          "tmdb": 5367750,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -13,9 +108,9 @@
       }
     },
     "progress": {
-      "aired": 11,
-      "completed": 11,
-      "last_watched_at": "2025-09-30T06:38:34.000Z",
+      "aired": 14,
+      "completed": 13,
+      "last_watched_at": "2025-10-02T07:05:02.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -69,8 +164,8 @@
         {
           "number": 2,
           "title": null,
-          "aired": 3,
-          "completed": 3,
+          "aired": 6,
+          "completed": 5,
           "episodes": [
             {
               "number": 1,
@@ -86,6 +181,21 @@
               "number": 3,
               "completed": true,
               "last_watched_at": "2025-09-30T06:38:34.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-10-01T05:29:17.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-10-02T07:05:02.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -93,25 +203,25 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 2,
-        "number": 4,
-        "title": "College Week",
+        "number": 6,
+        "title": "Recruiter",
         "ids": {
-          "trakt": 13445821,
-          "tvdb": 11162587,
-          "imdb": "tt35676136",
-          "tmdb": 6481082,
+          "trakt": 13445823,
+          "tvdb": 11162589,
+          "imdb": "tt35676137",
+          "tmdb": 6481085,
           "tvrage": null
         }
       },
       "last_episode": {
         "season": 2,
-        "number": 3,
-        "title": "Grant's Dinner Party",
+        "number": 5,
+        "title": "Evan's Mom",
         "ids": {
-          "trakt": 13445819,
-          "tvdb": 11162586,
-          "imdb": "tt35676135",
-          "tmdb": 6481080,
+          "trakt": 13445822,
+          "tvdb": 11162588,
+          "imdb": "tt35676139",
+          "tmdb": 6481083,
           "tvrage": null
         }
       }
@@ -581,7 +691,7 @@
       }
     },
     "progress": {
-      "aired": 14,
+      "aired": 15,
       "completed": 14,
       "last_watched_at": "2025-09-27T20:04:53.000Z",
       "reset_at": null,
@@ -637,7 +747,7 @@
         {
           "number": 2,
           "title": null,
-          "aired": 6,
+          "aired": 7,
           "completed": 6,
           "episodes": [
             {
@@ -669,6 +779,11 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-09-27T20:04:53.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4466,101 +4581,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6478501,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Black Rabbit",
-      "year": 2025,
-      "ids": {
-        "trakt": 230778,
-        "slug": "black-rabbit",
-        "tvdb": 447579,
-        "imdb": "tt23055142",
-        "tmdb": 249039,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 3,
-      "last_watched_at": "2025-09-27T05:08:52.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Limited Series",
-          "aired": 8,
-          "completed": 3,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-23T06:20:32.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-27T04:08:21.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-27T05:08:52.000Z"
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "No More F**k-Ups",
-        "ids": {
-          "trakt": 11909966,
-          "tvdb": 10509406,
-          "imdb": "tt32445251",
-          "tmdb": 5367750,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Skin Contact",
-        "ids": {
-          "trakt": 11909965,
-          "tvdb": 10509405,
-          "imdb": "tt32445250",
-          "tmdb": 5367749,
           "tvrage": null
         }
       }
@@ -18501,7 +18521,7 @@
       }
     },
     "progress": {
-      "aired": 4454,
+      "aired": 4455,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -40466,7 +40486,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 109,
+          "aired": 110,
           "completed": 0,
           "episodes": [
             {
@@ -41011,6 +41031,11 @@
             },
             {
               "number": 109,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 110,
               "completed": false,
               "last_watched_at": null
             }
@@ -73278,7 +73303,7 @@
       }
     },
     "progress": {
-      "aired": 1715,
+      "aired": 1716,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -81856,7 +81881,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 17,
+          "aired": 18,
           "completed": 0,
           "episodes": [
             {
@@ -81941,6 +81966,11 @@
             },
             {
               "number": 17,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 18,
               "completed": false,
               "last_watched_at": null
             }
