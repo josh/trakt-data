@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2025-10-03T06:50:23.000Z",
+      "last_watched_at": "2025-10-03T08:02:56.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Attaf**kinboy",
+        "ids": {
+          "trakt": 11909968,
+          "tvdb": 10509408,
+          "imdb": "tt32445256",
+          "tmdb": 5367753,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 5,
         "title": "Trailblazer",
@@ -32,18 +44,6 @@
           "tvdb": 10509407,
           "imdb": "tt32445252",
           "tmdb": 5367752,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 4,
-        "title": "No More F**k-Ups",
-        "ids": {
-          "trakt": 11909966,
-          "tvdb": 10509406,
-          "imdb": "tt32445251",
-          "tmdb": 5367750,
           "tvrage": null
         }
       }
