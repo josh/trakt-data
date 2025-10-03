@@ -687,20 +687,43 @@ def _iter_show_episodes(
         if season_info["number"] == 0:
             continue
 
-        season = _export_media_season(
-            ctx,
-            show_trakt_id=show["ids"]["trakt"],
-            season_trakt_id=season_info["ids"]["trakt"],
-            season_number=season_info["number"],
-        )
-        for episode_info in season["episodes"]:
-            episode = _export_media_episode(
+        try:
+            season = _export_media_season(
                 ctx,
-                episode_trakt_id=episode_info["ids"]["trakt"],
                 show_trakt_id=show["ids"]["trakt"],
+                season_trakt_id=season_info["ids"]["trakt"],
                 season_number=season_info["number"],
-                episode_number=episode_info["number"],
             )
+        except requests.HTTPError as exc:
+            if exc.response is not None and exc.response.status_code == 404:
+                logger.error(
+                    "Season not found for show %s (S%d): %s",
+                    show["ids"].get("trakt"),
+                    season_info["number"],
+                    exc,
+                )
+                continue
+            raise
+        for episode_info in season["episodes"]:
+            try:
+                episode = _export_media_episode(
+                    ctx,
+                    episode_trakt_id=episode_info["ids"]["trakt"],
+                    show_trakt_id=show["ids"]["trakt"],
+                    season_number=season_info["number"],
+                    episode_number=episode_info["number"],
+                )
+            except requests.HTTPError as exc:
+                if exc.response is not None and exc.response.status_code == 404:
+                    logger.error(
+                        "Episode not found for show %s (S%02dE%02d): %s",
+                        show["ids"].get("trakt"),
+                        season_info["number"],
+                        episode_info["number"],
+                        exc,
+                    )
+                    continue
+                raise
             yield season, episode
 
 
