@@ -1,5 +1,35 @@
 [
   {
+    "rated_at": "2025-10-03T23:59:59.000Z",
+    "rating": 7,
+    "type": "movie",
+    "movie": {
+      "title": "No Other Choice",
+      "year": 2025,
+      "ids": {
+        "trakt": 478406,
+        "slug": "no-other-choice-2025",
+        "imdb": "tt1527793",
+        "tmdb": 639988
+      }
+    }
+  },
+  {
+    "rated_at": "2025-10-03T23:59:59.000Z",
+    "rating": 9,
+    "type": "movie",
+    "movie": {
+      "title": "Weapons",
+      "year": 2025,
+      "ids": {
+        "trakt": 867094,
+        "slug": "weapons-2025",
+        "imdb": "tt26581740",
+        "tmdb": 1078605
+      }
+    }
+  },
+  {
     "rated_at": "2025-09-29T06:02:14.000Z",
     "rating": 6,
     "type": "movie",
@@ -255,21 +285,6 @@
     }
   },
   {
-    "rated_at": "2025-08-17T06:01:42.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "title": "Weapons",
-      "year": 2025,
-      "ids": {
-        "trakt": 867094,
-        "slug": "weapons-2025",
-        "imdb": "tt26581740",
-        "tmdb": 1078605
-      }
-    }
-  },
-  {
     "rated_at": "2025-08-15T06:02:18.000Z",
     "rating": 5,
     "type": "movie",
@@ -440,10 +455,10 @@
     "type": "movie",
     "movie": {
       "title": "Sharp Corner",
-      "year": 2025,
+      "year": 2024,
       "ids": {
         "trakt": 1008117,
-        "slug": "sharp-corner-2025",
+        "slug": "sharp-corner-2024",
         "imdb": "tt9569096",
         "tmdb": 1244890
       }
@@ -57110,10 +57125,10 @@
     "type": "movie",
     "movie": {
       "title": "Brick",
-      "year": 2006,
+      "year": 2005,
       "ids": {
         "trakt": 4570,
-        "slug": "brick-2006",
+        "slug": "brick-2005",
         "imdb": "tt0393109",
         "tmdb": 9270
       }
