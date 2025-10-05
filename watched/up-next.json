@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
+      "completed": 7,
       "hidden": 0,
-      "last_watched_at": "2025-10-05T21:03:42.000Z",
+      "last_watched_at": "2025-10-05T22:04:48.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 7,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Isle of Joy",
+        "ids": {
+          "trakt": 11909970,
+          "tvdb": 10509410,
+          "imdb": "tt32445258",
+          "tmdb": 5367756,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 7,
         "title": "These Kids Nearly Got Munsoned",
@@ -32,18 +44,6 @@
           "tvdb": 10509409,
           "imdb": "tt32445257",
           "tmdb": 5367755,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Attaf**kinboy",
-        "ids": {
-          "trakt": 11909968,
-          "tvdb": 10509408,
-          "imdb": "tt32445256",
-          "tmdb": 5367753,
           "tvrage": null
         }
       }
