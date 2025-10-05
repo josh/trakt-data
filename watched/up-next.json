@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 46,
-      "completed": 41,
+      "completed": 42,
       "hidden": 0,
-      "last_watched_at": "2025-10-05T05:20:39.000Z",
+      "last_watched_at": "2025-10-05T19:21:55.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 41,
+        "play_count": 42,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 5,
+        "number": 3,
+        "title": "Rigor",
+        "ids": {
+          "trakt": 13347314,
+          "tvdb": 11256810,
+          "imdb": "tt33333197",
+          "tmdb": 6402102,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 2,
         "title": "After You",
@@ -32,18 +44,6 @@
           "tvdb": 11256809,
           "imdb": "tt33333202",
           "tmdb": 6402101,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 1,
-        "title": "Nail in the Coffin",
-        "ids": {
-          "trakt": 13347305,
-          "tvdb": 11256808,
-          "imdb": "tt33333194",
-          "tmdb": 6402072,
           "tvrage": null
         }
       }
