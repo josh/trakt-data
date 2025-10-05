@@ -1,5 +1,35 @@
 [
   {
+    "rated_at": "2025-10-05T06:01:48.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "title": "Caught Stealing",
+      "year": 2025,
+      "ids": {
+        "trakt": 1009138,
+        "slug": "caught-stealing-2025",
+        "imdb": "tt1493274",
+        "tmdb": 1245993
+      }
+    }
+  },
+  {
+    "rated_at": "2025-10-04T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "title": "Eddington",
+      "year": 2025,
+      "ids": {
+        "trakt": 485271,
+        "slug": "eddington-2025",
+        "imdb": "tt31176520",
+        "tmdb": 648878
+      }
+    }
+  },
+  {
     "rated_at": "2025-10-03T23:59:59.000Z",
     "rating": 7,
     "type": "movie",
@@ -461,21 +491,6 @@
         "slug": "sharp-corner-2024",
         "imdb": "tt9569096",
         "tmdb": 1244890
-      }
-    }
-  },
-  {
-    "rated_at": "2025-07-16T06:02:06.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "title": "Eddington",
-      "year": 2025,
-      "ids": {
-        "trakt": 485271,
-        "slug": "eddington-2025",
-        "imdb": "tt31176520",
-        "tmdb": 648878
       }
     }
   },
