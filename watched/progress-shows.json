@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 46,
-      "completed": 45,
-      "last_watched_at": "2025-10-06T04:06:16.000Z",
+      "completed": 46,
+      "last_watched_at": "2025-10-06T04:45:46.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 6,
-          "completed": 5,
+          "completed": 6,
           "episodes": [
             {
               "number": 1,
@@ -283,14 +283,26 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-10-06T04:45:46.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 5,
+        "number": 7,
+        "title": "Silver Alert",
+        "ids": {
+          "trakt": 13347327,
+          "tvdb": 11256814,
+          "imdb": "tt33333201",
+          "tmdb": 6402106,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 6,
         "title": "Flatbush",
@@ -299,18 +311,6 @@
           "tvdb": 11256813,
           "imdb": "tt33333198",
           "tmdb": 6402105,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 5,
-        "title": "Tongue Tied",
-        "ids": {
-          "trakt": 13347321,
-          "tvdb": 11256812,
-          "imdb": "tt33333193",
-          "tmdb": 6402104,
           "tvrage": null
         }
       }
