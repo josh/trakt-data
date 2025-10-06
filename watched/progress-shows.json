@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 46,
-      "completed": 44,
-      "last_watched_at": "2025-10-06T02:36:05.000Z",
+      "completed": 45,
+      "last_watched_at": "2025-10-06T04:06:16.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 6,
-          "completed": 4,
+          "completed": 5,
           "episodes": [
             {
               "number": 1,
@@ -278,8 +278,8 @@
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-10-06T04:06:16.000Z"
             },
             {
               "number": 6,
@@ -292,6 +292,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 5,
+        "number": 6,
+        "title": "Flatbush",
+        "ids": {
+          "trakt": 13347324,
+          "tvdb": 11256813,
+          "imdb": "tt33333198",
+          "tmdb": 6402105,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
         "number": 5,
         "title": "Tongue Tied",
         "ids": {
@@ -299,18 +311,6 @@
           "tvdb": 11256812,
           "imdb": "tt33333193",
           "tmdb": 6402104,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 4,
-        "title": "Dirty Birds",
-        "ids": {
-          "trakt": 13347319,
-          "tvdb": 11256811,
-          "imdb": "tt33333200",
-          "tmdb": 6402103,
           "tvrage": null
         }
       }
@@ -70447,7 +70447,7 @@
       }
     },
     "progress": {
-      "aired": 344,
+      "aired": 345,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -72143,7 +72143,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 24,
+          "aired": 25,
           "completed": 0,
           "episodes": [
             {
@@ -72263,6 +72263,11 @@
             },
             {
               "number": 24,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 25,
               "completed": false,
               "last_watched_at": null
             }
