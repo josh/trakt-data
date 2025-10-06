@@ -14,8 +14,8 @@
     },
     "progress": {
       "aired": 46,
-      "completed": 43,
-      "last_watched_at": "2025-10-06T01:57:45.000Z",
+      "completed": 44,
+      "last_watched_at": "2025-10-06T02:36:05.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -254,7 +254,7 @@
           "number": 5,
           "title": null,
           "aired": 6,
-          "completed": 3,
+          "completed": 4,
           "episodes": [
             {
               "number": 1,
@@ -273,8 +273,8 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-10-06T02:36:05.000Z"
             },
             {
               "number": 5,
@@ -292,6 +292,18 @@
       "hidden_seasons": [],
       "next_episode": {
         "season": 5,
+        "number": 5,
+        "title": "Tongue Tied",
+        "ids": {
+          "trakt": 13347321,
+          "tvdb": 11256812,
+          "imdb": "tt33333193",
+          "tmdb": 6402104,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 5,
         "number": 4,
         "title": "Dirty Birds",
         "ids": {
@@ -299,18 +311,6 @@
           "tvdb": 11256811,
           "imdb": "tt33333200",
           "tmdb": 6402103,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 3,
-        "title": "Rigor",
-        "ids": {
-          "trakt": 13347314,
-          "tvdb": 11256810,
-          "imdb": "tt33333197",
-          "tmdb": 6402102,
           "tvrage": null
         }
       }
