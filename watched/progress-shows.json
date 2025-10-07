@@ -13,9 +13,9 @@
       }
     },
     "progress": {
-      "aired": 46,
-      "completed": 46,
-      "last_watched_at": "2025-10-06T04:45:46.000Z",
+      "aired": 47,
+      "completed": 47,
+      "last_watched_at": "2025-10-07T05:26:01.000Z",
       "reset_at": null,
       "seasons": [
         {
@@ -253,8 +253,8 @@
         {
           "number": 5,
           "title": null,
-          "aired": 6,
-          "completed": 6,
+          "aired": 7,
+          "completed": 7,
           "episodes": [
             {
               "number": 1,
@@ -285,12 +285,29 @@
               "number": 6,
               "completed": true,
               "last_watched_at": "2025-10-06T04:45:46.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-10-07T05:26:01.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
       "next_episode": {
+        "season": 5,
+        "number": 8,
+        "title": "Cuckoo Chicks",
+        "ids": {
+          "trakt": 13347331,
+          "tvdb": 11256815,
+          "imdb": "tt33333195",
+          "tmdb": 6402107,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 5,
         "number": 7,
         "title": "Silver Alert",
@@ -299,18 +316,6 @@
           "tvdb": 11256814,
           "imdb": "tt33333201",
           "tmdb": 6402106,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 5,
-        "number": 6,
-        "title": "Flatbush",
-        "ids": {
-          "trakt": 13347324,
-          "tvdb": 11256813,
-          "imdb": "tt33333198",
-          "tmdb": 6402105,
           "tvrage": null
         }
       }
@@ -6423,18 +6428,7 @@
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
-        "season": 18,
-        "number": 1,
-        "title": "the gang reboots reality",
-        "ids": {
-          "trakt": 13559034,
-          "tvdb": null,
-          "imdb": null,
-          "tmdb": 6561758,
-          "tvrage": null
-        }
-      },
+      "next_episode": null,
       "last_episode": {
         "season": 17,
         "number": 8,
@@ -18526,7 +18520,7 @@
       }
     },
     "progress": {
-      "aired": 4455,
+      "aired": 4456,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -40491,7 +40485,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 110,
+          "aired": 111,
           "completed": 0,
           "episodes": [
             {
@@ -41041,6 +41035,11 @@
             },
             {
               "number": 110,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 111,
               "completed": false,
               "last_watched_at": null
             }
