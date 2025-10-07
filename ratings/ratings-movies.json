@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-10-07T06:01:59.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "The Lost Bus",
+      "year": 2025,
+      "ids": {
+        "trakt": 1000306,
+        "slug": "the-lost-bus-2025",
+        "imdb": "tt21103218",
+        "tmdb": 1236470
+      }
+    }
+  },
+  {
     "rated_at": "2025-10-05T06:01:48.000Z",
     "rating": 6,
     "type": "movie",
@@ -57140,10 +57155,10 @@
     "type": "movie",
     "movie": {
       "title": "Brick",
-      "year": 2005,
+      "year": 2006,
       "ids": {
         "trakt": 4570,
-        "slug": "brick-2005",
+        "slug": "brick-2006",
         "imdb": "tt0393109",
         "tmdb": 9270
       }
@@ -61100,10 +61115,10 @@
     "type": "movie",
     "movie": {
       "title": "V for Vendetta",
-      "year": 2006,
+      "year": 2005,
       "ids": {
         "trakt": 595,
-        "slug": "v-for-vendetta-2006",
+        "slug": "v-for-vendetta-2005",
         "imdb": "tt0434409",
         "tmdb": 752
       }
