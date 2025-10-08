@@ -1,5 +1,70 @@
 [
   {
+    "plays": 8,
+    "last_watched_at": "2025-10-08T00:02:46.000Z",
+    "last_updated_at": "2025-10-07T23:05:46.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Black Rabbit",
+      "year": 2025,
+      "ids": {
+        "trakt": 230778,
+        "slug": "black-rabbit",
+        "tvdb": 447579,
+        "imdb": "tt23055142",
+        "tmdb": 249039,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-09-23T06:20:32.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-09-27T04:08:21.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-09-27T05:08:52.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-10-03T06:50:23.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-10-03T08:02:56.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2025-10-05T21:03:42.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2025-10-05T22:04:48.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2025-10-08T00:02:46.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 15,
     "last_watched_at": "2025-10-07T06:06:28.000Z",
     "last_updated_at": "2025-10-07T06:06:28.000Z",
@@ -379,66 +444,6 @@
             "number": 7,
             "plays": 1,
             "last_watched_at": "2025-10-07T05:26:01.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 7,
-    "last_watched_at": "2025-10-05T22:04:48.000Z",
-    "last_updated_at": "2025-10-05T21:03:48.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Black Rabbit",
-      "year": 2025,
-      "ids": {
-        "trakt": 230778,
-        "slug": "black-rabbit",
-        "tvdb": 447579,
-        "imdb": "tt23055142",
-        "tmdb": 249039,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-09-23T06:20:32.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-09-27T04:08:21.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-09-27T05:08:52.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-10-03T06:50:23.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2025-10-03T08:02:56.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2025-10-05T21:03:42.000Z"
-          },
-          {
-            "number": 7,
-            "plays": 1,
-            "last_watched_at": "2025-10-05T22:04:48.000Z"
           }
         ]
       }

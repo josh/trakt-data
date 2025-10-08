@@ -1,6 +1,90 @@
 [
   {
     "show": {
+      "title": "Black Rabbit",
+      "year": 2025,
+      "ids": {
+        "trakt": 230778,
+        "slug": "black-rabbit",
+        "tvdb": 447579,
+        "imdb": "tt23055142",
+        "tmdb": 249039,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 8,
+      "last_watched_at": "2025-10-08T00:02:46.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-23T06:20:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-27T04:08:21.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-27T05:08:52.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-10-03T06:50:23.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-10-03T08:02:56.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-10-05T21:03:42.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-10-05T22:04:48.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-10-08T00:02:46.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": null,
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Isle of Joy",
+        "ids": {
+          "trakt": 11909970,
+          "tvdb": 10509410,
+          "imdb": "tt32445258",
+          "tmdb": 5367756,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -449,101 +533,6 @@
           "tvdb": 11256814,
           "imdb": "tt33333201",
           "tmdb": 6402106,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Black Rabbit",
-      "year": 2025,
-      "ids": {
-        "trakt": 230778,
-        "slug": "black-rabbit",
-        "tvdb": 447579,
-        "imdb": "tt23055142",
-        "tmdb": 249039,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 7,
-      "last_watched_at": "2025-10-05T22:04:48.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Limited Series",
-          "aired": 8,
-          "completed": 7,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-23T06:20:32.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-27T04:08:21.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-27T05:08:52.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-10-03T06:50:23.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-10-03T08:02:56.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-10-05T21:03:42.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-10-05T22:04:48.000Z"
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Isle of Joy",
-        "ids": {
-          "trakt": 11909970,
-          "tvdb": 10509410,
-          "imdb": "tt32445258",
-          "tmdb": 5367756,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "These Kids Nearly Got Munsoned",
-        "ids": {
-          "trakt": 11909969,
-          "tvdb": 10509409,
-          "imdb": "tt32445257",
-          "tmdb": 5367755,
           "tvrage": null
         }
       }
@@ -15134,7 +15123,7 @@
       }
     },
     "progress": {
-      "aired": 26,
+      "aired": 27,
       "completed": 24,
       "last_watched_at": "2024-10-10T00:17:39.000Z",
       "reset_at": null,
@@ -15294,7 +15283,7 @@
         {
           "number": 5,
           "title": null,
-          "aired": 2,
+          "aired": 3,
           "completed": 0,
           "episodes": [
             {
@@ -15304,6 +15293,11 @@
             },
             {
               "number": 2,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 3,
               "completed": false,
               "last_watched_at": null
             }
@@ -18520,7 +18514,7 @@
       }
     },
     "progress": {
-      "aired": 4456,
+      "aired": 4457,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -40485,7 +40479,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 111,
+          "aired": 112,
           "completed": 0,
           "episodes": [
             {
@@ -41040,6 +41034,11 @@
             },
             {
               "number": 111,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 112,
               "completed": false,
               "last_watched_at": null
             }
@@ -46657,7 +46656,7 @@
       }
     },
     "progress": {
-      "aired": 33,
+      "aired": 34,
       "completed": 30,
       "last_watched_at": "2023-11-16T08:10:39.000Z",
       "reset_at": null,
@@ -46839,7 +46838,7 @@
         {
           "number": 4,
           "title": null,
-          "aired": 3,
+          "aired": 4,
           "completed": 0,
           "episodes": [
             {
@@ -46854,6 +46853,11 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null
             }
