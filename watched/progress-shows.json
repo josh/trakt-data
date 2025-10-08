@@ -1,90 +1,6 @@
 [
   {
     "show": {
-      "title": "Black Rabbit",
-      "year": 2025,
-      "ids": {
-        "trakt": 230778,
-        "slug": "black-rabbit",
-        "tvdb": 447579,
-        "imdb": "tt23055142",
-        "tmdb": 249039,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 8,
-      "last_watched_at": "2025-10-08T00:02:46.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Limited Series",
-          "aired": 8,
-          "completed": 8,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-23T06:20:32.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-27T04:08:21.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-27T05:08:52.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-10-03T06:50:23.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-10-03T08:02:56.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-10-05T21:03:42.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-10-05T22:04:48.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-10-08T00:02:46.000Z"
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": null,
-      "last_episode": {
-        "season": 1,
-        "number": 8,
-        "title": "Isle of Joy",
-        "ids": {
-          "trakt": 11909970,
-          "tvdb": 10509410,
-          "imdb": "tt32445258",
-          "tmdb": 5367756,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
       "title": "English Teacher",
       "year": 2024,
       "ids": {
@@ -211,6 +127,90 @@
           "tvdb": 11162589,
           "imdb": "tt35676137",
           "tmdb": 6481085,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Black Rabbit",
+      "year": 2025,
+      "ids": {
+        "trakt": 230778,
+        "slug": "black-rabbit",
+        "tvdb": 447579,
+        "imdb": "tt23055142",
+        "tmdb": 249039,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 8,
+      "last_watched_at": "2025-10-08T00:02:46.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Limited Series",
+          "aired": 8,
+          "completed": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-23T06:20:32.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-27T04:08:21.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-27T05:08:52.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-10-03T06:50:23.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-10-03T08:02:56.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-10-05T21:03:42.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-10-05T22:04:48.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-10-08T00:02:46.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": null,
+      "last_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "Isle of Joy",
+        "ids": {
+          "trakt": 11909970,
+          "tvdb": 10509410,
+          "imdb": "tt32445258",
+          "tmdb": 5367756,
           "tvrage": null
         }
       }
