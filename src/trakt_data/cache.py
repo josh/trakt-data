@@ -24,6 +24,10 @@ def print_cache_stats(cache_dir: Path) -> None:
     ages = [now - file.stat().st_mtime for file in cache_dir.glob("**/*.json")]
     ages.sort()
 
+    if not ages:
+        print("Cache is empty")
+        return
+
     mean_age = sum(ages) / len(ages)
     median_age = ages[len(ages) // 2]
     p75_age = ages[int(len(ages) * 0.75)]
