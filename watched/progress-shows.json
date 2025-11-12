@@ -1,6 +1,207 @@
 [
   {
     "show": {
+      "title": "Loot",
+      "year": 2022,
+      "ids": {
+        "trakt": 194722,
+        "slug": "loot",
+        "tvdb": 417559,
+        "imdb": "tt14271498",
+        "tmdb": 197449,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 26,
+      "completed": 26,
+      "last_watched_at": "2025-11-12T06:49:50.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2022-06-27T01:14:36.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2022-06-27T01:24:05.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2022-06-27T01:51:50.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2022-07-02T20:47:27.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2022-07-08T03:39:41.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2022-07-17T02:11:43.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2022-07-23T20:00:05.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2022-07-29T07:03:56.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2022-08-08T03:40:37.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2022-08-12T01:38:40.000Z"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": null,
+          "aired": 10,
+          "completed": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2024-04-04T02:50:14.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2024-04-04T03:20:21.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2024-04-10T06:57:30.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2024-04-17T06:24:21.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2024-04-24T05:49:08.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2024-05-01T05:45:32.000Z"
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2024-05-09T04:56:20.000Z"
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2024-05-15T06:15:36.000Z"
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2024-05-23T10:53:17.000Z"
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2024-05-30T13:31:01.000Z"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-10-17T04:30:27.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-10-17T04:58:17.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-10-22T04:31:05.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-10-29T05:20:36.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-11-05T06:18:03.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-11-12T06:49:50.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 3,
+        "number": 7,
+        "title": "Billionaire, Beautiful and True",
+        "ids": {
+          "trakt": 13344279,
+          "tvdb": 11255462,
+          "imdb": "tt38689705",
+          "tmdb": 6399357,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 3,
+        "number": 6,
+        "title": "What's Up with Us",
+        "ids": {
+          "trakt": 13344278,
+          "tvdb": 11255461,
+          "imdb": "tt38689706",
+          "tmdb": 6399356,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Lowdown",
       "year": 2025,
       "ids": {
@@ -4182,207 +4383,6 @@
           "tvdb": 11260075,
           "imdb": "tt32767308",
           "tmdb": 5964848,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Loot",
-      "year": 2022,
-      "ids": {
-        "trakt": 194722,
-        "slug": "loot",
-        "tvdb": 417559,
-        "imdb": "tt14271498",
-        "tmdb": 197449,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 26,
-      "completed": 25,
-      "last_watched_at": "2025-11-05T06:18:03.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2022-06-27T01:14:36.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2022-06-27T01:24:05.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2022-06-27T01:51:50.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2022-07-02T20:47:27.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2022-07-08T03:39:41.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2022-07-17T02:11:43.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2022-07-23T20:00:05.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2022-07-29T07:03:56.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2022-08-08T03:40:37.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2022-08-12T01:38:40.000Z"
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": null,
-          "aired": 10,
-          "completed": 10,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2024-04-04T02:50:14.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2024-04-04T03:20:21.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2024-04-10T06:57:30.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2024-04-17T06:24:21.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2024-04-24T05:49:08.000Z"
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2024-05-01T05:45:32.000Z"
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2024-05-09T04:56:20.000Z"
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2024-05-15T06:15:36.000Z"
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2024-05-23T10:53:17.000Z"
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2024-05-30T13:31:01.000Z"
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "title": null,
-          "aired": 6,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-10-17T04:30:27.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-10-17T04:58:17.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-10-22T04:31:05.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-10-29T05:20:36.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-11-05T06:18:03.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 3,
-        "number": 6,
-        "title": "What's Up with Us",
-        "ids": {
-          "trakt": 13344278,
-          "tvdb": 11255461,
-          "imdb": "tt38689706",
-          "tmdb": 6399356,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 3,
-        "number": 5,
-        "title": "Joyride",
-        "ids": {
-          "trakt": 13344277,
-          "tvdb": 11255460,
-          "imdb": "tt38689707",
-          "tmdb": 6399355,
           "tvrage": null
         }
       }
@@ -19357,7 +19357,7 @@
       }
     },
     "progress": {
-      "aired": 4472,
+      "aired": 4473,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:09.000Z",
       "reset_at": null,
@@ -41322,7 +41322,7 @@
         {
           "number": 30,
           "title": null,
-          "aired": 127,
+          "aired": 128,
           "completed": 0,
           "episodes": [
             {
@@ -41957,6 +41957,11 @@
             },
             {
               "number": 127,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 128,
               "completed": false,
               "last_watched_at": null
             }
@@ -74501,7 +74506,7 @@
       }
     },
     "progress": {
-      "aired": 1733,
+      "aired": 1734,
       "completed": 324,
       "last_watched_at": "2021-04-30T18:17:19.000Z",
       "reset_at": null,
@@ -83079,7 +83084,7 @@
         {
           "number": 11,
           "title": null,
-          "aired": 35,
+          "aired": 36,
           "completed": 0,
           "episodes": [
             {
@@ -83254,6 +83259,11 @@
             },
             {
               "number": 35,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 36,
               "completed": false,
               "last_watched_at": null
             }
