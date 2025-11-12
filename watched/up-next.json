@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2025-11-10T06:31:12.000Z",
+      "last_watched_at": "2025-11-12T03:42:44.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 4,
+        "title": "Short on Cowboys",
+        "ids": {
+          "trakt": 13119055,
+          "tvdb": 11341850,
+          "imdb": "tt36269098",
+          "tmdb": 6231510,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 3,
         "title": "Dinosaur Memories",
@@ -34,16 +46,54 @@
           "tmdb": 6231509,
           "tvrage": null
         }
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Loot",
+      "year": 2022,
+      "ids": {
+        "trakt": 194722,
+        "slug": "loot",
+        "tvdb": 417559,
+        "imdb": "tt14271498",
+        "tmdb": 197449,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 26,
+      "completed": 25,
+      "hidden": 0,
+      "last_watched_at": "2025-11-05T06:18:03.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 25,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "season": 3,
+        "number": 6,
+        "title": "What's Up with Us",
+        "ids": {
+          "trakt": 13344278,
+          "tvdb": 11255461,
+          "imdb": "tt38689706",
+          "tmdb": 6399356,
+          "tvrage": null
+        }
       },
       "last_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "The Devil's Mama",
+        "season": 3,
+        "number": 5,
+        "title": "Joyride",
         "ids": {
-          "trakt": 13119053,
-          "tvdb": 11341848,
-          "imdb": "tt35924585",
-          "tmdb": 6231507,
+          "trakt": 13344277,
+          "tvdb": 11255460,
+          "imdb": "tt38689707",
+          "tmdb": 6399355,
           "tvrage": null
         }
       }
