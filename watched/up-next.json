@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 3,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2025-11-12T03:42:44.000Z",
+      "last_watched_at": "2025-11-13T06:33:14.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 3,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 5,
+        "title": "This Land?",
+        "ids": {
+          "trakt": 13119056,
+          "tvdb": 11341851,
+          "imdb": "tt36269101",
+          "tmdb": 6231511,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 4,
         "title": "Short on Cowboys",
@@ -32,18 +44,6 @@
           "tvdb": 11341850,
           "imdb": "tt36269098",
           "tmdb": 6231510,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Dinosaur Memories",
-        "ids": {
-          "trakt": 13119054,
-          "tvdb": 11341849,
-          "imdb": "tt36269092",
-          "tmdb": 6231509,
           "tvrage": null
         }
       }
