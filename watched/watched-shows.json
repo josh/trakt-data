@@ -1,5 +1,95 @@
 [
   {
+    "plays": 5,
+    "last_watched_at": "2025-11-16T23:53:06.000Z",
+    "last_updated_at": "2025-11-16T23:03:06.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "The Lowdown",
+      "year": 2025,
+      "ids": {
+        "trakt": 258223,
+        "slug": "the-lowdown-2025",
+        "tvdb": 450085,
+        "imdb": "tt31289994",
+        "tmdb": 273247,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-11-09T08:06:27.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-11-10T06:31:12.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-11-12T03:42:44.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2025-11-13T06:33:14.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2025-11-16T23:53:06.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 3,
+    "last_watched_at": "2025-11-16T22:59:57.000Z",
+    "last_updated_at": "2025-11-16T22:15:57.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Pluribus",
+      "year": 2025,
+      "ids": {
+        "trakt": 206790,
+        "slug": "pluribus",
+        "tvdb": 436457,
+        "imdb": "tt22202452",
+        "tmdb": 225171,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-11-07T05:42:12.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-11-07T06:46:24.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2025-11-16T22:59:57.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 717,
     "last_watched_at": "2025-11-15T10:05:27.000Z",
     "last_updated_at": "2025-11-15T09:05:27.000Z",
@@ -3735,51 +3825,6 @@
     ]
   },
   {
-    "plays": 4,
-    "last_watched_at": "2025-11-13T06:33:14.000Z",
-    "last_updated_at": "2025-11-13T05:40:14.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "The Lowdown",
-      "year": 2025,
-      "ids": {
-        "trakt": 258223,
-        "slug": "the-lowdown-2025",
-        "tvdb": 450085,
-        "imdb": "tt31289994",
-        "tmdb": 273247,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-11-09T08:06:27.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-11-10T06:31:12.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2025-11-12T03:42:44.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2025-11-13T06:33:14.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "plays": 26,
     "last_watched_at": "2025-11-12T06:49:50.000Z",
     "last_updated_at": "2025-11-12T06:22:50.000Z",
@@ -4119,41 +4164,6 @@
             "number": 10,
             "plays": 1,
             "last_watched_at": "2025-11-09T03:05:04.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 2,
-    "last_watched_at": "2025-11-07T06:46:24.000Z",
-    "last_updated_at": "2025-11-07T05:43:24.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Pluribus",
-      "year": 2025,
-      "ids": {
-        "trakt": 206790,
-        "slug": "pluribus",
-        "tvdb": 436457,
-        "imdb": "tt22202452",
-        "tmdb": 225171,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-11-07T05:42:12.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2025-11-07T06:46:24.000Z"
           }
         ]
       }
