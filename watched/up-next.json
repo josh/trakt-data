@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Slow Horses",
+      "year": 2022,
+      "ids": {
+        "trakt": 155534,
+        "slug": "slow-horses",
+        "tvdb": 372264,
+        "imdb": "tt5875444",
+        "tmdb": 95480,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 26,
+      "hidden": 0,
+      "last_watched_at": "2025-11-17T09:03:46.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 26,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt30842027",
+          "plex": {
+            "guid": "673f4823f0bd09ff5ae92d1b"
+          },
+          "tmdb": 6284965,
+          "tvdb": 11175984,
+          "trakt": 13189751
+        },
+        "title": "Tall Tales",
+        "votes": 1013,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/189/751/screenshots/medium/9d2244dbea.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.872655391693115,
+        "season": 5,
+        "runtime": 40,
+        "overview": "An act of sabotage grinds London to a halt. Taverner interrogates Roddy. Coe is convinced a destabilization strategy is at play.",
+        "number_abs": null,
+        "updated_at": "2025-11-17T15:21:01.000Z",
+        "first_aired": "2025-10-08T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 16,
+        "during_credits": false,
+        "original_title": "Tall Tales",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt30842026",
+          "plex": {
+            "guid": "673f4822f0bd09ff5ae92cfb"
+          },
+          "tmdb": 6284964,
+          "tvdb": 11175983,
+          "trakt": 13189749
+        },
+        "title": "Incommunicado",
+        "votes": 1005,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/189/749/screenshots/medium/4f0e0fd688.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.779104709625244,
+        "season": 5,
+        "runtime": 48,
+        "overview": "Lamb intercepts an assassin. Taverner receives a key piece of intel about the Abbotsfield shooting.",
+        "number_abs": null,
+        "updated_at": "2025-11-17T15:10:09.000Z",
+        "first_aired": "2025-10-01T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Incommunicado",
+        "available_translations": [
+          "de",
+          "en",
+          "sv"
+        ]
+      }
+    }
+  },
+  {
+    "show": {
       "title": "I Love LA",
       "year": 2025,
       "ids": {
@@ -24,78 +118,68 @@
         "minutes_watched": 0
       },
       "next_episode": {
-        "season": 1,
-        "number": 3,
-        "title": "Girl's Girl",
         "ids": {
-          "trakt": 13449302,
-          "tvdb": 11305138,
           "imdb": "tt38046465",
+          "plex": {
+            "guid": "68b04fc4c6fb50e1e5ccfb8e"
+          },
           "tmdb": 6485024,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
+          "tvdb": 11305138,
+          "trakt": 13449302
+        },
+        "title": "Girl's Girl",
+        "votes": 9,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/449/302/screenshots/medium/272836b4a5.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.111111164093018,
         "season": 1,
-        "number": 2,
-        "title": "Roger & Munchy",
-        "ids": {
-          "trakt": 13449301,
-          "tvdb": 11305136,
-          "imdb": "tt37455685",
-          "tmdb": 6485023,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Slow Horses",
-      "year": 2022,
-      "ids": {
-        "trakt": 155534,
-        "slug": "slow-horses",
-        "tvdb": 372264,
-        "imdb": "tt5875444",
-        "tmdb": 95480,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 24,
-      "hidden": 0,
-      "last_watched_at": "2024-10-10T00:17:39.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 24,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "season": 5,
-        "number": 1,
-        "title": "Bad Dates",
-        "ids": {
-          "trakt": 13189747,
-          "tvdb": 11175982,
-          "imdb": "tt30765140",
-          "tmdb": 6284963,
-          "tvrage": null
-        }
+        "runtime": 30,
+        "overview": "After Paulena's rant goes viral, Tallulah grows increasingly anxious over the online hate, while Maia wrestles with following Alyssa's advice or her own managerial instincts after securing an important brand deal.",
+        "number_abs": null,
+        "updated_at": "2025-11-17T15:55:49.000Z",
+        "first_aired": "2025-11-17T03:30:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Girl's Girl",
+        "available_translations": []
       },
       "last_episode": {
-        "season": 4,
-        "number": 6,
-        "title": "Hello Goodbye",
         "ids": {
-          "trakt": 12059077,
-          "tvdb": 10586002,
-          "imdb": "tt27243355",
-          "tmdb": 5440290,
-          "tvrage": null
-        }
+          "imdb": "tt37455685",
+          "plex": {
+            "guid": "6862ff63c14ff13a311b4eee"
+          },
+          "tmdb": 6485023,
+          "tvdb": 11305136,
+          "trakt": 13449301
+        },
+        "title": "Roger & Munchy",
+        "votes": 60,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/449/301/screenshots/medium/5f0836c0eb.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 6.883333206176758,
+        "season": 1,
+        "runtime": 29,
+        "overview": "After reconciling, Maia and Tallulah step into their new roles as manager and client while tackling an increasingly erratic situation.",
+        "number_abs": null,
+        "updated_at": "2025-11-17T15:45:08.000Z",
+        "first_aired": "2025-11-10T03:30:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Roger & Munchy",
+        "available_translations": []
       }
     }
   },
@@ -124,28 +208,68 @@
         "minutes_watched": 0
       },
       "next_episode": {
-        "season": 4,
-        "number": 1,
-        "title": "What Doesn't Kill You Makes You Stronger",
         "ids": {
-          "trakt": 13512038,
-          "tvdb": 11336518,
           "imdb": "tt23132038",
+          "plex": {
+            "guid": "68c61ddc8b81981d13b8b7bc"
+          },
           "tmdb": 6527377,
-          "tvrage": null
-        }
+          "tvdb": 11336518,
+          "trakt": 13512038
+        },
+        "title": "What Doesn't Kill You Makes You Stronger",
+        "votes": 847,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 6.455726146697998,
+        "season": 4,
+        "runtime": 59,
+        "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
+        "number_abs": null,
+        "updated_at": "2025-11-17T15:43:40.000Z",
+        "first_aired": "2025-10-30T07:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 32,
+        "during_credits": false,
+        "original_title": "What Doesn't Kill You Makes You Stronger",
+        "available_translations": []
       },
       "last_episode": {
-        "season": 3,
-        "number": 8,
-        "title": "The Cost of Chaos",
         "ids": {
-          "trakt": 7514407,
-          "tvdb": 9765180,
           "imdb": "tt27493246",
+          "plex": {
+            "guid": "64493f82472c5cc7e6d60f03"
+          },
           "tmdb": 4390459,
-          "tvrage": null
-        }
+          "tvdb": 9765180,
+          "trakt": 7514407
+        },
+        "title": "The Cost of Chaos",
+        "votes": 2014,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/007/514/407/screenshots/medium/d2321531a4.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.132572174072266,
+        "season": 3,
+        "runtime": 66,
+        "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
+        "number_abs": null,
+        "updated_at": "2025-11-17T15:43:39.000Z",
+        "first_aired": "2023-07-27T07:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 34,
+        "during_credits": false,
+        "original_title": "The Cost of Chaos",
+        "available_translations": []
       }
     }
   }
