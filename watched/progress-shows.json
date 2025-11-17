@@ -1,6 +1,91 @@
 [
   {
     "show": {
+      "title": "The Chair Company",
+      "year": 2025,
+      "ids": {
+        "trakt": 255718,
+        "slug": "the-chair-company",
+        "tvdb": 454397,
+        "imdb": "tt31987295",
+        "tmdb": 271267,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 6,
+      "last_watched_at": "2025-11-17T07:16:51.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 6,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-10-14T04:14:12.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-10-20T05:38:23.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-10-27T05:47:15.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-11-05T05:50:56.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-11-10T06:03:14.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-11-17T07:16:51.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "I said to my dog, \"How do you like my hippie shirt?\"",
+        "ids": {
+          "trakt": 13495856,
+          "tvdb": 11327953,
+          "imdb": "tt37852179",
+          "tmdb": 6515885,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "Happy Birthday, A Friend.",
+        "ids": {
+          "trakt": 13495855,
+          "tvdb": 11327952,
+          "imdb": "tt37542983",
+          "tmdb": 6515884,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Lowdown",
       "year": 2025,
       "ids": {
@@ -97,7 +182,7 @@
       }
     },
     "progress": {
-      "aired": 2,
+      "aired": 3,
       "completed": 2,
       "last_watched_at": "2025-11-17T00:22:24.000Z",
       "reset_at": null,
@@ -105,7 +190,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 2,
+          "aired": 3,
           "completed": 2,
           "episodes": [
             {
@@ -117,6 +202,11 @@
               "number": 2,
               "completed": true,
               "last_watched_at": "2025-11-17T00:22:24.000Z"
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
@@ -4215,91 +4305,6 @@
           "tvdb": 11255461,
           "imdb": "tt38689706",
           "tmdb": 6399356,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Chair Company",
-      "year": 2025,
-      "ids": {
-        "trakt": 255718,
-        "slug": "the-chair-company",
-        "tvdb": 454397,
-        "imdb": "tt31987295",
-        "tmdb": 271267,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 5,
-      "last_watched_at": "2025-11-10T06:03:14.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 6,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-10-14T04:14:12.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-10-20T05:38:23.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-10-27T05:47:15.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-11-05T05:50:56.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-11-10T06:03:14.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "Happy Birthday, A Friend.",
-        "ids": {
-          "trakt": 13495855,
-          "tvdb": 11327952,
-          "imdb": "tt37542983",
-          "tmdb": 6515884,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "I won. Zoom in.",
-        "ids": {
-          "trakt": 13495854,
-          "tvdb": 11327951,
-          "imdb": "tt37356771",
-          "tmdb": 6515883,
           "tvrage": null
         }
       }
@@ -71726,7 +71731,7 @@
       }
     },
     "progress": {
-      "aired": 349,
+      "aired": 350,
       "completed": 226,
       "last_watched_at": "2021-06-28T05:34:47.000Z",
       "reset_at": null,
@@ -73422,7 +73427,7 @@
         {
           "number": 12,
           "title": null,
-          "aired": 29,
+          "aired": 30,
           "completed": 0,
           "episodes": [
             {
@@ -73567,6 +73572,11 @@
             },
             {
               "number": 29,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 30,
               "completed": false,
               "last_watched_at": null
             }
