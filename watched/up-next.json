@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
+      "completed": 7,
       "hidden": 0,
-      "last_watched_at": "2025-11-17T01:31:38.000Z",
+      "last_watched_at": "2025-11-17T02:27:52.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 7,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 8,
+        "title": "The Sensitive Kind",
+        "ids": {
+          "trakt": 13119059,
+          "tvdb": 11341854,
+          "imdb": "tt36944869",
+          "tmdb": 6231514,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 7,
         "title": "Tulsa Turnaround",
@@ -32,18 +44,6 @@
           "tvdb": 11341853,
           "imdb": "tt36944866",
           "tmdb": 6231513,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "The Old Indian Trick",
-        "ids": {
-          "trakt": 13119057,
-          "tvdb": 11341852,
-          "imdb": "tt36615994",
-          "tmdb": 6231512,
           "tvrage": null
         }
       }
