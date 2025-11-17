@@ -14,15 +14,15 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 7,
-      "last_watched_at": "2025-11-17T02:27:52.000Z",
+      "completed": 8,
+      "last_watched_at": "2025-11-17T03:39:02.000Z",
       "reset_at": null,
       "seasons": [
         {
           "number": 1,
           "title": null,
           "aired": 8,
-          "completed": 7,
+          "completed": 8,
           "episodes": [
             {
               "number": 1,
@@ -61,14 +61,15 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null
+              "completed": true,
+              "last_watched_at": "2025-11-17T03:39:02.000Z"
             }
           ]
         }
       ],
       "hidden_seasons": [],
-      "next_episode": {
+      "next_episode": null,
+      "last_episode": {
         "season": 1,
         "number": 8,
         "title": "The Sensitive Kind",
@@ -77,18 +78,6 @@
           "tvdb": 11341854,
           "imdb": "tt36944869",
           "tmdb": 6231514,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 7,
-        "title": "Tulsa Turnaround",
-        "ids": {
-          "trakt": 13119058,
-          "tvdb": 11341853,
-          "imdb": "tt36944866",
-          "tmdb": 6231513,
           "tvrage": null
         }
       }
@@ -4245,7 +4234,7 @@
       }
     },
     "progress": {
-      "aired": 5,
+      "aired": 6,
       "completed": 5,
       "last_watched_at": "2025-11-10T06:03:14.000Z",
       "reset_at": null,
@@ -4253,7 +4242,7 @@
         {
           "number": 1,
           "title": null,
-          "aired": 5,
+          "aired": 6,
           "completed": 5,
           "episodes": [
             {
@@ -4280,6 +4269,11 @@
               "number": 5,
               "completed": true,
               "last_watched_at": "2025-11-10T06:03:14.000Z"
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null
             }
           ]
         }
