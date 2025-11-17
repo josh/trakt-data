@@ -1,6 +1,71 @@
 [
   {
     "show": {
+      "title": "I Love LA",
+      "year": 2025,
+      "ids": {
+        "trakt": 255451,
+        "slug": "i-love-la",
+        "tvdb": 454337,
+        "imdb": "tt33362589",
+        "tmdb": 271053,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 2,
+      "completed": 2,
+      "last_watched_at": "2025-11-17T00:22:24.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 2,
+          "completed": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-11-13T07:03:12.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-11-17T00:22:24.000Z"
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 3,
+        "title": "Girl's Girl",
+        "ids": {
+          "trakt": 13449302,
+          "tvdb": 11305138,
+          "imdb": "tt38046465",
+          "tmdb": 6485024,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 2,
+        "title": "Roger & Munchy",
+        "ids": {
+          "trakt": 13449301,
+          "tvdb": 11305136,
+          "imdb": "tt37455685",
+          "tmdb": 6485023,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Lowdown",
       "year": 2025,
       "ids": {
@@ -3960,71 +4025,6 @@
           "tvdb": null,
           "imdb": null,
           "tmdb": 6576693,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "I Love LA",
-      "year": 2025,
-      "ids": {
-        "trakt": 255451,
-        "slug": "i-love-la",
-        "tvdb": 454337,
-        "imdb": "tt33362589",
-        "tmdb": 271053,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 2,
-      "completed": 1,
-      "last_watched_at": "2025-11-13T07:03:12.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 2,
-          "completed": 1,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-11-13T07:03:12.000Z"
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 2,
-        "title": "Roger & Munchy",
-        "ids": {
-          "trakt": 13449301,
-          "tvdb": 11305136,
-          "imdb": "tt37455685",
-          "tmdb": 6485023,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 1,
-        "title": "Block Her",
-        "ids": {
-          "trakt": 12268696,
-          "tvdb": 10689194,
-          "imdb": "tt36771070",
-          "tmdb": 5590004,
           "tvrage": null
         }
       }
