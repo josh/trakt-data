@@ -14,16 +14,28 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2025-11-16T23:53:06.000Z",
+      "last_watched_at": "2025-11-17T01:31:38.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Tulsa Turnaround",
+        "ids": {
+          "trakt": 13119058,
+          "tvdb": 11341853,
+          "imdb": "tt36944866",
+          "tmdb": 6231513,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
         "season": 1,
         "number": 6,
         "title": "The Old Indian Trick",
@@ -32,18 +44,6 @@
           "tvdb": 11341852,
           "imdb": "tt36615994",
           "tmdb": 6231512,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "This Land?",
-        "ids": {
-          "trakt": 13119056,
-          "tvdb": 11341851,
-          "imdb": "tt36269101",
-          "tmdb": 6231511,
           "tvrage": null
         }
       }

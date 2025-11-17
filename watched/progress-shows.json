@@ -1,6 +1,101 @@
 [
   {
     "show": {
+      "title": "The Lowdown",
+      "year": 2025,
+      "ids": {
+        "trakt": 258223,
+        "slug": "the-lowdown-2025",
+        "tvdb": 450085,
+        "imdb": "tt31289994",
+        "tmdb": 273247,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 6,
+      "last_watched_at": "2025-11-17T01:31:38.000Z",
+      "reset_at": null,
+      "seasons": [
+        {
+          "number": 1,
+          "title": null,
+          "aired": 8,
+          "completed": 6,
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-11-09T08:06:27.000Z"
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-11-10T06:31:12.000Z"
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-11-12T03:42:44.000Z"
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-11-13T06:33:14.000Z"
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-11-16T23:53:06.000Z"
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-11-17T01:31:38.000Z"
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": [],
+      "next_episode": {
+        "season": 1,
+        "number": 7,
+        "title": "Tulsa Turnaround",
+        "ids": {
+          "trakt": 13119058,
+          "tvdb": 11341853,
+          "imdb": "tt36944866",
+          "tmdb": 6231513,
+          "tvrage": null
+        }
+      },
+      "last_episode": {
+        "season": 1,
+        "number": 6,
+        "title": "The Old Indian Trick",
+        "ids": {
+          "trakt": 13119057,
+          "tvdb": 11341852,
+          "imdb": "tt36615994",
+          "tmdb": 6231512,
+          "tvrage": null
+        }
+      }
+    }
+  },
+  {
+    "show": {
       "title": "I Love LA",
       "year": 2025,
       "ids": {
@@ -59,101 +154,6 @@
           "tvdb": 11305136,
           "imdb": "tt37455685",
           "tmdb": 6485023,
-          "tvrage": null
-        }
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Lowdown",
-      "year": 2025,
-      "ids": {
-        "trakt": 258223,
-        "slug": "the-lowdown-2025",
-        "tvdb": 450085,
-        "imdb": "tt31289994",
-        "tmdb": 273247,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 5,
-      "last_watched_at": "2025-11-16T23:53:06.000Z",
-      "reset_at": null,
-      "seasons": [
-        {
-          "number": 1,
-          "title": null,
-          "aired": 8,
-          "completed": 5,
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-11-09T08:06:27.000Z"
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-11-10T06:31:12.000Z"
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-11-12T03:42:44.000Z"
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-11-13T06:33:14.000Z"
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-11-16T23:53:06.000Z"
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": [],
-      "next_episode": {
-        "season": 1,
-        "number": 6,
-        "title": "The Old Indian Trick",
-        "ids": {
-          "trakt": 13119057,
-          "tvdb": 11341852,
-          "imdb": "tt36615994",
-          "tmdb": 6231512,
-          "tvrage": null
-        }
-      },
-      "last_episode": {
-        "season": 1,
-        "number": 5,
-        "title": "This Land?",
-        "ids": {
-          "trakt": 13119056,
-          "tvdb": 11341851,
-          "imdb": "tt36269101",
-          "tmdb": 6231511,
           "tvrage": null
         }
       }
