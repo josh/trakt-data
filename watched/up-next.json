@@ -1,6 +1,186 @@
 [
   {
     "show": {
+      "title": "Death by Lightning",
+      "year": 2025,
+      "ids": {
+        "trakt": 222950,
+        "slug": "death-by-lightning",
+        "tvdb": 445592,
+        "imdb": "tt31121364",
+        "tmdb": 245219,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 4,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2025-11-21T22:56:38.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37468782",
+          "plex": {
+            "guid": "6862c322c48f2411f9028646"
+          },
+          "tmdb": 6473124,
+          "tvdb": 11298153,
+          "trakt": 13435856
+        },
+        "title": "Party Faithful",
+        "votes": 104,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/435/856/screenshots/medium/26eabd1564.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.163461685180664,
+        "season": 1,
+        "runtime": 47,
+        "overview": "In the runup to Election Day, Garfield welcomes the nation to his front porch, while Guiteau struggles to ingratiate himself with Party leadership.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T03:19:50.000Z",
+        "first_aired": "2025-11-06T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Party Faithful",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31145119",
+          "plex": {
+            "guid": "65bd41b54da2087c26ef11c1"
+          },
+          "tmdb": 5114826,
+          "tvdb": 10285833,
+          "trakt": 11411423
+        },
+        "title": "The Man from Ohio",
+        "votes": 136,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/411/423/screenshots/medium/e4af947eac.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.308823585510254,
+        "season": 1,
+        "runtime": 52,
+        "overview": "At the 1880 Republican National Convention, the lives of Ohio Congressman James Garfield and newly released convict Charles Guiteau are forever altered.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T20:06:13.000Z",
+        "first_aired": "2025-11-06T08:00:00.000Z",
+        "episode_type": "series_premiere",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "The Man from Ohio",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Pluribus",
+      "year": 2025,
+      "ids": {
+        "trakt": 206790,
+        "slug": "pluribus",
+        "tvdb": 436457,
+        "imdb": "tt22202452",
+        "tmdb": 225171,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 4,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2025-11-16T22:59:57.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32767327",
+          "plex": {
+            "guid": "67a5398ef1c383d4d66683a8"
+          },
+          "tmdb": 5964850,
+          "tvdb": 11260077,
+          "trakt": 12800269
+        },
+        "title": "Please, Carol",
+        "votes": 333,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/800/269/screenshots/medium/3e3e4189fa.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.816816806793213,
+        "season": 1,
+        "runtime": 46,
+        "overview": "Carol tests the boundaries of this weirdly honest world at the expense of her ego. Far away, a resolute individual learns he's not alone.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T22:02:33.000Z",
+        "first_aired": "2025-11-21T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 10,
+        "during_credits": false,
+        "original_title": "Please, Carol",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32767323",
+          "plex": {
+            "guid": "67a5398ef1c383d4d66683ad"
+          },
+          "tmdb": 5964849,
+          "tvdb": 11260076,
+          "trakt": 12800268
+        },
+        "title": "Grenade",
+        "votes": 1308,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/800/268/screenshots/medium/71db2c352e.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.538226127624512,
+        "season": 1,
+        "runtime": 44,
+        "overview": "The World just wants to help\u2014which infuriates Carol. A heart-to-heart conversation ends with a bang.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T22:01:32.000Z",
+        "first_aired": "2025-11-14T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 45,
+        "during_credits": false,
+        "original_title": "Grenade",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Loot",
       "year": 2022,
       "ids": {
@@ -34,23 +214,23 @@
           "trakt": 13344279
         },
         "title": "Billionaire, Beautiful and True",
-        "votes": 3,
+        "votes": 35,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/279/screenshots/medium/330cc8d46a.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.333333492279053,
+        "rating": 7.028571605682373,
         "season": 3,
         "runtime": 29,
         "overview": "As Molly struggles with relationship problems, Howard realizes she needs Nicholas. Arthur invites Sofia to join his gaming club.",
         "number_abs": null,
-        "updated_at": "2025-11-19T05:35:56.000Z",
+        "updated_at": "2025-11-21T20:21:09.000Z",
         "first_aired": "2025-11-19T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 1,
         "during_credits": false,
         "original_title": "Billionaire, Beautiful and True",
         "available_translations": []
@@ -66,25 +246,115 @@
           "trakt": 13344278
         },
         "title": "What's Up with Us",
-        "votes": 60,
+        "votes": 66,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/278/screenshots/medium/522514b287.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 6.983333110809326,
+        "rating": 7,
         "season": 3,
         "runtime": 27,
         "overview": "Arthur invites Molly on a birding trip with his friends. Sofia discovers that Howard and Destiny have started dating.",
         "number_abs": null,
-        "updated_at": "2025-11-19T00:48:23.000Z",
+        "updated_at": "2025-11-21T17:18:27.000Z",
         "first_aired": "2025-11-12T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
         "original_title": "What's Up with Us",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "A Man on the Inside",
+      "year": 2024,
+      "ids": {
+        "trakt": 223229,
+        "slug": "a-man-on-the-inside",
+        "tvdb": 445646,
+        "imdb": "tt26670955",
+        "tmdb": 245312,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2024-12-04T08:45:29.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35047948",
+          "plex": {
+            "guid": "68a95f12d968ee216c859b3f"
+          },
+          "tmdb": 6472998,
+          "tvdb": 11240886,
+          "trakt": 13433703
+        },
+        "title": "Orientation",
+        "votes": 70,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/433/703/screenshots/medium/887f56e6f0.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 6.971428394317627,
+        "season": 2,
+        "runtime": 33,
+        "overview": "When a college president's secrets fall into the wrong hands, Charles poses as a visiting lecturer on campus to sniff out an anonymous blackmailer.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T21:29:02.000Z",
+        "first_aired": "2025-11-20T08:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Orientation",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31315816",
+          "plex": {
+            "guid": "6721110f124c8aab8cf4f2da"
+          },
+          "tmdb": 5710536,
+          "tvdb": 10447767,
+          "trakt": 12421646
+        },
+        "title": "The Spy Who Came In from the Cold",
+        "votes": 537,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/421/646/screenshots/medium/cf74822b21.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 8.014897346496582,
+        "season": 1,
+        "runtime": 35,
+        "overview": "When the pieces click into place, Charles faces the difficult task of revealing his true purpose at Pacific View. Emily helps him unpack the past.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T14:36:56.000Z",
+        "first_aired": "2024-11-21T08:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 14,
+        "during_credits": false,
+        "original_title": "The Spy Who Came In from the Cold",
         "available_translations": []
       }
     }
@@ -124,19 +394,19 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 870,
+        "votes": 890,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.464367866516113,
+        "rating": 6.467415809631348,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-11-19T02:56:58.000Z",
+        "updated_at": "2025-11-21T21:43:33.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -156,19 +426,19 @@
           "trakt": 7514407
         },
         "title": "The Cost of Chaos",
-        "votes": 2016,
+        "votes": 2022,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/514/407/screenshots/medium/d2321531a4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.132936477661133,
+        "rating": 7.136992931365967,
         "season": 3,
         "runtime": 66,
         "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
         "number_abs": null,
-        "updated_at": "2025-11-18T23:08:16.000Z",
+        "updated_at": "2025-11-21T21:37:06.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
