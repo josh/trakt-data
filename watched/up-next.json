@@ -14,16 +14,54 @@
     },
     "progress": {
       "aired": 4,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2025-11-21T23:45:04.000Z",
+      "last_watched_at": "2025-11-22T00:34:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37468784",
+          "plex": {
+            "guid": "6862c323c48f2411f9028648"
+          },
+          "tmdb": 6473126,
+          "tvdb": 11298155,
+          "trakt": 13435859
+        },
+        "title": "Destiny of the Republic",
+        "votes": 90,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/435/859/screenshots/medium/399f754a37.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.5333333015441895,
+        "season": 1,
+        "runtime": 66,
+        "overview": "Conkling goes on the offensive as Garfield challenges the New York political machine. Isolated and desperate, Guiteau weighs a history-making decision.",
+        "number_abs": null,
+        "updated_at": "2025-11-21T08:27:28.000Z",
+        "first_aired": "2025-11-06T08:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Destiny of the Republic",
+        "available_translations": [
+          "de",
+          "en",
+          "fr",
+          "uk",
+          "zh"
+        ]
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt37468783",
           "plex": {
@@ -53,38 +91,6 @@
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Casus Belli",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37468782",
-          "plex": {
-            "guid": "6862c322c48f2411f9028646"
-          },
-          "tmdb": 6473124,
-          "tvdb": 11298153,
-          "trakt": 13435856
-        },
-        "title": "Party Faithful",
-        "votes": 104,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/435/856/screenshots/medium/26eabd1564.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.163461685180664,
-        "season": 1,
-        "runtime": 47,
-        "overview": "In the runup to Election Day, Garfield welcomes the nation to his front porch, while Guiteau struggles to ingratiate himself with Party leadership.",
-        "number_abs": null,
-        "updated_at": "2025-11-21T03:19:50.000Z",
-        "first_aired": "2025-11-06T08:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Party Faithful",
         "available_translations": []
       }
     }
@@ -124,19 +130,19 @@
           "trakt": 12800269
         },
         "title": "Please, Carol",
-        "votes": 363,
+        "votes": 394,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/800/269/screenshots/medium/3e3e4189fa.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.823691368103027,
+        "rating": 7.812182903289795,
         "season": 1,
         "runtime": 46,
         "overview": "Carol tests the boundaries of this weirdly honest world at the expense of her ego. Far away, a resolute individual learns he's not alone.",
         "number_abs": null,
-        "updated_at": "2025-11-21T23:04:35.000Z",
+        "updated_at": "2025-11-22T00:12:24.000Z",
         "first_aired": "2025-11-21T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +162,19 @@
           "trakt": 12800268
         },
         "title": "Grenade",
-        "votes": 1315,
+        "votes": 1323,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/800/268/screenshots/medium/71db2c352e.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.540684223175049,
+        "rating": 7.541194438934326,
         "season": 1,
         "runtime": 44,
         "overview": "The World just wants to help\u2014which infuriates Carol. A heart-to-heart conversation ends with a bang.",
         "number_abs": null,
-        "updated_at": "2025-11-21T23:04:28.000Z",
+        "updated_at": "2025-11-22T00:10:37.000Z",
         "first_aired": "2025-11-14T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -214,19 +220,19 @@
           "trakt": 13344279
         },
         "title": "Billionaire, Beautiful and True",
-        "votes": 35,
+        "votes": 36,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/279/screenshots/medium/330cc8d46a.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.028571605682373,
+        "rating": 6.972222328186035,
         "season": 3,
         "runtime": 29,
         "overview": "As Molly struggles with relationship problems, Howard realizes she needs Nicholas. Arthur invites Sofia to join his gaming club.",
         "number_abs": null,
-        "updated_at": "2025-11-21T20:21:09.000Z",
+        "updated_at": "2025-11-21T23:31:58.000Z",
         "first_aired": "2025-11-19T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -304,19 +310,19 @@
           "trakt": 13433703
         },
         "title": "Orientation",
-        "votes": 72,
+        "votes": 74,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/433/703/screenshots/medium/887f56e6f0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.986111164093018,
+        "rating": 6.972972869873047,
         "season": 2,
         "runtime": 33,
         "overview": "When a college president's secrets fall into the wrong hands, Charles poses as a visiting lecturer on campus to sniff out an anonymous blackmailer.",
         "number_abs": null,
-        "updated_at": "2025-11-21T22:49:03.000Z",
+        "updated_at": "2025-11-21T23:40:09.000Z",
         "first_aired": "2025-11-20T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -394,19 +400,19 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 891,
+        "votes": 892,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.466891288757324,
+        "rating": 6.466367721557617,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-11-21T22:20:06.000Z",
+        "updated_at": "2025-11-21T23:40:54.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
