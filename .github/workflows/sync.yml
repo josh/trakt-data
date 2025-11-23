@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   export:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     outputs:
       pushed: ${{ steps.commit.outputs.committed }}
@@ -65,7 +65,7 @@ jobs:
 
   metrics:
     needs: export
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     outputs:
       deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
@@ -147,7 +147,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     steps:
       - name: Deploy to GitHub Pages
