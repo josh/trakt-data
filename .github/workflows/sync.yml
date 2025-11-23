@@ -65,7 +65,7 @@ jobs:
 
   metrics:
     needs: export
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-24.04
 
     outputs:
       deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
