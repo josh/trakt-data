@@ -1,6 +1,278 @@
 [
   {
     "show": {
+      "title": "A Man on the Inside",
+      "year": 2024,
+      "ids": {
+        "trakt": 223229,
+        "slug": "a-man-on-the-inside",
+        "tvdb": 445646,
+        "imdb": "tt26670955",
+        "tmdb": 245312,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2025-11-24T07:03:24.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38177375",
+          "plex": {
+            "guid": "68a95f12d968ee216c859b3e"
+          },
+          "tmdb": 6472999,
+          "tvdb": 11240887,
+          "trakt": 13433704
+        },
+        "title": "Major Declaration",
+        "votes": 100,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/433/704/screenshots/medium/f5d8a2ed27.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.170000076293945,
+        "season": 2,
+        "runtime": 30,
+        "overview": "While Julie enlists an unlikely expert to dig into new evidence, Charles finds himself on thin ice when his professional and personal lives intersect.",
+        "number_abs": null,
+        "updated_at": "2025-11-24T05:50:04.000Z",
+        "first_aired": "2025-11-20T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Major Declaration",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35047948",
+          "plex": {
+            "guid": "68a95f12d968ee216c859b3f"
+          },
+          "tmdb": 6472998,
+          "tvdb": 11240886,
+          "trakt": 13433703
+        },
+        "title": "Orientation",
+        "votes": 147,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/433/703/screenshots/medium/887f56e6f0.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.142857074737549,
+        "season": 2,
+        "runtime": 33,
+        "overview": "When a college president's secrets fall into the wrong hands, Charles poses as a visiting lecturer on campus to sniff out an anonymous blackmailer.",
+        "number_abs": null,
+        "updated_at": "2025-11-24T06:24:53.000Z",
+        "first_aired": "2025-11-20T08:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Orientation",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "I Love LA",
+      "year": 2025,
+      "ids": {
+        "trakt": 255451,
+        "slug": "i-love-la",
+        "tvdb": 454337,
+        "imdb": "tt33362589",
+        "tmdb": 271053,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 4,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2025-11-18T08:59:50.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38046478",
+          "plex": {
+            "guid": "68b04fc3c6fb50e1e5ccfb84"
+          },
+          "tmdb": 6485025,
+          "tvdb": 11305139,
+          "trakt": 13449303
+        },
+        "title": "Upstairses",
+        "votes": 9,
+        "images": {
+          "screenshot": []
+        },
+        "number": 4,
+        "rating": 7.333333492279053,
+        "season": 1,
+        "runtime": 31,
+        "overview": "As Tallulah's star rises, she receives an invite to a famous influencer's party. There, Maia and Alani have an eccentric encounter with the home's famous owner, Tallulah faces the reality of an influencing career, and Charlie is pulled into the orbit of a new guy.",
+        "number_abs": null,
+        "updated_at": "2025-11-24T06:36:48.000Z",
+        "first_aired": "2025-11-24T03:30:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Upstairses",
+        "available_translations": [
+          "en"
+        ]
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt38046465",
+          "plex": {
+            "guid": "68b04fc4c6fb50e1e5ccfb8e"
+          },
+          "tmdb": 6485024,
+          "tvdb": 11305138,
+          "trakt": 13449302
+        },
+        "title": "Girl's Girl",
+        "votes": 58,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/449/302/screenshots/medium/272836b4a5.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.206896781921387,
+        "season": 1,
+        "runtime": 30,
+        "overview": "After a viral rant, Tallulah struggles with online hate, while Maia wrestles with following her managerial instincts.",
+        "number_abs": null,
+        "updated_at": "2025-11-24T03:43:30.000Z",
+        "first_aired": "2025-11-17T03:30:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Girl's Girl",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Chair Company",
+      "year": 2025,
+      "ids": {
+        "trakt": 255718,
+        "slug": "the-chair-company",
+        "tvdb": 454397,
+        "imdb": "tt31987295",
+        "tmdb": 271267,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2025-11-17T07:16:51.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37852179",
+          "plex": {
+            "guid": "6897ef83090758e3cc61cc33"
+          },
+          "tmdb": 6515885,
+          "tvdb": 11327953,
+          "trakt": 13495856
+        },
+        "title": "I said to my dog, \"How do you like my hippie shirt?\"",
+        "votes": 14,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/495/856/screenshots/medium/245c77fe06.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.4285712242126465,
+        "season": 1,
+        "runtime": 32,
+        "overview": "Amid shifting circumstances, Ron explores every avenue.",
+        "number_abs": null,
+        "updated_at": "2025-11-24T06:38:46.000Z",
+        "first_aired": "2025-11-24T03:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "I said to my dog, \"How do you like my hippie shirt?\"",
+        "available_translations": [
+          "en"
+        ]
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt37542983",
+          "plex": {
+            "guid": "6871c1f8118f87a9dd508c9d"
+          },
+          "tmdb": 6515884,
+          "tvdb": 11327952,
+          "trakt": 13495855
+        },
+        "title": "Happy Birthday, a friend.",
+        "votes": 164,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/495/855/screenshots/medium/6d18bd4f82.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.353658676147461,
+        "season": 1,
+        "runtime": 31,
+        "overview": "A shake-up at work leads to unforeseen consequences.",
+        "number_abs": null,
+        "updated_at": "2025-11-24T04:20:30.000Z",
+        "first_aired": "2025-11-17T03:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Happy Birthday, a friend.",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Loot",
       "year": 2022,
       "ids": {
@@ -34,19 +306,19 @@
           "trakt": 13344279
         },
         "title": "Billionaire, Beautiful and True",
-        "votes": 41,
+        "votes": 47,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/279/screenshots/medium/330cc8d46a.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.121951103210449,
+        "rating": 7.106382846832275,
         "season": 3,
         "runtime": 29,
         "overview": "As Molly struggles with relationship problems, Howard realizes she needs Nicholas. Arthur invites Sofia to join his gaming club.",
         "number_abs": null,
-        "updated_at": "2025-11-23T12:57:54.000Z",
+        "updated_at": "2025-11-24T04:54:52.000Z",
         "first_aired": "2025-11-19T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -66,115 +338,25 @@
           "trakt": 13344278
         },
         "title": "What's Up with Us",
-        "votes": 67,
+        "votes": 69,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/278/screenshots/medium/522514b287.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.014925479888916,
+        "rating": 7,
         "season": 3,
         "runtime": 27,
         "overview": "Arthur invites Molly on a birding trip with his friends. Sofia discovers that Howard and Destiny have started dating.",
         "number_abs": null,
-        "updated_at": "2025-11-23T06:17:01.000Z",
+        "updated_at": "2025-11-24T03:40:48.000Z",
         "first_aired": "2025-11-12T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
         "original_title": "What's Up with Us",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "A Man on the Inside",
-      "year": 2024,
-      "ids": {
-        "trakt": 223229,
-        "slug": "a-man-on-the-inside",
-        "tvdb": 445646,
-        "imdb": "tt26670955",
-        "tmdb": 245312,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 8,
-      "hidden": 0,
-      "last_watched_at": "2024-12-04T08:45:29.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 8,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35047948",
-          "plex": {
-            "guid": "68a95f12d968ee216c859b3f"
-          },
-          "tmdb": 6472998,
-          "tvdb": 11240886,
-          "trakt": 13433703
-        },
-        "title": "Orientation",
-        "votes": 130,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/433/703/screenshots/medium/887f56e6f0.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.1307692527771,
-        "season": 2,
-        "runtime": 33,
-        "overview": "When a college president's secrets fall into the wrong hands, Charles poses as a visiting lecturer on campus to sniff out an anonymous blackmailer.",
-        "number_abs": null,
-        "updated_at": "2025-11-23T15:35:59.000Z",
-        "first_aired": "2025-11-20T08:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "Orientation",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt31315816",
-          "plex": {
-            "guid": "6721110f124c8aab8cf4f2da"
-          },
-          "tmdb": 5710536,
-          "tvdb": 10447767,
-          "trakt": 12421646
-        },
-        "title": "The Spy Who Came In from the Cold",
-        "votes": 539,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/421/646/screenshots/medium/cf74822b21.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 8.016697883605957,
-        "season": 1,
-        "runtime": 35,
-        "overview": "When the pieces click into place, Charles faces the difficult task of revealing his true purpose at Pacific View. Emily helps him unpack the past.",
-        "number_abs": null,
-        "updated_at": "2025-11-23T15:40:46.000Z",
-        "first_aired": "2024-11-21T08:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 14,
-        "during_credits": false,
-        "original_title": "The Spy Who Came In from the Cold",
         "available_translations": []
       }
     }
@@ -214,19 +396,19 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 908,
+        "votes": 914,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.468061447143555,
+        "rating": 6.467177391052246,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-11-23T14:09:30.000Z",
+        "updated_at": "2025-11-24T01:44:02.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -258,7 +440,7 @@
         "runtime": 66,
         "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
         "number_abs": null,
-        "updated_at": "2025-11-23T02:08:05.000Z",
+        "updated_at": "2025-11-24T01:45:29.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
