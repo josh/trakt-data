@@ -24,10 +24,10 @@ jobs:
 
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Checkout data branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: "data"
           path: "data"
@@ -73,10 +73,10 @@ jobs:
 
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Checkout data branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: "data"
           path: "data"
