@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2025-11-30T06:02:05.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "Bugonia",
+      "year": 2025,
+      "ids": {
+        "trakt": 545111,
+        "slug": "bugonia-2025",
+        "imdb": "tt12300742",
+        "tmdb": 701387
+      }
+    }
+  },
+  {
     "rated_at": "2025-11-28T06:02:12.000Z",
     "rating": 6,
     "type": "movie",
@@ -26540,10 +26555,10 @@
     "type": "movie",
     "movie": {
       "title": "The Place Beyond the Pines",
-      "year": 2013,
+      "year": 2012,
       "ids": {
         "trakt": 70754,
-        "slug": "the-place-beyond-the-pines-2013",
+        "slug": "the-place-beyond-the-pines-2012",
         "imdb": "tt1817273",
         "tmdb": 97367
       }
