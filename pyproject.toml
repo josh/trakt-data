@@ -1,38 +1,40 @@
 [build-system]
-requires = ["hatchling"]
 build-backend = "hatchling.build"
+requires = [ "hatchling" ]
 
 [project]
 name = "trakt-data"
 version = "0.1.0"
 readme = "README.md"
-authors = [{ name = "Joshua Peek" }]
+authors = [ { name = "Joshua Peek" } ]
 requires-python = ">=3.10"
-dependencies = [
-    "click>=8.0.0,<9.0",
-    "prometheus-client>=0.21.0",
-    "requests>=2.0.0,<3.0",
-]
 classifiers = [
     "Development Status :: 4 - Beta",
     "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Typing :: Typed",
 ]
 
-[project.scripts]
-trakt-data = "trakt_data:cli.main"
+dependencies = [
+    "click>=8,<9",
+    "prometheus-client>=0.21",
+    "requests>=2,<3",
+]
+scripts.trakt-data = "trakt_data:cli.main"
 
 [dependency-groups]
-dev = ["mypy>=1.0.0,<2.0", "ruff>=0.11.0", "types-requests>=2.0.0,<3.0"]
+dev = [ "mypy>=1,<2", "ruff>=0.11", "types-requests>=2,<3" ]
 
-[tool.ruff.lint]
-extend-select = ["I", "UP"]
+[tool.ruff]
+lint.extend-select = [ "I", "UP" ]
+
+[tool.pyproject-fmt]
+indent = 4
 
 [tool.mypy]
 strict = true
