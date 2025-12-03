@@ -347,16 +347,16 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "click", specifier = ">=8.0.0,<9.0" },
-    { name = "prometheus-client", specifier = ">=0.21.0" },
-    { name = "requests", specifier = ">=2.0.0,<3.0" },
+    { name = "click", specifier = ">=8.1.1,<9" },
+    { name = "prometheus-client", specifier = ">=0.14,<2" },
+    { name = "requests", specifier = ">=2.32,<3" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "mypy", specifier = ">=1.0.0,<2.0" },
-    { name = "ruff", specifier = ">=0.11.0" },
-    { name = "types-requests", specifier = ">=2.0.0,<3.0" },
+    { name = "mypy", specifier = ">=1,<2" },
+    { name = "ruff", specifier = ">=0.4,<2" },
+    { name = "types-requests", specifier = ">=2.32,<3" },
 ]
 
 [[package]]
