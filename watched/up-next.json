@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Stranger Things",
+      "year": 2016,
+      "ids": {
+        "trakt": 104439,
+        "slug": "stranger-things",
+        "tvdb": 305288,
+        "imdb": "tt4574334",
+        "tmdb": 66732,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 38,
+      "completed": 35,
+      "hidden": 0,
+      "last_watched_at": "2025-12-06T07:24:18.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 35,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt21914626",
+          "plex": {
+            "guid": "66ecae63275447f845c9e706"
+          },
+          "tmdb": 5607045,
+          "tvdb": 10788048,
+          "trakt": 12291590
+        },
+        "title": "Chapter Two: The Vanishing of...",
+        "votes": 1684,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/291/590/screenshots/medium/eab8d9e166.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.821259021759033,
+        "season": 5,
+        "runtime": 58,
+        "overview": "After a vicious attack at the Wheeler home, Mike and Nancy confront the cost of secrecy, while El and Hopper embark on a rescue mission.",
+        "number_abs": null,
+        "updated_at": "2025-12-06T04:16:19.000Z",
+        "first_aired": "2025-11-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 39,
+        "during_credits": false,
+        "original_title": "Chapter Two: The Vanishing of...",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt18268644",
+          "plex": {
+            "guid": "636967d62dfba0dc6897f4a5"
+          },
+          "tmdb": 5477828,
+          "tvdb": 9443528,
+          "trakt": 12116371
+        },
+        "title": "Chapter One: The Crawl",
+        "votes": 1975,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/116/371/screenshots/medium/438fcd2ee0.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.758481025695801,
+        "season": 5,
+        "runtime": 72,
+        "overview": "November, 1987. The gang evades the military to scour the Upside Down for Vecna \u2014 but fails to notice a threat lurking closer to home.",
+        "number_abs": null,
+        "updated_at": "2025-12-06T07:02:44.000Z",
+        "first_aired": "2025-11-27T01:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 62,
+        "during_credits": false,
+        "original_title": "Chapter One: The Crawl",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Loot",
       "year": 2022,
       "ids": {
@@ -34,19 +124,19 @@
           "trakt": 13344281
         },
         "title": "Slide",
-        "votes": 36,
+        "votes": 43,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/281/screenshots/medium/6fa21bbe09.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7,
+        "rating": 7.046511650085449,
         "season": 3,
         "runtime": 31,
         "overview": "Molly settles into a new relationship. Arthur questions his life choices with Nicholas and Howard.",
         "number_abs": null,
-        "updated_at": "2025-12-05T15:16:35.000Z",
+        "updated_at": "2025-12-06T06:09:45.000Z",
         "first_aired": "2025-12-03T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -66,19 +156,19 @@
           "trakt": 13344280
         },
         "title": "Mr. Maro Gold",
-        "votes": 59,
+        "votes": 60,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/280/screenshots/medium/6b5239fe4f.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 6.559321880340576,
+        "rating": 6.566666603088379,
         "season": 3,
         "runtime": 29,
         "overview": "An extremely attractive offer lands on Molly's doorstep. Howard and Destiny present a business proposal to Sofia.",
         "number_abs": null,
-        "updated_at": "2025-12-05T15:16:35.000Z",
+        "updated_at": "2025-12-06T05:31:35.000Z",
         "first_aired": "2025-11-26T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -124,19 +214,19 @@
           "trakt": 13449303
         },
         "title": "Upstairses",
-        "votes": 66,
+        "votes": 67,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/449/303/screenshots/medium/67860d096e.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.484848499298096,
+        "rating": 7.477612018585205,
         "season": 1,
         "runtime": 28,
         "overview": "At a party, Maia and Alani have a once-in-a-lifetime encounter, Tallulah gets roped into making content, and Charlie meets someone new.",
         "number_abs": null,
-        "updated_at": "2025-12-05T13:04:45.000Z",
+        "updated_at": "2025-12-06T03:53:55.000Z",
         "first_aired": "2025-11-24T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +246,19 @@
           "trakt": 13449302
         },
         "title": "Girl's Girl",
-        "votes": 77,
+        "votes": 78,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/449/302/screenshots/medium/272836b4a5.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.025973796844482,
+        "rating": 7.025640964508057,
         "season": 1,
         "runtime": 30,
         "overview": "After a viral rant, Tallulah struggles with online hate, while Maia wrestles with following her managerial instincts.",
         "number_abs": null,
-        "updated_at": "2025-12-05T04:30:55.000Z",
+        "updated_at": "2025-12-06T04:53:41.000Z",
         "first_aired": "2025-11-17T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -214,19 +304,19 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 994,
+        "votes": 997,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.463782787322998,
+        "rating": 6.464393138885498,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-12-05T13:02:50.000Z",
+        "updated_at": "2025-12-06T04:24:01.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -258,103 +348,13 @@
         "runtime": 66,
         "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
         "number_abs": null,
-        "updated_at": "2025-12-05T04:36:47.000Z",
+        "updated_at": "2025-12-06T05:26:15.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 34,
         "during_credits": false,
         "original_title": "The Cost of Chaos",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Stranger Things",
-      "year": 2016,
-      "ids": {
-        "trakt": 104439,
-        "slug": "stranger-things",
-        "tvdb": 305288,
-        "imdb": "tt4574334",
-        "tmdb": 66732,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 38,
-      "completed": 34,
-      "hidden": 0,
-      "last_watched_at": "2022-07-03T21:05:17.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 34,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt18268644",
-          "plex": {
-            "guid": "636967d62dfba0dc6897f4a5"
-          },
-          "tmdb": 5477828,
-          "tvdb": 9443528,
-          "trakt": 12116371
-        },
-        "title": "Chapter One: The Crawl",
-        "votes": 1927,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/116/371/screenshots/medium/438fcd2ee0.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.766995429992676,
-        "season": 5,
-        "runtime": 72,
-        "overview": "November, 1987. The gang evades the military to scour the Upside Down for Vecna \u2014 but fails to notice a threat lurking closer to home.",
-        "number_abs": null,
-        "updated_at": "2025-12-05T16:04:16.000Z",
-        "first_aired": "2025-11-27T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 60,
-        "during_credits": false,
-        "original_title": "Chapter One: The Crawl",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt12810166",
-          "plex": {
-            "guid": "6187e200171184331cbfe336"
-          },
-          "tmdb": 3325045,
-          "tvdb": 8852957,
-          "trakt": 5681282
-        },
-        "title": "Chapter Nine: The Piggyback",
-        "votes": 4690,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/005/681/282/screenshots/medium/baa0d1bd09.jpg.webp"
-          ]
-        },
-        "number": 9,
-        "rating": 8.548614501953125,
-        "season": 4,
-        "runtime": 143,
-        "overview": "With selfless hearts and a clash of metal, heroes fight from every corner of the battlefield to save Hawkins \u2014 and the world itself.",
-        "number_abs": null,
-        "updated_at": "2025-12-05T15:23:02.000Z",
-        "first_aired": "2022-07-02T00:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 89,
-        "during_credits": false,
-        "original_title": "Chapter Nine: The Piggyback",
         "available_translations": []
       }
     }
