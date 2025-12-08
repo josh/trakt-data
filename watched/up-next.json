@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 36,
+      "completed": 37,
       "hidden": 0,
-      "last_watched_at": "2025-12-08T02:55:41.000Z",
+      "last_watched_at": "2025-12-08T04:05:45.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 36,
+        "play_count": 37,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt21914648",
+          "plex": {
+            "guid": "66ecae63275447f845c9e700"
+          },
+          "tmdb": 5607047,
+          "tvdb": 10788050,
+          "trakt": 12291593
+        },
+        "title": "Chapter Four: Sorcerer",
+        "votes": 1732,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/291/593/screenshots/medium/430a4d8010.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.6206693649292,
+        "season": 5,
+        "runtime": 87,
+        "overview": "The military tightens its grip on the town. Mike, Lucas and Robin orchestrate a daring escape. El comes face-to-face with the enemy.",
+        "number_abs": null,
+        "updated_at": "2025-12-08T03:21:39.000Z",
+        "first_aired": "2025-11-27T01:00:00.000Z",
+        "episode_type": "mid_season_finale",
+        "after_credits": false,
+        "comment_count": 68,
+        "during_credits": false,
+        "original_title": "Chapter Four: Sorcerer",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt21912360",
           "plex": {
@@ -54,38 +86,6 @@
         "during_credits": false,
         "original_title": "Chapter Three: The Turnbow Trap",
         "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt21914626",
-          "plex": {
-            "guid": "66ecae63275447f845c9e706"
-          },
-          "tmdb": 5607045,
-          "tvdb": 10788048,
-          "trakt": 12291590
-        },
-        "title": "Chapter Two: The Vanishing of...",
-        "votes": 1832,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/291/590/screenshots/medium/eab8d9e166.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.802401542663574,
-        "season": 5,
-        "runtime": 58,
-        "overview": "After a vicious attack at the Wheeler home, Mike and Nancy confront the cost of secrecy, while El and Hopper embark on a rescue mission.",
-        "number_abs": null,
-        "updated_at": "2025-12-08T02:10:50.000Z",
-        "first_aired": "2025-11-27T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 39,
-        "during_credits": false,
-        "original_title": "Chapter Two: The Vanishing of...",
-        "available_translations": []
       }
     }
   },
@@ -103,7 +103,7 @@
       }
     },
     "progress": {
-      "aired": 5,
+      "aired": 6,
       "completed": 3,
       "hidden": 0,
       "last_watched_at": "2025-11-18T08:59:50.000Z",
