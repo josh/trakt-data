@@ -1,7 +1,22 @@
 [
   {
-    "rated_at": "2025-12-06T06:02:05.000Z",
-    "rating": 6,
+    "rated_at": "2025-12-08T16:02:07.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "Train Dreams",
+      "year": 2025,
+      "ids": {
+        "trakt": 1005401,
+        "slug": "train-dreams-2025",
+        "imdb": "tt29768334",
+        "tmdb": 1241983
+      }
+    }
+  },
+  {
+    "rated_at": "2025-12-06T23:59:59.000Z",
+    "rating": 5,
     "type": "movie",
     "movie": {
       "title": "Jay Kelly",
