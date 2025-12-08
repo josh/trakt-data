@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 38,
-      "completed": 35,
+      "completed": 36,
       "hidden": 0,
-      "last_watched_at": "2025-12-06T07:24:18.000Z",
+      "last_watched_at": "2025-12-08T02:55:41.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 35,
+        "play_count": 36,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt21912360",
+          "plex": {
+            "guid": "66ecae63275447f845c9e703"
+          },
+          "tmdb": 5607046,
+          "tvdb": 10788049,
+          "trakt": 12291592
+        },
+        "title": "Chapter Three: The Turnbow Trap",
+        "votes": 1650,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/291/592/screenshots/medium/a96b6432c0.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 8.020000457763672,
+        "season": 5,
+        "runtime": 70,
+        "overview": "Will gains unique insight into Vecna's next move, giving the crew an opportunity to set a trap. Holly explores her new surroundings.",
+        "number_abs": null,
+        "updated_at": "2025-12-08T01:53:41.000Z",
+        "first_aired": "2025-11-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 30,
+        "during_credits": false,
+        "original_title": "Chapter Three: The Turnbow Trap",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt21914626",
           "plex": {
@@ -34,57 +66,25 @@
           "trakt": 12291590
         },
         "title": "Chapter Two: The Vanishing of...",
-        "votes": 1702,
+        "votes": 1832,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/291/590/screenshots/medium/eab8d9e166.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.827261924743652,
+        "rating": 7.802401542663574,
         "season": 5,
         "runtime": 58,
         "overview": "After a vicious attack at the Wheeler home, Mike and Nancy confront the cost of secrecy, while El and Hopper embark on a rescue mission.",
         "number_abs": null,
-        "updated_at": "2025-12-06T15:56:28.000Z",
+        "updated_at": "2025-12-08T02:10:50.000Z",
         "first_aired": "2025-11-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 39,
         "during_credits": false,
         "original_title": "Chapter Two: The Vanishing of...",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt18268644",
-          "plex": {
-            "guid": "636967d62dfba0dc6897f4a5"
-          },
-          "tmdb": 5477828,
-          "tvdb": 9443528,
-          "trakt": 12116371
-        },
-        "title": "Chapter One: The Crawl",
-        "votes": 1989,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/116/371/screenshots/medium/438fcd2ee0.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.760180950164795,
-        "season": 5,
-        "runtime": 72,
-        "overview": "November, 1987. The gang evades the military to scour the Upside Down for Vecna \u2014 but fails to notice a threat lurking closer to home.",
-        "number_abs": null,
-        "updated_at": "2025-12-06T15:56:24.000Z",
-        "first_aired": "2025-11-27T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 62,
-        "during_credits": false,
-        "original_title": "Chapter One: The Crawl",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13449303
         },
         "title": "Upstairses",
-        "votes": 67,
+        "votes": 72,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/449/303/screenshots/medium/67860d096e.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.477612018585205,
+        "rating": 7.333333492279053,
         "season": 1,
         "runtime": 28,
         "overview": "At a party, Maia and Alani have a once-in-a-lifetime encounter, Tallulah gets roped into making content, and Charlie meets someone new.",
         "number_abs": null,
-        "updated_at": "2025-12-06T15:26:33.000Z",
+        "updated_at": "2025-12-08T01:24:30.000Z",
         "first_aired": "2025-11-24T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +156,19 @@
           "trakt": 13449302
         },
         "title": "Girl's Girl",
-        "votes": 79,
+        "votes": 81,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/449/302/screenshots/medium/272836b4a5.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.01265811920166,
+        "rating": 6.975308418273926,
         "season": 1,
         "runtime": 30,
         "overview": "After a viral rant, Tallulah struggles with online hate, while Maia wrestles with following her managerial instincts.",
         "number_abs": null,
-        "updated_at": "2025-12-06T15:07:31.000Z",
+        "updated_at": "2025-12-07T21:47:01.000Z",
         "first_aired": "2025-11-17T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -214,23 +214,23 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 998,
+        "votes": 1012,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.462925910949707,
+        "rating": 6.451581001281738,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-12-06T14:20:53.000Z",
+        "updated_at": "2025-12-08T01:03:55.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 35,
+        "comment_count": 36,
         "during_credits": false,
         "original_title": "What Doesn't Kill You Makes You Stronger",
         "available_translations": []
@@ -246,19 +246,19 @@
           "trakt": 7514407
         },
         "title": "The Cost of Chaos",
-        "votes": 2031,
+        "votes": 2033,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/514/407/screenshots/medium/d2321531a4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.139832496643066,
+        "rating": 7.139203071594238,
         "season": 3,
         "runtime": 66,
         "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
         "number_abs": null,
-        "updated_at": "2025-12-06T05:26:15.000Z",
+        "updated_at": "2025-12-07T15:42:52.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
