@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2025-12-10T03:35:07.000Z",
+      "last_watched_at": "2025-12-10T04:21:05.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt35656761",
+          "plex": {
+            "guid": "679fe3cd83bb9bcc1a408c95"
+          },
+          "tmdb": 6448998,
+          "tvdb": 11287011,
+          "trakt": 13406164
+        },
+        "title": "Ghosts",
+        "votes": 325,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/406/164/screenshots/medium/e9fa3fbb49.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.572307586669922,
+        "season": 1,
+        "runtime": 49,
+        "overview": "In 2019, a complex web of suspicion and betrayal forms between the Jarvises, Nina and Brian, and the truth behind Madison's disappearance is revealed.",
+        "number_abs": null,
+        "updated_at": "2025-12-09T23:05:37.000Z",
+        "first_aired": "2025-11-13T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 5,
+        "during_credits": false,
+        "original_title": "Ghosts",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt37899072",
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 3,
         "during_credits": false,
         "original_title": "The Beast and Me",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35558442",
-          "plex": {
-            "guid": "6799a02c1e9ad22b0c2acb9e"
-          },
-          "tmdb": 6448996,
-          "tvdb": 11287009,
-          "trakt": 13406162
-        },
-        "title": "Bacchanal",
-        "votes": 341,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/406/162/screenshots/medium/2e3f4a1744.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.521994113922119,
-        "season": 1,
-        "runtime": 53,
-        "overview": "Nile and Aggie cross boundaries with a drunken heart-to-heart, rousing Nina's suspicions. Martin and Rick conspire to make waves at Olivia's rally.",
-        "number_abs": null,
-        "updated_at": "2025-12-10T02:08:03.000Z",
-        "first_aired": "2025-11-13T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Bacchanal",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13344282
         },
         "title": "Hail Mary Time",
-        "votes": 2,
+        "votes": 3,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/282/screenshots/medium/52f5fca4f5.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7,
+        "rating": 7.333333492279053,
         "season": 3,
         "runtime": 30,
         "overview": "Molly and the team crash an Italian wedding in a desperate attempt to save The Wells Foundation from Luciana.",
         "number_abs": null,
-        "updated_at": "2025-12-10T03:27:26.000Z",
+        "updated_at": "2025-12-10T03:55:27.000Z",
         "first_aired": "2025-12-10T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
