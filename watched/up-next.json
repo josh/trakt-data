@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
+      "completed": 7,
       "hidden": 0,
-      "last_watched_at": "2025-12-10T04:21:05.000Z",
+      "last_watched_at": "2025-12-10T05:17:03.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 7,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37543377",
+          "plex": {
+            "guid": "6871c1df1d1609e14ade2f56"
+          },
+          "tmdb": 6448999,
+          "tvdb": 11287012,
+          "trakt": 13406165
+        },
+        "title": "The Last Word",
+        "votes": 329,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/406/165/screenshots/medium/b1015e6024.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.720364570617676,
+        "season": 1,
+        "runtime": 55,
+        "overview": "Backed into a corner, Aggie must use all her wits to keep her world from crashing down \u2014 and place all her trust in an unlikely ally.",
+        "number_abs": null,
+        "updated_at": "2025-12-10T04:36:11.000Z",
+        "first_aired": "2025-11-13T05:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 9,
+        "during_credits": false,
+        "original_title": "The Last Word",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35656761",
           "plex": {
@@ -46,45 +78,13 @@
         "runtime": 49,
         "overview": "In 2019, a complex web of suspicion and betrayal forms between the Jarvises, Nina and Brian, and the truth behind Madison's disappearance is revealed.",
         "number_abs": null,
-        "updated_at": "2025-12-09T23:05:37.000Z",
+        "updated_at": "2025-12-10T04:36:11.000Z",
         "first_aired": "2025-11-13T05:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 5,
         "during_credits": false,
         "original_title": "Ghosts",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37899072",
-          "plex": {
-            "guid": "689e3f0c249240c951f15289"
-          },
-          "tmdb": 6448997,
-          "tvdb": 11287010,
-          "trakt": 13406163
-        },
-        "title": "The Beast and Me",
-        "votes": 330,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/406/163/screenshots/medium/125315e4e6.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.7272725105285645,
-        "season": 1,
-        "runtime": 42,
-        "overview": "Anxious to share her latest discovery with Brian, Aggie unexpectedly uncovers an even darker truth. Nina receives surprising news.",
-        "number_abs": null,
-        "updated_at": "2025-12-09T22:10:30.000Z",
-        "first_aired": "2025-11-13T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "The Beast and Me",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13344282
         },
         "title": "Hail Mary Time",
-        "votes": 3,
+        "votes": 5,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/282/screenshots/medium/52f5fca4f5.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.333333492279053,
+        "rating": 7,
         "season": 3,
         "runtime": 30,
         "overview": "Molly and the team crash an Italian wedding in a desperate attempt to save The Wells Foundation from Luciana.",
         "number_abs": null,
-        "updated_at": "2025-12-10T03:55:27.000Z",
+        "updated_at": "2025-12-10T04:55:36.000Z",
         "first_aired": "2025-12-10T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -156,19 +156,19 @@
           "trakt": 13344281
         },
         "title": "Slide",
-        "votes": 58,
+        "votes": 59,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/281/screenshots/medium/6fa21bbe09.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 6.931034564971924,
+        "rating": 6.91525411605835,
         "season": 3,
         "runtime": 31,
         "overview": "Molly settles into a new relationship. Arthur questions his life choices with Nicholas and Howard.",
         "number_abs": null,
-        "updated_at": "2025-12-09T18:51:11.000Z",
+        "updated_at": "2025-12-10T05:00:24.000Z",
         "first_aired": "2025-12-03T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -316,7 +316,7 @@
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-12-09T21:51:32.000Z",
+        "updated_at": "2025-12-10T04:32:01.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
