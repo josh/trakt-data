@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2025-12-09T05:52:35.000Z",
+      "last_watched_at": "2025-12-10T03:35:07.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37899072",
+          "plex": {
+            "guid": "689e3f0c249240c951f15289"
+          },
+          "tmdb": 6448997,
+          "tvdb": 11287010,
+          "trakt": 13406163
+        },
+        "title": "The Beast and Me",
+        "votes": 330,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/406/163/screenshots/medium/125315e4e6.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.7272725105285645,
+        "season": 1,
+        "runtime": 42,
+        "overview": "Anxious to share her latest discovery with Brian, Aggie unexpectedly uncovers an even darker truth. Nina receives surprising news.",
+        "number_abs": null,
+        "updated_at": "2025-12-09T22:10:30.000Z",
+        "first_aired": "2025-11-13T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "The Beast and Me",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35558442",
           "plex": {
@@ -34,19 +66,19 @@
           "trakt": 13406162
         },
         "title": "Bacchanal",
-        "votes": 335,
+        "votes": 341,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/406/162/screenshots/medium/2e3f4a1744.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.534328460693359,
+        "rating": 7.521994113922119,
         "season": 1,
         "runtime": 53,
         "overview": "Nile and Aggie cross boundaries with a drunken heart-to-heart, rousing Nina's suspicions. Martin and Rick conspire to make waves at Olivia's rally.",
         "number_abs": null,
-        "updated_at": "2025-12-09T05:38:43.000Z",
+        "updated_at": "2025-12-10T02:08:03.000Z",
         "first_aired": "2025-11-13T05:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -54,37 +86,95 @@
         "during_credits": false,
         "original_title": "Bacchanal",
         "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Loot",
+      "year": 2022,
+      "ids": {
+        "trakt": 194722,
+        "slug": "loot",
+        "tvdb": 417559,
+        "imdb": "tt14271498",
+        "tmdb": 197449,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 29,
+      "hidden": 0,
+      "last_watched_at": "2025-12-06T07:58:30.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 29,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38689693",
+          "plex": {
+            "guid": "68824f2f7a612ce7a14439b7"
+          },
+          "tmdb": 6399360,
+          "tvdb": 11255465,
+          "trakt": 13344282
+        },
+        "title": "Hail Mary Time",
+        "votes": 2,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/344/282/screenshots/medium/52f5fca4f5.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7,
+        "season": 3,
+        "runtime": 30,
+        "overview": "Molly and the team crash an Italian wedding in a desperate attempt to save The Wells Foundation from Luciana.",
+        "number_abs": null,
+        "updated_at": "2025-12-10T03:27:26.000Z",
+        "first_aired": "2025-12-10T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Hail Mary Time",
+        "available_translations": []
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt37899071",
+          "imdb": "tt38689695",
           "plex": {
-            "guid": "689e3f0c249240c951f15295"
+            "guid": "68824f2f7a612ce7a14439bf"
           },
-          "tmdb": 6448995,
-          "tvdb": 11287008,
-          "trakt": 13406161
+          "tmdb": 6399359,
+          "tvdb": 11255464,
+          "trakt": 13344281
         },
-        "title": "Thanatos",
-        "votes": 347,
+        "title": "Slide",
+        "votes": 58,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/406/161/screenshots/medium/1d56accf4b.jpg.webp"
+            "media.trakt.tv/images/episodes/013/344/281/screenshots/medium/6fa21bbe09.jpg.webp"
           ]
         },
-        "number": 4,
-        "rating": 7.455331325531006,
-        "season": 1,
-        "runtime": 46,
-        "overview": "Aggie interviews Madison's parents about her disappearance. Nile and Martin take aim at the City Council. Brian enlists help to crack the hard drive.",
+        "number": 9,
+        "rating": 6.931034564971924,
+        "season": 3,
+        "runtime": 31,
+        "overview": "Molly settles into a new relationship. Arthur questions his life choices with Nicholas and Howard.",
         "number_abs": null,
-        "updated_at": "2025-12-09T04:36:07.000Z",
-        "first_aired": "2025-11-13T05:00:00.000Z",
+        "updated_at": "2025-12-09T18:51:11.000Z",
+        "first_aired": "2025-12-03T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 4,
+        "comment_count": 0,
         "during_credits": false,
-        "original_title": "Thanatos",
+        "original_title": "Slide",
         "available_translations": []
       }
     }
@@ -124,19 +214,19 @@
           "trakt": 13449303
         },
         "title": "Upstairses",
-        "votes": 73,
+        "votes": 74,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/449/303/screenshots/medium/67860d096e.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.342465877532959,
+        "rating": 7.378378391265869,
         "season": 1,
         "runtime": 28,
         "overview": "At a party, Maia and Alani have a once-in-a-lifetime encounter, Tallulah gets roped into making content, and Charlie meets someone new.",
         "number_abs": null,
-        "updated_at": "2025-12-08T16:15:32.000Z",
+        "updated_at": "2025-12-09T15:40:26.000Z",
         "first_aired": "2025-11-24T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +246,19 @@
           "trakt": 13449302
         },
         "title": "Girl's Girl",
-        "votes": 82,
+        "votes": 83,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/449/302/screenshots/medium/272836b4a5.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 6.97560977935791,
+        "rating": 7.012048244476318,
         "season": 1,
         "runtime": 30,
         "overview": "After a viral rant, Tallulah struggles with online hate, while Maia wrestles with following her managerial instincts.",
         "number_abs": null,
-        "updated_at": "2025-12-09T05:22:27.000Z",
+        "updated_at": "2025-12-09T15:40:26.000Z",
         "first_aired": "2025-11-17T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -214,19 +304,19 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 1017,
+        "votes": 1020,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.4493608474731445,
+        "rating": 6.449999809265137,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-12-09T04:31:26.000Z",
+        "updated_at": "2025-12-09T21:51:32.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -246,19 +336,19 @@
           "trakt": 7514407
         },
         "title": "The Cost of Chaos",
-        "votes": 2036,
+        "votes": 2037,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/514/407/screenshots/medium/d2321531a4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.138998031616211,
+        "rating": 7.139911651611328,
         "season": 3,
         "runtime": 66,
         "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
         "number_abs": null,
-        "updated_at": "2025-12-09T05:34:51.000Z",
+        "updated_at": "2025-12-09T16:01:59.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
