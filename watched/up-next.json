@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "I Love LA",
+      "year": 2025,
+      "ids": {
+        "trakt": 255451,
+        "slug": "i-love-la",
+        "tvdb": 454337,
+        "imdb": "tt33362589",
+        "tmdb": 271053,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 4,
+      "hidden": 0,
+      "last_watched_at": "2025-12-11T05:28:12.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 4,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37618042",
+          "plex": {
+            "guid": "687c4c24110ba5e84c98332c"
+          },
+          "tmdb": 6485026,
+          "tvdb": 11305140,
+          "trakt": 13449304
+        },
+        "title": "They Can't All Be Jeremys",
+        "votes": 64,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/449/304/screenshots/medium/c16b950ae0.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.3125,
+        "season": 1,
+        "runtime": 29,
+        "overview": "Impressed with Maia's strides at work, Alyssa invites her and Dylan over for dinner. Meanwhile, Charlie finds himself charmed by Lukas and his friend group, and Alani teaches Tallulah to drive.",
+        "number_abs": null,
+        "updated_at": "2025-12-10T15:31:43.000Z",
+        "first_aired": "2025-12-01T03:30:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "They Can't All Be Jeremys",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt38046478",
+          "plex": {
+            "guid": "68b04fc3c6fb50e1e5ccfb84"
+          },
+          "tmdb": 6485025,
+          "tvdb": 11305139,
+          "trakt": 13449303
+        },
+        "title": "Upstairses",
+        "votes": 74,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/449/303/screenshots/medium/67860d096e.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.378378391265869,
+        "season": 1,
+        "runtime": 28,
+        "overview": "At a party, Maia and Alani have a once-in-a-lifetime encounter, Tallulah gets roped into making content, and Charlie meets someone new.",
+        "number_abs": null,
+        "updated_at": "2025-12-10T15:31:43.000Z",
+        "first_aired": "2025-11-24T03:30:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 7,
+        "during_credits": false,
+        "original_title": "Upstairses",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Loot",
       "year": 2022,
       "ids": {
@@ -34,23 +124,23 @@
           "trakt": 13344282
         },
         "title": "Hail Mary Time",
-        "votes": 6,
+        "votes": 34,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/282/screenshots/medium/52f5fca4f5.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 6.833333492279053,
+        "rating": 7.088235378265381,
         "season": 3,
         "runtime": 30,
         "overview": "Molly and the team crash an Italian wedding in a desperate attempt to save The Wells Foundation from Luciana.",
         "number_abs": null,
-        "updated_at": "2025-12-10T06:01:36.000Z",
+        "updated_at": "2025-12-11T03:50:06.000Z",
         "first_aired": "2025-12-10T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 2,
         "during_credits": false,
         "original_title": "Hail Mary Time",
         "available_translations": []
@@ -66,115 +156,25 @@
           "trakt": 13344281
         },
         "title": "Slide",
-        "votes": 59,
+        "votes": 61,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/344/281/screenshots/medium/6fa21bbe09.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 6.91525411605835,
+        "rating": 6.836065769195557,
         "season": 3,
         "runtime": 31,
         "overview": "Molly settles into a new relationship. Arthur questions his life choices with Nicholas and Howard.",
         "number_abs": null,
-        "updated_at": "2025-12-10T05:00:24.000Z",
+        "updated_at": "2025-12-11T01:19:13.000Z",
         "first_aired": "2025-12-03T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Slide",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "I Love LA",
-      "year": 2025,
-      "ids": {
-        "trakt": 255451,
-        "slug": "i-love-la",
-        "tvdb": 454337,
-        "imdb": "tt33362589",
-        "tmdb": 271053,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 3,
-      "hidden": 0,
-      "last_watched_at": "2025-11-18T08:59:50.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 3,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt38046478",
-          "plex": {
-            "guid": "68b04fc3c6fb50e1e5ccfb84"
-          },
-          "tmdb": 6485025,
-          "tvdb": 11305139,
-          "trakt": 13449303
-        },
-        "title": "Upstairses",
-        "votes": 74,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/449/303/screenshots/medium/67860d096e.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.378378391265869,
-        "season": 1,
-        "runtime": 28,
-        "overview": "At a party, Maia and Alani have a once-in-a-lifetime encounter, Tallulah gets roped into making content, and Charlie meets someone new.",
-        "number_abs": null,
-        "updated_at": "2025-12-09T15:40:26.000Z",
-        "first_aired": "2025-11-24T03:30:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 7,
-        "during_credits": false,
-        "original_title": "Upstairses",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38046465",
-          "plex": {
-            "guid": "68b04fc4c6fb50e1e5ccfb8e"
-          },
-          "tmdb": 6485024,
-          "tvdb": 11305138,
-          "trakt": 13449302
-        },
-        "title": "Girl's Girl",
-        "votes": 83,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/449/302/screenshots/medium/272836b4a5.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.012048244476318,
-        "season": 1,
-        "runtime": 30,
-        "overview": "After a viral rant, Tallulah struggles with online hate, while Maia wrestles with following her managerial instincts.",
-        "number_abs": null,
-        "updated_at": "2025-12-09T15:40:26.000Z",
-        "first_aired": "2025-11-17T03:30:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Girl's Girl",
         "available_translations": []
       }
     }
@@ -214,19 +214,19 @@
           "trakt": 13512038
         },
         "title": "What Doesn't Kill You Makes You Stronger",
-        "votes": 1020,
+        "votes": 1023,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/038/screenshots/medium/2289b7205b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.449999809265137,
+        "rating": 6.4506354331970215,
         "season": 4,
         "runtime": 59,
         "overview": "Geralt sets out to save Ciri from the claws of Emhyr, unaware of her true fate. Beset by Vilgefortz, Yennefer attempts to uncover his plan.",
         "number_abs": null,
-        "updated_at": "2025-12-10T04:32:01.000Z",
+        "updated_at": "2025-12-11T04:35:57.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -246,19 +246,19 @@
           "trakt": 7514407
         },
         "title": "The Cost of Chaos",
-        "votes": 2037,
+        "votes": 2038,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/514/407/screenshots/medium/d2321531a4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.139911651611328,
+        "rating": 7.140333652496338,
         "season": 3,
         "runtime": 66,
         "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
         "number_abs": null,
-        "updated_at": "2025-12-10T05:55:35.000Z",
+        "updated_at": "2025-12-10T23:05:08.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
