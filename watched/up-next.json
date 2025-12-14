@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 32,
-      "completed": 27,
+      "completed": 28,
       "hidden": 0,
-      "last_watched_at": "2025-12-14T02:56:08.000Z",
+      "last_watched_at": "2025-12-14T03:45:09.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 27,
+        "play_count": 28,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38677125",
+          "plex": {
+            "guid": "68c61ddb8b81981d13b8b7ac"
+          },
+          "tmdb": 6527392,
+          "tvdb": 11355515,
+          "trakt": 13512043
+        },
+        "title": "The Joy of Cooking",
+        "votes": 785,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/512/043/screenshots/medium/f48566c978.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 6.495541572570801,
+        "season": 4,
+        "runtime": 56,
+        "overview": "Catching their breath before attempting a river crossing, Geralt and his party regale each other with stories and song, revealing a shocking truth.",
+        "number_abs": null,
+        "updated_at": "2025-12-14T02:51:50.000Z",
+        "first_aired": "2025-10-30T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 10,
+        "during_credits": false,
+        "original_title": "The Joy of Cooking",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt38677122",
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 7,
         "during_credits": false,
         "original_title": "A Sermon of Survival",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38677120",
-          "plex": {
-            "guid": "68c61ddc8b81981d13b8b7b4"
-          },
-          "tmdb": 6527387,
-          "tvdb": 11355513,
-          "trakt": 13512040
-        },
-        "title": "Trial by Ordeal",
-        "votes": 835,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/512/040/screenshots/medium/41a819842c.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 6.788023948669434,
-        "season": 4,
-        "runtime": 52,
-        "overview": "A witch trial pulls Geralt away from his quest. Ciri taps further into the darkness of her new life. Yennefer brings more recruits to her cause.",
-        "number_abs": null,
-        "updated_at": "2025-12-14T00:08:51.000Z",
-        "first_aired": "2025-10-30T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 11,
-        "during_credits": false,
-        "original_title": "Trial by Ordeal",
         "available_translations": []
       }
     }
