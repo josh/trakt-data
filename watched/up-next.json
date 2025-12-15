@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 32,
-      "completed": 30,
+      "completed": 31,
       "hidden": 0,
-      "last_watched_at": "2025-12-14T23:20:25.000Z",
+      "last_watched_at": "2025-12-15T02:03:20.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 30,
+        "play_count": 31,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38677129",
+          "plex": {
+            "guid": "68c61dda8b81981d13b8b7a0"
+          },
+          "tmdb": 6527399,
+          "tvdb": 11355518,
+          "trakt": 13512053
+        },
+        "title": "Baptism of Fire",
+        "votes": 758,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/512/053/screenshots/medium/9e4507271f.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 6.907651901245117,
+        "season": 4,
+        "runtime": 52,
+        "overview": "As the Continent sinks deeper into war, Geralt, Yennefer and Ciri each meet their fate on the roads they took to avoid it.",
+        "number_abs": null,
+        "updated_at": "2025-12-14T22:38:47.000Z",
+        "first_aired": "2025-10-30T07:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 16,
+        "during_credits": false,
+        "original_title": "Baptism of Fire",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt38677128",
           "plex": {
@@ -34,57 +66,25 @@
           "trakt": 13512050
         },
         "title": "What I love I do not carry",
-        "votes": 744,
+        "votes": 746,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/050/screenshots/medium/b2b571ef8e.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 6.77957010269165,
+        "rating": 6.777480125427246,
         "season": 4,
         "runtime": 51,
         "overview": "A trek through treacherous swamplands confronts Geralt with troubling visions. Emhyr discovers what he must do in order to claim absolute power.",
         "number_abs": null,
-        "updated_at": "2025-12-14T21:12:10.000Z",
+        "updated_at": "2025-12-15T01:21:31.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 6,
         "during_credits": false,
         "original_title": "What I love I do not carry",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38677126",
-          "plex": {
-            "guid": "68c61ddb8b81981d13b8b7a8"
-          },
-          "tmdb": 6527395,
-          "tvdb": 11355516,
-          "trakt": 13512047
-        },
-        "title": "Twilight of the Wolf",
-        "votes": 777,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/512/047/screenshots/medium/8371a0d461.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.122265338897705,
-        "season": 4,
-        "runtime": 49,
-        "overview": "Out of options, Yennefer rallies her novices in a deadly battle against the army of Vilgefortz. A dangerous foe catches Ciri's scent.",
-        "number_abs": null,
-        "updated_at": "2025-12-14T22:59:10.000Z",
-        "first_aired": "2025-10-30T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "Twilight of the Wolf",
         "available_translations": []
       }
     }
