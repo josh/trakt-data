@@ -5,8 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 16-23 * * *"
-    - cron: "0 0-7 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -65,7 +64,7 @@ jobs:
 
   metrics:
     needs: export
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     outputs:
       deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
