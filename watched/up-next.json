@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Stranger Things",
+      "year": 2016,
+      "ids": {
+        "trakt": 104439,
+        "slug": "stranger-things",
+        "tvdb": 305288,
+        "imdb": "tt4574334",
+        "tmdb": 66732,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 41,
+      "completed": 39,
+      "hidden": 0,
+      "last_watched_at": "2025-12-26T07:02:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 39,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt21912386",
+          "plex": {
+            "guid": "66ecae63275447f845c9e6fa"
+          },
+          "tmdb": 5607049,
+          "tvdb": 10788052,
+          "trakt": 12291596
+        },
+        "title": "Chapter Six: Escape from Camazotz",
+        "votes": 113,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/291/596/screenshots/medium/b4d4d29930.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8.318584442138672,
+        "season": 5,
+        "runtime": 75,
+        "overview": null,
+        "number_abs": null,
+        "updated_at": "2025-12-26T06:01:44.000Z",
+        "first_aired": "2025-12-26T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Chapter Six: Escape from Camazotz",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt21912384",
+          "plex": {
+            "guid": "66ecae63275447f845c9e6fd"
+          },
+          "tmdb": 5607048,
+          "tvdb": 10788051,
+          "trakt": 12291595
+        },
+        "title": "Chapter Five: Shock Jock",
+        "votes": 206,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/291/595/screenshots/medium/a1c7f8a30b.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 8.169902801513672,
+        "season": 5,
+        "runtime": 68,
+        "overview": null,
+        "number_abs": null,
+        "updated_at": "2025-12-26T06:04:12.000Z",
+        "first_aired": "2025-12-26T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Chapter Five: Shock Jock",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Fallout",
       "year": 2024,
       "ids": {
@@ -34,23 +124,23 @@
           "trakt": 13426608
         },
         "title": "The Golden Rule",
-        "votes": 223,
+        "votes": 506,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/426/608/screenshots/medium/1f9b843f2e.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.560538291931152,
+        "rating": 7.513833999633789,
         "season": 2,
         "runtime": 58,
         "overview": "You can't put a price on family\u2026",
         "number_abs": null,
-        "updated_at": "2025-12-25T06:02:33.000Z",
+        "updated_at": "2025-12-26T05:57:53.000Z",
         "first_aired": "2025-12-24T08:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 8,
         "during_credits": false,
         "original_title": "The Golden Rule",
         "available_translations": []
@@ -66,23 +156,23 @@
           "trakt": 13118663
         },
         "title": "The Innovator",
-        "votes": 1264,
+        "votes": 1333,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/118/663/screenshots/medium/d5b84d6333.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.624208927154541,
+        "rating": 7.615153789520264,
         "season": 2,
         "runtime": 63,
         "overview": "Every dollar spent is a vote cast.",
         "number_abs": null,
-        "updated_at": "2025-12-25T05:37:38.000Z",
+        "updated_at": "2025-12-26T06:03:01.000Z",
         "first_aired": "2025-12-16T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 17,
+        "comment_count": 18,
         "during_credits": false,
         "original_title": "The Innovator",
         "available_translations": []
