@@ -1,5 +1,85 @@
 [
   {
+    "plays": 10,
+    "last_watched_at": "2025-12-30T07:16:00.000Z",
+    "last_updated_at": "2025-12-30T07:16:53.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Fallout",
+      "year": 2024,
+      "ids": {
+        "trakt": 163965,
+        "slug": "fallout",
+        "tvdb": 416744,
+        "imdb": "tt12637874",
+        "tmdb": 106379,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2024-04-13T01:36:53.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2024-04-13T05:48:26.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2024-04-14T05:41:55.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2024-04-15T01:18:38.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2024-04-15T02:11:30.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2024-04-15T03:19:04.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2024-04-15T04:21:18.000Z"
+          },
+          {
+            "number": 8,
+            "plays": 1,
+            "last_watched_at": "2024-04-15T05:28:25.000Z"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2025-12-22T06:13:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2025-12-30T07:16:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 41,
     "last_watched_at": "2025-12-27T09:07:00.000Z",
     "last_updated_at": "2025-12-27T08:01:24.000Z",
@@ -379,81 +459,6 @@
             "number": 9,
             "plays": 1,
             "last_watched_at": "2025-12-24T07:44:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 9,
-    "last_watched_at": "2025-12-22T06:13:00.000Z",
-    "last_updated_at": "2025-12-22T05:10:48.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Fallout",
-      "year": 2024,
-      "ids": {
-        "trakt": 163965,
-        "slug": "fallout",
-        "tvdb": 416744,
-        "imdb": "tt12637874",
-        "tmdb": 106379,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2024-04-13T01:36:53.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2024-04-13T05:48:26.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2024-04-14T05:41:55.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2024-04-15T01:18:38.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2024-04-15T02:11:30.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2024-04-15T03:19:04.000Z"
-          },
-          {
-            "number": 7,
-            "plays": 1,
-            "last_watched_at": "2024-04-15T04:21:18.000Z"
-          },
-          {
-            "number": 8,
-            "plays": 1,
-            "last_watched_at": "2024-04-15T05:28:25.000Z"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2025-12-22T06:13:00.000Z"
           }
         ]
       }
