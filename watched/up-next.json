@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "show": {
+      "title": "Fallout",
+      "year": 2024,
+      "ids": {
+        "trakt": 163965,
+        "slug": "fallout",
+        "tvdb": 416744,
+        "imdb": "tt12637874",
+        "tmdb": 106379,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2025-12-30T07:16:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 10,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt36732536",
+          "plex": {
+            "guid": "68a50bfaf172375446743d48"
+          },
+          "tmdb": 6468134,
+          "tvdb": 11296172,
+          "trakt": 13426609
+        },
+        "title": "The Profligate",
+        "votes": 401,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/426/609/screenshots/medium/361fbfe403.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.735661029815674,
+        "season": 2,
+        "runtime": 56,
+        "overview": "Most kids are dead by this age.",
+        "number_abs": null,
+        "updated_at": "2026-01-01T19:00:10.000Z",
+        "first_aired": "2025-12-31T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "The Profligate",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35270590",
+          "plex": {
+            "guid": "68a50bfaf172375446743d47"
+          },
+          "tmdb": 6468133,
+          "tvdb": 11296171,
+          "trakt": 13426608
+        },
+        "title": "The Golden Rule",
+        "votes": 1205,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/426/608/screenshots/medium/1f9b843f2e.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.511203289031982,
+        "season": 2,
+        "runtime": 59,
+        "overview": "You can't put a price on family\u2026",
+        "number_abs": null,
+        "updated_at": "2026-01-01T18:48:06.000Z",
+        "first_aired": "2025-12-24T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 13,
+        "during_credits": false,
+        "original_title": "The Golden Rule",
+        "available_translations": []
+      }
+    }
+  }
+]
