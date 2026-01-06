@@ -1,42 +1,23 @@
 [
   {
     "rank": 1,
-    "id": 1356103591,
-    "listed_at": "2025-11-05T02:00:50.000Z",
+    "id": 1394399822,
+    "listed_at": "2025-12-23T17:45:26.000Z",
     "notes": null,
-    "type": "show",
-    "show": {
-      "title": "I Love LA",
+    "type": "movie",
+    "movie": {
+      "title": "Sentimental Value",
       "year": 2025,
       "ids": {
-        "trakt": 255451,
-        "slug": "i-love-la",
-        "tvdb": 454337,
-        "imdb": "tt33362589",
-        "tmdb": 271053,
-        "tvrage": null
+        "trakt": 904936,
+        "slug": "sentimental-value-2025",
+        "imdb": "tt27714581",
+        "tmdb": 1124566
       }
     }
   },
   {
     "rank": 2,
-    "id": 1368055503,
-    "listed_at": "2025-11-19T08:29:46.000Z",
-    "notes": null,
-    "type": "movie",
-    "movie": {
-      "title": "If I Had Legs I'd Kick You",
-      "year": 2025,
-      "ids": {
-        "trakt": 935050,
-        "slug": "if-i-had-legs-i-d-kick-you-2025",
-        "imdb": "tt18382850",
-        "tmdb": 1160360
-      }
-    }
-  },
-  {
-    "rank": 3,
     "id": 1386955741,
     "listed_at": "2025-12-12T18:27:36.000Z",
     "notes": null,
@@ -51,6 +32,23 @@
         "imdb": "tt12637874",
         "tmdb": 106379,
         "tvrage": null
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "id": 1368055503,
+    "listed_at": "2025-11-19T08:29:46.000Z",
+    "notes": null,
+    "type": "movie",
+    "movie": {
+      "title": "If I Had Legs I'd Kick You",
+      "year": 2025,
+      "ids": {
+        "trakt": 935050,
+        "slug": "if-i-had-legs-i-d-kick-you-2025",
+        "imdb": "tt18382850",
+        "tmdb": 1160360
       }
     }
   },
@@ -102,23 +100,6 @@
         "slug": "100-nights-of-hero-2025",
         "imdb": "tt33350512",
         "tmdb": 1354518
-      }
-    }
-  },
-  {
-    "rank": 7,
-    "id": 1394399822,
-    "listed_at": "2025-12-23T17:45:26.000Z",
-    "notes": null,
-    "type": "movie",
-    "movie": {
-      "title": "Sentimental Value",
-      "year": 2025,
-      "ids": {
-        "trakt": 904936,
-        "slug": "sentimental-value-2025",
-        "imdb": "tt27714581",
-        "tmdb": 1124566
       }
     }
   }
