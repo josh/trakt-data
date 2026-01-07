@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 6,
+      "completed": 7,
       "hidden": 0,
-      "last_watched_at": "2016-05-08T06:09:43.000Z",
+      "last_watched_at": "2026-01-07T07:45:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 7,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38028379",
+          "plex": {
+            "guid": "68adaf6ee294671cff74be67"
+          },
+          "tmdb": 6665607,
+          "tvdb": 11441626,
+          "trakt": 13700784
+        },
+        "title": "Episode 2",
+        "votes": 106,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/700/784/screenshots/medium/177cfd20a8.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.622641563415527,
+        "season": 2,
+        "runtime": 57,
+        "overview": "Pine is on the run and using a new identity. Under the name Matthew Ellis, he travels to Colombia to get inside Teddy dos Santos's operation and uncover the mystery of the Cartagena shipment.",
+        "number_abs": null,
+        "updated_at": "2026-01-07T08:01:18.000Z",
+        "first_aired": "2026-01-04T21:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt32117798",
           "plex": {
@@ -34,57 +66,116 @@
           "trakt": 13700782
         },
         "title": "Episode 1",
-        "votes": 129,
+        "votes": 156,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/700/782/screenshots/medium/7e2bec46b8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.558139324188232,
+        "rating": 7.615384578704834,
         "season": 2,
         "runtime": 60,
         "overview": "Pine's past resurfaces after a chance sighting. He's pulled into a deadly conspiracy reaching from Colombia's jungles to the heart of MI6.",
         "number_abs": null,
-        "updated_at": "2026-01-05T08:03:28.000Z",
+        "updated_at": "2026-01-07T07:37:11.000Z",
         "first_aired": "2026-01-01T21:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 3,
         "during_credits": false,
         "original_title": null,
         "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Fallout",
+      "year": 2024,
+      "ids": {
+        "trakt": 163965,
+        "slug": "fallout",
+        "tvdb": 416744,
+        "imdb": "tt12637874",
+        "tmdb": 106379,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 12,
+      "completed": 11,
+      "hidden": 0,
+      "last_watched_at": "2026-01-05T07:43:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 11,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt36758868",
+          "plex": {
+            "guid": "68a50bfaf172375446743d49"
+          },
+          "tmdb": 6468135,
+          "tvdb": 11296173,
+          "trakt": 13426610
+        },
+        "title": "The Demon in the Snow",
+        "votes": 3,
+        "images": {
+          "screenshot": []
+        },
+        "number": 4,
+        "rating": 6.666666507720947,
+        "season": 2,
+        "runtime": null,
+        "overview": "Rock to spear and so on...",
+        "number_abs": null,
+        "updated_at": "2026-01-07T08:00:24.000Z",
+        "first_aired": "2026-01-07T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Demon in the Snow",
+        "available_translations": [
+          "en",
+          "ru"
+        ]
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt4426880",
+          "imdb": "tt36732536",
           "plex": {
-            "guid": "65dd8871ba56505b1d3810e7"
+            "guid": "68a50bfaf172375446743d48"
           },
-          "tmdb": 1165145,
-          "tvdb": 5481554,
-          "trakt": 2122991
+          "tmdb": 6468134,
+          "tvdb": 11296172,
+          "trakt": 13426609
         },
-        "title": "Episode 6",
-        "votes": 3057,
+        "title": "The Profligate",
+        "votes": 1215,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/002/122/991/screenshots/medium/6f12b171e0.jpg.webp"
+            "media.trakt.tv/images/episodes/013/426/609/screenshots/medium/361fbfe403.jpg.webp"
           ]
         },
-        "number": 6,
-        "rating": 8.288190841674805,
-        "season": 1,
-        "runtime": 60,
-        "overview": "Roper and his team return to Cairo for the deal, reuniting Pine with an old enemy. Pine risks it all to put his plan in motion. A discredited Burr makes one last stand.",
-        "number_abs": 6,
-        "updated_at": "2026-01-05T04:18:43.000Z",
-        "first_aired": "2016-03-27T20:00:00.000Z",
-        "episode_type": "season_finale",
+        "number": 3,
+        "rating": 7.690535068511963,
+        "season": 2,
+        "runtime": 55,
+        "overview": "Most kids are dead by this age.",
+        "number_abs": null,
+        "updated_at": "2026-01-07T08:01:18.000Z",
+        "first_aired": "2025-12-31T08:00:00.000Z",
+        "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 12,
+        "comment_count": 14,
         "during_credits": false,
-        "original_title": null,
+        "original_title": "The Profligate",
         "available_translations": []
       }
     }
