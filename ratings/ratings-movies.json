@@ -1,5 +1,35 @@
 [
   {
+    "rated_at": "2026-01-07T23:59:59.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "title": "Sisu: Road to Revenge",
+      "year": 2025,
+      "ids": {
+        "trakt": 988284,
+        "slug": "sisu-road-to-revenge-2025",
+        "imdb": "tt31844586",
+        "tmdb": 1223601
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-07T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "title": "Twinless",
+      "year": 2025,
+      "ids": {
+        "trakt": 1008533,
+        "slug": "twinless-2025",
+        "imdb": "tt31322753",
+        "tmdb": 1245347
+      }
+    }
+  },
+  {
     "rated_at": "2026-01-07T16:03:01.000Z",
     "rating": 6,
     "type": "movie",
@@ -2861,21 +2891,6 @@
         "slug": "rabbit-trap-2025",
         "imdb": "tt29567402",
         "tmdb": 1193824
-      }
-    }
-  },
-  {
-    "rated_at": "2025-01-24T06:01:40.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "title": "Twinless",
-      "year": 2025,
-      "ids": {
-        "trakt": 1008533,
-        "slug": "twinless-2025",
-        "imdb": "tt31322753",
-        "tmdb": 1245347
       }
     }
   },
