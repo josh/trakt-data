@@ -1,6 +1,21 @@
 [
   {
     "rated_at": "2026-01-08T23:59:59.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "Last Days",
+      "year": 2025,
+      "ids": {
+        "trakt": 879154,
+        "slug": "last-days-2025",
+        "imdb": "tt27977862",
+        "tmdb": 1093402
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-08T23:59:59.000Z",
     "rating": 6,
     "type": "movie",
     "movie": {
