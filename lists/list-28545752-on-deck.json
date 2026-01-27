@@ -623,7 +623,7 @@
       },
       "year": 2026,
       "title": "A Knight of the Seven Kingdoms",
-      "votes": 314,
+      "votes": 317,
       "colors": {
         "poster": [
           "#C5CEBD",
@@ -657,7 +657,7 @@
           "media.trakt.tv/images/shows/000/204/141/cleararts/medium/e43be83cd1.png.webp"
         ]
       },
-      "rating": 7.707006454467773,
+      "rating": 7.71608829498291,
       "status": "returning series",
       "country": "us",
       "network": "HBO",
@@ -1011,6 +1011,112 @@
         "ro",
         "ru",
         "uk",
+        "zh"
+      ]
+    }
+  },
+  {
+    "rank": 10,
+    "id": 1417109975,
+    "listed_at": "2026-01-27T06:25:35.000Z",
+    "notes": null,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt33244668",
+        "plex": {
+          "guid": "66cab8bc55469f6cd8d0624d",
+          "slug": "anaconda-2025"
+        },
+        "slug": "anaconda-2025",
+        "tmdb": 1234731,
+        "trakt": 998723
+      },
+      "year": 2025,
+      "title": "Anaconda",
+      "votes": 755,
+      "colors": {
+        "poster": [
+          "#AF6546",
+          "#292918"
+        ]
+      },
+      "genres": [
+        "adventure",
+        "horror",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/998/723/logos/medium/0847057aa3.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/998/723/fanarts/medium/ce4f2133ad.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/998/723/posters/medium/1f4ef8091d.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 6.214569568634033,
+      "status": "released",
+      "country": "us",
+      "runtime": 100,
+      "tagline": "A comedy so big it'll leave you breathless.",
+      "trailer": "https://youtube.com/watch?v=LFLyvzIZjK4",
+      "homepage": "https://anacondamovie.com",
+      "language": "en",
+      "overview": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals.",
+      "released": "2025-12-25",
+      "languages": [
+        "en",
+        "si",
+        "ta"
+      ],
+      "subgenres": [
+        "jungle",
+        "reboot",
+        "meta"
+      ],
+      "updated_at": "2026-01-26T08:24:22.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 24,
+      "during_credits": false,
+      "original_title": "Anaconda",
+      "available_translations": [
+        "bg",
+        "cs",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
         "zh"
       ]
     }
