@@ -14,16 +14,62 @@
     },
     "progress": {
       "aired": 3,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2026-01-26T19:56:00.000Z",
+      "last_watched_at": "2026-01-29T04:30:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt1285073",
+          "plex": {
+            "guid": "60f7318499add0002d2983b3"
+          },
+          "tmdb": 1027572,
+          "tvdb": 314750,
+          "trakt": 283015
+        },
+        "title": "The Eye and the Primary Object",
+        "votes": 322,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/000/283/015/screenshots/medium/56bce4d4ab.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.984472274780273,
+        "season": 1,
+        "runtime": 88,
+        "overview": "After discovering the existence of The Occupant of Room 10, Joe attempts to find him and another object that will allow him to access the Vault. Kreutzfeld hatches a plan that could destroy the world. Ruber has a vision while in the desert, and Joe finally finds The Occupant.",
+        "number_abs": 0,
+        "updated_at": "2026-01-28T10:38:48.000Z",
+        "first_aired": "2006-12-14T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "The Eye and the Primary Object",
+        "available_translations": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "hu",
+          "it",
+          "ko",
+          "pl",
+          "pt",
+          "ru",
+          "tr",
+          "zh"
+        ]
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt1285072",
           "plex": {
@@ -46,58 +92,13 @@
         "runtime": 88,
         "overview": "Joe Miller is on the run after being framed for his partner's murder. He joins forces with Legion member Jennifer Bloom to find the Object that will help find his daughter, Anna. Along the way they learn about the Room's mysterious past.Martin Ruber searches for an object to gain membership in the Order of the Reunification.",
         "number_abs": 0,
-        "updated_at": "2026-01-27T05:50:09.000Z",
+        "updated_at": "2026-01-28T10:12:02.000Z",
         "first_aired": "2006-12-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "The Comb and the Box",
-        "available_translations": [
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "hu",
-          "it",
-          "ko",
-          "pt",
-          "ru",
-          "tr",
-          "zh"
-        ]
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt1285074",
-          "plex": {
-            "guid": "5d9c0c9f02391c001f5b0992"
-          },
-          "tmdb": 269563,
-          "tvdb": 314748,
-          "trakt": 283013
-        },
-        "title": "The Key and the Clock",
-        "votes": 416,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/000/283/013/screenshots/medium/534b034737.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.901442527770996,
-        "season": 1,
-        "runtime": 88,
-        "overview": "Detective Joe Miller finds himself on a  case involving two men that are found burned to death in a pawn shop, apparently involving a mysterious key and a deal gone bad. After receiving the key, Joe discovers that it is just one of nearly one hundred objects with supernatural powers and a link to a hidden motel room. Detective Joe Miller and the Wiesel try to get the clock from object collector Karl Reutzfeld's hands. Joe gets accused of his partner's murder.",
-        "number_abs": 0,
-        "updated_at": "2026-01-27T13:20:32.000Z",
-        "first_aired": "2006-12-12T02:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "The Key and the Clock",
         "available_translations": [
           "de",
           "en",
@@ -150,19 +151,19 @@
           "trakt": 13608708
         },
         "title": "The Quest",
-        "votes": 3,
+        "votes": 8,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/708/screenshots/medium/efd3164128.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 8.666666984558105,
+        "rating": 7.75,
         "season": 2,
         "runtime": 41,
         "overview": "In the aftermath of Issei's near-death experience, he and Camille chase down a crucial clue about the mystery wine.",
         "number_abs": null,
-        "updated_at": "2026-01-28T05:56:21.000Z",
+        "updated_at": "2026-01-29T03:09:18.000Z",
         "first_aired": "2026-01-27T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -182,19 +183,19 @@
           "trakt": 13608707
         },
         "title": "The Present",
-        "votes": 33,
+        "votes": 34,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/707/screenshots/medium/d3900a82e3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.454545497894287,
+        "rating": 7.411764621734619,
         "season": 2,
         "runtime": 48,
         "overview": "Issei and Camille reunite at the Chassangre Estate, only to receive a mysterious gift and set of instructions that will test their bond.",
         "number_abs": null,
-        "updated_at": "2026-01-28T00:54:08.000Z",
+        "updated_at": "2026-01-28T23:55:39.000Z",
         "first_aired": "2026-01-20T23:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -240,30 +241,26 @@
           "trakt": 13426613
         },
         "title": "The Handoff",
-        "votes": 74,
+        "votes": 462,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/426/613/screenshots/medium/27edf68fd0.jpg.webp"
+            "media.trakt.tv/images/episodes/013/426/613/screenshots/medium/7fe9b34423.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.864864826202393,
+        "rating": 7.811688423156738,
         "season": 2,
         "runtime": 51,
         "overview": "You always end up back where you started.",
         "number_abs": null,
-        "updated_at": "2026-01-28T08:56:11.000Z",
-        "first_aired": "2026-01-27T07:00:00.000Z",
+        "updated_at": "2026-01-29T05:14:15.000Z",
+        "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 3,
         "during_credits": false,
         "original_title": "The Handoff",
-        "available_translations": [
-          "en",
-          "ru",
-          "uk"
-        ]
+        "available_translations": []
       },
       "last_episode": {
         "ids": {
@@ -276,23 +273,23 @@
           "trakt": 13426612
         },
         "title": "The Other Player",
-        "votes": 1237,
+        "votes": 1272,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/426/612/screenshots/medium/2b60bec830.jpg.webp"
+            "media.trakt.tv/images/episodes/013/426/612/screenshots/medium/4e63ee1fef.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.5933709144592285,
+        "rating": 7.591195106506348,
         "season": 2,
         "runtime": 52,
         "overview": "I remember good people.",
         "number_abs": null,
-        "updated_at": "2026-01-28T07:52:33.000Z",
-        "first_aired": "2026-01-21T07:00:00.000Z",
+        "updated_at": "2026-01-29T04:26:58.000Z",
+        "first_aired": "2026-01-22T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 11,
+        "comment_count": 12,
         "during_credits": false,
         "original_title": "The Other Player",
         "available_translations": []
@@ -334,23 +331,23 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 22,
+        "votes": 135,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/9243d02bac.jpg.webp"
+            "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.5,
+        "rating": 7.829629421234131,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-01-28T08:28:13.000Z",
+        "updated_at": "2026-01-29T05:12:34.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 7,
         "during_credits": false,
         "original_title": "My Bad",
         "available_translations": []
@@ -366,19 +363,19 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 918,
+        "votes": 920,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.43572998046875,
+        "rating": 8.433695793151855,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-01-28T07:25:43.000Z",
+        "updated_at": "2026-01-29T03:32:51.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
