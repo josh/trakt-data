@@ -1,7 +1,67 @@
 [
   {
-    "rated_at": "2026-01-27T16:03:10.000Z",
-    "rating": 7,
+    "rated_at": "2026-01-29T20:03:55.000Z",
+    "rating": 1,
+    "type": "movie",
+    "movie": {
+      "title": "Ghost in the Machine",
+      "year": 2026,
+      "ids": {
+        "trakt": 1326460,
+        "slug": "ghost-in-the-machine-2026",
+        "imdb": "tt39150080",
+        "tmdb": 1596315
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-29T20:03:55.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "The Best Summer",
+      "year": 2026,
+      "ids": {
+        "trakt": 1326467,
+        "slug": "the-best-summer-2026",
+        "imdb": "tt39163244",
+        "tmdb": 1596324
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-28T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "title": "The Shitheads",
+      "year": 2026,
+      "ids": {
+        "trakt": 292262,
+        "slug": "the-shitheads-2026",
+        "imdb": "tt6628920",
+        "tmdb": 445466
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-28T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "title": "Josephine",
+      "year": 2026,
+      "ids": {
+        "trakt": 1059186,
+        "slug": "josephine-2026",
+        "imdb": "tt32321285",
+        "tmdb": 1299329
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-28T23:59:59.000Z",
+    "rating": 8,
     "type": "movie",
     "movie": {
       "title": "The Weight",
@@ -41,36 +101,6 @@
         "slug": "the-gallerist-2026",
         "imdb": "tt34382912",
         "tmdb": 1379537
-      }
-    }
-  },
-  {
-    "rated_at": "2026-01-24T23:59:59.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "title": "The Shitheads",
-      "year": 2026,
-      "ids": {
-        "trakt": 292262,
-        "slug": "the-shitheads-2026",
-        "imdb": "tt6628920",
-        "tmdb": 445466
-      }
-    }
-  },
-  {
-    "rated_at": "2026-01-24T23:59:59.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "title": "Josephine",
-      "year": 2026,
-      "ids": {
-        "trakt": 1059186,
-        "slug": "josephine-2026",
-        "imdb": "tt32321285",
-        "tmdb": 1299329
       }
     }
   },
