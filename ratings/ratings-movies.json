@@ -1,6 +1,21 @@
 [
   {
     "rated_at": "2026-01-30T23:59:59.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "title": "Rock Springs",
+      "year": 2026,
+      "ids": {
+        "trakt": 1120346,
+        "slug": "rock-springs-2026",
+        "imdb": "tt33999471",
+        "tmdb": 1371850
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-30T23:59:59.000Z",
     "rating": 3,
     "type": "movie",
     "movie": {
