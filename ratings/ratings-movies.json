@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2026-02-09T16:17:57.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "title": "The Secret Agent",
+      "year": 2025,
+      "ids": {
+        "trakt": 985130,
+        "slug": "the-secret-agent-2025",
+        "imdb": "tt27847051",
+        "tmdb": 1220564
+      }
+    }
+  },
+  {
     "rated_at": "2026-02-08T16:03:10.000Z",
     "rating": 6,
     "type": "movie",
@@ -4970,10 +4985,10 @@
     "type": "movie",
     "movie": {
       "title": "Wildcat",
-      "year": 2024,
+      "year": 2023,
       "ids": {
         "trakt": 864699,
-        "slug": "wildcat-2024",
+        "slug": "wildcat-2023",
         "imdb": "tt26442871",
         "tmdb": 1076101
       }
