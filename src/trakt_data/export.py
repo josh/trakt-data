@@ -227,7 +227,7 @@ def _export_lists_lists(ctx: Context) -> None:
     if _fresh(ctx, output_path):
         return
 
-    data = trakt_api_get(ctx.session, path="/users/me/lists")
+    data = trakt_api_paginated_get(ctx.session, path="/users/me/lists")
     write_json(output_path, data)
     _export_lists_list_all(ctx, cast(list[List], data))
 
