@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 3,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2026-02-15T04:54:00.000Z",
+      "last_watched_at": "2026-02-15T17:16:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 3,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt31260217",
+          "plex": {
+            "guid": "68ec49d9c6bf551dc5951c72"
+          },
+          "tmdb": 6594787,
+          "tvdb": 11391275,
+          "trakt": 13616869
+        },
+        "title": "Found Footage",
+        "votes": 551,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/616/869/screenshots/medium/5c8f445808.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.3847551345825195,
+        "season": 1,
+        "runtime": 26,
+        "overview": "Try a peach ring. You'll understand.",
+        "number_abs": null,
+        "updated_at": "2026-02-15T16:29:44.000Z",
+        "first_aired": "2026-01-28T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 9,
+        "during_credits": false,
+        "original_title": "Found Footage",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt29258523",
           "plex": {
@@ -34,57 +66,25 @@
           "trakt": 13616868
         },
         "title": "Doorman",
-        "votes": 602,
+        "votes": 611,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/616/868/screenshots/medium/9518654b6b.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.29401969909668,
+        "rating": 7.281505584716797,
         "season": 1,
         "runtime": 32,
         "overview": "Ding dong.",
         "number_abs": null,
-        "updated_at": "2026-02-15T04:22:20.000Z",
+        "updated_at": "2026-02-15T16:33:51.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 11,
+        "comment_count": 12,
         "during_credits": false,
         "original_title": "Doorman",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt31260214",
-          "plex": {
-            "guid": "68ec49dac6bf551dc5951c91"
-          },
-          "tmdb": 6594785,
-          "tvdb": 11391273,
-          "trakt": 13616867
-        },
-        "title": "Pacoima",
-        "votes": 628,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/616/867/screenshots/medium/15925afe55.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.321656227111816,
-        "season": 1,
-        "runtime": 34,
-        "overview": "Birthday parties are kind of stressful.",
-        "number_abs": null,
-        "updated_at": "2026-02-15T03:53:23.000Z",
-        "first_aired": "2026-01-28T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 8,
-        "during_credits": false,
-        "original_title": "Pacoima",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 477,
+        "votes": 513,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.914046287536621,
+        "rating": 7.929824352264404,
         "season": 3,
         "runtime": 63,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-02-15T03:23:02.000Z",
+        "updated_at": "2026-02-15T17:04:20.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -168,7 +168,7 @@
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-02-14T15:24:36.000Z",
+        "updated_at": "2026-02-15T16:49:39.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
