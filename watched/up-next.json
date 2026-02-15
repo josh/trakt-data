@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Wonder Man",
+      "year": 2026,
+      "ids": {
+        "trakt": 196325,
+        "slug": "wonder-man",
+        "tvdb": 428629,
+        "imdb": "tt21066182",
+        "tmdb": 198178,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2026-02-15T04:54:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt29258523",
+          "plex": {
+            "guid": "68ec49dac6bf551dc5951c81"
+          },
+          "tmdb": 6594786,
+          "tvdb": 11391274,
+          "trakt": 13616868
+        },
+        "title": "Doorman",
+        "votes": 602,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/616/868/screenshots/medium/9518654b6b.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.29401969909668,
+        "season": 1,
+        "runtime": 32,
+        "overview": "Ding dong.",
+        "number_abs": null,
+        "updated_at": "2026-02-15T04:22:20.000Z",
+        "first_aired": "2026-01-28T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 11,
+        "during_credits": false,
+        "original_title": "Doorman",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31260214",
+          "plex": {
+            "guid": "68ec49dac6bf551dc5951c91"
+          },
+          "tmdb": 6594785,
+          "tvdb": 11391273,
+          "trakt": 13616867
+        },
+        "title": "Pacoima",
+        "votes": 628,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/616/867/screenshots/medium/15925afe55.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.321656227111816,
+        "season": 1,
+        "runtime": 34,
+        "overview": "Birthday parties are kind of stressful.",
+        "number_abs": null,
+        "updated_at": "2026-02-15T03:53:23.000Z",
+        "first_aired": "2026-01-28T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Pacoima",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Shrinking",
       "year": 2023,
       "ids": {
@@ -46,7 +136,7 @@
         "runtime": 63,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-02-14T03:22:44.000Z",
+        "updated_at": "2026-02-15T03:23:02.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -78,7 +168,7 @@
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-02-13T15:10:55.000Z",
+        "updated_at": "2026-02-14T15:24:36.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
