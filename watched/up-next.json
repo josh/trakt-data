@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2026-02-19T07:10:00.000Z",
+      "last_watched_at": "2026-02-19T08:03:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "693773d80d3af94dd451c9f8"
+          },
+          "tmdb": 6736814,
+          "tvdb": null,
+          "trakt": 13782069
+        },
+        "title": "Beautiful Chimp Face",
+        "votes": 260,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/782/069/screenshots/medium/be0a3a7afe.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.261538505554199,
+        "season": 1,
+        "runtime": 38,
+        "overview": "Cooper interviews an assistant editor following a disturbing event at the offices of a fashion magazine in New York City.",
+        "number_abs": null,
+        "updated_at": "2026-02-19T05:49:30.000Z",
+        "first_aired": "2026-01-29T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Beautiful Chimp Face",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": null,
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 3,
         "during_credits": false,
         "original_title": "Beautiful Christopher Cross",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "693773d90d3af94dd451ca04"
-          },
-          "tmdb": 6736809,
-          "tvdb": null,
-          "trakt": 13782067
-        },
-        "title": "Beautiful Jordan",
-        "votes": 333,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/782/067/screenshots/medium/28c341d58a.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.04804801940918,
-        "season": 1,
-        "runtime": 25,
-        "overview": "The discovery of a gruesome crime scene sends Cooper and Jordan to Venice, Italy.",
-        "number_abs": null,
-        "updated_at": "2026-02-19T03:56:10.000Z",
-        "first_aired": "2026-01-22T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Beautiful Jordan",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 160,
+        "votes": 164,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.181250095367432,
+        "rating": 7.158536434173584,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-02-19T06:34:45.000Z",
+        "updated_at": "2026-02-19T08:09:00.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -348,7 +348,7 @@
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-02-19T03:52:11.000Z",
+        "updated_at": "2026-02-19T07:59:51.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
