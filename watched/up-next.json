@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 4,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2026-02-20T07:37:00.000Z",
+      "last_watched_at": "2026-02-20T08:23:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37304287",
+          "plex": {
+            "guid": "684f79479d2b3e099bd77277"
+          },
+          "tmdb": 6888351,
+          "tvdb": null,
+          "trakt": 13624998
+        },
+        "title": "America's Widow",
+        "votes": 46,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/624/998/screenshots/medium/9f9370c3c8.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.9347825050354,
+        "season": 1,
+        "runtime": 43,
+        "overview": "After a family tragedy, John seeks comfort from Carolyn.",
+        "number_abs": null,
+        "updated_at": "2026-02-19T22:40:26.000Z",
+        "first_aired": "2026-02-13T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "America's Widow",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt37304285",
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 1,
         "during_credits": false,
         "original_title": "The Pools Party",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt15294436",
-          "plex": {
-            "guid": "67dea8a82543ba220cc3df31"
-          },
-          "tmdb": 6065302,
-          "tvdb": 8611439,
-          "trakt": 12928039
-        },
-        "title": "Pilot",
-        "votes": 57,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/928/039/screenshots/medium/48e0079c72.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.561403274536133,
-        "season": 1,
-        "runtime": 58,
-        "overview": "The pressure of the Kennedy name weighs on John. Carolyn impresses at Calvin Klein. An unlikely connection forms at a charity event.",
-        "number_abs": null,
-        "updated_at": "2026-02-20T05:55:54.000Z",
-        "first_aired": "2026-02-13T02:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Pilot",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 232,
+        "votes": 236,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.193965435028076,
+        "rating": 7.177966117858887,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-02-20T06:45:48.000Z",
+        "updated_at": "2026-02-20T07:55:27.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +156,19 @@
           "trakt": 13642188
         },
         "title": "Outage",
-        "votes": 444,
+        "votes": 445,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.5292792320251465,
+        "rating": 7.530336856842041,
         "season": 2,
         "runtime": 40,
         "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
         "number_abs": null,
-        "updated_at": "2026-02-20T04:50:23.000Z",
+        "updated_at": "2026-02-20T07:33:35.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -348,7 +348,7 @@
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-02-19T15:34:44.000Z",
+        "updated_at": "2026-02-20T08:04:13.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
