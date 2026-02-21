@@ -1,6 +1,84 @@
 [
   {
     "rank": 1,
+    "id": 1432439593,
+    "listed_at": "2026-02-20T04:52:51.000Z",
+    "notes": null,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt35522483",
+        "plex": {
+          "guid": "64bc01a86042f826af998051",
+          "slug": "nirvanna-the-band-the-show-the-movie"
+        },
+        "slug": "nirvanna-the-band-the-show-the-movie-2026",
+        "tmdb": 1154538,
+        "trakt": 930265
+      },
+      "year": 2026,
+      "title": "Nirvanna the Band the Show the Movie",
+      "votes": 50,
+      "colors": {
+        "poster": [
+          "#FEFEFE",
+          "#000000"
+        ]
+      },
+      "genres": [
+        "comedy",
+        "science-fiction",
+        "adventure"
+      ],
+      "images": {
+        "logo": [],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/930/265/fanarts/medium/b3524a5d3d.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/930/265/posters/medium/7f7bf3db7f.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 8.239999771118164,
+      "status": "released",
+      "country": "ca",
+      "runtime": 102,
+      "tagline": "One... last... plan.",
+      "trailer": "https://youtube.com/watch?v=y2K9ccMREOI",
+      "homepage": "https://nirvannathebandtheshowthemovie.com/",
+      "language": "en",
+      "overview": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008. Blah blah blah.",
+      "released": "2026-02-13",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "time-travel",
+        "based-on-tv-series",
+        "road-trip",
+        "parody",
+        "mockumentary",
+        "independent-film",
+        "satirical"
+      ],
+      "updated_at": "2026-02-20T08:27:42.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 0,
+      "during_credits": false,
+      "original_title": "Nirvanna the Band the Show the Movie",
+      "available_translations": [
+        "en",
+        "ko",
+        "pl"
+      ]
+    }
+  },
+  {
+    "rank": 2,
     "id": 1431191851,
     "listed_at": "2026-02-18T06:19:44.000Z",
     "notes": null,
@@ -24,7 +102,7 @@
       },
       "year": 2026,
       "title": "Love Story",
-      "votes": 27,
+      "votes": 26,
       "colors": {
         "poster": [
           "#E1E1E1",
@@ -42,14 +120,14 @@
         "thumb": [],
         "banner": [],
         "fanart": [
-          "media.trakt.tv/images/shows/000/185/998/fanarts/medium/d8a11e85eb.jpg.webp"
+          "media.trakt.tv/images/shows/000/185/998/fanarts/medium/5c5544456a.jpg.webp"
         ],
         "poster": [
           "media.trakt.tv/images/shows/000/185/998/posters/medium/55bba6ae02.jpg.webp"
         ],
         "clearart": []
       },
-      "rating": 6.111111164093018,
+      "rating": 6.07692289352417,
       "status": "returning series",
       "country": "us",
       "network": "Hulu",
@@ -65,7 +143,7 @@
       "subgenres": [
         "anthology"
       ],
-      "updated_at": "2026-02-19T15:38:11.000Z",
+      "updated_at": "2026-02-20T18:34:37.000Z",
       "first_aired": "2026-02-13T02:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 0,
@@ -83,6 +161,7 @@
         "nl",
         "pl",
         "pt",
+        "ro",
         "ru",
         "th",
         "tr",
@@ -92,7 +171,7 @@
     }
   },
   {
-    "rank": 2,
+    "rank": 3,
     "id": 1430163839,
     "listed_at": "2026-02-16T17:11:10.000Z",
     "notes": null,
@@ -116,7 +195,7 @@
       },
       "year": 2023,
       "title": "Shrinking",
-      "votes": 5028,
+      "votes": 5032,
       "colors": {
         "poster": [
           "#C1DCDB",
@@ -147,7 +226,7 @@
           "media.trakt.tv/images/shows/000/189/764/cleararts/medium/36c02ee2e7.png.webp"
         ]
       },
-      "rating": 8.046539306640625,
+      "rating": 8.047893524169922,
       "status": "returning series",
       "country": "us",
       "network": "Apple TV",
@@ -165,7 +244,7 @@
         "workplace-comedy",
         "father-daughter-relationship"
       ],
-      "updated_at": "2026-02-19T15:55:02.000Z",
+      "updated_at": "2026-02-20T15:44:46.000Z",
       "first_aired": "2023-01-27T02:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 41,
@@ -212,7 +291,7 @@
     }
   },
   {
-    "rank": 3,
+    "rank": 4,
     "id": 1410623339,
     "listed_at": "2026-01-17T23:47:10.000Z",
     "notes": null,
@@ -284,7 +363,7 @@
         "politics",
         "usa-politics"
       ],
-      "updated_at": "2026-02-19T15:29:39.000Z",
+      "updated_at": "2026-02-20T15:57:34.000Z",
       "first_aired": "2003-02-22T03:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 17,
@@ -313,7 +392,7 @@
     }
   },
   {
-    "rank": 4,
+    "rank": 5,
     "id": 1424620048,
     "listed_at": "2026-02-08T00:37:08.000Z",
     "notes": null,
@@ -337,7 +416,7 @@
       },
       "year": 2026,
       "title": "A Knight of the Seven Kingdoms",
-      "votes": 1220,
+      "votes": 1251,
       "colors": {
         "poster": [
           "#CBD3C2",
@@ -371,7 +450,7 @@
           "media.trakt.tv/images/shows/000/204/141/cleararts/medium/e43be83cd1.png.webp"
         ]
       },
-      "rating": 8.332786560058594,
+      "rating": 8.350119590759277,
       "status": "returning series",
       "country": "us",
       "network": "HBO",
@@ -388,7 +467,7 @@
         "fantasy-world",
         "spin-off"
       ],
-      "updated_at": "2026-02-19T15:55:04.000Z",
+      "updated_at": "2026-02-20T15:53:36.000Z",
       "first_aired": "2026-01-19T03:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 35,
@@ -439,7 +518,7 @@
     }
   },
   {
-    "rank": 5,
+    "rank": 6,
     "id": 1426548292,
     "listed_at": "2026-02-11T03:45:59.000Z",
     "notes": null,
@@ -463,7 +542,7 @@
       },
       "year": 2026,
       "title": "The Beauty",
-      "votes": 206,
+      "votes": 210,
       "colors": {
         "poster": [
           "#CD2B1B",
@@ -489,11 +568,11 @@
         ],
         "clearart": []
       },
-      "rating": 6.354369163513184,
+      "rating": 6.357142925262451,
       "status": "returning series",
       "country": "us",
       "network": "Hulu",
-      "runtime": 50,
+      "runtime": 40,
       "tagline": "One shot makes you hot.",
       "trailer": "https://youtube.com/watch?v=5bDmmK15CNY",
       "homepage": "https://www.fxnetworks.com/shows/the-beauty",
@@ -505,7 +584,7 @@
       "subgenres": [
         "based-on-comic"
       ],
-      "updated_at": "2026-02-19T15:55:17.000Z",
+      "updated_at": "2026-02-20T21:30:12.000Z",
       "first_aired": "2026-01-22T02:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 7,
@@ -536,7 +615,7 @@
     }
   },
   {
-    "rank": 6,
+    "rank": 7,
     "id": 1410623290,
     "listed_at": "2026-01-17T23:46:59.000Z",
     "notes": null,
@@ -560,7 +639,7 @@
       },
       "year": 2023,
       "title": "Drops of God",
-      "votes": 891,
+      "votes": 893,
       "colors": {
         "poster": [
           "#C0A895",
@@ -589,7 +668,7 @@
         ],
         "clearart": []
       },
-      "rating": 7.7620649337768555,
+      "rating": 7.764837741851807,
       "status": "returning series",
       "country": "fr",
       "network": "Apple TV",
@@ -605,10 +684,9 @@
         "ja"
       ],
       "subgenres": [
-        "based-on-manga",
-        "web-series"
+        "based-on-manga"
       ],
-      "updated_at": "2026-02-19T15:49:14.000Z",
+      "updated_at": "2026-02-20T15:17:53.000Z",
       "first_aired": "2023-04-21T01:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 5,
@@ -631,6 +709,7 @@
         "id",
         "it",
         "ja",
+        "ka",
         "ko",
         "lt",
         "my",
@@ -651,7 +730,7 @@
     }
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": 1432439359,
     "listed_at": "2026-02-20T04:52:07.000Z",
     "notes": null,
@@ -669,7 +748,7 @@
       },
       "year": 2025,
       "title": "The Plague",
-      "votes": 253,
+      "votes": 257,
       "colors": {
         "poster": [
           "#41ADB0",
@@ -696,7 +775,7 @@
         ],
         "clearart": []
       },
-      "rating": 6.245059490203857,
+      "rating": 6.241245269775391,
       "status": "released",
       "country": "us",
       "runtime": 98,
@@ -741,7 +820,7 @@
     }
   },
   {
-    "rank": 8,
+    "rank": 9,
     "id": 1432439372,
     "listed_at": "2026-02-20T04:52:10.000Z",
     "notes": null,
@@ -759,7 +838,7 @@
       },
       "year": 2026,
       "title": "Night Patrol",
-      "votes": 132,
+      "votes": 139,
       "colors": {
         "poster": [
           "#844565",
@@ -788,7 +867,7 @@
           "media.trakt.tv/images/movies/001/082/396/cleararts/medium/85ee0c98fd.png.webp"
         ]
       },
-      "rating": 5.204545497894287,
+      "rating": 5.258992671966553,
       "status": "released",
       "country": "us",
       "runtime": 104,
@@ -825,7 +904,7 @@
     }
   },
   {
-    "rank": 9,
+    "rank": 10,
     "id": 1432439374,
     "listed_at": "2026-02-20T04:52:13.000Z",
     "notes": null,
@@ -843,13 +922,13 @@
         "trakt": 239320
       },
       "airs": {
-        "day": "Tuesday",
+        "day": "Friday",
         "time": "00:00",
         "timezone": "Europe/London"
       },
       "year": 2026,
       "title": "Steal",
-      "votes": 1142,
+      "votes": 1156,
       "colors": {
         "poster": [
           "#B09460",
@@ -880,7 +959,7 @@
         ],
         "clearart": []
       },
-      "rating": 7.197022914886475,
+      "rating": 7.192041397094727,
       "status": "returning series",
       "country": "gb",
       "network": "Prime Video",
@@ -897,7 +976,7 @@
         "heist",
         "thief"
       ],
-      "updated_at": "2026-02-19T10:20:30.000Z",
+      "updated_at": "2026-02-20T15:34:45.000Z",
       "first_aired": "2026-01-21T00:00:00.000Z",
       "certification": null,
       "comment_count": 18,
@@ -935,84 +1014,6 @@
         "tr",
         "uk",
         "zh"
-      ]
-    }
-  },
-  {
-    "rank": 10,
-    "id": 1432439593,
-    "listed_at": "2026-02-20T04:52:51.000Z",
-    "notes": null,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt35522483",
-        "plex": {
-          "guid": "64bc01a86042f826af998051",
-          "slug": "nirvanna-the-band-the-show-the-movie"
-        },
-        "slug": "nirvanna-the-band-the-show-the-movie-2026",
-        "tmdb": 1154538,
-        "trakt": 930265
-      },
-      "year": 2026,
-      "title": "Nirvanna the Band the Show the Movie",
-      "votes": 48,
-      "colors": {
-        "poster": [
-          "#FEFEFE",
-          "#000000"
-        ]
-      },
-      "genres": [
-        "comedy",
-        "science-fiction",
-        "adventure"
-      ],
-      "images": {
-        "logo": [],
-        "thumb": [],
-        "banner": [],
-        "fanart": [
-          "media.trakt.tv/images/movies/000/930/265/fanarts/medium/b3524a5d3d.jpg.webp"
-        ],
-        "poster": [
-          "media.trakt.tv/images/movies/000/930/265/posters/medium/7f7bf3db7f.jpg.webp"
-        ],
-        "clearart": []
-      },
-      "rating": 8.229166984558105,
-      "status": "released",
-      "country": "ca",
-      "runtime": 102,
-      "tagline": "One... last... plan.",
-      "trailer": "https://youtube.com/watch?v=y2K9ccMREOI",
-      "homepage": "https://nirvannathebandtheshowthemovie.com/",
-      "language": "en",
-      "overview": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008. Blah blah blah.",
-      "released": "2026-02-13",
-      "languages": [
-        "en"
-      ],
-      "subgenres": [
-        "time-travel",
-        "based-on-tv-series",
-        "road-trip",
-        "parody",
-        "mockumentary",
-        "independent-film",
-        "satirical"
-      ],
-      "updated_at": "2026-02-19T08:31:08.000Z",
-      "after_credits": false,
-      "certification": "R",
-      "comment_count": 0,
-      "during_credits": false,
-      "original_title": "Nirvanna the Band the Show the Movie",
-      "available_translations": [
-        "en",
-        "ko",
-        "pl"
       ]
     }
   }
