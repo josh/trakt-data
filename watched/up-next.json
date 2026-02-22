@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2026-02-22T07:07:00.000Z",
+      "last_watched_at": "2026-02-22T07:29:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt6503412",
+          "plex": {
+            "guid": "5d9c102ce98e47001eb66d87"
+          },
+          "tmdb": 1262420,
+          "tvdb": 5955825,
+          "trakt": 2488277
+        },
+        "title": "The Bean",
+        "votes": 36,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/488/277/screenshots/medium/9384130706.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.888888835906982,
+        "season": 1,
+        "runtime": 22,
+        "overview": "The guys try to get a float into the annual Santa Claus parade. As challenges abound, they are left wondering if they will get their Christmas miracle.",
+        "number_abs": 3,
+        "updated_at": "2026-02-21T22:39:00.000Z",
+        "first_aired": "2017-02-16T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "The Bean",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt6479030",
           "plex": {
@@ -46,7 +78,7 @@
         "runtime": 22,
         "overview": "Matt and Jay plot to sneak into the music-listings page of a weekly newspaper to book their own gig.",
         "number_abs": 2,
-        "updated_at": "2026-02-21T15:38:24.000Z",
+        "updated_at": "2026-02-22T07:21:03.000Z",
         "first_aired": "2017-02-09T05:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -56,38 +88,6 @@
         "available_translations": [
           "en"
         ]
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt6479036",
-          "plex": {
-            "guid": "5d9c102ce98e47001eb66da2"
-          },
-          "tmdb": 1262418,
-          "tvdb": 5937365,
-          "trakt": 2476245
-        },
-        "title": "The Banner",
-        "votes": 51,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/476/245/screenshots/medium/82036a2f97.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.313725471496582,
-        "season": 1,
-        "runtime": 22,
-        "overview": "The guys drop a banner across from The Rivoli to raise awareness about the band.",
-        "number_abs": 1,
-        "updated_at": "2026-02-22T07:07:01.000Z",
-        "first_aired": "2017-02-02T05:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "The Banner",
-        "available_translations": []
       }
     }
   },
@@ -396,19 +396,19 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 547,
+        "votes": 548,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.94149923324585,
+        "rating": 7.941606044769287,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-02-22T06:47:48.000Z",
+        "updated_at": "2026-02-22T07:57:05.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
