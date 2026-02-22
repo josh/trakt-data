@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 11,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2026-02-22T22:31:00.000Z",
+      "last_watched_at": "2026-02-22T22:50:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "612cadb334ba0c002c346b4e"
+          },
+          "tmdb": 4191306,
+          "tvdb": null,
+          "trakt": 7431712
+        },
+        "title": "The Battle of the Bands",
+        "votes": 2,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/007/431/712/screenshots/medium/620bc1c366.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8,
+        "season": 1,
+        "runtime": 19,
+        "overview": "After a falling out, Matt and Jay work separately with other musicians in preparation for a local Battle of the Bands contest on Halloween.",
+        "number_abs": null,
+        "updated_at": "2026-02-22T15:27:05.000Z",
+        "first_aired": "2008-01-21T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Battle of the Bands",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": null,
           "plex": {
@@ -53,40 +85,6 @@
         "comment_count": 0,
         "during_credits": false,
         "original_title": "The B-Day",
-        "available_translations": [
-          "en"
-        ]
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "612cadb434ba0c002c346b52"
-          },
-          "tmdb": 4191304,
-          "tvdb": null,
-          "trakt": 7431703
-        },
-        "title": "The Banned",
-        "votes": 3,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/007/431/703/screenshots/medium/ec3972ba42.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 8,
-        "season": 1,
-        "runtime": 16,
-        "overview": "Matt and Jay attempt to return the booking book to the Rivoli, a task made more difficult by Matt's temporary blindness.",
-        "number_abs": null,
-        "updated_at": "2026-02-22T15:27:05.000Z",
-        "first_aired": "2008-01-07T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "The Banned",
         "available_translations": [
           "en"
         ]
@@ -232,11 +230,11 @@
         "runtime": 43,
         "overview": "After a family tragedy, John seeks comfort from Carolyn.",
         "number_abs": null,
-        "updated_at": "2026-02-22T19:04:08.000Z",
+        "updated_at": "2026-02-22T22:54:05.000Z",
         "first_aired": "2026-02-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 1,
+        "comment_count": 2,
         "during_credits": false,
         "original_title": "America's Widow",
         "available_translations": []
@@ -264,7 +262,7 @@
         "runtime": 46,
         "overview": "John juggles his mother's waning health, his strained relationship with Daryl and his newfound feelings for Carolyn.",
         "number_abs": null,
-        "updated_at": "2026-02-22T21:41:10.000Z",
+        "updated_at": "2026-02-22T22:56:41.000Z",
         "first_aired": "2026-02-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -310,19 +308,19 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 365,
+        "votes": 366,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.3260273933410645,
+        "rating": 7.322404384613037,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-02-22T21:43:19.000Z",
+        "updated_at": "2026-02-22T22:47:29.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
