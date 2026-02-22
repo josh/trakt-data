@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "\u200bNirvana the Band the Show",
+      "year": 2007,
+      "ids": {
+        "trakt": 203485,
+        "slug": "nirvana-the-band-the-show",
+        "tvdb": 147731,
+        "imdb": "tt21048596",
+        "tmdb": 219084,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2026-02-22T20:05:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "612cadb534ba0c002c346b54"
+          },
+          "tmdb": 4191303,
+          "tvdb": null,
+          "trakt": 7431701
+        },
+        "title": "The Basement",
+        "votes": 2,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/007/431/701/screenshots/medium/388c27cb6e.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8,
+        "season": 1,
+        "runtime": 12,
+        "overview": "Matt and Jay find themselves trapped in Vince Valence's basement.",
+        "number_abs": null,
+        "updated_at": "2026-02-22T15:27:05.000Z",
+        "first_aired": "2007-12-31T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Basement",
+        "available_translations": [
+          "en"
+        ]
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "612cadb534ba0c002c346b56"
+          },
+          "tmdb": 4191302,
+          "tvdb": null,
+          "trakt": 7431700
+        },
+        "title": "The Break-In",
+        "votes": 4,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/007/431/700/screenshots/medium/3ec7550c83.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 6.5,
+        "season": 1,
+        "runtime": 10,
+        "overview": "Matt and Jay create a plan to break into Vince Valence's office and book themselves.",
+        "number_abs": null,
+        "updated_at": "2026-02-22T15:27:05.000Z",
+        "first_aired": "2007-12-24T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Break-In",
+        "available_translations": [
+          "en"
+        ]
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Nirvanna the Band the Show",
       "year": 2017,
       "ids": {
@@ -14,16 +108,50 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2026-02-22T18:45:00.000Z",
+      "last_watched_at": "2026-02-22T19:14:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt6503424",
+          "plex": {
+            "guid": "5d9c102ce98e47001eb66d9a"
+          },
+          "tmdb": 1262424,
+          "tvdb": 5965450,
+          "trakt": 2494005
+        },
+        "title": "The Buffet",
+        "votes": 22,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/494/005/screenshots/medium/04e33d03c3.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.909090995788574,
+        "season": 1,
+        "runtime": 22,
+        "overview": "Nirvanna the Band almost falls apart, amidst all you can eat Chinese food.",
+        "number_abs": 7,
+        "updated_at": "2026-02-22T19:05:32.000Z",
+        "first_aired": "2017-03-16T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Buffet",
+        "available_translations": [
+          "en"
+        ]
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt6503420",
           "plex": {
@@ -46,7 +174,7 @@
         "runtime": 22,
         "overview": "Matt and Jay befriend a sick kid to use his final wish to ask for Nirvanna the Band to play the Rivoli. They wind up showing him the time of his life, but will time run out?",
         "number_abs": 6,
-        "updated_at": "2026-02-22T15:27:01.000Z",
+        "updated_at": "2026-02-22T19:14:37.000Z",
         "first_aired": "2017-03-09T05:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -56,38 +184,6 @@
         "available_translations": [
           "en"
         ]
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt6503418",
-          "plex": {
-            "guid": "5d9c102ce98e47001eb66d8b"
-          },
-          "tmdb": 1262422,
-          "tvdb": 5965448,
-          "trakt": 2494001
-        },
-        "title": "The Big Time",
-        "votes": 27,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/494/001/screenshots/medium/f1801dbd5e.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 8.037036895751953,
-        "season": 1,
-        "runtime": 22,
-        "overview": "Matt convinces Jay that to book a gig at the Rivoli, they need to make a film.  Matt sneaks it into Sundance, becoming a pseudo-celebrity and spiralling out of control.",
-        "number_abs": 5,
-        "updated_at": "2026-02-22T18:45:50.000Z",
-        "first_aired": "2017-03-02T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "The Big Time",
-        "available_translations": []
       }
     }
   },
@@ -248,19 +344,19 @@
           "trakt": 13642188
         },
         "title": "Outage",
-        "votes": 475,
+        "votes": 477,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.530526161193848,
+        "rating": 7.52830171585083,
         "season": 2,
         "runtime": 40,
         "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
         "number_abs": null,
-        "updated_at": "2026-02-22T18:05:14.000Z",
+        "updated_at": "2026-02-22T19:32:14.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -338,19 +434,19 @@
           "trakt": 13608710
         },
         "title": "Brother and Sister",
-        "votes": 38,
+        "votes": 39,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/710/screenshots/medium/95f9986d22.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.236842155456543,
+        "rating": 7.230769157409668,
         "season": 2,
         "runtime": 42,
         "overview": "At a high-stakes dinner party, Camille and Issei use their mastery of wine in an attempt to impress a special guest and change Davit's mind.",
         "number_abs": null,
-        "updated_at": "2026-02-22T15:32:43.000Z",
+        "updated_at": "2026-02-22T19:46:26.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
