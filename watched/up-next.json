@@ -1,6 +1,98 @@
 [
   {
     "show": {
+      "title": "Nirvanna the Band the Show",
+      "year": 2017,
+      "ids": {
+        "trakt": 116057,
+        "slug": "nirvanna-the-band-the-show",
+        "tvdb": 322992,
+        "imdb": "tt5978570",
+        "tmdb": 69900,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2026-02-22T22:00:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt7562664",
+          "plex": {
+            "guid": "67e5e4c62fd9963a5a578620"
+          },
+          "tmdb": 1468437,
+          "tvdb": 6383641,
+          "trakt": 2775692
+        },
+        "title": "The Book",
+        "votes": 15,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/775/692/screenshots/medium/edebb3a577.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 8.066666603088379,
+        "season": 2,
+        "runtime": 22,
+        "overview": "On Halloween night, Jay finds a cursed music book hidden in the house. In this fun but terrifying quest, the guys work together to have order restored.",
+        "number_abs": 9,
+        "updated_at": "2026-02-22T15:27:02.000Z",
+        "first_aired": "2017-10-28T04:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Book",
+        "available_translations": [
+          "en"
+        ]
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt6503426",
+          "plex": {
+            "guid": "5d9c102ce98e47001eb66d92"
+          },
+          "tmdb": 1262425,
+          "tvdb": 5965451,
+          "trakt": 2494006
+        },
+        "title": "The Bank",
+        "votes": 20,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/494/006/screenshots/medium/95206228a7.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 8.550000190734863,
+        "season": 1,
+        "runtime": 22,
+        "overview": "Matt and Jay become unwitting players in a hostage situation. But Matt sees it as an opportunity to finally make it to the Rivoli.",
+        "number_abs": 8,
+        "updated_at": "2026-02-22T17:00:44.000Z",
+        "first_aired": "2017-03-23T04:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "The Bank",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "\u200bNirvana the Band the Show",
       "year": 2007,
       "ids": {
@@ -95,100 +187,6 @@
   },
   {
     "show": {
-      "title": "Nirvanna the Band the Show",
-      "year": 2017,
-      "ids": {
-        "trakt": 116057,
-        "slug": "nirvanna-the-band-the-show",
-        "tvdb": 322992,
-        "imdb": "tt5978570",
-        "tmdb": 69900,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 6,
-      "hidden": 0,
-      "last_watched_at": "2026-02-22T19:14:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 6,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt6503424",
-          "plex": {
-            "guid": "5d9c102ce98e47001eb66d9a"
-          },
-          "tmdb": 1262424,
-          "tvdb": 5965450,
-          "trakt": 2494005
-        },
-        "title": "The Buffet",
-        "votes": 22,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/494/005/screenshots/medium/04e33d03c3.jpg.webp"
-          ]
-        },
-        "number": 7,
-        "rating": 7.909090995788574,
-        "season": 1,
-        "runtime": 22,
-        "overview": "Nirvanna the Band almost falls apart, amidst all you can eat Chinese food.",
-        "number_abs": 7,
-        "updated_at": "2026-02-22T19:05:32.000Z",
-        "first_aired": "2017-03-16T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "The Buffet",
-        "available_translations": [
-          "en"
-        ]
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt6503420",
-          "plex": {
-            "guid": "5d9c102ce98e47001eb66d96"
-          },
-          "tmdb": 1262423,
-          "tvdb": 5965449,
-          "trakt": 2494003
-        },
-        "title": "The Boy",
-        "votes": 24,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/494/003/screenshots/medium/7fca33904c.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.625,
-        "season": 1,
-        "runtime": 22,
-        "overview": "Matt and Jay befriend a sick kid to use his final wish to ask for Nirvanna the Band to play the Rivoli. They wind up showing him the time of his life, but will time run out?",
-        "number_abs": 6,
-        "updated_at": "2026-02-22T19:14:37.000Z",
-        "first_aired": "2017-03-09T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "The Boy",
-        "available_translations": [
-          "en"
-        ]
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Love Story",
       "year": 2026,
       "ids": {
@@ -254,19 +252,19 @@
           "trakt": 13624996
         },
         "title": "The Pools Party",
-        "votes": 53,
+        "votes": 55,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/624/996/screenshots/medium/f2f9afbbab.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.47169828414917,
+        "rating": 7.436363697052002,
         "season": 1,
         "runtime": 46,
         "overview": "John juggles his mother's waning health, his strained relationship with Daryl and his newfound feelings for Carolyn.",
         "number_abs": null,
-        "updated_at": "2026-02-22T17:37:31.000Z",
+        "updated_at": "2026-02-22T21:41:10.000Z",
         "first_aired": "2026-02-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -312,19 +310,19 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 358,
+        "votes": 365,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.315642356872559,
+        "rating": 7.3260273933410645,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-02-22T20:14:11.000Z",
+        "updated_at": "2026-02-22T21:43:19.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -344,19 +342,19 @@
           "trakt": 13642188
         },
         "title": "Outage",
-        "votes": 477,
+        "votes": 483,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.52830171585083,
+        "rating": 7.5217390060424805,
         "season": 2,
         "runtime": 40,
         "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
         "number_abs": null,
-        "updated_at": "2026-02-22T19:32:14.000Z",
+        "updated_at": "2026-02-22T21:41:16.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
