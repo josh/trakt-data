@@ -1,6 +1,98 @@
 [
   {
     "show": {
+      "title": "Nirvanna the Band the Show",
+      "year": 2017,
+      "ids": {
+        "trakt": 116057,
+        "slug": "nirvanna-the-band-the-show",
+        "tvdb": 322992,
+        "imdb": "tt5978570",
+        "tmdb": 69900,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2026-02-23T07:05:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt8006600",
+          "plex": {
+            "guid": "67e5e4c72fd9963a5a57864c"
+          },
+          "tmdb": 1468440,
+          "tvdb": 6419754,
+          "trakt": 2800054
+        },
+        "title": "The Band List",
+        "votes": 12,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/800/054/screenshots/medium/8b87bd875d.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8.833333015441895,
+        "season": 2,
+        "runtime": 22,
+        "overview": "As Matt and Jay continue to try and get on the Rivoli's Band List, they infiltrate Toronto's intricate system of underground tunnels in the hopes of entering the Rivoli from below.",
+        "number_abs": 14,
+        "updated_at": "2026-02-22T19:26:11.000Z",
+        "first_aired": "2018-02-09T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Band List",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt7737676",
+          "plex": {
+            "guid": "67e5e4c62fd9963a5a5785f4"
+          },
+          "tmdb": 1468433,
+          "tvdb": 6447009,
+          "trakt": 2800048
+        },
+        "title": "The Burger",
+        "votes": 14,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/800/048/screenshots/medium/40ffb25433.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.857142925262451,
+        "season": 2,
+        "runtime": 22,
+        "overview": "Matt and Jay decide that this time, they're seeing their plan through. This time, they're not giving up. This time, they'll book a show at the Rivoli.",
+        "number_abs": 13,
+        "updated_at": "2026-02-22T15:27:02.000Z",
+        "first_aired": "2017-12-08T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Burger",
+        "available_translations": [
+          "en"
+        ]
+      }
+    }
+  },
+  {
+    "show": {
       "title": "\u200bNirvana the Band the Show",
       "year": 2007,
       "ids": {
@@ -93,98 +185,6 @@
   },
   {
     "show": {
-      "title": "Nirvanna the Band the Show",
-      "year": 2017,
-      "ids": {
-        "trakt": 116057,
-        "slug": "nirvanna-the-band-the-show",
-        "tvdb": 322992,
-        "imdb": "tt5978570",
-        "tmdb": 69900,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 8,
-      "hidden": 0,
-      "last_watched_at": "2026-02-22T22:00:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 8,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt7562664",
-          "plex": {
-            "guid": "67e5e4c62fd9963a5a578620"
-          },
-          "tmdb": 1468437,
-          "tvdb": 6383641,
-          "trakt": 2775692
-        },
-        "title": "The Book",
-        "votes": 15,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/775/692/screenshots/medium/edebb3a577.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 8.066666603088379,
-        "season": 2,
-        "runtime": 22,
-        "overview": "On Halloween night, Jay finds a cursed music book hidden in the house. In this fun but terrifying quest, the guys work together to have order restored.",
-        "number_abs": 9,
-        "updated_at": "2026-02-22T15:27:02.000Z",
-        "first_aired": "2017-10-28T04:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "The Book",
-        "available_translations": [
-          "en"
-        ]
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt6503426",
-          "plex": {
-            "guid": "5d9c102ce98e47001eb66d92"
-          },
-          "tmdb": 1262425,
-          "tvdb": 5965451,
-          "trakt": 2494006
-        },
-        "title": "The Bank",
-        "votes": 20,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/494/006/screenshots/medium/95206228a7.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 8.550000190734863,
-        "season": 1,
-        "runtime": 22,
-        "overview": "Matt and Jay become unwitting players in a hostage situation. But Matt sees it as an opportunity to finally make it to the Rivoli.",
-        "number_abs": 8,
-        "updated_at": "2026-02-22T17:00:44.000Z",
-        "first_aired": "2017-03-23T04:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "The Bank",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Love Story",
       "year": 2026,
       "ids": {
@@ -218,19 +218,19 @@
           "trakt": 13624998
         },
         "title": "America's Widow",
-        "votes": 54,
+        "votes": 56,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/624/998/screenshots/medium/9f9370c3c8.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.888888835906982,
+        "rating": 7.839285850524902,
         "season": 1,
         "runtime": 43,
         "overview": "After a family tragedy, John seeks comfort from Carolyn.",
         "number_abs": null,
-        "updated_at": "2026-02-22T22:54:05.000Z",
+        "updated_at": "2026-02-23T03:33:44.000Z",
         "first_aired": "2026-02-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -250,25 +250,115 @@
           "trakt": 13624996
         },
         "title": "The Pools Party",
-        "votes": 55,
+        "votes": 57,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/624/996/screenshots/medium/f2f9afbbab.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.436363697052002,
+        "rating": 7.40350866317749,
         "season": 1,
         "runtime": 46,
         "overview": "John juggles his mother's waning health, his strained relationship with Daryl and his newfound feelings for Carolyn.",
         "number_abs": null,
-        "updated_at": "2026-02-22T22:56:41.000Z",
+        "updated_at": "2026-02-23T03:33:48.000Z",
         "first_aired": "2026-02-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 1,
         "during_credits": false,
         "original_title": "The Pools Party",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "A Knight of the Seven Kingdoms",
+      "year": 2026,
+      "ids": {
+        "trakt": 204141,
+        "slug": "a-knight-of-the-seven-kingdoms",
+        "tvdb": 433631,
+        "imdb": "tt27497448",
+        "tmdb": 224372,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2026-02-17T05:39:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32314212",
+          "plex": {
+            "guid": "68f75f1920e32ad9fdf0712d"
+          },
+          "tmdb": 6613706,
+          "tvdb": 11390662,
+          "trakt": 12726414
+        },
+        "title": "The Morrow",
+        "votes": 192,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/726/414/screenshots/medium/822a91648e.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8.296875,
+        "season": 1,
+        "runtime": 33,
+        "overview": "The people of Ashford mourn a significant loss following the tournament; Dunk reflects on his future and evaluates his responsibilities toward Egg; he decides whether to keep the boy as his squire.",
+        "number_abs": null,
+        "updated_at": "2026-02-23T07:19:08.000Z",
+        "first_aired": "2026-02-23T03:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Morrow",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32314204",
+          "plex": {
+            "guid": "68f75f1a20e32ad9fdf07138"
+          },
+          "tmdb": 6613704,
+          "tvdb": 11390661,
+          "trakt": 12726413
+        },
+        "title": "In the Name of the Mother",
+        "votes": 1900,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/726/413/screenshots/medium/760fbde002.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 8.536842346191406,
+        "season": 1,
+        "runtime": 37,
+        "overview": "Dunk finds himself drawn to the promise of a new future.",
+        "number_abs": null,
+        "updated_at": "2026-02-23T07:07:58.000Z",
+        "first_aired": "2026-02-16T03:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 41,
+        "during_credits": false,
+        "original_title": "In the Name of the Mother",
         "available_translations": []
       }
     }
@@ -308,19 +398,19 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 366,
+        "votes": 376,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.322404384613037,
+        "rating": 7.329787254333496,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-02-22T22:47:29.000Z",
+        "updated_at": "2026-02-23T06:42:16.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -340,19 +430,19 @@
           "trakt": 13642188
         },
         "title": "Outage",
-        "votes": 483,
+        "votes": 487,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.5217390060424805,
+        "rating": 7.525667190551758,
         "season": 2,
         "runtime": 40,
         "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
         "number_abs": null,
-        "updated_at": "2026-02-22T21:41:16.000Z",
+        "updated_at": "2026-02-23T07:21:16.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -410,7 +500,7 @@
         "runtime": 37,
         "overview": "Dark memories emerge during Issei's night in the cellar. Tamar lives up to her end of the bargain and agrees to meet with Davit.",
         "number_abs": null,
-        "updated_at": "2026-02-22T18:23:43.000Z",
+        "updated_at": "2026-02-23T03:14:56.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -449,6 +539,96 @@
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Fr\u00e8re et s\u0153ur",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Paradise",
+      "year": 2025,
+      "ids": {
+        "trakt": 225096,
+        "slug": "paradise-2025",
+        "tvdb": 454565,
+        "imdb": "tt27444205",
+        "tmdb": 245927,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2025-03-16T01:59:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35856965",
+          "plex": {
+            "guid": "693716a94ae2129de4af23b4"
+          },
+          "tmdb": 6745017,
+          "tvdb": 11091185,
+          "trakt": 13791973
+        },
+        "title": "Graceland",
+        "votes": 8,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/dc28054fc7.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.375,
+        "season": 2,
+        "runtime": 59,
+        "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
+        "number_abs": null,
+        "updated_at": "2026-02-23T07:02:51.000Z",
+        "first_aired": "2026-02-23T05:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Graceland",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32459859",
+          "plex": {
+            "guid": "67519b07c99ec5c314252fea"
+          },
+          "tmdb": 5813222,
+          "tvdb": 10849781,
+          "trakt": 12565676
+        },
+        "title": "The Man Who Kept the Secrets",
+        "votes": 1434,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/565/676/screenshots/medium/47977de356.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.77754545211792,
+        "season": 1,
+        "runtime": 46,
+        "overview": "Xavier and Robinson race to find President Bradford\u2019s murderer before it's too late.",
+        "number_abs": null,
+        "updated_at": "2026-02-23T04:38:12.000Z",
+        "first_aired": "2025-03-04T05:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 28,
+        "during_credits": false,
+        "original_title": "The Man Who Kept the Secrets",
         "available_translations": []
       }
     }
@@ -500,7 +680,7 @@
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-02-22T15:32:50.000Z",
+        "updated_at": "2026-02-23T03:32:22.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
