@@ -117,7 +117,7 @@
       },
       "year": 2023,
       "title": "Shrinking",
-      "votes": 5070,
+      "votes": 5071,
       "colors": {
         "poster": [
           "#C1DCDB",
@@ -148,7 +148,7 @@
           "media.trakt.tv/images/shows/000/189/764/cleararts/medium/36c02ee2e7.png.webp"
         ]
       },
-      "rating": 8.049901008605957,
+      "rating": 8.050088882446289,
       "status": "returning series",
       "country": "us",
       "network": "Apple TV",
@@ -166,11 +166,11 @@
         "workplace-comedy",
         "father-daughter-relationship"
       ],
-      "updated_at": "2026-02-24T15:26:20.000Z",
+      "updated_at": "2026-02-25T03:28:38.000Z",
       "first_aired": "2023-01-27T02:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 41,
-      "aired_episodes": 26,
+      "aired_episodes": 27,
       "original_title": "Shrinking",
       "available_translations": [
         "ar",
@@ -338,7 +338,7 @@
       },
       "year": 2026,
       "title": "A Knight of the Seven Kingdoms",
-      "votes": 3176,
+      "votes": 3216,
       "colors": {
         "poster": [
           "#CBD3C2",
@@ -372,7 +372,7 @@
           "media.trakt.tv/images/shows/000/204/141/cleararts/medium/e43be83cd1.png.webp"
         ]
       },
-      "rating": 8.28494930267334,
+      "rating": 8.289800643920898,
       "status": "returning series",
       "country": "us",
       "network": "HBO",
@@ -613,7 +613,7 @@
       "first_aired": "2023-04-21T01:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 5,
-      "aired_episodes": 13,
+      "aired_episodes": 14,
       "original_title": "Les Gouttes de Dieu",
       "available_translations": [
         "ar",
@@ -761,7 +761,7 @@
       },
       "year": 2026,
       "title": "Night Patrol",
-      "votes": 176,
+      "votes": 180,
       "colors": {
         "poster": [
           "#844565",
@@ -790,7 +790,7 @@
           "media.trakt.tv/images/movies/001/082/396/cleararts/medium/85ee0c98fd.png.webp"
         ]
       },
-      "rating": 5.306818008422852,
+      "rating": 5.311110973358154,
       "status": "released",
       "country": "us",
       "runtime": 104,
@@ -960,7 +960,7 @@
       },
       "year": 2026,
       "title": "Redux Redux",
-      "votes": 221,
+      "votes": 224,
       "colors": {
         "poster": [
           "#A52108",
@@ -990,7 +990,7 @@
         ],
         "clearart": []
       },
-      "rating": 6.782805442810059,
+      "rating": 6.785714149475098,
       "status": "released",
       "country": "us",
       "runtime": 109,
@@ -1032,6 +1032,88 @@
   },
   {
     "rank": 11,
+    "id": 1435253782,
+    "listed_at": "2026-02-25T06:22:04.000Z",
+    "notes": null,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt29002950",
+        "plex": {
+          "guid": "64fecf1a4e666ba7298795ae",
+          "slug": "resurrection-2025"
+        },
+        "slug": "resurrection-2025",
+        "tmdb": 878608,
+        "trakt": 703483
+      },
+      "year": 2025,
+      "title": "Resurrection",
+      "votes": 70,
+      "colors": {
+        "poster": [
+          "#DB494A",
+          "#3C4747"
+        ]
+      },
+      "genres": [
+        "drama",
+        "science-fiction",
+        "fantasy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/703/483/logos/medium/06f0d9842f.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/703/483/fanarts/medium/6d9b47d863.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/703/483/posters/medium/1fabff85ba.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 6.828571319580078,
+      "status": "released",
+      "country": "cn",
+      "runtime": 160,
+      "tagline": "What is it that, once lost, you can never get back?",
+      "trailer": "https://youtube.com/watch?v=ZIJezWgFUEY",
+      "homepage": null,
+      "language": "zh",
+      "overview": "In a future where humanity has surrendered its ability to dream in exchange for immortality, an outcast finds illusion, nightmarish visions, and beauty in an intoxicating world of his own making.",
+      "released": "2025-11-22",
+      "languages": [
+        "zh"
+      ],
+      "subgenres": [
+        "experimental-cinema"
+      ],
+      "updated_at": "2026-02-24T08:34:10.000Z",
+      "after_credits": false,
+      "certification": "NR",
+      "comment_count": 1,
+      "during_credits": false,
+      "original_title": "\u72c2\u91ce\u65f6\u4ee3",
+      "available_translations": [
+        "bg",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "nl",
+        "pl",
+        "ru",
+        "sv",
+        "zh"
+      ]
+    }
+  },
+  {
+    "rank": 12,
     "id": 1434975859,
     "listed_at": "2026-02-24T18:00:26.000Z",
     "notes": null,
@@ -1049,7 +1131,7 @@
       },
       "year": 2025,
       "title": "Dead Man's Wire",
-      "votes": 86,
+      "votes": 91,
       "colors": {
         "poster": [
           "#BCC2B9",
@@ -1076,7 +1158,7 @@
         ],
         "clearart": []
       },
-      "rating": 6.534883499145508,
+      "rating": 6.527472496032715,
       "status": "released",
       "country": "us",
       "runtime": 105,
