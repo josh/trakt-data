@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 4,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2026-02-20T08:23:00.000Z",
+      "last_watched_at": "2026-02-25T07:27:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37304288",
+          "plex": {
+            "guid": "684f79479d2b3e099bd7727a"
+          },
+          "tmdb": 6888352,
+          "tvdb": null,
+          "trakt": 13624999
+        },
+        "title": "I Love You",
+        "votes": 55,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/624/999/screenshots/medium/ae8974c418.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.3818182945251465,
+        "season": 1,
+        "runtime": 48,
+        "overview": "Carolyn struggles to assimilate into John's world; John discovers a secret.",
+        "number_abs": null,
+        "updated_at": "2026-02-25T00:43:34.000Z",
+        "first_aired": "2026-02-20T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "I Love You",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt37304287",
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 2,
         "during_credits": false,
         "original_title": "America's Widow",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37304285",
-          "plex": {
-            "guid": "684f79479d2b3e099bd77274"
-          },
-          "tmdb": 6888349,
-          "tvdb": null,
-          "trakt": 13624996
-        },
-        "title": "The Pools Party",
-        "votes": 62,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/624/996/screenshots/medium/f2f9afbbab.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.370967864990234,
-        "season": 1,
-        "runtime": 46,
-        "overview": "John juggles his mother's waning health, his strained relationship with Daryl and his newfound feelings for Carolyn.",
-        "number_abs": null,
-        "updated_at": "2026-02-24T23:06:44.000Z",
-        "first_aired": "2026-02-13T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "The Pools Party",
         "available_translations": []
       }
     }
@@ -304,19 +304,19 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 281,
+        "votes": 282,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/dc28054fc7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.412811279296875,
+        "rating": 7.411347389221191,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-02-25T06:07:21.000Z",
+        "updated_at": "2026-02-25T07:18:14.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
