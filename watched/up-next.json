@@ -13,40 +13,76 @@
       }
     },
     "progress": {
-      "aired": 4,
-      "completed": 3,
+      "aired": 5,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2026-02-25T07:27:00.000Z",
+      "last_watched_at": "2026-02-28T20:11:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 3,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37304290",
+          "plex": {
+            "guid": "684f79489d2b3e099bd7727d"
+          },
+          "tmdb": 6888353,
+          "tvdb": 11612062,
+          "trakt": 13625000
+        },
+        "title": "Battery Park",
+        "votes": 25,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/000/screenshots/medium/312f2c00ce.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.440000057220459,
+        "season": 1,
+        "runtime": 52,
+        "overview": "John asks an important question. Carolyn and John publicly feud.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T17:07:36.000Z",
+        "first_aired": "2026-02-27T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Battery Park",
+        "available_translations": [
+          "de",
+          "en",
+          "ru"
+        ]
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt37304288",
           "plex": {
             "guid": "684f79479d2b3e099bd7727a"
           },
           "tmdb": 6888352,
-          "tvdb": null,
+          "tvdb": 11612061,
           "trakt": 13624999
         },
         "title": "I Love You",
-        "votes": 55,
+        "votes": 61,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/624/999/screenshots/medium/ae8974c418.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.3818182945251465,
+        "rating": 7.442623138427734,
         "season": 1,
         "runtime": 48,
         "overview": "Carolyn struggles to assimilate into John's world; John discovers a secret.",
         "number_abs": null,
-        "updated_at": "2026-02-25T00:43:34.000Z",
+        "updated_at": "2026-02-28T16:07:30.000Z",
         "first_aired": "2026-02-20T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -54,37 +90,95 @@
         "during_credits": false,
         "original_title": "I Love You",
         "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Beauty",
+      "year": 2026,
+      "ids": {
+        "trakt": 258198,
+        "slug": "the-beauty",
+        "tvdb": 455046,
+        "imdb": "tt33517752",
+        "tmdb": 273160,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 7,
+      "hidden": 0,
+      "last_watched_at": "2026-02-19T21:44:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 7,
+        "minutes_left": 0,
+        "minutes_watched": 0
       },
-      "last_episode": {
+      "next_episode": {
         "ids": {
-          "imdb": "tt37304287",
+          "imdb": "tt35115568",
           "plex": {
-            "guid": "684f79479d2b3e099bd77277"
+            "guid": "693773d70d3af94dd451c9e0"
           },
-          "tmdb": 6888351,
-          "tvdb": null,
-          "trakt": 13624998
+          "tmdb": 6736822,
+          "tvdb": 11392072,
+          "trakt": 13782073
         },
-        "title": "America's Widow",
-        "votes": 64,
+        "title": "Beautiful Brothers",
+        "votes": 125,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/624/998/screenshots/medium/9f9370c3c8.jpg.webp"
+            "media.trakt.tv/images/episodes/013/782/073/screenshots/medium/1fac35b209.jpg.webp"
           ]
         },
-        "number": 3,
-        "rating": 7.65625,
+        "number": 8,
+        "rating": 7.064000129699707,
         "season": 1,
-        "runtime": 43,
-        "overview": "After a family tragedy, John seeks comfort from Carolyn.",
+        "runtime": 35,
+        "overview": "The Corporation's master plan intensifies.",
         "number_abs": null,
-        "updated_at": "2026-02-25T01:53:48.000Z",
-        "first_aired": "2026-02-13T02:00:00.000Z",
+        "updated_at": "2026-02-28T19:30:23.000Z",
+        "first_aired": "2026-02-26T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
-        "original_title": "America's Widow",
+        "original_title": "Beautiful Brothers",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35115569",
+          "plex": {
+            "guid": "68fe0bc3d7d647b73f89dab8"
+          },
+          "tmdb": 6736819,
+          "tvdb": 11392071,
+          "trakt": 13782072
+        },
+        "title": "Beautiful Living Rooms",
+        "votes": 208,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/782/072/screenshots/medium/e6f56b2f26.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.48557710647583,
+        "season": 1,
+        "runtime": 44,
+        "overview": "A desperate family is forced to make a difficult decision.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T17:36:48.000Z",
+        "first_aired": "2026-02-20T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Beautiful Living Rooms",
         "available_translations": []
       }
     }
@@ -124,23 +218,23 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 403,
+        "votes": 449,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.312654972076416,
+        "rating": 7.318485736846924,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-02-25T04:43:49.000Z",
+        "updated_at": "2026-02-28T19:44:53.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 1,
         "during_credits": false,
         "original_title": "Junction",
         "available_translations": []
@@ -156,19 +250,19 @@
           "trakt": 13642188
         },
         "title": "Outage",
-        "votes": 500,
+        "votes": 531,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.5279998779296875,
+        "rating": 7.527307033538818,
         "season": 2,
         "runtime": 40,
         "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
         "number_abs": null,
-        "updated_at": "2026-02-24T20:26:50.000Z",
+        "updated_at": "2026-02-28T19:01:22.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -214,20 +308,20 @@
           "trakt": 13608711
         },
         "title": "Trust Me",
-        "votes": 33,
+        "votes": 38,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/711/screenshots/medium/139b690051.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 6.969696998596191,
+        "rating": 6.9210524559021,
         "season": 2,
         "runtime": 37,
         "overview": "Dark memories emerge during Issei's night in the cellar. Tamar lives up to her end of the bargain and agrees to meet with Davit.",
         "number_abs": null,
-        "updated_at": "2026-02-25T03:17:53.000Z",
-        "first_aired": "2026-02-18T02:00:00.000Z",
+        "updated_at": "2026-02-28T17:02:13.000Z",
+        "first_aired": "2026-02-17T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
@@ -246,25 +340,115 @@
           "trakt": 13608710
         },
         "title": "Brother and Sister",
-        "votes": 43,
+        "votes": 47,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/710/screenshots/medium/95f9986d22.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.232558250427246,
+        "rating": 7.127659797668457,
         "season": 2,
         "runtime": 42,
         "overview": "At a high-stakes dinner party, Camille and Issei use their mastery of wine in an attempt to impress a special guest and change Davit's mind.",
         "number_abs": null,
-        "updated_at": "2026-02-24T22:17:20.000Z",
-        "first_aired": "2026-02-11T02:00:00.000Z",
+        "updated_at": "2026-02-28T15:32:52.000Z",
+        "first_aired": "2026-02-10T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Fr\u00e8re et s\u0153ur",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Black Mirror",
+      "year": 2011,
+      "ids": {
+        "trakt": 41793,
+        "slug": "black-mirror",
+        "tvdb": 253463,
+        "imdb": "tt2085059",
+        "tmdb": 42009,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 41,
+      "completed": 32,
+      "hidden": 0,
+      "last_watched_at": "2025-04-24T06:54:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 33,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt30127325",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 6085098,
+          "tvdb": 11023062,
+          "trakt": 14031189
+        },
+        "title": "Common People",
+        "votes": 10,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/031/189/screenshots/medium/2770783e9f.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 6.800000190734863,
+        "season": 8,
+        "runtime": 57,
+        "overview": "When a teacher is left fighting for her life, her doting husband signs her up for a high-tech system that keeps her alive \u2014 but at a cost.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T19:23:20.000Z",
+        "first_aired": "2025-04-10T02:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Common People",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31790115",
+          "plex": {
+            "guid": "66c1eb0581f489bf5beb653c"
+          },
+          "tmdb": 6085099,
+          "tvdb": 11023066,
+          "trakt": 11632335
+        },
+        "title": "USS Callister: Into Infinity",
+        "votes": 2585,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/632/335/screenshots/medium/bfc6121387.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.7125725746154785,
+        "season": 7,
+        "runtime": 90,
+        "overview": "Nanette Cole and the crew of the USS Callister are stranded in an infinite virtual universe, fighting for survival against 30 million players.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T18:45:12.000Z",
+        "first_aired": "2025-04-10T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 49,
+        "during_credits": false,
+        "original_title": "USS Callister: Into Infinity",
         "available_translations": []
       }
     }
@@ -304,23 +488,23 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 282,
+        "votes": 456,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/dc28054fc7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.411347389221191,
+        "rating": 7.607456207275391,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-02-25T07:18:14.000Z",
+        "updated_at": "2026-02-28T19:39:20.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 7,
+        "comment_count": 13,
         "during_credits": false,
         "original_title": "Graceland",
         "available_translations": []
@@ -336,19 +520,19 @@
           "trakt": 12565676
         },
         "title": "The Man Who Kept the Secrets",
-        "votes": 1444,
+        "votes": 1462,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/676/screenshots/medium/47977de356.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.775623321533203,
+        "rating": 7.782489776611328,
         "season": 1,
         "runtime": 46,
         "overview": "Xavier and Robinson race to find President Bradford\u2019s murderer before it's too late.",
         "number_abs": null,
-        "updated_at": "2026-02-25T05:35:17.000Z",
+        "updated_at": "2026-02-28T17:47:55.000Z",
         "first_aired": "2025-03-04T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -394,23 +578,23 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 555,
+        "votes": 573,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.944144248962402,
+        "rating": 7.94589900970459,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-02-25T04:55:46.000Z",
+        "updated_at": "2026-02-28T15:32:57.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 16,
+        "comment_count": 17,
         "during_credits": false,
         "original_title": "My Bad",
         "available_translations": []
@@ -426,25 +610,205 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 953,
+        "votes": 957,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.421825408935547,
+        "rating": 8.425287246704102,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-02-24T15:26:18.000Z",
+        "updated_at": "2026-02-28T19:44:13.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 31,
         "during_credits": false,
         "original_title": "The Last Thanksgiving",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Monarch: Legacy of Monsters",
+      "year": 2023,
+      "ids": {
+        "trakt": 195644,
+        "slug": "monarch-legacy-of-monsters",
+        "tvdb": 422598,
+        "imdb": "tt17220216",
+        "tmdb": 202411,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2024-04-11T05:03:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 10,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32094159",
+          "plex": {
+            "guid": "673fb12f422257a16298f3fd"
+          },
+          "tmdb": 6683249,
+          "tvdb": 11453457,
+          "trakt": 13718341
+        },
+        "title": "Cause and Effect",
+        "votes": 227,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/718/341/screenshots/medium/d3274b1029.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.792951583862305,
+        "season": 2,
+        "runtime": 54,
+        "overview": "Decades after being presumed dead, Keiko's return shocks Monarch. Cate defies orders to save Shaw\u2014and unleashes a terrifying new Titan.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T20:02:44.000Z",
+        "first_aired": "2026-02-27T03:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Cause and Effect",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt23787594",
+          "plex": {
+            "guid": "64fc8f204f3bf06b7966d0fd"
+          },
+          "tmdb": 4712068,
+          "tvdb": 10009425,
+          "trakt": 10873465
+        },
+        "title": "Beyond Logic",
+        "votes": 1706,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/010/873/465/screenshots/medium/b5bee8a13b.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.803634166717529,
+        "season": 1,
+        "runtime": 49,
+        "overview": "The team struggles to find a way out of Axis Mundi. Kentaro and Tim make an unexpected alliance.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T19:45:18.000Z",
+        "first_aired": "2024-01-12T03:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 28,
+        "during_credits": false,
+        "original_title": "Beyond Logic",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "The Grand Tour",
+      "year": 2016,
+      "ids": {
+        "trakt": 108999,
+        "slug": "the-grand-tour",
+        "tvdb": 314087,
+        "imdb": "tt5712554",
+        "tmdb": 67557,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 46,
+      "completed": 45,
+      "hidden": 0,
+      "last_watched_at": "2024-02-16T07:06:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 45,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt30254716",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 5582066,
+          "tvdb": 10650357,
+          "trakt": 14030006
+        },
+        "title": "One for the Road",
+        "votes": 16,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/030/006/screenshots/medium/c6305cca94.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 9.3125,
+        "season": 6,
+        "runtime": 130,
+        "overview": "In their last adventure, Jeremy Clarkson, Richard Hammond and James May ignore the instructions of Mr Wilman and head to Zimbabwe in three cars they\u2019ve always wanted to own, a Lancia Montecarlo, a Ford Capri 3-litre, and a Triumph Stag, for a stunning road trip through beautiful and sometimes challenging landscapes leading to an emotional ending on a strangely familiar island.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T17:40:43.000Z",
+        "first_aired": "2024-09-13T07:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "One for the Road",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt27952443",
+          "plex": {
+            "guid": "65be372f4eeb07acde91bec9"
+          },
+          "tmdb": 5118691,
+          "tvdb": 10280014,
+          "trakt": 11412861
+        },
+        "title": "Sand Job",
+        "votes": 728,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/412/861/screenshots/medium/7ca2942953.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.859889984130859,
+        "season": 5,
+        "runtime": 136,
+        "overview": "In the remote African country of Mauritania, our trio follow in the footsteps of the legendary Paris-Dakar rally. Instead of bespoke Dakar racers, the boys must complete their journey in cheap modified sports cars. Their journey begins with the world\u2019s longest train and sees them tackle the killer Sahara and perilous river crossings, whilst protecting their precious fuel bowser from exploding.",
+        "number_abs": null,
+        "updated_at": "2026-02-28T15:47:10.000Z",
+        "first_aired": "2024-02-15T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Sand Job",
         "available_translations": []
       }
     }
