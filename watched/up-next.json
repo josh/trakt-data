@@ -1,6 +1,191 @@
 [
   {
     "show": {
+      "title": "The Beauty",
+      "year": 2026,
+      "ids": {
+        "trakt": 258198,
+        "slug": "the-beauty",
+        "tvdb": 455046,
+        "imdb": "tt33517752",
+        "tmdb": 273160,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 11,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2026-03-02T01:32:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35115572",
+          "plex": {
+            "guid": "693773d70d3af94dd451c9d4"
+          },
+          "tmdb": 6736832,
+          "tvdb": 11392074,
+          "trakt": 13782075
+        },
+        "title": "Beautiful Beauty Day",
+        "votes": 119,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/782/075/screenshots/medium/170a736c50.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.008403301239014,
+        "season": 1,
+        "runtime": 31,
+        "overview": "A hot new trend goes viral.",
+        "number_abs": null,
+        "updated_at": "2026-03-07T04:02:23.000Z",
+        "first_aired": "2026-03-05T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Beautiful Beauty Day",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35115570",
+          "plex": {
+            "guid": "693773d70d3af94dd451c9da"
+          },
+          "tmdb": 6736824,
+          "tvdb": 11392073,
+          "trakt": 13782074
+        },
+        "title": "Beautiful Evolution",
+        "votes": 180,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/782/074/screenshots/medium/e4725d9b07.jpg.webp"
+          ]
+        },
+        "number": 9,
+        "rating": 7.377777576446533,
+        "season": 1,
+        "runtime": 28,
+        "overview": "Cooper and Jordan form an alliance with a mysterious person.",
+        "number_abs": null,
+        "updated_at": "2026-03-07T01:02:40.000Z",
+        "first_aired": "2026-02-26T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Beautiful Evolution",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Love Story",
+      "year": 2026,
+      "ids": {
+        "trakt": 185998,
+        "slug": "love-story-2026",
+        "tvdb": 408694,
+        "imdb": "tt15232564",
+        "tmdb": 131142,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2026-02-28T21:03:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37304291",
+          "plex": {
+            "guid": "684f79489d2b3e099bd77280"
+          },
+          "tmdb": 6888355,
+          "tvdb": 11612236,
+          "trakt": 13625001
+        },
+        "title": "The Wedding",
+        "votes": 24,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/001/screenshots/medium/11a142e231.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.541666507720947,
+        "season": 1,
+        "runtime": null,
+        "overview": "As press spreads of their altercation, John and Carolyn prepare for their big day. Ann voices her concerns.",
+        "number_abs": null,
+        "updated_at": "2026-03-07T05:48:51.000Z",
+        "first_aired": "2026-03-06T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Wedding",
+        "available_translations": [
+          "de",
+          "en",
+          "ru",
+          "tr"
+        ]
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt37304290",
+          "plex": {
+            "guid": "684f79489d2b3e099bd7727d"
+          },
+          "tmdb": 6888353,
+          "tvdb": 11612062,
+          "trakt": 13625000
+        },
+        "title": "Battery Park",
+        "votes": 70,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/000/screenshots/medium/312f2c00ce.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.699999809265137,
+        "season": 1,
+        "runtime": 52,
+        "overview": "John asks an important question. Carolyn and John publicly feud.",
+        "number_abs": null,
+        "updated_at": "2026-03-07T04:50:18.000Z",
+        "first_aired": "2026-02-27T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Battery Park",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hijack",
       "year": 2023,
       "ids": {
@@ -34,19 +219,19 @@
           "trakt": 13642189
         },
         "title": "Junction",
-        "votes": 496,
+        "votes": 532,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/b7b8db7f1e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.324596881866455,
+        "rating": 7.327067852020264,
         "season": 2,
         "runtime": 44,
         "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
         "number_abs": null,
-        "updated_at": "2026-03-04T18:57:36.000Z",
+        "updated_at": "2026-03-07T05:45:13.000Z",
         "first_aired": "2026-02-18T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -66,19 +251,19 @@
           "trakt": 13642188
         },
         "title": "Outage",
-        "votes": 575,
+        "votes": 605,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.506086826324463,
+        "rating": 7.487603187561035,
         "season": 2,
         "runtime": 40,
         "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
         "number_abs": null,
-        "updated_at": "2026-03-04T17:50:37.000Z",
+        "updated_at": "2026-03-07T02:25:41.000Z",
         "first_aired": "2026-02-11T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -124,19 +309,19 @@
           "trakt": 13608711
         },
         "title": "Trust Me",
-        "votes": 43,
+        "votes": 45,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/711/screenshots/medium/139b690051.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 6.837209224700928,
+        "rating": 6.933333396911621,
         "season": 2,
         "runtime": 37,
         "overview": "Dark memories emerge during Issei's night in the cellar. Tamar lives up to her end of the bargain and agrees to meet with Davit.",
         "number_abs": null,
-        "updated_at": "2026-03-04T18:23:15.000Z",
+        "updated_at": "2026-03-07T04:18:35.000Z",
         "first_aired": "2026-02-17T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +341,19 @@
           "trakt": 13608710
         },
         "title": "Brother and Sister",
-        "votes": 51,
+        "votes": 53,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/710/screenshots/medium/95f9986d22.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.098039150238037,
+        "rating": 7.169811248779297,
         "season": 2,
         "runtime": 42,
         "overview": "At a high-stakes dinner party, Camille and Issei use their mastery of wine in an attempt to impress a special guest and change Davit's mind.",
         "number_abs": null,
-        "updated_at": "2026-03-04T18:23:05.000Z",
+        "updated_at": "2026-03-06T23:04:02.000Z",
         "first_aired": "2026-02-10T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -214,19 +399,19 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 583,
+        "votes": 627,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/dc28054fc7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.670669078826904,
+        "rating": 7.668261528015137,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-03-04T16:40:23.000Z",
+        "updated_at": "2026-03-07T02:25:59.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -246,19 +431,19 @@
           "trakt": 12565676
         },
         "title": "The Man Who Kept the Secrets",
-        "votes": 1494,
+        "votes": 1512,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/676/screenshots/medium/47977de356.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.78179407119751,
+        "rating": 7.786375522613525,
         "season": 1,
         "runtime": 46,
         "overview": "Xavier and Robinson race to find President Bradford\u2019s murderer before it's too late.",
         "number_abs": null,
-        "updated_at": "2026-03-04T17:50:17.000Z",
+        "updated_at": "2026-03-07T03:47:22.000Z",
         "first_aired": "2025-03-04T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -304,19 +489,19 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 591,
+        "votes": 606,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.944162368774414,
+        "rating": 7.955445766448975,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-03-04T13:05:55.000Z",
+        "updated_at": "2026-03-07T03:42:17.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -336,19 +521,19 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 966,
+        "votes": 970,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.42546558380127,
+        "rating": 8.420619010925293,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-03-04T09:41:35.000Z",
+        "updated_at": "2026-03-07T03:24:43.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -373,7 +558,7 @@
       }
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 10,
       "hidden": 0,
       "last_watched_at": "2024-04-11T05:03:00.000Z",
@@ -394,23 +579,23 @@
           "trakt": 13718341
         },
         "title": "Cause and Effect",
-        "votes": 489,
+        "votes": 543,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/718/341/screenshots/medium/d3274b1029.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.766870975494385,
+        "rating": 7.710865497589111,
         "season": 2,
         "runtime": 54,
         "overview": "Decades after being presumed dead, Keiko's return shocks Monarch. Cate defies orders to save Shaw\u2014and unleashes a terrifying new Titan.",
         "number_abs": null,
-        "updated_at": "2026-03-04T18:19:13.000Z",
+        "updated_at": "2026-03-07T05:12:27.000Z",
         "first_aired": "2026-02-27T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 9,
+        "comment_count": 12,
         "during_credits": false,
         "original_title": "Cause and Effect",
         "available_translations": []
@@ -426,19 +611,19 @@
           "trakt": 10873465
         },
         "title": "Beyond Logic",
-        "votes": 1724,
+        "votes": 1730,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/010/873/465/screenshots/medium/b5bee8a13b.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.8114848136901855,
+        "rating": 7.810982704162598,
         "season": 1,
         "runtime": 49,
         "overview": "The team struggles to find a way out of Axis Mundi. Kentaro and Tim make an unexpected alliance.",
         "number_abs": null,
-        "updated_at": "2026-03-04T16:17:39.000Z",
+        "updated_at": "2026-03-06T19:27:53.000Z",
         "first_aired": "2024-01-12T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
