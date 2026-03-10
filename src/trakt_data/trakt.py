@@ -404,10 +404,12 @@ def trakt_api_get(
 def trakt_api_paginated_get(
     session: requests.Session,
     path: str,
-    params: dict[str, str] = {},
+    params: dict[str, str] | None = None,
 ) -> list[Any]:
     if not path.startswith("/"):
         path = f"/{path}"
+
+    params = dict(params) if params else {}
 
     results: list[Any] = []
 
@@ -424,18 +426,36 @@ def trakt_api_paginated_get(
         response = session.get(f"https://api.trakt.tv{path}", params=params)
         response.raise_for_status()
 
-        assert "x-pagination-page" in response.headers
-        assert response.headers["x-pagination-page"] == str(page)
-        assert "x-pagination-limit" in response.headers
-        assert response.headers["x-pagination-limit"] == str(limit)
-        assert "x-pagination-page-count" in response.headers
+        if "x-pagination-page-count" not in response.headers:
+            if page == 1:
+                logger.warning("%s: missing pagination headers", path)
+                return response.json()
+            logger.warning("%s: pagination headers disappeared on page %d", path, page)
+            results.extend(response.json())
+            break
+
+        if response.headers.get("x-pagination-page") != str(page):
+            logger.warning(
+                "%s: expected page %d, got %s",
+                path,
+                page,
+                response.headers.get("x-pagination-page"),
+            )
+        if response.headers.get("x-pagination-limit") != str(limit):
+            logger.warning(
+                "%s: expected limit %d, got %s",
+                path,
+                limit,
+                response.headers.get("x-pagination-limit"),
+            )
+
         page_count = int(response.headers["x-pagination-page-count"])
-        assert "x-pagination-item-count" in response.headers
-        item_count = int(response.headers["x-pagination-item-count"])
+        if "x-pagination-item-count" in response.headers:
+            item_count = int(response.headers["x-pagination-item-count"])
 
         results.extend(response.json())
         page += 1
 
-    if len(results) != item_count:
+    if item_count and len(results) != item_count:
         logger.warning(f"{path} has {len(results)} items, expected {item_count}")
     return results
