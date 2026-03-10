@@ -156,7 +156,7 @@ def _export_collection(
     output_path = ctx.output_dir / "collection" / f"collection-{type}.json"
     if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
-    data = trakt_api_get(ctx.session, path=f"/sync/collection/{type}")
+    data = trakt_api_paginated_get(ctx.session, path=f"/sync/collection/{type}")
     write_json(output_path, data)
 
 
