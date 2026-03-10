@@ -429,7 +429,8 @@ def trakt_api_paginated_get(
         if "x-pagination-page-count" not in response.headers:
             if page == 1:
                 logger.warning("%s: missing pagination headers", path)
-                return response.json()
+                result: list[Any] = response.json()
+                return result
             logger.warning("%s: pagination headers disappeared on page %d", path, page)
             results.extend(response.json())
             break
