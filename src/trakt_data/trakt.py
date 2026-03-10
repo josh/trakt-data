@@ -417,14 +417,19 @@ def trakt_api_paginated_get(
     item_count = 0
 
     while page <= page_count:
-        params["page"] = str(page)
-        params["limit"] = str(limit)
+        request_params = dict(params)
+        request_params["page"] = str(page)
+        request_params["limit"] = str(limit)
 
         logger.debug("GET %s", f"https://api.trakt.tv{path}")
-        response = session.get(f"https://api.trakt.tv{path}", params=params)
+        response = session.get(f"https://api.trakt.tv{path}", params=request_params)
         response.raise_for_status()
 
-        assert "x-pagination-page" in response.headers
+        if "x-pagination-page" not in response.headers:
+            if page > 1:
+                raise ValueError(f"Missing pagination headers on page {page}")
+            return response.json()
+
         assert response.headers["x-pagination-page"] == str(page)
         assert "x-pagination-limit" in response.headers
         assert response.headers["x-pagination-limit"] == str(limit)
