@@ -328,7 +328,7 @@
       },
       "year": 2026,
       "title": "Cold Storage",
-      "votes": 980,
+      "votes": 984,
       "colors": {
         "poster": [
           "#AD9152",
@@ -358,7 +358,7 @@
           "media.trakt.tv/images/movies/000/540/330/cleararts/medium/a08380db11.png.webp"
         ]
       },
-      "rating": 6.4571428298950195,
+      "rating": 6.464430809020996,
       "status": "released",
       "country": "us",
       "runtime": 99,
@@ -435,7 +435,7 @@
       },
       "year": 2026,
       "title": "War Machine",
-      "votes": 3568,
+      "votes": 3573,
       "colors": {
         "poster": [
           "#BE7E7D",
@@ -465,7 +465,7 @@
         ],
         "clearart": []
       },
-      "rating": 7.068105220794678,
+      "rating": 7.0671706199646,
       "status": "released",
       "country": "au",
       "runtime": 110,
@@ -544,7 +544,7 @@
       },
       "year": 2025,
       "title": "The Testament of Ann Lee",
-      "votes": 139,
+      "votes": 141,
       "colors": {
         "poster": [
           "#B0956E",
@@ -571,7 +571,7 @@
         ],
         "clearart": []
       },
-      "rating": 6.863309383392334,
+      "rating": 6.886524677276611,
       "status": "released",
       "country": "us",
       "runtime": 137,
@@ -638,7 +638,7 @@
       },
       "year": 2026,
       "title": "Good Luck, Have Fun, Don't Die",
-      "votes": 673,
+      "votes": 674,
       "colors": {
         "poster": [
           "#6E999F",
@@ -664,7 +664,7 @@
         ],
         "clearart": []
       },
-      "rating": 7.433877944946289,
+      "rating": 7.437685489654541,
       "status": "released",
       "country": "us",
       "runtime": 134,
@@ -790,6 +790,127 @@
         "pl",
         "ru",
         "sv",
+        "zh"
+      ]
+    }
+  },
+  {
+    "rank": 9,
+    "id": 1444591628,
+    "listed_at": "2026-03-14T05:15:26.000Z",
+    "notes": null,
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt11737520",
+        "plex": {
+          "guid": "5f7c9b1c9b958e00415de6bb",
+          "slug": "one-piece-2023"
+        },
+        "slug": "one-piece-2023",
+        "tmdb": 111110,
+        "tvdb": 392276,
+        "trakt": 184618
+      },
+      "airs": {
+        "day": "Thursday",
+        "time": "03:00",
+        "timezone": "America/New_York"
+      },
+      "year": 2023,
+      "title": "ONE PIECE",
+      "votes": 7139,
+      "colors": {
+        "poster": [
+          "#D9CBBD",
+          "#6F4843"
+        ]
+      },
+      "genres": [
+        "action",
+        "adventure",
+        "fantasy",
+        "science-fiction"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/shows/000/184/618/logos/medium/44d9d84b18.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/shows/000/184/618/thumbs/medium/9f35f4bad6.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/shows/000/184/618/banners/medium/2681ca4ad7.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/shows/000/184/618/fanarts/medium/ddd59f57bf.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/shows/000/184/618/posters/medium/92fb196f99.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 8.036979675292969,
+      "status": "returning series",
+      "country": "us",
+      "network": "Netflix",
+      "runtime": 60,
+      "tagline": "Pirates beware, assassins ahead.",
+      "trailer": "https://youtube.com/watch?v=l6kp780S-os",
+      "homepage": "https://www.netflix.com/title/80217863",
+      "language": "en",
+      "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "friendship",
+        "pirate",
+        "super-power",
+        "based-on-comic",
+        "fighting",
+        "ocean"
+      ],
+      "updated_at": "2026-03-13T16:36:19.000Z",
+      "first_aired": "2023-08-31T07:00:00.000Z",
+      "certification": "TV-14",
+      "comment_count": 83,
+      "aired_episodes": 16,
+      "original_title": "ONE PIECE",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "lt",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sl",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
         "zh"
       ]
     }

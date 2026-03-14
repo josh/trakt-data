@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "ONE PIECE",
+      "year": 2023,
+      "ids": {
+        "trakt": 184618,
+        "slug": "one-piece-2023",
+        "tvdb": 392276,
+        "imdb": "tt11737520",
+        "tmdb": 111110,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2026-03-14T06:21:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38079830",
+          "plex": {
+            "guid": "68b68aa63999009646d2b34b"
+          },
+          "tmdb": 6640514,
+          "tvdb": 11426052,
+          "trakt": 13670413
+        },
+        "title": "GOOD WHALE HUNTING",
+        "votes": 193,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/670/413/screenshots/medium/3f1502b614.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 8.02072525024414,
+        "season": 2,
+        "runtime": 64,
+        "overview": "When the Merry lands in the belly of a giant whale, Luffy must win over a gruff lighthouse keeper to save his friends and his ship.",
+        "number_abs": null,
+        "updated_at": "2026-03-14T05:13:53.000Z",
+        "first_aired": "2026-03-10T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "GOOD WHALE HUNTING",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt29137511",
+          "plex": {
+            "guid": "66855cf739521e05a89db3e2"
+          },
+          "tmdb": 5450885,
+          "tvdb": 10573348,
+          "trakt": 12075914
+        },
+        "title": "THE BEGINNING AND THE END",
+        "votes": 271,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/075/914/screenshots/medium/f440894cb1.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.952029705047607,
+        "season": 2,
+        "runtime": 66,
+        "overview": "To prepare for the Grand Line, the Straw Hats visit Loguetown, birthplace of the Great Pirate Era \u2014 where rivals both old and new await.",
+        "number_abs": null,
+        "updated_at": "2026-03-14T04:41:27.000Z",
+        "first_aired": "2026-03-10T07:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 9,
+        "during_credits": false,
+        "original_title": "THE BEGINNING AND THE END",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Love Story",
       "year": 2026,
       "ids": {
@@ -219,17 +309,17 @@
           "trakt": 14017867
         },
         "title": "March 13, 2026: Gov. Josh Shapiro, Anthony Scaramucci, Lloyd Blankfein",
-        "votes": 1,
+        "votes": 2,
         "images": {
           "screenshot": []
         },
         "number": 7,
-        "rating": 6,
+        "rating": 6.5,
         "season": 24,
         "runtime": null,
         "overview": "Guests: An interview with Gov. Josh Shapiro, Democratic governor of Pennsylvania and author of the new book \"Where We Keep the Light: Stories From a Life of Service.\" This week's panel discussion includes Anthony Scaramucci, former White House communications director under President Trump and author of the new book \"All The Wrong Moves: How Three Catastrophic Decisions Led to the Rise of Trump\"; and Lloyd Blankfein, former CEO of Goldman Sachs and author of the book \"Streetwise: Getting to and Through Goldman Sachs.\"",
         "number_abs": null,
-        "updated_at": "2026-03-14T04:06:54.000Z",
+        "updated_at": "2026-03-14T05:05:20.000Z",
         "first_aired": "2026-03-14T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -311,19 +401,19 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 715,
+        "votes": 716,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.686713218688965,
+        "rating": 7.685754299163818,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-03-14T03:41:07.000Z",
+        "updated_at": "2026-03-14T04:55:13.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -452,96 +542,6 @@
         "comment_count": 31,
         "during_credits": false,
         "original_title": "The Last Thanksgiving",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "ONE PIECE",
-      "year": 2023,
-      "ids": {
-        "trakt": 184618,
-        "slug": "one-piece-2023",
-        "tvdb": 392276,
-        "imdb": "tt11737520",
-        "tmdb": 111110,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 8,
-      "hidden": 0,
-      "last_watched_at": "2023-09-07T05:42:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 8,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt29137511",
-          "plex": {
-            "guid": "66855cf739521e05a89db3e2"
-          },
-          "tmdb": 5450885,
-          "tvdb": 10573348,
-          "trakt": 12075914
-        },
-        "title": "THE BEGINNING AND THE END",
-        "votes": 269,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/075/914/screenshots/medium/f440894cb1.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.94795560836792,
-        "season": 2,
-        "runtime": 66,
-        "overview": "To prepare for the Grand Line, the Straw Hats visit Loguetown, birthplace of the Great Pirate Era \u2014 where rivals both old and new await.",
-        "number_abs": null,
-        "updated_at": "2026-03-14T04:03:08.000Z",
-        "first_aired": "2026-03-10T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 9,
-        "during_credits": false,
-        "original_title": "THE BEGINNING AND THE END",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt11758482",
-          "plex": {
-            "guid": "649f7e7808d5de7518edcce4"
-          },
-          "tmdb": 4557395,
-          "tvdb": 9931638,
-          "trakt": 10740331
-        },
-        "title": "WORST IN THE EAST",
-        "votes": 1318,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/010/740/331/screenshots/medium/885bd7df79.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 8.365705490112305,
-        "season": 1,
-        "runtime": 51,
-        "overview": "The Straw Hat crew strives to take down Arlong and the Fishmen once and for all. After a tense family reunion, Luffy inches closer to his dreams.",
-        "number_abs": null,
-        "updated_at": "2026-03-13T21:03:36.000Z",
-        "first_aired": "2023-08-31T07:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 18,
-        "during_credits": false,
-        "original_title": "WORST IN THE EAST",
         "available_translations": []
       }
     }
