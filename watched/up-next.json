@@ -1,6 +1,191 @@
 [
   {
     "show": {
+      "title": "Hijack",
+      "year": 2023,
+      "ids": {
+        "trakt": 194907,
+        "slug": "hijack",
+        "tvdb": 419254,
+        "imdb": "tt19854762",
+        "tmdb": 198102,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 15,
+      "completed": 13,
+      "hidden": 0,
+      "last_watched_at": "2026-03-14T03:07:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 14,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38755006",
+          "plex": {
+            "guid": "693c21126c23e767d1adf5ba"
+          },
+          "tmdb": 6618120,
+          "tvdb": 11414576,
+          "trakt": 13642190
+        },
+        "title": "Contact",
+        "votes": 539,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/642/190/screenshots/medium/ba27deb765.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.159554958343506,
+        "season": 2,
+        "runtime": 44,
+        "overview": "Sam gambles on a dangerous tactic in hopes of outsmarting the police. Armed with new intel, Olivia tries to influence Winter's next move.",
+        "number_abs": null,
+        "updated_at": "2026-03-14T02:03:48.000Z",
+        "first_aired": "2026-02-25T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Contact",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt38755002",
+          "plex": {
+            "guid": "68f92650496855ccff660dda"
+          },
+          "tmdb": 6618119,
+          "tvdb": 11414575,
+          "trakt": 13642189
+        },
+        "title": "Junction",
+        "votes": 576,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/6662dc93ad.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.324652671813965,
+        "season": 2,
+        "runtime": 44,
+        "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
+        "number_abs": null,
+        "updated_at": "2026-03-14T01:08:13.000Z",
+        "first_aired": "2026-02-18T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Junction",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Love Story",
+      "year": 2026,
+      "ids": {
+        "trakt": 185998,
+        "slug": "love-story-2026",
+        "tvdb": 408694,
+        "imdb": "tt15232564",
+        "tmdb": 131142,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2026-03-12T22:00:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37304292",
+          "plex": {
+            "guid": "684f79489d2b3e099bd77283"
+          },
+          "tmdb": 6888356,
+          "tvdb": 11612237,
+          "trakt": 13625002
+        },
+        "title": "Obsession",
+        "votes": 14,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/002/screenshots/medium/78da413081.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.357142925262451,
+        "season": 1,
+        "runtime": null,
+        "overview": "Carolyn suffers the consequences of being a public figure. Tensions rise between Carolyn and John's family.",
+        "number_abs": null,
+        "updated_at": "2026-03-14T01:39:45.000Z",
+        "first_aired": "2026-03-13T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Obsession",
+        "available_translations": [
+          "de",
+          "en",
+          "ru",
+          "tr"
+        ]
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt37304291",
+          "plex": {
+            "guid": "684f79489d2b3e099bd77280"
+          },
+          "tmdb": 6888355,
+          "tvdb": 11612236,
+          "trakt": 13625001
+        },
+        "title": "The Wedding",
+        "votes": 58,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/001/screenshots/medium/11a142e231.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.448276042938232,
+        "season": 1,
+        "runtime": 59,
+        "overview": "As press spreads of their altercation, John and Carolyn prepare for their big day. Ann voices her concerns.",
+        "number_abs": null,
+        "updated_at": "2026-03-13T16:26:20.000Z",
+        "first_aired": "2026-03-06T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "The Wedding",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Drops of God",
       "year": 2023,
       "ids": {
@@ -34,19 +219,19 @@
           "trakt": 13608712
         },
         "title": "The Contest",
-        "votes": 41,
+        "votes": 42,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/712/screenshots/medium/3b89296d6e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.170731544494629,
+        "rating": 7.166666507720947,
         "season": 2,
         "runtime": 42,
         "overview": "Issei returns to Tokyo looking to confront his past. Camille takes a shocking risk that could threaten everything.",
         "number_abs": null,
-        "updated_at": "2026-03-12T16:37:07.000Z",
+        "updated_at": "2026-03-13T22:10:56.000Z",
         "first_aired": "2026-02-24T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -78,7 +263,7 @@
         "runtime": 37,
         "overview": "Dark memories emerge during Issei's night in the cellar. Tamar lives up to her end of the bargain and agrees to meet with Davit.",
         "number_abs": null,
-        "updated_at": "2026-03-12T16:37:07.000Z",
+        "updated_at": "2026-03-13T15:51:26.000Z",
         "first_aired": "2026-02-17T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -91,91 +276,93 @@
   },
   {
     "show": {
-      "title": "Hijack",
-      "year": 2023,
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
       "ids": {
-        "trakt": 194907,
-        "slug": "hijack",
-        "tvdb": 419254,
-        "imdb": "tt19854762",
-        "tmdb": 198102,
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
         "tvrage": null
       }
     },
     "progress": {
-      "aired": 15,
-      "completed": 12,
+      "aired": 722,
+      "completed": 721,
       "hidden": 0,
-      "last_watched_at": "2026-02-14T03:15:00.000Z",
+      "last_watched_at": "2026-03-07T07:04:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 13,
+        "play_count": 723,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt38755002",
+          "imdb": null,
           "plex": {
-            "guid": "68f92650496855ccff660dda"
+            "guid": "699cd9b0b260f06660184407"
           },
-          "tmdb": 6618119,
-          "tvdb": 11414575,
-          "trakt": 13642189
+          "tmdb": 6973257,
+          "tvdb": null,
+          "trakt": 14017867
         },
-        "title": "Junction",
-        "votes": 572,
+        "title": "March 13, 2026: Gov. Josh Shapiro, Anthony Scaramucci, Lloyd Blankfein",
+        "votes": 0,
         "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/642/189/screenshots/medium/6662dc93ad.jpg.webp"
-          ]
+          "screenshot": []
         },
-        "number": 6,
-        "rating": 7.318181991577148,
-        "season": 2,
-        "runtime": 44,
-        "overview": "To avoid further disaster, Sam must work with an unlikely ally. The enemy closes in on Marsha as Zahra and Daniel fear they've reached a dead end.",
+        "number": 7,
+        "rating": 0,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with Gov. Josh Shapiro, Democratic governor of Pennsylvania and author of the new book \"Where We Keep the Light: Stories From a Life of Service.\" This week's panel discussion includes Anthony Scaramucci, former White House communications director under President Trump and author of the new book \"All The Wrong Moves: How Three Catastrophic Decisions Led to the Rise of Trump\"; and Lloyd Blankfein, former CEO of Goldman Sachs and author of the book \"Streetwise: Getting to and Through Goldman Sachs.\"",
         "number_abs": null,
-        "updated_at": "2026-03-12T20:51:10.000Z",
-        "first_aired": "2026-02-18T02:00:00.000Z",
+        "updated_at": "2026-03-14T02:53:13.000Z",
+        "first_aired": "2026-03-14T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 3,
+        "comment_count": 0,
         "during_credits": false,
-        "original_title": "Junction",
-        "available_translations": []
+        "original_title": "March 13, 2026: Gov. Josh Shapiro, Anthony Scaramucci, Lloyd Blankfein",
+        "available_translations": [
+          "en"
+        ]
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt38755001",
+          "imdb": null,
           "plex": {
-            "guid": "693c21126c23e767d1adf5b8"
+            "guid": "69911221356e36baf472aa13"
           },
-          "tmdb": 6618117,
-          "tvdb": 11414574,
-          "trakt": 13642188
+          "tmdb": 6925052,
+          "tvdb": null,
+          "trakt": 13985880
         },
-        "title": "Outage",
-        "votes": 637,
+        "title": "March 6, 2026: Annabelle Gurwitch, Sen. Adam Schiff, Don Lemon",
+        "votes": 42,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/642/188/screenshots/medium/a1ad229ae8.jpg.webp"
+            "media.trakt.tv/images/episodes/013/985/880/screenshots/medium/a3f0e6b8c3.jpg.webp"
           ]
         },
-        "number": 5,
-        "rating": 7.486656188964844,
-        "season": 2,
-        "runtime": 40,
-        "overview": "Anger and frustration among the passengers begin to boil over\u2014just as Sam comes to a frightening realization.",
+        "number": 6,
+        "rating": 7.452381134033203,
+        "season": 24,
+        "runtime": 58,
+        "overview": "Guests: An interview with New York Times bestselling author Annabelle Gurwitch, whose newest memoir \"The End of My Life is Killing Me: The Unexpected Joys of a Cancer Slacker\" releases March 17. This week's panel discussion includes Sen. Adam Schiff, Democratic senator from California; and Don Lemon, award-winning journalist, founder of Lemon Media Network, and host of \"The Don Lemon Show\" podcast.",
         "number_abs": null,
-        "updated_at": "2026-03-12T19:03:24.000Z",
-        "first_aired": "2026-02-11T02:00:00.000Z",
+        "updated_at": "2026-03-13T18:46:42.000Z",
+        "first_aired": "2026-03-07T03:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 5,
+        "comment_count": 1,
         "during_credits": false,
-        "original_title": "Outage",
-        "available_translations": []
+        "original_title": "March 6, 2026: Annabelle Gurwitch, Sen. Adam Schiff, Don Lemon",
+        "available_translations": [
+          "en"
+        ]
       }
     }
   },
@@ -214,23 +401,23 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 705,
+        "votes": 713,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.68226957321167,
+        "rating": 7.6858344078063965,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-03-12T19:49:35.000Z",
+        "updated_at": "2026-03-13T21:37:03.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 18,
+        "comment_count": 19,
         "during_credits": false,
         "original_title": "Graceland",
         "available_translations": []
@@ -246,19 +433,19 @@
           "trakt": 12565676
         },
         "title": "The Man Who Kept the Secrets",
-        "votes": 1544,
+        "votes": 1546,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/676/screenshots/medium/47977de356.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.790802955627441,
+        "rating": 7.790426731109619,
         "season": 1,
         "runtime": 46,
         "overview": "Xavier and Robinson race to find President Bradford\u2019s murderer before it's too late.",
         "number_abs": null,
-        "updated_at": "2026-03-12T21:04:19.000Z",
+        "updated_at": "2026-03-13T23:45:34.000Z",
         "first_aired": "2025-03-04T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -304,19 +491,19 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 623,
+        "votes": 628,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.951846122741699,
+        "rating": 7.950636863708496,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-03-12T20:10:13.000Z",
+        "updated_at": "2026-03-14T01:22:08.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -336,115 +523,25 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 975,
+        "votes": 976,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.418461799621582,
+        "rating": 8.419057846069336,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-03-12T15:48:01.000Z",
+        "updated_at": "2026-03-13T15:31:20.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 31,
         "during_credits": false,
         "original_title": "The Last Thanksgiving",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Monarch: Legacy of Monsters",
-      "year": 2023,
-      "ids": {
-        "trakt": 195644,
-        "slug": "monarch-legacy-of-monsters",
-        "tvdb": 422598,
-        "imdb": "tt17220216",
-        "tmdb": 202411,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 12,
-      "completed": 10,
-      "hidden": 0,
-      "last_watched_at": "2024-04-11T05:03:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 10,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt32094159",
-          "plex": {
-            "guid": "673fb12f422257a16298f3fd"
-          },
-          "tmdb": 6683249,
-          "tvdb": 11453457,
-          "trakt": 13718341
-        },
-        "title": "Cause and Effect",
-        "votes": 622,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/718/341/screenshots/medium/d3274b1029.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.676848888397217,
-        "season": 2,
-        "runtime": 54,
-        "overview": "Decades after being presumed dead, Keiko's return shocks Monarch. Cate defies orders to save Shaw\u2014and unleashes a terrifying new Titan.",
-        "number_abs": null,
-        "updated_at": "2026-03-12T20:02:55.000Z",
-        "first_aired": "2026-02-27T03:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "Cause and Effect",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt23787594",
-          "plex": {
-            "guid": "64fc8f204f3bf06b7966d0fd"
-          },
-          "tmdb": 4712068,
-          "tvdb": 10009425,
-          "trakt": 10873465
-        },
-        "title": "Beyond Logic",
-        "votes": 1742,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/010/873/465/screenshots/medium/b5bee8a13b.jpg.webp"
-          ]
-        },
-        "number": 10,
-        "rating": 7.816877365112305,
-        "season": 1,
-        "runtime": 49,
-        "overview": "The team struggles to find a way out of Axis Mundi. Kentaro and Tim make an unexpected alliance.",
-        "number_abs": null,
-        "updated_at": "2026-03-12T19:49:06.000Z",
-        "first_aired": "2024-01-12T03:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 28,
-        "during_credits": false,
-        "original_title": "Beyond Logic",
         "available_translations": []
       }
     }
@@ -484,23 +581,23 @@
           "trakt": 12075914
         },
         "title": "THE BEGINNING AND THE END",
-        "votes": 199,
+        "votes": 268,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/075/914/screenshots/medium/f440894cb1.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.035176277160645,
+        "rating": 7.947761058807373,
         "season": 2,
         "runtime": 66,
         "overview": "To prepare for the Grand Line, the Straw Hats visit Loguetown, birthplace of the Great Pirate Era \u2014 where rivals both old and new await.",
         "number_abs": null,
-        "updated_at": "2026-03-12T20:56:01.000Z",
+        "updated_at": "2026-03-14T02:43:44.000Z",
         "first_aired": "2026-03-10T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 8,
+        "comment_count": 9,
         "during_credits": false,
         "original_title": "THE BEGINNING AND THE END",
         "available_translations": []
@@ -516,19 +613,19 @@
           "trakt": 10740331
         },
         "title": "WORST IN THE EAST",
-        "votes": 1315,
+        "votes": 1318,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/010/740/331/screenshots/medium/885bd7df79.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.369582176208496,
+        "rating": 8.365705490112305,
         "season": 1,
         "runtime": 51,
         "overview": "The Straw Hat crew strives to take down Arlong and the Fishmen once and for all. After a tense family reunion, Luffy inches closer to his dreams.",
         "number_abs": null,
-        "updated_at": "2026-03-12T13:50:32.000Z",
+        "updated_at": "2026-03-13T21:03:36.000Z",
         "first_aired": "2023-08-31T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
