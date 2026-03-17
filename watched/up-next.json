@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 10,
+      "completed": 11,
       "hidden": 0,
-      "last_watched_at": "2026-03-16T06:07:00.000Z",
+      "last_watched_at": "2026-03-17T03:24:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 10,
+        "play_count": 11,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38079833",
+          "plex": {
+            "guid": "68b68aa63999009646d2b34f"
+          },
+          "tmdb": 6640516,
+          "tvdb": 11426054,
+          "trakt": 13670416
+        },
+        "title": "BIG TROUBLE IN LITTLE GARDEN",
+        "votes": 234,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/670/416/screenshots/medium/2cb960689a.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.816239356994629,
+        "season": 2,
+        "runtime": 55,
+        "overview": "A new addition to the ship raises the stakes. On the lush isle of Little Garden, the crew encounters an adventure of giant proportions.",
+        "number_abs": null,
+        "updated_at": "2026-03-17T02:23:51.000Z",
+        "first_aired": "2026-03-10T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "BIG TROUBLE IN LITTLE GARDEN",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt38079831",
           "plex": {
@@ -34,57 +66,25 @@
           "trakt": 13670415
         },
         "title": "WHISKY BUSINESS",
-        "votes": 239,
+        "votes": 270,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/670/415/screenshots/medium/dcc45c1de5.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 8.008368492126465,
+        "rating": 7.985185146331787,
         "season": 2,
         "runtime": 64,
         "overview": "The crew receives a warm welcome to the pirate-loving town of Whisky Peak. But with a pair of assassins on the loose, trouble isn't far behind.",
         "number_abs": null,
-        "updated_at": "2026-03-16T03:48:42.000Z",
+        "updated_at": "2026-03-17T03:38:47.000Z",
         "first_aired": "2026-03-10T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 8,
+        "comment_count": 9,
         "during_credits": false,
         "original_title": "WHISKY BUSINESS",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38079830",
-          "plex": {
-            "guid": "68b68aa63999009646d2b34b"
-          },
-          "tmdb": 6640514,
-          "tvdb": 11426052,
-          "trakt": 13670413
-        },
-        "title": "GOOD WHALE HUNTING",
-        "votes": 296,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/670/413/screenshots/medium/3f1502b614.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.986486434936523,
-        "season": 2,
-        "runtime": 64,
-        "overview": "When the Merry lands in the belly of a giant whale, Luffy must win over a gruff lighthouse keeper to save his friends and his ship.",
-        "number_abs": null,
-        "updated_at": "2026-03-16T03:37:03.000Z",
-        "first_aired": "2026-03-10T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 8,
-        "during_credits": false,
-        "original_title": "GOOD WHALE HUNTING",
         "available_translations": []
       }
     }
@@ -124,19 +124,19 @@
           "trakt": 13625002
         },
         "title": "Obsession",
-        "votes": 24,
+        "votes": 28,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/625/002/screenshots/medium/78da413081.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.083333492279053,
+        "rating": 7.214285850524902,
         "season": 1,
         "runtime": 48,
         "overview": "Carolyn suffers the consequences of being a public figure; tensions rise between Carolyn and John's family.",
         "number_abs": null,
-        "updated_at": "2026-03-16T02:12:51.000Z",
+        "updated_at": "2026-03-17T02:54:02.000Z",
         "first_aired": "2026-03-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,19 +156,19 @@
           "trakt": 13625001
         },
         "title": "The Wedding",
-        "votes": 64,
+        "votes": 65,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/625/001/screenshots/medium/11a142e231.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.4375,
+        "rating": 7.44615364074707,
         "season": 1,
         "runtime": 59,
         "overview": "As press spreads of their altercation, John and Carolyn prepare for their big day. Ann voices her concerns.",
         "number_abs": null,
-        "updated_at": "2026-03-15T22:20:59.000Z",
+        "updated_at": "2026-03-17T02:52:30.000Z",
         "first_aired": "2026-03-06T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -226,7 +226,7 @@
         "runtime": 42,
         "overview": "Issei returns to Tokyo looking to confront his past. Camille takes a shocking risk that could threaten everything.",
         "number_abs": null,
-        "updated_at": "2026-03-15T22:03:44.000Z",
+        "updated_at": "2026-03-16T14:50:31.000Z",
         "first_aired": "2026-02-24T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -258,7 +258,7 @@
         "runtime": 37,
         "overview": "Dark memories emerge during Issei's night in the cellar. Tamar lives up to her end of the bargain and agrees to meet with Davit.",
         "number_abs": null,
-        "updated_at": "2026-03-16T05:31:02.000Z",
+        "updated_at": "2026-03-16T06:49:20.000Z",
         "first_aired": "2026-02-17T23:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -304,19 +304,19 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 731,
+        "votes": 737,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.683994293212891,
+        "rating": 7.681139945983887,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-03-16T02:37:00.000Z",
+        "updated_at": "2026-03-16T20:46:40.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -348,7 +348,7 @@
         "runtime": 46,
         "overview": "Xavier and Robinson race to find President Bradford\u2019s murderer before it's too late.",
         "number_abs": null,
-        "updated_at": "2026-03-15T20:27:04.000Z",
+        "updated_at": "2026-03-16T18:18:45.000Z",
         "first_aired": "2025-03-04T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -394,19 +394,19 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 630,
+        "votes": 632,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.949206352233887,
+        "rating": 7.949367046356201,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-03-16T04:58:55.000Z",
+        "updated_at": "2026-03-17T03:48:07.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -426,19 +426,19 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 978,
+        "votes": 979,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.420245170593262,
+        "rating": 8.421858787536621,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-03-16T04:58:42.000Z",
+        "updated_at": "2026-03-16T10:16:41.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
