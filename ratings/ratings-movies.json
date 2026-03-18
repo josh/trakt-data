@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2026-03-18T06:19:00.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "Resurrection",
+      "year": 2025,
+      "ids": {
+        "trakt": 703483,
+        "slug": "resurrection-2025",
+        "imdb": "tt29002950",
+        "tmdb": 878608
+      }
+    }
+  },
+  {
     "rated_at": "2026-03-04T06:10:04.000Z",
     "rating": 5,
     "type": "movie",
@@ -49009,7 +49024,7 @@
     "rating": 4,
     "type": "movie",
     "movie": {
-      "title": "Bad Lieutenant: Port of Call - New Orleans",
+      "title": "Bad Lieutenant: Port of Call New Orleans",
       "year": 2009,
       "ids": {
         "trakt": 6771,
@@ -50810,10 +50825,10 @@
     "type": "movie",
     "movie": {
       "title": "Slacker",
-      "year": 1991,
+      "year": 1990,
       "ids": {
         "trakt": 8376,
-        "slug": "slacker-1991",
+        "slug": "slacker-1990",
         "imdb": "tt0102943",
         "tmdb": 14022
       }
@@ -55744,11 +55759,11 @@
     "rating": 6,
     "type": "movie",
     "movie": {
-      "title": "IMAX Hubble",
+      "title": "Hubble",
       "year": 2010,
       "ids": {
         "trakt": 30614,
-        "slug": "imax-hubble-2010",
+        "slug": "hubble-2010",
         "imdb": "tt1433813",
         "tmdb": 44992
       }
@@ -58745,10 +58760,10 @@
     "type": "movie",
     "movie": {
       "title": "11:14",
-      "year": 2003,
+      "year": 2004,
       "ids": {
         "trakt": 4582,
-        "slug": "11-14-2003",
+        "slug": "11-14-2004",
         "imdb": "tt0331811",
         "tmdb": 9282
       }
