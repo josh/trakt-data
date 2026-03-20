@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 13,
+      "completed": 14,
       "hidden": 0,
-      "last_watched_at": "2026-03-20T02:56:00.000Z",
+      "last_watched_at": "2026-03-20T04:41:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 13,
+        "play_count": 14,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38079840",
+          "plex": {
+            "guid": "68b68aa73999009646d2b352"
+          },
+          "tmdb": 6640520,
+          "tvdb": 11426057,
+          "trakt": 13670420
+        },
+        "title": "REINDEER SHAMES",
+        "votes": 278,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/670/420/screenshots/medium/a2c29433dd.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8.683453559875488,
+        "season": 2,
+        "runtime": 61,
+        "overview": "Dr. Kureha tells the heartwrenching story of Chopper's origins, including how he met his mentor Dr. Hiriluk and their quest to cure all disease.",
+        "number_abs": null,
+        "updated_at": "2026-03-20T03:20:21.000Z",
+        "first_aired": "2026-03-10T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 12,
+        "during_credits": false,
+        "original_title": "REINDEER SHAMES",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt38079837",
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 5,
         "during_credits": false,
         "original_title": "NAMI DEEREST",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38079834",
-          "plex": {
-            "guid": "68b68aa63999009646d2b350"
-          },
-          "tmdb": 6640518,
-          "tvdb": 11426055,
-          "trakt": 13670418
-        },
-        "title": "WAX ON, WAX OFF",
-        "votes": 277,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/670/418/screenshots/medium/6d7e733e62.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.898917198181152,
-        "season": 2,
-        "runtime": 58,
-        "overview": "The Straw Hats are held captive by two artists: one who colors emotions, and one intent on making them part of his latest \u2014 and deadliest \u2014 masterwork.",
-        "number_abs": null,
-        "updated_at": "2026-03-20T02:11:49.000Z",
-        "first_aired": "2026-03-10T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "WAX ON, WAX OFF",
         "available_translations": []
       }
     }
@@ -304,19 +304,19 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 745,
+        "votes": 746,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.671141147613525,
+        "rating": 7.670241355895996,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-03-19T23:31:27.000Z",
+        "updated_at": "2026-03-20T03:03:12.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
