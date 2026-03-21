@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Drops of God",
+      "year": 2023,
+      "ids": {
+        "trakt": 186546,
+        "slug": "drops-of-god-2023",
+        "tvdb": 409159,
+        "imdb": "tt6867482",
+        "tmdb": 218961,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 14,
+      "hidden": 0,
+      "last_watched_at": "2026-03-21T05:36:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 14,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt36331818",
+          "plex": {
+            "guid": "68e9e0d7b39334e369542f13"
+          },
+          "tmdb": 6587596,
+          "tvdb": 11385523,
+          "trakt": 13608713
+        },
+        "title": "Pyrrhus",
+        "votes": 51,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/608/713/screenshots/medium/5a551b4840.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.313725471496582,
+        "season": 2,
+        "runtime": 48,
+        "overview": "Camille's act of deception upends the First Vintage Contest\u2014and her personal life\u2014as Issei struggles with a difficult path to forgiveness.",
+        "number_abs": null,
+        "updated_at": "2026-03-21T00:49:01.000Z",
+        "first_aired": "2026-03-03T23:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Pyrrhus",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt36331710",
+          "plex": {
+            "guid": "68e9e0d8b39334e369542f16"
+          },
+          "tmdb": 6587595,
+          "tvdb": 11385522,
+          "trakt": 13608712
+        },
+        "title": "The Contest",
+        "votes": 47,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/608/712/screenshots/medium/3b89296d6e.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.170212745666504,
+        "season": 2,
+        "runtime": 42,
+        "overview": "Issei returns to Tokyo looking to confront his past. Camille takes a shocking risk that could threaten everything.",
+        "number_abs": null,
+        "updated_at": "2026-03-21T00:37:22.000Z",
+        "first_aired": "2026-02-24T23:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Le Concours",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Jury Duty Presents: Company Retreat",
       "year": 2026,
       "ids": {
@@ -34,19 +124,19 @@
           "trakt": 14000894
         },
         "title": "Team Building",
-        "votes": 6,
+        "votes": 7,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/000/894/screenshots/medium/901c1a2b74.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.166666507720947,
+        "rating": 7.142857074737549,
         "season": 1,
         "runtime": 29,
         "overview": "Newly-elevated to \"Captain Fun\", Anthony helps his co-workers navigate a stressful day of team-building exercises. Dougie leans on Anthony to help him look like CEO material.",
         "number_abs": null,
-        "updated_at": "2026-03-21T03:29:55.000Z",
+        "updated_at": "2026-03-21T05:03:46.000Z",
         "first_aired": "2026-03-20T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -66,19 +156,19 @@
           "trakt": 13960105
         },
         "title": "Onboarding",
-        "votes": 12,
+        "votes": 11,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/960/105/screenshots/medium/eccce95168.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.083333492279053,
+        "rating": 7.090909004211426,
         "season": 1,
         "runtime": 34,
         "overview": "We follow Anthony's first day as a temp as he helps prep for the company's annual retreat by wrapping up loose ends at the office and welcoming the company to their idyllic off-site.",
         "number_abs": null,
-        "updated_at": "2026-03-21T04:24:35.000Z",
+        "updated_at": "2026-03-21T04:56:31.000Z",
         "first_aired": "2026-03-20T04:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
@@ -168,7 +258,7 @@
         "runtime": 60,
         "overview": "Guests: An interview with Gov. Josh Shapiro, Democratic governor of Pennsylvania and author of the new book \"Where We Keep the Light: Stories From a Life of Service.\" This week's panel discussion includes Anthony Scaramucci, former White House communications director under President Trump and author of the new book \"All The Wrong Moves: How Three Catastrophic Decisions Led to the Rise of Trump\"; and Lloyd Blankfein, former CEO of Goldman Sachs and author of the book \"Streetwise: Getting to and Through Goldman Sachs.\"",
         "number_abs": null,
-        "updated_at": "2026-03-20T09:40:16.000Z",
+        "updated_at": "2026-03-21T04:42:53.000Z",
         "first_aired": "2026-03-14T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -267,96 +357,6 @@
         "comment_count": 1,
         "during_credits": false,
         "original_title": "The Wedding",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Drops of God",
-      "year": 2023,
-      "ids": {
-        "trakt": 186546,
-        "slug": "drops-of-god-2023",
-        "tvdb": 409159,
-        "imdb": "tt6867482",
-        "tmdb": 218961,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 16,
-      "completed": 13,
-      "hidden": 0,
-      "last_watched_at": "2026-03-10T06:16:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 13,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt36331710",
-          "plex": {
-            "guid": "68e9e0d8b39334e369542f16"
-          },
-          "tmdb": 6587595,
-          "tvdb": 11385522,
-          "trakt": 13608712
-        },
-        "title": "The Contest",
-        "votes": 47,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/608/712/screenshots/medium/3b89296d6e.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.170212745666504,
-        "season": 2,
-        "runtime": 42,
-        "overview": "Issei returns to Tokyo looking to confront his past. Camille takes a shocking risk that could threaten everything.",
-        "number_abs": null,
-        "updated_at": "2026-03-21T00:37:22.000Z",
-        "first_aired": "2026-02-24T23:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Le Concours",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt36330777",
-          "plex": {
-            "guid": "68e9e0d8b39334e369542f19"
-          },
-          "tmdb": 6587594,
-          "tvdb": 11385521,
-          "trakt": 13608711
-        },
-        "title": "Trust Me",
-        "votes": 54,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/608/711/screenshots/medium/139b690051.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 6.962963104248047,
-        "season": 2,
-        "runtime": 37,
-        "overview": "Dark memories emerge during Issei's night in the cellar. Tamar lives up to her end of the bargain and agrees to meet with Davit.",
-        "number_abs": null,
-        "updated_at": "2026-03-20T07:52:30.000Z",
-        "first_aired": "2026-02-17T23:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Fais-moi confiance",
         "available_translations": []
       }
     }
