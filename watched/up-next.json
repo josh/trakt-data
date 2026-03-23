@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Paradise",
+      "year": 2025,
+      "ids": {
+        "trakt": 225096,
+        "slug": "paradise-2025",
+        "tvdb": 454565,
+        "imdb": "tt27444205",
+        "tmdb": 245927,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 9,
+      "hidden": 0,
+      "last_watched_at": "2026-03-23T03:58:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 9,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37913713",
+          "plex": {
+            "guid": "693716a84ae2129de4af23b3"
+          },
+          "tmdb": 6745134,
+          "tvdb": 11162580,
+          "trakt": 13791974
+        },
+        "title": "Mayday",
+        "votes": 658,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/791/974/screenshots/medium/25c2a0e782.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.313069820404053,
+        "season": 2,
+        "runtime": 46,
+        "overview": "Xavier battles the elements and other threats as he follows a broadcast to Atlanta in search of his wife, Teri.",
+        "number_abs": null,
+        "updated_at": "2026-03-22T23:50:31.000Z",
+        "first_aired": "2026-02-23T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 13,
+        "during_credits": false,
+        "original_title": "Mayday",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35856965",
+          "plex": {
+            "guid": "693716a94ae2129de4af23b4"
+          },
+          "tmdb": 6745017,
+          "tvdb": 11091185,
+          "trakt": 13791973
+        },
+        "title": "Graceland",
+        "votes": 762,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.664041996002197,
+        "season": 2,
+        "runtime": 60,
+        "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
+        "number_abs": null,
+        "updated_at": "2026-03-23T02:23:32.000Z",
+        "first_aired": "2026-02-23T05:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 19,
+        "during_credits": false,
+        "original_title": "Graceland",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Jury Duty Presents: Company Retreat",
       "year": 2026,
       "ids": {
@@ -34,23 +124,23 @@
           "trakt": 14000894
         },
         "title": "Team Building",
-        "votes": 7,
+        "votes": 27,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/000/894/screenshots/medium/901c1a2b74.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.142857074737549,
+        "rating": 7.259259223937988,
         "season": 1,
         "runtime": 29,
         "overview": "Newly-elevated to \"Captain Fun\", Anthony helps his co-workers navigate a stressful day of team-building exercises. Dougie leans on Anthony to help him look like CEO material.",
         "number_abs": null,
-        "updated_at": "2026-03-21T05:03:46.000Z",
+        "updated_at": "2026-03-23T02:17:32.000Z",
         "first_aired": "2026-03-20T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 1,
         "during_credits": false,
         "original_title": "Team Building",
         "available_translations": []
@@ -66,19 +156,19 @@
           "trakt": 13960105
         },
         "title": "Onboarding",
-        "votes": 14,
+        "votes": 37,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/960/105/screenshots/medium/eccce95168.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.142857074737549,
+        "rating": 7.135135173797607,
         "season": 1,
         "runtime": 34,
         "overview": "We follow Anthony's first day as a temp as he helps prep for the company's annual retreat by wrapping up loose ends at the office and welcoming the company to their idyllic off-site.",
         "number_abs": null,
-        "updated_at": "2026-03-21T08:47:39.000Z",
+        "updated_at": "2026-03-22T22:16:37.000Z",
         "first_aired": "2026-03-20T04:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
@@ -124,19 +214,19 @@
           "trakt": 13625002
         },
         "title": "Obsession",
-        "votes": 37,
+        "votes": 38,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/625/002/screenshots/medium/78da413081.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.513513565063477,
+        "rating": 7.526315689086914,
         "season": 1,
         "runtime": 48,
         "overview": "Carolyn suffers the consequences of being a public figure; tensions rise between Carolyn and John's family.",
         "number_abs": null,
-        "updated_at": "2026-03-21T06:52:13.000Z",
+        "updated_at": "2026-03-22T16:14:36.000Z",
         "first_aired": "2026-03-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,115 +246,25 @@
           "trakt": 13625001
         },
         "title": "The Wedding",
-        "votes": 73,
+        "votes": 76,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/625/001/screenshots/medium/11a142e231.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.49315071105957,
+        "rating": 7.473684310913086,
         "season": 1,
         "runtime": 59,
         "overview": "As press spreads of their altercation, John and Carolyn prepare for their big day. Ann voices her concerns.",
         "number_abs": null,
-        "updated_at": "2026-03-21T06:52:13.000Z",
+        "updated_at": "2026-03-22T15:34:54.000Z",
         "first_aired": "2026-03-06T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 1,
         "during_credits": false,
         "original_title": "The Wedding",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Paradise",
-      "year": 2025,
-      "ids": {
-        "trakt": 225096,
-        "slug": "paradise-2025",
-        "tvdb": 454565,
-        "imdb": "tt27444205",
-        "tmdb": 245927,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 14,
-      "completed": 8,
-      "hidden": 0,
-      "last_watched_at": "2025-03-16T01:59:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 8,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35856965",
-          "plex": {
-            "guid": "693716a94ae2129de4af23b4"
-          },
-          "tmdb": 6745017,
-          "tvdb": 11091185,
-          "trakt": 13791973
-        },
-        "title": "Graceland",
-        "votes": 749,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.6675567626953125,
-        "season": 2,
-        "runtime": 60,
-        "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
-        "number_abs": null,
-        "updated_at": "2026-03-20T19:58:02.000Z",
-        "first_aired": "2026-02-23T05:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 19,
-        "during_credits": false,
-        "original_title": "Graceland",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt32459859",
-          "plex": {
-            "guid": "67519b07c99ec5c314252fea"
-          },
-          "tmdb": 5813222,
-          "tvdb": 10849781,
-          "trakt": 12565676
-        },
-        "title": "The Man Who Kept the Secrets",
-        "votes": 1556,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/565/676/screenshots/medium/47977de356.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 7.790488243103027,
-        "season": 1,
-        "runtime": 46,
-        "overview": "Xavier and Robinson race to find President Bradford\u2019s murderer before it's too late.",
-        "number_abs": null,
-        "updated_at": "2026-03-20T19:16:28.000Z",
-        "first_aired": "2025-03-04T05:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 30,
-        "during_credits": false,
-        "original_title": "The Man Who Kept the Secrets",
         "available_translations": []
       }
     }
@@ -304,19 +304,19 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 635,
+        "votes": 636,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.949606418609619,
+        "rating": 7.9528303146362305,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-03-21T04:03:01.000Z",
+        "updated_at": "2026-03-23T01:08:18.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -348,7 +348,7 @@
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "number_abs": null,
-        "updated_at": "2026-03-20T22:11:05.000Z",
+        "updated_at": "2026-03-22T15:46:46.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
