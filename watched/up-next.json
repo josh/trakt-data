@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Love Story",
+      "year": 2026,
+      "ids": {
+        "trakt": 185998,
+        "slug": "love-story-2026",
+        "tvdb": 408694,
+        "imdb": "tt15232564",
+        "tmdb": 131142,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 7,
+      "hidden": 0,
+      "last_watched_at": "2026-03-23T05:01:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 7,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37304293",
+          "plex": {
+            "guid": "684f79489d2b3e099bd77286"
+          },
+          "tmdb": 6888357,
+          "tvdb": 11612238,
+          "trakt": 13625003
+        },
+        "title": "Exit Strategy",
+        "votes": 25,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/003/screenshots/medium/00082f82c0.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.199999809265137,
+        "season": 1,
+        "runtime": 42,
+        "overview": "Tensions boil over after John and Carolyn discover devastating news.",
+        "number_abs": null,
+        "updated_at": "2026-03-23T02:53:18.000Z",
+        "first_aired": "2026-03-20T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Exit Strategy",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt37304292",
+          "plex": {
+            "guid": "684f79489d2b3e099bd77283"
+          },
+          "tmdb": 6888356,
+          "tvdb": 11612237,
+          "trakt": 13625002
+        },
+        "title": "Obsession",
+        "votes": 39,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/625/002/screenshots/medium/78da413081.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.487179279327393,
+        "season": 1,
+        "runtime": 48,
+        "overview": "Carolyn suffers the consequences of being a public figure; tensions rise between Carolyn and John's family.",
+        "number_abs": null,
+        "updated_at": "2026-03-23T04:00:12.000Z",
+        "first_aired": "2026-03-13T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Obsession",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Paradise",
       "year": 2025,
       "ids": {
@@ -13,7 +103,7 @@
       }
     },
     "progress": {
-      "aired": 14,
+      "aired": 15,
       "completed": 9,
       "hidden": 0,
       "last_watched_at": "2026-03-23T03:58:00.000Z",
@@ -66,19 +156,19 @@
           "trakt": 13791973
         },
         "title": "Graceland",
-        "votes": 762,
+        "votes": 763,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/973/screenshots/medium/3cf87f72ac.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.664041996002197,
+        "rating": 7.665792942047119,
         "season": 2,
         "runtime": 60,
         "overview": "Annie is a tour guide in Memphis, TN when the world ends. Her survival in the ensuing years after The Day is revealed as well as her encounter with a traveling group of survivors.",
         "number_abs": null,
-        "updated_at": "2026-03-23T02:23:32.000Z",
+        "updated_at": "2026-03-23T04:25:53.000Z",
         "first_aired": "2026-02-23T05:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -124,19 +214,19 @@
           "trakt": 14000894
         },
         "title": "Team Building",
-        "votes": 27,
+        "votes": 28,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/000/894/screenshots/medium/901c1a2b74.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.259259223937988,
+        "rating": 7.142857074737549,
         "season": 1,
         "runtime": 29,
         "overview": "Newly-elevated to \"Captain Fun\", Anthony helps his co-workers navigate a stressful day of team-building exercises. Dougie leans on Anthony to help him look like CEO material.",
         "number_abs": null,
-        "updated_at": "2026-03-23T02:17:32.000Z",
+        "updated_at": "2026-03-23T03:54:57.000Z",
         "first_aired": "2026-03-20T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,115 +246,25 @@
           "trakt": 13960105
         },
         "title": "Onboarding",
-        "votes": 37,
+        "votes": 38,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/960/105/screenshots/medium/eccce95168.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.135135173797607,
+        "rating": 7.157894611358643,
         "season": 1,
         "runtime": 34,
         "overview": "We follow Anthony's first day as a temp as he helps prep for the company's annual retreat by wrapping up loose ends at the office and welcoming the company to their idyllic off-site.",
         "number_abs": null,
-        "updated_at": "2026-03-22T22:16:37.000Z",
+        "updated_at": "2026-03-23T03:42:36.000Z",
         "first_aired": "2026-03-20T04:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Onboarding",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Love Story",
-      "year": 2026,
-      "ids": {
-        "trakt": 185998,
-        "slug": "love-story-2026",
-        "tvdb": 408694,
-        "imdb": "tt15232564",
-        "tmdb": 131142,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 6,
-      "hidden": 0,
-      "last_watched_at": "2026-03-12T22:00:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 6,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt37304292",
-          "plex": {
-            "guid": "684f79489d2b3e099bd77283"
-          },
-          "tmdb": 6888356,
-          "tvdb": 11612237,
-          "trakt": 13625002
-        },
-        "title": "Obsession",
-        "votes": 38,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/625/002/screenshots/medium/78da413081.jpg.webp"
-          ]
-        },
-        "number": 7,
-        "rating": 7.526315689086914,
-        "season": 1,
-        "runtime": 48,
-        "overview": "Carolyn suffers the consequences of being a public figure; tensions rise between Carolyn and John's family.",
-        "number_abs": null,
-        "updated_at": "2026-03-22T16:14:36.000Z",
-        "first_aired": "2026-03-13T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Obsession",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37304291",
-          "plex": {
-            "guid": "684f79489d2b3e099bd77280"
-          },
-          "tmdb": 6888355,
-          "tvdb": 11612236,
-          "trakt": 13625001
-        },
-        "title": "The Wedding",
-        "votes": 76,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/625/001/screenshots/medium/11a142e231.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.473684310913086,
-        "season": 1,
-        "runtime": 59,
-        "overview": "As press spreads of their altercation, John and Carolyn prepare for their big day. Ann voices her concerns.",
-        "number_abs": null,
-        "updated_at": "2026-03-22T15:34:54.000Z",
-        "first_aired": "2026-03-06T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "The Wedding",
         "available_translations": []
       }
     }
@@ -316,7 +316,7 @@
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-03-23T01:08:18.000Z",
+        "updated_at": "2026-03-23T04:08:55.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
