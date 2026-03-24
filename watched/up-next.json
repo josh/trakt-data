@@ -14,16 +14,48 @@
     },
     "progress": {
       "aired": 15,
-      "completed": 10,
+      "completed": 11,
       "hidden": 0,
-      "last_watched_at": "2026-03-24T04:10:00.000Z",
+      "last_watched_at": "2026-03-24T05:08:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 10,
+        "play_count": 11,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38876069",
+          "plex": {
+            "guid": "693716a84ae2129de4af23b1"
+          },
+          "tmdb": 6745136,
+          "tvdb": 11230709,
+          "trakt": 13791976
+        },
+        "title": "A Holy Charge",
+        "votes": 618,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/791/976/screenshots/medium/c38101c664.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.868932247161865,
+        "season": 2,
+        "runtime": 54,
+        "overview": "Xavier and Annie travel to Atlanta, contrasting life in this new world and the one he left behind in the bunker.",
+        "number_abs": null,
+        "updated_at": "2026-03-24T04:00:55.000Z",
+        "first_aired": "2026-03-02T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 23,
+        "during_credits": false,
+        "original_title": "A Holy Charge",
+        "available_translations": []
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt38876066",
           "plex": {
@@ -53,38 +85,6 @@
         "comment_count": 11,
         "during_credits": false,
         "original_title": "Another Day in Paradise",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37913713",
-          "plex": {
-            "guid": "693716a84ae2129de4af23b3"
-          },
-          "tmdb": 6745134,
-          "tvdb": 11162580,
-          "trakt": 13791974
-        },
-        "title": "Mayday",
-        "votes": 667,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/791/974/screenshots/medium/25c2a0e782.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.314842700958252,
-        "season": 2,
-        "runtime": 46,
-        "overview": "Xavier battles the elements and other threats as he follows a broadcast to Atlanta in search of his wife, Teri.",
-        "number_abs": null,
-        "updated_at": "2026-03-23T23:50:50.000Z",
-        "first_aired": "2026-02-23T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 13,
-        "during_credits": false,
-        "original_title": "Mayday",
         "available_translations": []
       }
     }
@@ -316,7 +316,7 @@
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "number_abs": null,
-        "updated_at": "2026-03-24T01:24:48.000Z",
+        "updated_at": "2026-03-24T04:13:13.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
