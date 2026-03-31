@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Jury Duty Presents: Company Retreat",
+      "year": 2026,
+      "ids": {
+        "trakt": 315568,
+        "slug": "jury-duty-presents-company-retreat",
+        "tvdb": null,
+        "imdb": "tt39452132",
+        "tmdb": 312697,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 4,
+      "hidden": 0,
+      "last_watched_at": "2026-03-31T05:12:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 4,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "699ef1bd67d4df6046f74403"
+          },
+          "tmdb": 6939107,
+          "tvdb": 11583555,
+          "trakt": 14000897
+        },
+        "title": "Offsite",
+        "votes": 40,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/000/897/screenshots/medium/406870fe0a.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.25,
+        "season": 1,
+        "runtime": null,
+        "overview": "The sporting Dougcathalon that puts Rockin' Grandma's employees through their athletic paces is overshadowed by the arrival of Triukas, an external investment group.",
+        "number_abs": null,
+        "updated_at": "2026-03-31T01:02:09.000Z",
+        "first_aired": "2026-03-27T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Offsite",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "699ef1bd67d4df6046f74404"
+          },
+          "tmdb": 6939106,
+          "tvdb": 11583554,
+          "trakt": 14000896
+        },
+        "title": "Accountability",
+        "votes": 41,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/000/896/screenshots/medium/f0c56f8641.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 6.829268455505371,
+        "season": 1,
+        "runtime": null,
+        "overview": "Pool Day is ruined when the aftermath of the client cookout ultimately leads to Anthony and the Rockin' Grandma's gang having to conduct a search and rescue mission for one of their own employees.",
+        "number_abs": null,
+        "updated_at": "2026-03-30T22:56:03.000Z",
+        "first_aired": "2026-03-27T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Accountability",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Steal",
       "year": 2026,
       "ids": {
@@ -85,96 +175,6 @@
         "comment_count": 5,
         "during_credits": false,
         "original_title": "Fill or Kill",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Jury Duty Presents: Company Retreat",
-      "year": 2026,
-      "ids": {
-        "trakt": 315568,
-        "slug": "jury-duty-presents-company-retreat",
-        "tvdb": null,
-        "imdb": "tt39452132",
-        "tmdb": 312697,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 5,
-      "completed": 3,
-      "hidden": 0,
-      "last_watched_at": "2026-03-26T04:24:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 3,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "699ef1bd67d4df6046f74404"
-          },
-          "tmdb": 6939106,
-          "tvdb": 11583554,
-          "trakt": 14000896
-        },
-        "title": "Accountability",
-        "votes": 41,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/000/896/screenshots/medium/f0c56f8641.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 6.829268455505371,
-        "season": 1,
-        "runtime": null,
-        "overview": "Pool Day is ruined when the aftermath of the client cookout ultimately leads to Anthony and the Rockin' Grandma's gang having to conduct a search and rescue mission for one of their own employees.",
-        "number_abs": null,
-        "updated_at": "2026-03-30T22:56:03.000Z",
-        "first_aired": "2026-03-27T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Accountability",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "697b87d70552b2ab12573612"
-          },
-          "tmdb": 6939105,
-          "tvdb": 11583552,
-          "trakt": 14000895
-        },
-        "title": "Soft Launch",
-        "votes": 49,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/000/895/screenshots/medium/c60e177d07.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.591836929321289,
-        "season": 1,
-        "runtime": 32,
-        "overview": "It's time for the Client Cookout, a vital event for the company, its clients and vendors. Anthony helps Dougie Jr. debut a new sauce to impress his father and guests.",
-        "number_abs": null,
-        "updated_at": "2026-03-30T01:06:04.000Z",
-        "first_aired": "2026-03-20T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Soft Launch",
         "available_translations": []
       }
     }
@@ -304,19 +304,19 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 533,
+        "votes": 534,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.705440998077393,
+        "rating": 7.705992698669434,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "number_abs": null,
-        "updated_at": "2026-03-31T00:28:57.000Z",
+        "updated_at": "2026-03-31T03:54:18.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

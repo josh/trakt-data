@@ -1,5 +1,50 @@
 [
   {
+    "plays": 4,
+    "last_watched_at": "2026-03-31T05:12:00.000Z",
+    "last_updated_at": "2026-03-31T04:42:13.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Jury Duty Presents: Company Retreat",
+      "year": 2026,
+      "ids": {
+        "trakt": 315568,
+        "slug": "jury-duty-presents-company-retreat",
+        "tvdb": null,
+        "imdb": "tt39452132",
+        "tmdb": 312697,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-03-21T04:52:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-03-26T03:49:00.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2026-03-26T04:24:00.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2026-03-31T05:12:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 16,
     "last_watched_at": "2026-03-31T03:47:00.000Z",
     "last_updated_at": "2026-03-31T02:53:55.000Z",
@@ -3894,46 +3939,6 @@
             "number": 9,
             "plays": 1,
             "last_watched_at": "2026-03-28T08:58:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 3,
-    "last_watched_at": "2026-03-26T04:24:00.000Z",
-    "last_updated_at": "2026-03-26T03:52:43.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Jury Duty Presents: Company Retreat",
-      "year": 2026,
-      "ids": {
-        "trakt": 315568,
-        "slug": "jury-duty-presents-company-retreat",
-        "tvdb": null,
-        "imdb": "tt39452132",
-        "tmdb": 312697,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-03-21T04:52:00.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2026-03-26T03:49:00.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2026-03-26T04:24:00.000Z"
           }
         ]
       }
