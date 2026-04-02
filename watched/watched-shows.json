@@ -1,5 +1,45 @@
 [
   {
+    "plays": 3,
+    "last_watched_at": "2026-04-02T05:55:00.000Z",
+    "last_updated_at": "2026-04-02T05:06:09.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Steal",
+      "year": 2026,
+      "ids": {
+        "trakt": 239320,
+        "slug": "steal-2026",
+        "tvdb": 449950,
+        "imdb": "tt32499731",
+        "tmdb": 254071,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-03-31T02:41:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-04-01T04:31:00.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2026-04-02T05:55:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 1,
     "last_watched_at": "2026-04-02T04:53:00.000Z",
     "last_updated_at": "2026-04-02T04:19:28.000Z",
@@ -94,41 +134,6 @@
             "number": 9,
             "plays": 1,
             "last_watched_at": "2026-04-01T16:35:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 2,
-    "last_watched_at": "2026-04-01T04:31:00.000Z",
-    "last_updated_at": "2026-04-01T03:45:04.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Steal",
-      "year": 2026,
-      "ids": {
-        "trakt": 239320,
-        "slug": "steal-2026",
-        "tvdb": 449950,
-        "imdb": "tt32499731",
-        "tmdb": 254071,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-03-31T02:41:00.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2026-04-01T04:31:00.000Z"
           }
         ]
       }

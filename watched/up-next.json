@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Steal",
+      "year": 2026,
+      "ids": {
+        "trakt": 239320,
+        "slug": "steal-2026",
+        "tvdb": 449950,
+        "imdb": "tt32499731",
+        "tmdb": 254071,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2026-04-02T05:55:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32741837",
+          "plex": {
+            "guid": "692ab7a5bccbd3a58efe3c69"
+          },
+          "tmdb": 6702823,
+          "tvdb": 11469543,
+          "trakt": 13739746
+        },
+        "title": "Risk On",
+        "votes": 450,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/739/746/screenshots/medium/8493b12f7b.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.275555610656738,
+        "season": 1,
+        "runtime": 53,
+        "overview": "Zara makes a dangerous alliance to uncover the truth about the heist. A revelation about the missing Lochmill money puts Rhys in conflict with powerful figures.",
+        "number_abs": null,
+        "updated_at": "2026-04-01T20:05:33.000Z",
+        "first_aired": "2026-01-21T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 5,
+        "during_credits": false,
+        "original_title": "Risk On",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32741832",
+          "plex": {
+            "guid": "692ab7a5bccbd3a58efe3c68"
+          },
+          "tmdb": 5337597,
+          "tvdb": 11469542,
+          "trakt": 11854974
+        },
+        "title": "Short Run",
+        "votes": 470,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/854/974/screenshots/medium/0453c4175b.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.387234210968018,
+        "season": 1,
+        "runtime": 49,
+        "overview": "A flashback shows more of Zara and Luke's lives pre-heist. Present day, Zara finds herself in a high-stakes situation. Running out of options, she makes a risky choice.",
+        "number_abs": null,
+        "updated_at": "2026-04-01T21:01:27.000Z",
+        "first_aired": "2026-01-21T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Short Run",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Rooster",
       "year": 2026,
       "ids": {
@@ -85,96 +175,6 @@
         "comment_count": 10,
         "during_credits": false,
         "original_title": "Release the Brown Fat",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Steal",
-      "year": 2026,
-      "ids": {
-        "trakt": 239320,
-        "slug": "steal-2026",
-        "tvdb": 449950,
-        "imdb": "tt32499731",
-        "tmdb": 254071,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 2,
-      "hidden": 0,
-      "last_watched_at": "2026-04-01T04:31:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 2,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt32741832",
-          "plex": {
-            "guid": "692ab7a5bccbd3a58efe3c68"
-          },
-          "tmdb": 5337597,
-          "tvdb": 11469542,
-          "trakt": 11854974
-        },
-        "title": "Short Run",
-        "votes": 470,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/854/974/screenshots/medium/0453c4175b.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.387234210968018,
-        "season": 1,
-        "runtime": 49,
-        "overview": "A flashback shows more of Zara and Luke's lives pre-heist. Present day, Zara finds herself in a high-stakes situation. Running out of options, she makes a risky choice.",
-        "number_abs": null,
-        "updated_at": "2026-04-01T21:01:27.000Z",
-        "first_aired": "2026-01-21T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "Short Run",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt32741830",
-          "plex": {
-            "guid": "663f62b3be761301f87d7dd5"
-          },
-          "tmdb": 5337596,
-          "tvdb": 11469541,
-          "trakt": 11854973
-        },
-        "title": "Face Value",
-        "votes": 513,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/854/973/screenshots/medium/ad9659362f.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.440546035766602,
-        "season": 1,
-        "runtime": 46,
-        "overview": "In the aftermath of the heist, Zara finds herself under intense pressure as Luke breaks down. DCI Rhys meets unexpected resistance on the investigation.",
-        "number_abs": null,
-        "updated_at": "2026-04-01T22:09:54.000Z",
-        "first_aired": "2026-01-21T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 5,
-        "during_credits": false,
-        "original_title": "Face Value",
         "available_translations": []
       }
     }
