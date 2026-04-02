@@ -210,7 +210,7 @@
       },
       "year": 2026,
       "title": "Mike & Nick & Nick & Alice",
-      "votes": 747,
+      "votes": 751,
       "colors": {
         "poster": [
           "#E5C0B9",
@@ -242,7 +242,7 @@
           "media.trakt.tv/images/movies/000/897/563/cleararts/medium/3cac892f8c.png.webp"
         ]
       },
-      "rating": 6.681392192840576,
+      "rating": 6.684420585632324,
       "status": "released",
       "country": "us",
       "runtime": 107,
@@ -396,7 +396,7 @@
       },
       "year": 2026,
       "title": "\"Wuthering Heights\"",
-      "votes": 1309,
+      "votes": 1311,
       "colors": {
         "poster": [
           "#EBE3DD",
@@ -425,7 +425,7 @@
         ],
         "clearart": []
       },
-      "rating": 6.268143653869629,
+      "rating": 6.268497467041016,
       "status": "released",
       "country": "gb",
       "runtime": 136,
@@ -513,7 +513,7 @@
       },
       "year": 2026,
       "title": "Crime 101",
-      "votes": 1252,
+      "votes": 1264,
       "colors": {
         "poster": [
           "#DAD5C3",
@@ -544,7 +544,7 @@
           "media.trakt.tv/images/movies/000/944/042/cleararts/medium/56bdc0bdc5.png.webp"
         ]
       },
-      "rating": 7.094249248504639,
+      "rating": 7.0886077880859375,
       "status": "released",
       "country": "gb",
       "runtime": 141,
@@ -712,6 +712,100 @@
         "sv",
         "th",
         "tr",
+        "uk",
+        "zh"
+      ]
+    }
+  },
+  {
+    "rank": 8,
+    "id": 1452167490,
+    "listed_at": "2026-04-02T04:18:25.000Z",
+    "notes": null,
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt32420734",
+        "plex": {
+          "guid": "664c912d9ecccd2ff053cd86",
+          "slug": "rooster"
+        },
+        "slug": "rooster",
+        "tmdb": 254953,
+        "tvdb": 457770,
+        "trakt": 240718
+      },
+      "airs": {
+        "day": "Sunday",
+        "time": "22:00",
+        "timezone": "America/New_York"
+      },
+      "year": 2026,
+      "title": "Rooster",
+      "votes": 132,
+      "colors": {
+        "poster": [
+          "#BBA998",
+          "#453E33"
+        ]
+      },
+      "genres": [
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/shows/000/240/718/logos/medium/d84dd758de.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/shows/000/240/718/fanarts/medium/2b9c17fddf.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/shows/000/240/718/posters/medium/c08ac5592a.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.204545497894287,
+      "status": "returning series",
+      "country": "us",
+      "network": "HBO",
+      "runtime": 30,
+      "tagline": "He's here to learn.",
+      "trailer": "https://youtube.com/watch?v=L00r5BGgP64",
+      "homepage": "https://www.hbo.com/content/rooster",
+      "language": "en",
+      "overview": "On a college campus, an author navigates a complicated relationship with his daughter.",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "father-daughter-relationship"
+      ],
+      "updated_at": "2026-04-01T15:55:12.000Z",
+      "first_aired": "2026-03-09T02:00:00.000Z",
+      "certification": "TV-MA",
+      "comment_count": 2,
+      "total_runtime": 130,
+      "aired_episodes": 4,
+      "original_title": "Rooster",
+      "available_translations": [
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "it",
+        "ko",
+        "lt",
+        "nl",
+        "pt",
+        "ru",
+        "th",
         "uk",
         "zh"
       ]
