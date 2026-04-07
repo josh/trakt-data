@@ -1,6 +1,96 @@
 [
   {
     "show": {
+      "title": "Rooster",
+      "year": 2026,
+      "ids": {
+        "trakt": 240718,
+        "slug": "rooster",
+        "tvdb": 457770,
+        "imdb": "tt32420734",
+        "tmdb": 254953,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2026-04-07T05:44:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32421101",
+          "plex": {
+            "guid": "69852196f56fa48aa57226cc"
+          },
+          "tmdb": 6919253,
+          "tvdb": 11597638,
+          "trakt": 13820604
+        },
+        "title": "White Whale",
+        "votes": 170,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/820/604/screenshots/medium/c291a5a93b.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.547059059143066,
+        "season": 1,
+        "runtime": 32,
+        "overview": "While Greg endures his first day of teaching at Ludlow, Katie struggles with her suspension. Later, Archie decides to help Sunny find a suitable advisor, and Dylan is presented with an unexpected new opportunity.",
+        "number_abs": null,
+        "updated_at": "2026-04-07T00:57:59.000Z",
+        "first_aired": "2026-03-23T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "White Whale",
+        "available_translations": []
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32421099",
+          "plex": {
+            "guid": "69852196f56fa48aa57226cb"
+          },
+          "tmdb": 6919252,
+          "tvdb": 11597637,
+          "trakt": 13820602
+        },
+        "title": "Trousers",
+        "votes": 205,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/820/602/screenshots/medium/d445c600d9.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.546341419219971,
+        "season": 1,
+        "runtime": 30,
+        "overview": "When Katie's future at Ludlow is thrown into question, Walt offers Greg a deal to keep them both on campus.",
+        "number_abs": null,
+        "updated_at": "2026-04-06T23:47:33.000Z",
+        "first_aired": "2026-03-16T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 7,
+        "during_credits": false,
+        "original_title": "Trousers",
+        "available_translations": []
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Steal",
       "year": 2026,
       "ids": {
@@ -91,96 +181,6 @@
   },
   {
     "show": {
-      "title": "Rooster",
-      "year": 2026,
-      "ids": {
-        "trakt": 240718,
-        "slug": "rooster",
-        "tvdb": 457770,
-        "imdb": "tt32420734",
-        "tmdb": 254953,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 5,
-      "completed": 1,
-      "hidden": 0,
-      "last_watched_at": "2026-04-02T04:53:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 1,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt32421099",
-          "plex": {
-            "guid": "69852196f56fa48aa57226cb"
-          },
-          "tmdb": 6919252,
-          "tvdb": 11597637,
-          "trakt": 13820602
-        },
-        "title": "Trousers",
-        "votes": 205,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/820/602/screenshots/medium/d445c600d9.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.546341419219971,
-        "season": 1,
-        "runtime": 30,
-        "overview": "When Katie's future at Ludlow is thrown into question, Walt offers Greg a deal to keep them both on campus.",
-        "number_abs": null,
-        "updated_at": "2026-04-06T23:47:33.000Z",
-        "first_aired": "2026-03-16T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 7,
-        "during_credits": false,
-        "original_title": "Trousers",
-        "available_translations": []
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt32421100",
-          "plex": {
-            "guid": "664c912e9ecccd2ff053cd9e"
-          },
-          "tmdb": 5361070,
-          "tvdb": 10972447,
-          "trakt": 11891770
-        },
-        "title": "Release the Brown Fat",
-        "votes": 250,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/891/770/screenshots/medium/552ae45ed0.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.303999900817871,
-        "season": 1,
-        "runtime": 34,
-        "overview": "Writer Greg Russo arrives at Ludlow College to support his daughter Katie as her marriage begins to implode.",
-        "number_abs": null,
-        "updated_at": "2026-04-07T01:36:52.000Z",
-        "first_aired": "2026-03-09T02:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 10,
-        "during_credits": false,
-        "original_title": "Release the Brown Fat",
-        "available_translations": []
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Daredevil: Born Again",
       "year": 2025,
       "ids": {
@@ -214,19 +214,19 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 673,
+        "votes": 674,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.735512733459473,
+        "rating": 7.72848653793335,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "number_abs": null,
-        "updated_at": "2026-04-07T02:37:02.000Z",
+        "updated_at": "2026-04-07T04:56:34.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
