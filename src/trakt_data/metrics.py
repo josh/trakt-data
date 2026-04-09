@@ -819,6 +819,8 @@ def _generate_up_next_show_metrics(
             episode_aired=episode_aired,
             completed=completed_str,
         ).inc()
+        episode_runtime = episode.get("runtime") or 0
+
         _TRAKT_SHOW_PROGRESS_MINUTES.labels(
             show=trakt_show_slug,
             year=year_str,
@@ -826,7 +828,7 @@ def _generate_up_next_show_metrics(
             season_aired=season_aired,
             episode_aired=episode_aired,
             completed=completed_str,
-        ).inc(episode["runtime"])
+        ).inc(episode_runtime)
 
 
 def _generate_up_next_metrics(ctx: Context) -> None:
