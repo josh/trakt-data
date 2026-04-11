@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2026-04-11T06:18:55.000Z",
+    "rating": 3,
+    "type": "movie",
+    "movie": {
+      "title": "\"Wuthering Heights\"",
+      "year": 2026,
+      "ids": {
+        "trakt": 1077273,
+        "slug": "wuthering-heights-2026",
+        "imdb": "tt32897959",
+        "tmdb": 1316092
+      }
+    }
+  },
+  {
     "rated_at": "2026-04-02T06:21:46.000Z",
     "rating": 6,
     "type": "movie",
@@ -634,11 +649,11 @@
     "rating": 8,
     "type": "movie",
     "movie": {
-      "title": "The Shitheads",
+      "title": "Idiots",
       "year": 2026,
       "ids": {
         "trakt": 292262,
-        "slug": "the-shitheads-2026",
+        "slug": "idiots-2026",
         "imdb": "tt6628920",
         "tmdb": 445466
       }
@@ -1058,7 +1073,7 @@
       "year": 2025,
       "ids": {
         "trakt": 1020977,
-        "slug": "eternity-2025-11-26",
+        "slug": "eternity-2025",
         "imdb": "tt24950660",
         "tmdb": 1259102
       }
@@ -5183,7 +5198,7 @@
       "year": 2024,
       "ids": {
         "trakt": 663482,
-        "slug": "tuesday-2024-06-07",
+        "slug": "tuesday-2024",
         "imdb": "tt14682800",
         "tmdb": 831395
       }
@@ -7223,7 +7238,7 @@
       "year": 2023,
       "ids": {
         "trakt": 715473,
-        "slug": "silent-night-2023-12-01",
+        "slug": "silent-night-2023",
         "imdb": "tt15799866",
         "tmdb": 891699
       }
@@ -9653,7 +9668,7 @@
       "year": 2023,
       "ids": {
         "trakt": 565907,
-        "slug": "robots-2023-05-19",
+        "slug": "robots-2023",
         "imdb": "tt12579470",
         "tmdb": 723347
       }
@@ -9998,7 +10013,7 @@
       "year": 2023,
       "ids": {
         "trakt": 770031,
-        "slug": "inside-2023-03-09",
+        "slug": "inside-2023",
         "imdb": "tt14781036",
         "tmdb": 958196
       }
