@@ -32,7 +32,7 @@ scripts.trakt-data = "trakt_data:cli.main"
 dev = [
     "mypy>=1,<2",
     "ruff>=0.4,<2",
-    "types-requests>=2.32,<3",
+    "types-requests>=2.33.0.20260327,<3",
 ]
 
 [tool.ruff]
