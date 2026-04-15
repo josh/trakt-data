@@ -218,7 +218,7 @@
       },
       "year": 2026,
       "title": "Crime 101",
-      "votes": 3947,
+      "votes": 3951,
       "colors": {
         "poster": [
           "#DAD5C3",
@@ -249,7 +249,7 @@
           "media.trakt.tv/images/movies/000/944/042/cleararts/medium/56bdc0bdc5.png.webp"
         ]
       },
-      "rating": 7.062832355499268,
+      "rating": 7.062515735626221,
       "status": "released",
       "country": "gb",
       "runtime": 141,
@@ -544,6 +544,106 @@
     "type": "show",
     "show": {
       "ids": {
+        "imdb": "tt36614693",
+        "plex": {
+          "guid": "68062821b4cdef2a98a5daa6",
+          "slug": "wwe-unreal"
+        },
+        "slug": "wwe-unreal",
+        "tmdb": 289485,
+        "tvdb": 462799,
+        "trakt": 283118
+      },
+      "airs": {
+        "day": "Tuesday",
+        "time": "03:00",
+        "timezone": "America/New_York"
+      },
+      "year": 2025,
+      "title": "WWE: Unreal",
+      "votes": 238,
+      "colors": {
+        "poster": [
+          "#B3997D",
+          "#554739"
+        ]
+      },
+      "genres": [
+        "documentary"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/shows/000/283/118/logos/medium/c8cfefe8bb.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/shows/000/283/118/fanarts/medium/4c08ac427e.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/shows/000/283/118/posters/medium/1d4b0abd7f.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.647058963775635,
+      "status": "returning series",
+      "country": "us",
+      "network": "Netflix",
+      "runtime": 60,
+      "tagline": "It's more real than you think.",
+      "trailer": "https://youtube.com/watch?v=FfE8LC_FVLA",
+      "homepage": "https://www.netflix.com/title/81928921",
+      "language": "en",
+      "overview": "From Monday Night RAW to WrestleMania, this series goes backstage with WWE Superstars and staff as they bring the company's biggest spectacles to life.",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "behind-the-scenes"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": "wwe_on_netflix",
+        "wikipedia": "WWE_Unreal"
+      },
+      "updated_at": "2026-04-14T18:31:48.000Z",
+      "first_aired": "2025-07-29T07:00:00.000Z",
+      "certification": "TV-MA",
+      "comment_count": 2,
+      "total_runtime": 564,
+      "aired_episodes": 10,
+      "original_title": "WWE: Unreal",
+      "available_translations": [
+        "cs",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "it",
+        "ko",
+        "nl",
+        "pl",
+        "pt",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    },
+    "rank": 8,
+    "id": 1457448468,
+    "listed_at": "2026-04-15T05:50:22.000Z",
+    "notes": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
         "imdb": "tt30459041",
         "plex": {
           "guid": "657dc33ef513062f56b44a23",
@@ -676,7 +776,7 @@
       },
       "year": 2026,
       "title": "The Yeti",
-      "votes": 50,
+      "votes": 51,
       "colors": {
         "poster": [
           "#A8A67D",
@@ -699,7 +799,7 @@
         ],
         "clearart": []
       },
-      "rating": 5.159999847412109,
+      "rating": 5.176470756530762,
       "status": "released",
       "country": "us",
       "runtime": 93,
