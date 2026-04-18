@@ -1,5 +1,40 @@
 [
   {
+    "plays": 2,
+    "last_watched_at": "2026-04-18T06:07:00.000Z",
+    "last_updated_at": "2026-04-18T05:14:04.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "WWE: Unreal",
+      "year": 2025,
+      "ids": {
+        "trakt": 283118,
+        "slug": "wwe-unreal",
+        "tvdb": 462799,
+        "imdb": "tt36614693",
+        "tmdb": 289485,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-04-15T06:45:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-04-18T06:07:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 12,
     "last_watched_at": "2026-04-18T05:02:00.000Z",
     "last_updated_at": "2026-04-18T04:09:23.000Z",
@@ -84,36 +119,6 @@
             "number": 3,
             "plays": 1,
             "last_watched_at": "2026-04-18T05:02:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 1,
-    "last_watched_at": "2026-04-15T06:45:00.000Z",
-    "last_updated_at": "2026-04-15T05:50:14.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "WWE: Unreal",
-      "year": 2025,
-      "ids": {
-        "trakt": 283118,
-        "slug": "wwe-unreal",
-        "tvdb": 462799,
-        "imdb": "tt36614693",
-        "tmdb": 289485,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-04-15T06:45:00.000Z"
           }
         ]
       }
