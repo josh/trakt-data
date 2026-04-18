@@ -47,14 +47,15 @@
         "overview": "At the Royal Rumble, Cody Rhodes seeks to defend his Championship title \u2014 at any cost. Former Tag Team champion Jey Uso savors the solo spotlight.",
         "released": null,
         "number_abs": null,
-        "updated_at": "2026-04-15T01:30:11.000Z",
+        "updated_at": "2026-04-17T06:16:34.000Z",
         "first_aired": "2025-07-29T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Episode 2: Push",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2025-07-29T07:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -74,20 +75,117 @@
           ]
         },
         "number": 1,
-        "rating": 7.6565656661987305,
+        "rating": 7.656569957733154,
         "season": 1,
         "runtime": 55,
         "overview": "The road to WrestleMania begins as RAW makes its Netflix debut. Superstars John Cena, Rhea Ripley and CM Punk reflect on their careers and characters.",
         "released": null,
         "number_abs": null,
-        "updated_at": "2026-04-14T17:18:58.000Z",
+        "updated_at": "2026-04-18T02:13:00.000Z",
         "first_aired": "2025-07-29T07:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
         "original_title": "Episode 1: New Era",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2025-07-29T07:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 726,
+      "completed": 725,
+      "hidden": 0,
+      "last_watched_at": "2026-04-11T05:26:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 727,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "69d2578c6ccd72eb0e97f446"
+          },
+          "tmdb": 7112150,
+          "tvdb": null,
+          "trakt": 14094730
+        },
+        "title": "April 17, 2026: Kara Swisher, Rahm Emanuel, Jake Sullivan",
+        "votes": 0,
+        "images": {
+          "screenshot": []
+        },
+        "number": 11,
+        "rating": 0,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with Kara Swisher, award-winning podcast host, executive producer, and host of the new CNN Original Series \"Kara Swisher Wants to Live Forever.\" This week's panel discussion includes Rahm Emanuel,former White House Chief of Staff, Chicago mayor, and U.S. Ambassador to Japan under President Biden; and Jake Sullivan, co-host of \"The Long Game\" podcast, professor at Harvard's John F. Kennedy School of Government, and former U.S. National Security Advisor under President Biden.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-04-18T04:00:18.000Z",
+        "first_aired": "2026-04-18T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "April 17, 2026: Kara Swisher, Rahm Emanuel, Jake Sullivan",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-04-18T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "699cda71b260f06660184411"
+          },
+          "tmdb": 6995267,
+          "tvdb": null,
+          "trakt": 14034671
+        },
+        "title": "April 10, 2026: Dr. Ezekiel Emanuel, Douglas Murray, Paul Rieckhoff",
+        "votes": 26,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/034/671/screenshots/medium/d209af3ab2.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 6.615379810333252,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with Dr. Ezekiel Emanuel, bioethicist, oncologist, and New York Times bestselling author of the book \"Eat Your Ice Cream: Six Simple Rules for a Long and Healthy Life.\" This week's panel discussion includes Douglas Murray, New York Post contributor and bestselling author of the book \"On Democracies and Death Cults: Israel and the Future of Civilization\"; and Paul Rieckhoff, national security and political analyst, founder of Independent Veterans of America (IVA), and host of the podcast \"Independent Americans with Paul Rieckhoff.\"",
+        "released": "2026-04-10",
+        "number_abs": null,
+        "updated_at": "2026-04-17T23:27:31.000Z",
+        "first_aired": "2026-04-11T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "April 10, 2026: Dr. Ezekiel Emanuel, Douglas Murray, Paul Rieckhoff",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-04-11T02:00:00.000Z"
       }
     }
   },
@@ -105,7 +203,7 @@
       }
     },
     "progress": {
-      "aired": 38,
+      "aired": 39,
       "completed": 37,
       "hidden": 0,
       "last_watched_at": "2025-06-05T04:17:00.000Z",
@@ -126,27 +224,28 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 120,
+        "votes": 132,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.758333206176758,
+        "rating": 7.704545497894287,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-04-15T05:53:57.000Z",
+        "updated_at": "2026-04-18T02:11:56.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 6,
         "during_credits": false,
         "original_title": "EGOT",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2026-04-10T01:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -159,27 +258,28 @@
           "trakt": 12896628
         },
         "title": "Heaven",
-        "votes": 375,
+        "votes": 376,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/896/628/screenshots/medium/49c7367315.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.802666664123535,
+        "rating": 7.803190231323242,
         "season": 4,
         "runtime": 31,
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-04-14T23:35:49.000Z",
+        "updated_at": "2026-04-18T03:13:59.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 13,
         "during_credits": false,
         "original_title": "Heaven",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2025-05-30T01:00:00.000Z"
       }
     }
   },
@@ -218,27 +318,28 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 756,
+        "votes": 784,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.7486772537231445,
+        "rating": 7.743622303009033,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-04-15T05:48:51.000Z",
+        "updated_at": "2026-04-18T00:52:55.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
         "comment_count": 22,
         "during_credits": false,
         "original_title": "The Northern Star",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2026-03-25T01:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -251,27 +352,28 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2028,
+        "votes": 2031,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.951183319091797,
+        "rating": 7.952732563018799,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-04-15T03:29:32.000Z",
+        "updated_at": "2026-04-17T23:57:52.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 76,
         "during_credits": false,
         "original_title": "Straight to Hell",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2025-04-16T01:00:00.000Z"
       }
     }
   },
@@ -310,27 +412,28 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 696,
+        "votes": 703,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.987069129943848,
+        "rating": 7.9871978759765625,
         "season": 3,
         "runtime": 63,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-04-15T03:56:07.000Z",
+        "updated_at": "2026-04-18T01:47:04.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
         "comment_count": 18,
         "during_credits": false,
         "original_title": "My Bad",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2026-01-28T02:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -343,27 +446,28 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1000,
+        "votes": 1002,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.420999526977539,
+        "rating": 8.422155380249023,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-04-14T20:48:15.000Z",
+        "updated_at": "2026-04-17T23:57:48.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 31,
         "during_credits": false,
         "original_title": "The Last Thanksgiving",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2024-12-24T02:00:00.000Z"
       }
     }
   },
@@ -381,7 +485,7 @@
       }
     },
     "progress": {
-      "aired": 34,
+      "aired": 35,
       "completed": 32,
       "hidden": 0,
       "last_watched_at": "2024-07-18T20:30:00.000Z",
@@ -402,27 +506,28 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 882,
+        "votes": 983,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.04648494720459,
+        "rating": 8.023397445678711,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-04-15T05:58:40.000Z",
+        "updated_at": "2026-04-18T04:45:29.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 34,
+        "comment_count": 38,
         "during_credits": false,
         "original_title": "Fifteen Inches of Sheer Dynamite",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2026-04-08T07:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -435,27 +540,154 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3206,
+        "votes": 3217,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.08203411102295,
+        "rating": 8.082685470581055,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-04-15T02:38:52.000Z",
+        "updated_at": "2026-04-18T00:43:19.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 79,
         "during_credits": false,
         "original_title": "Season Four Finale",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2024-07-18T07:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "BEEF",
+      "year": 2023,
+      "ids": {
+        "trakt": 197667,
+        "slug": "beef",
+        "tvdb": 399838,
+        "imdb": "tt14403178",
+        "tmdb": 154385,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2023-04-08T05:01:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 10,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32659314",
+          "plex": {
+            "guid": "6960fff06b1c29e3bc19c1ad"
+          },
+          "tmdb": 6824670,
+          "tvdb": 11545370,
+          "trakt": 13886046
+        },
+        "title": "All the Things We're Never Going to Have",
+        "votes": 80,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 6.900000095367432,
+        "season": 2,
+        "runtime": 43,
+        "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
+        "released": "2026-04-16",
+        "number_abs": null,
+        "updated_at": "2026-04-18T03:16:25.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "All the Things We're Never Going to Have",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt16265716",
+          "plex": {
+            "guid": "640ce851d7d42a069072f778"
+          },
+          "tmdb": 4290282,
+          "tvdb": 9663996,
+          "trakt": 7380154
+        },
+        "title": "Figures of Light",
+        "votes": 1093,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.85361385345459,
+        "season": 1,
+        "runtime": 34,
+        "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
+        "released": "2023-04-06",
+        "number_abs": null,
+        "updated_at": "2026-04-17T21:27:38.000Z",
+        "first_aired": "2023-04-06T07:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 21,
+        "during_credits": false,
+        "original_title": "Figures of Light",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2023-04-06T07:00:00.000Z"
       }
     }
   },
@@ -494,27 +726,28 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 225,
+        "votes": 296,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.817777633666992,
+        "rating": 6.746621608734131,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-04-15T05:57:39.000Z",
+        "updated_at": "2026-04-18T04:40:29.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 9,
+        "comment_count": 16,
         "during_credits": false,
         "original_title": "Andale",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2026-04-13T01:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -534,20 +767,21 @@
           ]
         },
         "number": 8,
-        "rating": 7.956204414367676,
+        "rating": 7.956934452056885,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-04-14T21:07:11.000Z",
+        "updated_at": "2026-04-17T21:13:27.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 35,
         "during_credits": false,
         "original_title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "available_translations": []
+        "available_translations": [],
+        "effective_release_date": "2022-02-28T02:00:00.000Z"
       }
     }
   }
