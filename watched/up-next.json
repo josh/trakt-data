@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "DTF St. Louis",
+      "year": 2026,
+      "ids": {
+        "trakt": 197136,
+        "slug": "dtf-st-louis",
+        "tvdb": 468739,
+        "imdb": "tt34385331",
+        "tmdb": 206828,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2026-04-23T05:53:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt34954430",
+          "plex": {
+            "guid": "694b4a86d02da485eb158dd4"
+          },
+          "tmdb": 6893547,
+          "tvdb": 11582464,
+          "trakt": 13955307
+        },
+        "title": "The Go Getter",
+        "votes": 183,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/955/307/screenshots/medium/fa046a37b0.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.262295246124268,
+        "season": 1,
+        "runtime": 50,
+        "overview": "When Detective Plumb discovers that Carol has lied about key details of her affair, she presses Homer to let her question Clark. Once in the hot seat, unsettling truths about Clark's relationships with both Floyd and Carol begin to come to light.",
+        "released": "2026-03-15",
+        "number_abs": null,
+        "updated_at": "2026-04-22T21:59:07.000Z",
+        "first_aired": "2026-03-16T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "The Go Getter",
+        "available_translations": [],
+        "effective_release_date": "2026-03-16T00:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt34954427",
+          "plex": {
+            "guid": "694b4a85d02da485eb158db7"
+          },
+          "tmdb": 6893546,
+          "tvdb": 11582463,
+          "trakt": 13955306
+        },
+        "title": "Snag It",
+        "votes": 191,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/955/306/screenshots/medium/918825f5f2.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.209424018859863,
+        "season": 1,
+        "runtime": 58,
+        "overview": "After meeting at the cornhole party, Clark quickly hits it off with Floyd's wife Carol. Later, detectives Homer and Plumb dig deeper into Clark's relationship with Carol \u2013 and Floyd's time on the DTF app.",
+        "released": "2026-03-08",
+        "number_abs": null,
+        "updated_at": "2026-04-22T21:38:37.000Z",
+        "first_aired": "2026-03-09T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Snag It",
+        "available_translations": [],
+        "effective_release_date": "2026-03-09T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "WWE: Unreal",
       "year": 2025,
       "ids": {
@@ -14,16 +108,50 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2026-04-18T06:07:00.000Z",
+      "last_watched_at": "2026-04-23T04:01:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt36614945",
+          "plex": {
+            "guid": "685ea76a07a79c18b32302ba"
+          },
+          "tmdb": 6339753,
+          "tvdb": 11215420,
+          "trakt": 13256987
+        },
+        "title": "Episode 4: Heel Turn",
+        "votes": 68,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/256/987/screenshots/medium/582435853a.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.058819770812988,
+        "season": 1,
+        "runtime": 51,
+        "overview": "What does it take to be a heel? After The Rock makes Cody Rhodes a game-changing offer, WWE writers devise a plot twist that leaves Cena fans breathless.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-04-23T00:17:25.000Z",
+        "first_aired": "2025-07-29T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Episode 4: Heel Turn",
+        "available_translations": [],
+        "effective_release_date": "2025-07-29T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt36614943",
           "plex": {
@@ -47,47 +175,13 @@
         "overview": "As Chelsea Green gets the title shot of her dreams, Charlotte Flair returns from injury at last. Bianca Belair seals her fate in the Elimination Chamber.",
         "released": null,
         "number_abs": null,
-        "updated_at": "2026-04-21T04:43:26.000Z",
+        "updated_at": "2026-04-22T14:09:00.000Z",
         "first_aired": "2025-07-29T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Episode 3: Worth the Wait",
-        "available_translations": [],
-        "effective_release_date": "2025-07-29T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt36614946",
-          "plex": {
-            "guid": "685ea76a07a79c18b32302bc"
-          },
-          "tmdb": 6339751,
-          "tvdb": 11096109,
-          "trakt": 13256985
-        },
-        "title": "Episode 2: Push",
-        "votes": 79,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/256/985/screenshots/medium/12157ff8a4.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.4936699867248535,
-        "season": 1,
-        "runtime": 53,
-        "overview": "At the Royal Rumble, Cody Rhodes seeks to defend his Championship title \u2014 at any cost. Former Tag Team champion Jey Uso savors the solo spotlight.",
-        "released": null,
-        "number_abs": null,
-        "updated_at": "2026-04-21T16:10:20.000Z",
-        "first_aired": "2025-07-29T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Episode 2: Push",
         "available_translations": [],
         "effective_release_date": "2025-07-29T07:00:00.000Z"
       }
@@ -128,20 +222,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 153,
+        "votes": 155,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.751634120941162,
+        "rating": 7.754838943481445,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-04-22T04:43:07.000Z",
+        "updated_at": "2026-04-22T17:25:14.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -175,7 +269,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-04-22T03:23:27.000Z",
+        "updated_at": "2026-04-23T01:16:07.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -222,20 +316,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 811,
+        "votes": 816,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.736128330230713,
+        "rating": 7.732842922210693,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-04-22T04:27:12.000Z",
+        "updated_at": "2026-04-23T08:42:49.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -256,20 +350,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2039,
+        "votes": 2042,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.953898906707764,
+        "rating": 7.9539666175842285,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-04-22T00:22:18.000Z",
+        "updated_at": "2026-04-23T06:43:25.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -316,20 +410,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 714,
+        "votes": 716,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.978991508483887,
+        "rating": 7.9818434715271,
         "season": 3,
         "runtime": 63,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-04-22T00:49:48.000Z",
+        "updated_at": "2026-04-23T03:24:15.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -350,20 +444,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1002,
+        "votes": 1003,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.422155380249023,
+        "rating": 8.422731399536133,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-04-21T21:18:49.000Z",
+        "updated_at": "2026-04-23T01:02:45.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -389,7 +483,7 @@
       }
     },
     "progress": {
-      "aired": 35,
+      "aired": 36,
       "completed": 32,
       "hidden": 0,
       "last_watched_at": "2024-07-18T20:30:00.000Z",
@@ -410,20 +504,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1087,
+        "votes": 1110,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
+            "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.013799667358398,
+        "rating": 8.006306648254395,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-04-22T03:35:37.000Z",
+        "updated_at": "2026-04-23T08:07:14.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -444,20 +538,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3229,
+        "votes": 3231,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.089191436767578,
+        "rating": 8.089755058288574,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-04-22T04:39:46.000Z",
+        "updated_at": "2026-04-23T01:13:18.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -504,24 +598,24 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 157,
+        "votes": 169,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.025477886199951,
+        "rating": 7.0532546043396,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-04-21T22:31:41.000Z",
+        "updated_at": "2026-04-23T06:02:21.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 3,
+        "comment_count": 4,
         "during_credits": false,
         "original_title": "All the Things We're Never Going to Have",
         "available_translations": [],
@@ -538,20 +632,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1097,
+        "votes": 1099,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.855970859527588,
+        "rating": 7.853503227233887,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-04-21T21:34:31.000Z",
+        "updated_at": "2026-04-22T21:35:19.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -630,20 +724,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 369,
+        "votes": 383,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.7317070960998535,
+        "rating": 6.7206268310546875,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-04-22T04:01:53.000Z",
+        "updated_at": "2026-04-23T10:19:32.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -677,7 +771,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-04-21T21:23:28.000Z",
+        "updated_at": "2026-04-22T21:26:03.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,

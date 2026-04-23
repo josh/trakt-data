@@ -51,7 +51,7 @@
           "media.trakt.tv/images/shows/000/004/395/cleararts/medium/98c81191da.png.webp"
         ]
       },
-      "rating": 6.868840217590332,
+      "rating": 6.867323875427246,
       "status": "returning series",
       "country": "us",
       "network": "HBO",
@@ -76,7 +76,7 @@
         "instagram": "realtimers",
         "wikipedia": "Real_Time_with_Bill_Maher"
       },
-      "updated_at": "2026-04-21T09:36:14.000Z",
+      "updated_at": "2026-04-23T09:30:42.000Z",
       "first_aired": "2003-02-22T03:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 18,
@@ -124,7 +124,7 @@
       },
       "year": 2026,
       "title": "Good Boy",
-      "votes": 519,
+      "votes": 524,
       "colors": {
         "poster": [
           "#B79C77",
@@ -150,7 +150,7 @@
         ],
         "clearart": []
       },
-      "rating": 7.088632106781006,
+      "rating": 7.083969593048096,
       "status": "released",
       "country": "pl",
       "runtime": 110,
@@ -174,7 +174,7 @@
         "instagram": null,
         "wikipedia": "Good_Boy_(2025_Komasa_film)"
       },
-      "updated_at": "2026-04-21T08:18:20.000Z",
+      "updated_at": "2026-04-23T08:25:33.000Z",
       "after_credits": false,
       "certification": null,
       "comment_count": 8,
@@ -219,7 +219,7 @@
       },
       "year": 2026,
       "title": "Crime 101",
-      "votes": 4532,
+      "votes": 4578,
       "colors": {
         "poster": [
           "#DAD5C3",
@@ -250,7 +250,7 @@
           "media.trakt.tv/images/movies/000/944/042/cleararts/medium/56bdc0bdc5.png.webp"
         ]
       },
-      "rating": 7.07105016708374,
+      "rating": 7.068807125091553,
       "status": "released",
       "country": "gb",
       "runtime": 141,
@@ -274,10 +274,10 @@
         "instagram": "crime101film",
         "wikipedia": "Crime_101_(2026_film)"
       },
-      "updated_at": "2026-04-21T20:18:05.000Z",
+      "updated_at": "2026-04-23T08:34:53.000Z",
       "after_credits": false,
       "certification": "R",
-      "comment_count": 45,
+      "comment_count": 46,
       "during_credits": false,
       "original_title": "Crime 101",
       "available_translations": [
@@ -342,7 +342,7 @@
       },
       "year": 2026,
       "title": "Rooster",
-      "votes": 247,
+      "votes": 253,
       "colors": {
         "poster": [
           "#BBA998",
@@ -366,7 +366,7 @@
         ],
         "clearart": []
       },
-      "rating": 7.457489967346191,
+      "rating": 7.47035551071167,
       "status": "returning series",
       "country": "us",
       "network": "HBO",
@@ -388,7 +388,7 @@
         "instagram": null,
         "wikipedia": "Rooster_(TV_series)"
       },
-      "updated_at": "2026-04-21T21:34:55.000Z",
+      "updated_at": "2026-04-22T17:39:51.000Z",
       "first_aired": "2026-03-09T02:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 5,
@@ -488,7 +488,7 @@
         "instagram": "wwe_on_netflix",
         "wikipedia": "WWE_Unreal"
       },
-      "updated_at": "2026-04-21T18:19:50.000Z",
+      "updated_at": "2026-04-22T17:42:08.000Z",
       "first_aired": "2025-07-29T07:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 2,
@@ -525,6 +525,113 @@
     "type": "show",
     "show": {
       "ids": {
+        "imdb": "tt34385331",
+        "plex": {
+          "guid": "6943f0185c1d277eda251d1c",
+          "slug": "dtf-st-louis-1"
+        },
+        "slug": "dtf-st-louis",
+        "tmdb": 206828,
+        "tvdb": 468739,
+        "trakt": 197136
+      },
+      "airs": {
+        "day": "Sunday",
+        "time": "20:00",
+        "timezone": "America/New_York"
+      },
+      "year": 2026,
+      "title": "DTF St. Louis",
+      "votes": 504,
+      "colors": {
+        "poster": [
+          "#9F9D93",
+          "#463635"
+        ]
+      },
+      "genres": [
+        "drama",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/shows/000/197/136/logos/medium/7c49213072.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/shows/000/197/136/fanarts/medium/3f86a62385.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/shows/000/197/136/posters/medium/c0096a27ac.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.184523582458496,
+      "status": "ended",
+      "country": "us",
+      "network": "HBO",
+      "runtime": 50,
+      "tagline": "You never know which way a friendship will swing.",
+      "trailer": "https://youtube.com/watch?v=u1XHd5rIvmY",
+      "homepage": "https://www.hbo.com/content/dtf-st-louis",
+      "language": "en",
+      "overview": "A love triangle among three adults experiencing middle-age malaise leads to one of them ending up dead.",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "love-triangle",
+        "miniseries",
+        "dark-comedy"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "DTF_St._Louis"
+      },
+      "updated_at": "2026-04-22T17:30:06.000Z",
+      "first_aired": "2026-03-02T01:00:00.000Z",
+      "certification": "TV-MA",
+      "comment_count": 14,
+      "total_runtime": 356,
+      "aired_episodes": 7,
+      "original_title": "DTF St. Louis",
+      "available_translations": [
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hu",
+        "it",
+        "ko",
+        "lt",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "th",
+        "tr",
+        "uk",
+        "zh"
+      ]
+    },
+    "rank": 8,
+    "id": 1460313972,
+    "listed_at": "2026-04-23T04:01:59.000Z",
+    "notes": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
         "imdb": "tt30459041",
         "plex": {
           "guid": "657dc33ef513062f56b44a23",
@@ -542,7 +649,7 @@
       },
       "year": 2025,
       "title": "Your Friends & Neighbors",
-      "votes": 2975,
+      "votes": 2977,
       "colors": {
         "poster": [
           "#CBB0A2",
@@ -573,7 +680,7 @@
           "media.trakt.tv/images/shows/000/217/691/cleararts/medium/b57fc0e3e6.png.webp"
         ]
       },
-      "rating": 7.668571472167969,
+      "rating": 7.66879415512085,
       "status": "returning series",
       "country": "us",
       "network": "Apple TV",
@@ -593,7 +700,7 @@
         "instagram": null,
         "wikipedia": "Your_Friends_&_Neighbors_(TV_series)"
       },
-      "updated_at": "2026-04-21T18:13:03.000Z",
+      "updated_at": "2026-04-22T17:36:52.000Z",
       "first_aired": "2025-04-11T00:00:00.000Z",
       "certification": "TV-MA",
       "comment_count": 32,
@@ -657,7 +764,7 @@
       },
       "year": 2026,
       "title": "The Yeti",
-      "votes": 97,
+      "votes": 101,
       "colors": {
         "poster": [
           "#A8A67D",
@@ -680,7 +787,7 @@
         ],
         "clearart": []
       },
-      "rating": 5.010309219360352,
+      "rating": 5.00990104675293,
       "status": "released",
       "country": "us",
       "runtime": 93,
@@ -700,7 +807,7 @@
         "instagram": null,
         "wikipedia": null
       },
-      "updated_at": "2026-04-20T08:23:27.000Z",
+      "updated_at": "2026-04-23T08:26:26.000Z",
       "after_credits": false,
       "certification": "R",
       "comment_count": 3,
