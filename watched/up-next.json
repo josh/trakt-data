@@ -14,16 +14,50 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2026-04-27T03:42:00.000Z",
+      "last_watched_at": "2026-04-27T04:29:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt34954428",
+          "plex": {
+            "guid": "694b4a89d02da485eb158e38"
+          },
+          "tmdb": 6893550,
+          "tvdb": 11582467,
+          "trakt": 13955310
+        },
+        "title": "The Denny's Plan",
+        "votes": 165,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/955/310/screenshots/medium/971668fe01.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.284848690032959,
+        "season": 1,
+        "runtime": 49,
+        "overview": "Floyd's ego takes a hit after a failed attempt to reconnect with Carol, leading Clark to help his friend using the DTF app.",
+        "released": "2026-04-05",
+        "number_abs": null,
+        "updated_at": "2026-04-27T03:07:34.000Z",
+        "first_aired": "2026-04-06T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "The Denny's Plan",
+        "available_translations": [],
+        "effective_release_date": "2026-04-06T00:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt34954433",
           "plex": {
@@ -56,40 +90,6 @@
         "original_title": "Amphezyne",
         "available_translations": [],
         "effective_release_date": "2026-03-30T00:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt34954431",
-          "plex": {
-            "guid": "694b4a87d02da485eb158df7"
-          },
-          "tmdb": 6893548,
-          "tvdb": 11582465,
-          "trakt": 13955308
-        },
-        "title": "Missouri Mutual Life & Health Insurance Company",
-        "votes": 180,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/955/308/screenshots/medium/64c165f57c.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.316666603088379,
-        "season": 1,
-        "runtime": 47,
-        "overview": "Eager to please, Clark ramps up his support for Floyd's health and financial wellness, while Carol makes her lover swear to secrecy.",
-        "released": "2026-03-22",
-        "number_abs": null,
-        "updated_at": "2026-04-26T22:00:38.000Z",
-        "first_aired": "2026-03-23T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "Missouri Mutual Life & Health Insurance Company",
-        "available_translations": [],
-        "effective_release_date": "2026-03-23T00:00:00.000Z"
       }
     }
   },
@@ -222,20 +222,20 @@
           "trakt": 13820614
         },
         "title": "Nobody Spook It",
-        "votes": 4,
+        "votes": 13,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/614/screenshots/medium/9197b3c879.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.25,
+        "rating": 7.92307710647583,
         "season": 1,
         "runtime": 31,
         "overview": "While Greg tries to support an increasingly emotional Katie, Dylan attempts to steer a promising student towards poetry. Later, Sunny is delighted when Archie starts to engage more with her",
         "released": "2026-04-26",
         "number_abs": null,
-        "updated_at": "2026-04-27T02:57:18.000Z",
+        "updated_at": "2026-04-27T04:33:41.000Z",
         "first_aired": "2026-04-27T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -694,20 +694,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1163,
+        "votes": 1166,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.975924491882324,
+        "rating": 7.97684383392334,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-04-27T03:01:10.000Z",
+        "updated_at": "2026-04-27T04:33:40.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -728,20 +728,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3239,
+        "votes": 3240,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.093238830566406,
+        "rating": 8.093827247619629,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-04-26T20:55:39.000Z",
+        "updated_at": "2026-04-27T04:56:40.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -914,20 +914,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 415,
+        "votes": 416,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.771084308624268,
+        "rating": 6.774038314819336,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-04-26T23:09:06.000Z",
+        "updated_at": "2026-04-27T04:48:32.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
