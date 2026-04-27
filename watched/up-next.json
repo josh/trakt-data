@@ -1,6 +1,104 @@
 [
   {
     "show": {
+      "title": "WWE: Unreal",
+      "year": 2025,
+      "ids": {
+        "trakt": 283118,
+        "slug": "wwe-unreal",
+        "tvdb": 462799,
+        "imdb": "tt36614693",
+        "tmdb": 289485,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2026-04-27T15:42:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37857194",
+          "plex": {
+            "guid": "693b47e10f211fa45e8e40ed"
+          },
+          "tmdb": 6756015,
+          "tvdb": 11568935,
+          "trakt": 13808353
+        },
+        "title": "Episode 1: No Days Off",
+        "votes": 55,
+        "images": {
+          "screenshot": []
+        },
+        "number": 1,
+        "rating": 7.290909290313721,
+        "season": 2,
+        "runtime": 50,
+        "overview": "Balancing parenthood with the WWE, Seth Rollins kicks off his SummerSlam arc and Becky Lynch returns to WrestleMania. Pat McAfee drops the mic to fight.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-04-27T14:36:48.000Z",
+        "first_aired": "2026-01-20T08:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Episode 1: No Days Off",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "it",
+          "nl"
+        ],
+        "effective_release_date": "2026-01-20T08:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt36614947",
+          "plex": {
+            "guid": "685ea76a07a79c18b32302b9"
+          },
+          "tmdb": 6339754,
+          "tvdb": 11215421,
+          "trakt": 13256988
+        },
+        "title": "Episode 5: Wrestlemania",
+        "votes": 73,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/256/988/screenshots/medium/65e4b244a8.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.726027488708496,
+        "season": 1,
+        "runtime": 64,
+        "overview": "A season of shocking storylines culminates as WrestleMania 41 arrives in Sin City. But victory is no guarantee \u2014 and the stakes have never been higher.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-04-26T22:29:01.000Z",
+        "first_aired": "2025-07-29T07:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Episode 5: Wrestlemania",
+        "available_translations": [],
+        "effective_release_date": "2025-07-29T07:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "DTF St. Louis",
       "year": 2026,
       "ids": {
@@ -95,100 +193,6 @@
   },
   {
     "show": {
-      "title": "WWE: Unreal",
-      "year": 2025,
-      "ids": {
-        "trakt": 283118,
-        "slug": "wwe-unreal",
-        "tvdb": 462799,
-        "imdb": "tt36614693",
-        "tmdb": 289485,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 4,
-      "hidden": 0,
-      "last_watched_at": "2026-04-27T00:13:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 4,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt36614947",
-          "plex": {
-            "guid": "685ea76a07a79c18b32302b9"
-          },
-          "tmdb": 6339754,
-          "tvdb": 11215421,
-          "trakt": 13256988
-        },
-        "title": "Episode 5: Wrestlemania",
-        "votes": 73,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/256/988/screenshots/medium/65e4b244a8.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.726027488708496,
-        "season": 1,
-        "runtime": 64,
-        "overview": "A season of shocking storylines culminates as WrestleMania 41 arrives in Sin City. But victory is no guarantee \u2014 and the stakes have never been higher.",
-        "released": null,
-        "number_abs": null,
-        "updated_at": "2026-04-26T22:29:01.000Z",
-        "first_aired": "2025-07-29T07:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Episode 5: Wrestlemania",
-        "available_translations": [],
-        "effective_release_date": "2025-07-29T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt36614945",
-          "plex": {
-            "guid": "685ea76a07a79c18b32302ba"
-          },
-          "tmdb": 6339753,
-          "tvdb": 11215420,
-          "trakt": 13256987
-        },
-        "title": "Episode 4: Heel Turn",
-        "votes": 69,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/256/987/screenshots/medium/582435853a.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 8.057971000671387,
-        "season": 1,
-        "runtime": 51,
-        "overview": "What does it take to be a heel? After The Rock makes Cody Rhodes a game-changing offer, WWE writers devise a plot twist that leaves Cena fans breathless.",
-        "released": null,
-        "number_abs": null,
-        "updated_at": "2026-04-26T04:17:54.000Z",
-        "first_aired": "2025-07-29T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Episode 4: Heel Turn",
-        "available_translations": [],
-        "effective_release_date": "2025-07-29T07:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Rooster",
       "year": 2026,
       "ids": {
@@ -222,20 +226,20 @@
           "trakt": 13820614
         },
         "title": "Nobody Spook It",
-        "votes": 13,
+        "votes": 35,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/614/screenshots/medium/9197b3c879.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.92307710647583,
+        "rating": 7.400000095367432,
         "season": 1,
         "runtime": 31,
         "overview": "While Greg tries to support an increasingly emotional Katie, Dylan attempts to steer a promising student towards poetry. Later, Sunny is delighted when Archie starts to engage more with her",
         "released": "2026-04-26",
         "number_abs": null,
-        "updated_at": "2026-04-27T04:33:41.000Z",
+        "updated_at": "2026-04-27T14:25:58.000Z",
         "first_aired": "2026-04-27T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -271,7 +275,7 @@
         "overview": "Greg, Cristle, and Tommy attempt a return to normalcy after an embarrassing mishap. Meanwhile, Archie meets Sunny's father, Walt offers Dylan a new position following Dean Riggs' return, and Katie deals with her evolving feelings for Archie.",
         "released": "2026-04-19",
         "number_abs": null,
-        "updated_at": "2026-04-27T02:23:35.000Z",
+        "updated_at": "2026-04-27T09:32:50.000Z",
         "first_aired": "2026-04-20T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -318,20 +322,20 @@
           "trakt": 13784637
         },
         "title": "The Bread of Affliction",
-        "votes": 156,
+        "votes": 160,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.365384578704834,
+        "rating": 7.349999904632568,
         "season": 2,
         "runtime": 57,
         "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
         "released": "2026-04-24",
         "number_abs": null,
-        "updated_at": "2026-04-27T01:47:41.000Z",
+        "updated_at": "2026-04-27T13:05:28.000Z",
         "first_aired": "2026-04-24T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -352,20 +356,20 @@
           "trakt": 13784636
         },
         "title": "We Were Never Supposed to Get This Old",
-        "votes": 223,
+        "votes": 225,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/636/screenshots/medium/c0b758a60a.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.556053638458252,
+        "rating": 7.559999942779541,
         "season": 2,
         "runtime": 53,
         "overview": "Ashe offers Coop a deal he can't refuse. Mel feuds with her neighbors over their new dog. Sam goes on a date.",
         "released": "2026-04-17",
         "number_abs": null,
-        "updated_at": "2026-04-27T01:25:44.000Z",
+        "updated_at": "2026-04-27T11:22:31.000Z",
         "first_aired": "2026-04-17T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -412,20 +416,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 160,
+        "votes": 161,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.756249904632568,
+        "rating": 7.770186424255371,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-04-26T18:43:06.000Z",
+        "updated_at": "2026-04-27T09:25:34.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -459,7 +463,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-04-27T01:55:51.000Z",
+        "updated_at": "2026-04-27T09:15:08.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -694,20 +698,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1166,
+        "votes": 1171,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.97684383392334,
+        "rating": 7.9786505699157715,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-04-27T04:33:40.000Z",
+        "updated_at": "2026-04-27T12:55:00.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -788,20 +792,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 206,
+        "votes": 210,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.0242719650268555,
+        "rating": 7.038095474243164,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-04-27T01:54:34.000Z",
+        "updated_at": "2026-04-27T12:48:58.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -822,20 +826,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1100,
+        "votes": 1101,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.855454444885254,
+        "rating": 7.857402324676514,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-04-26T21:45:22.000Z",
+        "updated_at": "2026-04-27T14:14:02.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -914,20 +918,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 416,
+        "votes": 417,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.774038314819336,
+        "rating": 6.781774520874023,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-04-27T04:48:32.000Z",
+        "updated_at": "2026-04-27T13:02:09.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -948,20 +952,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1382,
+        "votes": 1383,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.960926055908203,
+        "rating": 7.960954666137695,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-04-26T21:34:25.000Z",
+        "updated_at": "2026-04-27T08:13:33.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
