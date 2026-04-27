@@ -1,5 +1,50 @@
 [
   {
+    "plays": 4,
+    "last_watched_at": "2026-04-27T00:13:00.000Z",
+    "last_updated_at": "2026-04-27T00:13:46.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "WWE: Unreal",
+      "year": 2025,
+      "ids": {
+        "trakt": 283118,
+        "slug": "wwe-unreal",
+        "tvdb": 462799,
+        "imdb": "tt36614693",
+        "tmdb": 289485,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-04-15T06:45:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-04-18T06:07:00.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2026-04-23T04:01:00.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2026-04-27T00:13:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 3,
     "last_watched_at": "2026-04-26T04:07:00.000Z",
     "last_updated_at": "2026-04-26T03:17:37.000Z",
@@ -3809,46 +3854,6 @@
             "number": 12,
             "plays": 1,
             "last_watched_at": "2026-04-25T17:40:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 3,
-    "last_watched_at": "2026-04-23T04:01:00.000Z",
-    "last_updated_at": "2026-04-23T03:06:58.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "WWE: Unreal",
-      "year": 2025,
-      "ids": {
-        "trakt": 283118,
-        "slug": "wwe-unreal",
-        "tvdb": 462799,
-        "imdb": "tt36614693",
-        "tmdb": 289485,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-04-15T06:45:00.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2026-04-18T06:07:00.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2026-04-23T04:01:00.000Z"
           }
         ]
       }
