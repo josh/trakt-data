@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2026-04-27T23:59:59.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "title": "Hoppers",
+      "year": 2026,
+      "ids": {
+        "trakt": 1085761,
+        "slug": "hoppers-2026",
+        "imdb": "tt26443616",
+        "tmdb": 1327819
+      }
+    }
+  },
+  {
     "rated_at": "2026-04-20T06:38:54.000Z",
     "rating": 3,
     "type": "movie",
@@ -6320,10 +6335,10 @@
     "type": "movie",
     "movie": {
       "title": "Hundreds of Beavers",
-      "year": 2024,
+      "year": 2022,
       "ids": {
         "trakt": 820070,
-        "slug": "hundreds-of-beavers-2024",
+        "slug": "hundreds-of-beavers-2022",
         "imdb": "tt12818328",
         "tmdb": 1019939
       }
@@ -57335,10 +57350,10 @@
     "type": "movie",
     "movie": {
       "title": "The Nutcracker",
-      "year": 1991,
+      "year": 1993,
       "ids": {
         "trakt": 53792,
-        "slug": "the-nutcracker-1991",
+        "slug": "the-nutcracker-1993",
         "imdb": "tt0107719",
         "tmdb": 73191
       }
