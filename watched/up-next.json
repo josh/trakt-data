@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "DTF St. Louis",
+      "year": 2026,
+      "ids": {
+        "trakt": 197136,
+        "slug": "dtf-st-louis",
+        "tvdb": 468739,
+        "imdb": "tt34385331",
+        "tmdb": 206828,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2026-04-28T03:36:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt34954432",
+          "plex": {
+            "guid": "694b4a89d02da485eb158e59"
+          },
+          "tmdb": 6893551,
+          "tvdb": 11582468,
+          "trakt": 13955311
+        },
+        "title": "No One's Normal. It Just Looks That Way from Across the Street",
+        "votes": 174,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/955/311/screenshots/medium/2b937b53a5.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.551723957061768,
+        "season": 1,
+        "runtime": 56,
+        "overview": "With Tiger Tiger out of the picture, Clark proposes a new plan. After a series of revelations, Plumb and Homer are forced to question everything they thought they knew about the case.",
+        "released": "2026-04-12",
+        "number_abs": null,
+        "updated_at": "2026-04-28T02:52:51.000Z",
+        "first_aired": "2026-04-13T00:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 11,
+        "during_credits": false,
+        "original_title": "No One's Normal. It Just Looks That Way from Across the Street",
+        "available_translations": [],
+        "effective_release_date": "2026-04-13T00:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt34954428",
+          "plex": {
+            "guid": "694b4a89d02da485eb158e38"
+          },
+          "tmdb": 6893550,
+          "tvdb": 11582467,
+          "trakt": 13955310
+        },
+        "title": "The Denny's Plan",
+        "votes": 166,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/955/310/screenshots/medium/971668fe01.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.283132553100586,
+        "season": 1,
+        "runtime": 49,
+        "overview": "Floyd's ego takes a hit after a failed attempt to reconnect with Carol, leading Clark to help his friend using the DTF app.",
+        "released": "2026-04-05",
+        "number_abs": null,
+        "updated_at": "2026-04-27T19:23:24.000Z",
+        "first_aired": "2026-04-06T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "The Denny's Plan",
+        "available_translations": [],
+        "effective_release_date": "2026-04-06T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "WWE: Unreal",
       "year": 2025,
       "ids": {
@@ -85,7 +179,7 @@
         "overview": "A season of shocking storylines culminates as WrestleMania 41 arrives in Sin City. But victory is no guarantee \u2014 and the stakes have never been higher.",
         "released": null,
         "number_abs": null,
-        "updated_at": "2026-04-26T22:29:01.000Z",
+        "updated_at": "2026-04-28T00:03:52.000Z",
         "first_aired": "2025-07-29T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -94,100 +188,6 @@
         "original_title": "Episode 5: Wrestlemania",
         "available_translations": [],
         "effective_release_date": "2025-07-29T07:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "DTF St. Louis",
-      "year": 2026,
-      "ids": {
-        "trakt": 197136,
-        "slug": "dtf-st-louis",
-        "tvdb": 468739,
-        "imdb": "tt34385331",
-        "tmdb": 206828,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 7,
-      "completed": 5,
-      "hidden": 0,
-      "last_watched_at": "2026-04-27T04:29:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 5,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt34954428",
-          "plex": {
-            "guid": "694b4a89d02da485eb158e38"
-          },
-          "tmdb": 6893550,
-          "tvdb": 11582467,
-          "trakt": 13955310
-        },
-        "title": "The Denny's Plan",
-        "votes": 165,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/955/310/screenshots/medium/971668fe01.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.284848690032959,
-        "season": 1,
-        "runtime": 49,
-        "overview": "Floyd's ego takes a hit after a failed attempt to reconnect with Carol, leading Clark to help his friend using the DTF app.",
-        "released": "2026-04-05",
-        "number_abs": null,
-        "updated_at": "2026-04-27T03:07:34.000Z",
-        "first_aired": "2026-04-06T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "The Denny's Plan",
-        "available_translations": [],
-        "effective_release_date": "2026-04-06T00:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt34954433",
-          "plex": {
-            "guid": "694b4a88d02da485eb158e19"
-          },
-          "tmdb": 6893549,
-          "tvdb": 11582466,
-          "trakt": 13955309
-        },
-        "title": "Amphezyne",
-        "votes": 176,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/955/309/screenshots/medium/a594452404.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.409090995788574,
-        "season": 1,
-        "runtime": 47,
-        "overview": "Floyd confronts Clark about the affair. Plumb and Homer uncover new information about Carol's past.",
-        "released": "2026-03-29",
-        "number_abs": null,
-        "updated_at": "2026-04-27T02:17:52.000Z",
-        "first_aired": "2026-03-30T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Amphezyne",
-        "available_translations": [],
-        "effective_release_date": "2026-03-30T00:00:00.000Z"
       }
     }
   },
@@ -226,29 +226,27 @@
           "trakt": 13820614
         },
         "title": "Nobody Spook It",
-        "votes": 35,
+        "votes": 81,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/614/screenshots/medium/9197b3c879.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.400000095367432,
+        "rating": 7.641975402832031,
         "season": 1,
         "runtime": 31,
         "overview": "While Greg tries to support an increasingly emotional Katie, Dylan attempts to steer a promising student towards poetry. Later, Sunny is delighted when Archie starts to engage more with her",
         "released": "2026-04-26",
         "number_abs": null,
-        "updated_at": "2026-04-27T14:25:58.000Z",
+        "updated_at": "2026-04-28T02:34:48.000Z",
         "first_aired": "2026-04-27T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 2,
         "during_credits": false,
         "original_title": "Nobody Spook It",
-        "available_translations": [
-          "en"
-        ],
+        "available_translations": [],
         "effective_release_date": "2026-04-27T02:00:00.000Z"
       },
       "last_episode": {
@@ -262,20 +260,20 @@
           "trakt": 13820612
         },
         "title": "All the Dogs' Names",
-        "votes": 168,
+        "votes": 171,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/612/screenshots/medium/57d6e6a1f2.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.714285850524902,
+        "rating": 7.719298362731934,
         "season": 1,
         "runtime": 30,
         "overview": "Greg, Cristle, and Tommy attempt a return to normalcy after an embarrassing mishap. Meanwhile, Archie meets Sunny's father, Walt offers Dylan a new position following Dean Riggs' return, and Katie deals with her evolving feelings for Archie.",
         "released": "2026-04-19",
         "number_abs": null,
-        "updated_at": "2026-04-27T09:32:50.000Z",
+        "updated_at": "2026-04-28T00:07:45.000Z",
         "first_aired": "2026-04-20T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -322,20 +320,20 @@
           "trakt": 13784637
         },
         "title": "The Bread of Affliction",
-        "votes": 160,
+        "votes": 175,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.349999904632568,
+        "rating": 7.354285717010498,
         "season": 2,
         "runtime": 57,
         "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
         "released": "2026-04-24",
         "number_abs": null,
-        "updated_at": "2026-04-27T13:05:28.000Z",
+        "updated_at": "2026-04-28T01:59:13.000Z",
         "first_aired": "2026-04-24T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -356,20 +354,20 @@
           "trakt": 13784636
         },
         "title": "We Were Never Supposed to Get This Old",
-        "votes": 225,
+        "votes": 229,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/636/screenshots/medium/c0b758a60a.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.559999942779541,
+        "rating": 7.554584980010986,
         "season": 2,
         "runtime": 53,
         "overview": "Ashe offers Coop a deal he can't refuse. Mel feuds with her neighbors over their new dog. Sam goes on a date.",
         "released": "2026-04-17",
         "number_abs": null,
-        "updated_at": "2026-04-27T11:22:31.000Z",
+        "updated_at": "2026-04-28T00:45:21.000Z",
         "first_aired": "2026-04-17T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -416,20 +414,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 161,
+        "votes": 162,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.770186424255371,
+        "rating": 7.777777671813965,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-04-27T09:25:34.000Z",
+        "updated_at": "2026-04-28T01:17:34.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -463,7 +461,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-04-27T09:15:08.000Z",
+        "updated_at": "2026-04-28T02:19:09.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -510,20 +508,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 834,
+        "votes": 841,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.736210823059082,
+        "rating": 7.740784645080566,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-04-26T23:21:33.000Z",
+        "updated_at": "2026-04-27T22:56:36.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -544,20 +542,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2048,
+        "votes": 2050,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.9580078125,
+        "rating": 7.959512233734131,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-04-26T21:09:32.000Z",
+        "updated_at": "2026-04-27T22:49:19.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -604,20 +602,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 725,
+        "votes": 726,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.991724014282227,
+        "rating": 7.9862260818481445,
         "season": 3,
         "runtime": 63,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-04-27T01:27:16.000Z",
+        "updated_at": "2026-04-27T22:30:14.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -651,7 +649,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-04-26T21:42:25.000Z",
+        "updated_at": "2026-04-27T21:42:56.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -698,20 +696,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1171,
+        "votes": 1183,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.9786505699157715,
+        "rating": 7.980557918548584,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-04-27T12:55:00.000Z",
+        "updated_at": "2026-04-28T01:51:36.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -745,7 +743,7 @@
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-04-27T04:56:40.000Z",
+        "updated_at": "2026-04-27T20:56:36.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -792,20 +790,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 210,
+        "votes": 211,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.038095474243164,
+        "rating": 7.037914752960205,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-04-27T12:48:58.000Z",
+        "updated_at": "2026-04-27T17:11:50.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -826,20 +824,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1101,
+        "votes": 1104,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.857402324676514,
+        "rating": 7.8532609939575195,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-04-27T14:14:02.000Z",
+        "updated_at": "2026-04-28T02:48:43.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -918,24 +916,24 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 417,
+        "votes": 426,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.781774520874023,
+        "rating": 6.762910842895508,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-04-27T13:02:09.000Z",
+        "updated_at": "2026-04-28T03:05:03.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 19,
+        "comment_count": 20,
         "during_credits": false,
         "original_title": "Andale",
         "available_translations": [],
@@ -952,20 +950,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1383,
+        "votes": 1384,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.960954666137695,
+        "rating": 7.960259914398193,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-04-27T08:13:33.000Z",
+        "updated_at": "2026-04-27T21:41:50.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
