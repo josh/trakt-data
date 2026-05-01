@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 13,
+      "hidden": 0,
+      "last_watched_at": "2026-05-01T04:27:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 13,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39104651",
+          "plex": {
+            "guid": "693712e071360be5a349e29c"
+          },
+          "tmdb": 6737391,
+          "tvdb": 11492371,
+          "trakt": 13784638
+        },
+        "title": "Halfway to Invisible",
+        "votes": 10,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/784/638/screenshots/medium/745c10fc5b.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.300000190734863,
+        "season": 2,
+        "runtime": 59,
+        "overview": "Barney deals with Ashe's audit of Nick's Strong Ass Gym. Coop and Jack travel overseas to woo a big investor. Nick throws a housewarming party.",
+        "released": "2026-05-01",
+        "number_abs": null,
+        "updated_at": "2026-05-01T04:43:37.000Z",
+        "first_aired": "2026-05-01T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Halfway to Invisible",
+        "available_translations": [],
+        "effective_release_date": "2026-05-01T00:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39104649",
+          "plex": {
+            "guid": "693712e171360be5a349e2a1"
+          },
+          "tmdb": 6737390,
+          "tvdb": 11492370,
+          "trakt": 13784637
+        },
+        "title": "The Bread of Affliction",
+        "votes": 217,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.359447002410889,
+        "season": 2,
+        "runtime": 57,
+        "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
+        "released": "2026-04-24",
+        "number_abs": null,
+        "updated_at": "2026-04-30T23:54:52.000Z",
+        "first_aired": "2026-04-24T00:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "The Bread of Affliction",
+        "available_translations": [],
+        "effective_release_date": "2026-04-24T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "WWE: Unreal",
       "year": 2025,
       "ids": {
@@ -103,100 +197,6 @@
   },
   {
     "show": {
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "tvdb": 443433,
-        "imdb": "tt30459041",
-        "tmdb": 241609,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 14,
-      "completed": 12,
-      "hidden": 0,
-      "last_watched_at": "2026-04-18T05:02:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 12,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt39104649",
-          "plex": {
-            "guid": "693712e171360be5a349e2a1"
-          },
-          "tmdb": 6737390,
-          "tvdb": 11492370,
-          "trakt": 13784637
-        },
-        "title": "The Bread of Affliction",
-        "votes": 217,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.359447002410889,
-        "season": 2,
-        "runtime": 57,
-        "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
-        "released": "2026-04-24",
-        "number_abs": null,
-        "updated_at": "2026-04-30T23:54:52.000Z",
-        "first_aired": "2026-04-24T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "The Bread of Affliction",
-        "available_translations": [],
-        "effective_release_date": "2026-04-24T00:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt39104646",
-          "plex": {
-            "guid": "693712e171360be5a349e2a6"
-          },
-          "tmdb": 6737389,
-          "tvdb": 11492369,
-          "trakt": 13784636
-        },
-        "title": "We Were Never Supposed to Get This Old",
-        "votes": 241,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/784/636/screenshots/medium/c0b758a60a.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.564315319061279,
-        "season": 2,
-        "runtime": 53,
-        "overview": "Ashe offers Coop a deal he can't refuse. Mel feuds with her neighbors over their new dog. Sam goes on a date.",
-        "released": "2026-04-17",
-        "number_abs": null,
-        "updated_at": "2026-05-01T02:55:39.000Z",
-        "first_aired": "2026-04-17T00:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "We Were Never Supposed to Get This Old",
-        "available_translations": [],
-        "effective_release_date": "2026-04-17T00:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -243,7 +243,7 @@
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-05-01T02:44:49.000Z",
+        "updated_at": "2026-05-01T03:04:36.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -277,7 +277,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-04-30T16:43:21.000Z",
+        "updated_at": "2026-05-01T03:14:11.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -512,20 +512,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1219,
+        "votes": 1221,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.98195219039917,
+        "rating": 7.9819817543029785,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-01T01:57:01.000Z",
+        "updated_at": "2026-05-01T04:37:37.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -640,20 +640,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1106,
+        "votes": 1107,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.8535261154174805,
+        "rating": 7.854561805725098,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-04-30T22:05:43.000Z",
+        "updated_at": "2026-05-01T04:05:16.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -732,20 +732,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 451,
+        "votes": 452,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.798226356506348,
+        "rating": 6.7920355796813965,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-04-30T18:42:59.000Z",
+        "updated_at": "2026-05-01T05:05:35.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -766,20 +766,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1392,
+        "votes": 1393,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.9540228843688965,
+        "rating": 7.9540557861328125,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-04-30T21:55:42.000Z",
+        "updated_at": "2026-05-01T04:45:06.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
