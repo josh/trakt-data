@@ -1,6 +1,108 @@
 [
   {
     "show": {
+      "title": "WWE: Unreal",
+      "year": 2025,
+      "ids": {
+        "trakt": 283118,
+        "slug": "wwe-unreal",
+        "tvdb": 462799,
+        "imdb": "tt36614693",
+        "tmdb": 289485,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 7,
+      "hidden": 0,
+      "last_watched_at": "2026-05-01T16:05:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 7,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39381109",
+          "plex": {
+            "guid": "695d99df3fda0d138716d3a9"
+          },
+          "tmdb": 6818252,
+          "tvdb": 11568937,
+          "trakt": 13883421
+        },
+        "title": "Episode 3: The Vision",
+        "votes": 43,
+        "images": {
+          "screenshot": []
+        },
+        "number": 3,
+        "rating": 7.3255815505981445,
+        "season": 2,
+        "runtime": 53,
+        "overview": "Penta dazzles the crowd during his Money in the Bank debut. Seth Rollins and Paul Heyman open doors for the next generation of WWE Superstars.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-05-01T08:11:38.000Z",
+        "first_aired": "2026-01-20T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Episode 3: The Vision",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "it",
+          "nl"
+        ],
+        "effective_release_date": "2026-01-20T08:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39381104",
+          "plex": {
+            "guid": "695d99df3fda0d138716d3aa"
+          },
+          "tmdb": 6818251,
+          "tvdb": 11568936,
+          "trakt": 13883420
+        },
+        "title": "Episode 2: The Truth",
+        "votes": 46,
+        "images": {
+          "screenshot": []
+        },
+        "number": 2,
+        "rating": 7.6086955070495605,
+        "season": 2,
+        "runtime": 57,
+        "overview": "Beloved Superstar R-Truth faces a harsh reality as a contract dispute casts doubt on his career. Naomi eyes a comeback \u2014 and enters her heel era.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-05-01T08:11:39.000Z",
+        "first_aired": "2026-01-20T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Episode 2: The Truth",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "it",
+          "nl"
+        ],
+        "effective_release_date": "2026-01-20T08:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -34,20 +136,20 @@
           "trakt": 13784638
         },
         "title": "Halfway to Invisible",
-        "votes": 10,
+        "votes": 37,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/638/screenshots/medium/745c10fc5b.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.300000190734863,
+        "rating": 7.351351261138916,
         "season": 2,
         "runtime": 59,
         "overview": "Barney deals with Ashe's audit of Nick's Strong Ass Gym. Coop and Jack travel overseas to woo a big investor. Nick throws a housewarming party.",
         "released": "2026-05-01",
         "number_abs": null,
-        "updated_at": "2026-05-01T04:43:37.000Z",
+        "updated_at": "2026-05-01T15:12:05.000Z",
         "first_aired": "2026-05-01T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,20 +170,20 @@
           "trakt": 13784637
         },
         "title": "The Bread of Affliction",
-        "votes": 217,
+        "votes": 220,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.359447002410889,
+        "rating": 7.345454692840576,
         "season": 2,
         "runtime": 57,
         "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
         "released": "2026-04-24",
         "number_abs": null,
-        "updated_at": "2026-04-30T23:54:52.000Z",
+        "updated_at": "2026-05-01T14:11:35.000Z",
         "first_aired": "2026-04-24T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -90,108 +192,6 @@
         "original_title": "The Bread of Affliction",
         "available_translations": [],
         "effective_release_date": "2026-04-24T00:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "WWE: Unreal",
-      "year": 2025,
-      "ids": {
-        "trakt": 283118,
-        "slug": "wwe-unreal",
-        "tvdb": 462799,
-        "imdb": "tt36614693",
-        "tmdb": 289485,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 6,
-      "hidden": 0,
-      "last_watched_at": "2026-04-29T06:03:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 6,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt39381104",
-          "plex": {
-            "guid": "695d99df3fda0d138716d3aa"
-          },
-          "tmdb": 6818251,
-          "tvdb": 11568936,
-          "trakt": 13883420
-        },
-        "title": "Episode 2: The Truth",
-        "votes": 46,
-        "images": {
-          "screenshot": []
-        },
-        "number": 2,
-        "rating": 7.6086955070495605,
-        "season": 2,
-        "runtime": 57,
-        "overview": "Beloved Superstar R-Truth faces a harsh reality as a contract dispute casts doubt on his career. Naomi eyes a comeback \u2014 and enters her heel era.",
-        "released": null,
-        "number_abs": null,
-        "updated_at": "2026-04-30T07:49:04.000Z",
-        "first_aired": "2026-01-20T08:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Episode 2: The Truth",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "it",
-          "nl"
-        ],
-        "effective_release_date": "2026-01-20T08:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37857194",
-          "plex": {
-            "guid": "693b47e10f211fa45e8e40ed"
-          },
-          "tmdb": 6756015,
-          "tvdb": 11568935,
-          "trakt": 13808353
-        },
-        "title": "Episode 1: No Days Off",
-        "votes": 55,
-        "images": {
-          "screenshot": []
-        },
-        "number": 1,
-        "rating": 7.290909290313721,
-        "season": 2,
-        "runtime": 50,
-        "overview": "Balancing parenthood with the WWE, Seth Rollins kicks off his SummerSlam arc and Becky Lynch returns to WrestleMania. Pat McAfee drops the mic to fight.",
-        "released": null,
-        "number_abs": null,
-        "updated_at": "2026-04-30T13:58:48.000Z",
-        "first_aired": "2026-01-20T08:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Episode 1: No Days Off",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "it",
-          "nl"
-        ],
-        "effective_release_date": "2026-01-20T08:00:00.000Z"
       }
     }
   },
@@ -230,20 +230,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 166,
+        "votes": 167,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.771084308624268,
+        "rating": 7.760478973388672,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-05-01T03:04:36.000Z",
+        "updated_at": "2026-05-01T10:36:04.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -277,7 +277,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-05-01T03:14:11.000Z",
+        "updated_at": "2026-05-01T05:18:38.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -324,20 +324,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 860,
+        "votes": 862,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.74302339553833,
+        "rating": 7.744779586791992,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-01T02:28:31.000Z",
+        "updated_at": "2026-05-01T15:06:13.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -418,20 +418,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 730,
+        "votes": 731,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.9808220863342285,
+        "rating": 7.98084831237793,
         "season": 3,
         "runtime": 63,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-05-01T01:49:49.000Z",
+        "updated_at": "2026-05-01T09:27:56.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -465,7 +465,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-04-30T22:17:58.000Z",
+        "updated_at": "2026-05-01T06:13:03.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -512,20 +512,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1221,
+        "votes": 1223,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.9819817543029785,
+        "rating": 7.983646869659424,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-01T04:37:37.000Z",
+        "updated_at": "2026-05-01T13:20:57.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -606,20 +606,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 224,
+        "votes": 225,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.035714149475098,
+        "rating": 7.039999961853027,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-05-01T01:59:40.000Z",
+        "updated_at": "2026-05-01T10:42:01.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -739,13 +739,13 @@
           ]
         },
         "number": 1,
-        "rating": 6.7920355796813965,
+        "rating": 6.789823055267334,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-05-01T05:05:35.000Z",
+        "updated_at": "2026-05-01T14:46:38.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
