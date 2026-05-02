@@ -14,16 +14,54 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 8,
+      "completed": 9,
       "hidden": 0,
-      "last_watched_at": "2026-05-01T23:38:00.000Z",
+      "last_watched_at": "2026-05-02T00:42:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 8,
+        "play_count": 9,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt39381112",
+          "plex": {
+            "guid": "695d99de3fda0d138716d3a7"
+          },
+          "tmdb": 6818254,
+          "tvdb": 11568939,
+          "trakt": 13883423
+        },
+        "title": "Episode 5: The Pop",
+        "votes": 45,
+        "images": {
+          "screenshot": []
+        },
+        "number": 5,
+        "rating": 7.755555629730225,
+        "season": 2,
+        "runtime": 65,
+        "overview": "Seth Rollins shocks the WWE Universe, Becky Lynch and Lyra Valkyria roll with the punches, and John Cena wrestles in his final SummerSlam match.",
+        "released": null,
+        "number_abs": null,
+        "updated_at": "2026-05-01T09:36:52.000Z",
+        "first_aired": "2026-01-20T08:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Episode 5: The Pop",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "it",
+          "nl"
+        ],
+        "effective_release_date": "2026-01-20T08:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt39381110",
           "plex": {
@@ -52,44 +90,6 @@
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Episode 4: Performance Art",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "it",
-          "nl"
-        ],
-        "effective_release_date": "2026-01-20T08:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt39381109",
-          "plex": {
-            "guid": "695d99df3fda0d138716d3a9"
-          },
-          "tmdb": 6818252,
-          "tvdb": 11568937,
-          "trakt": 13883421
-        },
-        "title": "Episode 3: The Vision",
-        "votes": 43,
-        "images": {
-          "screenshot": []
-        },
-        "number": 3,
-        "rating": 7.3255815505981445,
-        "season": 2,
-        "runtime": 53,
-        "overview": "Penta dazzles the crowd during his Money in the Bank debut. Seth Rollins and Paul Heyman open doors for the next generation of WWE Superstars.",
-        "released": null,
-        "number_abs": null,
-        "updated_at": "2026-05-01T08:11:38.000Z",
-        "first_aired": "2026-01-20T08:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Episode 3: The Vision",
         "available_translations": [
           "cs",
           "en",
@@ -136,20 +136,20 @@
           "trakt": 13784638
         },
         "title": "Halfway to Invisible",
-        "votes": 67,
+        "votes": 72,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/638/screenshots/medium/745c10fc5b.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.313432693481445,
+        "rating": 7.31944465637207,
         "season": 2,
         "runtime": 59,
         "overview": "Barney deals with Ashe's audit of Nick's Strong Ass Gym. Coop and Jack travel overseas to woo a big investor. Nick throws a housewarming party.",
         "released": "2026-05-01",
         "number_abs": null,
-        "updated_at": "2026-05-01T23:07:48.000Z",
+        "updated_at": "2026-05-02T00:26:39.000Z",
         "first_aired": "2026-05-01T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -170,20 +170,20 @@
           "trakt": 13784637
         },
         "title": "The Bread of Affliction",
-        "votes": 226,
+        "votes": 227,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.362832069396973,
+        "rating": 7.361233711242676,
         "season": 2,
         "runtime": 57,
         "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
         "released": "2026-04-24",
         "number_abs": null,
-        "updated_at": "2026-05-01T19:38:41.000Z",
+        "updated_at": "2026-05-01T23:48:12.000Z",
         "first_aired": "2026-04-24T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -324,20 +324,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 866,
+        "votes": 867,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.747113227844238,
+        "rating": 7.749711513519287,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-01T22:38:30.000Z",
+        "updated_at": "2026-05-01T23:42:10.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -512,20 +512,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1236,
+        "votes": 1238,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.978964328765869,
+        "rating": 7.971728801727295,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-01T22:15:59.000Z",
+        "updated_at": "2026-05-02T00:04:31.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -546,20 +546,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3245,
+        "votes": 3246,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.093374252319336,
+        "rating": 8.093961715698242,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-05-01T21:06:17.000Z",
+        "updated_at": "2026-05-01T23:54:33.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -732,20 +732,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 458,
+        "votes": 459,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.78384256362915,
+        "rating": 6.790849685668945,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-05-01T22:17:51.000Z",
+        "updated_at": "2026-05-02T00:11:03.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
