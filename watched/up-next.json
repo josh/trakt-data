@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Margo's Got Money Troubles",
+      "year": 2026,
+      "ids": {
+        "trakt": 223228,
+        "slug": "margo-s-got-money-troubles",
+        "tvdb": 445651,
+        "imdb": "tt31137273",
+        "tmdb": 245318,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 5,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2026-05-03T05:21:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt31140165",
+          "plex": {
+            "guid": "693c9974882226c2e03f1576"
+          },
+          "tmdb": 6754974,
+          "tvdb": 11500774,
+          "trakt": 13806020
+        },
+        "title": "Homecoming",
+        "votes": 171,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/806/020/screenshots/medium/361dc5d19c.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.315789699554443,
+        "season": 1,
+        "runtime": 38,
+        "overview": "Margo brings baby Bodhi home. Shyanne bets on her future as Jinx re-enters the picture.",
+        "released": "2026-04-15",
+        "number_abs": null,
+        "updated_at": "2026-05-03T04:32:39.000Z",
+        "first_aired": "2026-04-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Homecoming",
+        "available_translations": [],
+        "effective_release_date": "2026-04-15T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31140164",
+          "plex": {
+            "guid": "65be308cbf1c327017d109d7"
+          },
+          "tmdb": 5119022,
+          "tvdb": 10287742,
+          "trakt": 11413966
+        },
+        "title": "The Hungry Ghost",
+        "votes": 215,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/413/966/screenshots/medium/675ef390f3.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.144186019897461,
+        "season": 1,
+        "runtime": 36,
+        "overview": "Margo is left reeling when her first year of college is derailed, forcing her to make a tough decision that changes everything.",
+        "released": "2026-04-15",
+        "number_abs": null,
+        "updated_at": "2026-05-03T04:32:39.000Z",
+        "first_aired": "2026-04-15T01:00:00.000Z",
+        "episode_type": "series_premiere",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "The Hungry Ghost",
+        "available_translations": [],
+        "effective_release_date": "2026-04-15T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -34,20 +128,20 @@
           "trakt": 13784638
         },
         "title": "Halfway to Invisible",
-        "votes": 98,
+        "votes": 128,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/638/screenshots/medium/745c10fc5b.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.2040815353393555,
+        "rating": 7.3828125,
         "season": 2,
         "runtime": 59,
         "overview": "Barney deals with Ashe's audit of Nick's Strong Ass Gym. Coop and Jack travel overseas to woo a big investor. Nick throws a housewarming party.",
         "released": "2026-05-01",
         "number_abs": null,
-        "updated_at": "2026-05-02T17:12:27.000Z",
+        "updated_at": "2026-05-03T05:05:06.000Z",
         "first_aired": "2026-05-01T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,20 +162,20 @@
           "trakt": 13784637
         },
         "title": "The Bread of Affliction",
-        "votes": 233,
+        "votes": 238,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.364806652069092,
+        "rating": 7.369748115539551,
         "season": 2,
         "runtime": 57,
         "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
         "released": "2026-04-24",
         "number_abs": null,
-        "updated_at": "2026-05-02T16:51:51.000Z",
+        "updated_at": "2026-05-03T01:11:45.000Z",
         "first_aired": "2026-04-24T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -128,20 +222,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 168,
+        "votes": 169,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.75595235824585,
+        "rating": 7.757396221160889,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-05-02T15:18:22.000Z",
+        "updated_at": "2026-05-03T01:11:08.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -175,7 +269,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-05-02T15:18:21.000Z",
+        "updated_at": "2026-05-03T03:59:17.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -222,20 +316,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 872,
+        "votes": 879,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.747706413269043,
+        "rating": 7.750853061676025,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-02T16:35:02.000Z",
+        "updated_at": "2026-05-03T04:32:39.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -256,20 +350,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2056,
+        "votes": 2057,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.962062358856201,
+        "rating": 7.960622310638428,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-05-02T15:16:04.000Z",
+        "updated_at": "2026-05-03T04:31:53.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -329,7 +423,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-05-02T14:32:23.000Z",
+        "updated_at": "2026-05-03T04:32:39.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -350,20 +444,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1011,
+        "votes": 1012,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.429278373718262,
+        "rating": 8.429841995239258,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-05-02T14:32:21.000Z",
+        "updated_at": "2026-05-03T05:01:20.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -410,20 +504,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1242,
+        "votes": 1250,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.969404220581055,
+        "rating": 7.967199802398682,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-02T17:12:48.000Z",
+        "updated_at": "2026-05-03T02:52:53.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -444,20 +538,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3246,
+        "votes": 3250,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.093961715698242,
+        "rating": 8.09415340423584,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-05-02T10:26:00.000Z",
+        "updated_at": "2026-05-03T04:32:19.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -504,24 +598,24 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 232,
+        "votes": 236,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.038793087005615,
+        "rating": 7.055084705352783,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-05-02T15:15:56.000Z",
+        "updated_at": "2026-05-02T23:03:59.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 5,
+        "comment_count": 6,
         "during_credits": false,
         "original_title": "All the Things We're Never Going to Have",
         "available_translations": [],
@@ -538,20 +632,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1107,
+        "votes": 1108,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.854561805725098,
+        "rating": 7.859205722808838,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-05-02T15:15:55.000Z",
+        "updated_at": "2026-05-02T22:49:40.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -630,20 +724,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 464,
+        "votes": 466,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.784482955932617,
+        "rating": 6.787553787231445,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-05-02T17:11:42.000Z",
+        "updated_at": "2026-05-03T00:32:53.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -664,20 +758,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1393,
+        "votes": 1394,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.954773902893066,
+        "rating": 7.954806327819824,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-05-02T15:38:22.000Z",
+        "updated_at": "2026-05-03T04:18:43.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
