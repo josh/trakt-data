@@ -14,16 +14,50 @@
     },
     "progress": {
       "aired": 5,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2026-05-03T05:21:00.000Z",
+      "last_watched_at": "2026-05-05T04:51:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt31140166",
+          "plex": {
+            "guid": "693c9973882226c2e03f154c"
+          },
+          "tmdb": 6754975,
+          "tvdb": 11500776,
+          "trakt": 13806021
+        },
+        "title": "Jinxed",
+        "votes": 161,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/806/021/screenshots/medium/3d7086e4f3.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.4782609939575195,
+        "season": 1,
+        "runtime": 42,
+        "overview": "Margo explores a new line of work while Jinx settles in. Shyanne and Kenny find themselves at a creative crossroads.",
+        "released": "2026-04-15",
+        "number_abs": null,
+        "updated_at": "2026-05-05T02:56:04.000Z",
+        "first_aired": "2026-04-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Jinxed",
+        "available_translations": [],
+        "effective_release_date": "2026-04-15T01:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt31140165",
           "plex": {
@@ -34,60 +68,26 @@
           "trakt": 13806020
         },
         "title": "Homecoming",
-        "votes": 171,
+        "votes": 180,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/806/020/screenshots/medium/361dc5d19c.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.315789699554443,
+        "rating": 7.277777671813965,
         "season": 1,
         "runtime": 38,
         "overview": "Margo brings baby Bodhi home. Shyanne bets on her future as Jinx re-enters the picture.",
         "released": "2026-04-15",
         "number_abs": null,
-        "updated_at": "2026-05-03T04:32:39.000Z",
+        "updated_at": "2026-05-04T23:28:57.000Z",
         "first_aired": "2026-04-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 1,
         "during_credits": false,
         "original_title": "Homecoming",
-        "available_translations": [],
-        "effective_release_date": "2026-04-15T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt31140164",
-          "plex": {
-            "guid": "65be308cbf1c327017d109d7"
-          },
-          "tmdb": 5119022,
-          "tvdb": 10287742,
-          "trakt": 11413966
-        },
-        "title": "The Hungry Ghost",
-        "votes": 215,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/413/966/screenshots/medium/675ef390f3.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.144186019897461,
-        "season": 1,
-        "runtime": 36,
-        "overview": "Margo is left reeling when her first year of college is derailed, forcing her to make a tough decision that changes everything.",
-        "released": "2026-04-15",
-        "number_abs": null,
-        "updated_at": "2026-05-03T04:32:39.000Z",
-        "first_aired": "2026-04-15T01:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "The Hungry Ghost",
         "available_translations": [],
         "effective_release_date": "2026-04-15T01:00:00.000Z"
       }
@@ -128,20 +128,20 @@
           "trakt": 13784638
         },
         "title": "Halfway to Invisible",
-        "votes": 128,
+        "votes": 183,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/638/screenshots/medium/745c10fc5b.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.3828125,
+        "rating": 7.502732276916504,
         "season": 2,
         "runtime": 59,
         "overview": "Barney deals with Ashe's audit of Nick's Strong Ass Gym. Coop and Jack travel overseas to woo a big investor. Nick throws a housewarming party.",
         "released": "2026-05-01",
         "number_abs": null,
-        "updated_at": "2026-05-03T05:05:06.000Z",
+        "updated_at": "2026-05-05T04:20:21.000Z",
         "first_aired": "2026-05-01T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -162,28 +162,122 @@
           "trakt": 13784637
         },
         "title": "The Bread of Affliction",
-        "votes": 238,
+        "votes": 247,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/637/screenshots/medium/ebbdf2f1a0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.369748115539551,
+        "rating": 7.380566596984863,
         "season": 2,
         "runtime": 57,
         "overview": "Hari and Gretchen's Passover seder brings the neighborhood together for wine, food, and drama.",
         "released": "2026-04-24",
         "number_abs": null,
-        "updated_at": "2026-05-03T01:11:45.000Z",
+        "updated_at": "2026-05-05T02:34:15.000Z",
         "first_aired": "2026-04-24T00:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 1,
+        "comment_count": 2,
         "during_credits": false,
         "original_title": "The Bread of Affliction",
         "available_translations": [],
         "effective_release_date": "2026-04-24T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "title": "Rooster",
+      "year": 2026,
+      "ids": {
+        "trakt": 240718,
+        "slug": "rooster",
+        "tvdb": 457770,
+        "imdb": "tt32420734",
+        "tmdb": 254953,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2026-05-01T02:31:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32421105",
+          "plex": {
+            "guid": "69852197f56fa48aa57226d2"
+          },
+          "tmdb": 6919259,
+          "tvdb": 11597645,
+          "trakt": 13820615
+        },
+        "title": "Ludlow's Fourth Hottest Professor",
+        "votes": 92,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/820/615/screenshots/medium/b9523017a9.jpg.webp"
+          ]
+        },
+        "number": 9,
+        "rating": 7.40217399597168,
+        "season": 1,
+        "runtime": 33,
+        "overview": "Thriving in and out of the classroom, Greg empowers the hockey team before a key game. Meanwhile, Archie receives feedback on his book and Katie focuses on getting tenure \u2013 which reveals the extent of her parents' involvement in her life.",
+        "released": "2026-05-03",
+        "number_abs": null,
+        "updated_at": "2026-05-05T04:41:26.000Z",
+        "first_aired": "2026-05-04T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Ludlow's Fourth Hottest Professor",
+        "available_translations": [],
+        "effective_release_date": "2026-05-04T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32421102",
+          "plex": {
+            "guid": "69852196f56fa48aa57226d1"
+          },
+          "tmdb": 6919258,
+          "tvdb": 11597643,
+          "trakt": 13820614
+        },
+        "title": "Nobody Spook It",
+        "votes": 187,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/820/614/screenshots/medium/9197b3c879.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.652406215667725,
+        "season": 1,
+        "runtime": 30,
+        "overview": "While Greg tries to support an increasingly emotional Katie, Dylan attempts to steer a promising student towards poetry. Later, Sunny is delighted when Archie starts to engage more with her pregnancy.",
+        "released": "2026-04-26",
+        "number_abs": null,
+        "updated_at": "2026-05-05T03:52:37.000Z",
+        "first_aired": "2026-04-27T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Nobody Spook It",
+        "available_translations": [],
+        "effective_release_date": "2026-04-27T02:00:00.000Z"
       }
     }
   },
@@ -222,20 +316,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 169,
+        "votes": 170,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.757396221160889,
+        "rating": 7.752941131591797,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-05-03T01:11:08.000Z",
+        "updated_at": "2026-05-05T01:42:10.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -269,7 +363,7 @@
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-05-03T03:59:17.000Z",
+        "updated_at": "2026-05-05T04:38:36.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -316,20 +410,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 879,
+        "votes": 889,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.750853061676025,
+        "rating": 7.740157604217529,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-03T04:32:39.000Z",
+        "updated_at": "2026-05-04T21:19:34.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -350,20 +444,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2057,
+        "votes": 2058,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.960622310638428,
+        "rating": 7.960155487060547,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-05-03T04:31:53.000Z",
+        "updated_at": "2026-05-04T21:38:02.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -410,20 +504,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 733,
+        "votes": 738,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.98635721206665,
+        "rating": 7.989160060882568,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-05-03T04:32:39.000Z",
+        "updated_at": "2026-05-04T22:20:32.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -444,20 +538,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1012,
+        "votes": 1014,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.429841995239258,
+        "rating": 8.4309663772583,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-05-03T05:01:20.000Z",
+        "updated_at": "2026-05-05T04:55:39.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -504,24 +598,24 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1250,
+        "votes": 1270,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.967199802398682,
+        "rating": 7.962992191314697,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-03T02:52:53.000Z",
+        "updated_at": "2026-05-05T01:47:33.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 40,
+        "comment_count": 41,
         "during_credits": false,
         "original_title": "Fifteen Inches of Sheer Dynamite",
         "available_translations": [],
@@ -538,20 +632,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3250,
+        "votes": 3254,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.09415340423584,
+        "rating": 8.094038009643555,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-05-03T04:32:19.000Z",
+        "updated_at": "2026-05-04T21:15:19.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -598,24 +692,24 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 236,
+        "votes": 252,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.055084705352783,
+        "rating": 7.0714287757873535,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-05-02T23:03:59.000Z",
+        "updated_at": "2026-05-05T03:15:15.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 6,
+        "comment_count": 7,
         "during_credits": false,
         "original_title": "All the Things We're Never Going to Have",
         "available_translations": [],
@@ -632,20 +726,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1108,
+        "votes": 1111,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.859205722808838,
+        "rating": 7.855985641479492,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-05-02T22:49:40.000Z",
+        "updated_at": "2026-05-04T22:12:45.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -703,7 +797,7 @@
       }
     },
     "progress": {
-      "aired": 19,
+      "aired": 20,
       "completed": 16,
       "hidden": 0,
       "last_watched_at": "2022-02-28T21:26:00.000Z",
@@ -724,24 +818,24 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 466,
+        "votes": 478,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.787553787231445,
+        "rating": 6.786611080169678,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-12",
         "number_abs": null,
-        "updated_at": "2026-05-03T00:32:53.000Z",
+        "updated_at": "2026-05-05T03:25:39.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 20,
+        "comment_count": 21,
         "during_credits": false,
         "original_title": "Andale",
         "available_translations": [],
@@ -758,20 +852,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1394,
+        "votes": 1398,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.954806327819824,
+        "rating": 7.958512306213379,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-05-03T04:18:43.000Z",
+        "updated_at": "2026-05-05T02:16:17.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
