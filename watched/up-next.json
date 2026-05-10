@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Margo's Got Money Troubles",
+      "year": 2026,
+      "ids": {
+        "trakt": 223228,
+        "slug": "margo-s-got-money-troubles",
+        "tvdb": 445651,
+        "imdb": "tt31137273",
+        "tmdb": 245318,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2026-05-10T04:59:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt31140162",
+          "plex": {
+            "guid": "693c9973882226c2e03f150d"
+          },
+          "tmdb": 6754976,
+          "tvdb": 11500778,
+          "trakt": 13806022
+        },
+        "title": "Buddies",
+        "votes": 167,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/806/022/screenshots/medium/8707e47b02.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.40119743347168,
+        "season": 1,
+        "runtime": 36,
+        "overview": "Worlds collide as Margo makes new friends. Jinx reunites with his wrestling roots.",
+        "released": "2026-04-22",
+        "number_abs": null,
+        "updated_at": "2026-05-10T01:32:00.000Z",
+        "first_aired": "2026-04-22T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Buddies",
+        "available_translations": [],
+        "effective_release_date": "2026-04-22T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31140166",
+          "plex": {
+            "guid": "693c9973882226c2e03f154c"
+          },
+          "tmdb": 6754975,
+          "tvdb": 11500776,
+          "trakt": 13806021
+        },
+        "title": "Jinxed",
+        "votes": 177,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/806/021/screenshots/medium/3d7086e4f3.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.485875606536865,
+        "season": 1,
+        "runtime": 42,
+        "overview": "Margo explores a new line of work while Jinx settles in. Shyanne and Kenny find themselves at a creative crossroads.",
+        "released": "2026-04-15",
+        "number_abs": null,
+        "updated_at": "2026-05-09T18:03:49.000Z",
+        "first_aired": "2026-04-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Jinxed",
+        "available_translations": [],
+        "effective_release_date": "2026-04-15T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Lord of the Flies",
       "year": 2026,
       "ids": {
@@ -90,100 +184,6 @@
         "original_title": "Piggy",
         "available_translations": [],
         "effective_release_date": "2026-02-08T21:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Margo's Got Money Troubles",
-      "year": 2026,
-      "ids": {
-        "trakt": 223228,
-        "slug": "margo-s-got-money-troubles",
-        "tvdb": 445651,
-        "imdb": "tt31137273",
-        "tmdb": 245318,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 6,
-      "completed": 2,
-      "hidden": 0,
-      "last_watched_at": "2026-05-05T04:51:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 2,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt31140166",
-          "plex": {
-            "guid": "693c9973882226c2e03f154c"
-          },
-          "tmdb": 6754975,
-          "tvdb": 11500776,
-          "trakt": 13806021
-        },
-        "title": "Jinxed",
-        "votes": 177,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/806/021/screenshots/medium/3d7086e4f3.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.485875606536865,
-        "season": 1,
-        "runtime": 42,
-        "overview": "Margo explores a new line of work while Jinx settles in. Shyanne and Kenny find themselves at a creative crossroads.",
-        "released": "2026-04-15",
-        "number_abs": null,
-        "updated_at": "2026-05-09T18:03:49.000Z",
-        "first_aired": "2026-04-15T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "Jinxed",
-        "available_translations": [],
-        "effective_release_date": "2026-04-15T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt31140165",
-          "plex": {
-            "guid": "693c9974882226c2e03f1576"
-          },
-          "tmdb": 6754974,
-          "tvdb": 11500774,
-          "trakt": 13806020
-        },
-        "title": "Homecoming",
-        "votes": 201,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/806/020/screenshots/medium/361dc5d19c.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.273632049560547,
-        "season": 1,
-        "runtime": 38,
-        "overview": "Margo brings baby Bodhi home. Shyanne bets on her future as Jinx re-enters the picture.",
-        "released": "2026-04-15",
-        "number_abs": null,
-        "updated_at": "2026-05-09T22:11:50.000Z",
-        "first_aired": "2026-04-15T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Homecoming",
-        "available_translations": [],
-        "effective_release_date": "2026-04-15T01:00:00.000Z"
       }
     }
   },
@@ -316,20 +316,20 @@
           "trakt": 13820615
         },
         "title": "Ludlow's Fourth Hottest Professor",
-        "votes": 186,
+        "votes": 188,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/615/screenshots/medium/b9523017a9.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.478494644165039,
+        "rating": 7.468085289001465,
         "season": 1,
         "runtime": 31,
         "overview": "Thriving in and out of the classroom, Greg empowers the hockey team before a key game. Meanwhile, Archie receives feedback on his book and Katie focuses on getting tenure \u2013 which reveals the extent of her parents' involvement in her life.",
         "released": "2026-05-03",
         "number_abs": null,
-        "updated_at": "2026-05-10T02:37:41.000Z",
+        "updated_at": "2026-05-10T04:16:11.000Z",
         "first_aired": "2026-05-04T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -504,20 +504,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 919,
+        "votes": 920,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.745375633239746,
+        "rating": 7.744565010070801,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-10T02:44:25.000Z",
+        "updated_at": "2026-05-10T05:11:44.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -598,20 +598,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 743,
+        "votes": 744,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.99192476272583,
+        "rating": 7.9919352531433105,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-05-09T23:14:53.000Z",
+        "updated_at": "2026-05-10T04:20:48.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -692,20 +692,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1324,
+        "votes": 1326,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.958459377288818,
+        "rating": 7.958521842956543,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-09T23:49:29.000Z",
+        "updated_at": "2026-05-10T03:36:17.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -946,20 +946,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1403,
+        "votes": 1404,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.957947254180908,
+        "rating": 7.956552505493164,
         "season": 2,
         "runtime": 61,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-27",
         "number_abs": null,
-        "updated_at": "2026-05-09T22:18:23.000Z",
+        "updated_at": "2026-05-10T03:20:42.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
