@@ -95,6 +95,100 @@
   },
   {
     "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 15,
+      "hidden": 0,
+      "last_watched_at": "2026-05-14T04:28:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 15,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39104658",
+          "plex": {
+            "guid": "693712de71360be5a349e292"
+          },
+          "tmdb": 6737393,
+          "tvdb": 11492373,
+          "trakt": 13784640
+        },
+        "title": "Out East",
+        "votes": 3,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/784/640/screenshots/medium/201ced2420.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7,
+        "season": 2,
+        "runtime": 57,
+        "overview": "Coop and Sam attend a wild weekend at Ashe's Hamptons estate. Mel takes things too far in her battle with the neighbors.",
+        "released": "2026-05-15",
+        "number_abs": null,
+        "updated_at": "2026-05-15T01:36:25.000Z",
+        "first_aired": "2026-05-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Out East",
+        "available_translations": [],
+        "effective_release_date": "2026-05-15T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39104655",
+          "plex": {
+            "guid": "693712df71360be5a349e297"
+          },
+          "tmdb": 6737392,
+          "tvdb": 11492372,
+          "trakt": 13784639
+        },
+        "title": "For Everything Else, There Was Bowling",
+        "votes": 240,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/784/639/screenshots/medium/948ed702b2.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.383333206176758,
+        "season": 2,
+        "runtime": 42,
+        "overview": "Coop and his family navigate a fraught funeral service and wake.",
+        "released": "2026-05-08",
+        "number_abs": null,
+        "updated_at": "2026-05-15T00:17:36.000Z",
+        "first_aired": "2026-05-08T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "For Everything Else, There Was Bowling",
+        "available_translations": [],
+        "effective_release_date": "2026-05-08T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Margo's Got Money Troubles",
       "year": 2026,
       "ids": {
@@ -295,7 +389,7 @@
       }
     },
     "progress": {
-      "aired": 44,
+      "aired": 45,
       "completed": 37,
       "hidden": 0,
       "last_watched_at": "2025-06-05T04:17:00.000Z",
@@ -410,20 +504,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 954,
+        "votes": 955,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.744235038757324,
+        "rating": 7.743455410003662,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-14T21:27:19.000Z",
+        "updated_at": "2026-05-15T00:46:58.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
