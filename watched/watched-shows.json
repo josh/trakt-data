@@ -1,18 +1,18 @@
 [
   {
-    "plays": 2,
-    "last_watched_at": "2026-05-16T03:58:00.000Z",
-    "last_updated_at": "2026-05-16T03:00:43.000Z",
+    "plays": 6,
+    "last_watched_at": "2026-05-16T05:07:00.000Z",
+    "last_updated_at": "2026-05-16T04:27:46.000Z",
     "reset_at": null,
     "show": {
-      "title": "Lord of the Flies",
+      "title": "Margo's Got Money Troubles",
       "year": 2026,
       "ids": {
-        "trakt": 254918,
-        "slug": "lord-of-the-flies",
-        "tvdb": 434004,
-        "imdb": "tt27557666",
-        "tmdb": 270572,
+        "trakt": 223228,
+        "slug": "margo-s-got-money-troubles",
+        "tvdb": 445651,
+        "imdb": "tt31137273",
+        "tmdb": 245318,
         "tvrage": null
       }
     },
@@ -23,12 +23,62 @@
           {
             "number": 1,
             "plays": 1,
-            "last_watched_at": "2026-05-08T04:27:00.000Z"
+            "last_watched_at": "2026-05-03T05:21:00.000Z"
           },
           {
             "number": 2,
             "plays": 1,
-            "last_watched_at": "2026-05-16T03:58:00.000Z"
+            "last_watched_at": "2026-05-05T04:51:00.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2026-05-10T04:59:00.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2026-05-12T05:10:00.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2026-05-13T05:24:00.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2026-05-16T05:07:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 1,
+    "last_watched_at": "2026-05-16T04:14:00.000Z",
+    "last_updated_at": "2026-05-16T03:33:09.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Widow's Bay",
+      "year": 2026,
+      "ids": {
+        "trakt": 254678,
+        "slug": "widow-s-bay",
+        "tvdb": 454109,
+        "imdb": "tt33332385",
+        "tmdb": 270476,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-05-16T04:14:00.000Z"
           }
         ]
       }
@@ -204,56 +254,6 @@
             "number": 6,
             "plays": 1,
             "last_watched_at": "2026-05-14T04:28:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 5,
-    "last_watched_at": "2026-05-13T05:24:00.000Z",
-    "last_updated_at": "2026-05-13T04:39:13.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Margo's Got Money Troubles",
-      "year": 2026,
-      "ids": {
-        "trakt": 223228,
-        "slug": "margo-s-got-money-troubles",
-        "tvdb": 445651,
-        "imdb": "tt31137273",
-        "tmdb": 245318,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-05-03T05:21:00.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2026-05-05T04:51:00.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2026-05-10T04:59:00.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2026-05-12T05:10:00.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2026-05-13T05:24:00.000Z"
           }
         ]
       }
