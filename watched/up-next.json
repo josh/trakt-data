@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Lord of the Flies",
+      "year": 2026,
+      "ids": {
+        "trakt": 254918,
+        "slug": "lord-of-the-flies",
+        "tvdb": 434004,
+        "imdb": "tt27557666",
+        "tmdb": 270572,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 4,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2026-05-16T03:58:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt33337164",
+          "plex": {
+            "guid": "66db86f60918531005a6b188"
+          },
+          "tmdb": 5579582,
+          "tvdb": 11582267,
+          "trakt": 12255055
+        },
+        "title": "Simon",
+        "votes": 110,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/255/055/screenshots/medium/d09957b1ac.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.254549980163574,
+        "season": 1,
+        "runtime": 59,
+        "overview": "Simon tries to warn his friends as the latest beast sighting spreads terror across the camps.",
+        "released": "2026-02-08",
+        "number_abs": null,
+        "updated_at": "2026-05-15T15:12:43.000Z",
+        "first_aired": "2026-02-22T21:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Simon",
+        "available_translations": [],
+        "effective_release_date": "2026-02-08T06:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt33336783",
+          "plex": {
+            "guid": "66db86f60918531005a6b197"
+          },
+          "tmdb": 5579580,
+          "tvdb": 11582265,
+          "trakt": 12255053
+        },
+        "title": "Jack",
+        "votes": 128,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/255/053/screenshots/medium/a0646681a2.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.0625,
+        "season": 1,
+        "runtime": 58,
+        "overview": "Jack\u2019s determination to kill a pig leads him to neglect other duties, with grave consequences.",
+        "released": "2026-02-08",
+        "number_abs": null,
+        "updated_at": "2026-05-15T15:12:43.000Z",
+        "first_aired": "2026-02-15T21:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Jack",
+        "available_translations": [],
+        "effective_release_date": "2026-02-08T06:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Rooster",
       "year": 2026,
       "ids": {
@@ -34,20 +128,20 @@
           "trakt": 13820616
         },
         "title": "Songs for Raisa",
-        "votes": 176,
+        "votes": 181,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/616/screenshots/medium/f6cbdfa0e0.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.028409004211426,
+        "rating": 8.011049270629883,
         "season": 1,
         "runtime": 31,
         "overview": "After setting boundaries with her parents, Katie makes a decision about her marriage to Archie \u2013 who has his own talk with Sunny about the future. Then, as he grapples with Katie's independence, Greg prepares to say goodbye to his semester at Ludlow.",
         "released": "2026-05-11",
         "number_abs": null,
-        "updated_at": "2026-05-15T03:59:45.000Z",
+        "updated_at": "2026-05-16T02:05:49.000Z",
         "first_aired": "2026-05-11T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -68,20 +162,20 @@
           "trakt": 13820615
         },
         "title": "Ludlow's Fourth Hottest Professor",
-        "votes": 217,
+        "votes": 220,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/615/screenshots/medium/b9523017a9.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.465437889099121,
+        "rating": 7.4772725105285645,
         "season": 1,
         "runtime": 31,
         "overview": "Thriving in and out of the classroom, Greg empowers the hockey team before a key game. Meanwhile, Archie receives feedback on his book and Katie focuses on getting tenure \u2013 which reveals the extent of her parents' involvement in her life.",
         "released": "2026-05-04",
         "number_abs": null,
-        "updated_at": "2026-05-14T23:14:33.000Z",
+        "updated_at": "2026-05-15T22:40:30.000Z",
         "first_aired": "2026-05-04T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -128,20 +222,20 @@
           "trakt": 13784640
         },
         "title": "Out East",
-        "votes": 16,
+        "votes": 92,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/640/screenshots/medium/201ced2420.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.75,
+        "rating": 7.5217390060424805,
         "season": 2,
         "runtime": 57,
         "overview": "Coop and Sam attend a wild weekend at Ashe's Hamptons estate. Mel takes things too far in her battle with the neighbors.",
         "released": "2026-05-15",
         "number_abs": null,
-        "updated_at": "2026-05-15T06:20:34.000Z",
+        "updated_at": "2026-05-16T02:47:29.000Z",
         "first_aired": "2026-05-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -162,20 +256,20 @@
           "trakt": 13784639
         },
         "title": "For Everything Else, There Was Bowling",
-        "votes": 241,
+        "votes": 248,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/639/screenshots/medium/948ed702b2.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.385891914367676,
+        "rating": 7.391129016876221,
         "season": 2,
         "runtime": 42,
         "overview": "Coop and his family navigate a fraught funeral service and wake.",
         "released": "2026-05-08",
         "number_abs": null,
-        "updated_at": "2026-05-15T02:01:03.000Z",
+        "updated_at": "2026-05-16T02:10:02.000Z",
         "first_aired": "2026-05-08T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -222,20 +316,20 @@
           "trakt": 13806024
         },
         "title": "Grudge Match",
-        "votes": 146,
+        "votes": 150,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/806/024/screenshots/medium/4791356542.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.3972601890563965,
+        "rating": 7.386666774749756,
         "season": 1,
         "runtime": 40,
         "overview": "Plans to expand HungryGhost's digital empire are halted when secrets divide Margo's family.",
         "released": "2026-05-06",
         "number_abs": null,
-        "updated_at": "2026-05-15T06:26:24.000Z",
+        "updated_at": "2026-05-16T01:21:19.000Z",
         "first_aired": "2026-05-06T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -256,20 +350,20 @@
           "trakt": 13806023
         },
         "title": "Flamingoes",
-        "votes": 159,
+        "votes": 160,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/806/023/screenshots/medium/7ae056c5d7.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.358490467071533,
+        "rating": 7.368750095367432,
         "season": 1,
         "runtime": 45,
         "overview": "Vegas. Baby.",
         "released": "2026-04-29",
         "number_abs": null,
-        "updated_at": "2026-05-15T06:26:28.000Z",
+        "updated_at": "2026-05-15T22:42:36.000Z",
         "first_aired": "2026-04-29T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -283,95 +377,97 @@
   },
   {
     "show": {
-      "title": "Lord of the Flies",
-      "year": 2026,
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
       "ids": {
-        "trakt": 254918,
-        "slug": "lord-of-the-flies",
-        "tvdb": 434004,
-        "imdb": "tt27557666",
-        "tmdb": 270572,
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
         "tvrage": null
       }
     },
     "progress": {
-      "aired": 4,
-      "completed": 1,
+      "aired": 730,
+      "completed": 729,
       "hidden": 0,
-      "last_watched_at": "2026-05-08T04:27:00.000Z",
+      "last_watched_at": "2026-05-10T02:36:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 731,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt33336783",
+          "imdb": null,
           "plex": {
-            "guid": "66db86f60918531005a6b197"
+            "guid": "69fe6dd9b3502a86175aeeb9"
           },
-          "tmdb": 5579580,
-          "tvdb": 11582265,
-          "trakt": 12255053
+          "tmdb": 7227568,
+          "tvdb": null,
+          "trakt": 14156814
         },
-        "title": "Jack",
-        "votes": 128,
+        "title": "May 15, 2026: Ben McKenzie, Dan Jones, David French",
+        "votes": 1,
         "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/255/053/screenshots/medium/a0646681a2.jpg.webp"
-          ]
+          "screenshot": []
         },
-        "number": 2,
-        "rating": 7.0625,
-        "season": 1,
-        "runtime": 58,
-        "overview": "Jack\u2019s determination to kill a pig leads him to neglect other duties, with grave consequences.",
-        "released": "2026-02-08",
+        "number": 15,
+        "rating": 7,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with actor Ben McKenzie, who wrote, directed, and produced the new documentary \"Everyone is Lying to You for Money.\" This week's panel discussion includes Dan Jones, historian, podcaster, and author of the forthcoming book \"Castles: A Fortified History of the World from the Bronze Age to the Nuclear Age\"; and David French, New York Times columnist, visiting professor at Lipscomb University, and co-host of the podcast \"Advisory Opinions.\"",
+        "released": "2026-05-16",
         "number_abs": null,
-        "updated_at": "2026-05-14T21:40:55.000Z",
-        "first_aired": "2026-02-15T21:00:00.000Z",
+        "updated_at": "2026-05-16T02:35:09.000Z",
+        "first_aired": "2026-05-16T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
-        "original_title": "Jack",
-        "available_translations": [],
-        "effective_release_date": "2026-02-08T00:00:00.000Z"
+        "original_title": "May 15, 2026: Ben McKenzie, Dan Jones, David French",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-05-16T02:00:00.000Z"
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt33336779",
+          "imdb": null,
           "plex": {
-            "guid": "6451f5bf9d8f2d1d62aa3f5f"
+            "guid": "69cfc26c0b7b2bc23044d3ef"
           },
-          "tmdb": 5579495,
-          "tvdb": 9754507,
-          "trakt": 12255052
+          "tmdb": 7137586,
+          "tvdb": null,
+          "trakt": 14106773
         },
-        "title": "Piggy",
-        "votes": 198,
+        "title": "May 8, 2026: Sen. John Fetterman, Rep. Dan Crenshaw, Donna Brazile",
+        "votes": 25,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/012/255/052/screenshots/medium/3f277220bb.jpg.webp"
+            "media.trakt.tv/images/episodes/014/106/773/screenshots/medium/af54bfe1e1.jpg.webp"
           ]
         },
-        "number": 1,
-        "rating": 7.035353660583496,
-        "season": 1,
-        "runtime": 58,
-        "overview": "Piggy finds something that proves useful to the group but is hurt when his new friend breaks a promise.",
-        "released": "2026-02-08",
+        "number": 14,
+        "rating": 7.28000020980835,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with Sen. John Fetterman, Democratic senator from Pennsylvania and author of the book \"Unfettered.\" This week's panel discussion includes Rep. Dan Crenshaw, Republican congressman who represents Texas's 2nd district and host of the podcast \"Hold These Truths with Dan Crenshaw\"; and Donna Brazile, Democratic political strategist and ABC News contributor.",
+        "released": "2026-05-09",
         "number_abs": null,
-        "updated_at": "2026-05-14T16:58:57.000Z",
-        "first_aired": "2026-02-08T21:00:00.000Z",
-        "episode_type": "series_premiere",
+        "updated_at": "2026-05-15T20:43:31.000Z",
+        "first_aired": "2026-05-09T02:00:00.000Z",
+        "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 0,
         "during_credits": false,
-        "original_title": "Piggy",
-        "available_translations": [],
-        "effective_release_date": "2026-02-08T21:00:00.000Z"
+        "original_title": "May 8, 2026: Sen. John Fetterman, Rep. Dan Crenshaw, Donna Brazile",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-05-09T02:00:00.000Z"
       }
     }
   },
@@ -410,20 +506,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 183,
+        "votes": 184,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.732240200042725,
+        "rating": 7.7336955070495605,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-05-15T04:10:48.000Z",
+        "updated_at": "2026-05-16T02:14:59.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -431,7 +527,7 @@
         "during_credits": false,
         "original_title": "EGOT",
         "available_translations": [],
-        "effective_release_date": "2026-04-10T01:00:00.000Z"
+        "effective_release_date": "2026-04-09T12:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -444,20 +540,20 @@
           "trakt": 12896628
         },
         "title": "Heaven",
-        "votes": 384,
+        "votes": 385,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/896/628/screenshots/medium/49c7367315.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.807291507720947,
+        "rating": 7.8077921867370605,
         "season": 4,
         "runtime": 31,
         "overview": "Deborah deals with a difficult contract negotiation.",
         "released": "2025-05-29",
         "number_abs": null,
-        "updated_at": "2026-05-15T06:33:34.000Z",
+        "updated_at": "2026-05-16T02:14:58.000Z",
         "first_aired": "2025-05-30T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -465,7 +561,7 @@
         "during_credits": false,
         "original_title": "Heaven",
         "available_translations": [],
-        "effective_release_date": "2025-05-30T01:00:00.000Z"
+        "effective_release_date": "2025-05-29T12:00:00.000Z"
       }
     }
   },
@@ -504,20 +600,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 955,
+        "votes": 962,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.743455410003662,
+        "rating": 7.742203712463379,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-15T00:46:58.000Z",
+        "updated_at": "2026-05-15T21:01:26.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -525,7 +621,7 @@
         "during_credits": false,
         "original_title": "The Northern Star",
         "available_translations": [],
-        "effective_release_date": "2026-03-25T01:00:00.000Z"
+        "effective_release_date": "2026-03-24T12:00:00.000Z"
       },
       "last_episode": {
         "ids": {
@@ -538,20 +634,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2076,
+        "votes": 2077,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.964836120605469,
+        "rating": 7.964371681213379,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-05-14T22:09:26.000Z",
+        "updated_at": "2026-05-15T22:11:12.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -559,7 +655,7 @@
         "during_credits": false,
         "original_title": "Straight to Hell",
         "available_translations": [],
-        "effective_release_date": "2025-04-16T01:00:00.000Z"
+        "effective_release_date": "2025-04-15T12:00:00.000Z"
       }
     }
   },
@@ -605,13 +701,13 @@
           ]
         },
         "number": 1,
-        "rating": 7.996005535125732,
+        "rating": 7.996009826660156,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-05-15T00:02:43.000Z",
+        "updated_at": "2026-05-16T00:03:54.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -645,7 +741,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-05-15T00:17:19.000Z",
+        "updated_at": "2026-05-16T00:18:45.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -692,20 +788,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1386,
+        "votes": 1394,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.948051929473877,
+        "rating": 7.951936721801758,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-14T22:05:08.000Z",
+        "updated_at": "2026-05-16T03:03:14.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -726,20 +822,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3266,
+        "votes": 3267,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.094611167907715,
+        "rating": 8.095194816589355,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-05-14T21:34:47.000Z",
+        "updated_at": "2026-05-15T23:43:11.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -786,20 +882,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 288,
+        "votes": 291,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.111111164093018,
+        "rating": 7.106529235839844,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-05-14T18:19:14.000Z",
+        "updated_at": "2026-05-16T02:38:57.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -833,7 +929,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-05-14T23:23:21.000Z",
+        "updated_at": "2026-05-15T23:32:38.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -912,20 +1008,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 529,
+        "votes": 531,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.805293083190918,
+        "rating": 6.8079094886779785,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": null,
-        "updated_at": "2026-05-15T07:00:31.000Z",
+        "updated_at": "2026-05-15T22:52:33.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -959,7 +1055,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": null,
-        "updated_at": "2026-05-15T05:42:52.000Z",
+        "updated_at": "2026-05-15T22:36:36.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
