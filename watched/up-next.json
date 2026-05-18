@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Widow's Bay",
+      "year": 2026,
+      "ids": {
+        "trakt": 254678,
+        "slug": "widow-s-bay",
+        "tvdb": 454109,
+        "imdb": "tt33332385",
+        "tmdb": 270476,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 4,
+      "completed": 2,
+      "hidden": 0,
+      "last_watched_at": "2026-05-18T04:27:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 2,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35699180",
+          "plex": {
+            "guid": "694837b14d2f329fa604ffa6"
+          },
+          "tmdb": 6768811,
+          "tvdb": 11512010,
+          "trakt": 13821058
+        },
+        "title": "The Inaugural Swim",
+        "votes": 310,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/821/058/screenshots/medium/11f928f25c.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.748386859893799,
+        "season": 1,
+        "runtime": 38,
+        "overview": "It's time for the annual beach opening. Lay out a towel as the mayor \"tests the waters.\" Unrelated: Do not pick up hitchhikers.",
+        "released": "2026-05-06",
+        "number_abs": null,
+        "updated_at": "2026-05-18T04:46:52.000Z",
+        "first_aired": "2026-05-06T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "The Inaugural Swim",
+        "available_translations": [],
+        "effective_release_date": "2026-05-06T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35699173",
+          "plex": {
+            "guid": "694837b24d2f329fa604ffb2"
+          },
+          "tmdb": 6768810,
+          "tvdb": 11512008,
+          "trakt": 13821057
+        },
+        "title": "Lodging",
+        "votes": 342,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/821/057/screenshots/medium/2f77f9ad20.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.377192974090576,
+        "season": 1,
+        "runtime": 37,
+        "overview": "Cherish the historical charm of our local inn, which Mayor Loftis will prove is safe by spending a night there alone.",
+        "released": "2026-04-29",
+        "number_abs": null,
+        "updated_at": "2026-05-18T04:31:13.000Z",
+        "first_aired": "2026-04-29T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Lodging",
+        "available_translations": [],
+        "effective_release_date": "2026-04-29T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Margo's Got Money Troubles",
       "year": 2026,
       "ids": {
@@ -34,20 +128,20 @@
           "trakt": 13806025
         },
         "title": "Lariat Takedown",
-        "votes": 116,
+        "votes": 122,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/806/025/screenshots/medium/a9c3d8e21f.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.887930870056152,
+        "rating": 7.901639461517334,
         "season": 1,
         "runtime": 37,
         "overview": "Margo goes head-to-head with Mark. Jinx and Susie have a rough day.",
         "released": "2026-05-13",
         "number_abs": null,
-        "updated_at": "2026-05-17T18:19:07.000Z",
+        "updated_at": "2026-05-18T00:20:43.000Z",
         "first_aired": "2026-05-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,122 +162,28 @@
           "trakt": 13806024
         },
         "title": "Grudge Match",
-        "votes": 156,
+        "votes": 157,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/806/024/screenshots/medium/4791356542.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.384615421295166,
+        "rating": 7.382165431976318,
         "season": 1,
         "runtime": 40,
         "overview": "Plans to expand HungryGhost's digital empire are halted when secrets divide Margo's family.",
         "released": "2026-05-06",
         "number_abs": null,
-        "updated_at": "2026-05-17T15:44:43.000Z",
+        "updated_at": "2026-05-18T04:47:00.000Z",
         "first_aired": "2026-05-06T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 3,
         "during_credits": false,
         "original_title": "Grudge Match",
         "available_translations": [],
         "effective_release_date": "2026-05-06T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Widow's Bay",
-      "year": 2026,
-      "ids": {
-        "trakt": 254678,
-        "slug": "widow-s-bay",
-        "tvdb": 454109,
-        "imdb": "tt33332385",
-        "tmdb": 270476,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 4,
-      "completed": 1,
-      "hidden": 0,
-      "last_watched_at": "2026-05-16T04:14:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 1,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35699173",
-          "plex": {
-            "guid": "694837b24d2f329fa604ffb2"
-          },
-          "tmdb": 6768810,
-          "tvdb": 11512008,
-          "trakt": 13821057
-        },
-        "title": "Lodging",
-        "votes": 329,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/821/057/screenshots/medium/2f77f9ad20.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.37082052230835,
-        "season": 1,
-        "runtime": 37,
-        "overview": "Cherish the historical charm of our local inn, which Mayor Loftis will prove is safe by spending a night there alone.",
-        "released": "2026-04-29",
-        "number_abs": null,
-        "updated_at": "2026-05-17T16:31:37.000Z",
-        "first_aired": "2026-04-29T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "Lodging",
-        "available_translations": [],
-        "effective_release_date": "2026-04-29T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35699174",
-          "plex": {
-            "guid": "66da94bee48eef4cef8fc3ec"
-          },
-          "tmdb": 5577631,
-          "tvdb": 10676840,
-          "trakt": 12250243
-        },
-        "title": "Welcome to Widow's Bay!",
-        "votes": 393,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/250/243/screenshots/medium/5509585291.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.193384170532227,
-        "season": 1,
-        "runtime": 41,
-        "overview": "We hope you enjoyed the three-hour ferry to New England's best-kept secret! Ignore the warnings about the fog. Everything's fine.",
-        "released": "2026-04-29",
-        "number_abs": null,
-        "updated_at": "2026-05-17T18:02:41.000Z",
-        "first_aired": "2026-04-29T01:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 7,
-        "during_credits": false,
-        "original_title": "Welcome to Widow's Bay!",
-        "available_translations": [],
-        "effective_release_date": "2026-04-29T01:00:00.000Z"
       }
     }
   },
@@ -222,20 +222,20 @@
           "trakt": 13820616
         },
         "title": "Songs for Raisa",
-        "votes": 199,
+        "votes": 210,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/616/screenshots/medium/f6cbdfa0e0.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.959798812866211,
+        "rating": 7.995238304138184,
         "season": 1,
         "runtime": 31,
         "overview": "After setting boundaries with her parents, Katie makes a decision about her marriage to Archie \u2013 who has his own talk with Sunny about the future. Then, as he grapples with Katie's independence, Greg prepares to say goodbye to his semester at Ludlow.",
         "released": "2026-05-11",
         "number_abs": null,
-        "updated_at": "2026-05-17T18:01:23.000Z",
+        "updated_at": "2026-05-18T03:24:58.000Z",
         "first_aired": "2026-05-11T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -256,20 +256,20 @@
           "trakt": 13820615
         },
         "title": "Ludlow's Fourth Hottest Professor",
-        "votes": 224,
+        "votes": 230,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/820/615/screenshots/medium/b9523017a9.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.4464287757873535,
+        "rating": 7.447825908660889,
         "season": 1,
         "runtime": 31,
         "overview": "Thriving in and out of the classroom, Greg empowers the hockey team before a key game. Meanwhile, Archie receives feedback on his book and Katie focuses on getting tenure \u2013 which reveals the extent of her parents' involvement in her life.",
         "released": "2026-05-04",
         "number_abs": null,
-        "updated_at": "2026-05-17T15:37:02.000Z",
+        "updated_at": "2026-05-17T22:33:31.000Z",
         "first_aired": "2026-05-04T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -316,20 +316,20 @@
           "trakt": 13784640
         },
         "title": "Out East",
-        "votes": 167,
+        "votes": 180,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/640/screenshots/medium/201ced2420.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.664670467376709,
+        "rating": 7.666666507720947,
         "season": 2,
         "runtime": 57,
         "overview": "Coop and Sam attend a wild weekend at Ashe's Hamptons estate. Mel takes things too far in her battle with the neighbors.",
         "released": "2026-05-15",
         "number_abs": null,
-        "updated_at": "2026-05-17T18:01:36.000Z",
+        "updated_at": "2026-05-18T02:56:40.000Z",
         "first_aired": "2026-05-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -363,7 +363,7 @@
         "overview": "Coop and his family navigate a fraught funeral service and wake.",
         "released": "2026-05-08",
         "number_abs": null,
-        "updated_at": "2026-05-17T15:29:57.000Z",
+        "updated_at": "2026-05-17T19:46:00.000Z",
         "first_aired": "2026-05-08T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -410,20 +410,20 @@
           "trakt": 14073216
         },
         "title": "EGOT",
-        "votes": 185,
+        "votes": 187,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.729729652404785,
+        "rating": 7.743315696716309,
         "season": 5,
         "runtime": 34,
         "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
         "released": "2026-04-09",
         "number_abs": null,
-        "updated_at": "2026-05-17T15:16:20.000Z",
+        "updated_at": "2026-05-18T01:23:31.000Z",
         "first_aired": "2026-04-10T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -504,20 +504,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 971,
+        "votes": 978,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.7456231117248535,
+        "rating": 7.741308689117432,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": null,
-        "updated_at": "2026-05-17T18:21:17.000Z",
+        "updated_at": "2026-05-18T05:00:47.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -551,7 +551,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": null,
-        "updated_at": "2026-05-17T16:13:43.000Z",
+        "updated_at": "2026-05-18T01:39:03.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -611,7 +611,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": null,
-        "updated_at": "2026-05-17T16:13:05.000Z",
+        "updated_at": "2026-05-18T00:15:42.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -645,7 +645,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": null,
-        "updated_at": "2026-05-17T16:13:04.000Z",
+        "updated_at": "2026-05-18T00:33:56.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -692,20 +692,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1414,
+        "votes": 1427,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.949787616729736,
+        "rating": 7.950245380401611,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": null,
-        "updated_at": "2026-05-17T17:36:25.000Z",
+        "updated_at": "2026-05-18T05:06:01.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -726,20 +726,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3270,
+        "votes": 3271,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.09449577331543,
+        "rating": 8.095077514648438,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": null,
-        "updated_at": "2026-05-17T15:15:25.000Z",
+        "updated_at": "2026-05-18T01:42:37.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -786,20 +786,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 297,
+        "votes": 301,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.107744216918945,
+        "rating": 7.106312274932861,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": null,
-        "updated_at": "2026-05-16T23:32:11.000Z",
+        "updated_at": "2026-05-18T00:30:46.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -833,7 +833,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": null,
-        "updated_at": "2026-05-17T17:57:24.000Z",
+        "updated_at": "2026-05-17T23:43:30.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -891,7 +891,7 @@
       }
     },
     "progress": {
-      "aired": 21,
+      "aired": 22,
       "completed": 16,
       "hidden": 0,
       "last_watched_at": "2022-02-28T21:26:00.000Z",
@@ -912,20 +912,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 537,
+        "votes": 538,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.813780307769775,
+        "rating": 6.8085503578186035,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": null,
-        "updated_at": "2026-05-17T17:32:22.000Z",
+        "updated_at": "2026-05-18T02:16:02.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -959,7 +959,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": null,
-        "updated_at": "2026-05-17T16:13:11.000Z",
+        "updated_at": "2026-05-17T22:43:01.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
