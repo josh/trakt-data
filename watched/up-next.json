@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Hacks",
+      "year": 2021,
+      "ids": {
+        "trakt": 179632,
+        "slug": "hacks-2021",
+        "tvdb": 401582,
+        "imdb": "tt11815682",
+        "tmdb": 124101,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 47,
+      "completed": 39,
+      "hidden": 0,
+      "last_watched_at": "2026-05-29T05:41:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 39,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt41021276",
+          "plex": {
+            "guid": "69c27e27b4cf3e9d4fdd929b"
+          },
+          "tmdb": 7072151,
+          "tvdb": 11507059,
+          "trakt": 14073218
+        },
+        "title": "No New Tricks",
+        "votes": 167,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/073/218/screenshots/medium/942cb88f7a.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.634730339050293,
+        "season": 5,
+        "runtime": 38,
+        "overview": "Deborah hits it off with the Palmetto's new artist in residence. Marcus sets out to save a historic casino, and Marty has uninvited wedding guests.",
+        "released": "2026-04-23",
+        "number_abs": 40,
+        "updated_at": "2026-05-29T04:25:59.000Z",
+        "first_aired": "2026-04-24T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 10,
+        "during_credits": false,
+        "original_title": "No New Tricks",
+        "available_translations": [],
+        "effective_release_date": "2026-04-23T12:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt41021270",
+          "plex": {
+            "guid": "69c27e27b4cf3e9d4fdd929f"
+          },
+          "tmdb": 7072150,
+          "tvdb": 11507058,
+          "trakt": 14073217
+        },
+        "title": "Number One Fan",
+        "votes": 183,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/073/217/screenshots/medium/0269674ebc.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.85792350769043,
+        "season": 5,
+        "runtime": 32,
+        "overview": "After she's turned down by Madison Square Garden, Deborah's attempt to reignite her fanbase doesn't go as planned. Meanwhile, Jimmy unexpectedly gets to pitch one of his idols, and Ava meets her first fan.",
+        "released": "2026-04-16",
+        "number_abs": 39,
+        "updated_at": "2026-05-29T04:52:50.000Z",
+        "first_aired": "2026-04-17T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 12,
+        "during_credits": false,
+        "original_title": "Number One Fan",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T12:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Your Friends & Neighbors",
       "year": 2025,
       "ids": {
@@ -34,20 +128,20 @@
           "trakt": 13784641
         },
         "title": "I Feel Lost Without Me",
-        "votes": 233,
+        "votes": 235,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/641/screenshots/medium/d021505980.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.532188892364502,
+        "rating": 7.5404253005981445,
         "season": 2,
         "runtime": 57,
         "overview": "Mel and Tori face the consequences of their actions. Sam tries to end things with Ashe. Coop is caught between a rock and a hard place.",
         "released": "2026-05-22",
         "number_abs": 17,
-        "updated_at": "2026-05-29T01:36:17.000Z",
+        "updated_at": "2026-05-29T05:11:32.000Z",
         "first_aired": "2026-05-22T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,20 +162,20 @@
           "trakt": 13784640
         },
         "title": "Out East",
-        "votes": 280,
+        "votes": 281,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/640/screenshots/medium/201ced2420.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.560714244842529,
+        "rating": 7.558718681335449,
         "season": 2,
         "runtime": 57,
         "overview": "Coop and Sam attend a wild weekend at Ashe's Hamptons estate. Mel takes things too far in her battle with the neighbors.",
         "released": "2026-05-15",
         "number_abs": 16,
-        "updated_at": "2026-05-29T01:21:26.000Z",
+        "updated_at": "2026-05-29T03:57:44.000Z",
         "first_aired": "2026-05-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -90,100 +184,6 @@
         "original_title": "Out East",
         "available_translations": [],
         "effective_release_date": "2026-05-15T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Hacks",
-      "year": 2021,
-      "ids": {
-        "trakt": 179632,
-        "slug": "hacks-2021",
-        "tvdb": 401582,
-        "imdb": "tt11815682",
-        "tmdb": 124101,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 47,
-      "completed": 38,
-      "hidden": 0,
-      "last_watched_at": "2026-05-28T04:25:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 38,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt41021270",
-          "plex": {
-            "guid": "69c27e27b4cf3e9d4fdd929f"
-          },
-          "tmdb": 7072150,
-          "tvdb": 11507058,
-          "trakt": 14073217
-        },
-        "title": "Number One Fan",
-        "votes": 183,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/073/217/screenshots/medium/0269674ebc.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.85792350769043,
-        "season": 5,
-        "runtime": 32,
-        "overview": "After she's turned down by Madison Square Garden, Deborah's attempt to reignite her fanbase doesn't go as planned. Meanwhile, Jimmy unexpectedly gets to pitch one of his idols, and Ava meets her first fan.",
-        "released": "2026-04-16",
-        "number_abs": 39,
-        "updated_at": "2026-05-28T20:31:03.000Z",
-        "first_aired": "2026-04-17T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "Number One Fan",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T12:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37065128",
-          "plex": {
-            "guid": "69c27e28b4cf3e9d4fdd92a3"
-          },
-          "tmdb": 7072146,
-          "tvdb": 11507057,
-          "trakt": 14073216
-        },
-        "title": "EGOT",
-        "votes": 195,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/073/216/screenshots/medium/af1b75c0f2.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.702564239501953,
-        "season": 5,
-        "runtime": 34,
-        "overview": "After returning from Singapore to a career further smeared by Bob Lipka, Deborah decides to shift the narrative and focus on achieving EGOT status.",
-        "released": "2026-04-09",
-        "number_abs": 38,
-        "updated_at": "2026-05-29T02:27:07.000Z",
-        "first_aired": "2026-04-10T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 8,
-        "during_credits": false,
-        "original_title": "EGOT",
-        "available_translations": [],
-        "effective_release_date": "2026-04-09T12:00:00.000Z"
       }
     }
   },
@@ -222,20 +222,20 @@
           "trakt": 13821060
         },
         "title": "What to Expect on Your Trip",
-        "votes": 340,
+        "votes": 342,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/060/screenshots/medium/907e4ebb19.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.341176509857178,
+        "rating": 7.3479533195495605,
         "season": 1,
         "runtime": 37,
         "overview": "We apologize for the curfew. Please remain calm as we determine what's happening. On a separate note, keep your teenagers inside after dark.",
         "released": "2026-05-20",
         "number_abs": 5,
-        "updated_at": "2026-05-29T01:34:42.000Z",
+        "updated_at": "2026-05-29T04:33:13.000Z",
         "first_aired": "2026-05-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -316,18 +316,18 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 11,
+        "votes": 13,
         "images": {
           "screenshot": []
         },
         "number": 1,
-        "rating": 7.545454502105713,
+        "rating": 7.538461685180664,
         "season": 2,
         "runtime": 28,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-05-29T02:17:36.000Z",
+        "updated_at": "2026-05-29T04:40:17.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -445,20 +445,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1027,
+        "votes": 1029,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.761441230773926,
+        "rating": 7.762876510620117,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-05-28T22:26:18.000Z",
+        "updated_at": "2026-05-29T05:13:49.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
