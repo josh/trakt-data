@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Widow's Bay",
+      "year": 2026,
+      "ids": {
+        "trakt": 254678,
+        "slug": "widow-s-bay",
+        "tvdb": 454109,
+        "imdb": "tt33332385",
+        "tmdb": 270476,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 6,
+      "hidden": 0,
+      "last_watched_at": "2026-05-30T04:03:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 6,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35699177",
+          "plex": {
+            "guid": "694837af4d2f329fa604ff8a"
+          },
+          "tmdb": 6768815,
+          "tvdb": 11512018,
+          "trakt": 13821062
+        },
+        "title": "Seasickness",
+        "votes": 181,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.883977890014648,
+        "season": 1,
+        "runtime": 42,
+        "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
+        "released": "2026-05-27",
+        "number_abs": 7,
+        "updated_at": "2026-05-30T03:41:24.000Z",
+        "first_aired": "2026-05-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Seasickness",
+        "available_translations": [],
+        "effective_release_date": "2026-05-27T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35699172",
+          "plex": {
+            "guid": "694837af4d2f329fa604ff91"
+          },
+          "tmdb": 6768814,
+          "tvdb": 11512016,
+          "trakt": 13821061
+        },
+        "title": "Our History",
+        "votes": 219,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/821/061/screenshots/medium/04ee7578e6.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.429223537445068,
+        "season": 1,
+        "runtime": 38,
+        "overview": "The history of Widow's Bay is a beautiful tale of marriage, loyalty, and a love that endures beyond lifetimes. That's all.",
+        "released": "2026-05-27",
+        "number_abs": 6,
+        "updated_at": "2026-05-30T04:02:18.000Z",
+        "first_aired": "2026-05-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Our History",
+        "available_translations": [],
+        "effective_release_date": "2026-05-27T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -47,7 +141,7 @@
         "overview": "Deborah hits it off with the Palmetto's new artist in residence. Marcus sets out to save a historic casino, and Marty has uninvited wedding guests.",
         "released": "2026-04-23",
         "number_abs": 40,
-        "updated_at": "2026-05-29T04:25:59.000Z",
+        "updated_at": "2026-05-29T18:22:59.000Z",
         "first_aired": "2026-04-24T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -81,7 +175,7 @@
         "overview": "After she's turned down by Madison Square Garden, Deborah's attempt to reignite her fanbase doesn't go as planned. Meanwhile, Jimmy unexpectedly gets to pitch one of his idols, and Ava meets her first fan.",
         "released": "2026-04-16",
         "number_abs": 39,
-        "updated_at": "2026-05-29T04:52:50.000Z",
+        "updated_at": "2026-05-30T04:55:22.000Z",
         "first_aired": "2026-04-17T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -128,20 +222,20 @@
           "trakt": 13784641
         },
         "title": "I Feel Lost Without Me",
-        "votes": 235,
+        "votes": 240,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/641/screenshots/medium/d021505980.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.5404253005981445,
+        "rating": 7.541666507720947,
         "season": 2,
         "runtime": 57,
         "overview": "Mel and Tori face the consequences of their actions. Sam tries to end things with Ashe. Coop is caught between a rock and a hard place.",
         "released": "2026-05-22",
         "number_abs": 17,
-        "updated_at": "2026-05-29T05:11:32.000Z",
+        "updated_at": "2026-05-30T00:46:21.000Z",
         "first_aired": "2026-05-22T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -162,24 +256,24 @@
           "trakt": 13784640
         },
         "title": "Out East",
-        "votes": 281,
+        "votes": 286,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/784/640/screenshots/medium/201ced2420.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.558718681335449,
+        "rating": 7.555943965911865,
         "season": 2,
         "runtime": 57,
         "overview": "Coop and Sam attend a wild weekend at Ashe's Hamptons estate. Mel takes things too far in her battle with the neighbors.",
         "released": "2026-05-15",
         "number_abs": 16,
-        "updated_at": "2026-05-29T03:57:44.000Z",
+        "updated_at": "2026-05-30T00:53:09.000Z",
         "first_aired": "2026-05-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 1,
+        "comment_count": 2,
         "during_credits": false,
         "original_title": "Out East",
         "available_translations": [],
@@ -189,95 +283,97 @@
   },
   {
     "show": {
-      "title": "Widow's Bay",
-      "year": 2026,
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
       "ids": {
-        "trakt": 254678,
-        "slug": "widow-s-bay",
-        "tvdb": 454109,
-        "imdb": "tt33332385",
-        "tmdb": 270476,
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
         "tvrage": null
       }
     },
     "progress": {
-      "aired": 7,
-      "completed": 4,
+      "aired": 731,
+      "completed": 730,
       "hidden": 0,
-      "last_watched_at": "2026-05-28T03:51:00.000Z",
+      "last_watched_at": "2026-05-16T17:38:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 732,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt35699175",
+          "imdb": null,
           "plex": {
-            "guid": "694837b04d2f329fa604ff98"
+            "guid": "6a0f35570c692ceed8edc6a5"
           },
-          "tmdb": 6768813,
-          "tvdb": 11512014,
-          "trakt": 13821060
+          "tmdb": 7285870,
+          "tvdb": null,
+          "trakt": 14192943
         },
-        "title": "What to Expect on Your Trip",
-        "votes": 342,
+        "title": "May 29, 2026: Neil deGrasse Tyson, Katy Tur, Kevin McCarthy",
+        "votes": 3,
         "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/821/060/screenshots/medium/907e4ebb19.jpg.webp"
-          ]
+          "screenshot": []
         },
-        "number": 5,
-        "rating": 7.3479533195495605,
-        "season": 1,
-        "runtime": 37,
-        "overview": "We apologize for the curfew. Please remain calm as we determine what's happening. On a separate note, keep your teenagers inside after dark.",
-        "released": "2026-05-20",
-        "number_abs": 5,
-        "updated_at": "2026-05-29T04:33:13.000Z",
-        "first_aired": "2026-05-20T01:00:00.000Z",
+        "number": 16,
+        "rating": 7,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with Neil deGrasse Tyson, astrophysicist, director of the Hayden Planetarium, and author of the new book \"Take Me to Your Leader: Perspectives on Your First Alien Encounter.\" This week's panel discussion includes Katy Tur, bestselling author and host of MS NOW's \"Katy Tur Reports\"; and Fmr. Speaker Kevin McCarthy, former Republican congressman who represented California's 20th district and served as the 55th Speaker of the House.",
+        "released": "2026-05-30",
+        "number_abs": 735,
+        "updated_at": "2026-05-30T04:45:00.000Z",
+        "first_aired": "2026-05-30T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 7,
+        "comment_count": 0,
         "during_credits": false,
-        "original_title": "What to Expect on Your Trip",
-        "available_translations": [],
-        "effective_release_date": "2026-05-20T01:00:00.000Z"
+        "original_title": "May 29, 2026: Neil deGrasse Tyson, Katy Tur, Kevin McCarthy",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-05-30T02:00:00.000Z"
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt35699179",
+          "imdb": null,
           "plex": {
-            "guid": "694837b04d2f329fa604ff9f"
+            "guid": "69fe6dd9b3502a86175aeeb9"
           },
-          "tmdb": 6768812,
-          "tvdb": 11512012,
-          "trakt": 13821059
+          "tmdb": 7227568,
+          "tvdb": null,
+          "trakt": 14156814
         },
-        "title": "Beach Reads",
-        "votes": 415,
+        "title": "May 15, 2026: Ben McKenzie, Dan Jones, David French",
+        "votes": 25,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/821/059/screenshots/medium/3679ad7d4f.jpg.webp"
+            "media.trakt.tv/images/episodes/014/156/814/screenshots/medium/2c853b0593.jpg.webp"
           ]
         },
-        "number": 4,
-        "rating": 7.91807222366333,
-        "season": 1,
-        "runtime": 36,
-        "overview": "Make sure you pack a good read for the beach! (We do not recommend self-help books on the island.)",
-        "released": "2026-05-13",
-        "number_abs": 4,
-        "updated_at": "2026-05-29T00:58:16.000Z",
-        "first_aired": "2026-05-13T01:00:00.000Z",
+        "number": 15,
+        "rating": 6.880000114440918,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with actor Ben McKenzie, who wrote, directed, and produced the new documentary \"Everyone is Lying to You for Money.\" This week's panel discussion includes Dan Jones, historian, podcaster, and author of the forthcoming book \"Castles: A Fortified History of the World from the Bronze Age to the Nuclear Age\"; and David French, New York Times columnist, visiting professor at Lipscomb University, and co-host of the podcast \"Advisory Opinions.\"",
+        "released": "2026-05-16",
+        "number_abs": 734,
+        "updated_at": "2026-05-29T10:23:25.000Z",
+        "first_aired": "2026-05-16T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 11,
+        "comment_count": 0,
         "during_credits": false,
-        "original_title": "Beach Reads",
-        "available_translations": [],
-        "effective_release_date": "2026-05-13T01:00:00.000Z"
+        "original_title": "May 15, 2026: Ben McKenzie, Dan Jones, David French",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-05-16T02:00:00.000Z"
       }
     }
   },
@@ -316,29 +412,27 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 13,
+        "votes": 24,
         "images": {
-          "screenshot": []
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/039/154/screenshots/medium/2372213e53.jpg.webp"
+          ]
         },
         "number": 1,
-        "rating": 7.538461685180664,
+        "rating": 7.083333492279053,
         "season": 2,
-        "runtime": 28,
+        "runtime": 27,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-05-29T04:40:17.000Z",
+        "updated_at": "2026-05-30T02:05:59.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Hiking",
-        "available_translations": [
-          "en",
-          "it",
-          "ko"
-        ],
+        "available_translations": [],
         "effective_release_date": "2026-05-28T07:00:00.000Z"
       },
       "last_episode": {
@@ -352,20 +446,20 @@
           "trakt": 12922710
         },
         "title": "Fun",
-        "votes": 337,
+        "votes": 339,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/922/710/screenshots/medium/cdb83583c6.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.4747772216796875,
+        "rating": 7.47787618637085,
         "season": 1,
         "runtime": 36,
         "overview": "A twist of fate forces Anne and Ginny to confront their complicated feelings about one another. Jack and Kate's standoff comes to a head.",
         "released": "2025-05-01",
         "number_abs": 8,
-        "updated_at": "2026-05-28T23:39:17.000Z",
+        "updated_at": "2026-05-29T23:43:48.000Z",
         "first_aired": "2025-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -445,20 +539,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1029,
+        "votes": 1036,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.762876510620117,
+        "rating": 7.760617733001709,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-05-29T05:13:49.000Z",
+        "updated_at": "2026-05-30T02:54:18.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -486,13 +580,13 @@
           ]
         },
         "number": 9,
-        "rating": 7.965963363647461,
+        "rating": 7.965004920959473,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-05-28T23:17:24.000Z",
+        "updated_at": "2026-05-30T01:13:37.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -539,20 +633,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 760,
+        "votes": 761,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.00131607055664,
+        "rating": 8.002628326416016,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-05-29T01:18:44.000Z",
+        "updated_at": "2026-05-30T01:18:54.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -586,7 +680,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-05-29T01:37:12.000Z",
+        "updated_at": "2026-05-30T01:39:25.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -633,20 +727,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1603,
+        "votes": 1614,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.893324851989746,
+        "rating": 7.89095401763916,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-05-28T22:14:56.000Z",
+        "updated_at": "2026-05-30T03:01:18.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -667,20 +761,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3287,
+        "votes": 3265,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.09887409210205,
+        "rating": 8.094639778137207,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-05-28T22:02:52.000Z",
+        "updated_at": "2026-05-29T21:54:42.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -727,20 +821,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 317,
+        "votes": 318,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.138801097869873,
+        "rating": 7.138364791870117,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-05-28T19:04:15.000Z",
+        "updated_at": "2026-05-30T02:03:51.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -761,20 +855,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1107,
+        "votes": 1080,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.856368541717529,
+        "rating": 7.858333110809326,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-05-29T00:34:21.000Z",
+        "updated_at": "2026-05-30T03:42:53.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -853,20 +947,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 581,
+        "votes": 584,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.858863830566406,
+        "rating": 6.856164455413818,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-05-29T01:28:59.000Z",
+        "updated_at": "2026-05-30T00:56:34.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -887,20 +981,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1353,
+        "votes": 1276,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.940133094787598,
+        "rating": 7.911441802978516,
         "season": 2,
         "runtime": 62,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-05-28T23:03:58.000Z",
+        "updated_at": "2026-05-29T23:08:17.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,

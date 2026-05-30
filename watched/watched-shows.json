@@ -1,5 +1,60 @@
 [
   {
+    "plays": 6,
+    "last_watched_at": "2026-05-30T04:03:00.000Z",
+    "last_updated_at": "2026-05-30T03:25:37.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Widow's Bay",
+      "year": 2026,
+      "ids": {
+        "trakt": 254678,
+        "slug": "widow-s-bay",
+        "tvdb": 454109,
+        "imdb": "tt33332385",
+        "tmdb": 270476,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-05-16T04:14:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-05-18T04:27:00.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2026-05-24T06:06:00.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2026-05-28T03:51:00.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2026-05-30T03:25:00.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2026-05-30T04:03:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 39,
     "last_watched_at": "2026-05-29T05:41:00.000Z",
     "last_updated_at": "2026-05-29T05:09:50.000Z",
@@ -344,51 +399,6 @@
             "number": 7,
             "plays": 1,
             "last_watched_at": "2026-05-28T06:29:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 4,
-    "last_watched_at": "2026-05-28T03:51:00.000Z",
-    "last_updated_at": "2026-05-28T03:15:20.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Widow's Bay",
-      "year": 2026,
-      "ids": {
-        "trakt": 254678,
-        "slug": "widow-s-bay",
-        "tvdb": 454109,
-        "imdb": "tt33332385",
-        "tmdb": 270476,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-05-16T04:14:00.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2026-05-18T04:27:00.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2026-05-24T06:06:00.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2026-05-28T03:51:00.000Z"
           }
         ]
       }
