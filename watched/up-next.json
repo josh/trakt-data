@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "tvdb": 443433,
+        "imdb": "tt30459041",
+        "tmdb": 241609,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 17,
+      "hidden": 0,
+      "last_watched_at": "2026-05-31T05:00:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 17,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39104667",
+          "plex": {
+            "guid": "693712dd71360be5a349e288"
+          },
+          "tmdb": 6737395,
+          "tvdb": 11492375,
+          "trakt": 13784642
+        },
+        "title": "Propaganda from the Cowardly",
+        "votes": 168,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/784/642/screenshots/medium/c7beb270be.jpg.webp"
+          ]
+        },
+        "number": 9,
+        "rating": 7.964285850524902,
+        "season": 2,
+        "runtime": 54,
+        "overview": "Alliances are tested when Coop, Barney, and Nick attend a dinner at Ashe's mansion.",
+        "released": "2026-05-29",
+        "number_abs": 18,
+        "updated_at": "2026-05-31T05:25:43.000Z",
+        "first_aired": "2026-05-29T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Propaganda from the Cowardly",
+        "available_translations": [],
+        "effective_release_date": "2026-05-29T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39104665",
+          "plex": {
+            "guid": "693712de71360be5a349e28d"
+          },
+          "tmdb": 6737394,
+          "tvdb": 11492374,
+          "trakt": 13784641
+        },
+        "title": "I Feel Lost Without Me",
+        "votes": 245,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/784/641/screenshots/medium/d021505980.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.534693717956543,
+        "season": 2,
+        "runtime": 57,
+        "overview": "Mel and Tori face the consequences of their actions. Sam tries to end things with Ashe. Coop is caught between a rock and a hard place.",
+        "released": "2026-05-22",
+        "number_abs": 17,
+        "updated_at": "2026-05-31T00:26:03.000Z",
+        "first_aired": "2026-05-22T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "I Feel Lost Without Me",
+        "available_translations": [],
+        "effective_release_date": "2026-05-22T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Widow's Bay",
       "year": 2026,
       "ids": {
@@ -34,20 +128,20 @@
           "trakt": 13821062
         },
         "title": "Seasickness",
-        "votes": 216,
+        "votes": 220,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.740740776062012,
+        "rating": 7.75,
         "season": 1,
         "runtime": 42,
         "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
         "released": "2026-05-27",
         "number_abs": 7,
-        "updated_at": "2026-05-31T03:08:31.000Z",
+        "updated_at": "2026-05-31T05:22:35.000Z",
         "first_aired": "2026-05-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,20 +162,20 @@
           "trakt": 13821061
         },
         "title": "Our History",
-        "votes": 254,
+        "votes": 257,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/061/screenshots/medium/04ee7578e6.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.444881916046143,
+        "rating": 7.451361656188965,
         "season": 1,
         "runtime": 38,
         "overview": "The history of Widow's Bay is a beautiful tale of marriage, loyalty, and a love that endures beyond lifetimes. That's all.",
         "released": "2026-05-27",
         "number_abs": 6,
-        "updated_at": "2026-05-31T02:12:45.000Z",
+        "updated_at": "2026-05-31T04:41:43.000Z",
         "first_aired": "2026-05-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -175,7 +269,7 @@
         "overview": "After she's turned down by Madison Square Garden, Deborah's attempt to reignite her fanbase doesn't go as planned. Meanwhile, Jimmy unexpectedly gets to pitch one of his idols, and Ava meets her first fan.",
         "released": "2026-04-16",
         "number_abs": 39,
-        "updated_at": "2026-05-31T00:30:06.000Z",
+        "updated_at": "2026-05-31T04:56:52.000Z",
         "first_aired": "2026-04-17T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -184,100 +278,6 @@
         "original_title": "Number One Fan",
         "available_translations": [],
         "effective_release_date": "2026-04-16T12:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "tvdb": 443433,
-        "imdb": "tt30459041",
-        "tmdb": 241609,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 18,
-      "completed": 16,
-      "hidden": 0,
-      "last_watched_at": "2026-05-28T06:29:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 16,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt39104665",
-          "plex": {
-            "guid": "693712de71360be5a349e28d"
-          },
-          "tmdb": 6737394,
-          "tvdb": 11492374,
-          "trakt": 13784641
-        },
-        "title": "I Feel Lost Without Me",
-        "votes": 245,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/784/641/screenshots/medium/d021505980.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 7.534693717956543,
-        "season": 2,
-        "runtime": 57,
-        "overview": "Mel and Tori face the consequences of their actions. Sam tries to end things with Ashe. Coop is caught between a rock and a hard place.",
-        "released": "2026-05-22",
-        "number_abs": 17,
-        "updated_at": "2026-05-31T00:26:03.000Z",
-        "first_aired": "2026-05-22T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "I Feel Lost Without Me",
-        "available_translations": [],
-        "effective_release_date": "2026-05-22T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt39104658",
-          "plex": {
-            "guid": "693712de71360be5a349e292"
-          },
-          "tmdb": 6737393,
-          "tvdb": 11492373,
-          "trakt": 13784640
-        },
-        "title": "Out East",
-        "votes": 290,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/784/640/screenshots/medium/201ced2420.jpg.webp"
-          ]
-        },
-        "number": 7,
-        "rating": 7.565517425537109,
-        "season": 2,
-        "runtime": 57,
-        "overview": "Coop and Sam attend a wild weekend at Ashe's Hamptons estate. Mel takes things too far in her battle with the neighbors.",
-        "released": "2026-05-15",
-        "number_abs": 16,
-        "updated_at": "2026-05-31T00:44:48.000Z",
-        "first_aired": "2026-05-15T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Out East",
-        "available_translations": [],
-        "effective_release_date": "2026-05-15T01:00:00.000Z"
       }
     }
   },
@@ -316,20 +316,20 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 37,
+        "votes": 38,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/154/screenshots/medium/2372213e53.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.8378376960754395,
+        "rating": 6.8684210777282715,
         "season": 2,
         "runtime": 27,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-05-31T02:33:09.000Z",
+        "updated_at": "2026-05-31T03:55:05.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -350,20 +350,20 @@
           "trakt": 12922710
         },
         "title": "Fun",
-        "votes": 340,
+        "votes": 341,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/922/710/screenshots/medium/cdb83583c6.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.479411602020264,
+        "rating": 7.483870983123779,
         "season": 1,
         "runtime": 36,
         "overview": "A twist of fate forces Anne and Ginny to confront their complicated feelings about one another. Jack and Kate's standoff comes to a head.",
         "released": "2025-05-01",
         "number_abs": 8,
-        "updated_at": "2026-05-30T23:48:33.000Z",
+        "updated_at": "2026-05-31T04:10:04.000Z",
         "first_aired": "2025-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
