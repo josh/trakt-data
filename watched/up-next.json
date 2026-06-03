@@ -1,6 +1,126 @@
 [
   {
     "show": {
+      "title": "Better Things",
+      "year": 2016,
+      "ids": {
+        "trakt": 108564,
+        "slug": "better-things",
+        "tvdb": 313270,
+        "imdb": "tt4370596",
+        "tmdb": 66859,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 52,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2026-06-03T18:02:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt5716676",
+          "plex": {
+            "guid": "5d9c0ce04eefaa001f604d7e"
+          },
+          "tmdb": 1225967,
+          "tvdb": 5744864,
+          "trakt": 2281328
+        },
+        "title": "Alarms",
+        "votes": 780,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/281/328/screenshots/medium/977d430882.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.326920032501221,
+        "season": 1,
+        "runtime": 24,
+        "overview": "Sam deals with some situations.",
+        "released": "2016-10-14",
+        "number_abs": 6,
+        "updated_at": "2026-06-03T18:42:47.000Z",
+        "first_aired": "2016-10-14T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Alarms",
+        "available_translations": [
+          "cs",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "tr"
+        ],
+        "effective_release_date": "2016-10-14T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt5716674",
+          "plex": {
+            "guid": "5d9c0ce04eefaa001f604d82"
+          },
+          "tmdb": 1219663,
+          "tvdb": 5672839,
+          "trakt": 2281327
+        },
+        "title": "Future Fever",
+        "votes": 814,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/281/327/screenshots/medium/ec58769e04.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.614250183105469,
+        "season": 1,
+        "runtime": 20,
+        "overview": "Sam has snack and Max thinks about things.",
+        "released": "2016-10-07",
+        "number_abs": 5,
+        "updated_at": "2026-06-03T07:31:10.000Z",
+        "first_aired": "2016-10-07T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Future Fever",
+        "available_translations": [
+          "cs",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "tr"
+        ],
+        "effective_release_date": "2016-10-07T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Boroughs",
       "year": 2026,
       "ids": {
@@ -34,20 +154,20 @@
           "trakt": 14027003
         },
         "title": "The Mourning After",
-        "votes": 306,
+        "votes": 311,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/027/003/screenshots/medium/3d511df785.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.421568393707275,
+        "rating": 7.434083461761475,
         "season": 1,
         "runtime": 50,
         "overview": "Still reeling, Sam seeks answers close to home. Renee gets a break in the case of the missing minerals. Judy and Wally face up to painful realities.",
         "released": "2026-05-21",
         "number_abs": 2,
-        "updated_at": "2026-06-03T05:25:51.000Z",
+        "updated_at": "2026-06-03T18:55:26.000Z",
         "first_aired": "2026-05-21T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,20 +188,20 @@
           "trakt": 7501109
         },
         "title": "Welcome to The Boroughs",
-        "votes": 377,
+        "votes": 379,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/501/109/screenshots/medium/eee9f9f572.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.38726806640625,
+        "rating": 7.393139839172363,
         "season": 1,
         "runtime": 55,
         "overview": "When grieving widower Sam Cooper reluctantly moves to a desert retirement community, he discovers something lurking beneath its perfect surface.",
         "released": "2026-05-21",
         "number_abs": 1,
-        "updated_at": "2026-06-03T05:35:01.000Z",
+        "updated_at": "2026-06-03T18:09:22.000Z",
         "first_aired": "2026-05-21T04:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
@@ -90,126 +210,6 @@
         "original_title": "Welcome to The Boroughs",
         "available_translations": [],
         "effective_release_date": "2026-05-21T04:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Better Things",
-      "year": 2016,
-      "ids": {
-        "trakt": 108564,
-        "slug": "better-things",
-        "tvdb": 313270,
-        "imdb": "tt4370596",
-        "tmdb": 66859,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 52,
-      "completed": 4,
-      "hidden": 0,
-      "last_watched_at": "2026-06-03T02:40:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 4,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt5716674",
-          "plex": {
-            "guid": "5d9c0ce04eefaa001f604d82"
-          },
-          "tmdb": 1219663,
-          "tvdb": 5672839,
-          "trakt": 2281327
-        },
-        "title": "Future Fever",
-        "votes": 814,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/281/327/screenshots/medium/ec58769e04.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.614250183105469,
-        "season": 1,
-        "runtime": 20,
-        "overview": "Sam has snack and Max thinks about things.",
-        "released": "2016-10-07",
-        "number_abs": 5,
-        "updated_at": "2026-06-02T07:16:56.000Z",
-        "first_aired": "2016-10-07T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Future Fever",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "tr"
-        ],
-        "effective_release_date": "2016-10-07T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt5716672",
-          "plex": {
-            "guid": "5d9c0ce04eefaa001f604d91"
-          },
-          "tmdb": 1219662,
-          "tvdb": 5672838,
-          "trakt": 2281326
-        },
-        "title": "Woman Is the Something of the Something",
-        "votes": 569,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/281/326/screenshots/medium/24d0f4cb7b.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.465729236602783,
-        "season": 1,
-        "runtime": 20,
-        "overview": "Sam gets really looked at.",
-        "released": "2016-09-30",
-        "number_abs": 4,
-        "updated_at": "2026-06-02T18:29:33.000Z",
-        "first_aired": "2016-09-30T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Woman Is the Something of the Something",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "tr"
-        ],
-        "effective_release_date": "2016-09-30T02:00:00.000Z"
       }
     }
   },
@@ -248,20 +248,20 @@
           "trakt": 13821063
         },
         "title": "Your Baggage",
-        "votes": 26,
+        "votes": 82,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/063/screenshots/medium/9bbcb2f645.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.461538314819336,
+        "rating": 7.9146342277526855,
         "season": 1,
         "runtime": 34,
         "overview": "Don't worry about misplaced luggage. Old baggage always resurfaces in Widow's Bay.",
         "released": "2026-06-03",
         "number_abs": 8,
-        "updated_at": "2026-06-03T05:29:53.000Z",
+        "updated_at": "2026-06-03T19:09:01.000Z",
         "first_aired": "2026-06-03T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -282,20 +282,20 @@
           "trakt": 13821062
         },
         "title": "Seasickness",
-        "votes": 291,
+        "votes": 300,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.6632304191589355,
+        "rating": 7.670000076293945,
         "season": 1,
         "runtime": 42,
         "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
         "released": "2026-05-27",
         "number_abs": 7,
-        "updated_at": "2026-06-03T02:42:12.000Z",
+        "updated_at": "2026-06-03T19:14:47.000Z",
         "first_aired": "2026-05-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -355,7 +355,7 @@
         "overview": "Deborah hits it off with the Palmetto's new artist in residence. Marcus sets out to save a historic casino, and Marty has uninvited wedding guests.",
         "released": "2026-04-23",
         "number_abs": 40,
-        "updated_at": "2026-06-02T18:35:02.000Z",
+        "updated_at": "2026-06-03T18:35:13.000Z",
         "first_aired": "2026-04-24T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -389,7 +389,7 @@
         "overview": "After she's turned down by Madison Square Garden, Deborah's attempt to reignite her fanbase doesn't go as planned. Meanwhile, Jimmy unexpectedly gets to pitch one of his idols, and Ava meets her first fan.",
         "released": "2026-04-16",
         "number_abs": 39,
-        "updated_at": "2026-06-03T05:06:49.000Z",
+        "updated_at": "2026-06-03T15:20:53.000Z",
         "first_aired": "2026-04-17T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -449,7 +449,7 @@
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-06-02T20:37:11.000Z",
+        "updated_at": "2026-06-03T15:05:59.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -470,20 +470,20 @@
           "trakt": 12922710
         },
         "title": "Fun",
-        "votes": 344,
+        "votes": 345,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/922/710/screenshots/medium/cdb83583c6.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.488372325897217,
+        "rating": 7.4898552894592285,
         "season": 1,
         "runtime": 35,
         "overview": "A twist of fate forces Anne and Ginny to confront their complicated feelings about one another. Jack and Kate's standoff comes to a head.",
         "released": "2025-05-01",
         "number_abs": 8,
-        "updated_at": "2026-06-02T23:58:49.000Z",
+        "updated_at": "2026-06-03T15:05:58.000Z",
         "first_aired": "2025-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -563,20 +563,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1051,
+        "votes": 1052,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.749762058258057,
+        "rating": 7.748098850250244,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-06-03T02:21:08.000Z",
+        "updated_at": "2026-06-03T07:39:44.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -597,20 +597,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2087,
+        "votes": 2088,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.96502161026001,
+        "rating": 7.965517044067383,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-06-03T00:17:35.000Z",
+        "updated_at": "2026-06-03T17:46:23.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -691,20 +691,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1022,
+        "votes": 1023,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.432485580444336,
+        "rating": 8.433039665222168,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-06-03T02:14:01.000Z",
+        "updated_at": "2026-06-03T16:13:33.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -751,20 +751,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1653,
+        "votes": 1659,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.876587867736816,
+        "rating": 7.8722124099731445,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-06-03T03:55:38.000Z",
+        "updated_at": "2026-06-03T18:30:20.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -785,20 +785,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3251,
+        "votes": 3252,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.09473991394043,
+        "rating": 8.094403266906738,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-06-03T01:34:53.000Z",
+        "updated_at": "2026-06-03T15:28:13.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -845,20 +845,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 331,
+        "votes": 334,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.154078483581543,
+        "rating": 7.1526947021484375,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-06-02T19:17:16.000Z",
+        "updated_at": "2026-06-03T16:38:18.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -971,20 +971,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 604,
+        "votes": 609,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.829470157623291,
+        "rating": 6.8243021965026855,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-06-03T04:15:18.000Z",
+        "updated_at": "2026-06-03T18:05:01.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1005,20 +1005,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1277,
+        "votes": 1278,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.916993141174316,
+        "rating": 7.916275501251221,
         "season": 2,
         "runtime": 62,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-06-03T04:15:17.000Z",
+        "updated_at": "2026-06-03T12:47:21.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
