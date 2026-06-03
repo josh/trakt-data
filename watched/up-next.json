@@ -1,6 +1,126 @@
 [
   {
     "show": {
+      "title": "Better Things",
+      "year": 2016,
+      "ids": {
+        "trakt": 108564,
+        "slug": "better-things",
+        "tvdb": 313270,
+        "imdb": "tt4370596",
+        "tmdb": 66859,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 52,
+      "completed": 4,
+      "hidden": 0,
+      "last_watched_at": "2026-06-03T02:40:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 4,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt5716674",
+          "plex": {
+            "guid": "5d9c0ce04eefaa001f604d82"
+          },
+          "tmdb": 1219663,
+          "tvdb": 5672839,
+          "trakt": 2281327
+        },
+        "title": "Future Fever",
+        "votes": 814,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/281/327/screenshots/medium/ec58769e04.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.614250183105469,
+        "season": 1,
+        "runtime": 20,
+        "overview": "Sam has snack and Max thinks about things.",
+        "released": "2016-10-07",
+        "number_abs": 5,
+        "updated_at": "2026-06-02T07:16:56.000Z",
+        "first_aired": "2016-10-07T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Future Fever",
+        "available_translations": [
+          "cs",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "tr"
+        ],
+        "effective_release_date": "2016-10-07T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt5716672",
+          "plex": {
+            "guid": "5d9c0ce04eefaa001f604d91"
+          },
+          "tmdb": 1219662,
+          "tvdb": 5672838,
+          "trakt": 2281326
+        },
+        "title": "Woman Is the Something of the Something",
+        "votes": 569,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/281/326/screenshots/medium/24d0f4cb7b.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.465729236602783,
+        "season": 1,
+        "runtime": 20,
+        "overview": "Sam gets really looked at.",
+        "released": "2016-09-30",
+        "number_abs": 4,
+        "updated_at": "2026-06-02T18:29:33.000Z",
+        "first_aired": "2016-09-30T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Woman Is the Something of the Something",
+        "available_translations": [
+          "cs",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "tr"
+        ],
+        "effective_release_date": "2016-09-30T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Widow's Bay",
       "year": 2026,
       "ids": {
@@ -34,20 +154,20 @@
           "trakt": 13821063
         },
         "title": "Your Baggage",
-        "votes": 3,
+        "votes": 15,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/063/screenshots/medium/9bbcb2f645.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 9.333333015441895,
+        "rating": 8.800000190734863,
         "season": 1,
         "runtime": 34,
         "overview": "Don't worry about misplaced luggage. Old baggage always resurfaces in Widow's Bay.",
         "released": "2026-06-03",
         "number_abs": 8,
-        "updated_at": "2026-06-03T01:43:16.000Z",
+        "updated_at": "2026-06-03T02:55:53.000Z",
         "first_aired": "2026-06-03T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,20 +188,20 @@
           "trakt": 13821062
         },
         "title": "Seasickness",
-        "votes": 289,
+        "votes": 291,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.653979301452637,
+        "rating": 7.6632304191589355,
         "season": 1,
         "runtime": 42,
         "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
         "released": "2026-05-27",
         "number_abs": 7,
-        "updated_at": "2026-06-03T01:12:05.000Z",
+        "updated_at": "2026-06-03T02:42:12.000Z",
         "first_aired": "2026-05-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -90,126 +210,6 @@
         "original_title": "Seasickness",
         "available_translations": [],
         "effective_release_date": "2026-05-27T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Better Things",
-      "year": 2016,
-      "ids": {
-        "trakt": 108564,
-        "slug": "better-things",
-        "tvdb": 313270,
-        "imdb": "tt4370596",
-        "tmdb": 66859,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 52,
-      "completed": 2,
-      "hidden": 0,
-      "last_watched_at": "2026-06-03T01:10:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 2,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt5711076",
-          "plex": {
-            "guid": "5d9c0ce04eefaa001f604d86"
-          },
-          "tmdb": 1219661,
-          "tvdb": 5672837,
-          "trakt": 2281325
-        },
-        "title": "Brown",
-        "votes": 959,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/281/325/screenshots/medium/1ce5ae8685.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.492179870605469,
-        "season": 1,
-        "runtime": 19,
-        "overview": "Sam brings home a colleague for dinner.",
-        "released": "2016-09-23",
-        "number_abs": 3,
-        "updated_at": "2026-06-02T07:16:56.000Z",
-        "first_aired": "2016-09-23T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Brown",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "tr"
-        ],
-        "effective_release_date": "2016-09-23T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt5711068",
-          "plex": {
-            "guid": "5d9c0ce04eefaa001f604d8d"
-          },
-          "tmdb": 1219660,
-          "tvdb": 5672836,
-          "trakt": 2281324
-        },
-        "title": "Period",
-        "votes": 1074,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/281/324/screenshots/medium/6896193cbb.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.268159866333008,
-        "season": 1,
-        "runtime": 22,
-        "overview": "Sam deals with lady things.",
-        "released": "2016-09-16",
-        "number_abs": 2,
-        "updated_at": "2026-06-02T06:58:24.000Z",
-        "first_aired": "2016-09-16T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Period",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "tr"
-        ],
-        "effective_release_date": "2016-09-16T02:00:00.000Z"
       }
     }
   },
@@ -469,20 +469,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1050,
+        "votes": 1051,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.750476360321045,
+        "rating": 7.749762058258057,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-06-02T21:51:33.000Z",
+        "updated_at": "2026-06-03T02:21:08.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -610,7 +610,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-06-02T05:19:44.000Z",
+        "updated_at": "2026-06-03T02:14:01.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -657,20 +657,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1651,
+        "votes": 1652,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.877044200897217,
+        "rating": 7.876513481140137,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-06-02T22:18:06.000Z",
+        "updated_at": "2026-06-03T02:41:07.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
