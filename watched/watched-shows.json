@@ -1,8 +1,68 @@
 [
   {
-    "plays": 1,
-    "last_watched_at": "2026-06-02T21:34:00.000Z",
-    "last_updated_at": "2026-06-02T21:12:32.000Z",
+    "plays": 7,
+    "last_watched_at": "2026-06-03T01:53:00.000Z",
+    "last_updated_at": "2026-06-03T01:11:21.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Widow's Bay",
+      "year": 2026,
+      "ids": {
+        "trakt": 254678,
+        "slug": "widow-s-bay",
+        "tvdb": 454109,
+        "imdb": "tt33332385",
+        "tmdb": 270476,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-05-16T04:14:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-05-18T04:27:00.000Z"
+          },
+          {
+            "number": 3,
+            "plays": 1,
+            "last_watched_at": "2026-05-24T06:06:00.000Z"
+          },
+          {
+            "number": 4,
+            "plays": 1,
+            "last_watched_at": "2026-05-28T03:51:00.000Z"
+          },
+          {
+            "number": 5,
+            "plays": 1,
+            "last_watched_at": "2026-05-30T03:25:00.000Z"
+          },
+          {
+            "number": 6,
+            "plays": 1,
+            "last_watched_at": "2026-05-30T04:03:00.000Z"
+          },
+          {
+            "number": 7,
+            "plays": 1,
+            "last_watched_at": "2026-06-03T01:53:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plays": 2,
+    "last_watched_at": "2026-06-03T01:10:00.000Z",
+    "last_updated_at": "2026-06-03T00:48:28.000Z",
     "reset_at": null,
     "show": {
       "title": "Better Things",
@@ -24,6 +84,11 @@
             "number": 1,
             "plays": 1,
             "last_watched_at": "2026-06-02T21:34:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-06-03T01:10:00.000Z"
           }
         ]
       }
@@ -3939,61 +4004,6 @@
             "number": 16,
             "plays": 1,
             "last_watched_at": "2026-05-30T05:44:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 6,
-    "last_watched_at": "2026-05-30T04:03:00.000Z",
-    "last_updated_at": "2026-05-30T03:25:37.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Widow's Bay",
-      "year": 2026,
-      "ids": {
-        "trakt": 254678,
-        "slug": "widow-s-bay",
-        "tvdb": 454109,
-        "imdb": "tt33332385",
-        "tmdb": 270476,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-05-16T04:14:00.000Z"
-          },
-          {
-            "number": 2,
-            "plays": 1,
-            "last_watched_at": "2026-05-18T04:27:00.000Z"
-          },
-          {
-            "number": 3,
-            "plays": 1,
-            "last_watched_at": "2026-05-24T06:06:00.000Z"
-          },
-          {
-            "number": 4,
-            "plays": 1,
-            "last_watched_at": "2026-05-28T03:51:00.000Z"
-          },
-          {
-            "number": 5,
-            "plays": 1,
-            "last_watched_at": "2026-05-30T03:25:00.000Z"
-          },
-          {
-            "number": 6,
-            "plays": 1,
-            "last_watched_at": "2026-05-30T04:03:00.000Z"
           }
         ]
       }

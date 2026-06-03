@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Widow's Bay",
+      "year": 2026,
+      "ids": {
+        "trakt": 254678,
+        "slug": "widow-s-bay",
+        "tvdb": 454109,
+        "imdb": "tt33332385",
+        "tmdb": 270476,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 7,
+      "hidden": 0,
+      "last_watched_at": "2026-06-03T01:53:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 7,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35699178",
+          "plex": {
+            "guid": "694837ae4d2f329fa604ff83"
+          },
+          "tmdb": 6768816,
+          "tvdb": 11512020,
+          "trakt": 13821063
+        },
+        "title": "Your Baggage",
+        "votes": 3,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/821/063/screenshots/medium/9bbcb2f645.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 9.333333015441895,
+        "season": 1,
+        "runtime": 34,
+        "overview": "Don't worry about misplaced luggage. Old baggage always resurfaces in Widow's Bay.",
+        "released": "2026-06-03",
+        "number_abs": 8,
+        "updated_at": "2026-06-03T01:43:16.000Z",
+        "first_aired": "2026-06-03T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Your Baggage",
+        "available_translations": [],
+        "effective_release_date": "2026-06-03T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35699177",
+          "plex": {
+            "guid": "694837af4d2f329fa604ff8a"
+          },
+          "tmdb": 6768815,
+          "tvdb": 11512018,
+          "trakt": 13821062
+        },
+        "title": "Seasickness",
+        "votes": 289,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.653979301452637,
+        "season": 1,
+        "runtime": 42,
+        "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
+        "released": "2026-05-27",
+        "number_abs": 7,
+        "updated_at": "2026-06-03T01:12:05.000Z",
+        "first_aired": "2026-05-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Seasickness",
+        "available_translations": [],
+        "effective_release_date": "2026-05-27T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Better Things",
       "year": 2016,
       "ids": {
@@ -14,16 +108,63 @@
     },
     "progress": {
       "aired": 52,
-      "completed": 1,
+      "completed": 2,
       "hidden": 0,
-      "last_watched_at": "2026-06-02T21:34:00.000Z",
+      "last_watched_at": "2026-06-03T01:10:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 1,
+        "play_count": 2,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt5711076",
+          "plex": {
+            "guid": "5d9c0ce04eefaa001f604d86"
+          },
+          "tmdb": 1219661,
+          "tvdb": 5672837,
+          "trakt": 2281325
+        },
+        "title": "Brown",
+        "votes": 959,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/281/325/screenshots/medium/1ce5ae8685.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.492179870605469,
+        "season": 1,
+        "runtime": 19,
+        "overview": "Sam brings home a colleague for dinner.",
+        "released": "2016-09-23",
+        "number_abs": 3,
+        "updated_at": "2026-06-02T07:16:56.000Z",
+        "first_aired": "2016-09-23T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Brown",
+        "available_translations": [
+          "cs",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "tr"
+        ],
+        "effective_release_date": "2016-09-23T02:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt5711068",
           "plex": {
@@ -69,147 +210,6 @@
           "tr"
         ],
         "effective_release_date": "2016-09-16T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt5708688",
-          "plex": {
-            "guid": "5d9c0ce04eefaa001f604d99"
-          },
-          "tmdb": 1201242,
-          "tvdb": 5649923,
-          "trakt": 2262704
-        },
-        "title": "Sam/Pilot",
-        "votes": 1467,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/262/704/screenshots/medium/476ab7c4fd.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.092020034790039,
-        "season": 1,
-        "runtime": 22,
-        "overview": "Meet Sam Fox.",
-        "released": "2016-09-09",
-        "number_abs": 1,
-        "updated_at": "2026-06-02T17:01:57.000Z",
-        "first_aired": "2016-09-09T02:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Sam/Pilot",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "tr"
-        ],
-        "effective_release_date": "2016-09-09T02:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Widow's Bay",
-      "year": 2026,
-      "ids": {
-        "trakt": 254678,
-        "slug": "widow-s-bay",
-        "tvdb": 454109,
-        "imdb": "tt33332385",
-        "tmdb": 270476,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 7,
-      "completed": 6,
-      "hidden": 0,
-      "last_watched_at": "2026-05-30T04:03:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 6,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35699177",
-          "plex": {
-            "guid": "694837af4d2f329fa604ff8a"
-          },
-          "tmdb": 6768815,
-          "tvdb": 11512018,
-          "trakt": 13821062
-        },
-        "title": "Seasickness",
-        "votes": 286,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
-          ]
-        },
-        "number": 7,
-        "rating": 7.660839080810547,
-        "season": 1,
-        "runtime": 42,
-        "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
-        "released": "2026-05-27",
-        "number_abs": 7,
-        "updated_at": "2026-06-02T22:02:18.000Z",
-        "first_aired": "2026-05-27T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "Seasickness",
-        "available_translations": [],
-        "effective_release_date": "2026-05-27T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35699172",
-          "plex": {
-            "guid": "694837af4d2f329fa604ff91"
-          },
-          "tmdb": 6768814,
-          "tvdb": 11512016,
-          "trakt": 13821061
-        },
-        "title": "Our History",
-        "votes": 312,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/821/061/screenshots/medium/04ee7578e6.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.371794700622559,
-        "season": 1,
-        "runtime": 38,
-        "overview": "The history of Widow's Bay is a beautiful tale of marriage, loyalty, and a love that endures beyond lifetimes. That's all.",
-        "released": "2026-05-27",
-        "number_abs": 6,
-        "updated_at": "2026-06-02T22:35:04.000Z",
-        "first_aired": "2026-05-27T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 5,
-        "during_credits": false,
-        "original_title": "Our History",
-        "available_translations": [],
-        "effective_release_date": "2026-05-27T01:00:00.000Z"
       }
     }
   },
@@ -389,7 +389,7 @@
         "overview": "A twist of fate forces Anne and Ginny to confront their complicated feelings about one another. Jack and Kate's standoff comes to a head.",
         "released": "2025-05-01",
         "number_abs": 8,
-        "updated_at": "2026-06-02T15:34:30.000Z",
+        "updated_at": "2026-06-02T23:58:49.000Z",
         "first_aired": "2025-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -516,7 +516,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-06-02T18:12:36.000Z",
+        "updated_at": "2026-06-03T00:17:35.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -576,7 +576,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-06-02T22:27:15.000Z",
+        "updated_at": "2026-06-03T01:45:17.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -691,20 +691,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3250,
+        "votes": 3251,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/061983f96b.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.094769477844238,
+        "rating": 8.09473991394043,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-06-02T22:13:15.000Z",
+        "updated_at": "2026-06-03T01:34:53.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -785,20 +785,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1081,
+        "votes": 1082,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.86031436920166,
+        "rating": 7.861367702484131,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-06-02T15:28:53.000Z",
+        "updated_at": "2026-06-03T01:13:18.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -877,20 +877,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 603,
+        "votes": 604,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.827528953552246,
+        "rating": 6.829470157623291,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-06-02T22:26:52.000Z",
+        "updated_at": "2026-06-03T00:16:35.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -924,7 +924,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-06-02T20:42:39.000Z",
+        "updated_at": "2026-06-02T23:17:44.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
