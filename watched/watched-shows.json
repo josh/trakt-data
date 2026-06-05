@@ -1,5 +1,40 @@
 [
   {
+    "plays": 2,
+    "last_watched_at": "2026-06-05T04:13:00.000Z",
+    "last_updated_at": "2026-06-05T03:23:22.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "The Boroughs",
+      "year": 2026,
+      "ids": {
+        "trakt": 204528,
+        "slug": "the-boroughs",
+        "tvdb": 433989,
+        "imdb": "tt27557289",
+        "tmdb": 224941,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-06-03T04:59:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-06-05T04:13:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 5,
     "last_watched_at": "2026-06-03T18:02:00.000Z",
     "last_updated_at": "2026-06-03T17:42:05.000Z",
@@ -44,36 +79,6 @@
             "number": 5,
             "plays": 1,
             "last_watched_at": "2026-06-03T18:02:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 1,
-    "last_watched_at": "2026-06-03T04:59:00.000Z",
-    "last_updated_at": "2026-06-03T04:04:01.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "The Boroughs",
-      "year": 2026,
-      "ids": {
-        "trakt": 204528,
-        "slug": "the-boroughs",
-        "tvdb": 433989,
-        "imdb": "tt27557289",
-        "tmdb": 224941,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-06-03T04:59:00.000Z"
           }
         ]
       }
