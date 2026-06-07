@@ -1190,25 +1190,6 @@
   },
   {
     "rank": 70,
-    "id": 1475776224,
-    "listed_at": "2026-06-06T05:14:45.000Z",
-    "notes": null,
-    "type": "show",
-    "show": {
-      "title": "The Boroughs",
-      "year": 2026,
-      "ids": {
-        "trakt": 204528,
-        "slug": "the-boroughs",
-        "tvdb": 433989,
-        "imdb": "tt27557289",
-        "tmdb": 224941,
-        "tvrage": null
-      }
-    }
-  },
-  {
-    "rank": 71,
     "id": 1052373047,
     "listed_at": "2024-07-09T00:20:02.000Z",
     "notes": null,
@@ -1225,7 +1206,7 @@
     }
   },
   {
-    "rank": 72,
+    "rank": 71,
     "id": 1299909374,
     "listed_at": "2025-08-10T20:01:36.000Z",
     "notes": null,
@@ -1242,7 +1223,7 @@
     }
   },
   {
-    "rank": 73,
+    "rank": 72,
     "id": 1302534956,
     "listed_at": "2025-08-15T16:01:39.000Z",
     "notes": null,
@@ -1259,7 +1240,7 @@
     }
   },
   {
-    "rank": 74,
+    "rank": 73,
     "id": 1422597727,
     "listed_at": "2026-02-05T00:08:48.000Z",
     "notes": null,
@@ -1276,7 +1257,7 @@
     }
   },
   {
-    "rank": 75,
+    "rank": 74,
     "id": 1443361459,
     "listed_at": "2026-03-11T20:05:45.000Z",
     "notes": null,
@@ -1293,7 +1274,7 @@
     }
   },
   {
-    "rank": 76,
+    "rank": 75,
     "id": 1447654071,
     "listed_at": "2026-03-21T01:30:42.000Z",
     "notes": null,
@@ -1310,7 +1291,7 @@
     }
   },
   {
-    "rank": 77,
+    "rank": 76,
     "id": 1450054578,
     "listed_at": "2026-03-26T06:20:44.000Z",
     "notes": null,
@@ -1329,7 +1310,7 @@
     }
   },
   {
-    "rank": 78,
+    "rank": 77,
     "id": 1455327783,
     "listed_at": "2026-04-08T20:09:54.000Z",
     "notes": null,
@@ -1346,7 +1327,7 @@
     }
   },
   {
-    "rank": 79,
+    "rank": 78,
     "id": 1457454805,
     "listed_at": "2026-04-15T06:31:57.000Z",
     "notes": null,
@@ -1363,7 +1344,7 @@
     }
   },
   {
-    "rank": 80,
+    "rank": 79,
     "id": 1468466988,
     "listed_at": "2026-05-20T01:37:30.000Z",
     "notes": null,
@@ -1382,7 +1363,7 @@
     }
   },
   {
-    "rank": 81,
+    "rank": 80,
     "id": 1469715867,
     "listed_at": "2026-05-24T00:24:02.000Z",
     "notes": null,
@@ -1399,7 +1380,7 @@
     }
   },
   {
-    "rank": 82,
+    "rank": 81,
     "id": 1475806156,
     "listed_at": "2026-06-06T06:59:00.000Z",
     "notes": null,
@@ -1412,6 +1393,25 @@
         "slug": "maddie-s-secret-2026",
         "imdb": "tt37675037",
         "tmdb": 1517868
+      }
+    }
+  },
+  {
+    "rank": 82,
+    "id": 1476212298,
+    "listed_at": "2026-06-07T03:01:48.000Z",
+    "notes": null,
+    "type": "show",
+    "show": {
+      "title": "The Boroughs",
+      "year": 2026,
+      "ids": {
+        "trakt": 204528,
+        "slug": "the-boroughs",
+        "tvdb": 433989,
+        "imdb": "tt27557289",
+        "tmdb": 224941,
+        "tvrage": null
       }
     }
   },
@@ -2340,10 +2340,10 @@
     "type": "movie",
     "movie": {
       "title": "No One Cares",
-      "year": 2026,
+      "year": null,
       "ids": {
         "trakt": 1137371,
-        "slug": "no-one-cares-2026",
+        "slug": "no-one-cares",
         "imdb": "tt34718200",
         "tmdb": 1391239
       }
