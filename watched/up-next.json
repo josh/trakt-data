@@ -1,6 +1,100 @@
 [
   {
     "show": {
+      "title": "Hacks",
+      "year": 2021,
+      "ids": {
+        "trakt": 179632,
+        "slug": "hacks-2021",
+        "tvdb": 401582,
+        "imdb": "tt11815682",
+        "tmdb": 124101,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 47,
+      "completed": 40,
+      "hidden": 0,
+      "last_watched_at": "2026-06-16T05:12:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 40,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt41021281",
+          "plex": {
+            "guid": "69c27e27b4cf3e9d4fdd9297"
+          },
+          "tmdb": 7072153,
+          "tvdb": 11537555,
+          "trakt": 14073219
+        },
+        "title": "Who's Making Dinner?",
+        "votes": 187,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/073/219/screenshots/medium/9c6d9b6b60.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.647058963775635,
+        "season": 5,
+        "runtime": 32,
+        "overview": "Ava finds inspiration at a 50th anniversary event for Who's Making Dinner?, while Deborah is reminded of painful memories.",
+        "released": "2026-04-30",
+        "number_abs": 41,
+        "updated_at": "2026-06-15T21:59:16.000Z",
+        "first_aired": "2026-05-01T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Who's Making Dinner?",
+        "available_translations": [],
+        "effective_release_date": "2026-04-30T12:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt41021276",
+          "plex": {
+            "guid": "69c27e27b4cf3e9d4fdd929b"
+          },
+          "tmdb": 7072151,
+          "tvdb": 11507059,
+          "trakt": 14073218
+        },
+        "title": "No New Tricks",
+        "votes": 187,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/073/218/screenshots/medium/942cb88f7a.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.620320796966553,
+        "season": 5,
+        "runtime": 38,
+        "overview": "Deborah hits it off with the Palmetto's new artist in residence. Marcus sets out to save a historic casino, and Marty has uninvited wedding guests.",
+        "released": "2026-04-23",
+        "number_abs": 40,
+        "updated_at": "2026-06-15T20:01:08.000Z",
+        "first_aired": "2026-04-24T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 10,
+        "during_credits": false,
+        "original_title": "No New Tricks",
+        "available_translations": [],
+        "effective_release_date": "2026-04-23T12:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Better Things",
       "year": 2016,
       "ids": {
@@ -47,7 +141,7 @@
         "overview": "Sam has people over.",
         "released": "2017-09-15",
         "number_abs": 11,
-        "updated_at": "2026-06-13T22:49:40.000Z",
+        "updated_at": "2026-06-15T23:07:30.000Z",
         "first_aired": "2017-09-15T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -93,7 +187,7 @@
         "overview": "Only women bleed.",
         "released": "2016-11-11",
         "number_abs": 10,
-        "updated_at": "2026-06-14T03:20:25.000Z",
+        "updated_at": "2026-06-15T03:51:36.000Z",
         "first_aired": "2016-11-11T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -153,20 +247,20 @@
           "trakt": 13821063
         },
         "title": "Your Baggage",
-        "votes": 462,
+        "votes": 489,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/063/screenshots/medium/9bbcb2f645.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.898268222808838,
+        "rating": 7.8854804039001465,
         "season": 1,
         "runtime": 34,
         "overview": "Don't worry about misplaced luggage. Old baggage always resurfaces in Widow's Bay.",
         "released": "2026-06-03",
         "number_abs": 8,
-        "updated_at": "2026-06-14T18:18:27.000Z",
+        "updated_at": "2026-06-16T05:32:17.000Z",
         "first_aired": "2026-06-03T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -187,20 +281,20 @@
           "trakt": 13821062
         },
         "title": "Seasickness",
-        "votes": 478,
+        "votes": 504,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/062/screenshots/medium/291631d8b4.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.700836658477783,
+        "rating": 7.666666507720947,
         "season": 1,
         "runtime": 43,
         "overview": "Set out to sea with Mayor Loftis and cherished local figure, Wyck! They are attending to some business\u2014best to simply enjoy the voyage.",
         "released": "2026-05-27",
         "number_abs": 7,
-        "updated_at": "2026-06-14T17:42:35.000Z",
+        "updated_at": "2026-06-16T04:43:08.000Z",
         "first_aired": "2026-05-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -209,100 +303,6 @@
         "original_title": "Seasickness",
         "available_translations": [],
         "effective_release_date": "2026-05-27T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Hacks",
-      "year": 2021,
-      "ids": {
-        "trakt": 179632,
-        "slug": "hacks-2021",
-        "tvdb": 401582,
-        "imdb": "tt11815682",
-        "tmdb": 124101,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 47,
-      "completed": 39,
-      "hidden": 0,
-      "last_watched_at": "2026-05-29T05:41:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 39,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt41021276",
-          "plex": {
-            "guid": "69c27e27b4cf3e9d4fdd929b"
-          },
-          "tmdb": 7072151,
-          "tvdb": 11507059,
-          "trakt": 14073218
-        },
-        "title": "No New Tricks",
-        "votes": 187,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/073/218/screenshots/medium/942cb88f7a.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.620320796966553,
-        "season": 5,
-        "runtime": 38,
-        "overview": "Deborah hits it off with the Palmetto's new artist in residence. Marcus sets out to save a historic casino, and Marty has uninvited wedding guests.",
-        "released": "2026-04-23",
-        "number_abs": 40,
-        "updated_at": "2026-06-14T15:24:11.000Z",
-        "first_aired": "2026-04-24T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 10,
-        "during_credits": false,
-        "original_title": "No New Tricks",
-        "available_translations": [],
-        "effective_release_date": "2026-04-23T12:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt41021270",
-          "plex": {
-            "guid": "69c27e27b4cf3e9d4fdd929f"
-          },
-          "tmdb": 7072150,
-          "tvdb": 11507058,
-          "trakt": 14073217
-        },
-        "title": "Number One Fan",
-        "votes": 203,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/073/217/screenshots/medium/0269674ebc.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.847290515899658,
-        "season": 5,
-        "runtime": 32,
-        "overview": "After she's turned down by Madison Square Garden, Deborah's attempt to reignite her fanbase doesn't go as planned. Meanwhile, Jimmy unexpectedly gets to pitch one of his idols, and Ava meets her first fan.",
-        "released": "2026-04-16",
-        "number_abs": 39,
-        "updated_at": "2026-06-14T15:24:10.000Z",
-        "first_aired": "2026-04-17T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "Number One Fan",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T12:00:00.000Z"
       }
     }
   },
@@ -341,20 +341,20 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 110,
+        "votes": 113,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/154/screenshots/medium/2372213e53.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.199999809265137,
+        "rating": 7.22123908996582,
         "season": 2,
         "runtime": 27,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-06-14T17:50:43.000Z",
+        "updated_at": "2026-06-16T04:28:23.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -388,7 +388,7 @@
         "overview": "A twist of fate forces Anne and Ginny to confront their complicated feelings about one another. Jack and Kate's standoff comes to a head.",
         "released": "2025-05-01",
         "number_abs": 8,
-        "updated_at": "2026-06-14T00:55:58.000Z",
+        "updated_at": "2026-06-16T04:28:23.000Z",
         "first_aired": "2025-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -468,20 +468,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1083,
+        "votes": 1086,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.74976921081543,
+        "rating": 7.750460624694824,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-06-14T10:44:31.000Z",
+        "updated_at": "2026-06-15T22:19:30.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -509,13 +509,13 @@
           ]
         },
         "number": 9,
-        "rating": 7.96657133102417,
+        "rating": 7.967048645019531,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-06-14T01:25:27.000Z",
+        "updated_at": "2026-06-16T01:38:32.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -575,7 +575,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-06-14T04:19:39.000Z",
+        "updated_at": "2026-06-16T05:46:52.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -596,20 +596,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1028,
+        "votes": 1029,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.435797691345215,
+        "rating": 8.43537425994873,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-06-14T03:47:26.000Z",
+        "updated_at": "2026-06-16T04:06:25.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -656,20 +656,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1751,
+        "votes": 1759,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.856653213500977,
+        "rating": 7.85730504989624,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-06-14T15:30:08.000Z",
+        "updated_at": "2026-06-16T03:32:53.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -690,20 +690,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3266,
+        "votes": 3265,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.095529556274414,
+        "rating": 8.095252990722656,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-06-14T15:30:08.000Z",
+        "updated_at": "2026-06-15T22:34:18.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -750,20 +750,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 348,
+        "votes": 349,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.152298927307129,
+        "rating": 7.1489973068237305,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-06-14T17:07:15.000Z",
+        "updated_at": "2026-06-16T01:33:51.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -797,7 +797,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-06-14T16:00:10.000Z",
+        "updated_at": "2026-06-16T02:20:09.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -876,20 +876,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 661,
+        "votes": 663,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.812405586242676,
+        "rating": 6.814479827880859,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-06-14T15:22:42.000Z",
+        "updated_at": "2026-06-15T18:32:25.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -910,20 +910,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1295,
+        "votes": 1297,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.9096527099609375,
+        "rating": 7.9074788093566895,
         "season": 2,
         "runtime": 62,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-06-14T17:39:42.000Z",
+        "updated_at": "2026-06-16T04:44:27.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
