@@ -14,16 +14,50 @@
     },
     "progress": {
       "aired": 47,
-      "completed": 41,
+      "completed": 42,
       "hidden": 0,
-      "last_watched_at": "2026-06-17T05:29:00.000Z",
+      "last_watched_at": "2026-06-17T23:08:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 41,
+        "play_count": 42,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt41021669",
+          "plex": {
+            "guid": "69c27e27b4cf3e9d4fdd928f"
+          },
+          "tmdb": 7072155,
+          "tvdb": 11689672,
+          "trakt": 14073221
+        },
+        "title": "QuikScribbl",
+        "votes": 194,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/073/221/screenshots/medium/76e6faa412.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.54639196395874,
+        "season": 5,
+        "runtime": 36,
+        "overview": "With construction on The Diva heading way over budget, Deborah meets with an AI investor, causing friction between her and Ava. Meanwhile, Jimmy and Kayla head out on a road trip after being tasked with landing the new casino's comic in residence.",
+        "released": "2026-05-07",
+        "number_abs": 43,
+        "updated_at": "2026-06-17T21:33:22.000Z",
+        "first_aired": "2026-05-08T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "QuikScribbl",
+        "available_translations": [],
+        "effective_release_date": "2026-05-07T12:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt41021436",
           "plex": {
@@ -47,47 +81,13 @@
         "overview": "When The Amazing Race announces a celebrity edition, DJ holds Deborah to her longstanding promise of partnering up. After Deborah gives her blessing, Ava attempts to secure the rights for her Who's Making Dinner? reboot.",
         "released": "2026-04-30",
         "number_abs": 42,
-        "updated_at": "2026-06-17T15:59:59.000Z",
+        "updated_at": "2026-06-17T22:02:04.000Z",
         "first_aired": "2026-05-01T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 6,
         "during_credits": false,
         "original_title": "D'Amazing Race",
-        "available_translations": [],
-        "effective_release_date": "2026-04-30T12:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt41021281",
-          "plex": {
-            "guid": "69c27e27b4cf3e9d4fdd9297"
-          },
-          "tmdb": 7072153,
-          "tvdb": 11537555,
-          "trakt": 14073219
-        },
-        "title": "Who's Making Dinner?",
-        "votes": 187,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/073/219/screenshots/medium/9c6d9b6b60.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.647058963775635,
-        "season": 5,
-        "runtime": 32,
-        "overview": "Ava finds inspiration at a 50th anniversary event for Who's Making Dinner?, while Deborah is reminded of painful memories.",
-        "released": "2026-04-30",
-        "number_abs": 41,
-        "updated_at": "2026-06-17T15:59:59.000Z",
-        "first_aired": "2026-05-01T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Who's Making Dinner?",
         "available_translations": [],
         "effective_release_date": "2026-04-30T12:00:00.000Z"
       }
@@ -387,7 +387,7 @@
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-06-17T21:15:46.000Z",
+        "updated_at": "2026-06-17T22:21:42.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -575,7 +575,7 @@
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-06-17T20:32:51.000Z",
+        "updated_at": "2026-06-17T21:44:20.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -609,7 +609,7 @@
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-06-17T20:18:26.000Z",
+        "updated_at": "2026-06-17T21:44:20.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
