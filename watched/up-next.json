@@ -1,6 +1,124 @@
 [
   {
     "show": {
+      "title": "Better Things",
+      "year": 2016,
+      "ids": {
+        "trakt": 108564,
+        "slug": "better-things",
+        "tvdb": 313270,
+        "imdb": "tt4370596",
+        "tmdb": 66859,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 52,
+      "completed": 12,
+      "hidden": 0,
+      "last_watched_at": "2026-06-18T05:09:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 12,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt6270794",
+          "plex": {
+            "guid": "5d9c0ce0705e7a001e714216"
+          },
+          "tmdb": 1369770,
+          "tvdb": 6304982,
+          "trakt": 2722959
+        },
+        "title": "Robin",
+        "votes": 552,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/722/959/screenshots/medium/8d4e5cdd8c.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.514490127563477,
+        "season": 2,
+        "runtime": 24,
+        "overview": "Sam gets a new friend.",
+        "released": "2017-09-29",
+        "number_abs": 13,
+        "updated_at": "2026-06-17T23:45:26.000Z",
+        "first_aired": "2017-09-29T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Robin",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "tr"
+        ],
+        "effective_release_date": "2017-09-29T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt6270792",
+          "plex": {
+            "guid": "5d9c0ce0705e7a001e714206"
+          },
+          "tmdb": 1356283,
+          "tvdb": 6272003,
+          "trakt": 2702328
+        },
+        "title": "Rising",
+        "votes": 556,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/702/328/screenshots/medium/776ad0352c.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.516190052032471,
+        "season": 2,
+        "runtime": 23,
+        "overview": "Sam clears her head.",
+        "released": "2017-09-22",
+        "number_abs": 12,
+        "updated_at": "2026-06-17T23:45:26.000Z",
+        "first_aired": "2017-09-22T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 5,
+        "during_credits": false,
+        "original_title": "Rising",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "tr"
+        ],
+        "effective_release_date": "2017-09-22T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -90,125 +208,6 @@
         "original_title": "D'Amazing Race",
         "available_translations": [],
         "effective_release_date": "2026-04-30T12:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Better Things",
-      "year": 2016,
-      "ids": {
-        "trakt": 108564,
-        "slug": "better-things",
-        "tvdb": 313270,
-        "imdb": "tt4370596",
-        "tmdb": 66859,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 52,
-      "completed": 10,
-      "hidden": 0,
-      "last_watched_at": "2026-06-14T18:45:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 10,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt6080486",
-          "plex": {
-            "guid": "5d9c0ce0705e7a001e714202"
-          },
-          "tmdb": 1356282,
-          "tvdb": 6161363,
-          "trakt": 2632581
-        },
-        "title": "September",
-        "votes": 601,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/632/581/screenshots/medium/26ca66aeda.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.580699920654297,
-        "season": 2,
-        "runtime": 24,
-        "overview": "Sam has people over.",
-        "released": "2017-09-15",
-        "number_abs": 11,
-        "updated_at": "2026-06-17T23:45:26.000Z",
-        "first_aired": "2017-09-15T02:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "September",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ro",
-          "tr"
-        ],
-        "effective_release_date": "2017-09-15T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt5712012",
-          "plex": {
-            "guid": "5d9c0ce0e98e47001eb39f33"
-          },
-          "tmdb": 1235442,
-          "tvdb": 5769991,
-          "trakt": 2281335
-        },
-        "title": "Only Women Bleed",
-        "votes": 451,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/281/335/screenshots/medium/fbd282fb12.jpg.webp"
-          ]
-        },
-        "number": 10,
-        "rating": 7.596452236175537,
-        "season": 1,
-        "runtime": 25,
-        "overview": "Only women bleed.",
-        "released": "2016-11-11",
-        "number_abs": 10,
-        "updated_at": "2026-06-17T07:03:26.000Z",
-        "first_aired": "2016-11-11T03:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Only Women Bleed",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "tr"
-        ],
-        "effective_release_date": "2016-11-11T03:00:00.000Z"
       }
     }
   },
@@ -515,7 +514,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-06-17T20:18:48.000Z",
+        "updated_at": "2026-06-18T04:18:21.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -562,20 +561,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1770,
+        "votes": 1771,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/bd310f3ae0.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.856497287750244,
+        "rating": 7.857142925262451,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-06-18T01:38:31.000Z",
+        "updated_at": "2026-06-18T04:06:27.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -656,20 +655,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 352,
+        "votes": 353,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.15625,
+        "rating": 7.158640384674072,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-06-17T20:27:21.000Z",
+        "updated_at": "2026-06-18T04:45:38.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
