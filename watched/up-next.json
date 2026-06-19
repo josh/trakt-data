@@ -14,16 +14,62 @@
     },
     "progress": {
       "aired": 52,
-      "completed": 12,
+      "completed": 13,
       "hidden": 0,
-      "last_watched_at": "2026-06-18T05:09:00.000Z",
+      "last_watched_at": "2026-06-19T05:03:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 12,
+        "play_count": 13,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt6333522",
+          "plex": {
+            "guid": "5d9c0ce0705e7a001e71420e"
+          },
+          "tmdb": 1369771,
+          "tvdb": 6304983,
+          "trakt": 2722960
+        },
+        "title": "Sick",
+        "votes": 515,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/722/960/screenshots/medium/92e2045b09.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.516499996185303,
+        "season": 2,
+        "runtime": 19,
+        "overview": "Sam is sick.",
+        "released": "2017-10-06",
+        "number_abs": 14,
+        "updated_at": "2026-06-19T01:57:21.000Z",
+        "first_aired": "2017-10-06T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Sick",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "tr"
+        ],
+        "effective_release_date": "2017-10-06T02:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt6270794",
           "plex": {
@@ -47,7 +93,7 @@
         "overview": "Sam gets a new friend.",
         "released": "2017-09-29",
         "number_abs": 13,
-        "updated_at": "2026-06-17T23:45:26.000Z",
+        "updated_at": "2026-06-19T01:57:21.000Z",
         "first_aired": "2017-09-29T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -68,52 +114,6 @@
           "tr"
         ],
         "effective_release_date": "2017-09-29T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt6270792",
-          "plex": {
-            "guid": "5d9c0ce0705e7a001e714206"
-          },
-          "tmdb": 1356283,
-          "tvdb": 6272003,
-          "trakt": 2702328
-        },
-        "title": "Rising",
-        "votes": 556,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/702/328/screenshots/medium/776ad0352c.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.516190052032471,
-        "season": 2,
-        "runtime": 23,
-        "overview": "Sam clears her head.",
-        "released": "2017-09-22",
-        "number_abs": 12,
-        "updated_at": "2026-06-17T23:45:26.000Z",
-        "first_aired": "2017-09-22T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 5,
-        "during_credits": false,
-        "original_title": "Rising",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ro",
-          "tr"
-        ],
-        "effective_release_date": "2017-09-22T02:00:00.000Z"
       }
     }
   },
@@ -132,16 +132,50 @@
     },
     "progress": {
       "aired": 47,
-      "completed": 42,
+      "completed": 43,
       "hidden": 0,
-      "last_watched_at": "2026-06-17T23:08:00.000Z",
+      "last_watched_at": "2026-06-19T04:39:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 42,
+        "play_count": 43,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt41021950",
+          "plex": {
+            "guid": "69c27e27b4cf3e9d4fdd928b"
+          },
+          "tmdb": 7072156,
+          "tvdb": 11692304,
+          "trakt": 14073222
+        },
+        "title": "Montecito",
+        "votes": 209,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/073/222/screenshots/medium/75a6984c61.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8.167464256286621,
+        "season": 5,
+        "runtime": 38,
+        "overview": "After deciding on a very specific outfit for her MSG show, Deborah is forced to grovel for the esteemed suit...only to find herself on an unexpected couple's weekend in Montecito with Ava.",
+        "released": "2026-05-07",
+        "number_abs": 44,
+        "updated_at": "2026-06-19T03:32:43.000Z",
+        "first_aired": "2026-05-08T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 7,
+        "during_credits": false,
+        "original_title": "Montecito",
+        "available_translations": [],
+        "effective_release_date": "2026-05-07T12:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt41021669",
           "plex": {
@@ -174,40 +208,6 @@
         "original_title": "QuikScribbl",
         "available_translations": [],
         "effective_release_date": "2026-05-07T12:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt41021436",
-          "plex": {
-            "guid": "69c27e27b4cf3e9d4fdd9293"
-          },
-          "tmdb": 7072154,
-          "tvdb": 11689671,
-          "trakt": 14073220
-        },
-        "title": "D'Amazing Race",
-        "votes": 187,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/073/220/screenshots/medium/e2b7b85a04.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.433155059814453,
-        "season": 5,
-        "runtime": 37,
-        "overview": "When The Amazing Race announces a celebrity edition, DJ holds Deborah to her longstanding promise of partnering up. After Deborah gives her blessing, Ava attempts to secure the rights for her Who's Making Dinner? reboot.",
-        "released": "2026-04-30",
-        "number_abs": 42,
-        "updated_at": "2026-06-18T22:04:54.000Z",
-        "first_aired": "2026-05-01T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "D'Amazing Race",
-        "available_translations": [],
-        "effective_release_date": "2026-04-30T12:00:00.000Z"
       }
     }
   },
@@ -246,20 +246,20 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 119,
+        "votes": 120,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/154/screenshots/medium/2372213e53.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.243697643280029,
+        "rating": 7.233333110809326,
         "season": 2,
         "runtime": 27,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-06-18T09:24:34.000Z",
+        "updated_at": "2026-06-19T00:35:45.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -280,20 +280,20 @@
           "trakt": 12922710
         },
         "title": "Fun",
-        "votes": 350,
+        "votes": 351,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/922/710/screenshots/medium/cdb83583c6.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.4828572273254395,
+        "rating": 7.47863245010376,
         "season": 1,
         "runtime": 35,
         "overview": "A twist of fate forces Anne and Ginny to confront their complicated feelings about one another. Jack and Kate's standoff comes to a head.",
         "released": "2025-05-01",
         "number_abs": 8,
-        "updated_at": "2026-06-18T01:15:19.000Z",
+        "updated_at": "2026-06-19T01:19:43.000Z",
         "first_aired": "2025-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -373,20 +373,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1090,
+        "votes": 1091,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.748623847961426,
+        "rating": 7.7479376792907715,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-06-18T22:22:28.000Z",
+        "updated_at": "2026-06-19T02:23:45.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -420,7 +420,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-06-18T01:41:15.000Z",
+        "updated_at": "2026-06-19T01:43:01.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -514,7 +514,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-06-18T04:18:21.000Z",
+        "updated_at": "2026-06-19T04:23:25.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -622,6 +622,100 @@
   },
   {
     "show": {
+      "title": "Sugar",
+      "year": 2024,
+      "ids": {
+        "trakt": 196180,
+        "slug": "sugar-2024",
+        "tvdb": 421070,
+        "imdb": "tt16418808",
+        "tmdb": 203744,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 9,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2024-05-17T16:03:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 8,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt33566895",
+          "plex": {
+            "guid": "673faa7f9866ffd2cf59c81b"
+          },
+          "tmdb": 6900379,
+          "tvdb": 11585254,
+          "trakt": 13964385
+        },
+        "title": "Home Away from Home",
+        "votes": 2,
+        "images": {
+          "screenshot": []
+        },
+        "number": 1,
+        "rating": 8,
+        "season": 2,
+        "runtime": 38,
+        "overview": null,
+        "released": "2026-06-19",
+        "number_abs": 9,
+        "updated_at": "2026-06-19T04:01:54.000Z",
+        "first_aired": "2026-06-19T02:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Home Away from Home",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-06-19T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt23269558",
+          "plex": {
+            "guid": "65c2573c5bd7fc71807c598c"
+          },
+          "tmdb": 5127443,
+          "tvdb": 10408508,
+          "trakt": 11455918
+        },
+        "title": "Farewell",
+        "votes": 856,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.530374050140381,
+        "season": 1,
+        "runtime": 40,
+        "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
+        "released": "2024-05-17",
+        "number_abs": 8,
+        "updated_at": "2026-06-18T16:10:32.000Z",
+        "first_aired": "2024-05-17T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 13,
+        "during_credits": false,
+        "original_title": "Farewell",
+        "available_translations": [],
+        "effective_release_date": "2024-05-17T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "BEEF",
       "year": 2023,
       "ids": {
@@ -702,7 +796,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-06-18T02:29:38.000Z",
+        "updated_at": "2026-06-19T02:29:55.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -781,20 +875,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 667,
+        "votes": 669,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.814093112945557,
+        "rating": 6.8191328048706055,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-06-18T19:42:49.000Z",
+        "updated_at": "2026-06-19T03:10:28.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -828,7 +922,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-06-18T15:16:46.000Z",
+        "updated_at": "2026-06-19T00:00:20.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
