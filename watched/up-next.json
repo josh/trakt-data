@@ -213,6 +213,102 @@
   },
   {
     "show": {
+      "title": "Real Time with Bill Maher",
+      "year": 2003,
+      "ids": {
+        "trakt": 4395,
+        "slug": "real-time-with-bill-maher",
+        "tvdb": 72231,
+        "imdb": "tt0350448",
+        "tmdb": 4419,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 734,
+      "completed": 733,
+      "hidden": 0,
+      "last_watched_at": "2026-06-13T04:52:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 735,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a0f35570c692ceed8edc6c0"
+          },
+          "tmdb": 7285877,
+          "tvdb": null,
+          "trakt": 14192946
+        },
+        "title": "June 19, 2026: Sam Levinson, Rep. Ro Khanna, Jonathan Martin",
+        "votes": 0,
+        "images": {
+          "screenshot": []
+        },
+        "number": 19,
+        "rating": 0,
+        "season": 24,
+        "runtime": null,
+        "overview": "Guests: An interview with creator, writer, and director of the HBO Original series \"Euphoria,\" Sam Levinson. This week's panel discussion includes Rep. Ro Khanna, Democratic congressman representing California's Silicon Valley, member of the House Oversight and House Armed Services Committees, and author of \"Dignity in a Digital Age: Making Tech Work for All of Us\"; and Jonathan Martin, Politico's senior political columnist and host of the podcast \"On The Road with Jonathan Martin.\"",
+        "released": null,
+        "number_abs": 738,
+        "updated_at": "2026-06-20T02:35:10.000Z",
+        "first_aired": "2026-06-20T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "June 19, 2026: Sam Levinson, Rep. Ro Khanna, Jonathan Martin",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-06-20T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a0f35570c692ceed8edc6a7"
+          },
+          "tmdb": 7285875,
+          "tvdb": null,
+          "trakt": 14192945
+        },
+        "title": "June 12, 2026: David Sedaris, Ian Bremmer, Hagar Chemali",
+        "votes": 24,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/192/945/screenshots/medium/20fe0b3b4b.jpg.webp"
+          ]
+        },
+        "number": 18,
+        "rating": 7.458333492279053,
+        "season": 24,
+        "runtime": 59,
+        "overview": "Guests: An interview with David Sedaris, contributor to The New Yorker, humorist, and author of the #1 New York Times bestselling book \"The Land and Its People.\" This week's panel discussion includes Ian Bremmer, president and founder of Eurasia Group and GZERO Media; and Hagar Chemali, former spokesperson of the U.S. Mission to the United Nations (UN), co-founder of the Lebanon-Israel Peace Alliance, and host of the YouTube show \"Oh My World.\"",
+        "released": "2026-06-13",
+        "number_abs": 737,
+        "updated_at": "2026-06-19T20:32:49.000Z",
+        "first_aired": "2026-06-13T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "June 12, 2026: David Sedaris, Ian Bremmer, Hagar Chemali",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-06-13T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Four Seasons",
       "year": 2025,
       "ids": {
@@ -246,20 +342,20 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 121,
+        "votes": 122,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/154/screenshots/medium/2372213e53.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.214876174926758,
+        "rating": 7.221311569213867,
         "season": 2,
         "runtime": 27,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-06-19T16:26:38.000Z",
+        "updated_at": "2026-06-20T01:49:44.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -420,7 +516,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-06-19T01:43:01.000Z",
+        "updated_at": "2026-06-20T01:46:56.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -655,20 +751,20 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 41,
+        "votes": 46,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.146341323852539,
+        "rating": 7.130434989929199,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-06-20T01:33:20.000Z",
+        "updated_at": "2026-06-20T03:03:09.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -796,7 +892,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-06-19T02:29:55.000Z",
+        "updated_at": "2026-06-20T02:33:03.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
