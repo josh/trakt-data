@@ -1,6 +1,124 @@
 [
   {
     "show": {
+      "title": "Better Things",
+      "year": 2016,
+      "ids": {
+        "trakt": 108564,
+        "slug": "better-things",
+        "tvdb": 313270,
+        "imdb": "tt4370596",
+        "tmdb": 66859,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 52,
+      "completed": 14,
+      "hidden": 0,
+      "last_watched_at": "2026-06-20T05:58:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 14,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt6333520",
+          "plex": {
+            "guid": "5d9c0ce0705e7a001e714226"
+          },
+          "tmdb": 1379083,
+          "tvdb": 6308918,
+          "trakt": 2725970
+        },
+        "title": "Phil",
+        "votes": 481,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/725/970/screenshots/medium/2a2b250b10.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.449059963226318,
+        "season": 2,
+        "runtime": 24,
+        "overview": "Sam is forced to look at some stuff.",
+        "released": "2017-10-13",
+        "number_abs": 15,
+        "updated_at": "2026-06-19T23:44:45.000Z",
+        "first_aired": "2017-10-13T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Phil",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "tr"
+        ],
+        "effective_release_date": "2017-10-13T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt6333522",
+          "plex": {
+            "guid": "5d9c0ce0705e7a001e71420e"
+          },
+          "tmdb": 1369771,
+          "tvdb": 6304983,
+          "trakt": 2722960
+        },
+        "title": "Sick",
+        "votes": 515,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/002/722/960/screenshots/medium/92e2045b09.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.516499996185303,
+        "season": 2,
+        "runtime": 19,
+        "overview": "Sam is sick.",
+        "released": "2017-10-06",
+        "number_abs": 14,
+        "updated_at": "2026-06-20T05:40:05.000Z",
+        "first_aired": "2017-10-06T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Sick",
+        "available_translations": [
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "tr"
+        ],
+        "effective_release_date": "2017-10-06T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Hacks",
       "year": 2021,
       "ids": {
@@ -90,220 +208,6 @@
         "original_title": "The Cube",
         "available_translations": [],
         "effective_release_date": "2026-05-14T12:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Better Things",
-      "year": 2016,
-      "ids": {
-        "trakt": 108564,
-        "slug": "better-things",
-        "tvdb": 313270,
-        "imdb": "tt4370596",
-        "tmdb": 66859,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 52,
-      "completed": 13,
-      "hidden": 0,
-      "last_watched_at": "2026-06-19T05:03:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 13,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt6333522",
-          "plex": {
-            "guid": "5d9c0ce0705e7a001e71420e"
-          },
-          "tmdb": 1369771,
-          "tvdb": 6304983,
-          "trakt": 2722960
-        },
-        "title": "Sick",
-        "votes": 515,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/722/960/screenshots/medium/92e2045b09.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.516499996185303,
-        "season": 2,
-        "runtime": 19,
-        "overview": "Sam is sick.",
-        "released": "2017-10-06",
-        "number_abs": 14,
-        "updated_at": "2026-06-19T01:57:21.000Z",
-        "first_aired": "2017-10-06T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "Sick",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ro",
-          "tr"
-        ],
-        "effective_release_date": "2017-10-06T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt6270794",
-          "plex": {
-            "guid": "5d9c0ce0705e7a001e714216"
-          },
-          "tmdb": 1369770,
-          "tvdb": 6304982,
-          "trakt": 2722959
-        },
-        "title": "Robin",
-        "votes": 552,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/002/722/959/screenshots/medium/8d4e5cdd8c.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.514490127563477,
-        "season": 2,
-        "runtime": 24,
-        "overview": "Sam gets a new friend.",
-        "released": "2017-09-29",
-        "number_abs": 13,
-        "updated_at": "2026-06-19T01:57:21.000Z",
-        "first_aired": "2017-09-29T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Robin",
-        "available_translations": [
-          "cs",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ro",
-          "tr"
-        ],
-        "effective_release_date": "2017-09-29T02:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "Real Time with Bill Maher",
-      "year": 2003,
-      "ids": {
-        "trakt": 4395,
-        "slug": "real-time-with-bill-maher",
-        "tvdb": 72231,
-        "imdb": "tt0350448",
-        "tmdb": 4419,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 734,
-      "completed": 733,
-      "hidden": 0,
-      "last_watched_at": "2026-06-13T04:52:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 735,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a0f35570c692ceed8edc6c0"
-          },
-          "tmdb": 7285877,
-          "tvdb": null,
-          "trakt": 14192946
-        },
-        "title": "June 19, 2026: Sam Levinson, Rep. Ro Khanna, Jonathan Martin",
-        "votes": 1,
-        "images": {
-          "screenshot": []
-        },
-        "number": 19,
-        "rating": 8,
-        "season": 24,
-        "runtime": null,
-        "overview": "Guests: An interview with creator, writer, and director of the HBO Original series \"Euphoria,\" Sam Levinson. This week's panel discussion includes Rep. Ro Khanna, Democratic congressman representing California's Silicon Valley, member of the House Oversight and House Armed Services Committees, and author of \"Dignity in a Digital Age: Making Tech Work for All of Us\"; and Jonathan Martin, Politico's senior political columnist and host of the podcast \"On The Road with Jonathan Martin.\"",
-        "released": null,
-        "number_abs": 738,
-        "updated_at": "2026-06-20T03:13:19.000Z",
-        "first_aired": "2026-06-20T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "June 19, 2026: Sam Levinson, Rep. Ro Khanna, Jonathan Martin",
-        "available_translations": [
-          "en"
-        ],
-        "effective_release_date": "2026-06-20T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a0f35570c692ceed8edc6a7"
-          },
-          "tmdb": 7285875,
-          "tvdb": null,
-          "trakt": 14192945
-        },
-        "title": "June 12, 2026: David Sedaris, Ian Bremmer, Hagar Chemali",
-        "votes": 24,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/192/945/screenshots/medium/20fe0b3b4b.jpg.webp"
-          ]
-        },
-        "number": 18,
-        "rating": 7.458333492279053,
-        "season": 24,
-        "runtime": 59,
-        "overview": "Guests: An interview with David Sedaris, contributor to The New Yorker, humorist, and author of the #1 New York Times bestselling book \"The Land and Its People.\" This week's panel discussion includes Ian Bremmer, president and founder of Eurasia Group and GZERO Media; and Hagar Chemali, former spokesperson of the U.S. Mission to the United Nations (UN), co-founder of the Lebanon-Israel Peace Alliance, and host of the YouTube show \"Oh My World.\"",
-        "released": "2026-06-13",
-        "number_abs": 737,
-        "updated_at": "2026-06-19T20:32:49.000Z",
-        "first_aired": "2026-06-13T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "June 12, 2026: David Sedaris, Ian Bremmer, Hagar Chemali",
-        "available_translations": [
-          "en"
-        ],
-        "effective_release_date": "2026-06-13T02:00:00.000Z"
       }
     }
   },
@@ -576,7 +480,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-06-19T06:03:34.000Z",
+        "updated_at": "2026-06-20T06:04:54.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
