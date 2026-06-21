@@ -93,7 +93,7 @@
         "overview": "Sam is sick.",
         "released": "2017-10-06",
         "number_abs": 14,
-        "updated_at": "2026-06-20T05:40:05.000Z",
+        "updated_at": "2026-06-21T07:03:31.000Z",
         "first_aired": "2017-10-06T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -434,6 +434,100 @@
   },
   {
     "show": {
+      "title": "The Agency",
+      "year": 2024,
+      "ids": {
+        "trakt": 202341,
+        "slug": "the-agency-2024",
+        "tvdb": 430769,
+        "imdb": "tt26656917",
+        "tmdb": 219971,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 20,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2025-01-24T06:24:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 10,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt34889286",
+          "plex": {
+            "guid": "69d3e406e0c426215ebf11e7"
+          },
+          "tmdb": 7291266,
+          "tvdb": 11721839,
+          "trakt": 14195944
+        },
+        "title": "Kick the Wasp's Nest",
+        "votes": 0,
+        "images": {
+          "screenshot": []
+        },
+        "number": 1,
+        "rating": 0,
+        "season": 2,
+        "runtime": null,
+        "overview": "Martian and Owen debrief Coyote. Bosko, fearing a leak, pressures Henry to clean house. Richardson turns up at the Chicken Coop with news from Khartoum. Danny, in Iran, feels the ground move. Viking is escalated to a category one.",
+        "released": "2026-06-21",
+        "number_abs": 11,
+        "updated_at": "2026-06-21T07:36:34.000Z",
+        "first_aired": "2026-06-21T07:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Kick the Wasp's Nest",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-06-21T07:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31609117",
+          "plex": {
+            "guid": "65f4847d898d6703f4b17df3"
+          },
+          "tmdb": 5212108,
+          "tvdb": 10759737,
+          "trakt": 11631660
+        },
+        "title": "Overtaken by Events",
+        "votes": 933,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/631/660/screenshots/medium/2287e513f8.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.8628082275390625,
+        "season": 1,
+        "runtime": 51,
+        "overview": "Bosko shares a grim truth. Martian makes a devil's bargain.",
+        "released": "2025-01-24",
+        "number_abs": 10,
+        "updated_at": "2026-06-21T06:02:03.000Z",
+        "first_aired": "2025-01-26T08:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 14,
+        "during_credits": false,
+        "original_title": "Overtaken by Events",
+        "available_translations": [],
+        "effective_release_date": "2025-01-24T12:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "Shrinking",
       "year": 2023,
       "ids": {
@@ -480,7 +574,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-06-21T03:33:35.000Z",
+        "updated_at": "2026-06-21T06:10:00.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -595,20 +689,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3267,
+        "votes": 3268,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.095806121826172,
+        "rating": 8.096083641052246,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-06-20T22:38:57.000Z",
+        "updated_at": "2026-06-21T05:42:26.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
