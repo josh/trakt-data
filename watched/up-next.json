@@ -214,6 +214,100 @@
   },
   {
     "show": {
+      "title": "The Bear",
+      "year": 2022,
+      "ids": {
+        "trakt": 189717,
+        "slug": "the-bear",
+        "tvdb": 403294,
+        "imdb": "tt14452776",
+        "tmdb": 136315,
+        "tvrage": null
+      }
+    },
+    "progress": {
+      "aired": 46,
+      "completed": 38,
+      "hidden": 0,
+      "last_watched_at": "2025-07-22T21:56:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 38,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37507028",
+          "plex": {
+            "guid": "68665cd19f6d8a3b73d78106"
+          },
+          "tmdb": 7239761,
+          "tvdb": 11786381,
+          "trakt": 14165594
+        },
+        "title": "Soda",
+        "votes": 3,
+        "images": {
+          "screenshot": []
+        },
+        "number": 1,
+        "rating": 7.666666507720947,
+        "season": 5,
+        "runtime": 21,
+        "overview": "A storm hits.",
+        "released": "2026-06-25",
+        "number_abs": 39,
+        "updated_at": "2026-06-25T21:14:34.000Z",
+        "first_aired": "2026-06-26T00:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Soda",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-06-25T16:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt36944202",
+          "plex": {
+            "guid": "682488d100ede533ceef7906"
+          },
+          "tmdb": 6231158,
+          "tvdb": 11160510,
+          "trakt": 12565635
+        },
+        "title": "Goodbye",
+        "votes": 1174,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/565/635/screenshots/medium/e49e9febc8.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.718058109283447,
+        "season": 4,
+        "runtime": 34,
+        "overview": "Time waits for no one.",
+        "released": "2025-06-25",
+        "number_abs": 38,
+        "updated_at": "2026-06-26T00:02:21.000Z",
+        "first_aired": "2025-06-26T00:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 38,
+        "during_credits": false,
+        "original_title": "Goodbye",
+        "available_translations": [],
+        "effective_release_date": "2025-06-25T16:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
       "title": "The Four Seasons",
       "year": 2025,
       "ids": {
@@ -468,20 +562,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 131,
+        "votes": 132,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.595419883728027,
+        "rating": 7.590909004211426,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-06-25T21:57:12.000Z",
+        "updated_at": "2026-06-25T23:36:55.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -656,20 +750,20 @@
           "trakt": 12956702
         },
         "title": "Salt and Sea, Fire and Blood",
-        "votes": 1018,
+        "votes": 1020,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/956/702/screenshots/medium/1201c91ab4.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.37721061706543,
+        "rating": 8.375490188598633,
         "season": 3,
         "runtime": 66,
         "overview": "Driven by her faith in Alicent, Rhaenyra positions herself to take King's Landing while the Triarchy sails to take on Corlys in the Gullet.",
         "released": "2026-06-22",
         "number_abs": 19,
-        "updated_at": "2026-06-25T23:21:56.000Z",
+        "updated_at": "2026-06-26T00:18:40.000Z",
         "first_aired": "2026-06-22T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1111,7 +1205,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-06-25T21:51:03.000Z",
+        "updated_at": "2026-06-26T00:10:47.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
