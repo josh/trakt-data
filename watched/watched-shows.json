@@ -1,5 +1,40 @@
 [
   {
+    "plays": 2,
+    "last_watched_at": "2026-07-02T05:15:00.000Z",
+    "last_updated_at": "2026-07-02T04:38:19.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Maximum Pleasure Guaranteed",
+      "year": 2026,
+      "ids": {
+        "trakt": 277916,
+        "slug": "maximum-pleasure-guaranteed",
+        "tvdb": 460793,
+        "imdb": "tt35946742",
+        "tmdb": 285404,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "plays": 1,
+            "last_watched_at": "2026-06-29T04:33:00.000Z"
+          },
+          {
+            "number": 2,
+            "plays": 1,
+            "last_watched_at": "2026-07-02T05:15:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "plays": 9,
     "last_watched_at": "2026-07-01T05:48:00.000Z",
     "last_updated_at": "2026-07-01T05:21:51.000Z",
@@ -69,36 +104,6 @@
             "number": 1,
             "plays": 1,
             "last_watched_at": "2026-07-01T05:48:00.000Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "plays": 1,
-    "last_watched_at": "2026-06-29T04:33:00.000Z",
-    "last_updated_at": "2026-06-29T03:52:52.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Maximum Pleasure Guaranteed",
-      "year": 2026,
-      "ids": {
-        "trakt": 277916,
-        "slug": "maximum-pleasure-guaranteed",
-        "tvdb": 460793,
-        "imdb": "tt35946742",
-        "tmdb": 285404,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "plays": 1,
-            "last_watched_at": "2026-06-29T04:33:00.000Z"
           }
         ]
       }
