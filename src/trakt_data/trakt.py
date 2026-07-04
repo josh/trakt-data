@@ -414,7 +414,7 @@ def trakt_api_paginated_get(
     results: list[Any] = []
 
     page = 1
-    limit = 1000
+    limit = 250
     page_count = 1
     item_count = 0
 
