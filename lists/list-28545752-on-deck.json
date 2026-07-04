@@ -17,7 +17,7 @@
       "title": "Maximum Pleasure Guaranteed",
       "aired_episodes": 8
     },
-    "rank": 2,
+    "rank": 1,
     "id": 1487054934,
     "listed_at": "2026-06-29T03:53:20.000Z",
     "notes": null,
@@ -41,9 +41,33 @@
       "title": "The Four Seasons",
       "aired_episodes": 16
     },
-    "rank": 3,
+    "rank": 2,
     "id": 1488071894,
     "listed_at": "2026-07-01T05:22:07.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    },
+    "rank": 3,
+    "id": 1474117179,
+    "listed_at": "2026-06-02T21:12:41.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -226,30 +250,6 @@
     "my_rating": null
   },
   {
-    "type": "show",
-    "show": {
-      "ids": {
-        "imdb": "tt4370596",
-        "plex": {
-          "guid": "5d9c080208fddd001f28fec5",
-          "slug": "better-things"
-        },
-        "slug": "better-things",
-        "tmdb": 66859,
-        "tvdb": 313270,
-        "trakt": 108564
-      },
-      "year": 2016,
-      "title": "Better Things",
-      "aired_episodes": 52
-    },
-    "rank": 12,
-    "id": 1474117179,
-    "listed_at": "2026-06-02T21:12:41.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
     "type": "movie",
     "movie": {
       "ids": {
@@ -265,7 +265,7 @@
       "year": 2026,
       "title": "Is God Is"
     },
-    "rank": 13,
+    "rank": 12,
     "id": 1474487207,
     "listed_at": "2026-06-03T15:33:29.000Z",
     "notes": null,
@@ -287,7 +287,7 @@
       "year": 2026,
       "title": "I Love Boosters"
     },
-    "rank": 14,
+    "rank": 13,
     "id": 1484373593,
     "listed_at": "2026-06-23T15:49:46.000Z",
     "notes": null,
@@ -309,7 +309,7 @@
       "year": 2026,
       "title": "Carolina Caroline"
     },
-    "rank": 15,
+    "rank": 14,
     "id": 1484434181,
     "listed_at": "2026-06-23T19:21:52.000Z",
     "notes": null,
@@ -331,7 +331,7 @@
       "year": 2026,
       "title": "In the Hand of Dante"
     },
-    "rank": 16,
+    "rank": 15,
     "id": 1485107823,
     "listed_at": "2026-06-25T03:49:27.000Z",
     "notes": null,
@@ -353,7 +353,7 @@
       "year": 2026,
       "title": "The Devil Wears Prada 2"
     },
-    "rank": 17,
+    "rank": 16,
     "id": 1487536428,
     "listed_at": "2026-06-30T03:06:05.000Z",
     "notes": null,
@@ -378,6 +378,30 @@
     "rank": 17,
     "id": 1491016971,
     "listed_at": "2026-07-03T06:13:15.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt11198330",
+        "plex": {
+          "guid": "5e160ed3e68804001e87a7b5",
+          "slug": "house-of-the-dragon"
+        },
+        "slug": "house-of-the-dragon",
+        "tmdb": 94997,
+        "tvdb": 371572,
+        "trakt": 154574
+      },
+      "year": 2022,
+      "title": "House of the Dragon",
+      "aired_episodes": 20
+    },
+    "rank": 18,
+    "id": 1493988708,
+    "listed_at": "2026-07-04T04:24:18.000Z",
     "notes": null,
     "my_rating": null
   }

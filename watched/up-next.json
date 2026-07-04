@@ -1,110 +1,118 @@
 [
   {
     "show": {
-      "title": "Maximum Pleasure Guaranteed",
-      "year": 2026,
       "ids": {
-        "trakt": 277916,
-        "slug": "maximum-pleasure-guaranteed",
-        "tvdb": 460793,
-        "imdb": "tt35946742",
-        "tmdb": 285404,
-        "tvrage": null
-      }
+        "imdb": "tt11198330",
+        "plex": {
+          "guid": "5e160ed3e68804001e87a7b5",
+          "slug": "house-of-the-dragon"
+        },
+        "slug": "house-of-the-dragon",
+        "tmdb": 94997,
+        "tvdb": 371572,
+        "trakt": 154574
+      },
+      "year": 2022,
+      "title": "House of the Dragon",
+      "aired_episodes": 20
     },
     "progress": {
-      "aired": 8,
-      "completed": 6,
+      "aired": 20,
+      "completed": 19,
       "hidden": 0,
-      "last_watched_at": "2026-07-03T01:25:00.000Z",
+      "last_watched_at": "2026-07-04T05:30:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 6,
+        "play_count": 19,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt35947241",
+          "imdb": "tt27156829",
           "plex": {
-            "guid": "69863fef1406541eaf8793ae"
+            "guid": "69ef88797bdcd1269f9911a8"
           },
-          "tmdb": 6911758,
-          "tvdb": 10991553,
-          "trakt": 13974271
+          "tmdb": 7196565,
+          "tvdb": 11763803,
+          "trakt": 13904814
         },
-        "title": "Flighting",
-        "votes": 134,
+        "title": "Queen's Landing",
+        "votes": 1446,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/974/271/screenshots/medium/31bdd8b0be.jpg.webp"
+            "media.trakt.tv/images/episodes/013/904/814/screenshots/medium/08261bbc69.jpg.webp"
           ]
         },
-        "number": 7,
-        "rating": 7.402985095977783,
-        "season": 1,
-        "runtime": 36,
-        "overview": "Paranoia, packages, and a painful parting.",
-        "released": "2026-06-24",
-        "number_abs": 7,
-        "updated_at": "2026-07-02T23:20:23.000Z",
-        "first_aired": "2026-06-24T01:00:00.000Z",
+        "number": 2,
+        "rating": 8.765560150146484,
+        "season": 3,
+        "runtime": 64,
+        "overview": "As Alicent risks everything to fulfill her end of the bargain, Rhaenyra must decide whether the Iron Throne is worth the cost.",
+        "released": "2026-06-29",
+        "number_abs": 20,
+        "updated_at": "2026-07-04T05:21:57.000Z",
+        "first_aired": "2026-06-29T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 4,
+        "comment_count": 40,
         "during_credits": false,
-        "original_title": "Flighting",
+        "original_title": "Queen's Landing",
         "available_translations": [],
-        "effective_release_date": "2026-06-24T01:00:00.000Z"
+        "effective_release_date": "2026-06-29T01:00:00.000Z"
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt35947244",
+          "imdb": "tt27147010",
           "plex": {
-            "guid": "69863fef1406541eaf8793b7"
+            "guid": "69ef88797bdcd1269f9911a7"
           },
-          "tmdb": 6911757,
-          "tvdb": 10991552,
-          "trakt": 13974270
+          "tmdb": 7196563,
+          "tvdb": 11763802,
+          "trakt": 12956702
         },
-        "title": "Rosebuds",
-        "votes": 150,
+        "title": "Salt and Sea, Fire and Blood",
+        "votes": 1739,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/974/270/screenshots/medium/ed07757af5.jpg.webp"
+            "media.trakt.tv/images/episodes/012/956/702/screenshots/medium/1201c91ab4.jpg.webp"
           ]
         },
-        "number": 6,
-        "rating": 7.726666450500488,
-        "season": 1,
-        "runtime": 30,
-        "overview": "Paula scrambles to host a children's pizza party as the case intensifies.",
-        "released": "2026-06-17",
-        "number_abs": 6,
-        "updated_at": "2026-07-03T01:22:32.000Z",
-        "first_aired": "2026-06-17T01:00:00.000Z",
-        "episode_type": "standard",
+        "number": 1,
+        "rating": 8.450834274291992,
+        "season": 3,
+        "runtime": 66,
+        "overview": "Driven by her faith in Alicent, Rhaenyra positions herself to take King's Landing while the Triarchy sails to take on Corlys in the Gullet.",
+        "released": "2026-06-22",
+        "number_abs": 19,
+        "updated_at": "2026-07-04T05:19:08.000Z",
+        "first_aired": "2026-06-22T01:00:00.000Z",
+        "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 8,
+        "comment_count": 60,
         "during_credits": false,
-        "original_title": "Rosebuds",
+        "original_title": "Salt and Sea, Fire and Blood",
         "available_translations": [],
-        "effective_release_date": "2026-06-17T01:00:00.000Z"
+        "effective_release_date": "2026-06-22T01:00:00.000Z"
       }
     }
   },
   {
     "show": {
-      "title": "The Four Seasons",
-      "year": 2025,
       "ids": {
-        "trakt": 220439,
-        "slug": "the-four-seasons-2025",
-        "tvdb": 444528,
         "imdb": "tt30826447",
+        "plex": {
+          "guid": "659f162f4ac34b656efae4ed",
+          "slug": "the-four-seasons-1"
+        },
+        "slug": "the-four-seasons-2025",
         "tmdb": 243316,
-        "tvrage": null
-      }
+        "tvdb": 444528,
+        "trakt": 220439
+      },
+      "year": 2025,
+      "title": "The Four Seasons",
+      "aired_episodes": 16
     },
     "progress": {
       "aired": 16,
@@ -128,20 +136,20 @@
           "trakt": 14039155
         },
         "title": "Funky Motel",
-        "votes": 129,
+        "votes": 130,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/155/screenshots/medium/7252abf4bf.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.3255815505981445,
+        "rating": 7.315384387969971,
         "season": 2,
         "runtime": 29,
         "overview": "On lockdown at an understocked motel, Danny and Claude reopen an old conversation, Jack gets hangry and Anne shares what's eating her.",
         "released": "2026-05-28",
         "number_abs": 10,
-        "updated_at": "2026-07-03T00:16:32.000Z",
+        "updated_at": "2026-07-04T03:07:45.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -162,20 +170,20 @@
           "trakt": 14039154
         },
         "title": "Hiking",
-        "votes": 139,
+        "votes": 140,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/154/screenshots/medium/2372213e53.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.294963836669922,
+        "rating": 7.2928571701049805,
         "season": 2,
         "runtime": 27,
         "overview": "A trip upstate to spread Nick's ashes on a mountaintop becomes an uphill battle as tensions climb between Anne and Ginny.",
         "released": "2026-05-28",
         "number_abs": 9,
-        "updated_at": "2026-07-03T00:16:02.000Z",
+        "updated_at": "2026-07-03T16:22:05.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -189,16 +197,20 @@
   },
   {
     "show": {
-      "title": "Better Things",
-      "year": 2016,
       "ids": {
-        "trakt": 108564,
-        "slug": "better-things",
-        "tvdb": 313270,
         "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
         "tmdb": 66859,
-        "tvrage": null
-      }
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
     },
     "progress": {
       "aired": 52,
@@ -235,7 +247,7 @@
         "overview": "Sam demands satisfaction.",
         "released": "2017-10-20",
         "number_abs": 16,
-        "updated_at": "2026-07-02T10:30:43.000Z",
+        "updated_at": "2026-07-03T10:34:38.000Z",
         "first_aired": "2017-10-20T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -282,7 +294,7 @@
         "overview": "Sam is forced to look at some stuff.",
         "released": "2017-10-13",
         "number_abs": 15,
-        "updated_at": "2026-07-02T10:30:43.000Z",
+        "updated_at": "2026-07-03T10:34:38.000Z",
         "first_aired": "2017-10-13T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -308,16 +320,20 @@
   },
   {
     "show": {
-      "title": "The Bear",
-      "year": 2022,
       "ids": {
-        "trakt": 189717,
-        "slug": "the-bear",
-        "tvdb": 403294,
         "imdb": "tt14452776",
+        "plex": {
+          "guid": "611f8407767ddf002cb05be2",
+          "slug": "the-bear"
+        },
+        "slug": "the-bear",
         "tmdb": 136315,
-        "tvrage": null
-      }
+        "tvdb": 403294,
+        "trakt": 189717
+      },
+      "year": 2022,
+      "title": "The Bear",
+      "aired_episodes": 46
     },
     "progress": {
       "aired": 46,
@@ -341,20 +357,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 338,
+        "votes": 390,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.417159557342529,
+        "rating": 7.453845977783203,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-03T00:47:52.000Z",
+        "updated_at": "2026-07-04T05:06:12.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -375,20 +391,20 @@
           "trakt": 12565635
         },
         "title": "Goodbye",
-        "votes": 1190,
+        "votes": 1197,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/635/screenshots/medium/e49e9febc8.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.731932640075684,
+        "rating": 7.741019248962402,
         "season": 4,
         "runtime": 34,
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-07-03T00:30:58.000Z",
+        "updated_at": "2026-07-04T05:20:26.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -402,16 +418,20 @@
   },
   {
     "show": {
-      "title": "Daredevil: Born Again",
-      "year": 2025,
       "ids": {
-        "trakt": 195845,
-        "slug": "daredevil-born-again",
-        "tvdb": 422712,
         "imdb": "tt18923754",
+        "plex": {
+          "guid": "628b9a7558130eca919281cb",
+          "slug": "daredevil-born-again"
+        },
+        "slug": "daredevil-born-again",
         "tmdb": 202555,
-        "tvrage": null
-      }
+        "tvdb": 422712,
+        "trakt": 195845
+      },
+      "year": 2025,
+      "title": "Daredevil: Born Again",
+      "aired_episodes": 17
     },
     "progress": {
       "aired": 17,
@@ -435,20 +455,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1129,
+        "votes": 1139,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.750221252441406,
+        "rating": 7.753292560577393,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-07-02T23:58:37.000Z",
+        "updated_at": "2026-07-04T05:06:52.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -469,24 +489,24 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2114,
+        "votes": 2120,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.975874900817871,
+        "rating": 7.980188846588135,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-07-02T22:07:24.000Z",
+        "updated_at": "2026-07-04T02:50:25.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 79,
+        "comment_count": 80,
         "during_credits": false,
         "original_title": "Straight to Hell",
         "available_translations": [],
@@ -496,16 +516,20 @@
   },
   {
     "show": {
-      "title": "The Agency",
-      "year": 2024,
       "ids": {
-        "trakt": 202341,
-        "slug": "the-agency-2024",
-        "tvdb": 430769,
         "imdb": "tt26656917",
+        "plex": {
+          "guid": "63e188721fa52962cfb52d7e",
+          "slug": "the-agency-2024"
+        },
+        "slug": "the-agency-2024",
         "tmdb": 219971,
-        "tvrage": null
-      }
+        "tvdb": 430769,
+        "trakt": 202341
+      },
+      "year": 2024,
+      "title": "The Agency",
+      "aired_episodes": 20
     },
     "progress": {
       "aired": 20,
@@ -529,20 +553,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 195,
+        "votes": 206,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.55384635925293,
+        "rating": 7.5679612159729,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-07-03T01:05:46.000Z",
+        "updated_at": "2026-07-04T05:06:10.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -563,20 +587,20 @@
           "trakt": 11631660
         },
         "title": "Overtaken by Events",
-        "votes": 950,
+        "votes": 954,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/631/660/screenshots/medium/2287e513f8.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.865262985229492,
+        "rating": 7.859538555145264,
         "season": 1,
         "runtime": 51,
         "overview": "Bosko shares a grim truth. Martian makes a devil's bargain.",
         "released": "2025-01-24",
         "number_abs": 10,
-        "updated_at": "2026-07-03T00:26:20.000Z",
+        "updated_at": "2026-07-04T03:31:02.000Z",
         "first_aired": "2025-01-26T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -590,16 +614,20 @@
   },
   {
     "show": {
-      "title": "Silo",
-      "year": 2023,
       "ids": {
-        "trakt": 180770,
-        "slug": "silo",
-        "tvdb": 403245,
         "imdb": "tt14688458",
+        "plex": {
+          "guid": "61b180686bfb4feb48515e07",
+          "slug": "silo"
+        },
+        "slug": "silo",
         "tmdb": 125988,
-        "tvrage": null
-      }
+        "tvdb": 403245,
+        "trakt": 180770
+      },
+      "year": 2023,
+      "title": "Silo",
+      "aired_episodes": 21
     },
     "progress": {
       "aired": 21,
@@ -619,30 +647,30 @@
             "guid": "69e8bdcec4220cdd0ccf73ef"
           },
           "tmdb": 7173957,
-          "tvdb": null,
+          "tvdb": 11751879,
           "trakt": 12958334
         },
-        "title": "Episode 1",
-        "votes": 8,
+        "title": "Who Are You?",
+        "votes": 464,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/cfc14dcaf6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.375,
+        "rating": 7.959051609039307,
         "season": 3,
-        "runtime": null,
-        "overview": null,
+        "runtime": 52,
+        "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-03T01:33:38.000Z",
+        "updated_at": "2026-07-04T05:24:46.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 1,
+        "comment_count": 41,
         "during_credits": false,
-        "original_title": null,
+        "original_title": "Who Are You?",
         "available_translations": [],
         "effective_release_date": "2026-07-03T01:00:00.000Z"
       },
@@ -657,20 +685,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3245,
+        "votes": 3261,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.127888679504395,
+        "rating": 8.131248474121094,
         "season": 2,
         "runtime": 65,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-02T06:54:53.000Z",
+        "updated_at": "2026-07-04T03:05:39.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -684,16 +712,20 @@
   },
   {
     "show": {
-      "title": "Shrinking",
-      "year": 2023,
       "ids": {
-        "trakt": 189764,
-        "slug": "shrinking",
-        "tvdb": 411364,
         "imdb": "tt15677150",
+        "plex": {
+          "guid": "6168243f1c627ddb697e2a46",
+          "slug": "shrinking"
+        },
+        "slug": "shrinking",
         "tmdb": 136311,
-        "tvrage": null
-      }
+        "tvdb": 411364,
+        "trakt": 189764
+      },
+      "year": 2023,
+      "title": "Shrinking",
+      "aired_episodes": 33
     },
     "progress": {
       "aired": 33,
@@ -717,20 +749,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 792,
+        "votes": 793,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.018939018249512,
+        "rating": 8.021437644958496,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-07-02T19:02:17.000Z",
+        "updated_at": "2026-07-03T07:09:15.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -751,20 +783,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1036,
+        "votes": 1037,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.436293601989746,
+        "rating": 8.437801361083984,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-07-02T19:02:17.000Z",
+        "updated_at": "2026-07-04T05:06:22.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -778,110 +810,20 @@
   },
   {
     "show": {
-      "title": "House of the Dragon",
-      "year": 2022,
       "ids": {
-        "trakt": 154574,
-        "slug": "house-of-the-dragon",
-        "tvdb": 371572,
-        "imdb": "tt11198330",
-        "tmdb": 94997,
-        "tvrage": null
-      }
-    },
-    "progress": {
-      "aired": 20,
-      "completed": 18,
-      "hidden": 0,
-      "last_watched_at": "2024-08-05T07:01:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 18,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt27147010",
-          "plex": {
-            "guid": "69ef88797bdcd1269f9911a7"
-          },
-          "tmdb": 7196563,
-          "tvdb": 11763802,
-          "trakt": 12956702
-        },
-        "title": "Salt and Sea, Fire and Blood",
-        "votes": 1601,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/012/956/702/screenshots/medium/1201c91ab4.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 8.391005516052246,
-        "season": 3,
-        "runtime": 66,
-        "overview": "Driven by her faith in Alicent, Rhaenyra positions herself to take King's Landing while the Triarchy sails to take on Corlys in the Gullet.",
-        "released": "2026-06-22",
-        "number_abs": 19,
-        "updated_at": "2026-07-03T01:28:58.000Z",
-        "first_aired": "2026-06-22T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 59,
-        "during_credits": false,
-        "original_title": "Salt and Sea, Fire and Blood",
-        "available_translations": [],
-        "effective_release_date": "2026-06-22T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt27160121",
-          "plex": {
-            "guid": "6602f2c78cce991bf1c1ad8f"
-          },
-          "tmdb": 5234730,
-          "tvdb": 10396635,
-          "trakt": 11674026
-        },
-        "title": "The Queen Who Ever Was",
-        "votes": 3715,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/674/026/screenshots/medium/c08733708e.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 7.402691841125488,
-        "season": 2,
-        "runtime": 69,
-        "overview": "As Aemond becomes more volatile, Larys plots an escape, and Alicent grows more concerned about Helaena's safety. Flush with new power, Rhaenyra looks to press her advantage.",
-        "released": "2024-08-05",
-        "number_abs": 18,
-        "updated_at": "2026-07-03T00:58:24.000Z",
-        "first_aired": "2024-08-05T01:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 88,
-        "during_credits": false,
-        "original_title": "The Queen Who Ever Was",
-        "available_translations": [],
-        "effective_release_date": "2024-08-05T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "title": "The Boys",
-      "year": 2019,
-      "ids": {
-        "trakt": 139960,
-        "slug": "the-boys-2019",
-        "tvdb": 355567,
         "imdb": "tt1190634",
+        "plex": {
+          "guid": "5d9c08f246115600200ae0f6",
+          "slug": "the-boys"
+        },
+        "slug": "the-boys-2019",
         "tmdb": 76479,
-        "tvrage": null
-      }
+        "tvdb": 355567,
+        "trakt": 139960
+      },
+      "year": 2019,
+      "title": "The Boys",
+      "aired_episodes": 40
     },
     "progress": {
       "aired": 40,
@@ -905,20 +847,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1840,
+        "votes": 1853,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.843478202819824,
+        "rating": 7.842957496643066,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-07-03T00:00:06.000Z",
+        "updated_at": "2026-07-04T04:02:26.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -939,20 +881,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3283,
+        "votes": 3286,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.093511581420898,
+        "rating": 8.092514038085938,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-07-02T22:43:58.000Z",
+        "updated_at": "2026-07-03T22:48:11.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -966,19 +908,23 @@
   },
   {
     "show": {
-      "title": "Sugar",
-      "year": 2024,
       "ids": {
-        "trakt": 196180,
-        "slug": "sugar-2024",
-        "tvdb": 421070,
         "imdb": "tt16418808",
+        "plex": {
+          "guid": "62a35be541db86d50abcadfb",
+          "slug": "sugar-2024"
+        },
+        "slug": "sugar-2024",
         "tmdb": 203744,
-        "tvrage": null
-      }
+        "tvdb": 421070,
+        "trakt": 196180
+      },
+      "year": 2024,
+      "title": "Sugar",
+      "aired_episodes": 11
     },
     "progress": {
-      "aired": 10,
+      "aired": 11,
       "completed": 8,
       "hidden": 0,
       "last_watched_at": "2024-05-17T16:03:00.000Z",
@@ -999,24 +945,24 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 204,
+        "votes": 217,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.098039150238037,
+        "rating": 7.161290168762207,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-07-02T21:22:17.000Z",
+        "updated_at": "2026-07-04T00:40:27.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 4,
+        "comment_count": 5,
         "during_credits": false,
         "original_title": "Home Away from Home",
         "available_translations": [],
@@ -1033,20 +979,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 878,
+        "votes": 879,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.54100227355957,
+        "rating": 7.546074867248535,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-07-03T00:13:09.000Z",
+        "updated_at": "2026-07-04T00:40:25.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1060,16 +1006,20 @@
   },
   {
     "show": {
-      "title": "BEEF",
-      "year": 2023,
       "ids": {
-        "trakt": 197667,
-        "slug": "beef",
-        "tvdb": 399838,
         "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
         "tmdb": 154385,
-        "tvrage": null
-      }
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
     },
     "progress": {
       "aired": 18,
@@ -1093,20 +1043,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 364,
+        "votes": 368,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.123630046844482,
+        "rating": 7.119565010070801,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-07-03T00:29:28.000Z",
+        "updated_at": "2026-07-04T00:24:31.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1140,7 +1090,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-07-03T00:29:26.000Z",
+        "updated_at": "2026-07-04T03:04:49.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1186,16 +1136,20 @@
   },
   {
     "show": {
-      "title": "Euphoria",
-      "year": 2019,
       "ids": {
-        "trakt": 144629,
-        "slug": "euphoria-2019",
-        "tvdb": 360261,
         "imdb": "tt8772296",
+        "plex": {
+          "guid": "5d9c091b170e24001f2af270",
+          "slug": "euphoria-us"
+        },
+        "slug": "euphoria-2019",
         "tmdb": 85552,
-        "tvrage": null
-      }
+        "tvdb": 360261,
+        "trakt": 144629
+      },
+      "year": 2019,
+      "title": "Euphoria",
+      "aired_episodes": 24
     },
     "progress": {
       "aired": 24,
@@ -1219,20 +1173,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 703,
+        "votes": 710,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.817923069000244,
+        "rating": 6.823943614959717,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-07-03T01:23:53.000Z",
+        "updated_at": "2026-07-04T05:19:08.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1253,20 +1207,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1310,
+        "votes": 1316,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.91297721862793,
+        "rating": 7.920212745666504,
         "season": 2,
         "runtime": 62,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-07-03T00:14:46.000Z",
+        "updated_at": "2026-07-04T00:14:56.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
