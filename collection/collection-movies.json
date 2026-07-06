@@ -1,6 +1,118 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-07-06T04:21:21.000Z",
+    "updated_at": "2026-07-06T05:22:09.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt0094291",
+        "plex": {
+          "guid": "5d776836151a60001f24de9d",
+          "slug": "wall-street"
+        },
+        "slug": "wall-street-1987",
+        "tmdb": 10673,
+        "trakt": 5845
+      },
+      "year": 1987,
+      "title": "Wall Street"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-06T04:20:54.000Z",
+    "updated_at": "2026-07-06T05:22:09.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt0119099",
+        "plex": {
+          "guid": "5d776833103a2d001f56711c",
+          "slug": "fallen"
+        },
+        "slug": "fallen-1998",
+        "tmdb": 9411,
+        "trakt": 4700
+      },
+      "year": 1998,
+      "title": "Fallen"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-06T04:20:01.000Z",
+    "updated_at": "2026-07-06T05:22:09.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt0209958",
+        "plex": {
+          "guid": "5d77683261141d001fb14df8",
+          "slug": "the-cell"
+        },
+        "slug": "the-cell-2000",
+        "tmdb": 8843,
+        "trakt": 4334
+      },
+      "year": 2000,
+      "title": "The Cell"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-06T04:10:12.000Z",
+    "updated_at": "2026-07-06T05:22:09.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt0187393",
+        "plex": {
+          "guid": "5d77682a8718ba001e3125c3",
+          "slug": "the-patriot"
+        },
+        "slug": "the-patriot-2000",
+        "tmdb": 2024,
+        "trakt": 1385
+      },
+      "year": 2000,
+      "title": "The Patriot"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-04-02T00:06:04.000Z",
     "updated_at": "2026-05-27T03:43:01.000Z",
     "movie": {
@@ -505,8 +617,8 @@
   },
   {
     "type": "movie",
-    "collected_at": "2023-10-10T05:26:52.000Z",
-    "updated_at": "2023-12-09T16:55:19.000Z",
+    "collected_at": "2023-10-10T04:26:52.000Z",
+    "updated_at": "2026-05-27T03:43:01.000Z",
     "movie": {
       "ids": {
         "imdb": "tt9603212",
@@ -533,8 +645,8 @@
   },
   {
     "type": "movie",
-    "collected_at": "2023-09-05T05:02:31.000Z",
-    "updated_at": "2023-12-09T16:55:19.000Z",
+    "collected_at": "2023-09-05T04:02:31.000Z",
+    "updated_at": "2026-05-27T03:43:01.000Z",
     "movie": {
       "ids": {
         "imdb": "tt0364569",
@@ -561,8 +673,8 @@
   },
   {
     "type": "movie",
-    "collected_at": "2023-08-29T05:03:13.000Z",
-    "updated_at": "2023-12-09T16:55:19.000Z",
+    "collected_at": "2023-08-29T04:03:13.000Z",
+    "updated_at": "2026-05-27T03:43:01.000Z",
     "movie": {
       "ids": {
         "imdb": "tt1462764",

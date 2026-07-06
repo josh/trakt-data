@@ -10,7 +10,7 @@
     "sort_by": "rank",
     "sort_how": "asc",
     "created_at": "2024-07-27T16:45:33.000Z",
-    "updated_at": "2026-07-06T02:47:22.000Z",
+    "updated_at": "2026-07-06T05:09:00.000Z",
     "item_count": 18,
     "comment_count": 0,
     "likes": 0,
@@ -45,6 +45,54 @@
       "vip_cover_image": null,
       "director": false
     },
-    "total_count": 1
+    "total_count": 2
+  },
+  {
+    "name": "Projector Rewatch",
+    "description": "",
+    "privacy": "public",
+    "share_link": "https://app.trakt.tv/users/joshpeek/lists/projector-rewatch",
+    "type": "personal",
+    "display_numbers": false,
+    "allow_comments": false,
+    "sort_by": "released",
+    "sort_how": "desc",
+    "created_at": "2026-07-06T05:06:23.000Z",
+    "updated_at": "2026-07-06T05:09:38.000Z",
+    "item_count": 30,
+    "comment_count": 0,
+    "likes": 0,
+    "ids": {
+      "slug": "projector-rewatch",
+      "trakt": 35780117
+    },
+    "images": {
+      "posters": []
+    },
+    "user": {
+      "ids": {
+        "slug": "joshpeek",
+        "trakt": 1750028
+      },
+      "images": {
+        "avatar": {
+          "full": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?s=256&r=pg&d=https://i2.wp.com/media.trakt.tv/hotlink-ok/placeholders/medium/fry.png"
+        }
+      },
+      "username": "joshpeek",
+      "private": false,
+      "deleted": false,
+      "joined_at": "2016-03-12T23:16:35.000Z",
+      "location": "San Francisco",
+      "about": "",
+      "name": "Josh Peek",
+      "gender": "male",
+      "age": 37,
+      "vip": true,
+      "vip_ep": false,
+      "vip_cover_image": null,
+      "director": false
+    },
+    "total_count": 2
   }
 ]
