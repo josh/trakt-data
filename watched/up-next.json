@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 16,
-      "completed": 10,
+      "completed": 11,
       "hidden": 0,
-      "last_watched_at": "2026-07-07T05:42:00.000Z",
+      "last_watched_at": "2026-07-07T06:16:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 10,
+        "play_count": 11,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt39140002",
+          "plex": {
+            "guid": "69a98d58bf8038b3a37b0237"
+          },
+          "tmdb": 7007688,
+          "tvdb": 11657034,
+          "trakt": 14039157
+        },
+        "title": "On the Boardwalk",
+        "votes": 139,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/039/157/screenshots/medium/18a444f129.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.410071849822998,
+        "season": 2,
+        "runtime": 33,
+        "overview": "A stunning admission from Claude leaves Danny spiraling. Anne lets loose with a casual summer fling. Kate gives Jack's secret coping mechanism a spin.",
+        "released": "2026-05-28",
+        "number_abs": 12,
+        "updated_at": "2026-07-06T11:36:17.000Z",
+        "first_aired": "2026-05-28T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "On the Boardwalk",
+        "available_translations": [],
+        "effective_release_date": "2026-05-28T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt39140000",
           "plex": {
@@ -58,40 +92,6 @@
         "comment_count": 3,
         "during_credits": false,
         "original_title": "Down the Shore",
-        "available_translations": [],
-        "effective_release_date": "2026-05-28T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt39139999",
-          "plex": {
-            "guid": "69a8f3a2538596e909bcc223"
-          },
-          "tmdb": 7007686,
-          "tvdb": 11657032,
-          "trakt": 14039155
-        },
-        "title": "Funky Motel",
-        "votes": 143,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/039/155/screenshots/medium/7252abf4bf.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.419580459594727,
-        "season": 2,
-        "runtime": 29,
-        "overview": "On lockdown at an understocked motel, Danny and Claude reopen an old conversation, Jack gets hangry and Anne shares what's eating her.",
-        "released": "2026-05-28",
-        "number_abs": 10,
-        "updated_at": "2026-07-07T03:27:38.000Z",
-        "first_aired": "2026-05-28T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "Funky Motel",
         "available_translations": [],
         "effective_release_date": "2026-05-28T07:00:00.000Z"
       }
@@ -258,20 +258,20 @@
           "trakt": 13904814
         },
         "title": "Queen's Landing",
-        "votes": 2046,
+        "votes": 2051,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/814/screenshots/medium/08261bbc69.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 8.814271926879883,
+        "rating": 8.814724922180176,
         "season": 3,
         "runtime": 64,
         "overview": "As Alicent risks everything to fulfill her end of the bargain, Rhaenyra must decide whether the Iron Throne is worth the cost.",
         "released": "2026-06-29",
         "number_abs": 20,
-        "updated_at": "2026-07-07T04:30:35.000Z",
+        "updated_at": "2026-07-07T06:13:13.000Z",
         "first_aired": "2026-06-29T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -292,20 +292,20 @@
           "trakt": 12956702
         },
         "title": "Salt and Sea, Fire and Blood",
-        "votes": 2120,
+        "votes": 2128,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/956/702/screenshots/medium/1201c91ab4.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.532546997070312,
+        "rating": 8.533834457397461,
         "season": 3,
         "runtime": 66,
         "overview": "Driven by her faith in Alicent, Rhaenyra positions herself to take King's Landing while the Triarchy sails to take on Corlys in the Gullet.",
         "released": "2026-06-22",
         "number_abs": 19,
-        "updated_at": "2026-07-07T04:33:39.000Z",
+        "updated_at": "2026-07-07T06:58:54.000Z",
         "first_aired": "2026-06-22T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -356,20 +356,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 540,
+        "votes": 541,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.581481456756592,
+        "rating": 7.578558444976807,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-07T04:55:47.000Z",
+        "updated_at": "2026-07-07T06:16:28.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -467,7 +467,7 @@
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-07-07T05:03:55.000Z",
+        "updated_at": "2026-07-07T05:27:33.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -599,7 +599,7 @@
         "overview": "Bosko shares a grim truth. Martian makes a devil's bargain.",
         "released": "2025-01-24",
         "number_abs": 10,
-        "updated_at": "2026-07-06T19:45:04.000Z",
+        "updated_at": "2026-07-07T07:04:54.000Z",
         "first_aired": "2025-01-26T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -650,20 +650,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 1173,
+        "votes": 1175,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.914748668670654,
+        "rating": 7.917446613311768,
         "season": 3,
         "runtime": 52,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-07T05:14:00.000Z",
+        "updated_at": "2026-07-07T06:34:05.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -697,7 +697,7 @@
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-06T23:04:54.000Z",
+        "updated_at": "2026-07-07T06:58:58.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -846,20 +846,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 1880,
+        "votes": 1881,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.856382846832275,
+        "rating": 7.856990814208984,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-07-07T04:38:51.000Z",
+        "updated_at": "2026-07-07T06:52:44.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
