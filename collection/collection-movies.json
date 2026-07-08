@@ -1,6 +1,454 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-07-08T15:38:00.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt5950044",
+        "plex": {
+          "guid": "5d776c73ad5437001f7be813",
+          "slug": "superman-2025"
+        },
+        "slug": "superman-2025",
+        "tmdb": 1061474,
+        "trakt": 853702
+      },
+      "year": 2025,
+      "title": "Superman"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:35:34.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt0084827",
+        "plex": {
+          "guid": "5d7768248718ba001e3115f7",
+          "slug": "tron"
+        },
+        "slug": "tron-1982",
+        "tmdb": 97,
+        "trakt": 66
+      },
+      "year": 1982,
+      "title": "Tron"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:35:34.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt6604188",
+        "plex": {
+          "guid": "5d7770637a53e9001e7a190f",
+          "slug": "tron-ares"
+        },
+        "slug": "tron-ares-2025",
+        "tmdb": 533533,
+        "trakt": 385396
+      },
+      "year": 2025,
+      "title": "TRON: Ares"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:35:34.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt1104001",
+        "plex": {
+          "guid": "5d77684561141d001fb17810",
+          "slug": "tron-legacy"
+        },
+        "slug": "tron-legacy-2010",
+        "tmdb": 20526,
+        "trakt": 12601
+      },
+      "year": 2010,
+      "title": "TRON: Legacy"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:34:38.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt12042730",
+        "plex": {
+          "guid": "5e91843e9bec79003fe50ffb",
+          "slug": "project-hail-mary"
+        },
+        "slug": "project-hail-mary-2026",
+        "tmdb": 687163,
+        "trakt": 531178
+      },
+      "year": 2026,
+      "title": "Project Hail Mary"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:25:06.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt2660888",
+        "plex": {
+          "guid": "5d776a0ef617c90020168471",
+          "slug": "star-trek-beyond"
+        },
+        "slug": "star-trek-beyond-2016",
+        "tmdb": 188927,
+        "trakt": 118174
+      },
+      "year": 2016,
+      "title": "Star Trek Beyond"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:25:06.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt0796366",
+        "plex": {
+          "guid": "5d77683aeb5d26001f1e1cf3",
+          "slug": "star-trek"
+        },
+        "slug": "star-trek-2009",
+        "tmdb": 13475,
+        "trakt": 7935
+      },
+      "year": 2009,
+      "title": "Star Trek"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:25:06.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt1408101",
+        "plex": {
+          "guid": "5d77689433f255001e85a1c8",
+          "slug": "star-trek-into-darkness"
+        },
+        "slug": "star-trek-into-darkness-2013",
+        "tmdb": 54138,
+        "trakt": 38322
+      },
+      "year": 2013,
+      "title": "Star Trek Into Darkness"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:24:40.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt1951266",
+        "plex": {
+          "guid": "5d7769957a53e9001e6ea3b8",
+          "slug": "the-hunger-games-mockingjay-part-2"
+        },
+        "slug": "the-hunger-games-mockingjay-part-2-2015",
+        "tmdb": 131634,
+        "trakt": 89543
+      },
+      "year": 2015,
+      "title": "The Hunger Games: Mockingjay - Part 2"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:24:40.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt1951265",
+        "plex": {
+          "guid": "5d7769957a53e9001e6ea3b3",
+          "slug": "the-hunger-games-mockingjay-part-1"
+        },
+        "slug": "the-hunger-games-mockingjay-part-1-2014",
+        "tmdb": 131631,
+        "trakt": 89542
+      },
+      "year": 2014,
+      "title": "The Hunger Games: Mockingjay - Part 1"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:24:40.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt1951264",
+        "plex": {
+          "guid": "5d77690b594b2b001e69b830",
+          "slug": "the-hunger-games-catching-fire"
+        },
+        "slug": "the-hunger-games-catching-fire-2013",
+        "tmdb": 101299,
+        "trakt": 72719
+      },
+      "year": 2013,
+      "title": "The Hunger Games: Catching Fire"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:24:40.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt1392170",
+        "plex": {
+          "guid": "5d7768b051dd69001fe0f92c",
+          "slug": "the-hunger-games"
+        },
+        "slug": "the-hunger-games-2012",
+        "tmdb": 70160,
+        "trakt": 51342
+      },
+      "year": 2012,
+      "title": "The Hunger Games"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:24:06.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt2975590",
+        "plex": {
+          "guid": "5d776a3cad5437001f7769e8",
+          "slug": "batman-v-superman-dawn-of-justice"
+        },
+        "slug": "batman-v-superman-dawn-of-justice-2016",
+        "tmdb": 209112,
+        "trakt": 129583
+      },
+      "year": 2016,
+      "title": "Batman v Superman: Dawn of Justice"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:23:42.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt7126948",
+        "plex": {
+          "guid": "5d776d43fb0d55001f59bbbc",
+          "slug": "wonder-woman-1984"
+        },
+        "slug": "wonder-woman-1984-2020",
+        "tmdb": 464052,
+        "trakt": 311212
+      },
+      "year": 2020,
+      "title": "Wonder Woman 1984"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:23:18.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt10954984",
+        "plex": {
+          "guid": "5e16338fbc1372003ea68ab3",
+          "slug": "nope-2022"
+        },
+        "slug": "nope-2022",
+        "tmdb": 762504,
+        "trakt": 601018
+      },
+      "year": 2022,
+      "title": "Nope"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-07-08T15:22:31.000Z",
+    "updated_at": "2026-07-08T15:45:23.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt31193180",
+        "plex": {
+          "guid": "65cc295b9e17522419e8553e",
+          "slug": "sinners-2025"
+        },
+        "slug": "sinners-2025",
+        "tmdb": 1233413,
+        "trakt": 997581
+      },
+      "year": 2025,
+      "title": "Sinners"
+    },
+    "available_on": [],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": null,
+      "media_type": "digital",
+      "resolution": null,
+      "audio_channels": null
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-07-06T04:21:21.000Z",
     "updated_at": "2026-07-06T05:22:09.000Z",
     "movie": {
