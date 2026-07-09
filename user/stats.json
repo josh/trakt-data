@@ -2,14 +2,14 @@
   "movies": {
     "plays": 4456,
     "watched": 4254,
-    "minutes": 496422,
-    "collected": 620,
+    "minutes": 496423,
+    "collected": 0,
     "ratings": 4253,
     "comments": 0
   },
   "shows": {
-    "watched": 529,
-    "collected": 41,
+    "watched": 550,
+    "collected": 0,
     "ratings": 348,
     "comments": 0
   },
@@ -19,14 +19,12 @@
   },
   "episodes": {
     "plays": 16403,
-    "watched": 16165,
-    "minutes": 644490,
-    "collected": 1470,
+    "watched": 16157,
+    "minutes": 644663,
     "ratings": 1,
     "comments": 0
   },
   "network": {
-    "friends": 0,
     "followers": 1,
     "following": 0
   },
@@ -44,5 +42,13 @@
       "9": 142,
       "10": 75
     }
-  }
+  },
+  "progress": {
+    "started": 33,
+    "finished": 460,
+    "dropped": 57
+  },
+  "lists": 2,
+  "total_minutes": 1141086,
+  "total_plays": 20859
 }
