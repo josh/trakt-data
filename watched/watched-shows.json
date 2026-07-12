@@ -1,5 +1,27 @@
 [
   {
+    "plays": 20,
+    "last_watched_at": "2026-07-12T02:57:00.000Z",
+    "last_updated_at": "2026-07-12T02:57:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt11198330",
+        "plex": {
+          "guid": "5e160ed3e68804001e87a7b5",
+          "slug": "house-of-the-dragon"
+        },
+        "slug": "house-of-the-dragon",
+        "tmdb": 94997,
+        "tvdb": 371572,
+        "trakt": 154574
+      },
+      "year": 2022,
+      "title": "House of the Dragon",
+      "aired_episodes": 21
+    }
+  },
+  {
     "plays": 12,
     "last_watched_at": "2026-07-08T05:43:00.000Z",
     "last_updated_at": "2026-07-08T05:43:00.000Z",
@@ -63,28 +85,6 @@
       "year": 2016,
       "title": "Better Things",
       "aired_episodes": 52
-    }
-  },
-  {
-    "plays": 19,
-    "last_watched_at": "2026-07-04T05:30:00.000Z",
-    "last_updated_at": "2026-07-04T05:30:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt11198330",
-        "plex": {
-          "guid": "5e160ed3e68804001e87a7b5",
-          "slug": "house-of-the-dragon"
-        },
-        "slug": "house-of-the-dragon",
-        "tmdb": 94997,
-        "tvdb": 371572,
-        "trakt": 154574
-      },
-      "year": 2022,
-      "title": "House of the Dragon",
-      "aired_episodes": 21
     }
   },
   {
@@ -2196,7 +2196,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 21
+      "aired_episodes": 22
     }
   },
   {
@@ -3120,7 +3120,7 @@
       },
       "year": 2024,
       "title": "Sugar",
-      "aired_episodes": 11
+      "aired_episodes": 12
     }
   },
   {
@@ -3186,7 +3186,7 @@
       },
       "year": 1996,
       "title": "The Daily Show",
-      "aired_episodes": 4569
+      "aired_episodes": 4571
     }
   },
   {
