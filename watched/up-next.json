@@ -2,6 +2,104 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt11198330",
+        "plex": {
+          "guid": "5e160ed3e68804001e87a7b5",
+          "slug": "house-of-the-dragon"
+        },
+        "slug": "house-of-the-dragon",
+        "tmdb": 94997,
+        "tvdb": 371572,
+        "trakt": 154574
+      },
+      "year": 2022,
+      "title": "House of the Dragon",
+      "aired_episodes": 22
+    },
+    "progress": {
+      "aired": 22,
+      "completed": 21,
+      "hidden": 0,
+      "last_watched_at": "2026-07-12T06:15:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 21,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt36591958",
+          "plex": {
+            "guid": "69ef88797bdcd1269f9911aa"
+          },
+          "tmdb": 7196567,
+          "tvdb": 11763805,
+          "trakt": 13904816
+        },
+        "title": "Episode 4",
+        "votes": 15,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/904/816/screenshots/medium/9979db8028.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.733333587646484,
+        "season": 3,
+        "runtime": 62,
+        "overview": null,
+        "released": "2026-07-13",
+        "number_abs": 22,
+        "updated_at": "2026-07-13T01:33:26.000Z",
+        "first_aired": "2026-07-13T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-07-13T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt33076347",
+          "plex": {
+            "guid": "69ef88797bdcd1269f9911a9"
+          },
+          "tmdb": 7196566,
+          "tvdb": 11763804,
+          "trakt": 13904815
+        },
+        "title": "Rhaenyra Triumphant",
+        "votes": 3416,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/904/815/screenshots/medium/f4b112375a.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 8.330503463745117,
+        "season": 3,
+        "runtime": 57,
+        "overview": "Rhaenyra learns the situation in King's Landing is not what she anticipated. Unable to locate her enemies, and with demands coming from all sides, Rhaenyra must navigate a delicate balance between appeasing her supporters and consolidating her rule.",
+        "released": "2026-07-06",
+        "number_abs": 21,
+        "updated_at": "2026-07-13T01:30:07.000Z",
+        "first_aired": "2026-07-06T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 193,
+        "during_credits": false,
+        "original_title": "Rhaenyra Triumphant",
+        "available_translations": [],
+        "effective_release_date": "2026-07-06T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt30826447",
         "plex": {
           "guid": "659f162f4ac34b656efae4ed",
@@ -38,20 +136,20 @@
           "trakt": 14039158
         },
         "title": "Big Thanksgiving",
-        "votes": 135,
+        "votes": 137,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/158/screenshots/medium/1de4bee775.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.503703594207764,
+        "rating": 7.496350288391113,
         "season": 2,
         "runtime": 30,
         "overview": "Danny and Claude dish out big news at an overstuffed Thanksgiving gathering. Jack and Kate \"hack marriage\" by each doing their own thing.",
         "released": "2026-05-28",
         "number_abs": 13,
-        "updated_at": "2026-07-12T21:27:57.000Z",
+        "updated_at": "2026-07-13T00:56:04.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -72,20 +170,20 @@
           "trakt": 14039157
         },
         "title": "On the Boardwalk",
-        "votes": 156,
+        "votes": 157,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/157/screenshots/medium/18a444f129.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.467948913574219,
+        "rating": 7.471337795257568,
         "season": 2,
         "runtime": 33,
         "overview": "A stunning admission from Claude leaves Danny spiraling. Anne lets loose with a casual summer fling. Kate gives Jack's secret coping mechanism a spin.",
         "released": "2026-05-28",
         "number_abs": 12,
-        "updated_at": "2026-07-12T20:59:44.000Z",
+        "updated_at": "2026-07-13T00:55:51.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -258,20 +356,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 763,
+        "votes": 765,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.614678859710693,
+        "rating": 7.615686416625977,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-12T23:53:48.000Z",
+        "updated_at": "2026-07-13T01:21:01.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -454,20 +552,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 279,
+        "votes": 280,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.587813854217529,
+        "rating": 7.596428394317627,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-07-12T23:22:28.000Z",
+        "updated_at": "2026-07-13T00:31:54.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -552,20 +650,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 1684,
+        "votes": 1688,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.885391712188721,
+        "rating": 7.882701396942139,
         "season": 3,
         "runtime": 52,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-13T00:20:22.000Z",
+        "updated_at": "2026-07-13T01:20:04.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -880,20 +978,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 908,
+        "votes": 909,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.549559593200684,
+        "rating": 7.552255153656006,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-07-12T15:38:40.000Z",
+        "updated_at": "2026-07-13T01:20:31.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1121,7 +1219,7 @@
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-07-12T16:45:43.000Z",
+        "updated_at": "2026-07-13T01:00:31.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
