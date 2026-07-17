@@ -115,16 +115,17 @@ def _export_watched_history(ctx: Context) -> None:
 
     if output_path.exists():
         existing_items = read_json_data(output_path, list[HistoryItem])
-        start_at = existing_items[0]["watched_at"]
+        if existing_items:
+            start_at = existing_items[0]["watched_at"]
 
-        new_items = trakt_api_paginated_get(
-            ctx.session,
-            path="/sync/history",
-            params={"start_at": start_at},
-        )
-        if len(new_items) <= 1:
-            logger.info("No new items watched since %s", start_at)
-            return
+            new_items = trakt_api_paginated_get(
+                ctx.session,
+                path="/sync/history",
+                params={"start_at": start_at},
+            )
+            if len(new_items) <= 1:
+                logger.info("No new items watched since %s", start_at)
+                return
 
     data = trakt_api_paginated_get(ctx.session, path="/sync/history")
     write_json(output_path, data)
