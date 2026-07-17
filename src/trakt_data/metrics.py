@@ -1,6 +1,6 @@
 from collections.abc import Iterator
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal, cast
 
@@ -363,8 +363,8 @@ def _movie_release_status(movie: MovieExtended) -> MovieReleaseType:
     for release in movie.get("releases", []):
         rd = datetime.fromisoformat(release["release_date"])
         if rd.tzinfo is None:
-            rd = rd.replace(tzinfo=timezone.utc)
-        if rd > datetime.now(timezone.utc):
+            rd = rd.replace(tzinfo=UTC)
+        if rd > datetime.now(UTC):
             continue
         try:
             type_index = MOVIE_RELEASE_TYPES.index(release["release_type"])
@@ -799,9 +799,7 @@ def _generate_up_next_show_metrics(
         elif season_aired == "airing" and episode.get("first_aired"):
             episode_aired_dt = datetime.fromisoformat(episode["first_aired"])
             episode_aired = (
-                "aired"
-                if episode_aired_dt < datetime.now(timezone.utc)
-                else "not aired"
+                "aired" if episode_aired_dt < datetime.now(UTC) else "not aired"
             )
 
         year_str = _episode_year_str(show=show, season=season, episode=episode)
