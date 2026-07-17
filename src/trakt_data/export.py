@@ -448,15 +448,15 @@ def _activities_outdated_paths(
     history_fresh = False
     if old_activities:
         history_fresh = _last_watched_at_activities(
-            new_activities
-        ) >= _last_watched_at_activities(old_activities)
+            old_activities
+        ) >= _last_watched_at_activities(new_activities)
     _mark_path(data_path / "watched" / "history.json", history_fresh)
 
     playback_fresh = False
     if old_activities:
         playback_fresh = _last_paused_at_activities(
-            new_activities
-        ) >= _last_paused_at_activities(old_activities)
+            old_activities
+        ) >= _last_paused_at_activities(new_activities)
     _mark_path(data_path / "watched" / "playback.json", playback_fresh)
 
     for namespace_key, activity_key, path in exports:
