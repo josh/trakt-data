@@ -1,3 +1,4 @@
+from importlib.metadata import version
 from typing import Any, Literal, TypedDict
 
 import requests
@@ -358,8 +359,11 @@ class UpNextShow(TypedDict):
     progress: UpNextShowProgress
 
 
+_VERSION = version("trakt-data")
+
 _TRAKT_API_HEADERS = {
     "Content-Type": "application/json",
+    "User-Agent": f"trakt-data/{_VERSION}",
     "trakt-api-key": "",
     "trakt-api-version": "2",
     "Authorization": "Bearer [access_token]",
