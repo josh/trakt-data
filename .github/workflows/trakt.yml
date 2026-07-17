@@ -31,10 +31,12 @@ jobs:
                 grant_type: "refresh_token"
               }' \
             | curl --silent --show-error --fail-with-body \
-                -X POST \
-                -H 'Content-Type: application/json' \
+                --request POST \
+                --header 'Content-Type: application/json' \
                 --data-binary @- \
                 'https://api.trakt.tv/oauth/token' >token.json
+
+          jq --exit-status '.access_token and .refresh_token' token.json >/dev/null
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
