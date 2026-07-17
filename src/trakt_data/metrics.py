@@ -362,7 +362,9 @@ def _movie_release_status(movie: MovieExtended) -> MovieReleaseType:
     type_indices = set([0])
     for release in movie.get("releases", []):
         rd = datetime.fromisoformat(release["release_date"])
-        if rd > datetime.now():
+        if rd.tzinfo is None:
+            rd = rd.replace(tzinfo=timezone.utc)
+        if rd > datetime.now(timezone.utc):
             continue
         try:
             type_index = MOVIE_RELEASE_TYPES.index(release["release_type"])
