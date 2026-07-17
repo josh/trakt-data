@@ -1,6 +1,6 @@
 import json
 import os
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Literal, TypeVar, cast
 
@@ -467,7 +467,7 @@ def _activities_outdated_paths(
             fresh = _compare_datetime_strs(old_date_str, new_date_str)
         _mark_path(path, fresh)
 
-    old_activities_hidden_at = datetime.fromtimestamp(0, tz=timezone.utc)
+    old_activities_hidden_at = datetime.fromtimestamp(0, tz=UTC)
     if old_activities:
         old_activities_hidden_at = _last_hidden_at_activities(old_activities)
     new_activities_hidden_at = _last_hidden_at_activities(new_activities)
