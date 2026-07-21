@@ -15,7 +15,7 @@
       },
       "year": 2022,
       "title": "House of the Dragon",
-      "aired_episodes": 22
+      "aired_episodes": 23
     },
     "rank": 4,
     "id": 1493988708,
@@ -231,6 +231,28 @@
     "type": "movie",
     "movie": {
       "ids": {
+        "imdb": "tt15047880",
+        "plex": {
+          "guid": "6652e893d51f897868580ae9",
+          "slug": "the-dish-2026-1"
+        },
+        "slug": "disclosure-day-2026",
+        "tmdb": 1275779,
+        "trakt": 1036433
+      },
+      "year": 2026,
+      "title": "Disclosure Day"
+    },
+    "rank": 13,
+    "id": 1523480315,
+    "listed_at": "2026-07-21T04:37:31.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
         "imdb": "tt33365126",
         "plex": {
           "guid": "66e466e414b2ce3fbc0c3242",
@@ -246,6 +268,30 @@
     "rank": 14,
     "id": 1484434181,
     "listed_at": "2026-06-23T19:21:52.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt30425533",
+        "plex": {
+          "guid": null,
+          "slug": null
+        },
+        "slug": "the-hateful-eight",
+        "tmdb": 320534,
+        "tvdb": null,
+        "trakt": 319438
+      },
+      "year": 2019,
+      "title": "The Hateful Eight",
+      "aired_episodes": 4
+    },
+    "rank": 14,
+    "id": 1523483643,
+    "listed_at": "2026-07-21T04:43:41.000Z",
     "notes": null,
     "my_rating": null
   },
