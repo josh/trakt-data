@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 4,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2026-07-21T22:36:00.000Z",
+      "last_watched_at": "2026-07-21T23:06:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt30441768",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 7181391,
+          "tvdb": null,
+          "trakt": 14197506
+        },
+        "title": "The Last Chapter",
+        "votes": 0,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/197/506/screenshots/medium/9f32e0b7bd.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 0,
+        "season": 1,
+        "runtime": 56,
+        "overview": "The grand plan goes off with a bang. Next comes a big reveal, a lucrative deal and a final attempt to honor the dead as a bloodstained bond is forged.",
+        "released": null,
+        "number_abs": 4,
+        "updated_at": "2026-07-21T18:47:49.000Z",
+        "first_aired": "2019-04-25T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Last Chapter",
+        "available_translations": [],
+        "effective_release_date": "2019-04-25T04:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt30441766",
           "plex": {
@@ -58,40 +92,6 @@
         "comment_count": 0,
         "during_credits": false,
         "original_title": "Domergue's Got a Secret",
-        "available_translations": [],
-        "effective_release_date": "2019-04-25T04:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt30441759",
-          "plex": {
-            "guid": null
-          },
-          "tmdb": 7181389,
-          "tvdb": null,
-          "trakt": 14197499
-        },
-        "title": "Minnie's Haberdashery",
-        "votes": 0,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/197/499/screenshots/medium/15a66ef366.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 0,
-        "season": 1,
-        "runtime": 51,
-        "overview": "Minnie's gets real cozy as the new Red Rock sheriff meets a hangman. But old loyalties - and festering suspicions - are never quite forgotten.",
-        "released": null,
-        "number_abs": 2,
-        "updated_at": "2026-07-21T18:47:49.000Z",
-        "first_aired": "2019-04-25T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Minnie's Haberdashery",
         "available_translations": [],
         "effective_release_date": "2019-04-25T04:00:00.000Z"
       }
@@ -136,20 +136,20 @@
           "trakt": 13527574
         },
         "title": "Double Cross",
-        "votes": 1009,
+        "votes": 1011,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/574/screenshots/medium/40a3703614.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.7076311111450195,
+        "rating": 7.709198951721191,
         "season": 1,
         "runtime": 44,
         "overview": "The quicker you prove it, the quicker they die.",
         "released": "2026-05-25",
         "number_abs": 3,
-        "updated_at": "2026-07-21T21:37:56.000Z",
+        "updated_at": "2026-07-21T22:50:06.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -170,20 +170,20 @@
           "trakt": 11872338
         },
         "title": "Tread Lightly",
-        "votes": 1160,
+        "votes": 1163,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/872/338/screenshots/medium/e34f3f6a6f.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.560344696044922,
+        "rating": 7.560618877410889,
         "season": 1,
         "runtime": 41,
         "overview": "You're an investigator. Investigate.",
         "released": "2026-05-25",
         "number_abs": 2,
-        "updated_at": "2026-07-21T20:56:31.000Z",
+        "updated_at": "2026-07-21T22:49:41.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -234,24 +234,24 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 2242,
+        "votes": 2276,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.822033882141113,
+        "rating": 7.820738315582275,
         "season": 3,
         "runtime": 64,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-07-21T22:16:37.000Z",
+        "updated_at": "2026-07-21T23:15:26.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 76,
+        "comment_count": 105,
         "during_credits": false,
         "original_title": "Unbowed and Unbent",
         "available_translations": [],
@@ -268,20 +268,20 @@
           "trakt": 13904816
         },
         "title": "Tumbleton",
-        "votes": 3603,
+        "votes": 3604,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/816/screenshots/medium/9979db8028.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.940605163574219,
+        "rating": 7.941176414489746,
         "season": 3,
         "runtime": 62,
         "overview": "Ormund's invasion of Tumbleton forces Rhaenyra into a corner.",
         "released": "2026-07-13",
         "number_abs": 22,
-        "updated_at": "2026-07-21T22:17:18.000Z",
+        "updated_at": "2026-07-21T23:11:56.000Z",
         "first_aired": "2026-07-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -454,20 +454,20 @@
           "trakt": 14269215
         },
         "title": "The Why",
-        "votes": 13,
+        "votes": 16,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/269/215/screenshots/medium/29d30ce14f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.538461685180664,
+        "rating": 8.5,
         "season": 3,
         "runtime": 61,
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-07-21T20:23:12.000Z",
+        "updated_at": "2026-07-21T23:16:16.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -558,20 +558,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 968,
+        "votes": 969,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.6487603187561035,
+        "rating": 7.651186943054199,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-21T21:56:50.000Z",
+        "updated_at": "2026-07-21T22:58:03.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -754,20 +754,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 335,
+        "votes": 337,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.695522308349609,
+        "rating": 7.691394805908203,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-07-21T21:13:29.000Z",
+        "updated_at": "2026-07-21T22:59:13.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -852,20 +852,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2121,
+        "votes": 2123,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.860914707183838,
+        "rating": 7.862929821014404,
         "season": 3,
         "runtime": 52,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-21T21:31:56.000Z",
+        "updated_at": "2026-07-21T22:47:39.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -886,20 +886,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3427,
+        "votes": 3429,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.153487205505371,
+        "rating": 8.154563903808594,
         "season": 2,
         "runtime": 65,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-21T21:48:42.000Z",
+        "updated_at": "2026-07-21T23:16:03.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -950,20 +950,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 834,
+        "votes": 835,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.046762466430664,
+        "rating": 8.046706199645996,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-07-21T12:48:44.000Z",
+        "updated_at": "2026-07-21T22:42:08.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -984,20 +984,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1068,
+        "votes": 1069,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.441011428833008,
+        "rating": 8.442469596862793,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-07-21T14:08:20.000Z",
+        "updated_at": "2026-07-21T22:30:08.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
