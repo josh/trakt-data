@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2026-07-20T03:29:00.000Z",
+      "last_watched_at": "2026-07-24T05:49:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt33452926",
+          "plex": {
+            "guid": "68ce82d9a50a24ef5105e71a"
+          },
+          "tmdb": 6540112,
+          "tvdb": 11610259,
+          "trakt": 13527578
+        },
+        "title": "A Mistake I'll Never Make Again",
+        "votes": 970,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/527/578/screenshots/medium/ca63fe790c.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.719587802886963,
+        "season": 1,
+        "runtime": 47,
+        "overview": "I don't know, I think he's still got it.",
+        "released": "2026-05-25",
+        "number_abs": 4,
+        "updated_at": "2026-07-24T03:11:18.000Z",
+        "first_aired": "2026-05-25T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 9,
+        "during_credits": false,
+        "original_title": "A Mistake I'll Never Make Again",
+        "available_translations": [],
+        "effective_release_date": "2026-05-25T08:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt33452921",
           "plex": {
@@ -38,60 +72,26 @@
           "trakt": 13527574
         },
         "title": "Double Cross",
-        "votes": 1013,
+        "votes": 1031,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/574/screenshots/medium/40a3703614.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.711747169494629,
+        "rating": 7.709990501403809,
         "season": 1,
         "runtime": 44,
         "overview": "The quicker you prove it, the quicker they die.",
         "released": "2026-05-25",
         "number_abs": 3,
-        "updated_at": "2026-07-21T23:43:03.000Z",
+        "updated_at": "2026-07-24T02:45:19.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 6,
         "during_credits": false,
         "original_title": "Double Cross",
-        "available_translations": [],
-        "effective_release_date": "2026-05-25T08:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt32365977",
-          "plex": {
-            "guid": "6644a668ee380e7c2c4f26ac"
-          },
-          "tmdb": 5346894,
-          "tvdb": 11610257,
-          "trakt": 11872338
-        },
-        "title": "Tread Lightly",
-        "votes": 1164,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/872/338/screenshots/medium/e34f3f6a6f.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.562714576721191,
-        "season": 1,
-        "runtime": 41,
-        "overview": "You're an investigator. Investigate.",
-        "released": "2026-05-25",
-        "number_abs": 2,
-        "updated_at": "2026-07-21T23:43:52.000Z",
-        "first_aired": "2026-05-25T08:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "Tread Lightly",
         "available_translations": [],
         "effective_release_date": "2026-05-25T08:00:00.000Z"
       }
@@ -136,24 +136,24 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 2306,
+        "votes": 2962,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.824371337890625,
+        "rating": 7.819716453552246,
         "season": 3,
         "runtime": 64,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-07-22T00:20:40.000Z",
+        "updated_at": "2026-07-24T06:40:05.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 105,
+        "comment_count": 119,
         "during_credits": false,
         "original_title": "Unbowed and Unbent",
         "available_translations": [],
@@ -170,20 +170,20 @@
           "trakt": 13904816
         },
         "title": "Tumbleton",
-        "votes": 3610,
+        "votes": 3767,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/816/screenshots/medium/9979db8028.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.942382335662842,
+        "rating": 7.937350749969482,
         "season": 3,
         "runtime": 62,
         "overview": "Ormund's invasion of Tumbleton forces Rhaenyra into a corner.",
         "released": "2026-07-13",
         "number_abs": 22,
-        "updated_at": "2026-07-22T00:02:37.000Z",
+        "updated_at": "2026-07-24T05:36:28.000Z",
         "first_aired": "2026-07-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -247,7 +247,7 @@
         "overview": "Sam and Max go on a trip.",
         "released": "2019-03-01",
         "number_abs": 21,
-        "updated_at": "2026-07-21T01:44:00.000Z",
+        "updated_at": "2026-07-24T02:00:36.000Z",
         "first_aired": "2019-03-01T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -293,7 +293,7 @@
         "overview": "Sam negotiates the graduation party.",
         "released": "2017-11-17",
         "number_abs": 20,
-        "updated_at": "2026-07-21T01:44:00.000Z",
+        "updated_at": "2026-07-24T02:00:36.000Z",
         "first_aired": "2017-11-17T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -356,20 +356,20 @@
           "trakt": 14269215
         },
         "title": "The Why",
-        "votes": 16,
+        "votes": 51,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/269/215/screenshots/medium/29d30ce14f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.5,
+        "rating": 8.372549057006836,
         "season": 3,
         "runtime": 61,
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-07-21T23:16:16.000Z",
+        "updated_at": "2026-07-24T04:39:30.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -390,20 +390,20 @@
           "trakt": 13883423
         },
         "title": "Episode 5: The Pop",
-        "votes": 50,
+        "votes": 52,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/883/423/screenshots/medium/910b96059c.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.78000020980835,
+        "rating": 7.865384578704834,
         "season": 2,
         "runtime": 65,
         "overview": "Seth Rollins shocks the WWE Universe, Becky Lynch and Lyra Valkyria roll with the punches, and John Cena wrestles in his final SummerSlam match.",
         "released": "2026-01-20",
         "number_abs": 10,
-        "updated_at": "2026-07-21T15:16:45.000Z",
+        "updated_at": "2026-07-24T05:15:06.000Z",
         "first_aired": "2026-01-20T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -460,20 +460,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 972,
+        "votes": 1023,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.6553497314453125,
+        "rating": 7.6744866371154785,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-22T00:21:15.000Z",
+        "updated_at": "2026-07-24T05:18:27.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -494,20 +494,20 @@
           "trakt": 12565635
         },
         "title": "Goodbye",
-        "votes": 1277,
+        "votes": 1282,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/635/screenshots/medium/5d74e82777.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.780735969543457,
+        "rating": 7.787051677703857,
         "season": 4,
         "runtime": 34,
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-07-21T19:18:44.000Z",
+        "updated_at": "2026-07-23T22:00:16.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -558,20 +558,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1246,
+        "votes": 1266,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.774478435516357,
+        "rating": 7.776461124420166,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-07-21T23:58:40.000Z",
+        "updated_at": "2026-07-24T04:43:44.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -592,24 +592,24 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2200,
+        "votes": 2209,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 8,
+        "rating": 8.002263069152832,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-07-21T21:59:00.000Z",
+        "updated_at": "2026-07-24T03:26:19.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 81,
+        "comment_count": 82,
         "during_credits": false,
         "original_title": "Straight to Hell",
         "available_translations": [],
@@ -656,20 +656,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 337,
+        "votes": 343,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.691394805908203,
+        "rating": 7.679300308227539,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-07-21T22:59:13.000Z",
+        "updated_at": "2026-07-24T02:00:56.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -690,20 +690,20 @@
           "trakt": 11631660
         },
         "title": "Overtaken by Events",
-        "votes": 981,
+        "votes": 983,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/631/660/screenshots/medium/2287e513f8.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.8848114013671875,
+        "rating": 7.887080192565918,
         "season": 1,
         "runtime": 51,
         "overview": "Bosko shares a grim truth. Martian makes a devil's bargain.",
         "released": "2025-01-24",
         "number_abs": 10,
-        "updated_at": "2026-07-21T19:56:34.000Z",
+        "updated_at": "2026-07-23T15:27:52.000Z",
         "first_aired": "2025-01-26T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -730,10 +730,10 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 23
+      "aired_episodes": 24
     },
     "progress": {
-      "aired": 23,
+      "aired": 24,
       "completed": 20,
       "hidden": 0,
       "last_watched_at": "2025-01-17T08:02:00.000Z",
@@ -754,24 +754,24 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2125,
+        "votes": 2194,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.863529205322266,
+        "rating": 7.862351894378662,
         "season": 3,
         "runtime": 52,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-22T00:08:26.000Z",
+        "updated_at": "2026-07-24T05:43:30.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 109,
+        "comment_count": 114,
         "during_credits": false,
         "original_title": "Who Are You?",
         "available_translations": [],
@@ -788,20 +788,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3430,
+        "votes": 3446,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.154519081115723,
+        "rating": 8.15931510925293,
         "season": 2,
         "runtime": 65,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-21T23:39:46.000Z",
+        "updated_at": "2026-07-24T03:40:09.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -852,20 +852,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 835,
+        "votes": 837,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.046706199645996,
+        "rating": 8.046594619750977,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-07-21T22:42:08.000Z",
+        "updated_at": "2026-07-23T19:28:28.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -886,20 +886,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1069,
+        "votes": 1070,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.442469596862793,
+        "rating": 8.443924903869629,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-07-21T22:30:08.000Z",
+        "updated_at": "2026-07-24T05:34:41.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -950,20 +950,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2035,
+        "votes": 2048,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.886486530303955,
+        "rating": 7.8935546875,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-07-21T21:37:10.000Z",
+        "updated_at": "2026-07-24T02:15:58.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -984,20 +984,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3375,
+        "votes": 3378,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.121481895446777,
+        "rating": 8.122557640075684,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-07-21T20:42:24.000Z",
+        "updated_at": "2026-07-23T15:26:58.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1024,10 +1024,10 @@
       },
       "year": 2024,
       "title": "Sugar",
-      "aired_episodes": 13
+      "aired_episodes": 14
     },
     "progress": {
-      "aired": 13,
+      "aired": 14,
       "completed": 8,
       "hidden": 0,
       "last_watched_at": "2024-05-17T16:03:00.000Z",
@@ -1048,20 +1048,20 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 344,
+        "votes": 353,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.308139324188232,
+        "rating": 7.314447402954102,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-07-21T15:28:28.000Z",
+        "updated_at": "2026-07-24T06:14:06.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1082,20 +1082,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 935,
+        "votes": 942,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.5732622146606445,
+        "rating": 7.570063591003418,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-07-21T20:39:12.000Z",
+        "updated_at": "2026-07-24T04:40:18.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1146,20 +1146,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 434,
+        "votes": 442,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.156682014465332,
+        "rating": 7.165158271789551,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-07-21T23:21:03.000Z",
+        "updated_at": "2026-07-23T23:24:54.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1180,20 +1180,20 @@
           "trakt": 7380154
         },
         "title": "Figures of Light",
-        "votes": 1131,
+        "votes": 1133,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/380/154/screenshots/medium/3ba0166883.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.895667552947998,
+        "rating": 7.896734237670898,
         "season": 1,
         "runtime": 34,
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-07-21T15:35:55.000Z",
+        "updated_at": "2026-07-24T03:57:10.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1276,20 +1276,20 @@
           "trakt": 13905422
         },
         "title": "Andale",
-        "votes": 819,
+        "votes": 824,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 6.846153736114502,
+        "rating": 6.8555827140808105,
         "season": 3,
         "runtime": 62,
         "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "released": "2026-04-13",
         "number_abs": 17,
-        "updated_at": "2026-07-21T20:44:09.000Z",
+        "updated_at": "2026-07-24T03:00:24.000Z",
         "first_aired": "2026-04-13T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1310,20 +1310,20 @@
           "trakt": 5869493
         },
         "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "votes": 1380,
+        "votes": 1387,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/869/493/screenshots/medium/bc62c688c5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.979710102081299,
+        "rating": 7.981975555419922,
         "season": 2,
         "runtime": 62,
         "overview": "As the show goes on, fragments of memories collide with the present and future.",
         "released": "2022-02-28",
         "number_abs": 16,
-        "updated_at": "2026-07-21T20:38:46.000Z",
+        "updated_at": "2026-07-24T01:06:29.000Z",
         "first_aired": "2022-02-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
