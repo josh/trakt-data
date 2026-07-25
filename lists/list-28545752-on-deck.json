@@ -75,28 +75,6 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt1333644",
-        "plex": {
-          "guid": "5f40a19dcc4920003b387465",
-          "slug": "in-the-hand-of-dante"
-        },
-        "slug": "in-the-hand-of-dante-2026",
-        "tmdb": 1020047,
-        "trakt": 820370
-      },
-      "year": 2026,
-      "title": "In the Hand of Dante"
-    },
-    "rank": 8,
-    "id": 1485107823,
-    "listed_at": "2026-06-25T03:49:27.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
         "imdb": "tt34685692",
         "plex": {
           "guid": "673df95d0a12ec6df44cd658",
@@ -356,6 +334,30 @@
     "rank": 17,
     "id": 1525242233,
     "listed_at": "2026-07-23T15:59:09.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt8772296",
+        "plex": {
+          "guid": "5d9c091b170e24001f2af270",
+          "slug": "euphoria-us"
+        },
+        "slug": "euphoria-2019",
+        "tmdb": 85552,
+        "tvdb": 360261,
+        "trakt": 144629
+      },
+      "year": 2019,
+      "title": "Euphoria",
+      "aired_episodes": 24
+    },
+    "rank": 17,
+    "id": 1526848188,
+    "listed_at": "2026-07-25T23:09:07.000Z",
     "notes": null,
     "my_rating": null
   },
