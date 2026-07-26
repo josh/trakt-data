@@ -1,5 +1,65 @@
 [
   {
+    "id": 14061483752,
+    "watched_at": "2026-07-26T05:29:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "season": 1,
+      "number": 5,
+      "title": "Betrayal",
+      "ids": {
+        "trakt": 13527583,
+        "tvdb": 11610260,
+        "imdb": "tt33498865",
+        "tmdb": 6540113,
+        "tvrage": null
+      }
+    },
+    "show": {
+      "title": "Spider-Noir",
+      "year": 2026,
+      "ids": {
+        "trakt": 202400,
+        "slug": "spider-noir",
+        "tvdb": 450033,
+        "imdb": "tt30460310",
+        "tmdb": 220102,
+        "tvrage": null
+      }
+    }
+  },
+  {
+    "id": 14061093878,
+    "watched_at": "2026-07-26T03:37:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "season": 3,
+      "number": 3,
+      "title": "The Ballad of Paladin",
+      "ids": {
+        "trakt": 14007203,
+        "tvdb": 11560124,
+        "imdb": "tt35740468",
+        "tmdb": 6951287,
+        "tvrage": null
+      }
+    },
+    "show": {
+      "title": "Euphoria",
+      "year": 2019,
+      "ids": {
+        "trakt": 144629,
+        "slug": "euphoria-2019",
+        "tvdb": 360261,
+        "imdb": "tt8772296",
+        "tmdb": 85552,
+        "tvrage": null
+      }
+    }
+  },
+  {
     "id": 14060555732,
     "watched_at": "2026-07-26T02:09:00.000Z",
     "action": "watch",

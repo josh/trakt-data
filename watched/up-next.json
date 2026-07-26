@@ -2,104 +2,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt8772296",
-        "plex": {
-          "guid": "5d9c091b170e24001f2af270",
-          "slug": "euphoria-us"
-        },
-        "slug": "euphoria-2019",
-        "tmdb": 85552,
-        "tvdb": 360261,
-        "trakt": 144629
-      },
-      "year": 2019,
-      "title": "Euphoria",
-      "aired_episodes": 24
-    },
-    "progress": {
-      "aired": 24,
-      "completed": 18,
-      "hidden": 0,
-      "last_watched_at": "2026-07-26T02:09:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 18,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35740468",
-          "plex": {
-            "guid": "696b91e321bb2691aea69b91"
-          },
-          "tmdb": 6951287,
-          "tvdb": 11560124,
-          "trakt": 14007203
-        },
-        "title": "The Ballad of Paladin",
-        "votes": 713,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/007/203/screenshots/medium/66d397aa3a.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.329593181610107,
-        "season": 3,
-        "runtime": 60,
-        "overview": "While in art school, Jules learns she can fund her dreams by going on dates with rich men. Having worked her way up in Alamo's organization, Rue is sent on a special mission with Bishop. Meanwhile, Cassie's storybook wedding doesn't go as planned.",
-        "released": "2026-04-27",
-        "number_abs": 19,
-        "updated_at": "2026-07-25T15:08:32.000Z",
-        "first_aired": "2026-04-27T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 28,
-        "during_credits": false,
-        "original_title": "The Ballad of Paladin",
-        "available_translations": [],
-        "effective_release_date": "2026-04-27T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35740467",
-          "plex": {
-            "guid": "696b91e321bb2691aea69b90"
-          },
-          "tmdb": 6951286,
-          "tvdb": 11560123,
-          "trakt": 14007202
-        },
-        "title": "America My Dream",
-        "votes": 752,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/007/202/screenshots/medium/95f4256fb4.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 6.977393627166748,
-        "season": 3,
-        "runtime": 60,
-        "overview": "Maddy arrived in the city with no money, a suitcase full of clothes, and a plan.",
-        "released": "2026-04-20",
-        "number_abs": 18,
-        "updated_at": "2026-07-25T16:07:19.000Z",
-        "first_aired": "2026-04-20T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 18,
-        "during_credits": false,
-        "original_title": "America My Dream",
-        "available_translations": [],
-        "effective_release_date": "2026-04-20T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt30460310",
         "plex": {
           "guid": "63e6c25cbd7f14051f6c297a",
@@ -116,16 +18,50 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2026-07-25T05:14:00.000Z",
+      "last_watched_at": "2026-07-26T05:29:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt33498870",
+          "plex": {
+            "guid": "68ce82d9a50a24ef5105e707"
+          },
+          "tmdb": 6540114,
+          "tvdb": 11610261,
+          "trakt": 13527587
+        },
+        "title": "Nightmare on a Gurney",
+        "votes": 873,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/527/587/screenshots/medium/a0fe36c2a5.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.758304595947266,
+        "season": 1,
+        "runtime": 41,
+        "overview": "If you haven't found the answer, it's because there isn't one.",
+        "released": "2026-05-25",
+        "number_abs": 6,
+        "updated_at": "2026-07-25T22:58:08.000Z",
+        "first_aired": "2026-05-25T08:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Nightmare on a Gurney",
+        "available_translations": [],
+        "effective_release_date": "2026-05-25T08:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt33498865",
           "plex": {
@@ -158,40 +94,104 @@
         "original_title": "Betrayal",
         "available_translations": [],
         "effective_release_date": "2026-05-25T08:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt33452926",
-          "plex": {
-            "guid": "68ce82d9a50a24ef5105e71a"
-          },
-          "tmdb": 6540112,
-          "tvdb": 11610259,
-          "trakt": 13527578
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt8772296",
+        "plex": {
+          "guid": "5d9c091b170e24001f2af270",
+          "slug": "euphoria-us"
         },
-        "title": "A Mistake I'll Never Make Again",
-        "votes": 978,
+        "slug": "euphoria-2019",
+        "tmdb": 85552,
+        "tvdb": 360261,
+        "trakt": 144629
+      },
+      "year": 2019,
+      "title": "Euphoria",
+      "aired_episodes": 24
+    },
+    "progress": {
+      "aired": 24,
+      "completed": 19,
+      "hidden": 0,
+      "last_watched_at": "2026-07-26T03:37:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 19,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35740469",
+          "plex": {
+            "guid": "696b91e321bb2691aea69b92"
+          },
+          "tmdb": 6951288,
+          "tvdb": 11560125,
+          "trakt": 14007204
+        },
+        "title": "Kitty Likes to Dance",
+        "votes": 661,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/527/578/screenshots/medium/ca63fe790c.jpg.webp"
+            "media.trakt.tv/images/episodes/014/007/204/screenshots/medium/8694760066.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.728016376495361,
-        "season": 1,
-        "runtime": 47,
-        "overview": "I don't know, I think he's still got it.",
-        "released": "2026-05-25",
-        "number_abs": 4,
-        "updated_at": "2026-07-26T02:47:16.000Z",
-        "first_aired": "2026-05-25T08:00:00.000Z",
+        "rating": 7.245083332061768,
+        "season": 3,
+        "runtime": 62,
+        "overview": "Rue is offered a risky deal that draws her deeper into Alamo's world. While Nate battles the city council, Maddy gives Cassie a mission that could skyrocket her new career, and Lexi enlists Jules to create an original painting for LA Nights.",
+        "released": "2026-05-04",
+        "number_abs": 20,
+        "updated_at": "2026-07-25T22:11:02.000Z",
+        "first_aired": "2026-05-04T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 9,
+        "comment_count": 14,
         "during_credits": false,
-        "original_title": "A Mistake I'll Never Make Again",
+        "original_title": "Kitty Likes to Dance",
         "available_translations": [],
-        "effective_release_date": "2026-05-25T08:00:00.000Z"
+        "effective_release_date": "2026-05-04T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35740468",
+          "plex": {
+            "guid": "696b91e321bb2691aea69b91"
+          },
+          "tmdb": 6951287,
+          "tvdb": 11560124,
+          "trakt": 14007203
+        },
+        "title": "The Ballad of Paladin",
+        "votes": 713,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/007/203/screenshots/medium/66d397aa3a.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.329593181610107,
+        "season": 3,
+        "runtime": 60,
+        "overview": "While in art school, Jules learns she can fund her dreams by going on dates with rich men. Having worked her way up in Alamo's organization, Rue is sent on a special mission with Bishop. Meanwhile, Cassie's storybook wedding doesn't go as planned.",
+        "released": "2026-04-27",
+        "number_abs": 19,
+        "updated_at": "2026-07-25T15:08:32.000Z",
+        "first_aired": "2026-04-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 28,
+        "during_credits": false,
+        "original_title": "The Ballad of Paladin",
+        "available_translations": [],
+        "effective_release_date": "2026-04-27T01:00:00.000Z"
       }
     }
   },
@@ -234,20 +234,20 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 3269,
+        "votes": 3275,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.810645580291748,
+        "rating": 7.8100762367248535,
         "season": 3,
         "runtime": 64,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-07-26T02:35:21.000Z",
+        "updated_at": "2026-07-26T05:01:46.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -268,20 +268,20 @@
           "trakt": 13904816
         },
         "title": "Tumbleton",
-        "votes": 3862,
+        "votes": 3867,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/816/screenshots/medium/9979db8028.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.935784339904785,
+        "rating": 7.935608863830566,
         "season": 3,
         "runtime": 62,
         "overview": "Ormund's invasion of Tumbleton forces Rhaenyra into a corner.",
         "released": "2026-07-13",
         "number_abs": 22,
-        "updated_at": "2026-07-26T02:48:19.000Z",
+        "updated_at": "2026-07-26T04:12:01.000Z",
         "first_aired": "2026-07-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -345,7 +345,7 @@
         "overview": "Sam and Max go on a trip.",
         "released": "2019-03-01",
         "number_abs": 21,
-        "updated_at": "2026-07-25T04:11:27.000Z",
+        "updated_at": "2026-07-26T04:16:27.000Z",
         "first_aired": "2019-03-01T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -391,7 +391,7 @@
         "overview": "Sam negotiates the graduation party.",
         "released": "2017-11-17",
         "number_abs": 20,
-        "updated_at": "2026-07-25T03:26:38.000Z",
+        "updated_at": "2026-07-26T03:34:38.000Z",
         "first_aired": "2017-11-17T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -454,20 +454,20 @@
           "trakt": 14269215
         },
         "title": "The Why",
-        "votes": 64,
+        "votes": 65,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/269/215/screenshots/medium/29d30ce14f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.375,
+        "rating": 8.369231224060059,
         "season": 3,
         "runtime": 61,
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-07-25T20:23:19.000Z",
+        "updated_at": "2026-07-26T04:28:59.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -571,7 +571,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-26T02:33:07.000Z",
+        "updated_at": "2026-07-26T04:28:02.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -605,7 +605,7 @@
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-07-26T01:47:38.000Z",
+        "updated_at": "2026-07-26T04:28:01.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -656,20 +656,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1276,
+        "votes": 1277,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.781347751617432,
+        "rating": 7.781519412994385,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-07-25T16:42:16.000Z",
+        "updated_at": "2026-07-26T03:08:33.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -690,20 +690,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2217,
+        "votes": 2218,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 8.004059791564941,
+        "rating": 8.004959106445312,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-07-25T16:44:19.000Z",
+        "updated_at": "2026-07-26T04:55:58.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -852,20 +852,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2245,
+        "votes": 2248,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.867260456085205,
+        "rating": 7.865658283233643,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-26T00:23:53.000Z",
+        "updated_at": "2026-07-26T04:53:10.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -886,20 +886,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3463,
+        "votes": 3464,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.161709785461426,
+        "rating": 8.162240028381348,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-26T02:28:02.000Z",
+        "updated_at": "2026-07-26T04:03:22.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1291,7 +1291,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-07-25T20:30:50.000Z",
+        "updated_at": "2026-07-26T04:00:08.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1374,20 +1374,20 @@
           "trakt": 14336817
         },
         "title": "Blame It on the Rain",
-        "votes": 43,
+        "votes": 44,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/336/817/screenshots/medium/660651a734.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.674418449401855,
+        "rating": 8.659090995788574,
         "season": 2,
         "runtime": 57,
         "overview": "Plagued by dark thoughts after the murders, Erik opens up to his therapist and shares disturbing details that put the doctor in a difficult position.",
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-07-26T00:31:39.000Z",
+        "updated_at": "2026-07-26T03:31:21.000Z",
         "first_aired": "2024-09-19T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1408,20 +1408,20 @@
           "trakt": 6710571
         },
         "title": "God of Forgiveness, God of Vengeance",
-        "votes": 1173,
+        "votes": 1174,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/006/710/571/screenshots/medium/00084fe73c.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.65217399597168,
+        "rating": 7.650766372680664,
         "season": 1,
         "runtime": 55,
         "overview": "In prison, Jeff's newfound fame makes him a target. His parents seek closure and Glenda pushes for a memorial on familiar grounds to honor the victims.",
         "released": "2022-09-21",
         "number_abs": 10,
-        "updated_at": "2026-07-26T00:56:11.000Z",
+        "updated_at": "2026-07-26T03:26:50.000Z",
         "first_aired": "2022-09-21T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
