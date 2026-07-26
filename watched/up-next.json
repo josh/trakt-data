@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 24,
-      "completed": 17,
+      "completed": 18,
       "hidden": 0,
-      "last_watched_at": "2026-07-26T00:10:00.000Z",
+      "last_watched_at": "2026-07-26T02:09:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 17,
+        "play_count": 18,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt35740468",
+          "plex": {
+            "guid": "696b91e321bb2691aea69b91"
+          },
+          "tmdb": 6951287,
+          "tvdb": 11560124,
+          "trakt": 14007203
+        },
+        "title": "The Ballad of Paladin",
+        "votes": 713,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/007/203/screenshots/medium/66d397aa3a.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.329593181610107,
+        "season": 3,
+        "runtime": 60,
+        "overview": "While in art school, Jules learns she can fund her dreams by going on dates with rich men. Having worked her way up in Alamo's organization, Rue is sent on a special mission with Bishop. Meanwhile, Cassie's storybook wedding doesn't go as planned.",
+        "released": "2026-04-27",
+        "number_abs": 19,
+        "updated_at": "2026-07-25T15:08:32.000Z",
+        "first_aired": "2026-04-27T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 28,
+        "during_credits": false,
+        "original_title": "The Ballad of Paladin",
+        "available_translations": [],
+        "effective_release_date": "2026-04-27T01:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35740467",
           "plex": {
@@ -60,40 +94,6 @@
         "original_title": "America My Dream",
         "available_translations": [],
         "effective_release_date": "2026-04-20T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt17719220",
-          "plex": {
-            "guid": "696f8df91750b3634fdc7a9b"
-          },
-          "tmdb": 6847931,
-          "tvdb": 11559986,
-          "trakt": 13905422
-        },
-        "title": "Andale",
-        "votes": 837,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/905/422/screenshots/medium/df3b47989c.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 6.861409664154053,
-        "season": 3,
-        "runtime": 62,
-        "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
-        "released": "2026-04-13",
-        "number_abs": 17,
-        "updated_at": "2026-07-25T20:46:17.000Z",
-        "first_aired": "2026-04-13T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 29,
-        "during_credits": false,
-        "original_title": "Andale",
-        "available_translations": [],
-        "effective_release_date": "2026-04-13T01:00:00.000Z"
       }
     }
   },
@@ -170,20 +170,20 @@
           "trakt": 13527578
         },
         "title": "A Mistake I'll Never Make Again",
-        "votes": 977,
+        "votes": 978,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/578/screenshots/medium/ca63fe790c.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.725690841674805,
+        "rating": 7.728016376495361,
         "season": 1,
         "runtime": 47,
         "overview": "I don't know, I think he's still got it.",
         "released": "2026-05-25",
         "number_abs": 4,
-        "updated_at": "2026-07-25T22:58:08.000Z",
+        "updated_at": "2026-07-26T02:47:16.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -234,20 +234,20 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 3264,
+        "votes": 3269,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.810967922210693,
+        "rating": 7.810645580291748,
         "season": 3,
         "runtime": 64,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-07-26T01:22:53.000Z",
+        "updated_at": "2026-07-26T02:35:21.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -268,20 +268,20 @@
           "trakt": 13904816
         },
         "title": "Tumbleton",
-        "votes": 3859,
+        "votes": 3862,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/816/screenshots/medium/9979db8028.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.936771392822266,
+        "rating": 7.935784339904785,
         "season": 3,
         "runtime": 62,
         "overview": "Ormund's invasion of Tumbleton forces Rhaenyra into a corner.",
         "released": "2026-07-13",
         "number_abs": 22,
-        "updated_at": "2026-07-26T01:14:26.000Z",
+        "updated_at": "2026-07-26T02:48:19.000Z",
         "first_aired": "2026-07-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -558,20 +558,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1046,
+        "votes": 1050,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.684512615203857,
+        "rating": 7.688571453094482,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-26T00:32:25.000Z",
+        "updated_at": "2026-07-26T02:33:07.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -592,20 +592,20 @@
           "trakt": 12565635
         },
         "title": "Goodbye",
-        "votes": 1285,
+        "votes": 1286,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/635/screenshots/medium/5d74e82777.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.788326740264893,
+        "rating": 7.790046691894531,
         "season": 4,
         "runtime": 34,
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-07-25T21:10:38.000Z",
+        "updated_at": "2026-07-26T01:47:38.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -754,20 +754,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 353,
+        "votes": 354,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.705382347106934,
+        "rating": 7.706214904785156,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-07-25T23:45:43.000Z",
+        "updated_at": "2026-07-26T03:00:05.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -886,20 +886,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3462,
+        "votes": 3463,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.161178588867188,
+        "rating": 8.161709785461426,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-25T23:55:59.000Z",
+        "updated_at": "2026-07-26T02:28:02.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1180,20 +1180,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 947,
+        "votes": 948,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.5691657066345215,
+        "rating": 7.571730136871338,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-07-25T18:57:56.000Z",
+        "updated_at": "2026-07-26T01:53:50.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1244,20 +1244,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 449,
+        "votes": 450,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.1581292152404785,
+        "rating": 7.159999847412109,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-07-25T23:27:22.000Z",
+        "updated_at": "2026-07-26T02:31:11.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
