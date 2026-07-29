@@ -1,5 +1,41 @@
 [
   {
+    "id": 14122911004,
+    "watched_at": "2026-07-29T18:28:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35740472",
+        "plex": {
+          "guid": "696b91e421bb2691aea69b93"
+        },
+        "tmdb": 6951289,
+        "tvdb": 11560126,
+        "trakt": 14007205
+      },
+      "title": "This Little Piggy",
+      "number": 5,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt8772296",
+        "plex": {
+          "guid": "5d9c091b170e24001f2af270",
+          "slug": "euphoria-us"
+        },
+        "slug": "euphoria-2019",
+        "tmdb": 85552,
+        "tvdb": 360261,
+        "trakt": 144629
+      },
+      "year": 2019,
+      "title": "Euphoria",
+      "aired_episodes": 24
+    }
+  },
+  {
     "id": 14102320646,
     "watched_at": "2026-07-29T05:46:00.000Z",
     "action": "scrobble",
