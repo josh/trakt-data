@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 24,
-      "completed": 22,
+      "completed": 23,
       "hidden": 0,
-      "last_watched_at": "2026-07-29T19:43:00.000Z",
+      "last_watched_at": "2026-07-29T20:45:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 22,
+        "play_count": 23,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt35740476",
+          "plex": {
+            "guid": "696b91e421bb2691aea69b96"
+          },
+          "tmdb": 6951292,
+          "tvdb": 11560129,
+          "trakt": 14007208
+        },
+        "title": "In God We Trust",
+        "votes": 851,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/007/208/screenshots/medium/8c4bc426ed.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.320798873901367,
+        "season": 3,
+        "runtime": 93,
+        "overview": "Danger closes in on all sides as Rue's double-dealing finally reaches its breaking point. While the medical van speeds towards the border, Maddy and Cassie must band together \u2013 and Alamo is struck by a life-changing epiphany.",
+        "released": "2026-06-01",
+        "number_abs": 24,
+        "updated_at": "2026-07-29T20:44:31.000Z",
+        "first_aired": "2026-06-01T01:00:00.000Z",
+        "episode_type": "series_finale",
+        "after_credits": false,
+        "comment_count": 37,
+        "during_credits": false,
+        "original_title": "In God We Trust",
+        "available_translations": [],
+        "effective_release_date": "2026-06-01T01:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35740475",
           "plex": {
@@ -45,13 +79,13 @@
           ]
         },
         "number": 7,
-        "rating": 7.352409839630127,
+        "rating": 7.361445903778076,
         "season": 3,
         "runtime": 78,
         "overview": "Under intense financial pressure, Maddy schemes to get Cassie back in the spotlight. Meanwhile, Rue obsesses over the sign God gave her.",
         "released": "2026-05-25",
         "number_abs": 23,
-        "updated_at": "2026-07-29T17:33:45.000Z",
+        "updated_at": "2026-07-29T21:06:43.000Z",
         "first_aired": "2026-05-25T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -60,40 +94,6 @@
         "original_title": "Rain or Shine",
         "available_translations": [],
         "effective_release_date": "2026-05-25T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35740474",
-          "plex": {
-            "guid": "696b91e421bb2691aea69b94"
-          },
-          "tmdb": 6951290,
-          "tvdb": 11560127,
-          "trakt": 14007206
-        },
-        "title": "Stand Still and See",
-        "votes": 636,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/007/206/screenshots/medium/150144a179.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 6.617924690246582,
-        "season": 3,
-        "runtime": 60,
-        "overview": "Rue makes a deal with the devil in the form of a promise to Alamo...and gives a word of warning to Maddy. Later, Cassie gets her first real taste of stardom on the set of LA Nights, and Rue paints Jules a picture of her ideal future.",
-        "released": "2026-05-18",
-        "number_abs": 22,
-        "updated_at": "2026-07-29T19:49:40.000Z",
-        "first_aired": "2026-05-18T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "Stand Still and See",
-        "available_translations": [],
-        "effective_release_date": "2026-05-18T01:00:00.000Z"
       }
     }
   },
@@ -234,20 +234,20 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 3714,
+        "votes": 3717,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.813677787780762,
+        "rating": 7.813290119171143,
         "season": 3,
         "runtime": 64,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-07-29T20:17:35.000Z",
+        "updated_at": "2026-07-29T21:07:32.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -268,20 +268,20 @@
           "trakt": 13904816
         },
         "title": "Tumbleton",
-        "votes": 4073,
+        "votes": 4076,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/816/screenshots/medium/9979db8028.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.934200763702393,
+        "rating": 7.934249401092529,
         "season": 3,
         "runtime": 62,
         "overview": "Ormund's invasion of Tumbleton forces Rhaenyra into a corner.",
         "released": "2026-07-13",
         "number_abs": 22,
-        "updated_at": "2026-07-29T20:08:50.000Z",
+        "updated_at": "2026-07-29T21:10:02.000Z",
         "first_aired": "2026-07-13T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -454,20 +454,20 @@
           "trakt": 14269215
         },
         "title": "The Why",
-        "votes": 78,
+        "votes": 79,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/269/215/screenshots/medium/29d30ce14f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.34615421295166,
+        "rating": 8.341772079467773,
         "season": 3,
         "runtime": 61,
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-07-29T15:33:31.000Z",
+        "updated_at": "2026-07-29T20:58:13.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -558,20 +558,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1132,
+        "votes": 1133,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.673144817352295,
+        "rating": 7.669020175933838,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-07-29T19:43:33.000Z",
+        "updated_at": "2026-07-29T20:39:17.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -852,20 +852,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2341,
+        "votes": 2344,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.858607292175293,
+        "rating": 7.857081890106201,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-07-29T20:06:42.000Z",
+        "updated_at": "2026-07-29T21:05:48.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -886,20 +886,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3482,
+        "votes": 3479,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.165996551513672,
+        "rating": 8.166426658630371,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-29T19:39:43.000Z",
+        "updated_at": "2026-07-29T20:22:49.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -957,13 +957,13 @@
           ]
         },
         "number": 1,
-        "rating": 8.044970512390137,
+        "rating": 8.047337532043457,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-07-29T08:33:44.000Z",
+        "updated_at": "2026-07-29T20:36:42.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1082,20 +1082,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3388,
+        "votes": 3381,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.121310234069824,
+        "rating": 8.12008285522461,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-07-29T15:31:38.000Z",
+        "updated_at": "2026-07-29T20:23:07.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1146,20 +1146,20 @@
           "trakt": 14275377
         },
         "title": "Receptive Penile",
-        "votes": 35,
+        "votes": 36,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/275/377/screenshots/medium/5cfda4646c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.142857551574707,
+        "rating": 8.083333015441895,
         "season": 3,
         "runtime": 30,
         "overview": "Gordon and Ashley are determined to move on from past embarrassments, but they can't seem to shake their collective baggage.",
         "released": null,
         "number_abs": 17,
-        "updated_at": "2026-07-29T17:21:00.000Z",
+        "updated_at": "2026-07-29T20:49:38.000Z",
         "first_aired": "2026-07-27T10:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1349,20 +1349,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 464,
+        "votes": 465,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.185344696044922,
+        "rating": 7.182795524597168,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-07-29T19:59:38.000Z",
+        "updated_at": "2026-07-29T21:14:57.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

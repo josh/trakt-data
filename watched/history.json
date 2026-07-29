@@ -1,5 +1,41 @@
 [
   {
+    "id": 14124418792,
+    "watched_at": "2026-07-29T20:45:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35740475",
+        "plex": {
+          "guid": "696b91e421bb2691aea69b95"
+        },
+        "tmdb": 6951291,
+        "tvdb": 11560128,
+        "trakt": 14007207
+      },
+      "title": "Rain or Shine",
+      "number": 7,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt8772296",
+        "plex": {
+          "guid": "5d9c091b170e24001f2af270",
+          "slug": "euphoria-us"
+        },
+        "slug": "euphoria-2019",
+        "tmdb": 85552,
+        "tvdb": 360261,
+        "trakt": 144629
+      },
+      "year": 2019,
+      "title": "Euphoria",
+      "aired_episodes": 24
+    }
+  },
+  {
     "id": 14123770556,
     "watched_at": "2026-07-29T19:43:00.000Z",
     "action": "watch",
