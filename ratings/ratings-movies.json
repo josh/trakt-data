@@ -28486,6 +28486,21 @@
   },
   {
     "rated_at": "2017-02-17T23:59:59.000Z",
+    "rating": 9,
+    "type": "movie",
+    "movie": {
+      "title": "John Wick: Chapter 2",
+      "year": 2017,
+      "ids": {
+        "trakt": 205127,
+        "slug": "john-wick-chapter-2-2017",
+        "imdb": "tt4425200",
+        "tmdb": 324552
+      }
+    }
+  },
+  {
+    "rated_at": "2017-02-17T23:59:59.000Z",
     "rating": 6,
     "type": "movie",
     "movie": {
@@ -28511,21 +28526,6 @@
         "slug": "in-a-valley-of-violence-2016",
         "imdb": "tt3608930",
         "tmdb": 291356
-      }
-    }
-  },
-  {
-    "rated_at": "2017-02-17T00:00:00.000Z",
-    "rating": 9,
-    "type": "movie",
-    "movie": {
-      "title": "John Wick: Chapter 2",
-      "year": 2017,
-      "ids": {
-        "trakt": 205127,
-        "slug": "john-wick-chapter-2-2017",
-        "imdb": "tt4425200",
-        "tmdb": 324552
       }
     }
   },
