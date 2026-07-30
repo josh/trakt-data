@@ -319,7 +319,7 @@ def _export_media_episode(
     mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
     output_path = _partition_filename(
         basedir=ctx.cache_dir / "media" / "episodes",
-        id=data["ids"]["trakt"],
+        id=episode_trakt_id or data["ids"]["trakt"],
         suffix=".json",
     )
     write_json(output_path, data, mtime=mtime)
