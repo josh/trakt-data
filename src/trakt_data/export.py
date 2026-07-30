@@ -204,19 +204,19 @@ def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
 
 
 def _export_lists_list_all(ctx: Context, lists: list[List]) -> None:
-    list_ids: set[int] = set()
+    list_paths: set[Path] = set()
 
     for lst in lists:
         trakt_id: int = lst["ids"]["trakt"]
         trakt_slug: str = lst["ids"]["slug"]
         _export_lists_list(ctx, trakt_id, trakt_slug)
-        list_ids.add(trakt_id)
+        list_paths.add(ctx.output_dir / "lists" / f"list-{trakt_id}-{trakt_slug}.json")
 
     for path in ctx.output_dir.glob("lists/list-*.json"):
-        list_id = int(path.name.split("-")[1])
-        if list_id not in list_ids:
-            logger.info(f"Deleting old list: {path}")
-            path.unlink()
+        if path in list_paths or _excluded(ctx, path):
+            continue
+        logger.info(f"Deleting old list: {path}")
+        path.unlink()
 
 
 def _export_lists_lists(ctx: Context) -> None:
