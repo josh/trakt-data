@@ -855,12 +855,16 @@ def _generate_up_next_metrics(ctx: Context) -> None:
             show_ids.add(item["show"]["ids"]["trakt"])
 
     for show_id in show_ids:
-        _generate_up_next_show_metrics(
-            ctx,
-            trakt_show_id=show_id,
-            hidden_show_trakt_ids=hidden_show_trakt_ids,
-            completed_episodes=completed_episodes,
-        )
+        try:
+            _generate_up_next_show_metrics(
+                ctx,
+                trakt_show_id=show_id,
+                hidden_show_trakt_ids=hidden_show_trakt_ids,
+                completed_episodes=completed_episodes,
+            )
+        except Exception as error:
+            logger.error(error)
+            continue
 
 
 def generate_metrics(
