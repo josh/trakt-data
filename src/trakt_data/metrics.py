@@ -798,6 +798,8 @@ def _generate_up_next_show_metrics(
             episode_aired = "not aired"
         elif season_aired == "airing" and episode.get("first_aired"):
             episode_aired_dt = datetime.fromisoformat(episode["first_aired"])
+            if episode_aired_dt.tzinfo is None:
+                episode_aired_dt = episode_aired_dt.replace(tzinfo=UTC)
             episode_aired = (
                 "aired" if episode_aired_dt < datetime.now(UTC) else "not aired"
             )
