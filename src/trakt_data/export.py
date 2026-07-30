@@ -123,7 +123,7 @@ def _export_watched_history(ctx: Context) -> None:
                 path="/sync/history",
                 params={"start_at": start_at},
             )
-            if len(new_items) <= 1:
+            if len(new_items) == 1 and new_items[0]["id"] == existing_items[0]["id"]:
                 logger.info("No new items watched since %s", start_at)
                 return
 
