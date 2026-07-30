@@ -59,13 +59,13 @@ def fix_cache_mtimes(cache_dir: Path, dry_run: bool = False) -> None:
         expected_mtime = datetime.fromisoformat(data["updated_at"]).timestamp()
         if actual_mtime == expected_mtime:
             continue
+        logger.warning(
+            "Fixing '%s' (actual: %s, expected: %s)",
+            file,
+            datetime.fromtimestamp(actual_mtime),
+            datetime.fromtimestamp(expected_mtime),
+        )
         if not dry_run:
-            logger.warning(
-                "Fixing '%s' (actual: %s, expected: %s)",
-                file,
-                datetime.fromtimestamp(actual_mtime),
-                datetime.fromtimestamp(expected_mtime),
-            )
             os.utime(file, (expected_mtime, expected_mtime))
 
 
