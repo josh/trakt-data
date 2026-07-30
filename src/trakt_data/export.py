@@ -488,7 +488,9 @@ def export_all(
 ) -> None:
     exclude_paths: list[Path] = []
     for path in exclude:
-        if path.startswith(".") or path.startswith("/"):
+        if not path:
+            continue
+        elif path.startswith(".") or path.startswith("/"):
             exclude_paths.append(Path(path))
         else:
             exclude_paths.append(output_dir / path)
