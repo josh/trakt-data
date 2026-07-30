@@ -110,7 +110,7 @@ def read_json_data(path: Path, return_type: type[T]) -> T:
 def _export_watched_history(ctx: Context) -> None:
     output_path = ctx.output_dir / "watched" / "history.json"
 
-    if _fresh(ctx, output_path):
+    if _excluded(ctx, output_path) or _fresh(ctx, output_path):
         return
 
     if output_path.exists():
