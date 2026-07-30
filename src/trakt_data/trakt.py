@@ -369,6 +369,9 @@ _TRAKT_API_HEADERS = {
     "Authorization": "Bearer [access_token]",
 }
 
+# (connect, read) timeouts so a stalled connection can't hang the job
+_TRAKT_API_TIMEOUT = (10, 60)
+
 
 def trakt_session(client_id: str, access_token: str) -> requests.Session:
     session = requests.Session()
@@ -396,7 +399,11 @@ def trakt_api_get(
         path = f"/{path}"
 
     logger.debug("GET %s", f"https://api.trakt.tv{path}")
-    response = session.get(f"https://api.trakt.tv{path}", params=params)
+    response = session.get(
+        f"https://api.trakt.tv{path}",
+        params=params,
+        timeout=_TRAKT_API_TIMEOUT,
+    )
     response.raise_for_status()
 
     if "x-pagination-page" in response.headers:
@@ -427,7 +434,11 @@ def trakt_api_paginated_get(
         params["limit"] = str(limit)
 
         logger.debug("GET %s", f"https://api.trakt.tv{path}")
-        response = session.get(f"https://api.trakt.tv{path}", params=params)
+        response = session.get(
+            f"https://api.trakt.tv{path}",
+            params=params,
+            timeout=_TRAKT_API_TIMEOUT,
+        )
         response.raise_for_status()
 
         if "x-pagination-page-count" not in response.headers:
