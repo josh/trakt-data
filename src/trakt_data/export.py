@@ -287,10 +287,8 @@ def _export_shows_watched_progress(ctx: Context) -> None:
     write_json(output_path, shows)
 
 
-def _export_user_last_activities(ctx: Context) -> LastActivities:
-    output_path = ctx.output_dir / "user" / "last-activities.json"
+def _fetch_user_last_activities(ctx: Context) -> LastActivities:
     data = trakt_api_get(ctx.session, path="/sync/last_activities")
-    write_json(output_path, data)
     return cast(LastActivities, data)
 
 
@@ -511,7 +509,7 @@ def export_all(
             output_dir / "user" / "last-activities.json",
             LastActivities,
         )
-    last_activities = _export_user_last_activities(ctx)
+    last_activities = _fetch_user_last_activities(ctx)
 
     fresh_paths, stale_paths = _activities_outdated_paths(
         data_path=output_dir,
@@ -555,3 +553,5 @@ def export_all(
     # Non-standard export
     _export_shows_watched_progress(ctx)
     _export_shows_up_next(ctx)
+
+    write_json(output_dir / "user" / "last-activities.json", last_activities)
