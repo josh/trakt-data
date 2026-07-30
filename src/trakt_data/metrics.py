@@ -784,25 +784,23 @@ def _generate_up_next_show_metrics(
 
     for season, episode in _iter_show_episodes(ctx, show):
         season_aired: Literal["aired", "airing", "not aired"] = "not aired"
-        if season["episode_count"] == season["aired_episodes"]:
-            season_aired = "aired"
-        elif season["aired_episodes"] == 0:
+        if season["aired_episodes"] == 0:
             season_aired = "not aired"
+        elif season["episode_count"] == season["aired_episodes"]:
+            season_aired = "aired"
         else:
             season_aired = "airing"
 
         episode_aired: Literal["aired", "not aired"] = "not aired"
-        if season_aired == "aired":
-            episode_aired = "aired"
-        elif season_aired == "not aired":
-            episode_aired = "not aired"
-        elif season_aired == "airing" and episode.get("first_aired"):
+        if episode.get("first_aired"):
             episode_aired_dt = datetime.fromisoformat(episode["first_aired"])
             if episode_aired_dt.tzinfo is None:
                 episode_aired_dt = episode_aired_dt.replace(tzinfo=UTC)
             episode_aired = (
                 "aired" if episode_aired_dt < datetime.now(UTC) else "not aired"
             )
+        elif season_aired == "aired":
+            episode_aired = "aired"
 
         year_str = _episode_year_str(show=show, season=season, episode=episode)
 
