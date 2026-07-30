@@ -1,5 +1,41 @@
 [
   {
+    "id": 14133153676,
+    "watched_at": "2026-07-30T21:32:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35740476",
+        "plex": {
+          "guid": "696b91e421bb2691aea69b96"
+        },
+        "tmdb": 6951292,
+        "tvdb": 11560129,
+        "trakt": 14007208
+      },
+      "title": "In God We Trust",
+      "number": 8,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt8772296",
+        "plex": {
+          "guid": "5d9c091b170e24001f2af270",
+          "slug": "euphoria-us"
+        },
+        "slug": "euphoria-2019",
+        "tmdb": 85552,
+        "tvdb": 360261,
+        "trakt": 144629
+      },
+      "year": 2019,
+      "title": "Euphoria",
+      "aired_episodes": 24
+    }
+  },
+  {
     "id": 14127547811,
     "watched_at": "2026-07-30T05:07:00.000Z",
     "action": "checkin",
@@ -374316,7 +374352,7 @@
       "ids": {
         "imdb": "tt4805850",
         "plex": {
-          "guid": null
+          "guid": "5d9c136f2192ba001f3903a9"
         },
         "tmdb": 1084269,
         "tvdb": 5230247,
@@ -374788,7 +374824,7 @@
       "ids": {
         "imdb": "tt4785336",
         "plex": {
-          "guid": null
+          "guid": "5d9c136f02391c001f602078"
         },
         "tmdb": 1084267,
         "tvdb": 5230245,
@@ -376604,7 +376640,7 @@
       "ids": {
         "imdb": "tt4665724",
         "plex": {
-          "guid": null
+          "guid": "5d9c136f02391c001f602068"
         },
         "tmdb": 1068293,
         "tvdb": 5161826,
@@ -381056,7 +381092,7 @@
       "ids": {
         "imdb": "tt4519454",
         "plex": {
-          "guid": null
+          "guid": "5d9c136fba6eb9001fc2144c"
         },
         "tmdb": 1047611,
         "tvdb": 5122350,
@@ -381724,7 +381760,7 @@
       "ids": {
         "imdb": "tt4503912",
         "plex": {
-          "guid": null
+          "guid": "5d9c136fe98e47001eb8fa24"
         },
         "tmdb": 1047143,
         "tvdb": 5117542,
@@ -381888,7 +381924,7 @@
       "ids": {
         "imdb": "tt4503904",
         "plex": {
-          "guid": null
+          "guid": "5d9c136f4eefaa001f64f930"
         },
         "tmdb": 1047141,
         "tvdb": 5117540,
@@ -383788,7 +383824,7 @@
       "ids": {
         "imdb": "tt4459872",
         "plex": {
-          "guid": null
+          "guid": "5d9c136f4eefaa001f64f934"
         },
         "tmdb": 1044936,
         "tvdb": 5110282,
@@ -386284,7 +386320,7 @@
       "ids": {
         "imdb": "tt4381300",
         "plex": {
-          "guid": null
+          "guid": "5d9c136f3c3f87001f3cb9f0"
         },
         "tmdb": 1039525,
         "tvdb": 5003367,
@@ -448348,7 +448384,7 @@
       "ids": {
         "imdb": "tt3384464",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2df347001e426c0c"
         },
         "tmdb": 969497,
         "tvdb": 4729628,
@@ -519172,7 +519208,7 @@
       "ids": {
         "imdb": "tt1787568",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e4eefaa001f64f8b6"
         },
         "tmdb": 160457,
         "tvdb": 3258351,
@@ -520504,7 +520540,7 @@
       "ids": {
         "imdb": "tt1765491",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2192ba001f39034d"
         },
         "tmdb": 160395,
         "tvdb": 3155621,
