@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 3,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2026-08-01T04:57:00.000Z",
+      "last_watched_at": "2026-08-01T05:53:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 3,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a3f6c2cec197088e709c823"
+          },
+          "tmdb": 7247670,
+          "tvdb": 11862092,
+          "trakt": 14172979
+        },
+        "title": "Episode 5",
+        "votes": 247,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/172/979/screenshots/medium/ac28703f8d.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 8.29959487915039,
+        "season": 1,
+        "runtime": 68,
+        "overview": "Manager Kim trades blows with the enemy agent chasing him \u2014 only to realize he is an old friend. Meanwhile, Min-ji attempts an escape of her own.",
+        "released": "2026-07-10",
+        "number_abs": 5,
+        "updated_at": "2026-08-01T06:00:22.000Z",
+        "first_aired": "2026-07-10T12:45:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 15,
+        "during_credits": false,
+        "original_title": "5\ud654",
+        "available_translations": [],
+        "effective_release_date": "2026-07-10T12:45:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": null,
           "plex": {
@@ -60,40 +94,6 @@
         "original_title": "4\ud654",
         "available_translations": [],
         "effective_release_date": "2026-07-04T12:45:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a3f6c2cec197088e709c821"
-          },
-          "tmdb": 7247666,
-          "tvdb": 11862090,
-          "trakt": 14172977
-        },
-        "title": "Episode 3",
-        "votes": 268,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/172/977/screenshots/medium/2d773c5c64.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 8.682835578918457,
-        "season": 1,
-        "runtime": 63,
-        "overview": "Manager Kim reconnects with Sung Han-soo and Park Jin-cheol \u2014 his fellow dad friends (and former secret agents) \u2014 on his search for Min-ji.",
-        "released": "2026-07-03",
-        "number_abs": 3,
-        "updated_at": "2026-08-01T03:33:57.000Z",
-        "first_aired": "2026-07-03T12:45:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 13,
-        "during_credits": false,
-        "original_title": "3\ud654",
-        "available_translations": [],
-        "effective_release_date": "2026-07-03T12:45:00.000Z"
       }
     }
   },
@@ -136,20 +136,20 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 3835,
+        "votes": 3837,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.816166877746582,
+        "rating": 7.816262722015381,
         "season": 3,
         "runtime": 64,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-08-01T04:17:01.000Z",
+        "updated_at": "2026-08-01T06:19:24.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -379,18 +379,18 @@
           "trakt": 14269814
         },
         "title": "July 31, 2026: Erin Brockovich, Scott Galloway, Peter Hamby",
-        "votes": 0,
+        "votes": 2,
         "images": {
           "screenshot": []
         },
         "number": 21,
-        "rating": 0,
+        "rating": 8.5,
         "season": 24,
         "runtime": 59,
         "overview": "Guests: An interview with Erin Brockovich, consumer advocate, environmental activist, and founder of \"The Brockovich Report\" on Substack. This week's panel discussion includes Scott Galloway, professor at NYU's Stern School of Business, podcast host, and bestselling author of the book \"Notes on Being a Man\"; and Peter Hamby, chief national correspondent at Puck and host of \"The Powers That Be\" podcast.",
         "released": "2026-08-01",
         "number_abs": 736,
-        "updated_at": "2026-08-01T03:00:50.000Z",
+        "updated_at": "2026-08-01T06:34:29.000Z",
         "first_aired": "2026-08-01T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -596,7 +596,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-01T04:30:00.000Z",
+        "updated_at": "2026-08-01T05:19:56.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -877,20 +877,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2396,
+        "votes": 2398,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.851836204528809,
+        "rating": 7.853210926055908,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-01T03:53:04.000Z",
+        "updated_at": "2026-08-01T06:31:12.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -911,20 +911,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3495,
+        "votes": 3496,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.17052936553955,
+        "rating": 8.17133903503418,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-07-31T22:58:52.000Z",
+        "updated_at": "2026-08-01T05:31:30.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1022,7 +1022,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-07-31T14:23:35.000Z",
+        "updated_at": "2026-08-01T05:43:54.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1220,7 +1220,7 @@
         "overview": "Gordon and Ash\u2019s relationship is put to the test at Megan and Rumi\u2019s pop-up wedding.",
         "released": "2024-06-27",
         "number_abs": 16,
-        "updated_at": "2026-07-31T15:40:39.000Z",
+        "updated_at": "2026-08-01T06:17:21.000Z",
         "first_aired": "2024-06-27T10:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1276,20 +1276,20 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 386,
+        "votes": 387,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.310880661010742,
+        "rating": 7.310077667236328,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-08-01T03:10:59.000Z",
+        "updated_at": "2026-08-01T05:42:47.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1310,20 +1310,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 955,
+        "votes": 956,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.572774887084961,
+        "rating": 7.5721755027771,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-07-31T16:21:24.000Z",
+        "updated_at": "2026-08-01T05:42:47.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
