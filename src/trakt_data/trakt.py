@@ -395,7 +395,7 @@ def trakt_session(client_id: str, access_token: str) -> requests.Session:
 def trakt_api_get(
     session: requests.Session,
     path: str,
-    params: dict[str, str] = {},
+    params: dict[str, str] | None = None,
 ) -> Any:
     if not path.startswith("/"):
         path = f"/{path}"

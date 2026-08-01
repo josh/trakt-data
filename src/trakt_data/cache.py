@@ -2,7 +2,7 @@ import json
 import os
 import random
 import time
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from . import logger
@@ -62,8 +62,8 @@ def fix_cache_mtimes(cache_dir: Path, dry_run: bool = False) -> None:
         logger.warning(
             "Fixing '%s' (actual: %s, expected: %s)",
             file,
-            datetime.fromtimestamp(actual_mtime),
-            datetime.fromtimestamp(expected_mtime),
+            datetime.fromtimestamp(actual_mtime, tz=UTC),
+            datetime.fromtimestamp(expected_mtime, tz=UTC),
         )
         if not dry_run:
             os.utime(file, (expected_mtime, expected_mtime))
@@ -72,15 +72,15 @@ def fix_cache_mtimes(cache_dir: Path, dry_run: bool = False) -> None:
 def prune_cache_dir(
     cache_dir: Path,
     min_age: timedelta,
-    limit: int | float,
+    limit: int | float,  # noqa: PYI041 -- int is an absolute limit, float is a percentage
     dry_run: bool,
 ) -> None:
-    now = datetime.now()
+    now = datetime.now(UTC)
     min_mtime: datetime = now - min_age
     files: list[tuple[Path, datetime, float]] = []
 
     for file in cache_dir.glob("**/*.json"):
-        mtime = datetime.fromtimestamp(file.stat().st_mtime)
+        mtime = datetime.fromtimestamp(file.stat().st_mtime, tz=UTC)
         age = (now - mtime).total_seconds()
         assert age > 0
         if mtime < min_mtime:
