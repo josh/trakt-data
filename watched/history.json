@@ -1,5 +1,41 @@
 [
   {
+    "id": 14147020661,
+    "watched_at": "2026-08-01T07:02:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a4cc9dbed707300f65a96e0"
+        },
+        "tmdb": 7427281,
+        "tvdb": 11865023,
+        "trakt": 14269814
+      },
+      "title": "July 31, 2026: Erin Brockovich, Scott Galloway, Peter Hamby",
+      "number": 21,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 736
+    }
+  },
+  {
     "id": 14146423558,
     "watched_at": "2026-08-01T05:53:00.000Z",
     "action": "watch",
