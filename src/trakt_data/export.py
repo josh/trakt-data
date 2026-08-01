@@ -44,9 +44,7 @@ class Context:
 
 def _excluded(ctx: Context, path: Path) -> bool:
     for excluded_path in ctx.exclude_paths:
-        if path == excluded_path:
-            return True
-        elif path.is_relative_to(excluded_path):
+        if path == excluded_path or path.is_relative_to(excluded_path):
             return True
     return False
 
@@ -194,9 +192,9 @@ def _export_likes(
 def _export_lists_list(ctx: Context, list_id: int, list_slug: str) -> None:
     output_path = ctx.output_dir / "lists" / f"list-{list_id}-{list_slug}.json"
 
-    if _excluded(ctx, output_path):
-        return
-    elif output_path.exists() and output_path in ctx.fresh_paths:
+    if _excluded(ctx, output_path) or (
+        output_path.exists() and output_path in ctx.fresh_paths
+    ):
         return
 
     data = trakt_api_paginated_get(ctx.session, path=f"/users/me/lists/{list_id}/items")
@@ -484,13 +482,13 @@ def _activities_outdated_paths(
 def export_all(
     session: requests.Session,
     output_dir: Path,
-    exclude: list[str] = [],
+    exclude: list[str] | None = None,
 ) -> None:
     exclude_paths: list[Path] = []
-    for path in exclude:
+    for path in exclude or []:
         if not path:
             continue
-        elif path.startswith(".") or path.startswith("/"):
+        elif path.startswith((".", "/")):
             exclude_paths.append(Path(path))
         else:
             exclude_paths.append(output_dir / path)

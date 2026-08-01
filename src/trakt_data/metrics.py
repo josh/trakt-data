@@ -359,7 +359,7 @@ _FUTURE_YEAR = 3000
 
 
 def _movie_release_status(movie: MovieExtended) -> MovieReleaseType:
-    type_indices = set([0])
+    type_indices = {0}
     for release in movie.get("releases", []):
         rd = datetime.fromisoformat(release["release_date"])
         if rd.tzinfo is None:
@@ -481,7 +481,7 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
                 media_type="movie",
                 year=info.year,
             ).inc()
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
 
@@ -492,7 +492,7 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
         try:
             show_trakt_id = collected_show["show"]["ids"]["trakt"]
             info = _fetch_show_metric_info(ctx, trakt_id=show_trakt_id)
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
         _TRAKT_COLLECTION_COUNT.labels(
@@ -512,7 +512,7 @@ def _generate_collection_metrics(ctx: Context, data_path: Path) -> None:
                     )
                     if not info2:
                         continue
-                except Exception as error:
+                except Exception as error:  # noqa: BLE001
                     logger.error(error)
                     continue
                 _TRAKT_COLLECTION_COUNT.labels(
@@ -534,7 +534,7 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
                 season_number=episode_rating["episode"]["season"],
                 episode_number=episode_rating["episode"]["number"],
             )
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
         _TRAKT_RATINGS_COUNT.labels(
@@ -549,7 +549,7 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
     for movie_rating in movie_ratings:
         try:
             info = _fetch_movie_metric_info(ctx, movie_rating["movie"]["ids"]["trakt"])
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
         _TRAKT_RATINGS_COUNT.labels(
@@ -564,7 +564,7 @@ def _generate_ratings_metrics(ctx: Context, data_path: Path) -> None:
     for show_rating in show_ratings:
         try:
             info = _fetch_show_metric_info(ctx, show_rating["show"]["ids"]["trakt"])
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
         _TRAKT_RATINGS_COUNT.labels(
@@ -596,7 +596,7 @@ def _generate_watched_metrics(ctx: Context, data_path: Path) -> None:
                 info = None
                 logger.warning("Unknown media type: %s", history_item["type"])
                 continue
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
 
@@ -627,7 +627,7 @@ def _generate_list_metrics(ctx: Context, data_path: Path) -> None:
                     info = None
                     logger.warning("Unknown media type: %s", item["type"])
                     continue
-            except Exception as error:
+            except Exception as error:  # noqa: BLE001
                 logger.error(error)
                 continue
 
@@ -665,7 +665,7 @@ def _generate_watchlist_metrics(ctx: Context, data_path: Path) -> None:
                 info = None
                 logger.warning("Unknown media type: %s", item["type"])
                 continue
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
 
@@ -862,7 +862,7 @@ def _generate_up_next_metrics(ctx: Context) -> None:
                 hidden_show_trakt_ids=hidden_show_trakt_ids,
                 completed_episodes=completed_episodes,
             )
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001
             logger.error(error)
             continue
 
