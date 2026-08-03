@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 10,
-      "completed": 5,
+      "completed": 6,
       "hidden": 0,
-      "last_watched_at": "2026-08-03T04:06:00.000Z",
+      "last_watched_at": "2026-08-03T05:51:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 5,
+        "play_count": 6,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a3f6c2cec197088e709c825"
+          },
+          "tmdb": 7247674,
+          "tvdb": 11862094,
+          "trakt": 14172981
+        },
+        "title": "Episode 7",
+        "votes": 241,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/172/981/screenshots/medium/28716d2d73.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8.655601501464844,
+        "season": 1,
+        "runtime": 69,
+        "overview": "Manager Kim and Min-ji finally reunite, but the path to safety is far from smooth. Later, Manager Kim is forced to make a difficult decision.",
+        "released": "2026-07-17",
+        "number_abs": 7,
+        "updated_at": "2026-08-03T02:42:49.000Z",
+        "first_aired": "2026-07-17T12:45:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 16,
+        "during_credits": false,
+        "original_title": "7\ud654",
+        "available_translations": [],
+        "effective_release_date": "2026-07-17T12:45:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": null,
           "plex": {
@@ -60,40 +94,6 @@
         "original_title": "6\ud654",
         "available_translations": [],
         "effective_release_date": "2026-07-11T12:45:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a3f6c2cec197088e709c823"
-          },
-          "tmdb": 7247670,
-          "tvdb": 11862092,
-          "trakt": 14172979
-        },
-        "title": "Episode 5",
-        "votes": 260,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/172/979/screenshots/medium/ac28703f8d.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 8.307692527770996,
-        "season": 1,
-        "runtime": 68,
-        "overview": "Manager Kim trades blows with the enemy agent chasing him \u2014 only to realize he is an old friend. Meanwhile, Min-ji attempts an escape of her own.",
-        "released": "2026-07-10",
-        "number_abs": 5,
-        "updated_at": "2026-08-03T02:42:34.000Z",
-        "first_aired": "2026-07-10T12:45:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 15,
-        "during_credits": false,
-        "original_title": "5\ud654",
-        "available_translations": [],
-        "effective_release_date": "2026-07-10T12:45:00.000Z"
       }
     }
   },
@@ -136,20 +136,20 @@
           "trakt": 13904818
         },
         "title": "Faceless Men",
-        "votes": 3226,
+        "votes": 3234,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/818/screenshots/medium/3ed7da0a14.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.866087913513184,
+        "rating": 7.865182399749756,
         "season": 3,
         "runtime": 64,
         "overview": "While Rhaenyra and Daemon focus on how best to deal with Ormund, tensions among their neglected allies begin to erupt.",
         "released": "2026-07-27",
         "number_abs": 24,
-        "updated_at": "2026-08-03T05:02:38.000Z",
+        "updated_at": "2026-08-03T07:02:29.000Z",
         "first_aired": "2026-07-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -188,20 +188,20 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 3947,
+        "votes": 3951,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.8135294914245605,
+        "rating": 7.81245231628418,
         "season": 3,
         "runtime": 67,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-08-03T05:06:52.000Z",
+        "updated_at": "2026-08-03T06:58:41.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -514,7 +514,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-03T03:22:04.000Z",
+        "updated_at": "2026-08-03T06:46:03.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -548,7 +548,7 @@
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-08-02T20:37:21.000Z",
+        "updated_at": "2026-08-03T06:46:02.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -697,20 +697,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 382,
+        "votes": 383,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.712041854858398,
+        "rating": 7.712793827056885,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-08-03T02:19:03.000Z",
+        "updated_at": "2026-08-03T06:31:44.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -795,27 +795,32 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 249,
+        "votes": 256,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.698795318603516,
+        "rating": 8.66796875,
         "season": 3,
         "runtime": 49,
-        "overview": "A covert strike unearths a hidden threat, drawing Joe into a shadowy chain of events.",
+        "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-03T05:04:42.000Z",
+        "updated_at": "2026-08-03T06:50:41.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
         "original_title": "The Spider and the Fly",
-        "available_translations": [],
+        "available_translations": [
+          "de",
+          "en",
+          "fr",
+          "it"
+        ],
         "effective_release_date": "2026-08-02T07:00:00.000Z"
       },
       "last_episode": {
@@ -829,27 +834,50 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1684,
+        "votes": 1685,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.092042922973633,
+        "rating": 8.093174934387207,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-08-03T04:33:38.000Z",
+        "updated_at": "2026-08-03T06:09:06.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
         "comment_count": 32,
         "during_credits": false,
         "original_title": "The Compass Points Home",
-        "available_translations": [],
+        "available_translations": [
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hu",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "tr",
+          "uk",
+          "zh"
+        ],
         "effective_release_date": "2024-12-08T08:00:00.000Z"
       }
     }
@@ -893,20 +921,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2465,
+        "votes": 2467,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.843001842498779,
+        "rating": 7.842723846435547,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-03T03:53:39.000Z",
+        "updated_at": "2026-08-03T06:46:14.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1038,7 +1066,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-08-03T00:49:59.000Z",
+        "updated_at": "2026-08-03T05:48:11.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1089,20 +1117,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2109,
+        "votes": 2110,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.903271675109863,
+        "rating": 7.903317451477051,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-08-02T22:59:32.000Z",
+        "updated_at": "2026-08-03T05:17:47.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1236,7 +1264,7 @@
         "overview": "Gordon and Ash\u2019s relationship is put to the test at Megan and Rumi\u2019s pop-up wedding.",
         "released": "2024-06-27",
         "number_abs": 16,
-        "updated_at": "2026-08-03T03:53:17.000Z",
+        "updated_at": "2026-08-03T06:20:09.000Z",
         "first_aired": "2024-06-27T10:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1326,20 +1354,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 960,
+        "votes": 961,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.577083110809326,
+        "rating": 7.579604625701904,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-08-02T22:04:19.000Z",
+        "updated_at": "2026-08-03T05:28:21.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,

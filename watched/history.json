@@ -1,5 +1,41 @@
 [
   {
+    "id": 14168979435,
+    "watched_at": "2026-08-03T05:51:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a3f6c2cec197088e709c824"
+        },
+        "tmdb": 7247672,
+        "tvdb": 11862093,
+        "trakt": 14172980
+      },
+      "title": "Episode 6",
+      "number": 6,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt42127457",
+        "plex": {
+          "guid": "687b81e4fc650b409c413a5b",
+          "slug": "agent-kim-reactivated"
+        },
+        "slug": "agent-kim-reactivated",
+        "tmdb": 296206,
+        "tvdb": 468006,
+        "trakt": 292308
+      },
+      "year": 2026,
+      "title": "Agent Kim Reactivated",
+      "aired_episodes": 10
+    }
+  },
+  {
     "id": 14168582482,
     "watched_at": "2026-08-03T04:06:00.000Z",
     "action": "watch",
