@@ -2,6 +2,104 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt42127457",
+        "plex": {
+          "guid": "687b81e4fc650b409c413a5b",
+          "slug": "agent-kim-reactivated"
+        },
+        "slug": "agent-kim-reactivated",
+        "tmdb": 296206,
+        "tvdb": 468006,
+        "trakt": 292308
+      },
+      "year": 2026,
+      "title": "Agent Kim Reactivated",
+      "aired_episodes": 10
+    },
+    "progress": {
+      "aired": 10,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2026-08-03T04:06:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a3f6c2cec197088e709c824"
+          },
+          "tmdb": 7247672,
+          "tvdb": 11862093,
+          "trakt": 14172980
+        },
+        "title": "Episode 6",
+        "votes": 246,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/172/980/screenshots/medium/596d05b3ed.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8.556910514831543,
+        "season": 1,
+        "runtime": 68,
+        "overview": "Min-ji finds herself in a dire situation \u2014 until special agent Jung Sang-a shows up. The Special Missions Directorate tries to lure out Manager Kim.",
+        "released": "2026-07-11",
+        "number_abs": 6,
+        "updated_at": "2026-08-03T02:42:49.000Z",
+        "first_aired": "2026-07-11T12:45:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 20,
+        "during_credits": false,
+        "original_title": "6\ud654",
+        "available_translations": [],
+        "effective_release_date": "2026-07-11T12:45:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a3f6c2cec197088e709c823"
+          },
+          "tmdb": 7247670,
+          "tvdb": 11862092,
+          "trakt": 14172979
+        },
+        "title": "Episode 5",
+        "votes": 260,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/172/979/screenshots/medium/ac28703f8d.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 8.307692527770996,
+        "season": 1,
+        "runtime": 68,
+        "overview": "Manager Kim trades blows with the enemy agent chasing him \u2014 only to realize he is an old friend. Meanwhile, Min-ji attempts an escape of her own.",
+        "released": "2026-07-10",
+        "number_abs": 5,
+        "updated_at": "2026-08-03T02:42:34.000Z",
+        "first_aired": "2026-07-10T12:45:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 15,
+        "during_credits": false,
+        "original_title": "5\ud654",
+        "available_translations": [],
+        "effective_release_date": "2026-07-10T12:45:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt11198330",
         "plex": {
           "guid": "5e160ed3e68804001e87a7b5",
@@ -38,24 +136,24 @@
           "trakt": 13904818
         },
         "title": "Faceless Men",
-        "votes": 3206,
+        "votes": 3226,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/818/screenshots/medium/3ed7da0a14.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.867124080657959,
+        "rating": 7.866087913513184,
         "season": 3,
         "runtime": 64,
         "overview": "While Rhaenyra and Daemon focus on how best to deal with Ormund, tensions among their neglected allies begin to erupt.",
         "released": "2026-07-27",
         "number_abs": 24,
-        "updated_at": "2026-08-03T02:55:34.000Z",
+        "updated_at": "2026-08-03T05:02:38.000Z",
         "first_aired": "2026-07-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 131,
+        "comment_count": 132,
         "during_credits": false,
         "original_title": "Faceless Men",
         "available_translations": [
@@ -90,20 +188,20 @@
           "trakt": 13904817
         },
         "title": "Unbowed and Unbent",
-        "votes": 3938,
+        "votes": 3947,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/817/screenshots/medium/c2e4d9de51.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.813611030578613,
+        "rating": 7.8135294914245605,
         "season": 3,
         "runtime": 67,
         "overview": "As the search for Aemond and Vhagar continues, Daemon attempts to control the spiraling situation in King's Landing.",
         "released": "2026-07-20",
         "number_abs": 23,
-        "updated_at": "2026-08-03T02:39:30.000Z",
+        "updated_at": "2026-08-03T05:06:52.000Z",
         "first_aired": "2026-07-20T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -135,104 +233,6 @@
           "zh"
         ],
         "effective_release_date": "2026-07-20T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt42127457",
-        "plex": {
-          "guid": "687b81e4fc650b409c413a5b",
-          "slug": "agent-kim-reactivated"
-        },
-        "slug": "agent-kim-reactivated",
-        "tmdb": 296206,
-        "tvdb": 468006,
-        "trakt": 292308
-      },
-      "year": 2026,
-      "title": "Agent Kim Reactivated",
-      "aired_episodes": 10
-    },
-    "progress": {
-      "aired": 10,
-      "completed": 4,
-      "hidden": 0,
-      "last_watched_at": "2026-08-01T05:53:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 4,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a3f6c2cec197088e709c823"
-          },
-          "tmdb": 7247670,
-          "tvdb": 11862092,
-          "trakt": 14172979
-        },
-        "title": "Episode 5",
-        "votes": 260,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/172/979/screenshots/medium/ac28703f8d.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 8.307692527770996,
-        "season": 1,
-        "runtime": 68,
-        "overview": "Manager Kim trades blows with the enemy agent chasing him \u2014 only to realize he is an old friend. Meanwhile, Min-ji attempts an escape of her own.",
-        "released": "2026-07-10",
-        "number_abs": 5,
-        "updated_at": "2026-08-03T02:42:34.000Z",
-        "first_aired": "2026-07-10T12:45:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 15,
-        "during_credits": false,
-        "original_title": "5\ud654",
-        "available_translations": [],
-        "effective_release_date": "2026-07-10T12:45:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a3f6c2cec197088e709c822"
-          },
-          "tmdb": 7247668,
-          "tvdb": 11862091,
-          "trakt": 14172978
-        },
-        "title": "Episode 4",
-        "votes": 274,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/172/978/screenshots/medium/0daf058694.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 8.430657386779785,
-        "season": 1,
-        "runtime": 62,
-        "overview": "Manager Kim's risky actions put him on the radar of enemies past and present. When danger strikes, Han-soo and Jin-cheol step up to help save the day.",
-        "released": "2026-07-04",
-        "number_abs": 4,
-        "updated_at": "2026-08-03T03:01:22.000Z",
-        "first_aired": "2026-07-04T12:45:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "4\ud654",
-        "available_translations": [],
-        "effective_release_date": "2026-07-04T12:45:00.000Z"
       }
     }
   },
@@ -501,20 +501,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1188,
+        "votes": 1189,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.6742424964904785,
+        "rating": 7.674516201019287,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-03T00:36:39.000Z",
+        "updated_at": "2026-08-03T03:22:04.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -646,7 +646,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-08-02T21:49:09.000Z",
+        "updated_at": "2026-08-03T03:34:08.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -795,20 +795,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 229,
+        "votes": 249,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.685589790344238,
+        "rating": 8.698795318603516,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike unearths a hidden threat, drawing Joe into a shadowy chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-03T03:00:43.000Z",
+        "updated_at": "2026-08-03T05:04:42.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -829,20 +829,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1683,
+        "votes": 1684,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.090909004211426,
+        "rating": 8.092042922973633,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-08-03T02:12:18.000Z",
+        "updated_at": "2026-08-03T04:33:38.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -906,11 +906,11 @@
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-03T02:31:01.000Z",
+        "updated_at": "2026-08-03T03:53:39.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 116,
+        "comment_count": 117,
         "during_credits": false,
         "original_title": "Who Are You?",
         "available_translations": [],
@@ -991,20 +991,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 849,
+        "votes": 850,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.047114372253418,
+        "rating": 8.04941177368164,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-08-02T23:03:07.000Z",
+        "updated_at": "2026-08-03T03:13:58.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1223,20 +1223,20 @@
           "trakt": 11924451
         },
         "title": "Speedy Susans",
-        "votes": 179,
+        "votes": 180,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/924/451/screenshots/medium/66ebdfa589.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.44133996963501,
+        "rating": 7.422222137451172,
         "season": 2,
         "runtime": 26,
         "overview": "Gordon and Ash\u2019s relationship is put to the test at Megan and Rumi\u2019s pop-up wedding.",
         "released": "2024-06-27",
         "number_abs": 16,
-        "updated_at": "2026-08-02T15:22:15.000Z",
+        "updated_at": "2026-08-03T03:53:17.000Z",
         "first_aired": "2024-06-27T10:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1390,20 +1390,20 @@
           "trakt": 13886046
         },
         "title": "All the Things We're Never Going to Have",
-        "votes": 475,
+        "votes": 476,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.178947448730469,
+        "rating": 7.1785712242126465,
         "season": 2,
         "runtime": 43,
         "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
         "released": "2026-04-16",
         "number_abs": 11,
-        "updated_at": "2026-08-02T23:49:18.000Z",
+        "updated_at": "2026-08-03T03:10:51.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1437,7 +1437,7 @@
         "overview": "The consequences of their actions leave Danny and Amy in a surreal situation that tests their grasp on reality.",
         "released": "2023-04-06",
         "number_abs": 10,
-        "updated_at": "2026-08-03T00:05:24.000Z",
+        "updated_at": "2026-08-03T04:11:42.000Z",
         "first_aired": "2023-04-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,

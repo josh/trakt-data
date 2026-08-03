@@ -1,5 +1,27 @@
 [
   {
+    "plays": 5,
+    "last_watched_at": "2026-08-03T04:06:00.000Z",
+    "last_updated_at": "2026-08-03T04:06:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt42127457",
+        "plex": {
+          "guid": "687b81e4fc650b409c413a5b",
+          "slug": "agent-kim-reactivated"
+        },
+        "slug": "agent-kim-reactivated",
+        "tmdb": 296206,
+        "tvdb": 468006,
+        "trakt": 292308
+      },
+      "year": 2026,
+      "title": "Agent Kim Reactivated",
+      "aired_episodes": 10
+    }
+  },
+  {
     "plays": 23,
     "last_watched_at": "2026-08-02T21:42:00.000Z",
     "last_updated_at": "2026-08-02T21:42:00.000Z",
@@ -41,28 +63,6 @@
       "year": 2003,
       "title": "Real Time with Bill Maher",
       "aired_episodes": 736
-    }
-  },
-  {
-    "plays": 4,
-    "last_watched_at": "2026-08-01T05:53:00.000Z",
-    "last_updated_at": "2026-08-01T05:53:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt42127457",
-        "plex": {
-          "guid": "687b81e4fc650b409c413a5b",
-          "slug": "agent-kim-reactivated"
-        },
-        "slug": "agent-kim-reactivated",
-        "tmdb": 296206,
-        "tvdb": 468006,
-        "trakt": 292308
-      },
-      "year": 2026,
-      "title": "Agent Kim Reactivated",
-      "aired_episodes": 10
     }
   },
   {
@@ -7850,7 +7850,7 @@
       },
       "year": 2014,
       "title": "Last Week Tonight with John Oliver",
-      "aired_episodes": 368
+      "aired_episodes": 369
     }
   },
   {
