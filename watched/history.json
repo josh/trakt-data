@@ -1,5 +1,41 @@
 [
   {
+    "id": 14206485556,
+    "watched_at": "2026-08-07T05:33:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35522452",
+        "plex": {
+          "guid": "6960fff06b1c29e3bc19c1a2"
+        },
+        "tmdb": 6824717,
+        "tvdb": 11546779,
+        "trakt": 13886047
+      },
+      "title": "A New Starting Point for Further Desires",
+      "number": 2,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    }
+  },
+  {
     "id": 14206398953,
     "watched_at": "2026-08-07T04:41:00.000Z",
     "action": "checkin",
@@ -476572,7 +476608,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c136d2df347001e426b76"
         },
         "tmdb": 160798,
         "tvdb": 4404193,
@@ -486544,7 +486580,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c136d3c3f87001f3cb83c"
         },
         "tmdb": 160744,
         "tvdb": 4315463,
@@ -489604,7 +489640,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c136d4eefaa001f64f77e"
         },
         "tmdb": 160725,
         "tvdb": 4286516,
@@ -495544,7 +495580,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c136de98e47001eb8f884"
         },
         "tmdb": 160685,
         "tvdb": 4232537,
@@ -513580,7 +513616,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c136fba2e21001f1b6fd4"
         },
         "tmdb": 160531,
         "tvdb": 4013251,

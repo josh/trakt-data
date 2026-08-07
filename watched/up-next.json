@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 11,
+      "completed": 12,
       "hidden": 0,
-      "last_watched_at": "2026-08-07T04:41:00.000Z",
+      "last_watched_at": "2026-08-07T05:33:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 11,
+        "play_count": 12,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt35522453",
+          "plex": {
+            "guid": "6960fff06b1c29e3bc19c197"
+          },
+          "tmdb": 6824718,
+          "tvdb": 11546780,
+          "trakt": 13886048
+        },
+        "title": "The Increasing Flimsiness of Any Certainties About the Future",
+        "votes": 407,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/048/screenshots/medium/6f402c075c.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.405405521392822,
+        "season": 2,
+        "runtime": 50,
+        "overview": "Josh and Lindsay consider a new chapter for their lives. Ashley encourages Austin to get closer to Eunice.",
+        "released": "2026-04-16",
+        "number_abs": 13,
+        "updated_at": "2026-08-07T03:24:21.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 11,
+        "during_credits": false,
+        "original_title": "The Increasing Flimsiness of Any Certainties About the Future",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35522452",
           "plex": {
@@ -58,40 +92,6 @@
         "comment_count": 9,
         "during_credits": false,
         "original_title": "A New Starting Point for Further Desires",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt32659314",
-          "plex": {
-            "guid": "6960fff06b1c29e3bc19c1ad"
-          },
-          "tmdb": 6824670,
-          "tvdb": 11545370,
-          "trakt": 13886046
-        },
-        "title": "All the Things We're Never Going to Have",
-        "votes": 484,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/886/046/screenshots/medium/083bdc95ee.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.194214820861816,
-        "season": 2,
-        "runtime": 43,
-        "overview": "Country-club employees Ashley and Austin witness a vicious fight between their boss and his wife \u2014 and decide to leverage it to get ahead.",
-        "released": "2026-04-16",
-        "number_abs": 11,
-        "updated_at": "2026-08-07T01:23:38.000Z",
-        "first_aired": "2026-04-16T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 13,
-        "during_credits": false,
-        "original_title": "All the Things We're Never Going to Have",
         "available_translations": [],
         "effective_release_date": "2026-04-16T07:00:00.000Z"
       }
@@ -136,20 +136,20 @@
           "trakt": 13904819
         },
         "title": "The Dragon in Winter",
-        "votes": 2771,
+        "votes": 2780,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/819/screenshots/medium/4bf1c19cee.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 8.25550365447998,
+        "rating": 8.259352684020996,
         "season": 3,
         "runtime": 64,
         "overview": "Torn between Mysaria and Daemon's visions for her reign, Rhaenyra grows desperate for a sign that she will prevail.",
         "released": "2026-08-03",
         "number_abs": 25,
-        "updated_at": "2026-08-07T03:59:18.000Z",
+        "updated_at": "2026-08-07T05:31:22.000Z",
         "first_aired": "2026-08-03T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -192,20 +192,20 @@
           "trakt": 13904818
         },
         "title": "Faceless Men",
-        "votes": 3580,
+        "votes": 3583,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/818/screenshots/medium/3ed7da0a14.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.835474967956543,
+        "rating": 7.835333347320557,
         "season": 3,
         "runtime": 63,
         "overview": "While Rhaenyra and Daemon focus on how best to deal with Ormund, tensions among their neglected allies begin to erupt.",
         "released": "2026-07-27",
         "number_abs": 24,
-        "updated_at": "2026-08-07T03:59:42.000Z",
+        "updated_at": "2026-08-07T05:17:15.000Z",
         "first_aired": "2026-07-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -518,7 +518,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-07T02:30:28.000Z",
+        "updated_at": "2026-08-07T05:26:10.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -817,20 +817,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 621,
+        "votes": 628,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.645732879638672,
+        "rating": 8.641719818115234,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-07T03:54:50.000Z",
+        "updated_at": "2026-08-07T05:27:05.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -981,20 +981,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3543,
+        "votes": 3544,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.178662300109863,
+        "rating": 8.179176330566406,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-08-07T02:47:55.000Z",
+        "updated_at": "2026-08-07T04:22:03.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1079,20 +1079,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1084,
+        "votes": 1085,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.447417259216309,
+        "rating": 8.44792652130127,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-08-06T15:27:48.000Z",
+        "updated_at": "2026-08-07T04:26:27.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1444,20 +1444,20 @@
           "trakt": 14143102
         },
         "title": "Home",
-        "votes": 855,
+        "votes": 871,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.378947257995605,
+        "rating": 8.368541717529297,
         "season": 4,
         "runtime": 42,
         "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
         "released": "2026-08-05",
         "number_abs": 35,
-        "updated_at": "2026-08-07T03:58:45.000Z",
+        "updated_at": "2026-08-07T05:20:26.000Z",
         "first_aired": "2026-08-05T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
