@@ -1,5 +1,41 @@
 [
   {
+    "id": 14214104439,
+    "watched_at": "2026-08-08T05:00:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35522455",
+        "plex": {
+          "guid": "6960fff06b1c29e3bc19c18c"
+        },
+        "tmdb": 6824719,
+        "tvdb": 11546781,
+        "trakt": 13886049
+      },
+      "title": "Oh, the Comfort, the Inexpressible Comfort",
+      "number": 4,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    }
+  },
+  {
     "id": 14213950702,
     "watched_at": "2026-08-08T04:25:00.000Z",
     "action": "checkin",
@@ -454028,7 +454064,7 @@
       "ids": {
         "imdb": "tt3183232",
         "plex": {
-          "guid": null
+          "guid": "5d9c136d08fddd001f32106c"
         },
         "tmdb": 160958,
         "tvdb": 4662619,
@@ -454604,7 +454640,7 @@
       "ids": {
         "imdb": "tt3168658",
         "plex": {
-          "guid": null
+          "guid": "5d9c136d08fddd001f321050"
         },
         "tmdb": 991272,
         "tvdb": 4658664,
@@ -454676,7 +454712,7 @@
       "ids": {
         "imdb": "tt3164482",
         "plex": {
-          "guid": null
+          "guid": "5d9c136d08fddd001f321056"
         },
         "tmdb": 991275,
         "tvdb": 4658661,
@@ -455972,7 +456008,7 @@
       "ids": {
         "imdb": "tt3095618",
         "plex": {
-          "guid": null
+          "guid": "5d9c136d7d06d9001fffb9c8"
         },
         "tmdb": 160945,
         "tvdb": 4632406,
@@ -456044,7 +456080,7 @@
       "ids": {
         "imdb": "tt3094544",
         "plex": {
-          "guid": null
+          "guid": "5d9c136de9d5a1001f502afb"
         },
         "tmdb": 160950,
         "tvdb": 4632405,
