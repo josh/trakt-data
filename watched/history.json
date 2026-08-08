@@ -1,5 +1,41 @@
 [
   {
+    "id": 14219911615,
+    "watched_at": "2026-08-08T20:39:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt36591969",
+        "plex": {
+          "guid": "69ef88797bdcd1269f9911ad"
+        },
+        "tmdb": 7196570,
+        "tvdb": 11763808,
+        "trakt": 13904819
+      },
+      "title": "The Dragon in Winter",
+      "number": 7,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt11198330",
+        "plex": {
+          "guid": "5e160ed3e68804001e87a7b5",
+          "slug": "house-of-the-dragon"
+        },
+        "slug": "house-of-the-dragon",
+        "tmdb": 94997,
+        "tvdb": 371572,
+        "trakt": 154574
+      },
+      "year": 2022,
+      "title": "House of the Dragon",
+      "aired_episodes": 25
+    }
+  },
+  {
     "id": 14214334651,
     "watched_at": "2026-08-08T06:29:00.000Z",
     "action": "checkin",
