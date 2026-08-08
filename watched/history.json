@@ -1,5 +1,77 @@
 [
   {
+    "id": 14214334651,
+    "watched_at": "2026-08-08T06:29:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a615ac874f4a7cfffb3ffdc"
+        },
+        "tmdb": 7601627,
+        "tvdb": null,
+        "trakt": 14344817
+      },
+      "title": "August 7, 2026: Mike Row, Tara Palmeri, Matt Welch",
+      "number": 22,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 737
+    }
+  },
+  {
+    "id": 14214330023,
+    "watched_at": "2026-08-08T05:26:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35522456",
+        "plex": {
+          "guid": "6960fff06b1c29e3bc19c181"
+        },
+        "tmdb": 6824720,
+        "tvdb": 11546782,
+        "trakt": 13886050
+      },
+      "title": "I Am Killing My Flesh Without It",
+      "number": 5,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    }
+  },
+  {
     "id": 14214104439,
     "watched_at": "2026-08-08T05:00:00.000Z",
     "action": "checkin",
