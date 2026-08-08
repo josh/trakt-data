@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 12,
+      "completed": 13,
       "hidden": 0,
-      "last_watched_at": "2026-08-07T05:33:00.000Z",
+      "last_watched_at": "2026-08-08T04:25:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 12,
+        "play_count": 13,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt35522455",
+          "plex": {
+            "guid": "6960fff06b1c29e3bc19c18c"
+          },
+          "tmdb": 6824719,
+          "tvdb": 11546781,
+          "trakt": 13886049
+        },
+        "title": "Oh, the Comfort, the Inexpressible Comfort",
+        "votes": 403,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/049/screenshots/medium/5673a3d52e.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.439206123352051,
+        "season": 2,
+        "runtime": 34,
+        "overview": "When Austin and Ashley are trapped for hours in an ER waiting room, Josh sees an opportunity to turn the tables.",
+        "released": "2026-04-16",
+        "number_abs": 14,
+        "updated_at": "2026-08-07T23:34:51.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 20,
+        "during_credits": false,
+        "original_title": "Oh, the Comfort, the Inexpressible Comfort",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35522453",
           "plex": {
@@ -58,40 +92,6 @@
         "comment_count": 11,
         "during_credits": false,
         "original_title": "The Increasing Flimsiness of Any Certainties About the Future",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35522452",
-          "plex": {
-            "guid": "6960fff06b1c29e3bc19c1a2"
-          },
-          "tmdb": 6824717,
-          "tvdb": 11546779,
-          "trakt": 13886047
-        },
-        "title": "A New Starting Point for Further Desires",
-        "votes": 434,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/886/047/screenshots/medium/fba63ba174.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.255760192871094,
-        "season": 2,
-        "runtime": 49,
-        "overview": "While Josh tries to play off Ashley's ascendance at the club, Lindsay seeks petty revenge. The Chairwoman proposes changes at the gym.",
-        "released": "2026-04-16",
-        "number_abs": 12,
-        "updated_at": "2026-08-07T23:56:45.000Z",
-        "first_aired": "2026-04-16T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 9,
-        "during_credits": false,
-        "original_title": "A New Starting Point for Further Desires",
         "available_translations": [],
         "effective_release_date": "2026-04-16T07:00:00.000Z"
       }
@@ -136,20 +136,20 @@
           "trakt": 13904819
         },
         "title": "The Dragon in Winter",
-        "votes": 2881,
+        "votes": 2899,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/819/screenshots/medium/4bf1c19cee.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 8.250260353088379,
+        "rating": 8.251465797424316,
         "season": 3,
         "runtime": 64,
         "overview": "Torn between Mysaria and Daemon's visions for her reign, Rhaenyra grows desperate for a sign that she will prevail.",
         "released": "2026-08-03",
         "number_abs": 25,
-        "updated_at": "2026-08-08T01:13:34.000Z",
+        "updated_at": "2026-08-08T03:47:22.000Z",
         "first_aired": "2026-08-03T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -194,24 +194,24 @@
           "trakt": 13904818
         },
         "title": "Faceless Men",
-        "votes": 3626,
+        "votes": 3635,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/818/screenshots/medium/3ed7da0a14.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.840871334075928,
+        "rating": 7.839890003204346,
         "season": 3,
         "runtime": 63,
         "overview": "While Rhaenyra and Daemon focus on how best to deal with Ormund, tensions among their neglected allies begin to erupt.",
         "released": "2026-07-27",
         "number_abs": 24,
-        "updated_at": "2026-08-08T01:29:03.000Z",
+        "updated_at": "2026-08-08T03:59:49.000Z",
         "first_aired": "2026-07-27T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 140,
+        "comment_count": 141,
         "during_credits": false,
         "original_title": "Faceless Men",
         "available_translations": [
@@ -241,6 +241,106 @@
           "zh"
         ],
         "effective_release_date": "2026-07-27T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 737
+    },
+    "progress": {
+      "aired": 737,
+      "completed": 736,
+      "hidden": 0,
+      "last_watched_at": "2026-08-01T07:02:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 738,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a615ac874f4a7cfffb3ffdc"
+          },
+          "tmdb": 7601627,
+          "tvdb": null,
+          "trakt": 14344817
+        },
+        "title": "August 7, 2026: Mike Row, Tara Palmeri, Matt Welch",
+        "votes": 2,
+        "images": {
+          "screenshot": []
+        },
+        "number": 22,
+        "rating": 8,
+        "season": 24,
+        "runtime": 60,
+        "overview": "Guests: An interview with Mike Row, founder and CEO of the mikeroweWORKS Foundation and host of \"The Way I Heard It\" podcast. This week's panel discussion includes Tara Palmeri, author of \"The Red Letter\" on Substack and host of the podcast \"The Tara Palmeri Show\"; and Matt Welch, co-host of \"The Fifth Column\" podcast and editor-at-large of Reason Magazine.",
+        "released": "2026-08-08",
+        "number_abs": 737,
+        "updated_at": "2026-08-08T03:57:00.000Z",
+        "first_aired": "2026-08-08T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "August 7, 2026: Mike Row, Tara Palmeri, Matt Welch",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-08-08T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a4cc9dbed707300f65a96e0"
+          },
+          "tmdb": 7427281,
+          "tvdb": 11865023,
+          "trakt": 14269814
+        },
+        "title": "July 31, 2026: Erin Brockovich, Scott Galloway, Peter Hamby",
+        "votes": 39,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/269/814/screenshots/medium/9fc26addb3.jpg.webp"
+          ]
+        },
+        "number": 21,
+        "rating": 7.384615421295166,
+        "season": 24,
+        "runtime": 59,
+        "overview": "Guests: An interview with Erin Brockovich, consumer advocate, environmental activist, and founder of \"The Brockovich Report\" on Substack. This week's panel discussion includes Scott Galloway, professor at NYU's Stern School of Business, podcast host, and bestselling author of the book \"Notes on Being a Man\"; and Peter Hamby, chief national correspondent at Puck and host of \"The Powers That Be\" podcast.",
+        "released": "2026-08-01",
+        "number_abs": 736,
+        "updated_at": "2026-08-07T16:50:13.000Z",
+        "first_aired": "2026-08-01T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "July 31, 2026: Erin Brockovich, Scott Galloway, Peter Hamby",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-08-01T02:00:00.000Z"
       }
     }
   },
@@ -625,20 +725,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1359,
+        "votes": 1360,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.782928466796875,
+        "rating": 7.782352924346924,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-08-07T21:42:13.000Z",
+        "updated_at": "2026-08-08T03:08:15.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -659,20 +759,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2274,
+        "votes": 2275,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 8.020668029785156,
+        "rating": 8.020659446716309,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-08-07T19:22:43.000Z",
+        "updated_at": "2026-08-08T03:41:08.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -736,7 +836,7 @@
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-08-07T15:28:41.000Z",
+        "updated_at": "2026-08-08T02:28:30.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -821,20 +921,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 656,
+        "votes": 663,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.658536911010742,
+        "rating": 8.659125328063965,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-08T01:15:12.000Z",
+        "updated_at": "2026-08-08T03:38:18.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -865,20 +965,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1700,
+        "votes": 1701,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.095882415771484,
+        "rating": 8.095237731933594,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-08-07T18:10:21.000Z",
+        "updated_at": "2026-08-08T04:21:36.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -952,20 +1052,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2561,
+        "votes": 2563,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.821554183959961,
+        "rating": 7.822864055633545,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-07T23:37:39.000Z",
+        "updated_at": "2026-08-08T03:58:18.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1351,20 +1451,20 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 423,
+        "votes": 425,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.3286051750183105,
+        "rating": 7.3317646980285645,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-08-07T23:07:18.000Z",
+        "updated_at": "2026-08-08T04:17:18.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1449,20 +1549,20 @@
           "trakt": 14143102
         },
         "title": "Home",
-        "votes": 983,
+        "votes": 1002,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.354018211364746,
+        "rating": 8.346307754516602,
         "season": 4,
         "runtime": 42,
         "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
         "released": "2026-08-05",
         "number_abs": 35,
-        "updated_at": "2026-08-08T01:27:37.000Z",
+        "updated_at": "2026-08-08T04:22:21.000Z",
         "first_aired": "2026-08-05T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1512,20 +1612,20 @@
           "trakt": 7339078
         },
         "title": "So Long, Farewell",
-        "votes": 2778,
+        "votes": 2780,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/078/screenshots/medium/d2cfcb5783.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.674225807189941,
+        "rating": 8.673741340637207,
         "season": 3,
         "runtime": 79,
         "overview": "AFC Richmond play their final game of the season.",
         "released": "2023-05-31",
         "number_abs": 34,
-        "updated_at": "2026-08-07T19:32:18.000Z",
+        "updated_at": "2026-08-08T04:20:08.000Z",
         "first_aired": "2023-05-31T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
