@@ -1,5 +1,41 @@
 [
   {
+    "id": 14222865554,
+    "watched_at": "2026-08-09T05:33:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35522451",
+        "plex": {
+          "guid": "6960ffef6b1c29e3bc19c16b"
+        },
+        "tmdb": 6824722,
+        "tvdb": 11546784,
+        "trakt": 13886052
+      },
+      "title": "The Hour of Separation",
+      "number": 7,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    }
+  },
+  {
     "id": 14222717863,
     "watched_at": "2026-08-09T04:50:00.000Z",
     "action": "checkin",
@@ -394936,7 +394972,7 @@
       "ids": {
         "imdb": "tt3991316",
         "plex": {
-          "guid": null
+          "guid": "5d9c136effd9ef001ea0ab2e"
         },
         "tmdb": 1002487,
         "tvdb": 4943491,
@@ -396224,7 +396260,7 @@
       "ids": {
         "imdb": "tt3893090",
         "plex": {
-          "guid": null
+          "guid": "5d9c136effd9ef001ea0ab26"
         },
         "tmdb": 1002477,
         "tvdb": 4936304,
@@ -398356,7 +398392,7 @@
       "ids": {
         "imdb": "tt3802626",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ee98e47001eb8f914"
         },
         "tmdb": 990377,
         "tvdb": 4886903,
@@ -398500,7 +398536,7 @@
       "ids": {
         "imdb": "tt3789130",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2192ba001f3902e4"
         },
         "tmdb": 989137,
         "tvdb": 4886902,
@@ -398572,7 +398608,7 @@
       "ids": {
         "imdb": "tt3789128",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e4eefaa001f64f84e"
         },
         "tmdb": 989136,
         "tvdb": 4886901,

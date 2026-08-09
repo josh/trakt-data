@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 16,
+      "completed": 17,
       "hidden": 0,
-      "last_watched_at": "2026-08-09T04:50:00.000Z",
+      "last_watched_at": "2026-08-09T05:33:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 16,
+        "play_count": 17,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt35522454",
+          "plex": {
+            "guid": "6960ffef6b1c29e3bc19c160"
+          },
+          "tmdb": 6824723,
+          "tvdb": 11546785,
+          "trakt": 13886053
+        },
+        "title": "It Will Stay This Way and You Will Obey",
+        "votes": 454,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/053/screenshots/medium/f819550f69.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.055066108703613,
+        "season": 2,
+        "runtime": 55,
+        "overview": "Fighting for survival on the Chairwoman's home turf, both couples must decide what \u2014 and for whom \u2014 they're willing to sacrifice.",
+        "released": "2026-04-16",
+        "number_abs": 18,
+        "updated_at": "2026-08-09T02:55:20.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 25,
+        "during_credits": false,
+        "original_title": "It Will Stay This Way and You Will Obey",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt35522451",
           "plex": {
@@ -58,40 +92,6 @@
         "comment_count": 6,
         "during_credits": false,
         "original_title": "The Hour of Separation",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35522450",
-          "plex": {
-            "guid": "6960ffef6b1c29e3bc19c176"
-          },
-          "tmdb": 6824721,
-          "tvdb": 11546783,
-          "trakt": 13886051
-        },
-        "title": "Those Blue Remembered Hills",
-        "votes": 382,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/886/051/screenshots/medium/8e77626950.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.329843044281006,
-        "season": 2,
-        "runtime": 52,
-        "overview": "Josh and Austin try to mend fences with a training session. Lindsay tutors Ashley in the delicate art of winning over the club's wives.",
-        "released": "2026-04-16",
-        "number_abs": 16,
-        "updated_at": "2026-08-08T23:36:52.000Z",
-        "first_aired": "2026-04-16T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "Those Blue Remembered Hills",
         "available_translations": [],
         "effective_release_date": "2026-04-16T07:00:00.000Z"
       }
@@ -478,20 +478,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1366,
+        "votes": 1367,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.782577037811279,
+        "rating": 7.784198760986328,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-08-09T00:05:06.000Z",
+        "updated_at": "2026-08-09T04:57:33.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -674,20 +674,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 694,
+        "votes": 696,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.655619621276855,
+        "rating": 8.655172348022461,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-09T03:43:55.000Z",
+        "updated_at": "2026-08-09T05:02:41.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -719,20 +719,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1706,
+        "votes": 1707,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.096131324768066,
+        "rating": 8.096075057983398,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-08-09T02:23:07.000Z",
+        "updated_at": "2026-08-09T05:08:50.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1303,20 +1303,20 @@
           "trakt": 14143102
         },
         "title": "Home",
-        "votes": 1143,
+        "votes": 1146,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.308835983276367,
+        "rating": 8.309773445129395,
         "season": 4,
         "runtime": 42,
         "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
         "released": "2026-08-05",
         "number_abs": 35,
-        "updated_at": "2026-08-09T04:15:33.000Z",
+        "updated_at": "2026-08-09T04:58:15.000Z",
         "first_aired": "2026-08-05T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

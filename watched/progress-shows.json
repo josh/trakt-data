@@ -18,44 +18,10 @@
     },
     "progress": {
       "aired": 18,
-      "completed": 16,
-      "last_watched_at": "2026-08-09T04:50:00.000Z",
+      "completed": 17,
+      "last_watched_at": "2026-08-09T05:33:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt35522450",
-          "plex": {
-            "guid": "6960ffef6b1c29e3bc19c176"
-          },
-          "tmdb": 6824721,
-          "tvdb": 11546783,
-          "trakt": 13886051
-        },
-        "title": "Those Blue Remembered Hills",
-        "votes": 382,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/886/051/screenshots/medium/8e77626950.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.329843044281006,
-        "season": 2,
-        "runtime": 52,
-        "overview": "Josh and Austin try to mend fences with a training session. Lindsay tutors Ashley in the delicate art of winning over the club's wives.",
-        "released": "2026-04-16",
-        "number_abs": 16,
-        "updated_at": "2026-08-08T23:36:52.000Z",
-        "first_aired": "2026-04-16T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "Those Blue Remembered Hills",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt35522451",
           "plex": {
@@ -89,10 +55,44 @@
         "available_translations": [],
         "effective_release_date": "2026-04-16T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35522454",
+          "plex": {
+            "guid": "6960ffef6b1c29e3bc19c160"
+          },
+          "tmdb": 6824723,
+          "tvdb": 11546785,
+          "trakt": 13886053
+        },
+        "title": "It Will Stay This Way and You Will Obey",
+        "votes": 454,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/053/screenshots/medium/f819550f69.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.055066108703613,
+        "season": 2,
+        "runtime": 55,
+        "overview": "Fighting for survival on the Chairwoman's home turf, both couples must decide what \u2014 and for whom \u2014 they're willing to sacrifice.",
+        "released": "2026-04-16",
+        "number_abs": 18,
+        "updated_at": "2026-08-09T02:55:20.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 25,
+        "during_credits": false,
+        "original_title": "It Will Stay This Way and You Will Obey",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 16,
-        "minutes_watched": 612,
-        "minutes_left": 97
+        "play_count": 17,
+        "minutes_watched": 654,
+        "minutes_left": 55
       },
       "seasons": [
         {
@@ -202,11 +202,11 @@
           "number": 2,
           "title": "Season 2",
           "aired": 8,
-          "completed": 6,
+          "completed": 7,
           "stats": {
-            "play_count": 6,
-            "minutes_watched": 260,
-            "minutes_left": 97
+            "play_count": 7,
+            "minutes_watched": 302,
+            "minutes_left": 55
           },
           "episodes": [
             {
@@ -265,11 +265,11 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-08-09T05:33:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 42
               }
             },
             {
@@ -320,20 +320,20 @@
           "trakt": 13904819
         },
         "title": "The Dragon in Winter",
-        "votes": 3039,
+        "votes": 3041,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/819/screenshots/medium/4bf1c19cee.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 8.24777889251709,
+        "rating": 8.247615814208984,
         "season": 3,
         "runtime": 64,
         "overview": "Torn between Mysaria and Daemon's visions for her reign, Rhaenyra grows desperate for a sign that she will prevail.",
         "released": "2026-08-03",
         "number_abs": 25,
-        "updated_at": "2026-08-09T03:28:43.000Z",
+        "updated_at": "2026-08-09T04:59:30.000Z",
         "first_aired": "2026-08-03T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -11364,7 +11364,7 @@
         "overview": "With Tiger Tiger out of the picture, Clark proposes a new plan. After a series of revelations, Plumb and Homer are forced to question everything they thought they knew about the case.",
         "released": "2026-04-13",
         "number_abs": 7,
-        "updated_at": "2026-08-08T14:12:56.000Z",
+        "updated_at": "2026-08-09T04:31:48.000Z",
         "first_aired": "2026-04-13T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -16306,7 +16306,7 @@
         "overview": "Backed into a corner, Aggie must use all her wits to keep her world from crashing down \u2014 and place all her trust in an unlikely ally.",
         "released": "2025-11-13",
         "number_abs": 8,
-        "updated_at": "2026-08-08T20:15:08.000Z",
+        "updated_at": "2026-08-09T05:16:06.000Z",
         "first_aired": "2025-11-13T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -21082,7 +21082,7 @@
         "overview": "A new power dynamic emerges.",
         "released": "2025-09-24",
         "number_abs": 8,
-        "updated_at": "2026-08-08T16:04:24.000Z",
+        "updated_at": "2026-08-09T04:42:38.000Z",
         "first_aired": "2025-09-24T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -24275,7 +24275,7 @@
         "overview": "Brohhhhh. Broh. Sometimes we try weird stuff to let go of the past, broh.",
         "released": "2025-07-28",
         "number_abs": 81,
-        "updated_at": "2026-08-08T21:15:38.000Z",
+        "updated_at": "2026-08-09T04:43:01.000Z",
         "first_aired": "2025-07-28T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -29268,7 +29268,7 @@
         "overview": "Hoping to decisively close the book on the past, Joe embarks on a risky new chapter. But as with every great story, one last twist awaits.",
         "released": "2025-04-24",
         "number_abs": 50,
-        "updated_at": "2026-08-08T04:57:46.000Z",
+        "updated_at": "2026-08-09T04:59:16.000Z",
         "first_aired": "2025-04-24T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -30948,20 +30948,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1366,
+        "votes": 1367,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.782577037811279,
+        "rating": 7.784198760986328,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-08-09T00:05:06.000Z",
+        "updated_at": "2026-08-09T04:57:33.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -34964,20 +34964,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1706,
+        "votes": 1707,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.096131324768066,
+        "rating": 8.096075057983398,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-08-09T02:23:07.000Z",
+        "updated_at": "2026-08-09T05:08:50.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -35021,20 +35021,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 694,
+        "votes": 696,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.655619621276855,
+        "rating": 8.655172348022461,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-09T03:43:55.000Z",
+        "updated_at": "2026-08-09T05:02:41.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -40056,7 +40056,7 @@
         "overview": null,
         "released": "2026-11-11",
         "number_abs": 17,
-        "updated_at": "2026-08-08T03:28:06.000Z",
+        "updated_at": "2026-08-09T05:18:03.000Z",
         "first_aired": "2026-11-11T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -41814,20 +41814,20 @@
           "trakt": 11926331
         },
         "title": "Comeuppance",
-        "votes": 924,
+        "votes": 925,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/926/331/screenshots/medium/7d217137cb.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.01839828491211,
+        "rating": 8.018378257751465,
         "season": 3,
         "runtime": 65,
         "overview": "Mike's plan for the warring factions in Kingstown hits turbulence.",
         "released": "2024-08-04",
         "number_abs": 30,
-        "updated_at": "2026-08-08T23:11:32.000Z",
+        "updated_at": "2026-08-09T04:44:19.000Z",
         "first_aired": "2024-08-04T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -45983,7 +45983,7 @@
         "overview": "The POWs are marched across Germany\u2014and Rosie makes a gruesome discovery\u2014as the war comes to its conclusion.",
         "released": "2024-03-15",
         "number_abs": 9,
-        "updated_at": "2026-08-08T06:30:19.000Z",
+        "updated_at": "2026-08-09T04:42:30.000Z",
         "first_aired": "2024-03-15T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -95526,7 +95526,7 @@
         "overview": "Months later\u2026",
         "released": "2024-01-12",
         "number_abs": 10,
-        "updated_at": "2026-08-08T04:50:25.000Z",
+        "updated_at": "2026-08-09T05:01:50.000Z",
         "first_aired": "2024-01-15T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -104273,7 +104273,7 @@
         "overview": "While planning a showcase for her upcoming tour, Jocelyn begins to take control of the relationships around her \u2013 much to Tedros\u2019s dismay. Later, a meeting with Jocelyn disrupts Nikki\u2019s plans for Dyanne, as disturbing news about Jocelyn\u2019s ex emerges.",
         "released": null,
         "number_abs": 5,
-        "updated_at": "2026-08-08T04:30:19.000Z",
+        "updated_at": "2026-08-09T04:31:48.000Z",
         "first_aired": "2023-07-03T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -106163,20 +106163,20 @@
           "trakt": 14143102
         },
         "title": "Home",
-        "votes": 1143,
+        "votes": 1146,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.308835983276367,
+        "rating": 8.309773445129395,
         "season": 4,
         "runtime": 42,
         "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
         "released": "2026-08-05",
         "number_abs": 35,
-        "updated_at": "2026-08-09T04:15:33.000Z",
+        "updated_at": "2026-08-09T04:58:15.000Z",
         "first_aired": "2026-08-05T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -110630,7 +110630,7 @@
         "overview": "Hank is faced with an impossible decision at work, as his department\u2019s jobs are on the line. Lily settles into a new normal in New York.",
         "released": "2023-05-04",
         "number_abs": 8,
-        "updated_at": "2026-08-08T08:30:51.000Z",
+        "updated_at": "2026-08-09T05:01:32.000Z",
         "first_aired": "2023-05-08T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -121018,7 +121018,7 @@
         "overview": "Eight years later, a new mission begins: Capture an asteroid. Aleida and Danielle are still haunted by events from the past.",
         "released": "2023-11-10",
         "number_abs": 31,
-        "updated_at": "2026-08-08T15:58:27.000Z",
+        "updated_at": "2026-08-09T05:21:50.000Z",
         "first_aired": "2023-11-10T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -124547,7 +124547,7 @@
         "overview": "With Umbrella forces closing in, Jade encourages the use of a monstrous weapon. Teenage Jade enlists Simon on a fateful mission into Umbrella's HQ.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-08-08T15:25:02.000Z",
+        "updated_at": "2026-08-09T04:51:17.000Z",
         "first_aired": "2022-07-14T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -126460,7 +126460,7 @@
         "overview": "Cassie manages to connect the dots in a far-reaching conspiracy, while Megan tries to make amends with Shane.",
         "released": "2022-05-26",
         "number_abs": 16,
-        "updated_at": "2026-08-08T05:08:34.000Z",
+        "updated_at": "2026-08-09T05:09:03.000Z",
         "first_aired": "2022-05-26T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -128690,7 +128690,7 @@
         "overview": "Fractured friendships. Telling texts. Raw emotions. Hot gossip. The cast sit down with host Tan France to talk about the season and their lives today.",
         "released": null,
         "number_abs": 45,
-        "updated_at": "2026-08-08T04:21:49.000Z",
+        "updated_at": "2026-08-09T05:01:40.000Z",
         "first_aired": "2022-05-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -130416,7 +130416,7 @@
         "overview": "The gang kills Keef Knight.",
         "released": "2022-04-08",
         "number_abs": 16,
-        "updated_at": "2026-08-08T04:01:31.000Z",
+        "updated_at": "2026-08-09T04:52:52.000Z",
         "first_aired": "2022-04-08T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -138113,7 +138113,7 @@
         "overview": "Night falls on Crockett Island as a tight-knit group of rebels take refuge where they can and forge a plan to control the chaos.",
         "released": "2021-09-24",
         "number_abs": 7,
-        "updated_at": "2026-08-08T04:28:52.000Z",
+        "updated_at": "2026-08-09T04:30:27.000Z",
         "first_aired": "2021-09-24T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -144953,7 +144953,7 @@
         "overview": "After Amalia's origin story is revealed, a long-awaited reunion crystallizes the Orphans' mission.",
         "released": "2021-05-16",
         "number_abs": 6,
-        "updated_at": "2026-08-08T05:04:27.000Z",
+        "updated_at": "2026-08-09T05:05:26.000Z",
         "first_aired": "2021-05-17T01:00:00.000Z",
         "episode_type": "mid_season_finale",
         "after_credits": false,
@@ -145534,7 +145534,7 @@
         "overview": "A trip upstate leads to reflections on the past and present.",
         "released": "2021-05-23",
         "number_abs": 25,
-        "updated_at": "2026-08-08T03:58:47.000Z",
+        "updated_at": "2026-08-09T04:51:14.000Z",
         "first_aired": "2021-05-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -164818,13 +164818,13 @@
           ]
         },
         "number": 10,
-        "rating": 8.389639854431152,
+        "rating": 8.388137817382812,
         "season": 9,
         "runtime": 47,
         "overview": "Facing its potential destruction, the partners must go all in to save the firm.",
         "released": "2019-09-26",
         "number_abs": 134,
-        "updated_at": "2026-08-08T04:33:37.000Z",
+        "updated_at": "2026-08-09T04:47:48.000Z",
         "first_aired": "2019-09-26T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -171313,7 +171313,7 @@
         "overview": "James Comey awakens on November 9, 2016, now known nationally as \"the man who got Donald Trump elected.\" With that hanging over him, he now must try to find a way to work with the new President. That grows complicated when it becomes clear that Trump wants to use Comey, the Bureau, and the Department of Justice for his own political aims - forcing these two men on a collision course whose result is as inevitable as it is tragic. Series Finale.",
         "released": "2020-09-29",
         "number_abs": 2,
-        "updated_at": "2026-08-08T04:17:33.000Z",
+        "updated_at": "2026-08-09T05:04:08.000Z",
         "first_aired": "2020-09-29T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -173567,7 +173567,7 @@
         "overview": "Dorothy and the Candlemaker finally face-off, while the Doom Patrol \u2013 now freed from their wax encasings \u2013 face troubling side effects. Rita holds the key, but is she ready to answer the call?",
         "released": "2021-09-23",
         "number_abs": 25,
-        "updated_at": "2026-08-08T05:01:35.000Z",
+        "updated_at": "2026-08-09T05:07:21.000Z",
         "first_aired": "2021-09-23T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -175249,7 +175249,7 @@
         "overview": "Everything ends. For real this time.",
         "released": "2019-12-16",
         "number_abs": 9,
-        "updated_at": "2026-08-08T04:17:58.000Z",
+        "updated_at": "2026-08-09T04:34:16.000Z",
         "first_aired": "2019-12-16T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -178542,7 +178542,7 @@
         "overview": "As the Oscars approach, Ernie shares devastating news, Camille listens to sage advice from Hattie McDaniel, and Archie takes a stand on the red carpet.",
         "released": "2020-05-01",
         "number_abs": 7,
-        "updated_at": "2026-08-08T04:45:32.000Z",
+        "updated_at": "2026-08-09T05:08:26.000Z",
         "first_aired": "2020-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -179352,7 +179352,7 @@
         "overview": "Eric, starving and bereft of allies, is finally captured. But as his day in court\u2014and Richard's exoneration\u2014approaches, he has another dangerous secret in store for law enforcement.",
         "released": "2020-02-04",
         "number_abs": 18,
-        "updated_at": "2026-08-08T04:14:54.000Z",
+        "updated_at": "2026-08-09T04:58:43.000Z",
         "first_aired": "2020-02-03T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -190265,7 +190265,7 @@
         "overview": "Celeste questions Mary Louise about a tragic event from Perry\u2019s childhood. Madeline worries their lie is tearing the Monterey Five apart.",
         "released": "2019-07-22",
         "number_abs": 14,
-        "updated_at": "2026-08-08T15:24:49.000Z",
+        "updated_at": "2026-08-09T04:42:32.000Z",
         "first_aired": "2019-07-22T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -191228,7 +191228,7 @@
         "overview": "Valery Legasov, Boris Shcherbina and Ulana Khomyuk risk their lives and reputations to expose the truth about Chernobyl.",
         "released": "2019-06-04",
         "number_abs": 5,
-        "updated_at": "2026-08-08T18:13:08.000Z",
+        "updated_at": "2026-08-09T04:54:37.000Z",
         "first_aired": "2019-06-04T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -194620,7 +194620,7 @@
         "overview": "London, 2005. Having always dreamed of being an orphan, Patrick now has his wish at the age of 46. No longer with Mary, Patrick is clean and living alone in a grim bedsit.",
         "released": "2018-06-10",
         "number_abs": 5,
-        "updated_at": "2026-08-08T04:59:37.000Z",
+        "updated_at": "2026-08-09T05:08:26.000Z",
         "first_aired": "2018-06-09T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -194914,7 +194914,7 @@
         "overview": "Nadia's 40th birthday is a few days away, and she's planning to celebrate it quietly with Alan. Then something really strange happens.",
         "released": "2022-04-20",
         "number_abs": 9,
-        "updated_at": "2026-08-09T04:04:39.000Z",
+        "updated_at": "2026-08-09T05:05:46.000Z",
         "first_aired": "2022-04-20T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -213980,7 +213980,7 @@
         "overview": "In a desperate bid to slay Francis Dolarhyde, Will engineers a cunning ploy involving Hannibal.",
         "released": "2015-08-30",
         "number_abs": 39,
-        "updated_at": "2026-08-08T04:58:34.000Z",
+        "updated_at": "2026-08-09T05:01:09.000Z",
         "first_aired": "2015-08-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
