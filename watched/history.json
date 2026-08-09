@@ -1,5 +1,41 @@
 [
   {
+    "id": 14222717863,
+    "watched_at": "2026-08-09T04:50:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35522450",
+        "plex": {
+          "guid": "6960ffef6b1c29e3bc19c176"
+        },
+        "tmdb": 6824721,
+        "tvdb": 11546783,
+        "trakt": 13886051
+      },
+      "title": "Those Blue Remembered Hills",
+      "number": 6,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    }
+  },
+  {
     "id": 14219911615,
     "watched_at": "2026-08-08T20:39:00.000Z",
     "action": "checkin",
@@ -399240,7 +399276,7 @@
       "ids": {
         "imdb": "tt3757640",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f80"
         },
         "tmdb": 987916,
         "tvdb": 4886895,
@@ -399492,7 +399528,7 @@
       "ids": {
         "imdb": "tt3732468",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2192ba001f3902ec"
         },
         "tmdb": 985651,
         "tvdb": 4878597,
@@ -399564,7 +399600,7 @@
       "ids": {
         "imdb": "tt3732464",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f84"
         },
         "tmdb": 985650,
         "tvdb": 4878596,
@@ -400520,7 +400556,7 @@
       "ids": {
         "imdb": "tt3720900",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f7c"
         },
         "tmdb": 978059,
         "tvdb": 4871993,
@@ -401096,7 +401132,7 @@
       "ids": {
         "imdb": "tt3702968",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e4eefaa001f64f852"
         },
         "tmdb": 976278,
         "tvdb": 4856433,
@@ -401732,7 +401768,7 @@
       "ids": {
         "imdb": "tt3695142",
         "plex": {
-          "guid": null
+          "guid": "5d9c136eba6eb9001fc21396"
         },
         "tmdb": 975749,
         "tvdb": 4855024,
@@ -401840,7 +401876,7 @@
       "ids": {
         "imdb": "tt3695146",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ee98e47001eb8f924"
         },
         "tmdb": 975748,
         "tvdb": 4855023,
@@ -401948,7 +401984,7 @@
       "ids": {
         "imdb": "tt3695140",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e4eefaa001f64f83a"
         },
         "tmdb": 971214,
         "tvdb": 4855022,
@@ -437564,7 +437600,7 @@
       "ids": {
         "imdb": "tt3662256",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f8c"
         },
         "tmdb": 975627,
         "tvdb": 4841975,
@@ -441752,7 +441788,7 @@
       "ids": {
         "imdb": "tt3609686",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e4eefaa001f64f846"
         },
         "tmdb": 974144,
         "tvdb": 4821468,
@@ -441824,7 +441860,7 @@
       "ids": {
         "imdb": "tt3609680",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ee264b7001fcb60cc"
         },
         "tmdb": 974143,
         "tvdb": 4821467,
@@ -441932,7 +441968,7 @@
       "ids": {
         "imdb": "tt3609684",
         "plex": {
-          "guid": null
+          "guid": "5d9c136eba6eb9001fc2139e"
         },
         "tmdb": 974142,
         "tvdb": 4821466,
@@ -442292,7 +442328,7 @@
       "ids": {
         "imdb": "tt3583794",
         "plex": {
-          "guid": null
+          "guid": "5d9c136eba6eb9001fc2138a"
         },
         "tmdb": 973956,
         "tvdb": 4809979,
@@ -442616,7 +442652,7 @@
       "ids": {
         "imdb": "tt3583792",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e4eefaa001f64f84a"
         },
         "tmdb": 973551,
         "tvdb": 4809976,
@@ -444020,7 +444056,7 @@
       "ids": {
         "imdb": "tt3548246",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ee264b7001fcb60e4"
         },
         "tmdb": 972793,
         "tvdb": 4798819,
@@ -444632,7 +444668,7 @@
       "ids": {
         "imdb": "tt3517362",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2192ba001f3902f4"
         },
         "tmdb": 972565,
         "tvdb": 4792277,
@@ -445456,7 +445492,7 @@
       "ids": {
         "imdb": "tt3486644",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f64"
         },
         "tmdb": 972136,
         "tvdb": 4784726,
@@ -446536,7 +446572,7 @@
       "ids": {
         "imdb": "tt3470440",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ee264b7001fcb60c4"
         },
         "tmdb": 971658,
         "tvdb": 4772168,
@@ -446608,7 +446644,7 @@
       "ids": {
         "imdb": "tt3470438",
         "plex": {
-          "guid": null
+          "guid": "5d9c136effd9ef001ea0ab0e"
         },
         "tmdb": 971657,
         "tvdb": 4772167,
@@ -447040,7 +447076,7 @@
       "ids": {
         "imdb": "tt3470426",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2df347001e426c00"
         },
         "tmdb": 971516,
         "tvdb": 4767942,
@@ -447112,7 +447148,7 @@
       "ids": {
         "imdb": "tt3470430",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e3c3f87001f3cb942"
         },
         "tmdb": 971515,
         "tvdb": 4767941,
@@ -447328,7 +447364,7 @@
       "ids": {
         "imdb": "tt3468174",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ee264b7001fcb60c0"
         },
         "tmdb": 971513,
         "tvdb": 4767939,
@@ -447616,7 +447652,7 @@
       "ids": {
         "imdb": "tt3455594",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e3c3f87001f3cb936"
         },
         "tmdb": 970990,
         "tvdb": 4749779,
@@ -447832,7 +447868,7 @@
       "ids": {
         "imdb": "tt3452574",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e7b5c2e001e6d25eb"
         },
         "tmdb": 970988,
         "tvdb": 4749777,
@@ -448336,7 +448372,7 @@
       "ids": {
         "imdb": "tt3429586",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e2df347001e426c14"
         },
         "tmdb": 970864,
         "tvdb": 4742438,
@@ -448624,7 +448660,7 @@
       "ids": {
         "imdb": "tt3413638",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e3c3f87001f3cb922"
         },
         "tmdb": 970341,
         "tvdb": 4729632,
@@ -449164,7 +449200,7 @@
       "ids": {
         "imdb": "tt3384466",
         "plex": {
-          "guid": null
+          "guid": "5d9c136effd9ef001ea0ab1a"
         },
         "tmdb": 969496,
         "tvdb": 4729627,
@@ -449236,7 +449272,7 @@
       "ids": {
         "imdb": "tt3384462",
         "plex": {
-          "guid": null
+          "guid": "5d9c136effd9ef001ea0ab1e"
         },
         "tmdb": 969495,
         "tvdb": 4729626,
@@ -449308,7 +449344,7 @@
       "ids": {
         "imdb": "tt3382152",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e7b5c2e001e6d2603"
         },
         "tmdb": 969494,
         "tvdb": 4729625,
@@ -450464,7 +450500,7 @@
       "ids": {
         "imdb": "tt3323076",
         "plex": {
-          "guid": null
+          "guid": "5d9c136ecb3ffa001f1dd471"
         },
         "tmdb": 968863,
         "tvdb": 4703897,
@@ -450716,7 +450752,7 @@
       "ids": {
         "imdb": "tt3316514",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f6c"
         },
         "tmdb": 968786,
         "tvdb": 4703894,
@@ -452192,7 +452228,7 @@
       "ids": {
         "imdb": "tt3263534",
         "plex": {
-          "guid": null
+          "guid": "5d9c136e02391c001f601f54"
         },
         "tmdb": 966474,
         "tvdb": 4695047,

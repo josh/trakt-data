@@ -2,6 +2,294 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    },
+    "progress": {
+      "aired": 18,
+      "completed": 16,
+      "last_watched_at": "2026-08-09T04:50:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35522450",
+          "plex": {
+            "guid": "6960ffef6b1c29e3bc19c176"
+          },
+          "tmdb": 6824721,
+          "tvdb": 11546783,
+          "trakt": 13886051
+        },
+        "title": "Those Blue Remembered Hills",
+        "votes": 382,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/051/screenshots/medium/8e77626950.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.329843044281006,
+        "season": 2,
+        "runtime": 52,
+        "overview": "Josh and Austin try to mend fences with a training session. Lindsay tutors Ashley in the delicate art of winning over the club's wives.",
+        "released": "2026-04-16",
+        "number_abs": 16,
+        "updated_at": "2026-08-08T23:36:52.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Those Blue Remembered Hills",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35522451",
+          "plex": {
+            "guid": "6960ffef6b1c29e3bc19c16b"
+          },
+          "tmdb": 6824722,
+          "tvdb": 11546784,
+          "trakt": 13886052
+        },
+        "title": "The Hour of Separation",
+        "votes": 397,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/886/052/screenshots/medium/77b5fd28f7.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.554156303405762,
+        "season": 2,
+        "runtime": 42,
+        "overview": "Ashley, Lindsay and Ava's girls' getaway to Seoul is upended by old tensions, new revelations and shocking confessions at 30,000 feet.",
+        "released": "2026-04-16",
+        "number_abs": 17,
+        "updated_at": "2026-08-08T19:04:06.000Z",
+        "first_aired": "2026-04-16T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "The Hour of Separation",
+        "available_translations": [],
+        "effective_release_date": "2026-04-16T07:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 16,
+        "minutes_watched": 612,
+        "minutes_left": 97
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Season 1",
+          "aired": 10,
+          "completed": 10,
+          "stats": {
+            "play_count": 10,
+            "minutes_watched": 352,
+            "minutes_left": 0
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-04-07T03:02:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 39
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-04-07T03:47:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 33
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-04-07T04:49:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 35
+              }
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-04-08T01:39:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 36
+              }
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-04-08T02:17:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 34
+              }
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2023-04-08T02:48:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 37
+              }
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2023-04-08T03:26:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 37
+              }
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2023-04-08T03:56:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 36
+              }
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2023-04-08T04:27:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 31
+              }
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2023-04-08T05:01:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 34
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Season 2",
+          "aired": 8,
+          "completed": 6,
+          "stats": {
+            "play_count": 6,
+            "minutes_watched": 260,
+            "minutes_left": 97
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-08-07T04:41:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 43
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2026-08-07T05:33:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 49
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2026-08-08T04:25:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 50
+              }
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2026-08-08T05:00:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 34
+              }
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2026-08-08T05:26:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 32
+              }
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2026-08-09T04:50:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 52
+              }
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt11198330",
         "plex": {
           "guid": "5e160ed3e68804001e87a7b5",
@@ -7435,294 +7723,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt14403178",
-        "plex": {
-          "guid": "61cdd57fcd8c10ae5aca39f4",
-          "slug": "beef-1"
-        },
-        "slug": "beef",
-        "tmdb": 154385,
-        "tvdb": 399838,
-        "trakt": 197667
-      },
-      "year": 2023,
-      "title": "BEEF",
-      "aired_episodes": 18
-    },
-    "progress": {
-      "aired": 18,
-      "completed": 15,
-      "last_watched_at": "2026-08-08T05:26:00.000Z",
-      "reset_at": null,
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35522456",
-          "plex": {
-            "guid": "6960fff06b1c29e3bc19c181"
-          },
-          "tmdb": 6824720,
-          "tvdb": 11546782,
-          "trakt": 13886050
-        },
-        "title": "I Am Killing My Flesh Without It",
-        "votes": 386,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/886/050/screenshots/medium/268fbd7a32.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.297927379608154,
-        "season": 2,
-        "runtime": 32,
-        "overview": "Lindsay and Josh's marital strife comes to a head when an unexpected crisis hits home.",
-        "released": "2026-04-16",
-        "number_abs": 15,
-        "updated_at": "2026-08-08T23:13:32.000Z",
-        "first_aired": "2026-04-16T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "I Am Killing My Flesh Without It",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T07:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35522450",
-          "plex": {
-            "guid": "6960ffef6b1c29e3bc19c176"
-          },
-          "tmdb": 6824721,
-          "tvdb": 11546783,
-          "trakt": 13886051
-        },
-        "title": "Those Blue Remembered Hills",
-        "votes": 382,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/886/051/screenshots/medium/8e77626950.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.329843044281006,
-        "season": 2,
-        "runtime": 52,
-        "overview": "Josh and Austin try to mend fences with a training session. Lindsay tutors Ashley in the delicate art of winning over the club's wives.",
-        "released": "2026-04-16",
-        "number_abs": 16,
-        "updated_at": "2026-08-08T23:36:52.000Z",
-        "first_aired": "2026-04-16T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "Those Blue Remembered Hills",
-        "available_translations": [],
-        "effective_release_date": "2026-04-16T07:00:00.000Z"
-      },
-      "stats": {
-        "play_count": 15,
-        "minutes_watched": 560,
-        "minutes_left": 149
-      },
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Season 1",
-          "aired": 10,
-          "completed": 10,
-          "stats": {
-            "play_count": 10,
-            "minutes_watched": 352,
-            "minutes_left": 0
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-04-07T03:02:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 39
-              }
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-04-07T03:47:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 33
-              }
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-04-07T04:49:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 35
-              }
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-04-08T01:39:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 36
-              }
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-04-08T02:17:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 34
-              }
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2023-04-08T02:48:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 37
-              }
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2023-04-08T03:26:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 37
-              }
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2023-04-08T03:56:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 36
-              }
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2023-04-08T04:27:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 31
-              }
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2023-04-08T05:01:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 34
-              }
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": "Season 2",
-          "aired": 8,
-          "completed": 5,
-          "stats": {
-            "play_count": 5,
-            "minutes_watched": 208,
-            "minutes_left": 149
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2026-08-07T04:41:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 43
-              }
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2026-08-07T05:33:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 49
-              }
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2026-08-08T04:25:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 50
-              }
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2026-08-08T05:00:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 34
-              }
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2026-08-08T05:26:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 32
-              }
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": []
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt42127457",
         "plex": {
           "guid": "687b81e4fc650b409c413a5b",
@@ -8257,20 +8257,20 @@
           "trakt": 13527591
         },
         "title": "The Man in the Mask",
-        "votes": 1090,
+        "votes": 1091,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/591/screenshots/medium/90c9a42855.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.160550117492676,
+        "rating": 8.16040325164795,
         "season": 1,
         "runtime": 46,
         "overview": "Gee whiz, what's a down-on-his-luck private investigator to do?",
         "released": "2026-05-25",
         "number_abs": 8,
-        "updated_at": "2026-08-09T03:27:11.000Z",
+        "updated_at": "2026-08-09T03:39:01.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -10346,11 +10346,11 @@
         "overview": "In the wake of another shocking scandal, the neighborhood gathers for Father's Day at the country club.",
         "released": "2026-06-05",
         "number_abs": 19,
-        "updated_at": "2026-08-09T02:26:49.000Z",
+        "updated_at": "2026-08-09T03:33:57.000Z",
         "first_aired": "2026-06-05T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 11,
+        "comment_count": 12,
         "during_credits": false,
         "original_title": "The Night of the Hunter",
         "available_translations": [],
@@ -12075,20 +12075,20 @@
           "trakt": 13791980
         },
         "title": "Exodus",
-        "votes": 926,
+        "votes": 927,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/791/980/screenshots/medium/38731778d1.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.190064430236816,
+        "rating": 8.192017555236816,
         "season": 2,
         "runtime": 53,
         "overview": "Worlds collide. Time is of the essence for Xavier. Link and his team spring into action. Sinatra puts it all on the line.",
         "released": "2026-03-30",
         "number_abs": 16,
-        "updated_at": "2026-08-08T16:18:38.000Z",
+        "updated_at": "2026-08-09T03:42:01.000Z",
         "first_aired": "2026-03-30T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -12312,20 +12312,20 @@
           "trakt": 13608714
         },
         "title": "Break Free",
-        "votes": 83,
+        "votes": 84,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/608/714/screenshots/medium/c6536ac383.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.277108669281006,
+        "rating": 7.309523582458496,
         "season": 2,
         "runtime": 42,
         "overview": "In the fallout of a bitter dispute and family tragedy, Camille and Issei both seek new beginnings.",
         "released": "2026-03-11",
         "number_abs": 16,
-        "updated_at": "2026-08-08T20:51:25.000Z",
+        "updated_at": "2026-08-09T04:12:53.000Z",
         "first_aired": "2026-03-10T23:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -13857,7 +13857,7 @@
         "overview": "Don't let your babies grow up to be cowboys.",
         "released": "2026-01-27",
         "number_abs": 8,
-        "updated_at": "2026-08-08T15:09:32.000Z",
+        "updated_at": "2026-08-09T04:05:05.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -17592,7 +17592,7 @@
         "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
         "released": "2025-10-23",
         "number_abs": 20,
-        "updated_at": "2026-08-08T21:30:38.000Z",
+        "updated_at": "2026-08-09T04:22:02.000Z",
         "first_aired": "2025-10-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -18082,20 +18082,20 @@
           "trakt": 13401047
         },
         "title": "A Still Small Voice",
-        "votes": 1155,
+        "votes": 1156,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/401/047/screenshots/medium/ce41b4e20e.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.993939399719238,
+        "rating": 7.9939446449279785,
         "season": 1,
         "runtime": 59,
         "overview": "In the wake of the showdown, the now-disbanded Task Force members continue to seek answers. As the Dark Hearts mobilize to cover their tracks, a shocking revelation leads them to a final confrontation.",
         "released": "2025-10-20",
         "number_abs": 7,
-        "updated_at": "2026-08-08T19:05:28.000Z",
+        "updated_at": "2026-08-09T04:00:58.000Z",
         "first_aired": "2025-10-20T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -21570,11 +21570,11 @@
         "overview": "Dexter and Harrison face the consequences of their darkness.",
         "released": "2025-09-05",
         "number_abs": 10,
-        "updated_at": "2026-08-08T03:49:36.000Z",
+        "updated_at": "2026-08-09T03:50:55.000Z",
         "first_aired": "2025-09-08T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 52,
+        "comment_count": 51,
         "during_credits": false,
         "original_title": "And Justice for All...",
         "available_translations": [],
@@ -25468,20 +25468,20 @@
           "trakt": 12565635
         },
         "title": "Goodbye",
-        "votes": 1319,
+        "votes": 1320,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/635/screenshots/medium/5d74e82777.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.810462474822998,
+        "rating": 7.811363697052002,
         "season": 4,
         "runtime": 34,
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-08-08T21:51:48.000Z",
+        "updated_at": "2026-08-09T03:39:01.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -25502,20 +25502,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1229,
+        "votes": 1230,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.660699844360352,
+        "rating": 7.661788463592529,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-08T20:33:55.000Z",
+        "updated_at": "2026-08-09T04:01:43.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -26554,7 +26554,7 @@
         "overview": "As Jun-ho races to reach the island, tensions peak in the final round. The last players face an impossible situation in the closing minutes of the game.",
         "released": "2025-06-27",
         "number_abs": 22,
-        "updated_at": "2026-08-08T15:23:18.000Z",
+        "updated_at": "2026-08-09T04:00:58.000Z",
         "first_aired": "2025-06-27T08:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -28496,7 +28496,7 @@
         "overview": "As the Wolves and the Scars prepare for a battle that could potentially end their longstanding feud, Ellie's search draws her away from her friends and toward a devastating confrontation.",
         "released": "2025-05-26",
         "number_abs": 16,
-        "updated_at": "2026-08-08T20:13:18.000Z",
+        "updated_at": "2026-08-09T03:40:41.000Z",
         "first_aired": "2025-05-26T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -30927,7 +30927,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-08-08T17:40:17.000Z",
+        "updated_at": "2026-08-09T03:42:01.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -31732,7 +31732,7 @@
         "overview": "Laurie, Jaclyn, and Kate reckon with their friendship. Timothy comes up with a shocking plan for his family. Belinda considers a deal.",
         "released": "2025-04-07",
         "number_abs": 21,
-        "updated_at": "2026-08-08T18:51:54.000Z",
+        "updated_at": "2026-08-09T03:52:03.000Z",
         "first_aired": "2025-04-07T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -32027,7 +32027,7 @@
         "overview": "The extent of the conspiracy is revealed. Elliot's past and present collide and the Gangs take revenge, changing London forever.",
         "released": null,
         "number_abs": 25,
-        "updated_at": "2026-08-08T04:25:48.000Z",
+        "updated_at": "2026-08-09T04:27:00.000Z",
         "first_aired": "2025-05-08T20:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -33566,7 +33566,7 @@
         "overview": "Mark forms a shaky alliance in an all-or-nothing play, while the team makes a dangerous last stand.",
         "released": "2025-03-21",
         "number_abs": 19,
-        "updated_at": "2026-08-08T18:51:54.000Z",
+        "updated_at": "2026-08-09T03:43:07.000Z",
         "first_aired": "2025-03-21T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -34692,20 +34692,20 @@
           "trakt": 14195944
         },
         "title": "Kick the Wasp's Nest",
-        "votes": 403,
+        "votes": 404,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.729528427124023,
+        "rating": 7.7351484298706055,
         "season": 2,
         "runtime": 51,
         "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
         "released": "2026-06-21",
         "number_abs": 11,
-        "updated_at": "2026-08-09T02:28:38.000Z",
+        "updated_at": "2026-08-09T04:04:10.000Z",
         "first_aired": "2026-06-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35021,20 +35021,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 692,
+        "votes": 694,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.66618537902832,
+        "rating": 8.655619621276855,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-09T03:14:33.000Z",
+        "updated_at": "2026-08-09T03:43:55.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35324,20 +35324,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2585,
+        "votes": 2586,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.828239917755127,
+        "rating": 7.8279194831848145,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-09T02:11:49.000Z",
+        "updated_at": "2026-08-09T04:23:25.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -37403,7 +37403,7 @@
         "overview": "As the Duttons and the Yellowstone cowboys lay John to rest, the fate of the ranch is revealed.",
         "released": "2024-12-16",
         "number_abs": 53,
-        "updated_at": "2026-08-09T02:33:59.000Z",
+        "updated_at": "2026-08-09T04:01:51.000Z",
         "first_aired": "2024-12-16T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -41056,7 +41056,7 @@
         "overview": "A twist in the police investigation plunges the Winbury family further into crisis. As long-buried secrets emerge, so does the truth about what happened.",
         "released": "2024-09-05",
         "number_abs": 6,
-        "updated_at": "2026-08-08T03:48:04.000Z",
+        "updated_at": "2026-08-09T03:54:04.000Z",
         "first_aired": "2024-09-05T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -41389,7 +41389,7 @@
         "overview": "While Kitty and Donna clash over parenting styles, a defiant Leia joins her friends for a end of summer tradition. Nate makes a heartwarming sacrifice.",
         "released": null,
         "number_abs": 26,
-        "updated_at": "2026-08-08T03:25:13.000Z",
+        "updated_at": "2026-08-09T03:33:57.000Z",
         "first_aired": "2024-08-22T13:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -43510,7 +43510,7 @@
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-08-08T15:26:26.000Z",
+        "updated_at": "2026-08-09T04:14:00.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -90007,7 +90007,7 @@
         "overview": "The team struggles to find a way out of Axis Mundi. Kentaro and Tim make an unexpected alliance.",
         "released": "2024-01-12",
         "number_abs": 10,
-        "updated_at": "2026-08-08T15:23:50.000Z",
+        "updated_at": "2026-08-09T04:09:55.000Z",
         "first_aired": "2024-01-12T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -90041,7 +90041,7 @@
         "overview": "Decades after being presumed dead, Keiko's return shocks Monarch. Cate defies orders to save Shaw\u2014and unleashes a terrifying new Titan.",
         "released": "2026-02-27",
         "number_abs": 11,
-        "updated_at": "2026-08-08T22:52:05.000Z",
+        "updated_at": "2026-08-09T03:58:31.000Z",
         "first_aired": "2026-02-27T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -92412,7 +92412,7 @@
         "overview": "Gaal has a disturbing vision. Day's bond with Queen Sareth grows stronger. The Vault opens and reveals a cryptic message.",
         "released": "2023-07-21",
         "number_abs": 12,
-        "updated_at": "2026-08-08T18:51:57.000Z",
+        "updated_at": "2026-08-09T03:58:30.000Z",
         "first_aired": "2023-07-21T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -94506,7 +94506,7 @@
         "overview": "Lauren spends Thanksgiving attempting to impress his 13-year-old son Ginsberg by interviewing Hugh Laurie. Fabian is caught between her principles and her family.",
         "released": "2024-01-25",
         "number_abs": 6,
-        "updated_at": "2026-08-07T13:18:28.000Z",
+        "updated_at": "2026-08-09T04:21:15.000Z",
         "first_aired": "2024-01-25T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -97157,7 +97157,7 @@
         "overview": "When 456 new players enter the competition, they quickly learn why every second will count. A nerve-wracking pentathlon whittles down the field.",
         "released": "2025-11-04",
         "number_abs": 11,
-        "updated_at": "2026-08-08T04:20:19.000Z",
+        "updated_at": "2026-08-09T04:22:01.000Z",
         "first_aired": "2025-11-04T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -102481,7 +102481,7 @@
         "overview": "Everything comes to a head as John and Quiet face a difficult choice; new players enter the fray.",
         "released": "2023-07-27",
         "number_abs": 10,
-        "updated_at": "2026-08-08T04:19:28.000Z",
+        "updated_at": "2026-08-09T04:22:23.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -106163,20 +106163,20 @@
           "trakt": 14143102
         },
         "title": "Home",
-        "votes": 1137,
+        "votes": 1143,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.313104629516602,
+        "rating": 8.308835983276367,
         "season": 4,
         "runtime": 42,
         "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
         "released": "2026-08-05",
         "number_abs": 35,
-        "updated_at": "2026-08-09T03:06:27.000Z",
+        "updated_at": "2026-08-09T04:15:33.000Z",
         "first_aired": "2026-08-05T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -110474,7 +110474,7 @@
         "overview": "As Marsiversary celebrations begin, Trevor tracks Hubert and Crystal searches for a missing Jeff -- following a trail that leads to Tee's crew.",
         "released": "2023-05-11",
         "number_abs": 8,
-        "updated_at": "2026-08-08T03:04:03.000Z",
+        "updated_at": "2026-08-09T04:04:52.000Z",
         "first_aired": "2023-05-11T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -112761,7 +112761,7 @@
         "overview": "Michael exposes shocking information that impacts everyone. A startling revelation pushes Fia to make a life-altering decision. Big Mo proposes a deal with Jimmy Baxter. Gina manipulates her father Carmine to make a move of her own.",
         "released": "2023-03-17",
         "number_abs": 20,
-        "updated_at": "2026-08-08T08:24:59.000Z",
+        "updated_at": "2026-08-09T04:22:05.000Z",
         "first_aired": "2023-03-20T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -117187,7 +117187,7 @@
         "overview": "Wednesday lands in trouble with Principal Weems, but that's just the start of her problems. To fight an ancient evil, she'll need all her friends\u2019 help.",
         "released": "2022-11-23",
         "number_abs": 8,
-        "updated_at": "2026-08-08T03:42:03.000Z",
+        "updated_at": "2026-08-09T03:42:17.000Z",
         "first_aired": "2022-11-23T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -117703,7 +117703,7 @@
         "overview": "You know what? As much as I hated this show, I think I'm gonna miss it.",
         "released": "2022-11-11",
         "number_abs": 41,
-        "updated_at": "2026-08-08T03:43:33.000Z",
+        "updated_at": "2026-08-09T03:51:59.000Z",
         "first_aired": "2022-11-11T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -120007,7 +120007,7 @@
         "overview": "Allison comes to terms with what she's running from and what she left behind.",
         "released": null,
         "number_abs": 16,
-        "updated_at": "2026-08-08T03:24:29.000Z",
+        "updated_at": "2026-08-09T03:37:14.000Z",
         "first_aired": "2022-10-11T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -127961,7 +127961,7 @@
         "overview": "As the Germans surrender, it appears that that the hard days for Easy Company are over as they are stationed in Austria. But they soon learn that those solders without enough service points will be sent to fight in Japan.",
         "released": "2001-11-05",
         "number_abs": 10,
-        "updated_at": "2026-08-08T06:40:44.000Z",
+        "updated_at": "2026-08-09T04:06:20.000Z",
         "first_aired": "2001-11-05T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -133702,7 +133702,7 @@
         "overview": "Dexter and Harrison try to live a normal life in a place that they have discovered is not as normal as they thought it was. Will the two of them be able to live happily ever after, despite all the threats coming their way?",
         "released": "2022-01-10",
         "number_abs": 10,
-        "updated_at": "2026-08-08T18:07:20.000Z",
+        "updated_at": "2026-08-09T03:51:25.000Z",
         "first_aired": "2022-01-10T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -136663,7 +136663,7 @@
         "overview": "Vi and Caitlyn wrestle with how best to respond in the wake of a terrible tragedy that claims lives \u2014 and escalates tensions between the twin cities.",
         "released": "2024-11-09",
         "number_abs": 10,
-        "updated_at": "2026-08-08T18:51:55.000Z",
+        "updated_at": "2026-08-09T03:45:21.000Z",
         "first_aired": "2024-11-09T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -175892,20 +175892,20 @@
           "trakt": 2226237
         },
         "title": "The Book of Nora",
-        "votes": 1647,
+        "votes": 1648,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/002/226/237/screenshots/medium/73748c7065.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.326654434204102,
+        "rating": 8.325849533081055,
         "season": 3,
         "runtime": 73,
         "overview": "Nothing is answered. Everything is answered. And then it ends.",
         "released": "2017-06-05",
         "number_abs": 28,
-        "updated_at": "2026-08-08T19:04:34.000Z",
+        "updated_at": "2026-08-09T04:15:04.000Z",
         "first_aired": "2017-06-05T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -176304,7 +176304,7 @@
         "overview": "A honky-tonk dance instructor known for her Daisy Dukes isn't your typical grandma. Her daughter wants her to rein it in \u2013 but change won't be easy.",
         "released": "2021-12-31",
         "number_abs": 43,
-        "updated_at": "2026-08-08T02:39:31.000Z",
+        "updated_at": "2026-08-09T03:55:08.000Z",
         "first_aired": "2021-12-31T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -179856,7 +179856,7 @@
         "overview": "The numerous complications of a previous game make the stakes higher than ever for Miles to deliver an exceptional hunt to the Tiro Fund and their clients. He searches for the perfect prey to whet the appetites of clients.",
         "released": "2023-03-10",
         "number_abs": 16,
-        "updated_at": "2026-08-08T03:35:44.000Z",
+        "updated_at": "2026-08-09T04:01:31.000Z",
         "first_aired": "2023-03-10T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -180542,7 +180542,7 @@
         "overview": "Don't urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.",
         "released": "2020-02-21",
         "number_abs": 10,
-        "updated_at": "2026-08-08T03:37:45.000Z",
+        "updated_at": "2026-08-09T03:51:59.000Z",
         "first_aired": "2020-02-21T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -194901,20 +194901,20 @@
           "trakt": 5955858
         },
         "title": "Nowhen",
-        "votes": 718,
+        "votes": 719,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/955/858/screenshots/medium/bbfbfcbcae.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.0974931716918945,
+        "rating": 7.101530075073242,
         "season": 2,
         "runtime": 33,
         "overview": "Nadia's 40th birthday is a few days away, and she's planning to celebrate it quietly with Alan. Then something really strange happens.",
         "released": "2022-04-20",
         "number_abs": 9,
-        "updated_at": "2026-08-08T05:04:25.000Z",
+        "updated_at": "2026-08-09T04:04:39.000Z",
         "first_aired": "2022-04-20T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -205083,7 +205083,7 @@
         "overview": "Serena Joy confronts Offred and the Commander. Offred struggles with a complicated, life-changing revelation. The Handmaids face a brutal decision.",
         "released": "2017-06-14",
         "number_abs": 10,
-        "updated_at": "2026-08-08T20:05:24.000Z",
+        "updated_at": "2026-08-09T04:01:09.000Z",
         "first_aired": "2017-06-14T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -238241,7 +238241,7 @@
         "overview": "All bad things must come to an end.",
         "released": "2013-09-30",
         "number_abs": 62,
-        "updated_at": "2026-08-09T02:13:23.000Z",
+        "updated_at": "2026-08-09T03:36:24.000Z",
         "first_aired": "2013-09-30T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -248335,7 +248335,7 @@
         "overview": "On the Island, Jack and the Man in Black play out their last moves as the survivors make their final choices, and the true nature of the flash sideways is revealed.",
         "released": "2010-05-24",
         "number_abs": 118,
-        "updated_at": "2026-08-08T18:56:32.000Z",
+        "updated_at": "2026-08-09T04:02:39.000Z",
         "first_aired": "2010-05-24T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
