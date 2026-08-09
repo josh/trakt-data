@@ -1,5 +1,41 @@
 [
   {
+    "id": 14223059895,
+    "watched_at": "2026-08-09T06:28:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35522454",
+        "plex": {
+          "guid": "6960ffef6b1c29e3bc19c160"
+        },
+        "tmdb": 6824723,
+        "tvdb": 11546785,
+        "trakt": 13886053
+      },
+      "title": "It Will Stay This Way and You Will Obey",
+      "number": 8,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt14403178",
+        "plex": {
+          "guid": "61cdd57fcd8c10ae5aca39f4",
+          "slug": "beef-1"
+        },
+        "slug": "beef",
+        "tmdb": 154385,
+        "tvdb": 399838,
+        "trakt": 197667
+      },
+      "year": 2023,
+      "title": "BEEF",
+      "aired_episodes": 18
+    }
+  },
+  {
     "id": 14222865554,
     "watched_at": "2026-08-09T05:33:00.000Z",
     "action": "checkin",
