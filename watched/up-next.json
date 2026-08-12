@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 20,
-      "completed": 11,
+      "completed": 12,
       "hidden": 0,
-      "last_watched_at": "2026-08-10T05:30:00.000Z",
+      "last_watched_at": "2026-08-12T05:00:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 11,
+        "play_count": 12,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt38109702",
+          "plex": {
+            "guid": "69d3e406e0c426215ebf11e9"
+          },
+          "tmdb": 7292382,
+          "tvdb": 11721841,
+          "trakt": 14196000
+        },
+        "title": "Spymaster",
+        "votes": 367,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/196/000/screenshots/medium/8b301fc7bb.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.71389627456665,
+        "season": 2,
+        "runtime": 52,
+        "overview": "Martian exploits a means to an end. A call to Antwerp pays dividends.",
+        "released": "2026-06-21",
+        "number_abs": 13,
+        "updated_at": "2026-08-11T20:39:01.000Z",
+        "first_aired": "2026-06-21T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Spymaster",
+        "available_translations": [],
+        "effective_release_date": "2026-06-21T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt38109699",
           "plex": {
@@ -58,40 +92,6 @@
         "comment_count": 2,
         "during_credits": false,
         "original_title": "A Bear in Wolf's Clothing",
-        "available_translations": [],
-        "effective_release_date": "2026-06-21T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt34889286",
-          "plex": {
-            "guid": "69d3e406e0c426215ebf11e7"
-          },
-          "tmdb": 7291266,
-          "tvdb": 11721839,
-          "trakt": 14195944
-        },
-        "title": "Kick the Wasp's Nest",
-        "votes": 423,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/195/944/screenshots/medium/e0062e1dc6.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.732860565185547,
-        "season": 2,
-        "runtime": 51,
-        "overview": "Martian and Owen debrief Coyote. Bosko pressures Henry.",
-        "released": "2026-06-21",
-        "number_abs": 11,
-        "updated_at": "2026-08-11T22:30:30.000Z",
-        "first_aired": "2026-06-21T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Kick the Wasp's Nest",
         "available_translations": [],
         "effective_release_date": "2026-06-21T07:00:00.000Z"
       }
@@ -258,20 +258,20 @@
           "trakt": 14269215
         },
         "title": "The Why",
-        "votes": 99,
+        "votes": 100,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/269/215/screenshots/medium/29d30ce14f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.242424011230469,
+        "rating": 8.220000267028809,
         "season": 3,
         "runtime": 61,
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": "2026-07-21",
         "number_abs": 11,
-        "updated_at": "2026-08-11T13:50:05.000Z",
+        "updated_at": "2026-08-12T04:04:02.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -362,20 +362,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1251,
+        "votes": 1254,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.660271644592285,
+        "rating": 7.662679195404053,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-11T23:02:01.000Z",
+        "updated_at": "2026-08-12T01:59:50.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -478,20 +478,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1384,
+        "votes": 1385,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.789740085601807,
+        "rating": 7.790613651275635,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-08-11T21:59:54.000Z",
+        "updated_at": "2026-08-12T01:50:12.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -525,7 +525,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-08-11T06:56:55.000Z",
+        "updated_at": "2026-08-12T03:43:47.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -534,6 +534,102 @@
         "original_title": "Straight to Hell",
         "available_translations": [],
         "effective_release_date": "2025-04-15T12:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt9288030",
+        "plex": {
+          "guid": "5d9c09190aaccd001f8f42f0",
+          "slug": "reacher"
+        },
+        "slug": "reacher",
+        "tmdb": 108978,
+        "tvdb": 366924,
+        "trakt": 155536
+      },
+      "year": 2022,
+      "title": "Reacher",
+      "aired_episodes": 27
+    },
+    "progress": {
+      "aired": 27,
+      "completed": 24,
+      "hidden": 0,
+      "last_watched_at": "2025-03-28T01:01:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 24,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt33782685",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 7438861,
+          "tvdb": 11867331,
+          "trakt": 14272169
+        },
+        "title": "City of Brotherly Love",
+        "votes": 4,
+        "images": {
+          "screenshot": []
+        },
+        "number": 1,
+        "rating": 7.75,
+        "season": 4,
+        "runtime": 49,
+        "overview": null,
+        "released": "2026-08-12",
+        "number_abs": 25,
+        "updated_at": "2026-08-12T01:46:28.000Z",
+        "first_aired": "2026-08-12T04:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-08-12T04:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt34929213",
+          "plex": {
+            "guid": "675590842d1e766ea5dd74d0"
+          },
+          "tmdb": 5818659,
+          "tvdb": 10845852,
+          "trakt": 12594343
+        },
+        "title": "Unfinished Business",
+        "votes": 2246,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/594/343/screenshots/medium/8af0fac9f4.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.972395420074463,
+        "season": 3,
+        "runtime": 52,
+        "overview": "Reacher finally faces off with both Paulie and Quinn.",
+        "released": "2025-03-27",
+        "number_abs": 24,
+        "updated_at": "2026-08-11T23:48:40.000Z",
+        "first_aired": "2025-03-27T04:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 52,
+        "during_credits": false,
+        "original_title": "Unfinished Business",
+        "available_translations": [],
+        "effective_release_date": "2025-03-27T04:00:00.000Z"
       }
     }
   },
@@ -576,20 +672,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 808,
+        "votes": 817,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.627474784851074,
+        "rating": 8.623010635375977,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-11T22:47:29.000Z",
+        "updated_at": "2026-08-12T04:18:59.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -709,20 +805,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2626,
+        "votes": 2632,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.823686122894287,
+        "rating": 7.8237080574035645,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-11T17:39:17.000Z",
+        "updated_at": "2026-08-12T04:17:49.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -750,13 +846,13 @@
           ]
         },
         "number": 10,
-        "rating": 8.18471908569336,
+        "rating": 8.184438705444336,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-08-11T21:42:08.000Z",
+        "updated_at": "2026-08-12T00:30:53.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -905,20 +1001,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2158,
+        "votes": 2159,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.910565376281738,
+        "rating": 7.911069869995117,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-08-11T21:24:50.000Z",
+        "updated_at": "2026-08-12T03:07:06.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1108,20 +1204,20 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 458,
+        "votes": 460,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.342794895172119,
+        "rating": 7.343478202819824,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-08-11T20:15:03.000Z",
+        "updated_at": "2026-08-12T03:51:01.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1142,20 +1238,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 984,
+        "votes": 985,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.60060977935791,
+        "rating": 7.603045463562012,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-08-11T21:30:07.000Z",
+        "updated_at": "2026-08-12T03:51:02.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1182,10 +1278,10 @@
       },
       "year": 2020,
       "title": "Ted Lasso",
-      "aired_episodes": 35
+      "aired_episodes": 36
     },
     "progress": {
-      "aired": 35,
+      "aired": 36,
       "completed": 34,
       "hidden": 0,
       "last_watched_at": "2023-06-11T00:17:00.000Z",
@@ -1206,20 +1302,20 @@
           "trakt": 14143102
         },
         "title": "Home",
-        "votes": 1352,
+        "votes": 1367,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.260354995727539,
+        "rating": 8.256766319274902,
         "season": 4,
         "runtime": 42,
         "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
         "released": "2026-08-05",
         "number_abs": 35,
-        "updated_at": "2026-08-11T23:05:32.000Z",
+        "updated_at": "2026-08-12T04:20:46.000Z",
         "first_aired": "2026-08-05T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
