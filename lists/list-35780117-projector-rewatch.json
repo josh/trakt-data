@@ -157,28 +157,6 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt1160419",
-        "plex": {
-          "guid": "5d776cac47dd6e001f6ee059",
-          "slug": "dune-part-one"
-        },
-        "slug": "dune-2021",
-        "tmdb": 438631,
-        "trakt": 287071
-      },
-      "year": 2021,
-      "title": "Dune"
-    },
-    "rank": 1,
-    "id": 1500271416,
-    "listed_at": "2026-07-06T05:06:50.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
         "imdb": "tt2382320",
         "plex": {
           "guid": "5d776bfa23d5a3001f516184",
@@ -194,6 +172,28 @@
     "rank": 33,
     "id": 1507522432,
     "listed_at": "2026-07-09T04:21:40.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1160419",
+        "plex": {
+          "guid": "5d776cac47dd6e001f6ee059",
+          "slug": "dune-part-one"
+        },
+        "slug": "dune-2021",
+        "tmdb": 438631,
+        "trakt": 287071
+      },
+      "year": 2021,
+      "title": "Dune"
+    },
+    "rank": 1,
+    "id": 1500271416,
+    "listed_at": "2026-07-06T05:06:50.000Z",
     "notes": null,
     "my_rating": null
   },
