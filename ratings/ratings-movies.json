@@ -7185,6 +7185,21 @@
     }
   },
   {
+    "rated_at": "2024-03-10T23:59:59.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "How to Have Sex",
+      "year": 2023,
+      "ids": {
+        "trakt": 864199,
+        "slug": "how-to-have-sex-2023",
+        "imdb": "tt22890246",
+        "tmdb": 1075175
+      }
+    }
+  },
+  {
     "rated_at": "2024-03-10T00:00:00.000Z",
     "rating": 6,
     "type": "movie",
@@ -7196,21 +7211,6 @@
         "slug": "memory-2023",
         "imdb": "tt19864828",
         "tmdb": 979097
-      }
-    }
-  },
-  {
-    "rated_at": "2024-03-10T00:00:00.000Z",
-    "rating": 5,
-    "type": "movie",
-    "movie": {
-      "title": "How to Have Sex",
-      "year": 2023,
-      "ids": {
-        "trakt": 864199,
-        "slug": "how-to-have-sex-2023",
-        "imdb": "tt22890246",
-        "tmdb": 1075175
       }
     }
   },
@@ -17600,7 +17600,7 @@
     "type": "movie",
     "movie": {
       "title": "The Emoji Story",
-      "year": 2020,
+      "year": 2019,
       "ids": {
         "trakt": 441951,
         "slug": "the-emoji-story-2020",
