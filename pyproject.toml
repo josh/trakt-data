@@ -19,7 +19,6 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Typing :: Typed",
 ]
-
 dependencies = [
     "click>=8.1.1,<9",
     "prometheus-client>=0.14,<2",
