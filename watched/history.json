@@ -1,5 +1,41 @@
 [
   {
+    "id": 14269617122,
+    "watched_at": "2026-08-15T06:41:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a615ac974f4a7cfffb3ffdd"
+        },
+        "tmdb": 7634097,
+        "tvdb": null,
+        "trakt": 14361525
+      },
+      "title": "August 14, 2026",
+      "number": 23,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 738
+    }
+  },
+  {
     "id": 14269488495,
     "watched_at": "2026-08-15T04:51:00.000Z",
     "action": "scrobble",
