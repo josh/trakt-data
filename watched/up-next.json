@@ -2,6 +2,162 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt10986410",
+        "plex": {
+          "guid": "5e204251072b9e003ca5c140",
+          "slug": "ted-lasso"
+        },
+        "slug": "ted-lasso",
+        "tmdb": 97546,
+        "tvdb": 383203,
+        "trakt": 162639
+      },
+      "year": 2020,
+      "title": "Ted Lasso",
+      "aired_episodes": 37
+    },
+    "progress": {
+      "aired": 37,
+      "completed": 35,
+      "hidden": 0,
+      "last_watched_at": "2026-08-20T06:21:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 35,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38494462",
+          "plex": {
+            "guid": "68d44288c012d1bb4240c980"
+          },
+          "tmdb": 7203306,
+          "tvdb": 11767182,
+          "trakt": 14143103
+        },
+        "title": "Curiouser and Curiouser!",
+        "votes": 1291,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/143/103/screenshots/medium/7819d7f19f.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 8.456235885620117,
+        "season": 4,
+        "runtime": 47,
+        "overview": "Ted returns to Richmond to meet the Lady Greyhounds, but not everyone is glad to see him.",
+        "released": "2026-08-12",
+        "number_abs": 36,
+        "updated_at": "2026-08-20T06:35:59.000Z",
+        "first_aired": "2026-08-12T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 37,
+        "during_credits": false,
+        "original_title": "Curiouser and Curiouser!",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-12T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt34101660",
+          "plex": {
+            "guid": "69f14907cdf3846dfdfd05e5"
+          },
+          "tmdb": 7203305,
+          "tvdb": 11766070,
+          "trakt": 14143102
+        },
+        "title": "Home",
+        "votes": 1709,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 8.214159965515137,
+        "season": 4,
+        "runtime": 42,
+        "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
+        "released": "2026-08-05",
+        "number_abs": 35,
+        "updated_at": "2026-08-20T06:35:40.000Z",
+        "first_aired": "2026-08-05T01:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 60,
+        "during_credits": false,
+        "original_title": "Home",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-05T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt4370596",
         "plex": {
           "guid": "5d9c080208fddd001f28fec5",
@@ -264,20 +420,20 @@
           "trakt": 14318231
         },
         "title": "Frank Marries a Corpse",
-        "votes": 136,
+        "votes": 138,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/318/231/screenshots/medium/6919adac2e.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.992647171020508,
+        "rating": 7.985507011413574,
         "season": 18,
         "runtime": 23,
         "overview": "The guys help Frank with his cold feet ahead of his wedding to Sam. Dee tries to scare Sam off the nuptials with testimonies from The Waitress, Artemis, and Snail.",
         "released": null,
         "number_abs": 178,
-        "updated_at": "2026-08-20T03:58:50.000Z",
+        "updated_at": "2026-08-20T07:03:57.000Z",
         "first_aired": "2026-08-18T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -750,20 +906,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 968,
+        "votes": 970,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.627065658569336,
+        "rating": 8.6226806640625,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-20T03:52:47.000Z",
+        "updated_at": "2026-08-20T06:45:43.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -886,20 +1042,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2753,
+        "votes": 2754,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.817653656005859,
+        "rating": 7.817356586456299,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-20T05:48:56.000Z",
+        "updated_at": "2026-08-20T06:56:18.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -952,20 +1108,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3609,
+        "votes": 3610,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.189526557922363,
+        "rating": 8.189474105834961,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-08-20T05:00:40.000Z",
+        "updated_at": "2026-08-20T06:20:14.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1146,20 +1302,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2191,
+        "votes": 2192,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.911912441253662,
+        "rating": 7.911952495574951,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-08-20T02:51:33.000Z",
+        "updated_at": "2026-08-20T06:50:20.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1219,20 +1375,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3416,
+        "votes": 3417,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.12675666809082,
+        "rating": 8.127012252807617,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-08-20T02:55:00.000Z",
+        "updated_at": "2026-08-20T06:49:58.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1373,7 +1529,7 @@
         "overview": "Gordon and Ash\u2019s relationship is put to the test at Megan and Rumi\u2019s pop-up wedding.",
         "released": "2024-06-27",
         "number_abs": 16,
-        "updated_at": "2026-08-19T15:37:11.000Z",
+        "updated_at": "2026-08-20T06:45:32.000Z",
         "first_aired": "2024-06-27T10:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1485,163 +1641,6 @@
         "original_title": "Farewell",
         "available_translations": [],
         "effective_release_date": "2024-05-17T02:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt10986410",
-        "plex": {
-          "guid": "5e204251072b9e003ca5c140",
-          "slug": "ted-lasso"
-        },
-        "slug": "ted-lasso",
-        "tmdb": 97546,
-        "tvdb": 383203,
-        "trakt": 162639
-      },
-      "year": 2020,
-      "title": "Ted Lasso",
-      "aired_episodes": 37
-    },
-    "progress": {
-      "aired": 37,
-      "completed": 34,
-      "hidden": 0,
-      "last_watched_at": "2023-06-11T00:17:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 34,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt34101660",
-          "plex": {
-            "guid": "69f14907cdf3846dfdfd05e5"
-          },
-          "tmdb": 7203305,
-          "tvdb": 11766070,
-          "trakt": 14143102
-        },
-        "title": "Home",
-        "votes": 1708,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/143/102/screenshots/medium/8d8f43fdd9.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 8.214285850524902,
-        "season": 4,
-        "runtime": 42,
-        "overview": "A few years after Ted leaves Richmond, some familiar faces visit him in Kansas...or is it Missouri?",
-        "released": "2026-08-05",
-        "number_abs": 35,
-        "updated_at": "2026-08-20T04:28:53.000Z",
-        "first_aired": "2026-08-05T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 60,
-        "during_credits": false,
-        "original_title": "Home",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-08-05T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt23743570",
-          "plex": {
-            "guid": "63ec49cf5b8dfd1baae418c3"
-          },
-          "tmdb": 4234091,
-          "tvdb": 9618362,
-          "trakt": 7339078
-        },
-        "title": "So Long, Farewell",
-        "votes": 2829,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/007/339/078/screenshots/medium/d2cfcb5783.jpg.webp"
-          ]
-        },
-        "number": 12,
-        "rating": 8.681512832641602,
-        "season": 3,
-        "runtime": 79,
-        "overview": "AFC Richmond play their final game of the season.",
-        "released": "2023-05-31",
-        "number_abs": 34,
-        "updated_at": "2026-08-19T22:11:07.000Z",
-        "first_aired": "2023-05-31T01:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 62,
-        "during_credits": false,
-        "original_title": "So Long, Farewell",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2023-05-31T01:00:00.000Z"
       }
     }
   }
