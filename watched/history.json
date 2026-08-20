@@ -1,5 +1,41 @@
 [
   {
+    "id": 14303583558,
+    "watched_at": "2026-08-20T04:26:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt38753809",
+        "plex": {
+          "guid": "6a0d372569812f78e610900e"
+        },
+        "tmdb": 7292387,
+        "tvdb": 11801670,
+        "trakt": 14196005
+      },
+      "title": "False Flag Attack",
+      "number": 8,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26656917",
+        "plex": {
+          "guid": "63e188721fa52962cfb52d7e",
+          "slug": "the-agency-2024"
+        },
+        "slug": "the-agency-2024",
+        "tmdb": 219971,
+        "tvdb": 430769,
+        "trakt": 202341
+      },
+      "year": 2024,
+      "title": "The Agency",
+      "aired_episodes": 20
+    }
+  },
+  {
     "id": 14302878252,
     "watched_at": "2026-08-19T23:46:00.000Z",
     "action": "scrobble",
