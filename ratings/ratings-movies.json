@@ -1,5 +1,20 @@
 [
   {
+    "rated_at": "2026-08-19T23:59:59.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "Is God Is",
+      "year": 2026,
+      "ids": {
+        "trakt": 1127912,
+        "slug": "is-god-is-2026",
+        "imdb": "tt34379307",
+        "tmdb": 1380316
+      }
+    }
+  },
+  {
     "rated_at": "2026-08-19T06:05:25.000Z",
     "rating": 5,
     "type": "movie",
@@ -256,21 +271,6 @@
   },
   {
     "rated_at": "2026-07-12T20:13:35.000Z",
-    "rating": 6,
-    "type": "movie",
-    "movie": {
-      "title": "Normal",
-      "year": 2026,
-      "ids": {
-        "trakt": 1005706,
-        "slug": "normal-2026",
-        "imdb": "tt31195136",
-        "tmdb": 1242332
-      }
-    }
-  },
-  {
-    "rated_at": "2026-07-12T20:13:35.000Z",
     "rating": 1,
     "type": "movie",
     "movie": {
@@ -281,6 +281,21 @@
         "slug": "citizen-vigilante-2026",
         "imdb": "tt35309713",
         "tmdb": 1413976
+      }
+    }
+  },
+  {
+    "rated_at": "2026-07-12T20:13:35.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "title": "Normal",
+      "year": 2026,
+      "ids": {
+        "trakt": 1005706,
+        "slug": "normal-2026",
+        "imdb": "tt31195136",
+        "tmdb": 1242332
       }
     }
   },
@@ -1069,13 +1084,13 @@
     "rating": 6,
     "type": "movie",
     "movie": {
-      "title": "Hanging by a Wire",
-      "year": 2026,
+      "title": "Zootopia 2",
+      "year": 2025,
       "ids": {
-        "trakt": 1213920,
-        "slug": "hanging-by-a-wire-2026",
-        "imdb": "tt37405791",
-        "tmdb": 1480856
+        "trakt": 871499,
+        "slug": "zootopia-2-2025",
+        "imdb": "tt26443597",
+        "tmdb": 1084242
       }
     }
   },
@@ -1084,13 +1099,13 @@
     "rating": 6,
     "type": "movie",
     "movie": {
-      "title": "Zootopia 2",
-      "year": 2025,
+      "title": "Hanging by a Wire",
+      "year": 2026,
       "ids": {
-        "trakt": 871499,
-        "slug": "zootopia-2-2025",
-        "imdb": "tt26443597",
-        "tmdb": 1084242
+        "trakt": 1213920,
+        "slug": "hanging-by-a-wire-2026",
+        "imdb": "tt37405791",
+        "tmdb": 1480856
       }
     }
   },
@@ -1156,21 +1171,6 @@
   },
   {
     "rated_at": "2026-01-30T06:10:46.000Z",
-    "rating": 4,
-    "type": "movie",
-    "movie": {
-      "title": "The Musical",
-      "year": 2026,
-      "ids": {
-        "trakt": 1311107,
-        "slug": "the-musical-2026",
-        "imdb": "tt37775809",
-        "tmdb": 1579941
-      }
-    }
-  },
-  {
-    "rated_at": "2026-01-30T06:10:46.000Z",
     "rating": 5,
     "type": "movie",
     "movie": {
@@ -1200,17 +1200,17 @@
     }
   },
   {
-    "rated_at": "2026-01-29T23:59:59.000Z",
-    "rating": 5,
+    "rated_at": "2026-01-30T06:10:46.000Z",
+    "rating": 4,
     "type": "movie",
     "movie": {
-      "title": "Chasing Summer",
+      "title": "The Musical",
       "year": 2026,
       "ids": {
-        "trakt": 1303721,
-        "slug": "chasing-summer-2026",
-        "imdb": "tt38579505",
-        "tmdb": 1571654
+        "trakt": 1311107,
+        "slug": "the-musical-2026",
+        "imdb": "tt37775809",
+        "tmdb": 1579941
       }
     }
   },
@@ -1226,6 +1226,21 @@
         "slug": "carousel-2026",
         "imdb": "tt38626943",
         "tmdb": 1558701
+      }
+    }
+  },
+  {
+    "rated_at": "2026-01-29T23:59:59.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "title": "Chasing Summer",
+      "year": 2026,
+      "ids": {
+        "trakt": 1303721,
+        "slug": "chasing-summer-2026",
+        "imdb": "tt38579505",
+        "tmdb": 1571654
       }
     }
   },
@@ -1279,13 +1294,13 @@
     "rating": 8,
     "type": "movie",
     "movie": {
-      "title": "The Weight",
+      "title": "Josephine",
       "year": 2026,
       "ids": {
-        "trakt": 1172770,
-        "slug": "the-weight-2026",
-        "imdb": "tt10794054",
-        "tmdb": 1433583
+        "trakt": 1059186,
+        "slug": "josephine-2026",
+        "imdb": "tt32321285",
+        "tmdb": 1299329
       }
     }
   },
@@ -1294,13 +1309,13 @@
     "rating": 8,
     "type": "movie",
     "movie": {
-      "title": "Josephine",
+      "title": "The Weight",
       "year": 2026,
       "ids": {
-        "trakt": 1059186,
-        "slug": "josephine-2026",
-        "imdb": "tt32321285",
-        "tmdb": 1299329
+        "trakt": 1172770,
+        "slug": "the-weight-2026",
+        "imdb": "tt10794054",
+        "tmdb": 1433583
       }
     }
   },
@@ -3376,21 +3391,6 @@
   },
   {
     "rated_at": "2025-05-26T06:02:09.000Z",
-    "rating": 8,
-    "type": "movie",
-    "movie": {
-      "title": "Wick Is Pain",
-      "year": 2025,
-      "ids": {
-        "trakt": 1206669,
-        "slug": "wick-is-pain-2025",
-        "imdb": "tt36751759",
-        "tmdb": 1472668
-      }
-    }
-  },
-  {
-    "rated_at": "2025-05-26T06:02:09.000Z",
     "rating": 5,
     "type": "movie",
     "movie": {
@@ -3401,6 +3401,21 @@
         "slug": "warfare-2025",
         "imdb": "tt31434639",
         "tmdb": 1241436
+      }
+    }
+  },
+  {
+    "rated_at": "2025-05-26T06:02:09.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "title": "Wick Is Pain",
+      "year": 2025,
+      "ids": {
+        "trakt": 1206669,
+        "slug": "wick-is-pain-2025",
+        "imdb": "tt36751759",
+        "tmdb": 1472668
       }
     }
   },
@@ -7486,16 +7501,16 @@
   },
   {
     "rated_at": "2024-02-20T00:00:00.000Z",
-    "rating": 4,
+    "rating": 5,
     "type": "movie",
     "movie": {
-      "title": "Anyone But You",
+      "title": "The Last Rifleman",
       "year": 2023,
       "ids": {
-        "trakt": 862395,
-        "slug": "anyone-but-you-2023",
-        "imdb": "tt26047818",
-        "tmdb": 1072790
+        "trakt": 601781,
+        "slug": "the-last-rifleman-2023",
+        "imdb": "tt12404266",
+        "tmdb": 763144
       }
     }
   },
