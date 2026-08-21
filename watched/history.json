@@ -1,5 +1,41 @@
 [
   {
+    "id": 14309001062,
+    "watched_at": "2026-08-21T06:11:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt38494464",
+        "plex": {
+          "guid": "68d44288c012d1bb4240c981"
+        },
+        "tmdb": 7203307,
+        "tvdb": 11767183,
+        "trakt": 14143104
+      },
+      "title": "Richmond's Got Talent",
+      "number": 3,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt10986410",
+        "plex": {
+          "guid": "5e204251072b9e003ca5c140",
+          "slug": "ted-lasso"
+        },
+        "slug": "ted-lasso",
+        "tmdb": 97546,
+        "tvdb": 383203,
+        "trakt": 162639
+      },
+      "year": 2020,
+      "title": "Ted Lasso",
+      "aired_episodes": 37
+    }
+  },
+  {
     "id": 14308900261,
     "watched_at": "2026-08-21T05:24:00.000Z",
     "action": "checkin",
