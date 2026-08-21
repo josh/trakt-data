@@ -1,5 +1,41 @@
 [
   {
+    "id": 14308900261,
+    "watched_at": "2026-08-21T05:24:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt38494462",
+        "plex": {
+          "guid": "68d44288c012d1bb4240c980"
+        },
+        "tmdb": 7203306,
+        "tvdb": 11767182,
+        "trakt": 14143103
+      },
+      "title": "Curiouser and Curiouser!",
+      "number": 2,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt10986410",
+        "plex": {
+          "guid": "5e204251072b9e003ca5c140",
+          "slug": "ted-lasso"
+        },
+        "slug": "ted-lasso",
+        "tmdb": 97546,
+        "tvdb": 383203,
+        "trakt": 162639
+      },
+      "year": 2020,
+      "title": "Ted Lasso",
+      "aired_episodes": 37
+    }
+  },
+  {
     "id": 14308715709,
     "watched_at": "2026-08-21T04:35:00.000Z",
     "action": "checkin",
