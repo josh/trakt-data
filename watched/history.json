@@ -1,5 +1,41 @@
 [
   {
+    "id": 14308715709,
+    "watched_at": "2026-08-21T04:35:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt26546824",
+        "plex": {
+          "guid": "657769695115da2c50193074"
+        },
+        "tmdb": 4988115,
+        "tvdb": 9216985,
+        "trakt": 11664405
+      },
+      "title": "Pilot",
+      "number": 1,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26545992",
+        "plex": {
+          "guid": "6475f4e274668225adb2c0e0",
+          "slug": "lanterns-1"
+        },
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "tvdb": 376098,
+        "trakt": 157599
+      },
+      "year": 2026,
+      "title": "Lanterns",
+      "aired_episodes": 1
+    }
+  },
+  {
     "id": 14303926667,
     "watched_at": "2026-08-20T06:35:00.000Z",
     "action": "checkin",
@@ -33,6 +69,42 @@
       "year": 2024,
       "title": "The Agency",
       "aired_episodes": 20
+    }
+  },
+  {
+    "id": 14304017725,
+    "watched_at": "2026-08-20T06:21:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt34101660",
+        "plex": {
+          "guid": "69f14907cdf3846dfdfd05e5"
+        },
+        "tmdb": 7203305,
+        "tvdb": 11766070,
+        "trakt": 14143102
+      },
+      "title": "Home",
+      "number": 1,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt10986410",
+        "plex": {
+          "guid": "5e204251072b9e003ca5c140",
+          "slug": "ted-lasso"
+        },
+        "slug": "ted-lasso",
+        "tmdb": 97546,
+        "tvdb": 383203,
+        "trakt": 162639
+      },
+      "year": 2020,
+      "title": "Ted Lasso",
+      "aired_episodes": 37
     }
   },
   {
@@ -40340,7 +40412,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -41064,7 +41136,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -41356,7 +41428,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -41392,7 +41464,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -43636,7 +43708,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -44584,7 +44656,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -44620,7 +44692,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -44656,7 +44728,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -44764,7 +44836,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -44860,7 +44932,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -91928,7 +92000,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -92256,7 +92328,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -92312,7 +92384,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -92348,7 +92420,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -92384,7 +92456,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -95812,7 +95884,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -97136,7 +97208,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -98516,7 +98588,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -98768,7 +98840,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
@@ -99040,7 +99112,7 @@
       },
       "year": 2023,
       "title": "Silo",
-      "aired_episodes": 27
+      "aired_episodes": 28
     }
   },
   {
