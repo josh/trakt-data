@@ -1,5 +1,77 @@
 [
   {
+    "id": 14314184554,
+    "watched_at": "2026-08-22T05:47:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a615ac974f4a7cfffb3ffde"
+        },
+        "tmdb": 7634102,
+        "tvdb": null,
+        "trakt": 14361526
+      },
+      "title": "August 21, 2026: Hunter Biden, Jeremy Peters, Dana Bash",
+      "number": 24,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 739
+    }
+  },
+  {
+    "id": 14314168783,
+    "watched_at": "2026-08-22T04:45:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt13622892",
+        "plex": {
+          "guid": "673f39b16a92b7ecb403e751"
+        },
+        "tmdb": 7533678,
+        "tvdb": 11900916,
+        "trakt": 14318231
+      },
+      "title": "Frank Marries a Corpse",
+      "number": 1,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 179
+    }
+  },
+  {
     "id": 14313974529,
     "watched_at": "2026-08-22T04:12:00.000Z",
     "action": "checkin",

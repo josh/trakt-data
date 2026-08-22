@@ -2,6 +2,109 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 179
+    },
+    "progress": {
+      "aired": 179,
+      "completed": 178,
+      "hidden": 0,
+      "last_watched_at": "2026-08-22T04:45:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 178,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt43679375",
+          "plex": {
+            "guid": "6a7995a8cde7523b0ef1a740"
+          },
+          "tmdb": 7569941,
+          "tvdb": 11900917,
+          "trakt": 14333392
+        },
+        "title": "Dennis and Dee Don't Get Rich",
+        "votes": 143,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/333/392/screenshots/medium/4642a0d50e.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 8.048951148986816,
+        "season": 18,
+        "runtime": 22,
+        "overview": "The Reynolds twins push themselves to the limit to secure Sam's transfer of wealth. Charlie and Frank plan a proper memorial for Bonnie during the annual Mummers Parade.",
+        "released": "2026-08-18",
+        "number_abs": 179,
+        "updated_at": "2026-08-22T04:55:05.000Z",
+        "first_aired": "2026-08-18T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Dennis and Dee Don't Get Rich",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-08-18T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt13622892",
+          "plex": {
+            "guid": "673f39b16a92b7ecb403e751"
+          },
+          "tmdb": 7533678,
+          "tvdb": 11900916,
+          "trakt": 14318231
+        },
+        "title": "Frank Marries a Corpse",
+        "votes": 184,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/318/231/screenshots/medium/6919adac2e.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.96195650100708,
+        "season": 18,
+        "runtime": 23,
+        "overview": "The guys help Frank with his cold feet ahead of his wedding to Sam. Dee tries to scare Sam off the nuptials with testimonies from The Waitress, Artemis, and Snail.",
+        "released": "2026-08-18",
+        "number_abs": 178,
+        "updated_at": "2026-08-22T04:36:54.000Z",
+        "first_aired": "2026-08-18T01:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Frank Marries a Corpse",
+        "available_translations": [
+          "en",
+          "ru"
+        ],
+        "effective_release_date": "2026-08-18T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt34866681",
         "plex": {
           "guid": "67507127b734a2ab5d683713",
@@ -38,20 +141,20 @@
           "trakt": 13974256
         },
         "title": "Read the Room",
-        "votes": 886,
+        "votes": 887,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/974/256/screenshots/medium/9982c6f491.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.764108180999756,
+        "rating": 7.764374256134033,
         "season": 1,
         "runtime": 46,
         "overview": "Lucky tries to track down Cary\u2014and her money. Agent Rand investigates Lucky's moves.",
         "released": "2026-07-22",
         "number_abs": 3,
-        "updated_at": "2026-08-22T03:03:57.000Z",
+        "updated_at": "2026-08-22T04:26:06.000Z",
         "first_aired": "2026-07-22T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -156,106 +259,6 @@
           "zh"
         ],
         "effective_release_date": "2026-07-15T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt0350448",
-        "plex": {
-          "guid": "5d9c082dffd9ef001e98ecc9",
-          "slug": "real-time-with-bill-maher"
-        },
-        "slug": "real-time-with-bill-maher",
-        "tmdb": 4419,
-        "tvdb": 72231,
-        "trakt": 4395
-      },
-      "year": 2003,
-      "title": "Real Time with Bill Maher",
-      "aired_episodes": 739
-    },
-    "progress": {
-      "aired": 739,
-      "completed": 738,
-      "hidden": 0,
-      "last_watched_at": "2026-08-15T06:41:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 740,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a615ac974f4a7cfffb3ffde"
-          },
-          "tmdb": 7634102,
-          "tvdb": null,
-          "trakt": 14361526
-        },
-        "title": "August 21, 2026: Hunter Biden, Jeremy Peters, Dana Bash",
-        "votes": 1,
-        "images": {
-          "screenshot": []
-        },
-        "number": 24,
-        "rating": 8,
-        "season": 24,
-        "runtime": 60,
-        "overview": "Guests: An interview with Hunter Biden, contemporary American artist, author, and recovery advocate. This week's panel discussion includes Jeremy Peters, national correspondent for The New York Times and author of \"Insurgency: How Republicans Lost Their Party and Got Everything They Ever Wanted\"; and Dana Bash, anchor and chief political correspondent at CNN and author of the new book \"The Elections That Changed the World: Fifteen Pivotal Moments That Shaped How We Live.\"",
-        "released": "2026-08-22",
-        "number_abs": 739,
-        "updated_at": "2026-08-22T03:07:40.000Z",
-        "first_aired": "2026-08-22T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "August 21, 2026: Hunter Biden, Jeremy Peters, Dana Bash",
-        "available_translations": [
-          "en"
-        ],
-        "effective_release_date": "2026-08-22T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": null,
-          "plex": {
-            "guid": "6a615ac974f4a7cfffb3ffdd"
-          },
-          "tmdb": 7634097,
-          "tvdb": null,
-          "trakt": 14361525
-        },
-        "title": "August 14, 2026: Ryan Holiday, Andrew Cuomo, Kristen Soltis Anderson",
-        "votes": 28,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/361/525/screenshots/medium/83e7f5b439.jpg.webp"
-          ]
-        },
-        "number": 23,
-        "rating": 7.1785712242126465,
-        "season": 24,
-        "runtime": 60,
-        "overview": "Guests: An interview with Ryan Holiday, host of \"The Daily Stoic\" podcast and New York Times #1 bestselling author of \"The Stoic Virtues Series\" book collection. This week's panel discussion includes Andrew Cuomo, former Democratic Governor of New York; and Kristen Soltis Anderson, CNN contributor and founding partner and pollster at Echelon Insights.",
-        "released": "2026-08-15",
-        "number_abs": 738,
-        "updated_at": "2026-08-21T17:17:04.000Z",
-        "first_aired": "2026-08-15T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "August 14, 2026: Ryan Holiday, Andrew Cuomo, Kristen Soltis Anderson",
-        "available_translations": [
-          "en"
-        ],
-        "effective_release_date": "2026-08-15T02:00:00.000Z"
       }
     }
   },
@@ -488,107 +491,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt0472954",
-        "plex": {
-          "guid": "5d9c0875170e24001f2ab27e",
-          "slug": "its-always-sunny-in-philadelphia"
-        },
-        "slug": "it-s-always-sunny-in-philadelphia",
-        "tmdb": 2710,
-        "tvdb": 75805,
-        "trakt": 2692
-      },
-      "year": 2005,
-      "title": "It's Always Sunny in Philadelphia",
-      "aired_episodes": 179
-    },
-    "progress": {
-      "aired": 179,
-      "completed": 177,
-      "hidden": 0,
-      "last_watched_at": "2025-08-21T22:57:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 177,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt13622892",
-          "plex": {
-            "guid": "673f39b16a92b7ecb403e751"
-          },
-          "tmdb": 7533678,
-          "tvdb": 11900916,
-          "trakt": 14318231
-        },
-        "title": "Frank Marries a Corpse",
-        "votes": 183,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/318/231/screenshots/medium/6919adac2e.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.956284046173096,
-        "season": 18,
-        "runtime": 23,
-        "overview": "The guys help Frank with his cold feet ahead of his wedding to Sam. Dee tries to scare Sam off the nuptials with testimonies from The Waitress, Artemis, and Snail.",
-        "released": "2026-08-18",
-        "number_abs": 178,
-        "updated_at": "2026-08-22T04:01:21.000Z",
-        "first_aired": "2026-08-18T01:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 8,
-        "during_credits": false,
-        "original_title": "Frank Marries a Corpse",
-        "available_translations": [
-          "en",
-          "ru"
-        ],
-        "effective_release_date": "2026-08-18T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35252531",
-          "plex": {
-            "guid": "68540624e6c106c6f9fe93e1"
-          },
-          "tmdb": 6352230,
-          "tvdb": 11200020,
-          "trakt": 13272366
-        },
-        "title": "The Golden Bachelor Live",
-        "votes": 431,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/272/366/screenshots/medium/75ce573e2c.jpg.webp"
-          ]
-        },
-        "number": 8,
-        "rating": 7.953596115112305,
-        "season": 17,
-        "runtime": 26,
-        "overview": "Host Jesse Palmer walks the audience through Frank's journey up until his final rose ceremony in the \"Golden Bachelor\" finale. But whom will he pick: a young internet celebrity, a confident woman his age, or a familiar face?",
-        "released": "2025-08-21",
-        "number_abs": 177,
-        "updated_at": "2026-08-21T17:34:36.000Z",
-        "first_aired": "2025-08-21T01:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 19,
-        "during_credits": false,
-        "original_title": "The Golden Bachelor Live",
-        "available_translations": [],
-        "effective_release_date": "2025-08-21T01:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt14452776",
         "plex": {
           "guid": "611f8407767ddf002cb05be2",
@@ -741,7 +643,7 @@
           "trakt": 14336169
         },
         "title": "India",
-        "votes": 1,
+        "votes": 2,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/336/169/screenshots/medium/cd46c19583.jpg.webp"
@@ -754,7 +656,7 @@
         "overview": "Conan O'Brien travels to India and along the way visits Jaipur to explore local markets and try his hand with traditional textile artisans. Interacting with local families and experiencing the vibrant, chaotic nature of Indian joint households. He immerses himself in local culture, humor, and unscripted encounters with merchants who refuse to play along with his jokes.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-08-22T03:48:45.000Z",
+        "updated_at": "2026-08-22T04:35:27.000Z",
         "first_aired": "2026-08-22T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1116,20 +1018,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 984,
+        "votes": 985,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.625,
+        "rating": 8.62436580657959,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-22T02:22:43.000Z",
+        "updated_at": "2026-08-22T04:19:59.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1456,13 +1358,13 @@
           ]
         },
         "number": 12,
-        "rating": 8.447272300720215,
+        "rating": 8.448182106018066,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-08-21T14:58:58.000Z",
+        "updated_at": "2026-08-22T04:14:16.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
