@@ -2,6 +2,244 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt34866681",
+        "plex": {
+          "guid": "67507127b734a2ab5d683713",
+          "slug": "lucky-2026"
+        },
+        "slug": "lucky-2026",
+        "tmdb": 278624,
+        "tvdb": 457437,
+        "trakt": 265812
+      },
+      "year": 2026,
+      "title": "Lucky",
+      "aired_episodes": 7
+    },
+    "progress": {
+      "aired": 7,
+      "completed": 1,
+      "last_watched_at": "2026-08-22T01:21:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35996822",
+          "plex": {
+            "guid": "67507128b734a2ab5d683718"
+          },
+          "tmdb": 5810122,
+          "tvdb": 10838108,
+          "trakt": 12555577
+        },
+        "title": "No Shortcuts",
+        "votes": 1201,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/555/577/screenshots/medium/871064cd61.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.552040100097656,
+        "season": 1,
+        "runtime": 48,
+        "overview": "After a wild night in Vegas, Lucky wakes up to discover her world has been turned upside down.",
+        "released": "2026-07-15",
+        "number_abs": 1,
+        "updated_at": "2026-08-22T00:16:25.000Z",
+        "first_aired": "2026-07-15T01:00:00.000Z",
+        "episode_type": "series_premiere",
+        "after_credits": false,
+        "comment_count": 44,
+        "during_credits": false,
+        "original_title": "No Shortcuts",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-07-15T01:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37443104",
+          "plex": {
+            "guid": "685e9b6c9b2f6b66c0581e35"
+          },
+          "tmdb": 6911996,
+          "tvdb": 11593734,
+          "trakt": 13974255
+        },
+        "title": "Make 'em Dance",
+        "votes": 956,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/974/255/screenshots/medium/000e7da78a.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.6464433670043945,
+        "season": 1,
+        "runtime": 48,
+        "overview": "Seeking shelter, Lucky takes refuge with an unsuspecting family. Priscilla visits Lucky's father.",
+        "released": "2026-07-15",
+        "number_abs": 2,
+        "updated_at": "2026-08-22T01:03:10.000Z",
+        "first_aired": "2026-07-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 28,
+        "during_credits": false,
+        "original_title": "Make 'em Dance",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-07-15T01:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 1,
+        "minutes_watched": 48,
+        "minutes_left": 270
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Miniseries",
+          "aired": 7,
+          "completed": 1,
+          "stats": {
+            "play_count": 1,
+            "minutes_watched": 48,
+            "minutes_left": 270
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-08-22T01:21:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 48
+              }
+            },
+            {
+              "number": 2,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt10986410",
         "plex": {
           "guid": "5e204251072b9e003ca5c140",
@@ -32,20 +270,20 @@
           "trakt": 14143104
         },
         "title": "Richmond's Got Talent",
-        "votes": 843,
+        "votes": 851,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/104/screenshots/medium/b7bbbff613.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 8.246737480163574,
+        "rating": 8.24911880493164,
         "season": 4,
         "runtime": 47,
         "overview": "Richmond's shareholders are unsure about a women's team. The coaches hold tryouts to fill out their roster.",
         "released": "2026-08-19",
         "number_abs": 37,
-        "updated_at": "2026-08-22T00:05:34.000Z",
+        "updated_at": "2026-08-22T01:27:29.000Z",
         "first_aired": "2026-08-19T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -546,20 +784,20 @@
           "trakt": 11664405
         },
         "title": "Pilot",
-        "votes": 1880,
+        "votes": 1887,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/664/405/screenshots/medium/4ff89ae960.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.135638236999512,
+        "rating": 8.133015632629395,
         "season": 1,
         "runtime": 57,
         "overview": "After a fatal shooting, Green Lantern Hal Jordan and new recruit John Stewart set out to prove it was an extraterrestrial event.",
         "released": "2026-08-17",
         "number_abs": 1,
-        "updated_at": "2026-08-21T23:39:54.000Z",
+        "updated_at": "2026-08-22T01:22:40.000Z",
         "first_aired": "2026-08-17T01:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
@@ -8031,20 +8269,20 @@
           "trakt": 13904820
         },
         "title": "The Treasons at Tumbleton",
-        "votes": 4168,
+        "votes": 4173,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/820/screenshots/medium/3c3d75bb1c.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.673944473266602,
+        "rating": 8.674814224243164,
         "season": 3,
         "runtime": 71,
         "overview": "Shifting alliances irrevocably reshape the war as Rhaenyra's forces converge around Tumbleton and both sides vie to gain the upper hand.",
         "released": "2026-08-10",
         "number_abs": 26,
-        "updated_at": "2026-08-22T00:00:32.000Z",
+        "updated_at": "2026-08-22T01:22:46.000Z",
         "first_aired": "2026-08-10T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -8649,20 +8887,20 @@
           "trakt": 14172984
         },
         "title": "Episode 10",
-        "votes": 302,
+        "votes": 303,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/172/984/screenshots/medium/6cec0999f6.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.430463790893555,
+        "rating": 8.42904281616211,
         "season": 1,
         "runtime": 73,
         "overview": "Pushed to the brink by Gang-chan, Manager Kim must now make a crucial choice with Han-soo and Jin-cheol. Will Manager Kim be able to keep Min-ji safe?",
         "released": "2026-07-25",
         "number_abs": 10,
-        "updated_at": "2026-08-21T15:13:52.000Z",
+        "updated_at": "2026-08-22T00:26:31.000Z",
         "first_aired": "2026-07-25T12:45:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -9659,20 +9897,20 @@
           "trakt": 13974274
         },
         "title": "Queens",
-        "votes": 553,
+        "votes": 554,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/974/274/screenshots/medium/38f7e77e0d.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.21338176727295,
+        "rating": 8.211191177368164,
         "season": 1,
         "runtime": 38,
         "overview": "Everything everywhere all at once.",
         "released": "2026-07-15",
         "number_abs": 10,
-        "updated_at": "2026-08-21T16:37:43.000Z",
+        "updated_at": "2026-08-22T00:11:35.000Z",
         "first_aired": "2026-07-15T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -11048,20 +11286,20 @@
           "trakt": 13821065
         },
         "title": "We Hope You Enjoyed Your Time!",
-        "votes": 1729,
+        "votes": 1730,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/065/screenshots/medium/e7ac53dd66.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.225564002990723,
+        "rating": 8.22427749633789,
         "season": 1,
         "runtime": 49,
         "overview": "We understand that hard choices had to be made and we may never be the same, but we hope you'll visit again!",
         "released": "2026-06-17",
         "number_abs": 10,
-        "updated_at": "2026-08-21T23:48:18.000Z",
+        "updated_at": "2026-08-22T00:27:41.000Z",
         "first_aired": "2026-06-17T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -13477,20 +13715,20 @@
           "trakt": 13670421
         },
         "title": "DEER AND LOATHING IN DRUM KINGDOM",
-        "votes": 866,
+        "votes": 867,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/670/421/screenshots/medium/866eef1a34.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.40877628326416,
+        "rating": 8.408304214477539,
         "season": 2,
         "runtime": 64,
         "overview": "The Straw Hats lend themselves to Drum Island's cause when King Wapol and his army of monsters return to reclaim the throne.",
         "released": "2026-03-10",
         "number_abs": 16,
-        "updated_at": "2026-08-21T15:11:55.000Z",
+        "updated_at": "2026-08-22T00:47:03.000Z",
         "first_aired": "2026-03-10T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -13760,20 +13998,20 @@
           "trakt": 13642191
         },
         "title": "Terminal",
-        "votes": 762,
+        "votes": 763,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/191/screenshots/medium/5231346dc5.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.069553852081299,
+        "rating": 7.069462776184082,
         "season": 2,
         "runtime": 50,
         "overview": "With the handover imminent, Sam is prepared to put his life on the line to save Marsha\u2014and expose the truth.",
         "released": "2026-03-04",
         "number_abs": 15,
-        "updated_at": "2026-08-21T10:05:22.000Z",
+        "updated_at": "2026-08-22T01:03:42.000Z",
         "first_aired": "2026-03-04T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -14938,7 +15176,7 @@
         "overview": "Winning might be overrated...",
         "released": "2026-02-03",
         "number_abs": 16,
-        "updated_at": "2026-08-21T15:43:57.000Z",
+        "updated_at": "2026-08-22T00:50:55.000Z",
         "first_aired": "2026-02-04T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -15611,13 +15849,13 @@
           ]
         },
         "number": 8,
-        "rating": 7.8704962730407715,
+        "rating": 7.870896816253662,
         "season": 5,
         "runtime": 129,
         "overview": "As Vecna prepares to destroy the world as we know it, the party must put everything on the line to defeat him once and for all.",
         "released": "2025-12-31",
         "number_abs": 42,
-        "updated_at": "2026-08-21T15:17:24.000Z",
+        "updated_at": "2026-08-22T01:02:23.000Z",
         "first_aired": "2026-01-01T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -21611,7 +21849,7 @@
         "overview": "Sylvia and Will's friendship hits a wall. Sylvia has a realization about her marriage. Will hears news about his bar.",
         "released": "2025-10-01",
         "number_abs": 20,
-        "updated_at": "2026-08-21T16:37:47.000Z",
+        "updated_at": "2026-08-22T00:16:09.000Z",
         "first_aired": "2025-10-01T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -22505,7 +22743,7 @@
         "overview": "Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick's monogamy.",
         "released": "2025-09-04",
         "number_abs": 10,
-        "updated_at": "2026-08-21T15:20:52.000Z",
+        "updated_at": "2026-08-22T00:12:22.000Z",
         "first_aired": "2025-09-04T10:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -22948,7 +23186,7 @@
         "overview": "Six pairs have been eliminated. Just two are left standing. At the Vesper Club in the Bahamas, they must hold their nerve in a high-stakes game of cards to determine who will return to London to take on the Controller for one final mission - and a shot at the life-changing one-million-pound prize.",
         "released": "2025-08-22",
         "number_abs": 16,
-        "updated_at": "2026-08-21T00:35:19.000Z",
+        "updated_at": "2026-08-22T00:45:25.000Z",
         "first_aired": "2025-08-21T23:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -23206,20 +23444,20 @@
           "trakt": 14318231
         },
         "title": "Frank Marries a Corpse",
-        "votes": 174,
+        "votes": 177,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/318/231/screenshots/medium/6919adac2e.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.994252681732178,
+        "rating": 7.977401256561279,
         "season": 18,
         "runtime": 23,
         "overview": "The guys help Frank with his cold feet ahead of his wedding to Sam. Dee tries to scare Sam off the nuptials with testimonies from The Waitress, Artemis, and Snail.",
         "released": "2026-08-18",
         "number_abs": 178,
-        "updated_at": "2026-08-21T21:58:47.000Z",
+        "updated_at": "2026-08-22T01:16:57.000Z",
         "first_aired": "2026-08-18T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -25294,7 +25532,7 @@
         "overview": "As the investigation comes to a close, Turner discovers the truth about Lucy's death \u2014 and the long-buried secrets that set it in motion.",
         "released": "2025-07-17",
         "number_abs": 6,
-        "updated_at": "2026-08-21T00:21:08.000Z",
+        "updated_at": "2026-08-22T00:27:51.000Z",
         "first_aired": "2025-07-17T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -26689,20 +26927,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1326,
+        "votes": 1327,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.656108379364014,
+        "rating": 7.655614376068115,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-08-21T21:57:15.000Z",
+        "updated_at": "2026-08-22T00:45:08.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -28796,10 +29034,10 @@
       },
       "year": 2024,
       "title": "Conan O'Brien Must Go",
-      "aired_episodes": 7
+      "aired_episodes": 8
     },
     "progress": {
-      "aired": 7,
+      "aired": 8,
       "completed": 7,
       "last_watched_at": "2025-05-31T07:23:00.000Z",
       "reset_at": null,
@@ -28846,7 +29084,7 @@
         "ids": {
           "imdb": null,
           "plex": {
-            "guid": null
+            "guid": "6a73298470a049d06f34120b"
           },
           "tmdb": 7577162,
           "tvdb": null,
@@ -28866,7 +29104,7 @@
         "overview": "Conan O'Brien travels to India and along the way visits Jaipur to explore local markets and try his hand with traditional textile artisans. Interacting with local families and experiencing the vibrant, chaotic nature of Indian joint households. He immerses himself in local culture, humor, and unscripted encounters with merchants who refuse to play along with his jokes.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-08-20T08:34:31.000Z",
+        "updated_at": "2026-08-22T01:10:35.000Z",
         "first_aired": "2026-08-22T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -28881,7 +29119,7 @@
       "stats": {
         "play_count": 7,
         "minutes_watched": 296,
-        "minutes_left": 0
+        "minutes_left": 45
       },
       "seasons": [
         {
@@ -28976,14 +29214,24 @@
         {
           "number": 3,
           "title": "Season 3",
-          "aired": 0,
+          "aired": 1,
           "completed": 0,
           "stats": {
             "play_count": 0,
             "minutes_watched": 0,
-            "minutes_left": 0
+            "minutes_left": 45
           },
-          "episodes": []
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
         }
       ],
       "hidden_seasons": []
@@ -33976,20 +34224,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 1292,
+        "votes": 1294,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.287151336669922,
+        "rating": 8.286707878112793,
         "season": 4,
         "runtime": 46,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-08-21T22:27:15.000Z",
+        "updated_at": "2026-08-22T01:08:26.000Z",
         "first_aired": "2026-08-12T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35691,20 +35939,20 @@
           "trakt": 12249238
         },
         "title": "Episode 10",
-        "votes": 2437,
+        "votes": 2438,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/249/238/screenshots/medium/27b6f69496.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.17398452758789,
+        "rating": 8.17473316192627,
         "season": 1,
         "runtime": 62,
         "overview": "A wanted man, the Jackal is on the run, desperate to get back to Nuria, but Bianca is given one last shot to bring him to justice.",
         "released": "2024-12-12",
         "number_abs": 10,
-        "updated_at": "2026-08-21T21:02:05.000Z",
+        "updated_at": "2026-08-22T00:44:11.000Z",
         "first_aired": "2024-12-12T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -36052,20 +36300,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 981,
+        "votes": 982,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.621814727783203,
+        "rating": 8.623217582702637,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-21T19:10:07.000Z",
+        "updated_at": "2026-08-22T00:53:03.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -36344,20 +36592,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3623,
+        "votes": 3624,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.192381858825684,
+        "rating": 8.192605018615723,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-08-21T21:10:26.000Z",
+        "updated_at": "2026-08-22T00:42:47.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -37747,20 +37995,20 @@
           "trakt": 12209907
         },
         "title": "Playtime: Fulfillment",
-        "votes": 1066,
+        "votes": 1067,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/209/907/screenshots/medium/7a3f246e61.jpg.webp"
           ]
         },
         "number": 15,
-        "rating": 6.090994358062744,
+        "rating": 6.094657897949219,
         "season": 1,
         "runtime": 12,
         "overview": "Courier O is stuck in the endless drudgery of a point-chasing grind, but when a mysterious figure entrusts her with a strange package, O discovers that powerful people are determined to get their hands on it.",
         "released": "2024-12-17",
         "number_abs": 15,
-        "updated_at": "2026-08-21T23:52:07.000Z",
+        "updated_at": "2026-08-22T01:26:44.000Z",
         "first_aired": "2024-12-17T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -40333,7 +40581,7 @@
         "overview": "The future of Cramblin Duvet is in jeopardy when Sam discovers that he might be a father.",
         "released": "2018-08-17",
         "number_abs": 20,
-        "updated_at": "2026-08-21T00:14:42.000Z",
+        "updated_at": "2026-08-22T00:16:03.000Z",
         "first_aired": "2018-08-16T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -46135,7 +46383,7 @@
         "overview": "As the city's unhoused people are forced onto the street, Vincent meets the one with answers. An old friend helps Ledroit bring buried evidence to light.",
         "released": "2024-05-30",
         "number_abs": 6,
-        "updated_at": "2026-08-21T00:44:30.000Z",
+        "updated_at": "2026-08-22T00:45:49.000Z",
         "first_aired": "2024-05-29T23:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -46721,7 +46969,7 @@
         "overview": "The Count and Anna devise an elaborate plan, with huge consequences should it fail. However, things quickly start to unravel. An inevitable showdown is set between the Count and an old enemy.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-08-21T01:13:59.000Z",
+        "updated_at": "2026-08-22T01:15:37.000Z",
         "first_aired": "2024-05-17T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -95136,7 +95384,7 @@
         "overview": "Margaret and her family prepare to return to the United States. Hilary travels home to Los Angeles to visit her ailing father. Mercy\u2019s mother visits her in Hong Kong for the first time.",
         "released": "2024-02-23",
         "number_abs": 6,
-        "updated_at": "2026-08-21T01:19:28.000Z",
+        "updated_at": "2026-08-22T01:28:10.000Z",
         "first_aired": "2024-02-23T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -99875,7 +100123,7 @@
         "overview": "Across decades, the detectives work together to stop Elias from reshaping history. Will words be enough to break the loop and save thousands of lives?",
         "released": "2023-10-19",
         "number_abs": 8,
-        "updated_at": "2026-08-21T04:38:04.000Z",
+        "updated_at": "2026-08-22T00:45:42.000Z",
         "first_aired": "2023-10-19T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -100047,7 +100295,7 @@
         "overview": "In 1980, Roderick and Madeline seize a chance to cement their fortune \u2014 for a price. Decades later, the remaining Ushers reckon with the consequences.",
         "released": "2023-10-12",
         "number_abs": 8,
-        "updated_at": "2026-08-21T00:28:34.000Z",
+        "updated_at": "2026-08-22T00:31:31.000Z",
         "first_aired": "2023-10-12T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -103467,7 +103715,7 @@
         "overview": "As the Secret Service finally corners the Tongs' printing operation, Ah Sahm must choose between his brothers in the Hop Wei and a future with Yan Mi.",
         "released": "2023-08-17",
         "number_abs": 30,
-        "updated_at": "2026-08-21T15:39:45.000Z",
+        "updated_at": "2026-08-22T01:28:11.000Z",
         "first_aired": "2023-08-17T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -110237,7 +110485,7 @@
         "overview": "Josh, Aryn & Lorena unpack their polyamorous past.",
         "released": "2024-05-31",
         "number_abs": 38,
-        "updated_at": "2026-08-21T00:47:38.000Z",
+        "updated_at": "2026-08-22T01:20:12.000Z",
         "first_aired": "2024-06-03T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -115387,7 +115635,7 @@
         "overview": "Mira's looming threat forges some unlikely alliances.",
         "released": "2019-02-18",
         "number_abs": 20,
-        "updated_at": "2026-08-21T01:00:53.000Z",
+        "updated_at": "2026-08-22T01:10:46.000Z",
         "first_aired": "2019-02-18T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -122433,20 +122681,20 @@
           "trakt": 5173126
         },
         "title": "Por Sonia",
-        "votes": 658,
+        "votes": 659,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/173/126/screenshots/medium/0f92c199b6.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.21884536743164,
+        "rating": 8.220030784606934,
         "season": 7,
         "runtime": 50,
         "overview": "As Billets posts the Hollywood homicide detectives\u2019 new assignments, Bosch puts a plan in motion to arrest Mickey Pe\u00f1a, leading to some severe consequences. Billets makes an impression and Maddie makes a decision about her future.",
         "released": "2021-06-25",
         "number_abs": 68,
-        "updated_at": "2026-08-21T15:31:18.000Z",
+        "updated_at": "2026-08-22T00:54:04.000Z",
         "first_aired": "2021-06-24T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -125753,7 +126001,7 @@
         "overview": "A showdown brews at Secretary of Defense Hartley's Orcas Island estate as Reece, Katie, Ben and Tony's paths and objectives collide.",
         "released": "2022-07-01",
         "number_abs": 8,
-        "updated_at": "2026-08-21T15:35:00.000Z",
+        "updated_at": "2026-08-22T01:10:29.000Z",
         "first_aired": "2022-07-01T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -126418,7 +126666,7 @@
         "overview": "As Kirby's reality spirals, she sets her sights on finally tracking down Harper.",
         "released": "2022-06-03",
         "number_abs": 8,
-        "updated_at": "2026-08-21T21:54:08.000Z",
+        "updated_at": "2026-08-22T00:31:18.000Z",
         "first_aired": "2022-06-02T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -139236,7 +139484,7 @@
         "overview": "A wealthy man gives his former school bully a chance at redemption through an opportunity to pitch a very specific product.",
         "released": "2021-10-07",
         "number_abs": 5,
-        "updated_at": "2026-08-20T19:05:20.000Z",
+        "updated_at": "2026-08-22T00:27:59.000Z",
         "first_aired": "2021-10-07T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -140385,7 +140633,7 @@
         "overview": "In their search for mind and body reinvigoration, nine people from various walks of life arrive at Zauberwald, an Alpine retreat, where they are greeted by the enigmatic wellness guru, Masha.",
         "released": "2025-05-21",
         "number_abs": 9,
-        "updated_at": "2026-08-21T01:21:31.000Z",
+        "updated_at": "2026-08-22T01:22:40.000Z",
         "first_aired": "2025-05-21T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -164228,7 +164476,7 @@
         "overview": "Life in the shifting sands of the Namib desert is so extreme it has forced small creatures to evolve extraordinary powers to help them triumph.",
         "released": "2021-04-16",
         "number_abs": 12,
-        "updated_at": "2026-08-21T01:21:35.000Z",
+        "updated_at": "2026-08-22T01:23:26.000Z",
         "first_aired": "2021-04-15T23:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -164744,7 +164992,7 @@
         "overview": "The events that ended the filming of Room 209 are revealed as Alice and David prepare for its film festival premiere.",
         "released": "2020-08-06",
         "number_abs": 8,
-        "updated_at": "2026-08-20T21:05:37.000Z",
+        "updated_at": "2026-08-22T00:13:38.000Z",
         "first_aired": "2020-08-06T19:15:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -170803,7 +171051,7 @@
         "overview": "While Santos and his winning camp are nervously gearing up for the presidential inauguration, current President Bartlet, CJ, and the others fondly look back as they prepare to leave the White House forever.",
         "released": "2006-05-14",
         "number_abs": 154,
-        "updated_at": "2026-08-21T01:17:16.000Z",
+        "updated_at": "2026-08-22T01:20:11.000Z",
         "first_aired": "2006-05-15T00:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -174200,7 +174448,7 @@
         "overview": "Jane awakens in the hospital with a new feeling of hope, and the will to live the life she deserves.",
         "released": null,
         "number_abs": 12,
-        "updated_at": "2026-08-20T21:07:20.000Z",
+        "updated_at": "2026-08-22T01:00:39.000Z",
         "first_aired": "2020-04-17T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -178435,7 +178683,7 @@
         "overview": "The trial comes to an end, but with unexpected consequences.",
         "released": "2020-05-29",
         "number_abs": 8,
-        "updated_at": "2026-08-21T15:26:45.000Z",
+        "updated_at": "2026-08-22T00:45:08.000Z",
         "first_aired": "2020-05-29T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -191805,7 +192053,7 @@
         "overview": "Shadow is tormented by recent events and Wednesday has disappeared. Those that remain witness the power of New Media as she is unleashed, and the nation is enveloped in a state of panic brought on by Mr. World.",
         "released": "2019-04-29",
         "number_abs": 16,
-        "updated_at": "2026-08-21T03:21:59.000Z",
+        "updated_at": "2026-08-22T00:15:58.000Z",
         "first_aired": "2019-04-29T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -193987,7 +194235,7 @@
         "overview": "When Sophie learns that her TV show was canceled, she has second thoughts about the ex she left behind to pursue her acting dreams.",
         "released": "2019-05-10",
         "number_abs": 25,
-        "updated_at": "2026-08-21T00:04:32.000Z",
+        "updated_at": "2026-08-22T00:13:35.000Z",
         "first_aired": "2019-05-10T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -198378,7 +198626,7 @@
         "overview": "Back home in California, Samin uses heat to unlock rich colors and flavors as she roasts meat and veggies, then makes crispy rice with her mom.",
         "released": "2018-10-12",
         "number_abs": 4,
-        "updated_at": "2026-08-21T00:20:12.000Z",
+        "updated_at": "2026-08-22T00:54:58.000Z",
         "first_aired": "2018-10-11T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -211136,11 +211384,11 @@
         "overview": "A controversy surrounding the defense puts Stone in the spotlight as Naz\u2019s trial reaches its climax.",
         "released": "2016-08-29",
         "number_abs": 8,
-        "updated_at": "2026-08-21T10:03:01.000Z",
+        "updated_at": "2026-08-22T01:30:18.000Z",
         "first_aired": "2016-08-29T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 18,
+        "comment_count": 19,
         "during_credits": false,
         "original_title": "Part 8: The Call of the Wild",
         "available_translations": [],
@@ -211288,7 +211536,7 @@
         "overview": "Peter has little time left to make a plea deal before the jury comes back with a verdict. Meanwhile, Alicia must decide whether her future is with Peter or with Jason, and she channels the ghost of Will Gardner to help make a decision.",
         "released": "2016-05-09",
         "number_abs": 156,
-        "updated_at": "2026-08-21T10:03:04.000Z",
+        "updated_at": "2026-08-22T00:34:42.000Z",
         "first_aired": "2016-05-09T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -213461,7 +213709,7 @@
         "overview": "Zak constructs a dangerous plan to bring down Richie. Kip's excesses threaten an important Nasty Bits gig.\u00a0Clark and Jorge's efforts pay off. Richie is privy to the birth of a legendary music venue.",
         "released": "2016-04-18",
         "number_abs": 10,
-        "updated_at": "2026-08-21T15:26:39.000Z",
+        "updated_at": "2026-08-22T01:23:29.000Z",
         "first_aired": "2016-04-18T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -213783,7 +214031,7 @@
         "overview": "As revelations abound, Juliana is forced to make the hardest decision of her life. Wegener returns to Germany to carry out his mission. Smith risks becoming the prey as he goes hunting with his assassin, and Kido desperately tries to close his investigation before his time runs out.",
         "released": "2015-11-20",
         "number_abs": 10,
-        "updated_at": "2026-08-21T15:39:41.000Z",
+        "updated_at": "2026-08-22T00:27:31.000Z",
         "first_aired": "2015-11-20T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -240126,20 +240374,20 @@
           "trakt": 74256
         },
         "title": "Remember the Monsters?",
-        "votes": 2172,
+        "votes": 2173,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/000/074/256/screenshots/medium/6356607d48.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 6.637660980224609,
+        "rating": 6.6382880210876465,
         "season": 8,
         "runtime": 56,
         "overview": "Dexter is faced with impossible odds as a brewing hurricane makes its way towards Miami.",
         "released": "2013-09-23",
         "number_abs": 96,
-        "updated_at": "2026-08-21T15:27:50.000Z",
+        "updated_at": "2026-08-22T01:36:44.000Z",
         "first_aired": "2013-09-23T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
