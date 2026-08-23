@@ -18,16 +18,81 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 3,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2026-08-23T04:14:00.000Z",
+      "last_watched_at": "2026-08-23T05:06:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 3,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt37443209",
+          "plex": {
+            "guid": "685e9b6c9b2f6b66c0581e38"
+          },
+          "tmdb": 6912001,
+          "tvdb": 11593743,
+          "trakt": 13974258
+        },
+        "title": "Are We Bad People?",
+        "votes": 729,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/974/258/screenshots/medium/e15e83b988.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.648834228515625,
+        "season": 1,
+        "runtime": 42,
+        "overview": "On the run again, Lucky makes a lucrative discovery. Agent Rand devises a plan.",
+        "released": "2026-08-05",
+        "number_abs": 5,
+        "updated_at": "2026-08-23T03:00:27.000Z",
+        "first_aired": "2026-08-05T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 18,
+        "during_credits": false,
+        "original_title": "Are We Bad People?",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-05T01:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt37443202",
           "plex": {
@@ -38,20 +103,20 @@
           "trakt": 13974257
         },
         "title": "Too Close to See It",
-        "votes": 871,
+        "votes": 872,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/974/257/screenshots/medium/80e79b21f4.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.8989667892456055,
+        "rating": 7.899082660675049,
         "season": 1,
         "runtime": 40,
         "overview": "As Lucky confronts betrayal, old grudges take a back seat to a deadly chase.",
         "released": "2026-07-29",
         "number_abs": 4,
-        "updated_at": "2026-08-23T03:05:14.000Z",
+        "updated_at": "2026-08-23T04:33:18.000Z",
         "first_aired": "2026-07-29T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -91,71 +156,6 @@
           "zh"
         ],
         "effective_release_date": "2026-07-29T01:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37443160",
-          "plex": {
-            "guid": "685e9b6c9b2f6b66c0581e36"
-          },
-          "tmdb": 6911999,
-          "tvdb": 11593740,
-          "trakt": 13974256
-        },
-        "title": "Read the Room",
-        "votes": 898,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/974/256/screenshots/medium/9982c6f491.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.772828578948975,
-        "season": 1,
-        "runtime": 46,
-        "overview": "Lucky tries to track down Cary\u2014and her money. Agent Rand investigates Lucky's moves.",
-        "released": "2026-07-22",
-        "number_abs": 3,
-        "updated_at": "2026-08-23T03:15:42.000Z",
-        "first_aired": "2026-07-22T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 22,
-        "during_credits": false,
-        "original_title": "Read the Room",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "ur",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-22T01:00:00.000Z"
       }
     }
   },
@@ -643,20 +643,20 @@
           "trakt": 14336169
         },
         "title": "India",
-        "votes": 21,
+        "votes": 22,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/336/169/screenshots/medium/cd46c19583.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.904761791229248,
+        "rating": 7.863636493682861,
         "season": 3,
         "runtime": 43,
         "overview": "After riding Mumbai's legendary commuter train, Conan tackles the country's monkey problem and helps a fan launch a talk show.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-08-23T04:12:39.000Z",
+        "updated_at": "2026-08-23T05:03:32.000Z",
         "first_aired": "2026-08-22T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -849,20 +849,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 1347,
+        "votes": 1348,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.285078048706055,
+        "rating": 8.28635025024414,
         "season": 4,
         "runtime": 46,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-08-23T04:03:58.000Z",
+        "updated_at": "2026-08-23T04:17:01.000Z",
         "first_aired": "2026-08-12T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

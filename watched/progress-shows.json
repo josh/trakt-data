@@ -18,75 +18,10 @@
     },
     "progress": {
       "aired": 7,
-      "completed": 3,
-      "last_watched_at": "2026-08-23T04:14:00.000Z",
+      "completed": 4,
+      "last_watched_at": "2026-08-23T05:06:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt37443160",
-          "plex": {
-            "guid": "685e9b6c9b2f6b66c0581e36"
-          },
-          "tmdb": 6911999,
-          "tvdb": 11593740,
-          "trakt": 13974256
-        },
-        "title": "Read the Room",
-        "votes": 898,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/974/256/screenshots/medium/9982c6f491.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.772828578948975,
-        "season": 1,
-        "runtime": 46,
-        "overview": "Lucky tries to track down Cary\u2014and her money. Agent Rand investigates Lucky's moves.",
-        "released": "2026-07-22",
-        "number_abs": 3,
-        "updated_at": "2026-08-23T03:15:42.000Z",
-        "first_aired": "2026-07-22T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 22,
-        "during_credits": false,
-        "original_title": "Read the Room",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "ur",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-22T01:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt37443202",
           "plex": {
@@ -97,20 +32,20 @@
           "trakt": 13974257
         },
         "title": "Too Close to See It",
-        "votes": 871,
+        "votes": 872,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/974/257/screenshots/medium/80e79b21f4.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.8989667892456055,
+        "rating": 7.899082660675049,
         "season": 1,
         "runtime": 40,
         "overview": "As Lucky confronts betrayal, old grudges take a back seat to a deadly chase.",
         "released": "2026-07-29",
         "number_abs": 4,
-        "updated_at": "2026-08-23T03:05:14.000Z",
+        "updated_at": "2026-08-23T04:33:18.000Z",
         "first_aired": "2026-07-29T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -151,21 +86,86 @@
         ],
         "effective_release_date": "2026-07-29T01:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37443209",
+          "plex": {
+            "guid": "685e9b6c9b2f6b66c0581e38"
+          },
+          "tmdb": 6912001,
+          "tvdb": 11593743,
+          "trakt": 13974258
+        },
+        "title": "Are We Bad People?",
+        "votes": 729,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/013/974/258/screenshots/medium/e15e83b988.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.648834228515625,
+        "season": 1,
+        "runtime": 42,
+        "overview": "On the run again, Lucky makes a lucrative discovery. Agent Rand devises a plan.",
+        "released": "2026-08-05",
+        "number_abs": 5,
+        "updated_at": "2026-08-23T03:00:27.000Z",
+        "first_aired": "2026-08-05T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 18,
+        "during_credits": false,
+        "original_title": "Are We Bad People?",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-05T01:00:00.000Z"
+      },
       "stats": {
-        "play_count": 3,
-        "minutes_watched": 142,
-        "minutes_left": 176
+        "play_count": 4,
+        "minutes_watched": 182,
+        "minutes_left": 136
       },
       "seasons": [
         {
           "number": 1,
           "title": "Miniseries",
           "aired": 7,
-          "completed": 3,
+          "completed": 4,
           "stats": {
-            "play_count": 3,
-            "minutes_watched": 142,
-            "minutes_left": 176
+            "play_count": 4,
+            "minutes_watched": 182,
+            "minutes_left": 136
           },
           "episodes": [
             {
@@ -197,11 +197,11 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-08-23T05:06:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 40
               }
             },
             {
@@ -9283,20 +9283,20 @@
           "trakt": 14143104
         },
         "title": "Richmond's Got Talent",
-        "votes": 972,
+        "votes": 975,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/104/screenshots/medium/b7bbbff613.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 8.226337432861328,
+        "rating": 8.227692604064941,
         "season": 4,
         "runtime": 47,
         "overview": "Richmond's shareholders are unsure about a women's team. The coaches hold tryouts to fill out their roster.",
         "released": "2026-08-19",
         "number_abs": 37,
-        "updated_at": "2026-08-23T03:54:44.000Z",
+        "updated_at": "2026-08-23T04:29:53.000Z",
         "first_aired": "2026-08-19T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -9797,20 +9797,20 @@
           "trakt": 11664405
         },
         "title": "Pilot",
-        "votes": 2021,
+        "votes": 2028,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/664/405/screenshots/medium/4ff89ae960.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.118753433227539,
+        "rating": 8.11735725402832,
         "season": 1,
         "runtime": 57,
         "overview": "After a fatal shooting, Green Lantern Hal Jordan and new recruit John Stewart set out to prove it was an extraterrestrial event.",
         "released": "2026-08-17",
         "number_abs": 1,
-        "updated_at": "2026-08-23T03:19:31.000Z",
+        "updated_at": "2026-08-23T05:05:23.000Z",
         "first_aired": "2026-08-17T01:00:00.000Z",
         "episode_type": "series_premiere",
         "after_credits": false,
@@ -10229,20 +10229,20 @@
           "trakt": 13904820
         },
         "title": "The Treasons at Tumbleton",
-        "votes": 4225,
+        "votes": 4227,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/820/screenshots/medium/3c3d75bb1c.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.675029754638672,
+        "rating": 8.674473762512207,
         "season": 3,
         "runtime": 71,
         "overview": "Shifting alliances irrevocably reshape the war as Rhaenyra's forces converge around Tumbleton and both sides vie to gain the upper hand.",
         "released": "2026-08-10",
         "number_abs": 26,
-        "updated_at": "2026-08-23T03:15:00.000Z",
+        "updated_at": "2026-08-23T05:03:36.000Z",
         "first_aired": "2026-08-10T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -10592,20 +10592,20 @@
           "trakt": 13886053
         },
         "title": "It Will Stay This Way and You Will Obey",
-        "votes": 482,
+        "votes": 483,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/053/screenshots/medium/f819550f69.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.085062026977539,
+        "rating": 7.08695650100708,
         "season": 2,
         "runtime": 55,
         "overview": "Fighting for survival on the Chairwoman's home turf, both couples must decide what \u2014 and for whom \u2014 they're willing to sacrifice.",
         "released": "2026-04-16",
         "number_abs": 18,
-        "updated_at": "2026-08-23T03:24:57.000Z",
+        "updated_at": "2026-08-23T04:15:44.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -11352,20 +11352,20 @@
           "trakt": 13527591
         },
         "title": "The Man in the Mask",
-        "votes": 1170,
+        "votes": 1171,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/591/screenshots/medium/90c9a42855.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.176922798156738,
+        "rating": 8.176772117614746,
         "season": 1,
         "runtime": 46,
         "overview": "Gee whiz, what's a down-on-his-luck private investigator to do?",
         "released": "2026-05-25",
         "number_abs": 8,
-        "updated_at": "2026-08-23T02:11:00.000Z",
+        "updated_at": "2026-08-23T04:13:50.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -13246,20 +13246,20 @@
           "trakt": 13821065
         },
         "title": "We Hope You Enjoyed Your Time!",
-        "votes": 1740,
+        "votes": 1741,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/065/screenshots/medium/e7ac53dd66.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.22183895111084,
+        "rating": 8.220562934875488,
         "season": 1,
         "runtime": 49,
         "overview": "We understand that hard choices had to be made and we may never be the same, but we hope you'll visit again!",
         "released": "2026-06-17",
         "number_abs": 10,
-        "updated_at": "2026-08-23T01:48:13.000Z",
+        "updated_at": "2026-08-23T04:25:17.000Z",
         "first_aired": "2026-06-17T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -14490,7 +14490,7 @@
         "overview": "With Tiger Tiger out of the picture, Clark proposes a new plan. After a series of revelations, Plumb and Homer are forced to question everything they thought they knew about the case.",
         "released": "2026-04-13",
         "number_abs": 7,
-        "updated_at": "2026-08-22T11:20:18.000Z",
+        "updated_at": "2026-08-23T04:56:24.000Z",
         "first_aired": "2026-04-13T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -16984,7 +16984,7 @@
         "overview": "Don't let your babies grow up to be cowboys.",
         "released": "2026-01-27",
         "number_abs": 8,
-        "updated_at": "2026-08-22T15:27:18.000Z",
+        "updated_at": "2026-08-23T04:24:46.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -17574,7 +17574,7 @@
         "overview": "After discovering the existence of The Occupant of Room 10, Joe attempts to find him and another object that will allow him to access the Vault. Kreutzfeld hatches a plan that could destroy the world. Ruber has a vision while in the desert, and Joe finally finds The Occupant.",
         "released": "2006-12-14",
         "number_abs": 3,
-        "updated_at": "2026-08-22T03:28:59.000Z",
+        "updated_at": "2026-08-23T04:14:37.000Z",
         "first_aired": "2006-12-14T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -20811,13 +20811,13 @@
           ]
         },
         "number": 10,
-        "rating": 7.366366386413574,
+        "rating": 7.363363265991211,
         "season": 2,
         "runtime": 28,
         "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
         "released": "2025-10-23",
         "number_abs": 20,
-        "updated_at": "2026-08-22T15:28:36.000Z",
+        "updated_at": "2026-08-23T04:47:45.000Z",
         "first_aired": "2025-10-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -24398,7 +24398,7 @@
         "overview": "A new power dynamic emerges.",
         "released": "2025-09-24",
         "number_abs": 8,
-        "updated_at": "2026-08-22T23:15:35.000Z",
+        "updated_at": "2026-08-23T04:59:18.000Z",
         "first_aired": "2025-09-24T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -25712,7 +25712,7 @@
         "overview": "Brohhhhh. Broh. Sometimes we try weird stuff to let go of the past, broh.",
         "released": "2025-07-28",
         "number_abs": 81,
-        "updated_at": "2026-08-22T19:43:50.000Z",
+        "updated_at": "2026-08-23T05:01:29.000Z",
         "first_aired": "2025-07-28T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -25733,20 +25733,20 @@
           "trakt": 14050061
         },
         "title": "There's Something About Morty",
-        "votes": 1144,
+        "votes": 1145,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/050/061/screenshots/medium/b9d1c4cd81.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.16695785522461,
+        "rating": 8.1668119430542,
         "season": 9,
         "runtime": 23,
         "overview": "Rick's been lonely, broh. Morty's worried bout side pieces.",
         "released": "2026-05-25",
         "number_abs": 82,
-        "updated_at": "2026-08-23T03:22:32.000Z",
+        "updated_at": "2026-08-23T04:25:21.000Z",
         "first_aired": "2026-05-25T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -27992,7 +27992,7 @@
         "overview": "As Jun-ho races to reach the island, tensions peak in the final round. The last players face an impossible situation in the closing minutes of the game.",
         "released": "2025-06-27",
         "number_abs": 22,
-        "updated_at": "2026-08-22T15:17:50.000Z",
+        "updated_at": "2026-08-23T04:22:01.000Z",
         "first_aired": "2025-06-27T08:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -29105,20 +29105,20 @@
           "trakt": 14336169
         },
         "title": "India",
-        "votes": 21,
+        "votes": 22,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/336/169/screenshots/medium/cd46c19583.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.904761791229248,
+        "rating": 7.863636493682861,
         "season": 3,
         "runtime": 43,
         "overview": "After riding Mumbai's legendary commuter train, Conan tackles the country's monkey problem and helps a fan launch a talk show.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-08-23T04:12:39.000Z",
+        "updated_at": "2026-08-23T05:03:32.000Z",
         "first_aired": "2026-08-22T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -33514,7 +33514,7 @@
         "overview": "The extent of the conspiracy is revealed. Elliot's past and present collide and the Gangs take revenge, changing London forever.",
         "released": null,
         "number_abs": 25,
-        "updated_at": "2026-08-22T04:46:45.000Z",
+        "updated_at": "2026-08-23T04:48:16.000Z",
         "first_aired": "2025-05-08T20:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -34239,20 +34239,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 1347,
+        "votes": 1348,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.285078048706055,
+        "rating": 8.28635025024414,
         "season": 4,
         "runtime": 46,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-08-23T04:03:58.000Z",
+        "updated_at": "2026-08-23T04:17:01.000Z",
         "first_aired": "2026-08-12T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35429,20 +35429,20 @@
           "trakt": 12782618
         },
         "title": "Episode 4",
-        "votes": 2918,
+        "votes": 2919,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/782/618/screenshots/medium/84e2567a24.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.908498764038086,
+        "rating": 7.9075026512146,
         "season": 1,
         "runtime": 61,
         "overview": "On Eddie's birthday, the Millers try to celebrate like everything is normal. But a series of upsetting events threatens to send the family over the edge.",
         "released": "2025-03-13",
         "number_abs": 4,
-        "updated_at": "2026-08-22T22:48:36.000Z",
+        "updated_at": "2026-08-23T04:52:50.000Z",
         "first_aired": "2025-03-13T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -38803,7 +38803,7 @@
         "overview": "As the Duttons and the Yellowstone cowboys lay John to rest, the fate of the ranch is revealed.",
         "released": "2024-12-16",
         "number_abs": 53,
-        "updated_at": "2026-08-22T04:25:46.000Z",
+        "updated_at": "2026-08-23T04:26:52.000Z",
         "first_aired": "2024-12-16T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -47564,7 +47564,7 @@
         "overview": "The POWs are marched across Germany\u2014and Rosie makes a gruesome discovery\u2014as the war comes to its conclusion.",
         "released": "2024-03-15",
         "number_abs": 9,
-        "updated_at": "2026-08-22T15:25:23.000Z",
+        "updated_at": "2026-08-23T05:02:34.000Z",
         "first_aired": "2024-03-15T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -91588,7 +91588,7 @@
         "overview": "The team struggles to find a way out of Axis Mundi. Kentaro and Tim make an unexpected alliance.",
         "released": "2024-01-12",
         "number_abs": 10,
-        "updated_at": "2026-08-22T22:38:01.000Z",
+        "updated_at": "2026-08-23T04:27:08.000Z",
         "first_aired": "2024-01-12T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -91622,7 +91622,7 @@
         "overview": "Decades after being presumed dead, Keiko's return shocks Monarch. Cate defies orders to save Shaw\u2014and unleashes a terrifying new Titan.",
         "released": "2026-02-27",
         "number_abs": 11,
-        "updated_at": "2026-08-23T02:36:06.000Z",
+        "updated_at": "2026-08-23T04:15:24.000Z",
         "first_aired": "2026-02-27T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -96087,7 +96087,7 @@
         "overview": "Lauren spends Thanksgiving attempting to impress his 13-year-old son Ginsberg by interviewing Hugh Laurie. Fabian is caught between her principles and her family.",
         "released": "2024-01-25",
         "number_abs": 6,
-        "updated_at": "2026-08-21T13:17:28.000Z",
+        "updated_at": "2026-08-23T04:17:27.000Z",
         "first_aired": "2024-01-25T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -98738,7 +98738,7 @@
         "overview": "When 456 new players enter the competition, they quickly learn why every second will count. A nerve-wracking pentathlon whittles down the field.",
         "released": "2025-11-04",
         "number_abs": 11,
-        "updated_at": "2026-08-22T04:41:30.000Z",
+        "updated_at": "2026-08-23T04:43:00.000Z",
         "first_aired": "2025-11-04T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -104107,7 +104107,7 @@
         "overview": "Everything comes to a head as John and Quiet face a difficult choice; new players enter the fray.",
         "released": "2023-07-27",
         "number_abs": 10,
-        "updated_at": "2026-08-22T09:25:54.000Z",
+        "updated_at": "2026-08-23T04:46:40.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -105899,7 +105899,7 @@
         "overview": "While planning a showcase for her upcoming tour, Jocelyn begins to take control of the relationships around her \u2013 much to Tedros\u2019s dismay. Later, a meeting with Jocelyn disrupts Nikki\u2019s plans for Dyanne, as disturbing news about Jocelyn\u2019s ex emerges.",
         "released": null,
         "number_abs": 5,
-        "updated_at": "2026-08-22T04:59:45.000Z",
+        "updated_at": "2026-08-23T05:01:47.000Z",
         "first_aired": "2023-07-03T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -113861,7 +113861,7 @@
         "overview": "Michael exposes shocking information that impacts everyone. A startling revelation pushes Fia to make a life-altering decision. Big Mo proposes a deal with Jimmy Baxter. Gina manipulates her father Carmine to make a move of her own.",
         "released": "2023-03-17",
         "number_abs": 20,
-        "updated_at": "2026-08-22T04:41:38.000Z",
+        "updated_at": "2026-08-23T04:43:02.000Z",
         "first_aired": "2023-03-20T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -118814,7 +118814,7 @@
         "overview": "You know what? As much as I hated this show, I think I'm gonna miss it.",
         "released": "2022-11-11",
         "number_abs": 41,
-        "updated_at": "2026-08-22T04:36:59.000Z",
+        "updated_at": "2026-08-23T04:38:48.000Z",
         "first_aired": "2022-11-11T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -129125,7 +129125,7 @@
         "overview": "As the Germans surrender, it appears that that the hard days for Easy Company are over as they are stationed in Austria. But they soon learn that those solders without enough service points will be sent to fight in Japan.",
         "released": "2001-11-05",
         "number_abs": 10,
-        "updated_at": "2026-08-23T01:10:07.000Z",
+        "updated_at": "2026-08-23T04:22:34.000Z",
         "first_aired": "2001-11-05T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -139628,7 +139628,7 @@
         "overview": "Fairy tales have survived thousands of years for a reason. Explore their far-flung history and how the stories speak to fundamental human concerns.",
         "released": "2021-10-15",
         "number_abs": 44,
-        "updated_at": "2026-08-22T05:02:24.000Z",
+        "updated_at": "2026-08-23T05:06:24.000Z",
         "first_aired": "2021-10-15T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -166090,7 +166090,7 @@
         "overview": "Facing its potential destruction, the partners must go all in to save the firm.",
         "released": "2019-09-26",
         "number_abs": 134,
-        "updated_at": "2026-08-22T17:19:08.000Z",
+        "updated_at": "2026-08-23T05:04:58.000Z",
         "first_aired": "2019-09-26T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -177102,7 +177102,7 @@
         "overview": "Arrested and charged in 2019 with child sex trafficking, Epstein spends only a short time behind bars, but his accusers still get their day in court.",
         "released": "2020-05-27",
         "number_abs": 4,
-        "updated_at": "2026-08-22T03:48:56.000Z",
+        "updated_at": "2026-08-23T04:21:41.000Z",
         "first_aired": "2020-05-27T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -189154,20 +189154,20 @@
           "trakt": 993935
         },
         "title": "An American Girl in Paris (Part Deux)",
-        "votes": 211,
+        "votes": 212,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/000/993/935/screenshots/medium/58c009ec61.jpg.webp"
           ]
         },
         "number": 20,
-        "rating": 8.099526405334473,
+        "rating": 8.10377311706543,
         "season": 6,
         "runtime": 43,
         "overview": "Carrie is desperately lonely in Paris as Petrovsky is spending so much time on his new exhibit. The chemo treatments are killing Samantha's sex drive. Miranda must take care of Steve's mother after she has a stroke. Charlotte and Harry try to adopt a baby. Big finds Carrie in Paris and says the words she's been waiting six years to hear.",
         "released": "2004-02-22",
         "number_abs": 94,
-        "updated_at": "2026-08-22T15:25:36.000Z",
+        "updated_at": "2026-08-23T05:05:00.000Z",
         "first_aired": "2004-02-23T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -192614,7 +192614,7 @@
         "overview": "Valery Legasov, Boris Shcherbina and Ulana Khomyuk risk their lives and reputations to expose the truth about Chernobyl.",
         "released": "2019-06-04",
         "number_abs": 5,
-        "updated_at": "2026-08-23T01:10:31.000Z",
+        "updated_at": "2026-08-23T05:02:24.000Z",
         "first_aired": "2019-06-04T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -218151,7 +218151,7 @@
         "overview": "Raylan, Boyd, and Ava fight one last, bloody battle to find out who leaves Harlan alive.",
         "released": "2015-04-15",
         "number_abs": 78,
-        "updated_at": "2026-08-22T22:16:54.000Z",
+        "updated_at": "2026-08-23T04:27:45.000Z",
         "first_aired": "2015-04-15T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -244740,20 +244740,20 @@
           "trakt": 77189
         },
         "title": "Into Fat Air",
-        "votes": 645,
+        "votes": 646,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/000/077/189/screenshots/medium/0261a42142.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.601550579071045,
+        "rating": 7.599071025848389,
         "season": 11,
         "runtime": 22,
         "overview": "The Griffins attempt to conquer Mount Everest after competitive friends mention they plan to scale the legendary peak. Things, however, are not looking up for the Griffins, as a wicked storm leaves them pinned down on the side of the mountain.",
         "released": "2012-10-01",
         "number_abs": 188,
-        "updated_at": "2026-08-22T15:29:55.000Z",
+        "updated_at": "2026-08-23T04:57:30.000Z",
         "first_aired": "2012-10-01T00:30:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

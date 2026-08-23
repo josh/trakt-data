@@ -1,5 +1,41 @@
 [
   {
+    "id": 14319203807,
+    "watched_at": "2026-08-23T05:06:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37443202",
+        "plex": {
+          "guid": "685e9b6c9b2f6b66c0581e37"
+        },
+        "tmdb": 6912000,
+        "tvdb": 11593742,
+        "trakt": 13974257
+      },
+      "title": "Too Close to See It",
+      "number": 4,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt34866681",
+        "plex": {
+          "guid": "67507127b734a2ab5d683713",
+          "slug": "lucky-2026"
+        },
+        "slug": "lucky-2026",
+        "tmdb": 278624,
+        "tvdb": 457437,
+        "trakt": 265812
+      },
+      "year": 2026,
+      "title": "Lucky",
+      "aired_episodes": 7
+    }
+  },
+  {
     "id": 14319073601,
     "watched_at": "2026-08-23T04:14:00.000Z",
     "action": "checkin",
