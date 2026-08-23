@@ -1,5 +1,41 @@
 [
   {
+    "id": 14319073601,
+    "watched_at": "2026-08-23T04:14:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37443160",
+        "plex": {
+          "guid": "685e9b6c9b2f6b66c0581e36"
+        },
+        "tmdb": 6911999,
+        "tvdb": 11593740,
+        "trakt": 13974256
+      },
+      "title": "Read the Room",
+      "number": 3,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt34866681",
+        "plex": {
+          "guid": "67507127b734a2ab5d683713",
+          "slug": "lucky-2026"
+        },
+        "slug": "lucky-2026",
+        "tmdb": 278624,
+        "tvdb": 457437,
+        "trakt": 265812
+      },
+      "year": 2026,
+      "title": "Lucky",
+      "aired_episodes": 7
+    }
+  },
+  {
     "id": 14314184554,
     "watched_at": "2026-08-22T05:47:00.000Z",
     "action": "checkin",
@@ -493132,7 +493168,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8c7b5c2e001e697714"
         },
         "tmdb": 305029,
         "tvdb": 4272320,
@@ -495112,7 +495148,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8ce264b7001fc7c7f0"
         },
         "tmdb": 305019,
         "tvdb": 4245487,
@@ -496408,7 +496444,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8cba2e21001f1a58b8"
         },
         "tmdb": 305011,
         "tvdb": 4236116,
@@ -498280,7 +498316,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8c2192ba001f3506ea"
         },
         "tmdb": 304999,
         "tvdb": 4206774,
