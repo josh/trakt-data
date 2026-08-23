@@ -1,5 +1,113 @@
 [
   {
+    "id": 14319433650,
+    "watched_at": "2026-08-23T06:18:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt8161930",
+        "plex": {
+          "guid": "5d9c0ce0e98e47001eb39f43"
+        },
+        "tmdb": 1722417,
+        "tvdb": 7021096,
+        "trakt": 3359703
+      },
+      "title": "Holding",
+      "number": 2,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14319388135,
+    "watched_at": "2026-08-23T05:54:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt7531854",
+        "plex": {
+          "guid": "5d9c0ce0e98e47001eb39f40"
+        },
+        "tmdb": 1659932,
+        "tvdb": 6975149,
+        "trakt": 3303944
+      },
+      "title": "Chicago",
+      "number": 1,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14319384490,
+    "watched_at": "2026-08-23T05:26:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43679375",
+        "plex": {
+          "guid": "6a7995a8cde7523b0ef1a740"
+        },
+        "tmdb": 7569941,
+        "tvdb": 11900917,
+        "trakt": 14333392
+      },
+      "title": "Dennis and Dee Don't Get Rich",
+      "number": 2,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 179
+    }
+  },
+  {
     "id": 14319203807,
     "watched_at": "2026-08-23T05:06:00.000Z",
     "action": "checkin",
