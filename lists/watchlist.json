@@ -315,10 +315,10 @@
     "type": "movie",
     "movie": {
       "title": "The Young People",
-      "year": 2026,
+      "year": null,
       "ids": {
         "trakt": 1258822,
-        "slug": "the-young-people-2026",
+        "slug": "the-young-people",
         "imdb": "tt38066158",
         "tmdb": 1534061
       }
@@ -839,6 +839,25 @@
   },
   {
     "rank": 49,
+    "id": 1537156080,
+    "listed_at": "2026-08-24T02:26:26.000Z",
+    "notes": null,
+    "type": "show",
+    "show": {
+      "title": "Lanterns",
+      "year": 2026,
+      "ids": {
+        "trakt": 157599,
+        "slug": "lanterns",
+        "tvdb": 376098,
+        "imdb": "tt26545992",
+        "tmdb": 95350,
+        "tvrage": null
+      }
+    }
+  },
+  {
+    "rank": 50,
     "id": 1052373041,
     "listed_at": "2024-07-09T00:20:02.000Z",
     "notes": null,
@@ -855,7 +874,7 @@
     }
   },
   {
-    "rank": 50,
+    "rank": 51,
     "id": 1353327988,
     "listed_at": "2025-11-01T20:01:48.000Z",
     "notes": null,
@@ -872,7 +891,7 @@
     }
   },
   {
-    "rank": 51,
+    "rank": 52,
     "id": 1392637352,
     "listed_at": "2025-12-21T06:02:01.000Z",
     "notes": null,
@@ -889,7 +908,7 @@
     }
   },
   {
-    "rank": 52,
+    "rank": 53,
     "id": 1429775570,
     "listed_at": "2026-02-16T01:30:58.000Z",
     "notes": null,
@@ -906,7 +925,7 @@
     }
   },
   {
-    "rank": 53,
+    "rank": 54,
     "id": 1433604601,
     "listed_at": "2026-02-22T00:07:04.000Z",
     "notes": null,
@@ -923,7 +942,7 @@
     }
   },
   {
-    "rank": 54,
+    "rank": 55,
     "id": 1528992228,
     "listed_at": "2026-07-30T06:48:40.000Z",
     "notes": null,
@@ -936,25 +955,6 @@
         "slug": "by-any-means-2026",
         "imdb": "tt34379051",
         "tmdb": 1380417
-      }
-    }
-  },
-  {
-    "rank": 55,
-    "id": 1536175746,
-    "listed_at": "2026-08-22T05:05:26.000Z",
-    "notes": null,
-    "type": "show",
-    "show": {
-      "title": "Lanterns",
-      "year": 2026,
-      "ids": {
-        "trakt": 157599,
-        "slug": "lanterns",
-        "tvdb": 376098,
-        "imdb": "tt26545992",
-        "tmdb": 95350,
-        "tvrage": null
       }
     }
   },
@@ -2959,7 +2959,7 @@
     "type": "movie",
     "movie": {
       "title": "Cliffhanger",
-      "year": null,
+      "year": 2027,
       "ids": {
         "trakt": 901724,
         "slug": "cliffhanger-2027",

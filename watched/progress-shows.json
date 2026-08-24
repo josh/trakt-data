@@ -2,6 +2,137 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt26545992",
+        "plex": {
+          "guid": "6475f4e274668225adb2c0e0",
+          "slug": "lanterns-1"
+        },
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "tvdb": 376098,
+        "trakt": 157599
+      },
+      "year": 2026,
+      "title": "Lanterns",
+      "aired_episodes": 2
+    },
+    "progress": {
+      "aired": 2,
+      "completed": 2,
+      "last_watched_at": "2026-08-24T02:38:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32752613",
+          "plex": {
+            "guid": "69a995b6a9aa9ffc876ff07a"
+          },
+          "tmdb": 7007714,
+          "tvdb": 11908188,
+          "trakt": 14039162
+        },
+        "title": "Episode 2",
+        "votes": 6,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/039/162/screenshots/medium/4560b2d1cf.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.166666507720947,
+        "season": 1,
+        "runtime": 60,
+        "overview": null,
+        "released": "2026-08-24",
+        "number_abs": 2,
+        "updated_at": "2026-08-24T02:23:12.000Z",
+        "first_aired": "2026-08-24T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-08-24T01:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32752612",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 7179884,
+          "tvdb": 11908189,
+          "trakt": 14132650
+        },
+        "title": "Episode 3",
+        "votes": 2,
+        "images": {
+          "screenshot": []
+        },
+        "number": 3,
+        "rating": 3.5,
+        "season": 1,
+        "runtime": 57,
+        "overview": null,
+        "released": "2026-08-31",
+        "number_abs": 3,
+        "updated_at": "2026-08-23T15:13:46.000Z",
+        "first_aired": "2026-08-31T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-08-31T01:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 2,
+        "minutes_watched": 117,
+        "minutes_left": 0
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Season 1",
+          "aired": 2,
+          "completed": 2,
+          "stats": {
+            "play_count": 2,
+            "minutes_watched": 117,
+            "minutes_left": 0
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-08-21T04:35:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 57
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2026-08-24T02:38:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 60
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt4370596",
         "plex": {
           "guid": "5d9c080208fddd001f28fec5",
@@ -9939,20 +10070,20 @@
           "trakt": 14143104
         },
         "title": "Richmond's Got Talent",
-        "votes": 1054,
+        "votes": 1058,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/104/screenshots/medium/b7bbbff613.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 8.237191200256348,
+        "rating": 8.239130020141602,
         "season": 4,
         "runtime": 47,
         "overview": "Richmond's shareholders are unsure about a women's team. The coaches hold tryouts to fill out their roster.",
         "released": "2026-08-19",
         "number_abs": 37,
-        "updated_at": "2026-08-24T01:17:53.000Z",
+        "updated_at": "2026-08-24T02:03:23.000Z",
         "first_aired": "2026-08-19T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -10423,162 +10554,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt26545992",
-        "plex": {
-          "guid": "6475f4e274668225adb2c0e0",
-          "slug": "lanterns-1"
-        },
-        "slug": "lanterns",
-        "tmdb": 95350,
-        "tvdb": 376098,
-        "trakt": 157599
-      },
-      "year": 2026,
-      "title": "Lanterns",
-      "aired_episodes": 2
-    },
-    "progress": {
-      "aired": 2,
-      "completed": 1,
-      "last_watched_at": "2026-08-21T04:35:00.000Z",
-      "reset_at": null,
-      "last_episode": {
-        "ids": {
-          "imdb": "tt26546824",
-          "plex": {
-            "guid": "657769695115da2c50193074"
-          },
-          "tmdb": 4988115,
-          "tvdb": 9216985,
-          "trakt": 11664405
-        },
-        "title": "Pilot",
-        "votes": 2134,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/011/664/405/screenshots/medium/4ff89ae960.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 8.097938537597656,
-        "season": 1,
-        "runtime": 57,
-        "overview": "After a fatal shooting, Green Lantern Hal Jordan and new recruit John Stewart set out to prove it was an extraterrestrial event.",
-        "released": "2026-08-17",
-        "number_abs": 1,
-        "updated_at": "2026-08-24T01:05:39.000Z",
-        "first_aired": "2026-08-17T01:00:00.000Z",
-        "episode_type": "series_premiere",
-        "after_credits": false,
-        "comment_count": 119,
-        "during_credits": false,
-        "original_title": "Pilot",
-        "available_translations": [
-          "ar",
-          "bg",
-          "cs",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "hu",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "pl",
-          "pt",
-          "ro",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "zh"
-        ],
-        "effective_release_date": "2026-08-17T01:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt32752613",
-          "plex": {
-            "guid": "69a995b6a9aa9ffc876ff07a"
-          },
-          "tmdb": 7007714,
-          "tvdb": 11908188,
-          "trakt": 14039162
-        },
-        "title": "Episode 2",
-        "votes": 10,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/039/162/screenshots/medium/4560b2d1cf.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 8,
-        "season": 1,
-        "runtime": 60,
-        "overview": null,
-        "released": "2026-08-24",
-        "number_abs": 2,
-        "updated_at": "2026-08-24T01:29:44.000Z",
-        "first_aired": "2026-08-24T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": null,
-        "available_translations": [
-          "en"
-        ],
-        "effective_release_date": "2026-08-24T01:00:00.000Z"
-      },
-      "stats": {
-        "play_count": 1,
-        "minutes_watched": 57,
-        "minutes_left": 60
-      },
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Season 1",
-          "aired": 2,
-          "completed": 1,
-          "stats": {
-            "play_count": 1,
-            "minutes_watched": 57,
-            "minutes_left": 60
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2026-08-21T04:35:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 57
-              }
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": []
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt26656917",
         "plex": {
           "guid": "63e188721fa52962cfb52d7e",
@@ -10894,20 +10869,20 @@
           "trakt": 13904820
         },
         "title": "The Treasons at Tumbleton",
-        "votes": 4275,
+        "votes": 4277,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/904/820/screenshots/medium/3c3d75bb1c.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.676725387573242,
+        "rating": 8.676642417907715,
         "season": 3,
         "runtime": 71,
         "overview": "Shifting alliances irrevocably reshape the war as Rhaenyra's forces converge around Tumbleton and both sides vie to gain the upper hand.",
         "released": "2026-08-10",
         "number_abs": 26,
-        "updated_at": "2026-08-24T01:11:43.000Z",
+        "updated_at": "2026-08-24T02:04:56.000Z",
         "first_aired": "2026-08-10T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -12017,20 +11992,20 @@
           "trakt": 13527591
         },
         "title": "The Man in the Mask",
-        "votes": 1176,
+        "votes": 1177,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/591/screenshots/medium/90c9a42855.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.180272102355957,
+        "rating": 8.180968284606934,
         "season": 1,
         "runtime": 46,
         "overview": "Gee whiz, what's a down-on-his-luck private investigator to do?",
         "released": "2026-05-25",
         "number_abs": 8,
-        "updated_at": "2026-08-24T00:55:10.000Z",
+        "updated_at": "2026-08-24T01:33:11.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -18533,7 +18508,7 @@
         "overview": "Manousos arrives in Albuquerque and complications ensue. Carol visits the last best place on Earth.",
         "released": "2025-12-24",
         "number_abs": 9,
-        "updated_at": "2026-08-23T15:35:28.000Z",
+        "updated_at": "2026-08-24T02:00:24.000Z",
         "first_aired": "2025-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -20630,7 +20605,7 @@
         "overview": "The truth comes to light\u2026but at what cost?",
         "released": "2025-11-05",
         "number_abs": 8,
-        "updated_at": "2026-08-23T01:36:34.000Z",
+        "updated_at": "2026-08-24T01:36:59.000Z",
         "first_aired": "2025-11-05T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -36266,20 +36241,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1763,
+        "votes": 1764,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.108338356018066,
+        "rating": 8.108843803405762,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-08-23T23:09:51.000Z",
+        "updated_at": "2026-08-24T01:31:46.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -36323,20 +36298,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1009,
+        "votes": 1010,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.635282516479492,
+        "rating": 8.63564395904541,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-24T01:20:34.000Z",
+        "updated_at": "2026-08-24T01:46:45.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -104590,7 +104565,7 @@
         "overview": "As chaos breaks out at Mrs. Mahabir\u2019s ritual, Agent Harmony finds a definitive link between the McCuskers and Guyana.",
         "released": "2023-07-27",
         "number_abs": 6,
-        "updated_at": "2026-08-23T02:12:18.000Z",
+        "updated_at": "2026-08-24T02:15:54.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -105723,7 +105698,7 @@
         "overview": "The Gattchis attempt to seize control of the situation.",
         "released": "2023-06-21",
         "number_abs": 8,
-        "updated_at": "2026-08-23T02:00:55.000Z",
+        "updated_at": "2026-08-24T02:15:57.000Z",
         "first_aired": "2023-06-21T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -106783,7 +106758,7 @@
         "overview": "Catherine meets court scientist Nikolai, who announces a comet is about to pass through Russia. She uses this phenomenon to her advantage and in the face of some huge challenges, unearths a new side of her leadership.",
         "released": "2023-05-12",
         "number_abs": 30,
-        "updated_at": "2026-08-23T02:14:17.000Z",
+        "updated_at": "2026-08-24T02:15:57.000Z",
         "first_aired": "2023-05-12T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -109769,7 +109744,7 @@
         "overview": "Jin and Wei-Chen must stop Bull Demon's plan to destroy Heaven.",
         "released": "2023-05-24",
         "number_abs": 8,
-        "updated_at": "2026-08-23T02:02:53.000Z",
+        "updated_at": "2026-08-24T02:11:25.000Z",
         "first_aired": "2023-05-24T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -120700,7 +120675,7 @@
         "overview": "On the edge of cyberpsychosis but determined to save Lucy, David storms into Night City as Arasaka plots to deploy their ultimate lethal weapon.",
         "released": "2022-09-13",
         "number_abs": 10,
-        "updated_at": "2026-08-23T15:21:28.000Z",
+        "updated_at": "2026-08-24T01:39:10.000Z",
         "first_aired": "2022-09-13T08:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -125556,7 +125531,7 @@
         "overview": "After an emotional and dramatic showing at the LCS Finals, Fugitive shifts their focus to the World Championship in Seoul.",
         "released": "2022-07-28",
         "number_abs": 10,
-        "updated_at": "2026-08-23T15:37:41.000Z",
+        "updated_at": "2026-08-24T01:42:07.000Z",
         "first_aired": "2022-07-28T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -127247,7 +127222,7 @@
         "overview": "After navigating a possible retrial, a 73-year-old Michael confronts a life-changing decision. Meanwhile, Martha and Margaret each share long-buried truths, and Sophie comes to terms with a revelation.",
         "released": "2022-06-09",
         "number_abs": 8,
-        "updated_at": "2026-08-23T01:42:19.000Z",
+        "updated_at": "2026-08-24T01:48:41.000Z",
         "first_aired": "2022-06-09T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -130965,7 +130940,7 @@
         "overview": "Every desperate deal. Every broken promise. Every bloody murder. Eager to leave their murky past behind, the Byrdes make a final bid for freedom.",
         "released": "2022-04-29",
         "number_abs": 44,
-        "updated_at": "2026-08-23T15:34:10.000Z",
+        "updated_at": "2026-08-24T02:05:40.000Z",
         "first_aired": "2022-04-29T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -171119,7 +171094,7 @@
         "overview": "While Santos and his winning camp are nervously gearing up for the presidential inauguration, current President Bartlet, CJ, and the others fondly look back as they prepare to leave the White House forever.",
         "released": "2006-05-14",
         "number_abs": 154,
-        "updated_at": "2026-08-23T15:36:18.000Z",
+        "updated_at": "2026-08-24T01:37:47.000Z",
         "first_aired": "2006-05-15T00:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -196745,20 +196720,20 @@
           "trakt": 3088174
         },
         "title": "Episode 6",
-        "votes": 282,
+        "votes": 283,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/003/088/174/screenshots/medium/1c819ad8ff.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.790780067443848,
+        "rating": 7.798586368560791,
         "season": 1,
         "runtime": 58,
         "overview": "Charlie prepares for her part in Khalil's next strike. But is she still playing a role, or has she switched to the other side?",
         "released": "2018-12-02",
         "number_abs": 6,
-        "updated_at": "2026-08-23T15:26:05.000Z",
+        "updated_at": "2026-08-24T02:09:10.000Z",
         "first_aired": "2018-12-02T21:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -213779,7 +213754,7 @@
         "overview": "Zak constructs a dangerous plan to bring down Richie. Kip's excesses threaten an important Nasty Bits gig.\u00a0Clark and Jorge's efforts pay off. Richie is privy to the birth of a legendary music venue.",
         "released": "2016-04-18",
         "number_abs": 10,
-        "updated_at": "2026-08-23T02:01:50.000Z",
+        "updated_at": "2026-08-24T02:21:56.000Z",
         "first_aired": "2016-04-18T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -240444,20 +240419,20 @@
           "trakt": 74256
         },
         "title": "Remember the Monsters?",
-        "votes": 2174,
+        "votes": 2175,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/000/074/256/screenshots/medium/6356607d48.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 6.639834403991699,
+        "rating": 6.636781692504883,
         "season": 8,
         "runtime": 56,
         "overview": "Dexter is faced with impossible odds as a brewing hurricane makes its way towards Miami.",
         "released": "2013-09-23",
         "number_abs": 96,
-        "updated_at": "2026-08-23T15:21:41.000Z",
+        "updated_at": "2026-08-24T02:22:15.000Z",
         "first_aired": "2013-09-23T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
