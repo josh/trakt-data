@@ -124,6 +124,106 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 180
+    },
+    "progress": {
+      "aired": 180,
+      "completed": 179,
+      "hidden": 0,
+      "last_watched_at": "2026-08-23T05:26:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 179,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt43679380",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 7604185,
+          "tvdb": 11900918,
+          "trakt": 14346442
+        },
+        "title": "The Gang Gets Tested",
+        "votes": 0,
+        "images": {
+          "screenshot": []
+        },
+        "number": 3,
+        "rating": 0,
+        "season": 18,
+        "runtime": 20,
+        "overview": "Dennis and Dee are diagnosed with ADHD, and even more shocking: Mac isn't. They go back to school for a do-over now that they understand their brains more better.",
+        "released": "2026-08-25",
+        "number_abs": 180,
+        "updated_at": "2026-08-25T01:01:34.000Z",
+        "first_aired": "2026-08-25T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The Gang Gets Tested",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-08-25T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt43679375",
+          "plex": {
+            "guid": "6a7995a8cde7523b0ef1a740"
+          },
+          "tmdb": 7569941,
+          "tvdb": 11900917,
+          "trakt": 14333392
+        },
+        "title": "Dennis and Dee Don't Get Rich",
+        "votes": 182,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/333/392/screenshots/medium/4642a0d50e.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 8,
+        "season": 18,
+        "runtime": 22,
+        "overview": "The Reynolds twins push themselves to the limit to secure Sam's transfer of wealth. Charlie and Frank plan a proper memorial for Bonnie during the annual Mummers Parade.",
+        "released": "2026-08-18",
+        "number_abs": 179,
+        "updated_at": "2026-08-24T19:42:47.000Z",
+        "first_aired": "2026-08-18T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 11,
+        "during_credits": false,
+        "original_title": "Dennis and Dee Don't Get Rich",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-08-18T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt36614693",
         "plex": {
           "guid": "68062821b4cdef2a98a5daa6",
@@ -380,20 +480,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1428,
+        "votes": 1429,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.799019813537598,
+        "rating": 7.797760486602783,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-08-24T22:22:49.000Z",
+        "updated_at": "2026-08-25T00:30:31.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -478,20 +578,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 1413,
+        "votes": 1416,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.276716232299805,
+        "rating": 8.276836395263672,
         "season": 4,
         "runtime": 46,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-08-24T23:38:09.000Z",
+        "updated_at": "2026-08-25T01:11:28.000Z",
         "first_aired": "2026-08-12T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -548,20 +648,20 @@
           "trakt": 12594343
         },
         "title": "Unfinished Business",
-        "votes": 2314,
+        "votes": 2315,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/594/343/screenshots/medium/8af0fac9f4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.984442710876465,
+        "rating": 7.984017372131348,
         "season": 3,
         "runtime": 52,
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
         "released": "2025-03-27",
         "number_abs": 24,
-        "updated_at": "2026-08-24T20:47:43.000Z",
+        "updated_at": "2026-08-25T00:24:21.000Z",
         "first_aired": "2025-03-27T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -650,20 +750,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1027,
+        "votes": 1029,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.6251220703125,
+        "rating": 8.623907089233398,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-08-24T23:18:39.000Z",
+        "updated_at": "2026-08-25T01:02:04.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -787,20 +887,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 2829,
+        "votes": 2831,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.817603588104248,
+        "rating": 7.816672325134277,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-08-24T23:08:03.000Z",
+        "updated_at": "2026-08-25T01:15:44.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1121,20 +1221,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3430,
+        "votes": 3431,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.128863334655762,
+        "rating": 8.12940788269043,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-08-24T19:03:49.000Z",
+        "updated_at": "2026-08-25T01:04:50.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
