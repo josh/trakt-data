@@ -1,5 +1,41 @@
 [
   {
+    "id": 14329510447,
+    "watched_at": "2026-08-25T00:00:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37443237",
+        "plex": {
+          "guid": "6983c708b78c4bf6cb7b2304"
+        },
+        "tmdb": 6912004,
+        "tvdb": 11593745,
+        "trakt": 13974260
+      },
+      "title": "All Good Things",
+      "number": 7,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt34866681",
+        "plex": {
+          "guid": "67507127b734a2ab5d683713",
+          "slug": "lucky-2026"
+        },
+        "slug": "lucky-2026",
+        "tmdb": 278624,
+        "tvdb": 457437,
+        "trakt": 265812
+      },
+      "year": 2026,
+      "title": "Lucky",
+      "aired_episodes": 7
+    }
+  },
+  {
     "id": 14329186293,
     "watched_at": "2026-08-24T23:15:00.000Z",
     "action": "checkin",
