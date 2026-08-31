@@ -1,5 +1,27 @@
 [
   {
+    "plays": 3,
+    "last_watched_at": "2026-08-31T04:52:00.000Z",
+    "last_updated_at": "2026-08-31T04:52:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt26545992",
+        "plex": {
+          "guid": "6475f4e274668225adb2c0e0",
+          "slug": "lanterns-1"
+        },
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "tvdb": 376098,
+        "trakt": 157599
+      },
+      "year": 2026,
+      "title": "Lanterns",
+      "aired_episodes": 3
+    }
+  },
+  {
     "plays": 1,
     "last_watched_at": "2026-08-30T06:32:00.000Z",
     "last_updated_at": "2026-08-30T06:32:00.000Z",
@@ -63,28 +85,6 @@
       "year": 2026,
       "title": "Lucky",
       "aired_episodes": 7
-    }
-  },
-  {
-    "plays": 2,
-    "last_watched_at": "2026-08-24T02:38:00.000Z",
-    "last_updated_at": "2026-08-24T02:38:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt26545992",
-        "plex": {
-          "guid": "6475f4e274668225adb2c0e0",
-          "slug": "lanterns-1"
-        },
-        "slug": "lanterns",
-        "tmdb": 95350,
-        "tvdb": 376098,
-        "trakt": 157599
-      },
-      "year": 2026,
-      "title": "Lanterns",
-      "aired_episodes": 2
     }
   },
   {
@@ -2372,7 +2372,7 @@
       },
       "year": 2023,
       "title": "Lioness",
-      "aired_episodes": 20
+      "aired_episodes": 21
     }
   },
   {
@@ -3142,7 +3142,7 @@
       },
       "year": 2022,
       "title": "Colin from Accounts",
-      "aired_episodes": 22
+      "aired_episodes": 23
     }
   },
   {
