@@ -1,5 +1,27 @@
 [
   {
+    "plays": 2,
+    "last_watched_at": "2026-09-01T04:24:00.000Z",
+    "last_updated_at": "2026-09-01T04:24:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt30494226",
+        "plex": {
+          "guid": "658366f2283cbad2c792a839",
+          "slug": "ride-or-die"
+        },
+        "slug": "ride-or-die",
+        "tmdb": 241882,
+        "tvdb": 457730,
+        "trakt": 217937
+      },
+      "year": 2026,
+      "title": "Ride or Die",
+      "aired_episodes": 8
+    }
+  },
+  {
     "plays": 3,
     "last_watched_at": "2026-08-31T04:52:00.000Z",
     "last_updated_at": "2026-08-31T04:52:00.000Z",
@@ -19,28 +41,6 @@
       "year": 2026,
       "title": "Lanterns",
       "aired_episodes": 3
-    }
-  },
-  {
-    "plays": 1,
-    "last_watched_at": "2026-08-30T06:32:00.000Z",
-    "last_updated_at": "2026-08-30T06:32:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt30494226",
-        "plex": {
-          "guid": "658366f2283cbad2c792a839",
-          "slug": "ride-or-die"
-        },
-        "slug": "ride-or-die",
-        "tmdb": 241882,
-        "tvdb": 457730,
-        "trakt": 217937
-      },
-      "year": 2026,
-      "title": "Ride or Die",
-      "aired_episodes": 8
     }
   },
   {
@@ -128,7 +128,7 @@
       },
       "year": 2005,
       "title": "It's Always Sunny in Philadelphia",
-      "aired_episodes": 180
+      "aired_episodes": 181
     }
   },
   {
