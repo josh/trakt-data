@@ -1,32 +1,74 @@
 [
   {
+    "progress": 28.6086,
+    "paused_at": "2026-09-02T17:08:50.000Z",
+    "id": 1838491980,
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt38557090",
+        "plex": {
+          "guid": "6a57b472289072d41b565842"
+        },
+        "tmdb": 6623109,
+        "tvdb": 11876355,
+        "trakt": 13650586
+      },
+      "title": "Episode 1",
+      "number": 1,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt22640400",
+        "plex": {
+          "guid": "634f426e26ec32fb9967566f",
+          "slug": "the-traitors-au-1"
+        },
+        "slug": "the-traitors",
+        "tmdb": 212457,
+        "tvdb": 424671,
+        "trakt": 199020
+      },
+      "year": 2022,
+      "title": "The Traitors",
+      "aired_episodes": 31
+    }
+  },
+  {
     "progress": 57.6,
     "paused_at": "2026-05-30T07:19:53.000Z",
     "id": 1765177223,
     "type": "episode",
     "episode": {
-      "season": 12,
-      "number": 21,
-      "title": "August 17, 2025: Make America Healthy Again",
       "ids": {
-        "trakt": 13294905,
-        "tvdb": 11229778,
         "imdb": "tt37956009",
+        "plex": {
+          "guid": "686fd265f27e053d0f9f1b10"
+        },
         "tmdb": 6367495,
-        "tvrage": null
-      }
+        "tvdb": 11229778,
+        "trakt": 13294905
+      },
+      "title": "August 17, 2025: Make America Healthy Again",
+      "number": 21,
+      "season": 12
     },
     "show": {
-      "title": "Last Week Tonight with John Oliver",
-      "year": 2014,
       "ids": {
-        "trakt": 60267,
-        "slug": "last-week-tonight-with-john-oliver",
-        "tvdb": 278518,
         "imdb": "tt3530232",
+        "plex": {
+          "guid": "5d9c0839e98e47001eb0ab81",
+          "slug": "last-week-tonight-with-john-oliver"
+        },
+        "slug": "last-week-tonight-with-john-oliver",
         "tmdb": 60694,
-        "tvrage": null
-      }
+        "tvdb": 278518,
+        "trakt": 60267
+      },
+      "year": 2014,
+      "title": "Last Week Tonight with John Oliver",
+      "aired_episodes": 372
     }
   }
 ]
