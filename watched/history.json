@@ -1,5 +1,77 @@
 [
   {
+    "id": 14381792209,
+    "watched_at": "2026-09-05T09:34:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt8161954",
+        "plex": {
+          "guid": "5d9c0ce0e98e47001eb39f37"
+        },
+        "tmdb": 1722424,
+        "tvdb": 7068623,
+        "trakt": 3409698
+      },
+      "title": "The Unknown",
+      "number": 9,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14381767335,
+    "watched_at": "2026-09-05T09:11:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt8161950",
+        "plex": {
+          "guid": "5d9c0ce0e98e47001eb39f46"
+        },
+        "tmdb": 1722423,
+        "tvdb": 7068620,
+        "trakt": 3409696
+      },
+      "title": "Easter",
+      "number": 8,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14381724723,
     "watched_at": "2026-09-05T08:46:00.000Z",
     "action": "watch",
