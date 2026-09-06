@@ -18,90 +18,46 @@
     },
     "progress": {
       "aired": 52,
-      "completed": 33,
+      "completed": 36,
       "hidden": 0,
-      "last_watched_at": "2026-09-06T16:45:00.000Z",
+      "last_watched_at": "2026-09-06T18:01:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 33,
+        "play_count": 36,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt11166672",
+          "imdb": "tt11166676",
           "plex": {
-            "guid": "5e8338000781250040ad5ae6"
+            "guid": "5e8338000781250040ad5af8"
           },
-          "tmdb": 2043766,
-          "tvdb": 7531698,
-          "trakt": 3928059
+          "tmdb": 2203065,
+          "tvdb": 7606060,
+          "trakt": 4019344
         },
-        "title": "She's Fifty",
-        "votes": 216,
+        "title": "Carbonara",
+        "votes": 197,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/003/928/059/screenshots/medium/1011dcc1e1.jpg.webp"
+            "media.trakt.tv/images/episodes/004/019/344/screenshots/medium/fefb0c44a7.jpg.webp"
           ]
         },
-        "number": 2,
-        "rating": 7.587963104248047,
+        "number": 5,
+        "rating": 7.319799900054932,
         "season": 4,
-        "runtime": 27,
-        "overview": "Sam embraces her life.",
-        "released": "2020-03-06",
-        "number_abs": 34,
-        "updated_at": "2026-09-06T09:57:03.000Z",
-        "first_aired": "2020-03-06T03:00:00.000Z",
+        "runtime": 26,
+        "overview": "Sam takes Duke to ballet and Frankie to Pinkberry.",
+        "released": "2020-03-27",
+        "number_abs": 37,
+        "updated_at": "2026-09-06T09:57:04.000Z",
+        "first_aired": "2020-03-27T02:00:00.000Z",
         "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "She's Fifty",
-        "available_translations": [
-          "bg",
-          "cs",
-          "en",
-          "es",
-          "fr",
-          "it",
-          "nl",
-          "pl",
-          "pt"
-        ],
-        "effective_release_date": "2020-03-06T03:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt10085520",
-          "plex": {
-            "guid": "5e8338000781250040ad5ae0"
-          },
-          "tmdb": 2043620,
-          "tvdb": 7531682,
-          "trakt": 3928056
-        },
-        "title": "Steady Rain",
-        "votes": 230,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/003/928/056/screenshots/medium/ab79f07d25.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.421739101409912,
-        "season": 4,
-        "runtime": 25,
-        "overview": "Sam picks the girls up from a trip.",
-        "released": "2020-03-06",
-        "number_abs": 33,
-        "updated_at": "2026-09-06T09:57:03.000Z",
-        "first_aired": "2020-03-06T03:00:00.000Z",
-        "episode_type": "season_premiere",
         "after_credits": false,
         "comment_count": 1,
         "during_credits": false,
-        "original_title": "Steady Rain",
+        "original_title": "Carbonara",
         "available_translations": [
           "bg",
           "cs",
@@ -113,7 +69,51 @@
           "pl",
           "pt"
         ],
-        "effective_release_date": "2020-03-06T03:00:00.000Z"
+        "effective_release_date": "2020-03-27T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt11166674",
+          "plex": {
+            "guid": "5e8338000781250040ad5af2"
+          },
+          "tmdb": 2043768,
+          "tvdb": 7606059,
+          "trakt": 4019342
+        },
+        "title": "DNA",
+        "votes": 207,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/004/019/342/screenshots/medium/45437090bf.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.5652174949646,
+        "season": 4,
+        "runtime": 23,
+        "overview": "Sam gives Phil a DNA test, catches something and releases on Max.",
+        "released": "2020-03-20",
+        "number_abs": 36,
+        "updated_at": "2026-09-06T09:57:03.000Z",
+        "first_aired": "2020-03-20T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 7,
+        "during_credits": false,
+        "original_title": "DNA",
+        "available_translations": [
+          "bg",
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "nl",
+          "pl",
+          "pt"
+        ],
+        "effective_release_date": "2020-03-20T02:00:00.000Z"
       }
     }
   },
@@ -156,20 +156,20 @@
           "trakt": 14057284
         },
         "title": "McCarthy",
-        "votes": 167,
+        "votes": 168,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/057/284/screenshots/medium/db34e35410.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.275449275970459,
+        "rating": 7.273809432983398,
         "season": 1,
         "runtime": 35,
         "overview": "Larry crashes a party in Boston Harbor. Jonesy makes a stop on the Underground Railroad. The Wright Brothers prepare for their first flight. Senator Joe McCarthy calls out his fellow congressmen for their problematic conduct.",
         "released": "2026-07-11",
         "number_abs": 3,
-        "updated_at": "2026-09-06T15:34:21.000Z",
+        "updated_at": "2026-09-06T18:06:16.000Z",
         "first_aired": "2026-07-11T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -501,7 +501,7 @@
         "overview": "The Reynolds twins push themselves to the limit to secure Sam's transfer of wealth. Charlie and Frank plan a proper memorial for Bonnie during the annual Mummers Parade.",
         "released": "2026-08-18",
         "number_abs": 179,
-        "updated_at": "2026-09-06T15:35:48.000Z",
+        "updated_at": "2026-09-06T17:59:50.000Z",
         "first_aired": "2026-08-18T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -556,20 +556,20 @@
           "trakt": 14143105
         },
         "title": "Greyhounds' Day Off",
-        "votes": 1331,
+        "votes": 1333,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/105/screenshots/medium/7851e8ffa4.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 8.223892211914062,
+        "rating": 8.225056648254395,
         "season": 4,
         "runtime": 44,
         "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
         "released": "2026-08-26",
         "number_abs": 38,
-        "updated_at": "2026-09-06T16:52:36.000Z",
+        "updated_at": "2026-09-06T18:05:20.000Z",
         "first_aired": "2026-08-26T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -818,20 +818,20 @@
           "trakt": 14349213
         },
         "title": "7th Quarter",
-        "votes": 171,
+        "votes": 172,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/349/213/screenshots/medium/4b82a8116f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.614035129547119,
+        "rating": 7.622093200683594,
         "season": 2,
         "runtime": 35,
         "overview": "Russ and Danny's tenuous new alliance with Ricky is tested when Chad suffers a mid-game injury.",
         "released": "2026-09-03",
         "number_abs": 7,
-        "updated_at": "2026-09-06T16:51:27.000Z",
+        "updated_at": "2026-09-06T17:26:51.000Z",
         "first_aired": "2026-09-03T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -861,20 +861,20 @@
           "trakt": 13119067
         },
         "title": "6TH QUARTER",
-        "votes": 382,
+        "votes": 383,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/119/067/screenshots/medium/4a5fffb353.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.63350772857666,
+        "rating": 7.639686584472656,
         "season": 1,
         "runtime": 38,
         "overview": "On the eve of the biggest game of the season, the truth about Chad Powers threatens to emerge.",
         "released": "2025-10-28",
         "number_abs": 6,
-        "updated_at": "2026-09-06T16:43:56.000Z",
+        "updated_at": "2026-09-06T17:43:20.000Z",
         "first_aired": "2025-10-28T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1063,20 +1063,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1468,
+        "votes": 1469,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.805177211761475,
+        "rating": 7.805309772491455,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-09-06T15:32:19.000Z",
+        "updated_at": "2026-09-06T17:49:01.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1334,20 +1334,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1157,
+        "votes": 1160,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.570441246032715,
+        "rating": 8.572413444519043,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-09-06T16:51:00.000Z",
+        "updated_at": "2026-09-06T17:51:27.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1542,20 +1542,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3719,
+        "votes": 3720,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.210002899169922,
+        "rating": 8.209946632385254,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-09-06T15:17:44.000Z",
+        "updated_at": "2026-09-06T18:02:13.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1750,7 +1750,7 @@
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-09-06T05:01:22.000Z",
+        "updated_at": "2026-09-06T17:41:55.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1810,20 +1810,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3442,
+        "votes": 3443,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.131319046020508,
+        "rating": 8.131861686706543,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-09-05T17:41:19.000Z",
+        "updated_at": "2026-09-06T17:41:55.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1915,20 +1915,20 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 676,
+        "votes": 679,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.807692527770996,
+        "rating": 7.807069301605225,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-09-06T16:53:46.000Z",
+        "updated_at": "2026-09-06T18:06:31.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2193,7 +2193,7 @@
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-09-06T16:19:44.000Z",
+        "updated_at": "2026-09-06T17:58:13.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2227,7 +2227,7 @@
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-09-06T15:15:58.000Z",
+        "updated_at": "2026-09-06T18:01:59.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2278,20 +2278,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 360,
+        "votes": 364,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.061111450195312,
+        "rating": 8.052197456359863,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-06T16:21:41.000Z",
+        "updated_at": "2026-09-06T17:25:05.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2347,20 +2347,20 @@
           "trakt": 11487542
         },
         "title": "The Gospel According to Bobby Glass",
-        "votes": 1527,
+        "votes": 1528,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/487/542/screenshots/medium/2c6b8619e1.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.960707187652588,
+        "rating": 7.961387634277344,
         "season": 1,
         "runtime": 44,
         "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
         "released": "2024-03-07",
         "number_abs": 8,
-        "updated_at": "2026-09-06T15:27:43.000Z",
+        "updated_at": "2026-09-06T17:28:14.000Z",
         "first_aired": "2024-03-07T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
