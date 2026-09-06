@@ -1,5 +1,113 @@
 [
   {
+    "id": 14388228957,
+    "watched_at": "2026-09-06T21:06:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt11327178",
+        "plex": {
+          "guid": "5ea4ee972e7ab10042ca1ea9"
+        },
+        "tmdb": 2229263,
+        "tvdb": 7630076,
+        "trakt": 4052739
+      },
+      "title": "Father's Day",
+      "number": 8,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14388132804,
+    "watched_at": "2026-09-06T20:38:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt11327174",
+        "plex": {
+          "guid": "5e873e1d5ddb0200401b2d42"
+        },
+        "tmdb": 2203067,
+        "tvdb": 7630075,
+        "trakt": 4052737
+      },
+      "title": "High Man. Bye Man.",
+      "number": 7,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14388132529,
+    "watched_at": "2026-09-06T20:14:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt11327172",
+        "plex": {
+          "guid": "5e873e1d5ddb0200401b2d40"
+        },
+        "tmdb": 2203066,
+        "tvdb": 7606061,
+        "trakt": 4019348
+      },
+      "title": "New Orleans",
+      "number": 6,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14387672987,
     "watched_at": "2026-09-06T18:28:00.000Z",
     "action": "watch",
