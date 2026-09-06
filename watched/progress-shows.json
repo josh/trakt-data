@@ -18,54 +18,10 @@
     },
     "progress": {
       "aired": 52,
-      "completed": 36,
-      "last_watched_at": "2026-09-06T18:01:00.000Z",
+      "completed": 37,
+      "last_watched_at": "2026-09-06T18:28:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt11166674",
-          "plex": {
-            "guid": "5e8338000781250040ad5af2"
-          },
-          "tmdb": 2043768,
-          "tvdb": 7606059,
-          "trakt": 4019342
-        },
-        "title": "DNA",
-        "votes": 207,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/004/019/342/screenshots/medium/45437090bf.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.5652174949646,
-        "season": 4,
-        "runtime": 23,
-        "overview": "Sam gives Phil a DNA test, catches something and releases on Max.",
-        "released": "2020-03-20",
-        "number_abs": 36,
-        "updated_at": "2026-09-06T09:57:03.000Z",
-        "first_aired": "2020-03-20T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 7,
-        "during_credits": false,
-        "original_title": "DNA",
-        "available_translations": [
-          "bg",
-          "cs",
-          "en",
-          "es",
-          "fr",
-          "it",
-          "nl",
-          "pl",
-          "pt"
-        ],
-        "effective_release_date": "2020-03-20T02:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt11166676",
           "plex": {
@@ -109,10 +65,55 @@
         ],
         "effective_release_date": "2020-03-27T02:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt11327172",
+          "plex": {
+            "guid": "5e873e1d5ddb0200401b2d40"
+          },
+          "tmdb": 2203066,
+          "tvdb": 7606061,
+          "trakt": 4019348
+        },
+        "title": "New Orleans",
+        "votes": 207,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/004/019/348/screenshots/medium/4dff29c679.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.6280198097229,
+        "season": 4,
+        "runtime": 34,
+        "overview": "Sam goes to a wedding.",
+        "released": "2020-04-03",
+        "number_abs": 38,
+        "updated_at": "2026-09-06T09:57:03.000Z",
+        "first_aired": "2020-04-03T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "New Orleans",
+        "available_translations": [
+          "bg",
+          "cs",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt"
+        ],
+        "effective_release_date": "2020-04-03T02:00:00.000Z"
+      },
       "stats": {
-        "play_count": 36,
-        "minutes_watched": 843,
-        "minutes_left": 511
+        "play_count": 37,
+        "minutes_watched": 869,
+        "minutes_left": 485
       },
       "seasons": [
         {
@@ -446,11 +447,11 @@
           "number": 4,
           "title": "Season 4",
           "aired": 10,
-          "completed": 4,
+          "completed": 5,
           "stats": {
-            "play_count": 4,
-            "minutes_watched": 100,
-            "minutes_left": 172
+            "play_count": 5,
+            "minutes_watched": 126,
+            "minutes_left": 146
           },
           "episodes": [
             {
@@ -491,11 +492,11 @@
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-09-06T18:28:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 26
               }
             },
             {
@@ -698,7 +699,7 @@
         "overview": "Meriwether Lewis shares news of his upcoming travels with his long-suffering wife. Larry presses George Washington for answers.",
         "released": "2026-07-04",
         "number_abs": 2,
-        "updated_at": "2026-09-06T15:34:21.000Z",
+        "updated_at": "2026-09-06T18:15:49.000Z",
         "first_aired": "2026-07-04T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -1144,20 +1145,20 @@
           "trakt": 14132650
         },
         "title": "OutKast",
-        "votes": 1996,
+        "votes": 2001,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/132/650/screenshots/medium/73df218f8e.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.854208469390869,
+        "rating": 7.8580708503723145,
         "season": 1,
         "runtime": 54,
         "overview": "When his dad misunderstands a contact attempt from the Guardians, John is put forth as the next best option to fulfill the Green Lantern destiny. Then, after a lifetime of preparation, John finally gets his chance to interview for the Guardians.",
         "released": "2026-08-31",
         "number_abs": 3,
-        "updated_at": "2026-09-06T17:48:05.000Z",
+        "updated_at": "2026-09-06T19:01:35.000Z",
         "first_aired": "2026-08-31T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -8381,20 +8382,20 @@
           "trakt": 13974260
         },
         "title": "All Good Things",
-        "votes": 916,
+        "votes": 917,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/974/260/screenshots/medium/3ae7c5b340.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.754366874694824,
+        "rating": 7.753544330596924,
         "season": 1,
         "runtime": 45,
         "overview": "Everything is on the line as Lucky navigates an explosive confrontation.",
         "released": "2026-08-19",
         "number_abs": 7,
-        "updated_at": "2026-09-06T16:57:11.000Z",
+        "updated_at": "2026-09-06T18:32:24.000Z",
         "first_aired": "2026-08-19T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -13220,7 +13221,7 @@
         "overview": "As Ava embarks on her next project, Deborah, Marcus, and Marty officially open The Diva, and Jimmy's new role proves fortuitous. Then, on the heels of accomplishing everything she's ever wanted, Deborah reveals her final chapter.",
         "released": "2026-05-28",
         "number_abs": 47,
-        "updated_at": "2026-09-06T15:32:00.000Z",
+        "updated_at": "2026-09-06T19:01:36.000Z",
         "first_aired": "2026-05-29T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -14246,20 +14247,20 @@
           "trakt": 14027009
         },
         "title": "Triple Audible",
-        "votes": 633,
+        "votes": 634,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/027/009/screenshots/medium/5cd569710d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.655608177185059,
+        "rating": 7.652997016906738,
         "season": 1,
         "runtime": 44,
         "overview": "With Blaine and Anneliese desperate to capture Mother, Sam and his friends put it all on the line to save their neighbors and set things right.",
         "released": "2026-05-21",
         "number_abs": 8,
-        "updated_at": "2026-09-06T17:27:38.000Z",
+        "updated_at": "2026-09-06T18:20:49.000Z",
         "first_aired": "2026-05-21T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -14581,7 +14582,7 @@
         "overview": "Margo has her day in court.",
         "released": "2026-05-20",
         "number_abs": 8,
-        "updated_at": "2026-09-05T18:16:50.000Z",
+        "updated_at": "2026-09-06T18:18:42.000Z",
         "first_aired": "2026-05-20T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -22792,20 +22793,20 @@
           "trakt": 14349213
         },
         "title": "7th Quarter",
-        "votes": 172,
+        "votes": 174,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/349/213/screenshots/medium/4b82a8116f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.622093200683594,
+        "rating": 7.620689868927002,
         "season": 2,
         "runtime": 35,
         "overview": "Russ and Danny's tenuous new alliance with Ricky is tested when Chad suffers a mid-game injury.",
         "released": "2026-09-03",
         "number_abs": 7,
-        "updated_at": "2026-09-06T17:26:51.000Z",
+        "updated_at": "2026-09-06T18:55:47.000Z",
         "first_aired": "2026-09-03T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -26163,7 +26164,7 @@
         "overview": "A desperate Calderone calls in a favor. Gudsen scrambles for control. A massive blaze stokes a make-or-break showdown.",
         "released": "2025-08-15",
         "number_abs": 9,
-        "updated_at": "2026-09-06T05:18:24.000Z",
+        "updated_at": "2026-09-06T18:41:25.000Z",
         "first_aired": "2025-08-15T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -28647,7 +28648,7 @@
         "overview": "Paragliding, Swiss Golf, and a brush with an eccentric artist round out an Alpine exploration before making the long ride home.",
         "released": "2025-07-04",
         "number_abs": 10,
-        "updated_at": "2026-09-05T18:12:43.000Z",
+        "updated_at": "2026-09-06T18:14:03.000Z",
         "first_aired": "2025-07-03T23:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -37178,11 +37179,11 @@
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-09-06T15:34:19.000Z",
+        "updated_at": "2026-09-06T18:40:11.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 34,
+        "comment_count": 35,
         "during_credits": false,
         "original_title": "The Compass Points Home",
         "available_translations": [
@@ -40916,7 +40917,7 @@
         "overview": "It's time for my voice to be heard.",
         "released": "2024-11-08",
         "number_abs": 7,
-        "updated_at": "2026-09-05T18:18:53.000Z",
+        "updated_at": "2026-09-06T18:20:11.000Z",
         "first_aired": "2024-11-08T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -41827,7 +41828,7 @@
         "overview": "Rhiannon might just get away with it - but what does she stand to lose in the process?",
         "released": null,
         "number_abs": 6,
-        "updated_at": "2026-09-06T15:44:14.000Z",
+        "updated_at": "2026-09-06T18:18:11.000Z",
         "first_aired": "2024-11-14T21:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -46002,20 +46003,20 @@
           "trakt": 11455847
         },
         "title": "Entanglement",
-        "votes": 1721,
+        "votes": 1722,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/847/screenshots/medium/0dc4fc86b2.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.812899589538574,
+        "rating": 7.8130083084106445,
         "season": 1,
         "runtime": 62,
         "overview": "The Dessens' world comes crashing down.",
         "released": "2024-06-26",
         "number_abs": 9,
-        "updated_at": "2026-09-06T16:23:11.000Z",
+        "updated_at": "2026-09-06T18:22:13.000Z",
         "first_aired": "2024-06-26T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -46067,20 +46068,20 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 679,
+        "votes": 680,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.807069301605225,
+        "rating": 7.805882453918457,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-09-06T18:06:31.000Z",
+        "updated_at": "2026-09-06T18:29:31.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -46655,7 +46656,7 @@
         "overview": "Bert works hard to prove his loyalty. Gwen inspires a grand gesture. Huey's legacy lives on.",
         "released": "2024-06-14",
         "number_abs": 6,
-        "updated_at": "2026-09-05T18:03:19.000Z",
+        "updated_at": "2026-09-06T18:18:11.000Z",
         "first_aired": "2024-06-13T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -90315,7 +90316,7 @@
         "overview": "As Jake and Katagiri close in on a crucial piece of evidence for their case, Sato prepares for the greatest power move of his life.",
         "released": "2024-04-04",
         "number_abs": 18,
-        "updated_at": "2026-09-05T18:12:05.000Z",
+        "updated_at": "2026-09-06T18:14:17.000Z",
         "first_aired": "2024-04-04T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -92174,20 +92175,20 @@
           "trakt": 11487542
         },
         "title": "The Gospel According to Bobby Glass",
-        "votes": 1528,
+        "votes": 1529,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/487/542/screenshots/medium/2c6b8619e1.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.961387634277344,
+        "rating": 7.960758686065674,
         "season": 1,
         "runtime": 44,
         "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
         "released": "2024-03-07",
         "number_abs": 8,
-        "updated_at": "2026-09-06T17:28:14.000Z",
+        "updated_at": "2026-09-06T18:52:47.000Z",
         "first_aired": "2024-03-07T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -92243,20 +92244,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 364,
+        "votes": 377,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.052197456359863,
+        "rating": 8.05305004119873,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-06T17:25:05.000Z",
+        "updated_at": "2026-09-06T19:01:53.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -96169,7 +96170,7 @@
         "overview": "Reeling from the truth, Imogene has a choice to make. Rufus writes a second memoir.",
         "released": "2024-03-05",
         "number_abs": 10,
-        "updated_at": "2026-09-05T18:31:29.000Z",
+        "updated_at": "2026-09-06T18:41:09.000Z",
         "first_aired": "2024-03-05T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -97258,20 +97259,20 @@
           "trakt": 10823334
         },
         "title": "Bisquik",
-        "votes": 1514,
+        "votes": 1515,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/010/823/334/screenshots/medium/036189113f.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.050198554992676,
+        "rating": 8.050825119018555,
         "season": 5,
         "runtime": 49,
         "overview": "Lorraine makes a visit and Dot prepares biscuits.",
         "released": "2024-01-17",
         "number_abs": 51,
-        "updated_at": "2026-09-05T19:56:05.000Z",
+        "updated_at": "2026-09-06T18:30:37.000Z",
         "first_aired": "2024-01-17T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -99970,7 +99971,7 @@
         "overview": "Palmer is found not guilty. Parry is arrested in Spain. Noye and his associates are convicted, but the police realise the gold was split after the robbery.",
         "released": null,
         "number_abs": 6,
-        "updated_at": "2026-09-05T18:34:13.000Z",
+        "updated_at": "2026-09-06T18:35:10.000Z",
         "first_aired": "2023-03-19T21:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -104261,7 +104262,7 @@
         "overview": "\u25b6\u25b6 Pod 042 and Pod 153 - Joint Report:\n\nPod 042  Report: The rampant entity \uff1cAdam\uff1e was hacked by 9S, intercepted by the Resistance, and was bombarded with support fire from the Bunker. It was \u25a0\u25a0\u25a0\u25a0\n\n\u2015\u2015\u2015Communication error\u2015\u2015\u2015\n\n\u2015\u2015\u2015Communication error\u2015\u2015\u2015\n\n\u2015\u2015\u2015Communication with Pod 042 is being restored  12 seconds until restoration\u2015\u2015\u2015\n\n\u2015\u2015\u2015Communication with Pod 153 is being restored  15 seconds until restoration\u2015\u2015\u2015\n\nPod 042 to Pod 153: Temporary communication error occurred due to large-scale ground and air attacks. Currently undergoing restoration processes.\n\nPod 153 to Pod 042: Same failure for this unit confirmed. No abnormalities in recording systems.\n\nPod 042 to Pod 153: Agreed. Currently, there are no system abnormalities in this unit. Continuing to carry out investigation mission and recording of 2B, target of this unit\u2019s accompanying support.\n\nPod 153 to Pod 042: Agreed. This unit will also carry out missions and record 9S.",
         "released": "2023-07-23",
         "number_abs": 12,
-        "updated_at": "2026-09-05T18:11:39.000Z",
+        "updated_at": "2026-09-06T18:16:12.000Z",
         "first_aired": "2023-07-23T14:30:00.000Z",
         "episode_type": "mid_season_finale",
         "after_credits": false,
@@ -104295,7 +104296,7 @@
         "overview": "\u25b6\u25b6 Pod 042 - Report:\n\n5012 AD.\n\nLifeforms from outer space, otherwise known as \uff1cAliens\uff1e, suddenly begin their invasion of Earth.  Mankind escapes to the moon, and the ground battle between the \uff1cAndroids\uff1e and the \uff1cMachine Lifeforms\uff1e has continued for a long time.\n\n11945 AD.\n\nThe \uff1c243rd Descent Operation\uff1e has commenced.\n\n\uff1cYoHRa\uff1e Soldiers \uff1c2B\uff1e and \uff1c9S\uff1e now engage in the plan to recapture Earth.\n\nWhile on a mission near the City Ruins, they receive a request from the Resistance to find a missing android.  Both 2B and 9S consider that the missing android may be related to their current investigation ordered by Command.  Proposal: Begin the search for relevant android.",
         "released": null,
         "number_abs": 13,
-        "updated_at": "2026-09-05T18:15:53.000Z",
+        "updated_at": "2026-09-06T18:16:12.000Z",
         "first_aired": "2024-07-05T14:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -106057,7 +106058,7 @@
         "overview": "If Wright wants to get Jack out alive, compromises must be made. Groundbreaking intel gives the CIA a chance to prevent a domestic terrorist act.",
         "released": "2023-07-14",
         "number_abs": 30,
-        "updated_at": "2026-09-06T05:32:56.000Z",
+        "updated_at": "2026-09-06T19:06:12.000Z",
         "first_aired": "2023-07-14T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -113811,7 +113812,7 @@
         "overview": "After delivering the verdict, Ronald finds out that another trial was being held in this court and another verdict has been reached.",
         "released": "2023-04-21",
         "number_abs": 8,
-        "updated_at": "2026-09-05T18:18:58.000Z",
+        "updated_at": "2026-09-06T18:20:31.000Z",
         "first_aired": "2023-04-21T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -114070,7 +114071,7 @@
         "overview": "You can't give your customers everything, but you can make them believe that what you're giving them is all they'll ever need.",
         "released": "2023-04-07",
         "number_abs": 10,
-        "updated_at": "2026-09-05T18:38:25.000Z",
+        "updated_at": "2026-09-06T18:50:52.000Z",
         "first_aired": "2023-04-07T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -115957,7 +115958,7 @@
         "overview": "With his identity finally revealed, Salazar joins Billie in the final leg of the treasure hunt, where Jess and her allies try to outwit Billie using Jess\u2019s knowledge of puzzles and history to escape and protect the treasure.",
         "released": "2023-02-08",
         "number_abs": 10,
-        "updated_at": "2026-09-05T18:38:50.000Z",
+        "updated_at": "2026-09-06T18:48:36.000Z",
         "first_aired": "2023-02-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -122630,7 +122631,7 @@
         "overview": "Nathan attempts to help a Bill Gates impersonator reunite with his long-lost love.",
         "released": "2017-11-10",
         "number_abs": 31,
-        "updated_at": "2026-09-05T18:14:09.000Z",
+        "updated_at": "2026-09-06T18:17:04.000Z",
         "first_aired": "2017-11-10T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -127966,7 +127967,7 @@
         "overview": "\u201cThe Godfather\u201d is released to rave reviews and box office records. Drama unfolds at the 45th Academy Awards.",
         "released": "2022-06-16",
         "number_abs": 10,
-        "updated_at": "2026-09-06T09:07:09.000Z",
+        "updated_at": "2026-09-06T18:34:44.000Z",
         "first_aired": "2022-06-16T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -129825,7 +129826,7 @@
         "overview": "Miley Cyrus performs an intimate show at the Chateau Marmont and opens up to Dave about songwriting, sobriety and separating herself from Hannah Montana.",
         "released": "2024-06-12",
         "number_abs": 24,
-        "updated_at": "2026-09-05T18:08:35.000Z",
+        "updated_at": "2026-09-06T18:11:33.000Z",
         "first_aired": "2024-06-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -134748,7 +134749,7 @@
         "overview": "With the future of Space Force up in the air, big changes could be on the horizon. But first, the team has to deal with the entire base being hacked.",
         "released": "2022-02-18",
         "number_abs": 17,
-        "updated_at": "2026-09-05T18:14:05.000Z",
+        "updated_at": "2026-09-06T18:14:54.000Z",
         "first_aired": "2022-02-18T08:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -135448,7 +135449,7 @@
         "overview": "At the top of day two, Navarro looks strong. But TVCC head coach Vontae Johnson feels confident that his team's technical skills give it a solid shot.",
         "released": "2022-01-12",
         "number_abs": 15,
-        "updated_at": "2026-09-05T18:07:25.000Z",
+        "updated_at": "2026-09-06T18:31:45.000Z",
         "first_aired": "2022-01-12T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -136010,20 +136011,20 @@
           "trakt": 5729945
         },
         "title": "Sins of the Father",
-        "votes": 2607,
+        "votes": 2608,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/729/945/screenshots/medium/690a6878b4.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.125431537628174,
+        "rating": 7.123466491699219,
         "season": 1,
         "runtime": 58,
         "overview": "Dexter and Harrison try to live a normal life in a place that they have discovered is not as normal as they thought it was. Will the two of them be able to live happily ever after, despite all the threats coming their way?",
         "released": "2022-01-10",
         "number_abs": 10,
-        "updated_at": "2026-09-06T05:02:04.000Z",
+        "updated_at": "2026-09-06T18:30:04.000Z",
         "first_aired": "2022-01-10T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -139939,7 +139940,7 @@
         "overview": "Rick and Randy\u2019s criminal investigation now threatens Richard Sackler\u2019s empire, activists take action against Purdue, and Finnix tries to heal his beloved community that\u2019s been ravaged by addiction.",
         "released": "2021-11-17",
         "number_abs": 8,
-        "updated_at": "2026-09-06T06:40:49.000Z",
+        "updated_at": "2026-09-06T18:10:24.000Z",
         "first_aired": "2021-11-17T05:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -140091,7 +140092,7 @@
         "overview": "The Starr Report brings the world to a standstill. The President is impeached. Linda faces the aftermath of her decisions, Paula makes desperate choices, and Monica considers how to move on with her life.",
         "released": "2021-11-10",
         "number_abs": 29,
-        "updated_at": "2026-09-05T18:18:48.000Z",
+        "updated_at": "2026-09-06T18:20:15.000Z",
         "first_aired": "2021-11-10T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -166838,7 +166839,7 @@
         "overview": "After demanding the truth from their mom, the twins face a troubling night filled with heartbreak, hardened criminals and shocking revelations.",
         "released": "2020-08-14",
         "number_abs": 10,
-        "updated_at": "2026-09-05T18:37:17.000Z",
+        "updated_at": "2026-09-06T19:01:12.000Z",
         "first_aired": "2020-08-14T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -174832,7 +174833,7 @@
         "overview": "Everything\u2019s up for grabs at the end of a whirlwind summer. Jimmy and J.B. show the area\u2019s \u201cTaj Mahal\u201d as Michael shares big news. Peggy makes a move.",
         "released": null,
         "number_abs": 6,
-        "updated_at": "2026-09-05T05:22:42.000Z",
+        "updated_at": "2026-09-06T18:13:26.000Z",
         "first_aired": "2020-08-26T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -176873,7 +176874,7 @@
         "overview": "Hasan exposes how TurboTax pushes taxpayers away from its free service to a paid option, and why efforts to simplify filing have repeatedly failed.",
         "released": "2020-06-28",
         "number_abs": 40,
-        "updated_at": "2026-09-05T18:13:14.000Z",
+        "updated_at": "2026-09-06T18:52:39.000Z",
         "first_aired": "2020-06-28T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -180817,7 +180818,7 @@
         "overview": "With the fate of the whole planet on the line, Kovacs, Quell and team race to find Konrad Harlan and stop a catastrophic blast of Angelfire.",
         "released": "2020-02-27",
         "number_abs": 18,
-        "updated_at": "2026-09-06T05:01:19.000Z",
+        "updated_at": "2026-09-06T18:56:50.000Z",
         "first_aired": "2020-02-27T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -198496,7 +198497,7 @@
         "overview": "Claire tries to tarnish Frank's legacy. Doug provokes Claire by releasing excerpts from Frank's diary. A rift develops between the Shepherds.",
         "released": "2018-11-02",
         "number_abs": 73,
-        "updated_at": "2026-09-05T18:18:47.000Z",
+        "updated_at": "2026-09-06T18:20:31.000Z",
         "first_aired": "2018-11-02T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -200405,7 +200406,7 @@
         "overview": "Concerned for the safety of Amma, Camille puts her own life in jeopardy as she gets closer to the truth behind the shocking mysteries surrounding the Wind Gap killings.",
         "released": "2018-08-27",
         "number_abs": 8,
-        "updated_at": "2026-09-06T15:28:36.000Z",
+        "updated_at": "2026-09-06T18:58:13.000Z",
         "first_aired": "2018-08-27T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -209657,7 +209658,7 @@
         "overview": "Kevin learns one of the Cubans isn't who he claims to be. Sally gets devastating news. John faces what he must do to put the matter of Danny to rest.",
         "released": "2017-05-26",
         "number_abs": 33,
-        "updated_at": "2026-09-05T18:48:26.000Z",
+        "updated_at": "2026-09-06T18:49:56.000Z",
         "first_aired": "2017-05-26T16:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -210298,7 +210299,7 @@
         "overview": "Marnie surprises Hannah at her home upstate. Admitting that she doesn\u2019t have much going on in her life since her band dissolved, Marnie explains she\u2019d like to help Hannah raise the baby.",
         "released": "2017-04-17",
         "number_abs": 62,
-        "updated_at": "2026-09-05T18:20:19.000Z",
+        "updated_at": "2026-09-06T18:35:19.000Z",
         "first_aired": "2017-04-17T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -212752,7 +212753,7 @@
         "overview": "A controversy surrounding the defense puts Stone in the spotlight as Naz\u2019s trial reaches its climax.",
         "released": "2016-08-29",
         "number_abs": 8,
-        "updated_at": "2026-09-06T05:26:13.000Z",
+        "updated_at": "2026-09-06T18:33:08.000Z",
         "first_aired": "2016-08-29T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -220403,20 +220404,20 @@
           "trakt": 11700295
         },
         "title": "Why Are You Still Here?",
-        "votes": 222,
+        "votes": 223,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/700/295/screenshots/medium/a989d46ab1.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.472972869873047,
+        "rating": 7.47533655166626,
         "season": 2,
         "runtime": 48,
         "overview": "As new evidence is revealed, Robert Durst is arrested and charged with Susan Berman's murder. But who will support Bob in his time of need?",
         "released": "2024-04-22",
         "number_abs": 7,
-        "updated_at": "2026-09-06T16:07:14.000Z",
+        "updated_at": "2026-09-06T18:59:56.000Z",
         "first_aired": "2024-04-22T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

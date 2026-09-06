@@ -1,5 +1,41 @@
 [
   {
+    "id": 14387672987,
+    "watched_at": "2026-09-06T18:28:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt11166676",
+        "plex": {
+          "guid": "5e8338000781250040ad5af8"
+        },
+        "tmdb": 2203065,
+        "tvdb": 7606060,
+        "trakt": 4019344
+      },
+      "title": "Carbonara",
+      "number": 5,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14387572902,
     "watched_at": "2026-09-06T18:01:00.000Z",
     "action": "watch",
