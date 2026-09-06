@@ -1,5 +1,41 @@
 [
   {
+    "id": 14385431348,
+    "watched_at": "2026-09-06T06:11:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt8844878",
+        "plex": {
+          "guid": "5d9c0ce008fddd001f2d022b"
+        },
+        "tmdb": 1778890,
+        "tvdb": 7117384,
+        "trakt": 3461789
+      },
+      "title": "Shake the Cocktail",
+      "number": 12,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14385388927,
     "watched_at": "2026-09-06T05:48:00.000Z",
     "action": "watch",

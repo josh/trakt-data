@@ -318,5 +318,73 @@
     "listed_at": "2026-09-01T07:12:00.000Z",
     "notes": null,
     "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt28014327",
+        "plex": {
+          "guid": "6488a8b8f542e5c273e5ae08",
+          "slug": "mayday-2026"
+        },
+        "slug": "mayday-2026",
+        "tmdb": 1137844,
+        "trakt": 916057
+      },
+      "year": 2026,
+      "title": "Mayday"
+    },
+    "rank": 15,
+    "id": 1541479167,
+    "listed_at": "2026-09-06T06:17:13.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32547691",
+        "plex": {
+          "guid": "666552209e34ea73f7f11b2f",
+          "slug": "pressure-2026"
+        },
+        "slug": "pressure-2026",
+        "tmdb": 1318413,
+        "trakt": 1077714
+      },
+      "year": 2026,
+      "title": "Pressure"
+    },
+    "rank": 16,
+    "id": 1541479186,
+    "listed_at": "2026-09-06T06:17:30.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt37543147",
+        "plex": {
+          "guid": "68721a8afb44b4dda4055b4a",
+          "slug": "life-larry-and-the-pursuit-of-unhappiness"
+        },
+        "slug": "life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america",
+        "tmdb": 295780,
+        "tvdb": 475441,
+        "trakt": 291193
+      },
+      "year": 2026,
+      "title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "aired_episodes": 7
+    },
+    "rank": 17,
+    "id": 1541487708,
+    "listed_at": "2026-09-06T07:04:35.000Z",
+    "notes": null,
+    "my_rating": null
   }
 ]
