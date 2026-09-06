@@ -1,5 +1,77 @@
 [
   {
+    "id": 14385388927,
+    "watched_at": "2026-09-06T05:48:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt9089588",
+        "plex": {
+          "guid": "5d9c0ce008fddd001f2d0237"
+        },
+        "tmdb": 1778889,
+        "tvdb": 7117383,
+        "trakt": 3461780
+      },
+      "title": "Get Lit",
+      "number": 11,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14385369069,
+    "watched_at": "2026-09-06T05:31:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt7532436",
+        "plex": {
+          "guid": "5d9c0ce008fddd001f2d0228"
+        },
+        "tmdb": 1778888,
+        "tvdb": 7117382,
+        "trakt": 3461762
+      },
+      "title": "Show Me the Magic",
+      "number": 10,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14381792209,
     "watched_at": "2026-09-05T09:34:00.000Z",
     "action": "watch",
@@ -162394,7 +162466,7 @@
         "tvdb": 7536135,
         "trakt": 5746105
       },
-      "title": "Episode 4",
+      "title": "Episode Four",
       "number": 4,
       "season": 1
     },
@@ -162430,7 +162502,7 @@
         "tvdb": 7536134,
         "trakt": 5746047
       },
-      "title": "Episode 3",
+      "title": "Episode Three",
       "number": 3,
       "season": 1
     },
@@ -164510,7 +164582,7 @@
         "tvdb": 7536133,
         "trakt": 5744993
       },
-      "title": "Episode 2",
+      "title": "Episode Two",
       "number": 2,
       "season": 1
     },
@@ -164546,7 +164618,7 @@
         "tvdb": 7536131,
         "trakt": 4931828
       },
-      "title": "Episode 1",
+      "title": "Episode One",
       "number": 1,
       "season": 1
     },
@@ -457936,7 +458008,7 @@
       "ids": {
         "imdb": "tt3094712",
         "plex": {
-          "guid": null
+          "guid": "603bc72bac133e002c1e79f3"
         },
         "tmdb": 2760647,
         "tvdb": 4632068,
@@ -458008,7 +458080,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8d08fddd001f2e5e38"
         },
         "tmdb": 305273,
         "tvdb": 4632067,
@@ -459556,7 +459628,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8d4eefaa001f615fda"
         },
         "tmdb": 305258,
         "tvdb": 4606585,
@@ -460852,7 +460924,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0e8dcb3ffa001f1cae2a"
         },
         "tmdb": 305252,
         "tvdb": 4588065,
@@ -651558,7 +651630,7 @@
         "tvdb": 273324,
         "trakt": 419654
       },
-      "title": "Season 2, Episode 13",
+      "title": "Episode #25",
       "number": 13,
       "season": 2
     },
@@ -651810,7 +651882,7 @@
         "tvdb": 273323,
         "trakt": 419653
       },
-      "title": "Season 2, Episode 12",
+      "title": "Episode #24",
       "number": 12,
       "season": 2
     },
@@ -652062,7 +652134,7 @@
         "tvdb": 273322,
         "trakt": 419652
       },
-      "title": "Season 2, Episode 11",
+      "title": "Episode #23",
       "number": 11,
       "season": 2
     },
@@ -652314,7 +652386,7 @@
         "tvdb": 273321,
         "trakt": 419651
       },
-      "title": "Season 2, Episode 10",
+      "title": "Episode #22",
       "number": 10,
       "season": 2
     },
@@ -652566,7 +652638,7 @@
         "tvdb": 273320,
         "trakt": 419650
       },
-      "title": "Season 2, Episode 9",
+      "title": "Episode #21",
       "number": 9,
       "season": 2
     },
@@ -652818,7 +652890,7 @@
         "tvdb": 273319,
         "trakt": 419649
       },
-      "title": "Season 2, Episode 8",
+      "title": "Episode #20",
       "number": 8,
       "season": 2
     },
@@ -652854,7 +652926,7 @@
         "tvdb": 273318,
         "trakt": 419648
       },
-      "title": "Season 2, Episode 7",
+      "title": "Episode #19",
       "number": 7,
       "season": 2
     },
@@ -653070,7 +653142,7 @@
         "tvdb": 273317,
         "trakt": 419647
       },
-      "title": "Season 2, Episode 6",
+      "title": "Episode #18",
       "number": 6,
       "season": 2
     },
@@ -653358,7 +653430,7 @@
         "tvdb": 273316,
         "trakt": 419646
       },
-      "title": "Season 2, Episode 5",
+      "title": "Episode #17",
       "number": 5,
       "season": 2
     },
@@ -653394,7 +653466,7 @@
         "tvdb": 273315,
         "trakt": 419645
       },
-      "title": "Season 2, Episode 4",
+      "title": "Episode #16",
       "number": 4,
       "season": 2
     },
@@ -653430,7 +653502,7 @@
         "tvdb": 273314,
         "trakt": 419644
       },
-      "title": "Season 2, Episode 3",
+      "title": "Episode #15",
       "number": 3,
       "season": 2
     },
@@ -653502,7 +653574,7 @@
         "tvdb": 273313,
         "trakt": 419643
       },
-      "title": "Season 2, Episode 2",
+      "title": "Episode #14",
       "number": 2,
       "season": 2
     },
@@ -653538,7 +653610,7 @@
         "tvdb": 273312,
         "trakt": 419642
       },
-      "title": "Season 2, Episode 1",
+      "title": "Episode #13",
       "number": 1,
       "season": 2
     },
