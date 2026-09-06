@@ -1,5 +1,77 @@
 [
   {
+    "id": 14388552061,
+    "watched_at": "2026-09-06T22:09:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt11327182",
+        "plex": {
+          "guid": "5eaba1787059120042e55c79"
+        },
+        "tmdb": 2246866,
+        "tvdb": 7630082,
+        "trakt": 4052743
+      },
+      "title": "Listen to the Roosters",
+      "number": 10,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14388412076,
+    "watched_at": "2026-09-06T21:38:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt11327180",
+        "plex": {
+          "guid": "5eaba1787059120042e55c77"
+        },
+        "tmdb": 2237874,
+        "tvdb": 7630077,
+        "trakt": 4052741
+      },
+      "title": "Batcea\u00f1era",
+      "number": 9,
+      "season": 4
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14388228957,
     "watched_at": "2026-09-06T21:06:00.000Z",
     "action": "checkin",
