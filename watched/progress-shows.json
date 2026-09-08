@@ -2,6 +2,265 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt30494226",
+        "plex": {
+          "guid": "658366f2283cbad2c792a839",
+          "slug": "ride-or-die"
+        },
+        "slug": "ride-or-die",
+        "tmdb": 241882,
+        "tvdb": 457730,
+        "trakt": 217937
+      },
+      "year": 2026,
+      "title": "Ride or Die",
+      "aired_episodes": 8
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 6,
+      "last_watched_at": "2026-09-08T04:33:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39886408",
+          "plex": {
+            "guid": "699eeac6aef7258d46c44965"
+          },
+          "tmdb": 6968982,
+          "tvdb": 11788851,
+          "trakt": 14018084
+        },
+        "title": "Moonlight on the Bosphorus",
+        "votes": 393,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/018/084/screenshots/medium/f9bfb1d292.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8,
+        "season": 1,
+        "runtime": 53,
+        "overview": "With Judith in life-threatening peril, Debbie and Billy must decide what to do next. A lifeline from Sam provides Judith with terrifying information, and secrets about her past are revealed. Queenie confronts The Director, Jacques offers Debbie a deal, and Sam and Queenie take matters into their own hands and embark on a dangerous mission.",
+        "released": "2026-07-15",
+        "number_abs": 6,
+        "updated_at": "2026-09-07T06:49:52.000Z",
+        "first_aired": "2026-07-15T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Moonlight on the Bosphorus",
+        "available_translations": [
+          "ar",
+          "ca",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "eu",
+          "fi",
+          "fr",
+          "gl",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "kn",
+          "ko",
+          "ml",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sl",
+          "sv",
+          "ta",
+          "te",
+          "th",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "effective_release_date": "2026-07-15T07:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37392891",
+          "plex": {
+            "guid": "699eeac5aef7258d46c44955"
+          },
+          "tmdb": 6968983,
+          "tvdb": 11788852,
+          "trakt": 14018085
+        },
+        "title": "The Geneva Convention",
+        "votes": 404,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/018/085/screenshots/medium/3872d9ddeb.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8.13118839263916,
+        "season": 1,
+        "runtime": 53,
+        "overview": "All roads converge in Geneva as everyone closes in on the stolen money. Judith discovers some unexpected guests, Interpol and the Albanians make their move, and romance blossoms. When the plan goes sideways, Judith and Debbie find themselves in mortal danger.",
+        "released": "2026-07-15",
+        "number_abs": 7,
+        "updated_at": "2026-09-07T05:52:42.000Z",
+        "first_aired": "2026-07-15T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 9,
+        "during_credits": false,
+        "original_title": "The Geneva Convention",
+        "available_translations": [
+          "ar",
+          "ca",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "eu",
+          "fi",
+          "fr",
+          "gl",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "kn",
+          "ko",
+          "ml",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sl",
+          "sv",
+          "ta",
+          "te",
+          "th",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "effective_release_date": "2026-07-15T07:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 6,
+        "minutes_watched": 314,
+        "minutes_left": 109
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Season 1",
+          "aired": 8,
+          "completed": 6,
+          "stats": {
+            "play_count": 6,
+            "minutes_watched": 314,
+            "minutes_left": 109
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-08-30T06:32:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 55
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2026-09-01T04:24:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 49
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2026-09-02T04:16:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 53
+              }
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2026-09-02T05:08:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 52
+              }
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2026-09-04T02:37:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 52
+              }
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2026-09-08T04:33:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 53
+              }
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt26545992",
         "plex": {
           "guid": "6475f4e274668225adb2c0e0",
@@ -32,20 +291,20 @@
           "trakt": 14132651
         },
         "title": "The Weenie",
-        "votes": 1036,
+        "votes": 1058,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/132/651/screenshots/medium/20166f79c9.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 8.18436336517334,
+        "rating": 8.182419776916504,
         "season": 1,
         "runtime": 53,
         "overview": "As the 48-hour deadline nears, John develops a new theory about the Manhunter's location, leading him and Hal to run their next move by Sheriff Kane. Meanwhile, Hal's visit to Sinestro has consequences.",
         "released": "2026-09-07",
         "number_abs": 4,
-        "updated_at": "2026-09-08T02:58:29.000Z",
+        "updated_at": "2026-09-08T03:57:00.000Z",
         "first_aired": "2026-09-07T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -1000,265 +1259,6 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": []
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt30494226",
-        "plex": {
-          "guid": "658366f2283cbad2c792a839",
-          "slug": "ride-or-die"
-        },
-        "slug": "ride-or-die",
-        "tmdb": 241882,
-        "tvdb": 457730,
-        "trakt": 217937
-      },
-      "year": 2026,
-      "title": "Ride or Die",
-      "aired_episodes": 8
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 5,
-      "last_watched_at": "2026-09-04T02:37:00.000Z",
-      "reset_at": null,
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38046937",
-          "plex": {
-            "guid": "6a0270a72178c55e695a0dde"
-          },
-          "tmdb": 6968981,
-          "tvdb": 11788850,
-          "trakt": 14018083
-        },
-        "title": "The Count of Monte Carlo",
-        "votes": 413,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/018/083/screenshots/medium/e529900b23.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.927361011505127,
-        "season": 1,
-        "runtime": 52,
-        "overview": "An unlikely trio sets off for Monte Carlo to track down David's missing bribe money. Judith is forced to adopt an old cover, Debbie comes up with a very risky plan and neither of them know if they can trust Billy Donovan. Sam disappoints Queenie. Mrs. Williams is visited by a former colleague.",
-        "released": "2026-07-15",
-        "number_abs": 5,
-        "updated_at": "2026-09-08T02:25:42.000Z",
-        "first_aired": "2026-07-15T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "The Count of Monte Carlo",
-        "available_translations": [
-          "ar",
-          "ca",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "eu",
-          "fi",
-          "fr",
-          "gl",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "kn",
-          "ko",
-          "ml",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sl",
-          "sv",
-          "ta",
-          "te",
-          "th",
-          "tr",
-          "ur",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-15T07:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt39886408",
-          "plex": {
-            "guid": "699eeac6aef7258d46c44965"
-          },
-          "tmdb": 6968982,
-          "tvdb": 11788851,
-          "trakt": 14018084
-        },
-        "title": "Moonlight on the Bosphorus",
-        "votes": 393,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/018/084/screenshots/medium/f9bfb1d292.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 8,
-        "season": 1,
-        "runtime": 53,
-        "overview": "With Judith in life-threatening peril, Debbie and Billy must decide what to do next. A lifeline from Sam provides Judith with terrifying information, and secrets about her past are revealed. Queenie confronts The Director, Jacques offers Debbie a deal, and Sam and Queenie take matters into their own hands and embark on a dangerous mission.",
-        "released": "2026-07-15",
-        "number_abs": 6,
-        "updated_at": "2026-09-07T06:49:52.000Z",
-        "first_aired": "2026-07-15T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "Moonlight on the Bosphorus",
-        "available_translations": [
-          "ar",
-          "ca",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "eu",
-          "fi",
-          "fr",
-          "gl",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "kn",
-          "ko",
-          "ml",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sl",
-          "sv",
-          "ta",
-          "te",
-          "th",
-          "tr",
-          "ur",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-15T07:00:00.000Z"
-      },
-      "stats": {
-        "play_count": 5,
-        "minutes_watched": 261,
-        "minutes_left": 162
-      },
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Season 1",
-          "aired": 8,
-          "completed": 5,
-          "stats": {
-            "play_count": 5,
-            "minutes_watched": 261,
-            "minutes_left": 162
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2026-08-30T06:32:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 55
-              }
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2026-09-01T04:24:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 49
-              }
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2026-09-02T04:16:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 53
-              }
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2026-09-02T05:08:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 52
-              }
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2026-09-04T02:37:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 52
-              }
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 8,
               "completed": false,
               "last_watched_at": null,
               "stats": {
@@ -8551,20 +8551,20 @@
           "trakt": 14333392
         },
         "title": "Dennis and Dee Don't Get Rich",
-        "votes": 261,
+        "votes": 262,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/333/392/screenshots/medium/4642a0d50e.jpg.webp"
           ]
         },
         "number": 2,
-        "rating": 7.931034564971924,
+        "rating": 7.916030406951904,
         "season": 18,
         "runtime": 23,
         "overview": "The Reynolds twins push themselves to the limit to secure Sam's transfer of wealth. Charlie and Frank plan a proper memorial for Bonnie during the annual Mummers Parade.",
         "released": "2026-08-18",
         "number_abs": 179,
-        "updated_at": "2026-09-07T18:00:26.000Z",
+        "updated_at": "2026-09-08T03:07:21.000Z",
         "first_aired": "2026-08-18T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -8589,20 +8589,20 @@
           "trakt": 14346442
         },
         "title": "The Gang Gets Tested",
-        "votes": 227,
+        "votes": 228,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/346/442/screenshots/medium/68ba5653ef.jpg.webp"
           ]
         },
         "number": 3,
-        "rating": 7.748898506164551,
+        "rating": 7.741228103637695,
         "season": 18,
         "runtime": 24,
         "overview": "Dennis and Dee are diagnosed with ADHD, and even more shocking: Mac isn't. They go back to school for a do-over now that they understand their brains more better.",
         "released": "2026-08-25",
         "number_abs": 180,
-        "updated_at": "2026-09-08T01:31:20.000Z",
+        "updated_at": "2026-09-08T03:34:12.000Z",
         "first_aired": "2026-08-25T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -10595,20 +10595,20 @@
           "trakt": 14143105
         },
         "title": "Greyhounds' Day Off",
-        "votes": 1371,
+        "votes": 1373,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/105/screenshots/medium/7851e8ffa4.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 8.222465515136719,
+        "rating": 8.219956398010254,
         "season": 4,
         "runtime": 44,
         "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
         "released": "2026-08-26",
         "number_abs": 38,
-        "updated_at": "2026-09-08T02:12:44.000Z",
+        "updated_at": "2026-09-08T03:33:37.000Z",
         "first_aired": "2026-08-26T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -13774,20 +13774,20 @@
           "trakt": 13821065
         },
         "title": "We Hope You Enjoyed Your Time!",
-        "votes": 1886,
+        "votes": 1887,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/821/065/screenshots/medium/e7ac53dd66.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.222163200378418,
+        "rating": 8.222575187683105,
         "season": 1,
         "runtime": 49,
         "overview": "We understand that hard choices had to be made and we may never be the same, but we hope you'll visit again!",
         "released": "2026-06-17",
         "number_abs": 10,
-        "updated_at": "2026-09-08T00:48:29.000Z",
+        "updated_at": "2026-09-08T03:43:36.000Z",
         "first_aired": "2026-06-17T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -16297,7 +16297,7 @@
         "overview": null,
         "released": null,
         "number_abs": 17,
-        "updated_at": "2026-09-06T23:57:16.000Z",
+        "updated_at": "2026-09-08T03:54:37.000Z",
         "first_aired": null,
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -17937,20 +17937,20 @@
           "trakt": 13700792
         },
         "title": "Episode 6",
-        "votes": 811,
+        "votes": 812,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/700/792/screenshots/medium/cce396d064.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.7731194496154785,
+        "rating": 7.775862216949463,
         "season": 2,
         "runtime": 61,
         "overview": "Pine works with Teddy to bring down Gilberto Hanson\u2019s Colombia coup from the inside. But Hanson has found a new ally of his own. It is winner-takes-all.",
         "released": "2026-02-01",
         "number_abs": 12,
-        "updated_at": "2026-09-07T18:02:59.000Z",
+        "updated_at": "2026-09-08T04:00:23.000Z",
         "first_aired": "2026-02-01T21:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -22802,20 +22802,20 @@
           "trakt": 14349213
         },
         "title": "7th Quarter",
-        "votes": 202,
+        "votes": 203,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/349/213/screenshots/medium/4b82a8116f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.663366317749023,
+        "rating": 7.674876689910889,
         "season": 2,
         "runtime": 35,
         "overview": "Russ and Danny's tenuous new alliance with Ricky is tested when Chad suffers a mid-game injury.",
         "released": "2026-09-03",
         "number_abs": 7,
-        "updated_at": "2026-09-08T01:55:24.000Z",
+        "updated_at": "2026-09-08T03:32:18.000Z",
         "first_aired": "2026-09-03T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -23284,20 +23284,20 @@
           "trakt": 13152310
         },
         "title": "Method Director",
-        "votes": 72,
+        "votes": 73,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/152/310/screenshots/medium/7143ab0ce9.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 8.36111068725586,
+        "rating": 8.36986255645752,
         "season": 1,
         "runtime": 61,
         "overview": "As a partnership with Leonardo DiCaprio brings Scorsese's career to new heights, he continues to reinvent himself as a filmmaker and a man.",
         "released": "2025-10-17",
         "number_abs": 5,
-        "updated_at": "2026-09-08T00:00:21.000Z",
+        "updated_at": "2026-09-08T04:05:31.000Z",
         "first_aired": "2025-10-16T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -24413,7 +24413,7 @@
         "overview": "With threats closing in on all sides, the brothers make a final bid for survival that brings them face-to-face with their complicated past.",
         "released": "2025-09-18",
         "number_abs": 8,
-        "updated_at": "2026-09-07T15:40:47.000Z",
+        "updated_at": "2026-09-08T04:02:20.000Z",
         "first_aired": "2025-09-18T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -25561,7 +25561,7 @@
           "tvdb": 11858886,
           "trakt": 14267996
         },
-        "title": "Episode 1",
+        "title": "TBA",
         "votes": 1,
         "images": {
           "screenshot": [
@@ -26593,7 +26593,7 @@
         "overview": "Rick's been lonely, broh. Morty's worried bout side pieces.",
         "released": "2026-05-25",
         "number_abs": 82,
-        "updated_at": "2026-09-07T15:43:42.000Z",
+        "updated_at": "2026-09-08T03:33:00.000Z",
         "first_aired": "2026-05-25T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -29391,7 +29391,7 @@
           "tvdb": 11542638,
           "trakt": 14297667
         },
-        "title": "Episode 1",
+        "title": "I Wanna Be Your Dog",
         "votes": 4,
         "images": {
           "screenshot": []
@@ -29401,7 +29401,7 @@
         "season": 2,
         "runtime": 60,
         "overview": null,
-        "released": null,
+        "released": "2026-09-18",
         "number_abs": 11,
         "updated_at": "2026-09-07T21:26:45.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
@@ -30871,7 +30871,7 @@
         "overview": "As the Wolves and the Scars prepare for a battle that could potentially end their longstanding feud, Ellie's search draws her away from her friends and toward a devastating confrontation.",
         "released": "2025-05-26",
         "number_abs": 16,
-        "updated_at": "2026-09-07T22:20:28.000Z",
+        "updated_at": "2026-09-08T03:56:02.000Z",
         "first_aired": "2025-05-26T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -36073,7 +36073,7 @@
         "overview": "Mark forms a shaky alliance in an all-or-nothing play, while the team makes a dangerous last stand.",
         "released": "2025-03-21",
         "number_abs": 19,
-        "updated_at": "2026-09-07T23:23:13.000Z",
+        "updated_at": "2026-09-08T04:05:56.000Z",
         "first_aired": "2025-03-21T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -37372,20 +37372,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1170,
+        "votes": 1172,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.564957618713379,
+        "rating": 8.56484603881836,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-09-08T02:16:43.000Z",
+        "updated_at": "2026-09-08T04:02:07.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -37760,20 +37760,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 3173,
+        "votes": 3174,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.78537654876709,
+        "rating": 7.785444259643555,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-09-08T02:34:30.000Z",
+        "updated_at": "2026-09-08T03:50:28.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -38517,7 +38517,7 @@
         "overview": "As Tula contends with his true identity, Valya's maneuvering leads her into an epic confrontation with an increasingly powerful Desmond.",
         "released": "2024-12-23",
         "number_abs": 6,
-        "updated_at": "2026-09-07T03:54:59.000Z",
+        "updated_at": "2026-09-08T03:55:55.000Z",
         "first_aired": "2024-12-23T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -45171,20 +45171,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2253,
+        "votes": 2254,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.917887210845947,
+        "rating": 7.918810844421387,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-09-08T00:05:30.000Z",
+        "updated_at": "2026-09-08T03:53:42.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -92415,20 +92415,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 486,
+        "votes": 488,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.08847713470459,
+        "rating": 8.086065292358398,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-08T02:28:37.000Z",
+        "updated_at": "2026-09-08T03:23:14.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -98388,7 +98388,7 @@
         "overview": "A family reunion years in the making comes to pass. With Mariama's help, Assane makes a final play to stop Keller, right his wrongs and go out in style.",
         "released": null,
         "number_abs": 17,
-        "updated_at": "2026-09-07T15:27:30.000Z",
+        "updated_at": "2026-09-08T03:20:56.000Z",
         "first_aired": "2023-10-05T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -105742,7 +105742,7 @@
         "overview": "As chaos breaks out at Mrs. Mahabir\u2019s ritual, Agent Harmony finds a definitive link between the McCuskers and Guyana.",
         "released": "2023-07-27",
         "number_abs": 6,
-        "updated_at": "2026-09-07T04:01:01.000Z",
+        "updated_at": "2026-09-08T04:01:13.000Z",
         "first_aired": "2023-07-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -106875,7 +106875,7 @@
         "overview": "The Gattchis attempt to seize control of the situation.",
         "released": "2023-06-21",
         "number_abs": 8,
-        "updated_at": "2026-09-07T03:35:32.000Z",
+        "updated_at": "2026-09-08T03:37:01.000Z",
         "first_aired": "2023-06-21T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -119573,7 +119573,7 @@
         "overview": "Wednesday lands in trouble with Principal Weems, but that's just the start of her problems. To fight an ancient evil, she'll need all her friends\u2019 help.",
         "released": "2022-11-23",
         "number_abs": 8,
-        "updated_at": "2026-09-08T00:42:30.000Z",
+        "updated_at": "2026-09-08T04:06:11.000Z",
         "first_aired": "2022-11-23T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -120662,7 +120662,7 @@
         "overview": "Who won? Who lost? Are we still a democracy? All we know is that everyone is happy and absolutely no one is questioning the results.",
         "released": "2022-11-11",
         "number_abs": 14,
-        "updated_at": "2026-09-07T04:06:06.000Z",
+        "updated_at": "2026-09-08T04:07:43.000Z",
         "first_aired": "2022-11-11T02:00:00.000Z",
         "episode_type": "mid_season_finale",
         "after_credits": false,
@@ -120703,7 +120703,7 @@
         "overview": "Can you be tough on crime but soft on guns? The numbers say no, but too many legislators say yes.",
         "released": "2023-03-03",
         "number_abs": 15,
-        "updated_at": "2026-09-07T04:06:06.000Z",
+        "updated_at": "2026-09-08T04:07:43.000Z",
         "first_aired": "2023-03-03T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -121872,7 +121872,7 @@
         "overview": "Dahmer's trial raises controversial questions about law enforcement and justice. Today, the repercussions of the murders he committed still reverberates.",
         "released": "2022-10-07",
         "number_abs": 3,
-        "updated_at": "2026-09-07T03:35:32.000Z",
+        "updated_at": "2026-09-08T03:36:54.000Z",
         "first_aired": "2022-10-07T06:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -122380,7 +122380,7 @@
         "overview": "After the squeeze, one Redditor and investing app Robinhood come under suspicion for their ties to the financial establishment.",
         "released": "2022-09-28",
         "number_abs": 3,
-        "updated_at": "2026-09-07T03:24:29.000Z",
+        "updated_at": "2026-09-08T03:48:52.000Z",
         "first_aired": "2022-09-28T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -122738,7 +122738,7 @@
         "overview": "In prison, Jeff's newfound fame makes him a target. His parents seek closure and Glenda pushes for a memorial on familiar grounds to honor the victims.",
         "released": "2022-09-21",
         "number_abs": 10,
-        "updated_at": "2026-09-07T22:07:59.000Z",
+        "updated_at": "2026-09-08T03:20:07.000Z",
         "first_aired": "2022-09-21T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -127729,7 +127729,7 @@
         "overview": "Musicians, neuroscientists and futurologists talk about the power of sound and emerging tech that can interpret brain activity in real time.",
         "released": "2022-06-28",
         "number_abs": 12,
-        "updated_at": "2026-09-06T06:28:22.000Z",
+        "updated_at": "2026-09-08T03:30:34.000Z",
         "first_aired": "2022-06-28T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -128576,7 +128576,7 @@
         "overview": "After navigating a possible retrial, a 73-year-old Michael confronts a life-changing decision. Meanwhile, Martha and Margaret each share long-buried truths, and Sophie comes to terms with a revelation.",
         "released": "2022-06-09",
         "number_abs": 8,
-        "updated_at": "2026-09-07T03:52:10.000Z",
+        "updated_at": "2026-09-08T03:52:27.000Z",
         "first_aired": "2022-06-09T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -134874,7 +134874,7 @@
         "overview": "A cocky young Internet entrepreneur enters the picture, changing everything.",
         "released": "2022-03-09",
         "number_abs": 8,
-        "updated_at": "2026-09-07T03:23:08.000Z",
+        "updated_at": "2026-09-08T03:23:50.000Z",
         "first_aired": "2022-03-09T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -135431,7 +135431,7 @@
         "overview": "The Otherworld beckons. Melody circles back to the Visser, where a new device captures a sacrifice. So much depends on Dan's journey into the unknown.",
         "released": "2022-01-14",
         "number_abs": 8,
-        "updated_at": "2026-09-07T04:00:27.000Z",
+        "updated_at": "2026-09-08T04:00:57.000Z",
         "first_aired": "2022-01-14T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -148081,7 +148081,7 @@
         "overview": "When her investigation takes a series of devastating turns, Mare's friends and family members process the fallout as she attempts to finally find her own way forward.",
         "released": "2021-05-31",
         "number_abs": 7,
-        "updated_at": "2026-09-07T07:46:13.000Z",
+        "updated_at": "2026-09-08T03:31:32.000Z",
         "first_aired": "2021-05-31T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -176311,7 +176311,7 @@
         "overview": "Before the Doom Patrol can answer a call to save the world from The Candlemaker in the season finale, they must first battle long-forgotten imaginary friends.",
         "released": "2020-08-06",
         "number_abs": 24,
-        "updated_at": "2026-09-07T03:38:21.000Z",
+        "updated_at": "2026-09-08T03:40:42.000Z",
         "first_aired": "2020-08-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -189642,7 +189642,7 @@
         "overview": "The Jennings face a choice that will change their lives forever.",
         "released": "2018-05-31",
         "number_abs": 75,
-        "updated_at": "2026-09-07T15:45:44.000Z",
+        "updated_at": "2026-09-08T03:37:33.000Z",
         "first_aired": "2018-05-31T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -198171,7 +198171,7 @@
         "overview": "A pair of newlyweds with two dogs corral all their pet items, then learn the magic of using boxes to keep drawers and cabinets tidy.",
         "released": "2019-01-01",
         "number_abs": 8,
-        "updated_at": "2026-09-06T22:25:13.000Z",
+        "updated_at": "2026-09-08T03:22:01.000Z",
         "first_aired": "2019-01-01T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -208104,20 +208104,20 @@
           "trakt": 2554382
         },
         "title": "Night",
-        "votes": 3171,
+        "votes": 3172,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/002/554/382/screenshots/medium/a9c64cf3f0.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.21065902709961,
+        "rating": 8.210907936096191,
         "season": 1,
         "runtime": 60,
         "overview": "Serena Joy confronts Offred and the Commander. Offred struggles with a complicated, life-changing revelation. The Handmaids face a brutal decision.",
         "released": "2017-06-14",
         "number_abs": 10,
-        "updated_at": "2026-09-07T04:42:37.000Z",
+        "updated_at": "2026-09-08T04:01:30.000Z",
         "first_aired": "2017-06-14T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -212357,7 +212357,7 @@
         "overview": "As James Delaney conspires to escape, an enraged Prince Regent unleashes one final plan to destroy him.",
         "released": "2017-02-25",
         "number_abs": 8,
-        "updated_at": "2026-09-07T15:59:53.000Z",
+        "updated_at": "2026-09-08T03:21:55.000Z",
         "first_aired": "2017-02-25T21:15:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -241378,7 +241378,7 @@
         "overview": "All bad things must come to an end.",
         "released": "2013-09-30",
         "number_abs": 62,
-        "updated_at": "2026-09-07T15:33:44.000Z",
+        "updated_at": "2026-09-08T03:53:20.000Z",
         "first_aired": "2013-09-30T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
