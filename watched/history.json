@@ -1,5 +1,41 @@
 [
   {
+    "id": 14402467818,
+    "watched_at": "2026-09-10T05:55:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt39177066",
+        "plex": {
+          "guid": "6940f2fa4f08672b7ab2b3ce"
+        },
+        "tmdb": 7037407,
+        "tvdb": 11682652,
+        "trakt": 14057284
+      },
+      "title": "McCarthy",
+      "number": 3,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt37543147",
+        "plex": {
+          "guid": "68721a8afb44b4dda4055b4a",
+          "slug": "life-larry-and-the-pursuit-of-unhappiness"
+        },
+        "slug": "life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america",
+        "tmdb": 295780,
+        "tvdb": 475441,
+        "trakt": 291193
+      },
+      "year": 2026,
+      "title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "aired_episodes": 7
+    }
+  },
+  {
     "id": 14402281790,
     "watched_at": "2026-09-10T04:59:00.000Z",
     "action": "checkin",
