@@ -1,5 +1,41 @@
 [
   {
+    "id": 14410164977,
+    "watched_at": "2026-09-12T07:38:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43679380",
+        "plex": {
+          "guid": "6a6a0194b9a68da56f69cc1d"
+        },
+        "tmdb": 7604185,
+        "tvdb": 11900918,
+        "trakt": 14346442
+      },
+      "title": "The Gang Gets Tested",
+      "number": 3,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 182
+    }
+  },
+  {
     "id": 14410050235,
     "watched_at": "2026-09-12T06:30:00.000Z",
     "action": "watch",
