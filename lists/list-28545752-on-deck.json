@@ -3,54 +3,6 @@
     "type": "show",
     "show": {
       "ids": {
-        "imdb": "tt0350448",
-        "plex": {
-          "guid": "5d9c082dffd9ef001e98ecc9",
-          "slug": "real-time-with-bill-maher"
-        },
-        "slug": "real-time-with-bill-maher",
-        "tmdb": 4419,
-        "tvdb": 72231,
-        "trakt": 4395
-      },
-      "year": 2003,
-      "title": "Real Time with Bill Maher",
-      "aired_episodes": 740
-    },
-    "rank": 2,
-    "id": 1410623339,
-    "listed_at": "2026-01-17T23:47:10.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "show",
-    "show": {
-      "ids": {
-        "imdb": "tt10986410",
-        "plex": {
-          "guid": "5e204251072b9e003ca5c140",
-          "slug": "ted-lasso"
-        },
-        "slug": "ted-lasso",
-        "tmdb": 97546,
-        "tvdb": 383203,
-        "trakt": 162639
-      },
-      "year": 2020,
-      "title": "Ted Lasso",
-      "aired_episodes": 40
-    },
-    "rank": 7,
-    "id": 1534671097,
-    "listed_at": "2026-08-18T04:53:50.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "show",
-    "show": {
-      "ids": {
         "imdb": "tt26545992",
         "plex": {
           "guid": "6475f4e274668225adb2c0e0",
@@ -65,9 +17,33 @@
       "title": "Lanterns",
       "aired_episodes": 4
     },
-    "rank": 7,
+    "rank": 1,
     "id": 1535332229,
     "listed_at": "2026-08-20T03:46:22.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 741
+    },
+    "rank": 2,
+    "id": 1410623339,
+    "listed_at": "2026-01-17T23:47:10.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -89,53 +65,9 @@
       "title": "It's Always Sunny in Philadelphia",
       "aired_episodes": 182
     },
-    "rank": 7,
+    "rank": 3,
     "id": 1536168186,
     "listed_at": "2026-08-22T04:24:36.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt33365126",
-        "plex": {
-          "guid": "66e466e414b2ce3fbc0c3242",
-          "slug": "carolina-caroline-2026"
-        },
-        "slug": "carolina-caroline-2026",
-        "tmdb": 1329471,
-        "trakt": 1087715
-      },
-      "year": 2026,
-      "title": "Carolina Caroline"
-    },
-    "rank": 8,
-    "id": 1484434181,
-    "listed_at": "2026-06-23T19:21:52.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt30825738",
-        "plex": {
-          "guid": "659eea0148cee3ee85e48609",
-          "slug": "the-mandalorian-and-grogu-2026"
-        },
-        "slug": "the-mandalorian-and-grogu-2026",
-        "tmdb": 1228710,
-        "trakt": 993003
-      },
-      "year": 2026,
-      "title": "The Mandalorian and Grogu"
-    },
-    "rank": 8,
-    "id": 1536601441,
-    "listed_at": "2026-08-23T01:26:20.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -157,9 +89,77 @@
       "title": "Better Things",
       "aired_episodes": 52
     },
-    "rank": 9,
+    "rank": 4,
     "id": 1536668084,
     "listed_at": "2026-08-23T05:10:48.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt10986410",
+        "plex": {
+          "guid": "5e204251072b9e003ca5c140",
+          "slug": "ted-lasso"
+        },
+        "slug": "ted-lasso",
+        "tmdb": 97546,
+        "tvdb": 383203,
+        "trakt": 162639
+      },
+      "year": 2020,
+      "title": "Ted Lasso",
+      "aired_episodes": 40
+    },
+    "rank": 5,
+    "id": 1534671097,
+    "listed_at": "2026-08-18T04:53:50.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt33365126",
+        "plex": {
+          "guid": "66e466e414b2ce3fbc0c3242",
+          "slug": "carolina-caroline-2026"
+        },
+        "slug": "carolina-caroline-2026",
+        "tmdb": 1329471,
+        "trakt": 1087715
+      },
+      "year": 2026,
+      "title": "Carolina Caroline"
+    },
+    "rank": 6,
+    "id": 1484434181,
+    "listed_at": "2026-06-23T19:21:52.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt30825738",
+        "plex": {
+          "guid": "659eea0148cee3ee85e48609",
+          "slug": "the-mandalorian-and-grogu-2026"
+        },
+        "slug": "the-mandalorian-and-grogu-2026",
+        "tmdb": 1228710,
+        "trakt": 993003
+      },
+      "year": 2026,
+      "title": "The Mandalorian and Grogu"
+    },
+    "rank": 7,
+    "id": 1536601441,
+    "listed_at": "2026-08-23T01:26:20.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -179,7 +179,7 @@
       "year": 2026,
       "title": "Her Private Hell"
     },
-    "rank": 9,
+    "rank": 8,
     "id": 1537856040,
     "listed_at": "2026-08-25T15:40:56.000Z",
     "notes": null,
@@ -201,7 +201,7 @@
       "year": 2026,
       "title": "Motor City"
     },
-    "rank": 10,
+    "rank": 9,
     "id": 1537856054,
     "listed_at": "2026-08-25T15:41:07.000Z",
     "notes": null,
@@ -223,7 +223,7 @@
       "year": 2026,
       "title": "Everyone Is Lying to You for Money"
     },
-    "rank": 11,
+    "rank": 10,
     "id": 1538985340,
     "listed_at": "2026-08-28T21:41:17.000Z",
     "notes": null,
@@ -245,7 +245,7 @@
       "year": 2026,
       "title": "The Whisper Man"
     },
-    "rank": 12,
+    "rank": 11,
     "id": 1539320565,
     "listed_at": "2026-08-29T20:14:08.000Z",
     "notes": null,
@@ -267,7 +267,7 @@
       "year": 1996,
       "title": "The Trigger Effect"
     },
-    "rank": 14,
+    "rank": 12,
     "id": 1539606027,
     "listed_at": "2026-08-30T17:27:27.000Z",
     "notes": null,
@@ -289,7 +289,7 @@
       "year": 2026,
       "title": "I Want Your Sex"
     },
-    "rank": 15,
+    "rank": 13,
     "id": 1540120118,
     "listed_at": "2026-09-01T07:12:00.000Z",
     "notes": null,
@@ -311,7 +311,7 @@
       "year": 2026,
       "title": "Mayday"
     },
-    "rank": 15,
+    "rank": 14,
     "id": 1541479167,
     "listed_at": "2026-09-06T06:17:13.000Z",
     "notes": null,
@@ -333,7 +333,7 @@
       "year": 2026,
       "title": "Pressure"
     },
-    "rank": 16,
+    "rank": 15,
     "id": 1541479186,
     "listed_at": "2026-09-06T06:17:30.000Z",
     "notes": null,
@@ -355,7 +355,7 @@
       "year": 2026,
       "title": "One Night Only"
     },
-    "rank": 18,
+    "rank": 16,
     "id": 1542801579,
     "listed_at": "2026-09-09T22:38:03.000Z",
     "notes": null,
