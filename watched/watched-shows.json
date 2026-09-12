@@ -1,5 +1,27 @@
 [
   {
+    "plays": 743,
+    "last_watched_at": "2026-09-12T06:30:00.000Z",
+    "last_updated_at": "2026-09-12T06:30:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 741
+    }
+  },
+  {
     "plays": 7,
     "last_watched_at": "2026-09-11T06:01:00.000Z",
     "last_updated_at": "2026-09-11T06:01:00.000Z",
@@ -85,28 +107,6 @@
       "year": 2016,
       "title": "Better Things",
       "aired_episodes": 52
-    }
-  },
-  {
-    "plays": 742,
-    "last_watched_at": "2026-08-30T05:28:00.000Z",
-    "last_updated_at": "2026-08-30T05:28:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt0350448",
-        "plex": {
-          "guid": "5d9c082dffd9ef001e98ecc9",
-          "slug": "real-time-with-bill-maher"
-        },
-        "slug": "real-time-with-bill-maher",
-        "tmdb": 4419,
-        "tvdb": 72231,
-        "trakt": 4395
-      },
-      "year": 2003,
-      "title": "Real Time with Bill Maher",
-      "aired_episodes": 740
     }
   },
   {
@@ -1866,7 +1866,7 @@
       },
       "year": 2024,
       "title": "Conan O'Brien Must Go",
-      "aired_episodes": 10
+      "aired_episodes": 11
     }
   },
   {
@@ -6254,7 +6254,7 @@
     "reset_at": null,
     "show": {
       "ids": {
-        "imdb": "tt13207736",
+        "imdb": null,
         "plex": {
           "guid": "606ef58bff5b43002ce0589a",
           "slug": "monster-2022"
