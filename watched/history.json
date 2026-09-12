@@ -1,5 +1,77 @@
 [
   {
+    "id": 14410312570,
+    "watched_at": "2026-09-12T08:53:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43679381",
+        "plex": {
+          "guid": "6a75cccf12ed9f98e7c362a0"
+        },
+        "tmdb": 7648174,
+        "tvdb": 11928693,
+        "trakt": 14364985
+      },
+      "title": "The Gang Goes to the Ren Faire",
+      "number": 5,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 182
+    }
+  },
+  {
+    "id": 14410212496,
+    "watched_at": "2026-09-12T08:07:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43679377",
+        "plex": {
+          "guid": "6a595cf38372277b9861ceff"
+        },
+        "tmdb": 7604186,
+        "tvdb": 11900919,
+        "trakt": 14346443
+      },
+      "title": "2026: A Virtual Insanity",
+      "number": 4,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 182
+    }
+  },
+  {
     "id": 14410164977,
     "watched_at": "2026-09-12T07:38:00.000Z",
     "action": "scrobble",
@@ -64807,11 +64879,11 @@
           "guid": "5d7770de31d95e001f1aba2f",
           "slug": "asphalt-city-2024"
         },
-        "slug": "asphalt-city-2023",
+        "slug": "asphalt-city-2024",
         "tmdb": 628922,
         "trakt": 469671
       },
-      "year": 2023,
+      "year": 2024,
       "title": "Asphalt City"
     }
   },

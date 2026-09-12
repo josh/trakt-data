@@ -18,89 +18,87 @@
     },
     "progress": {
       "aired": 182,
-      "completed": 180,
-      "last_watched_at": "2026-09-12T07:38:00.000Z",
+      "completed": 182,
+      "last_watched_at": "2026-09-12T08:53:00.000Z",
       "reset_at": null,
       "last_episode": {
         "ids": {
-          "imdb": "tt43679380",
+          "imdb": "tt43679381",
           "plex": {
-            "guid": "6a6a0194b9a68da56f69cc1d"
+            "guid": "6a75cccf12ed9f98e7c362a0"
           },
-          "tmdb": 7604185,
-          "tvdb": 11900918,
-          "trakt": 14346442
+          "tmdb": 7648174,
+          "tvdb": 11928693,
+          "trakt": 14364985
         },
-        "title": "The Gang Gets Tested",
-        "votes": 248,
+        "title": "The Gang Goes to the Ren Faire",
+        "votes": 167,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/014/346/442/screenshots/medium/68ba5653ef.jpg.webp"
+            "media.trakt.tv/images/episodes/014/364/985/screenshots/medium/4ea54a6b9c.jpg.webp"
           ]
         },
-        "number": 3,
-        "rating": 7.7419352531433105,
+        "number": 5,
+        "rating": 7.874251365661621,
         "season": 18,
-        "runtime": 24,
-        "overview": "Dennis and Dee are diagnosed with ADHD, and even more shocking: Mac isn't. They go back to school for a do-over now that they understand their brains more better.",
-        "released": "2026-08-25",
-        "number_abs": 180,
-        "updated_at": "2026-09-12T02:05:37.000Z",
-        "first_aired": "2026-08-25T01:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 9,
-        "during_credits": false,
-        "original_title": "The Gang Gets Tested",
-        "available_translations": [
-          "en",
-          "he",
-          "ru"
-        ],
-        "effective_release_date": "2026-08-25T01:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt43679377",
-          "plex": {
-            "guid": "6a595cf38372277b9861ceff"
-          },
-          "tmdb": 7604186,
-          "tvdb": 11900919,
-          "trakt": 14346443
-        },
-        "title": "2026: A Virtual Insanity",
-        "votes": 220,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/346/443/screenshots/medium/1befa4ee02.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.454545497894287,
-        "season": 18,
-        "runtime": 20,
-        "overview": "The Gang's RV breaks down en route to a Jamiroquai concert, leaving them to fend for themselves in a dangerous wasteland of junkies and street people.",
-        "released": "2026-09-01",
-        "number_abs": 181,
-        "updated_at": "2026-09-12T01:38:00.000Z",
-        "first_aired": "2026-09-01T01:00:00.000Z",
+        "runtime": 21,
+        "overview": "Mac, Dennis, and Dee strive to conquest their way onto the Quilt of Legends at the local Renaissance Faire. Charlie discovers a love of luting while Frank tries to acquire the faire from old foes.",
+        "released": "2026-09-08",
+        "number_abs": 182,
+        "updated_at": "2026-09-12T08:37:11.000Z",
+        "first_aired": "2026-09-08T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 8,
         "during_credits": false,
-        "original_title": "2026: A Virtual Insanity",
+        "original_title": "The Gang Goes to the Ren Faire",
         "available_translations": [
           "en",
           "he",
           "ru"
         ],
-        "effective_release_date": "2026-09-01T01:00:00.000Z"
+        "effective_release_date": "2026-09-08T01:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt43679378",
+          "plex": {
+            "guid": null
+          },
+          "tmdb": 7648175,
+          "tvdb": 11928694,
+          "trakt": 14364986
+        },
+        "title": "The War on Alcohol",
+        "votes": 0,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/364/986/screenshots/medium/a5fc536c42.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 0,
+        "season": 18,
+        "runtime": 20,
+        "overview": "The Gang takes the trend against drinking into their own hands. Dennis, Dee, and Frank look to recruit white collar suits for happy hour while Mac and Charlie seek to enlist blue collar factory workers so they can return the bar to the melting pot it once was.",
+        "released": "2026-09-15",
+        "number_abs": 183,
+        "updated_at": "2026-09-11T15:32:04.000Z",
+        "first_aired": "2026-09-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "The War on Alcohol",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-09-15T01:00:00.000Z"
       },
       "stats": {
-        "play_count": 180,
-        "minutes_watched": 3952,
-        "minutes_left": 41
+        "play_count": 182,
+        "minutes_watched": 3993,
+        "minutes_left": 0
       },
       "seasons": [
         {
@@ -1921,11 +1919,11 @@
           "number": 18,
           "title": "Season 18",
           "aired": 5,
-          "completed": 3,
+          "completed": 5,
           "stats": {
-            "play_count": 3,
-            "minutes_watched": 70,
-            "minutes_left": 41
+            "play_count": 5,
+            "minutes_watched": 111,
+            "minutes_left": 0
           },
           "episodes": [
             {
@@ -1957,20 +1955,20 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-09-12T08:07:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 20
               }
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-09-12T08:53:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 21
               }
             }
           ]
@@ -2012,18 +2010,18 @@
           "trakt": 14418591
         },
         "title": "September 11, 2026: Terry Bradshaw, Max Brooks, Sarah Longwell",
-        "votes": 3,
+        "votes": 4,
         "images": {
           "screenshot": []
         },
         "number": 26,
-        "rating": 7.666666507720947,
+        "rating": 7.75,
         "season": 24,
         "runtime": 59,
         "overview": "Guests: An interview with Terry Bradshaw, four-time Super Bowl champion, NFL Hall of Famer, and author of \"Looking for Terry: A Memoir.\" This week's panel discussion includes Max Brooks, bestselling author of \"World War Z\" and \"Devolution,\" and author of the forthcoming novel \"The First Hundred Hours\"; and Sarah Longwell, founder and publisher of The Bulwark Substack and author of \"How to Eat an Elephant: One Voter at a Time.\"",
         "released": "2026-09-12",
         "number_abs": 741,
-        "updated_at": "2026-09-12T07:52:27.000Z",
+        "updated_at": "2026-09-12T08:09:39.000Z",
         "first_aired": "2026-09-12T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -9433,20 +9431,20 @@
           "trakt": 14132651
         },
         "title": "The Weenie",
-        "votes": 1777,
+        "votes": 1780,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/132/651/screenshots/medium/a48fd1f35b.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 8.18570613861084,
+        "rating": 8.182583808898926,
         "season": 1,
         "runtime": 53,
         "overview": "As the 48-hour deadline nears, John develops a new theory about the Manhunter's location, leading him and Hal to run their next move by Sheriff Kane. Meanwhile, Hal's visit to Sinestro has consequences.",
         "released": "2026-09-07",
         "number_abs": 4,
-        "updated_at": "2026-09-12T08:06:28.000Z",
+        "updated_at": "2026-09-12T08:57:00.000Z",
         "first_aired": "2026-09-07T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -11661,20 +11659,20 @@
           "trakt": 13886053
         },
         "title": "It Will Stay This Way and You Will Obey",
-        "votes": 518,
+        "votes": 519,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/886/053/screenshots/medium/f819550f69.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.11776065826416,
+        "rating": 7.119460582733154,
         "season": 2,
         "runtime": 55,
         "overview": "Fighting for survival on the Chairwoman's home turf, both couples must decide what \u2014 and for whom \u2014 they're willing to sacrifice.",
         "released": "2026-04-16",
         "number_abs": 18,
-        "updated_at": "2026-09-11T23:22:36.000Z",
+        "updated_at": "2026-09-12T08:57:14.000Z",
         "first_aired": "2026-04-16T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -11929,7 +11927,7 @@
         "overview": "Pushed to the brink by Gang-chan, Manager Kim must now make a crucial choice with Han-soo and Jin-cheol. Will Manager Kim be able to keep Min-ji safe?",
         "released": "2026-07-25",
         "number_abs": 10,
-        "updated_at": "2026-09-12T04:38:51.000Z",
+        "updated_at": "2026-09-12T08:11:47.000Z",
         "first_aired": "2026-07-25T12:45:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -12690,20 +12688,20 @@
           "trakt": 14039161
         },
         "title": "Maratona",
-        "votes": 284,
+        "votes": 285,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/039/161/screenshots/medium/c4176af087.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.088027954101562,
+        "rating": 8.091228485107422,
         "season": 2,
         "runtime": 35,
         "overview": "With Jack down in the dumps, Kate pressures him to hit the ground running. Danny and Claude's relationship faces a new test.",
         "released": "2026-05-28",
         "number_abs": 16,
-        "updated_at": "2026-09-11T16:02:58.000Z",
+        "updated_at": "2026-09-12T08:21:14.000Z",
         "first_aired": "2026-05-28T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -15351,7 +15349,7 @@
         "overview": "With the company saved thanks to his heroic efforts, it's time for Anthony to receive his final paycheck and find out the real story behind Rockin' Grandma's.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-09-11T08:43:47.000Z",
+        "updated_at": "2026-09-12T08:45:48.000Z",
         "first_aired": "2026-04-03T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -16872,20 +16870,20 @@
           "trakt": 12726414
         },
         "title": "The Morrow",
-        "votes": 3266,
+        "votes": 3267,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/726/414/screenshots/medium/822a91648e.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 8.116350173950195,
+        "rating": 8.116927146911621,
         "season": 1,
         "runtime": 31,
         "overview": "As Ashford mourns a great loss, Dunk considers his next move...and whether to keep Egg as his squire.",
         "released": "2026-02-23",
         "number_abs": 6,
-        "updated_at": "2026-09-11T22:22:12.000Z",
+        "updated_at": "2026-09-12T08:52:25.000Z",
         "first_aired": "2026-02-23T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -19236,20 +19234,20 @@
           "trakt": 13512053
         },
         "title": "Baptism of Fire",
-        "votes": 1159,
+        "votes": 1160,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/512/053/screenshots/medium/9e4507271f.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.008627891540527,
+        "rating": 7.0094828605651855,
         "season": 4,
         "runtime": 52,
         "overview": "As the Continent sinks deeper into war, Geralt, Yennefer and Ciri each meet their fate on the roads they took to avoid it.",
         "released": "2025-10-30",
         "number_abs": 32,
-        "updated_at": "2026-09-12T04:15:12.000Z",
+        "updated_at": "2026-09-12T09:04:11.000Z",
         "first_aired": "2025-10-30T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -25571,20 +25569,20 @@
           "trakt": 14267996
         },
         "title": "The Best of Us",
-        "votes": 91,
+        "votes": 92,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/267/996/screenshots/medium/8259087bef.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.494505405426025,
+        "rating": 7.5217390060424805,
         "season": 2,
         "runtime": 24,
         "overview": "Something unexpected overshadows TTT's wins on the Monday after the Ohio Journalism Awards.",
         "released": "2026-09-09",
         "number_abs": 11,
-        "updated_at": "2026-09-12T06:44:55.000Z",
+        "updated_at": "2026-09-12T09:00:47.000Z",
         "first_aired": "2026-09-09T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -27927,7 +27925,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-09-12T06:04:43.000Z",
+        "updated_at": "2026-09-12T08:59:00.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35244,7 +35242,7 @@
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
         "released": "2025-03-27",
         "number_abs": 24,
-        "updated_at": "2026-09-11T23:22:16.000Z",
+        "updated_at": "2026-09-12T08:13:24.000Z",
         "first_aired": "2025-03-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -37164,7 +37162,7 @@
         "overview": "A wanted man, the Jackal is on the run, desperate to get back to Nuria, but Bianca is given one last shot to bring him to justice.",
         "released": "2024-12-12",
         "number_abs": 10,
-        "updated_at": "2026-09-11T15:32:52.000Z",
+        "updated_at": "2026-09-12T08:52:11.000Z",
         "first_aired": "2024-12-12T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -38913,7 +38911,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-09-11T15:41:35.000Z",
+        "updated_at": "2026-09-12T08:46:04.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -40094,7 +40092,7 @@
         "overview": "As the Duttons and the Yellowstone cowboys lay John to rest, the fate of the ranch is revealed.",
         "released": "2024-12-16",
         "number_abs": 53,
-        "updated_at": "2026-09-12T04:54:11.000Z",
+        "updated_at": "2026-09-12T08:25:52.000Z",
         "first_aired": "2024-12-16T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -42808,7 +42806,7 @@
         "overview": "The free peoples of Middle-earth struggle against the forces of darkness.",
         "released": "2024-10-03",
         "number_abs": 16,
-        "updated_at": "2026-09-11T15:23:57.000Z",
+        "updated_at": "2026-09-12T09:02:05.000Z",
         "first_aired": "2024-10-03T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -92569,20 +92567,20 @@
           "trakt": 11487542
         },
         "title": "The Gospel According to Bobby Glass",
-        "votes": 1564,
+        "votes": 1565,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/487/542/screenshots/medium/2c6b8619e1.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.959718704223633,
+        "rating": 7.959744453430176,
         "season": 1,
         "runtime": 44,
         "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
         "released": "2024-03-07",
         "number_abs": 8,
-        "updated_at": "2026-09-11T20:54:54.000Z",
+        "updated_at": "2026-09-12T08:53:25.000Z",
         "first_aired": "2024-03-07T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -92638,20 +92636,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 664,
+        "votes": 666,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.144577980041504,
+        "rating": 8.144144058227539,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-12T04:59:37.000Z",
+        "updated_at": "2026-09-12T08:53:43.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -95293,7 +95291,7 @@
         "overview": "Hari finds himself trapped in a mysterious prison. An assassination attempt leaves Day shaken. Gaal and Salvor devise an escape plan.",
         "released": "2023-07-14",
         "number_abs": 11,
-        "updated_at": "2026-09-11T23:23:17.000Z",
+        "updated_at": "2026-09-12T08:37:25.000Z",
         "first_aired": "2023-07-14T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -103971,7 +103969,7 @@
         "overview": "Alternating between campy horror and '80s soap opera, Zoe and her mother fill in the remaining blanks of Edgar's murder.",
         "released": "2023-09-06",
         "number_abs": 18,
-        "updated_at": "2026-09-12T01:48:08.000Z",
+        "updated_at": "2026-09-12T08:12:21.000Z",
         "first_aired": "2023-09-06T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -104388,7 +104386,7 @@
         "overview": "After having a delivery stolen, John investigates how to keep his packages secure.",
         "released": "2023-09-02",
         "number_abs": 18,
-        "updated_at": "2026-09-11T08:43:47.000Z",
+        "updated_at": "2026-09-12T08:45:20.000Z",
         "first_aired": "2023-09-02T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -104985,7 +104983,7 @@
         "overview": "Years later, the former coworkers reunite to continue their investigation \u2013 only to learn that even more brazen telemarketing schemes have emerged with the advent of robocalling, political action committees, and AI. After traveling the country to gather evidence, Sam and Pat bring their findings to Capitol Hill.",
         "released": "2023-08-28",
         "number_abs": 3,
-        "updated_at": "2026-09-11T08:37:09.000Z",
+        "updated_at": "2026-09-12T08:48:56.000Z",
         "first_aired": "2023-08-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -110272,7 +110270,7 @@
         "overview": "That's it.",
         "released": "2023-05-29",
         "number_abs": 32,
-        "updated_at": "2026-09-12T02:06:17.000Z",
+        "updated_at": "2026-09-12T08:24:25.000Z",
         "first_aired": "2023-05-29T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -115001,7 +114999,7 @@
         "overview": "Alison and Gabriel face new danger as everything converges at Antropa's London headquarters.",
         "released": "2023-03-31",
         "number_abs": 6,
-        "updated_at": "2026-09-11T09:49:35.000Z",
+        "updated_at": "2026-09-12T09:00:20.000Z",
         "first_aired": "2023-03-31T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -116682,7 +116680,7 @@
         "overview": "As Eli and Cornelia reach Powder River, a violent attack on his hayrick forces Trafford to make a difficult decision, and Marshall discovers the truth behind the branding. When Melmont finally returns to Wyoming, the stage is set for a violent confrontation.",
         "released": null,
         "number_abs": 6,
-        "updated_at": "2026-09-11T08:51:51.000Z",
+        "updated_at": "2026-09-12T08:55:00.000Z",
         "first_aired": "2022-12-15T21:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -121814,7 +121812,7 @@
         "overview": "Nora urges Dean to move on, but the past continues to haunt him. A shocking confession doesn't add up. Back at the house, keen eyes continue to watch.",
         "released": "2022-10-13",
         "number_abs": 7,
-        "updated_at": "2026-09-11T08:44:38.000Z",
+        "updated_at": "2026-09-12T08:46:09.000Z",
         "first_aired": "2022-10-13T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -128687,7 +128685,7 @@
         "overview": "Joanna faces the repercussions of her lie during the big charity weekend.",
         "released": "2022-06-20",
         "number_abs": 8,
-        "updated_at": "2026-09-11T08:07:43.000Z",
+        "updated_at": "2026-09-12T08:10:28.000Z",
         "first_aired": "2022-06-20T00:30:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -129268,7 +129266,7 @@
         "overview": "Cassie manages to connect the dots in a far-reaching conspiracy, while Megan tries to make amends with Shane.",
         "released": "2022-05-26",
         "number_abs": 16,
-        "updated_at": "2026-09-11T08:08:51.000Z",
+        "updated_at": "2026-09-12T08:12:22.000Z",
         "first_aired": "2022-05-26T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -129505,7 +129503,7 @@
         "overview": "Stanley sets out to explore how Italian immigration has transformed the food scene in his adopted hometown of London. Forget what you think you know about this city. London is a culinary mecca where Italian food from every region gets a chance to shine. The burrata is so creamy and pasta is so fresh that it may rival Italy itself.  For over a century, Italians here have found inventive ways to create Italian food so good it\u2019s enough to render Stanley speechless.",
         "released": "2022-05-23",
         "number_abs": 10,
-        "updated_at": "2026-09-11T08:08:48.000Z",
+        "updated_at": "2026-09-12T08:12:05.000Z",
         "first_aired": "2022-05-23T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -130941,7 +130939,7 @@
         "overview": "A girl loves horses. Her friend does not.",
         "released": null,
         "number_abs": 8,
-        "updated_at": "2026-09-11T19:26:34.000Z",
+        "updated_at": "2026-09-12T08:59:26.000Z",
         "first_aired": "2022-04-14T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -142323,7 +142321,7 @@
         "overview": "It\u2019s time for everyone to cross the threshold and face their demons, including Masha. But will they make it to other side?",
         "released": "2021-09-22",
         "number_abs": 8,
-        "updated_at": "2026-09-11T08:08:13.000Z",
+        "updated_at": "2026-09-12T08:11:45.000Z",
         "first_aired": "2021-09-22T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -169423,7 +169421,7 @@
         "overview": "Claire and Eric have seemingly moved on with their lives, but a chance encounter brings new truths to light.",
         "released": "2020-12-29",
         "number_abs": 10,
-        "updated_at": "2026-09-11T08:18:33.000Z",
+        "updated_at": "2026-09-12T08:48:27.000Z",
         "first_aired": "2020-12-29T05:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -172669,7 +172667,7 @@
         "overview": "After uncovering the origins of the Book of Names, the gang heads back to Ardham to cast the ultimate spell.",
         "released": "2020-10-19",
         "number_abs": 10,
-        "updated_at": "2026-09-12T02:06:16.000Z",
+        "updated_at": "2026-09-12T08:20:57.000Z",
         "first_aired": "2020-10-19T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -178889,7 +178887,7 @@
         "overview": "Arrested and charged in 2019 with child sex trafficking, Epstein spends only a short time behind bars, but his accusers still get their day in court.",
         "released": "2020-05-27",
         "number_abs": 4,
-        "updated_at": "2026-09-11T08:37:09.000Z",
+        "updated_at": "2026-09-12T08:37:25.000Z",
         "first_aired": "2020-05-27T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -183675,7 +183673,7 @@
         "overview": "Don't urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.",
         "released": "2020-02-21",
         "number_abs": 10,
-        "updated_at": "2026-09-11T08:29:31.000Z",
+        "updated_at": "2026-09-12T08:31:16.000Z",
         "first_aired": "2020-02-21T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -205132,7 +205130,7 @@
         "overview": "Extra Gear kicks off with an exclusive behind-the-scenes look at Rory's Suzuki Ignis film. Presenter, journalist and self-confessed 'car pervert' Jonny Smith joins Rory in studio along with Off Road camera specialist Duncan Barbour to talk all things four-wheel drive and family estate cars. Chris gets another chance to drive the Porsche Panamera Turbo but this time it is around the Top Gear test track and it is the S E-Hybrid.",
         "released": "2019-02-17",
         "number_abs": 20,
-        "updated_at": "2026-09-11T08:04:40.000Z",
+        "updated_at": "2026-09-12T08:28:24.000Z",
         "first_aired": "2019-02-17T23:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -218404,7 +218402,7 @@
         "overview": "Louie continues his work on the road.",
         "released": "2015-05-29",
         "number_abs": 61,
-        "updated_at": "2026-09-11T08:13:50.000Z",
+        "updated_at": "2026-09-12T08:15:35.000Z",
         "first_aired": "2015-05-29T02:30:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -246656,7 +246654,7 @@
         "overview": "Peter talks Joe into having an affair and gets into another epic fight with the giant chicken.",
         "released": "2012-05-21",
         "number_abs": 187,
-        "updated_at": "2026-09-11T15:39:36.000Z",
+        "updated_at": "2026-09-12T08:23:24.000Z",
         "first_aired": "2012-05-21T00:30:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -246711,7 +246709,7 @@
         "overview": "The Griffins attempt to conquer Mount Everest after competitive friends mention they plan to scale the legendary peak. Things, however, are not looking up for the Griffins, as a wicked storm leaves them pinned down on the side of the mountain.",
         "released": "2012-10-01",
         "number_abs": 188,
-        "updated_at": "2026-09-11T15:39:40.000Z",
+        "updated_at": "2026-09-12T08:56:10.000Z",
         "first_aired": "2012-10-01T00:30:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
