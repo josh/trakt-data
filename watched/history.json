@@ -1,5 +1,25 @@
 [
   {
+    "id": 14413074714,
+    "watched_at": "2026-09-13T00:06:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt37853455",
+        "plex": {
+          "guid": "67ae386f3c22b1734388d86c",
+          "slug": "one-night-only-2026"
+        },
+        "slug": "one-night-only-2026",
+        "tmdb": 1433367,
+        "trakt": 1172561
+      },
+      "year": 2026,
+      "title": "One Night Only"
+    }
+  },
+  {
     "id": 14410312570,
     "watched_at": "2026-09-12T08:53:00.000Z",
     "action": "scrobble",
@@ -659616,7 +659636,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5d9c0b014eefaa001f5f745a"
         },
         "tmdb": 387199,
         "tvdb": 273680,
