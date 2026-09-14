@@ -1,5 +1,41 @@
 [
   {
+    "id": 14417983330,
+    "watched_at": "2026-09-14T05:54:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt32752611",
+        "plex": {
+          "guid": "673ffc678ed664b364de7ac4"
+        },
+        "tmdb": 7179886,
+        "tvdb": 11908191,
+        "trakt": 14132652
+      },
+      "title": "Lights Out",
+      "number": 5,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26545992",
+        "plex": {
+          "guid": "6475f4e274668225adb2c0e0",
+          "slug": "lanterns-1"
+        },
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "tvdb": 376098,
+        "trakt": 157599
+      },
+      "year": 2026,
+      "title": "Lanterns",
+      "aired_episodes": 5
+    }
+  },
+  {
     "id": 14417748102,
     "watched_at": "2026-09-14T02:34:00.000Z",
     "action": "watch",
