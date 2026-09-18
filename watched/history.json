@@ -1,5 +1,25 @@
 [
   {
+    "id": 14432427172,
+    "watched_at": "2026-09-17T23:10:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2012616",
+        "plex": {
+          "guid": "5d7768e2fb0d55001f51bc9d",
+          "slug": "motor-city"
+        },
+        "slug": "motor-city-2026",
+        "tmdb": 87513,
+        "trakt": 65760
+      },
+      "year": 2026,
+      "title": "Motor City"
+    }
+  },
+  {
     "id": 14429044237,
     "watched_at": "2026-09-17T03:15:00.000Z",
     "action": "scrobble",
@@ -411595,11 +411615,11 @@
           "guid": "5d9f34efdfd128002089f52a",
           "slug": "badlands-1973"
         },
-        "slug": "badlands-1974",
+        "slug": "badlands-1973",
         "tmdb": 3133,
         "trakt": 2102
       },
-      "year": 1974,
+      "year": 1973,
       "title": "Badlands"
     }
   },
@@ -438100,7 +438120,7 @@
         "trakt": 8837
       },
       "year": 2008,
-      "title": "Nothing but the Truth"
+      "title": "Nothing But the Truth"
     }
   },
   {
