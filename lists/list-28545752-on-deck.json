@@ -96,26 +96,46 @@
     "my_rating": null
   },
   {
-    "type": "show",
-    "show": {
+    "type": "movie",
+    "movie": {
       "ids": {
-        "imdb": "tt10986410",
+        "imdb": "tt28014327",
         "plex": {
-          "guid": "5e204251072b9e003ca5c140",
-          "slug": "ted-lasso"
+          "guid": "6488a8b8f542e5c273e5ae08",
+          "slug": "mayday-2026"
         },
-        "slug": "ted-lasso",
-        "tmdb": 97546,
-        "tvdb": 383203,
-        "trakt": 162639
+        "slug": "mayday-2026",
+        "tmdb": 1137844,
+        "trakt": 916057
       },
-      "year": 2020,
-      "title": "Ted Lasso",
-      "aired_episodes": 41
+      "year": 2026,
+      "title": "Mayday"
     },
     "rank": 5,
-    "id": 1534671097,
-    "listed_at": "2026-08-18T04:53:50.000Z",
+    "id": 1541479167,
+    "listed_at": "2026-09-06T06:17:13.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt38267923",
+        "plex": {
+          "guid": "68ca4b98f39fafc815c51c83",
+          "slug": "call-my-agent-the-movie-2026"
+        },
+        "slug": "call-my-agent-the-movie-2026",
+        "tmdb": 1365884,
+        "trakt": 1115244
+      },
+      "year": 2026,
+      "title": "Call My Agent! The Movie"
+    },
+    "rank": 6,
+    "id": 1544665980,
+    "listed_at": "2026-09-15T16:31:55.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -135,7 +155,7 @@
       "year": 2026,
       "title": "Her Private Hell"
     },
-    "rank": 8,
+    "rank": 7,
     "id": 1537856040,
     "listed_at": "2026-08-25T15:40:56.000Z",
     "notes": null,
@@ -157,7 +177,7 @@
       "year": 2026,
       "title": "Everyone Is Lying to You for Money"
     },
-    "rank": 10,
+    "rank": 8,
     "id": 1538985340,
     "listed_at": "2026-08-28T21:41:17.000Z",
     "notes": null,
@@ -179,31 +199,9 @@
       "year": 1996,
       "title": "The Trigger Effect"
     },
-    "rank": 12,
+    "rank": 9,
     "id": 1539606027,
     "listed_at": "2026-08-30T17:27:27.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt28014327",
-        "plex": {
-          "guid": "6488a8b8f542e5c273e5ae08",
-          "slug": "mayday-2026"
-        },
-        "slug": "mayday-2026",
-        "tmdb": 1137844,
-        "trakt": 916057
-      },
-      "year": 2026,
-      "title": "Mayday"
-    },
-    "rank": 14,
-    "id": 1541479167,
-    "listed_at": "2026-09-06T06:17:13.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -223,7 +221,7 @@
       "year": 2026,
       "title": "Pressure"
     },
-    "rank": 15,
+    "rank": 10,
     "id": 1541479186,
     "listed_at": "2026-09-06T06:17:30.000Z",
     "notes": null,
@@ -245,31 +243,9 @@
       "year": 2026,
       "title": "Nimrods"
     },
-    "rank": 17,
+    "rank": 11,
     "id": 1544664769,
     "listed_at": "2026-09-15T16:29:47.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt38267923",
-        "plex": {
-          "guid": "68ca4b98f39fafc815c51c83",
-          "slug": "call-my-agent-the-movie-2026"
-        },
-        "slug": "call-my-agent-the-movie-2026",
-        "tmdb": 1365884,
-        "trakt": 1115244
-      },
-      "year": 2026,
-      "title": "Call My Agent! The Movie"
-    },
-    "rank": 19,
-    "id": 1544665980,
-    "listed_at": "2026-09-15T16:31:55.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -289,7 +265,7 @@
       "year": 2026,
       "title": "The Rivals of Amziah King"
     },
-    "rank": 20,
+    "rank": 12,
     "id": 1544766076,
     "listed_at": "2026-09-16T02:24:37.000Z",
     "notes": null,

@@ -1,5 +1,25 @@
 [
   {
+    "id": 14437010223,
+    "watched_at": "2026-09-19T08:18:00.000Z",
+    "action": "checkin",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt28014327",
+        "plex": {
+          "guid": "6488a8b8f542e5c273e5ae08",
+          "slug": "mayday-2026"
+        },
+        "slug": "mayday-2026",
+        "tmdb": 1137844,
+        "trakt": 916057
+      },
+      "year": 2026,
+      "title": "Mayday"
+    }
+  },
+  {
     "id": 14436925130,
     "watched_at": "2026-09-19T05:38:00.000Z",
     "action": "scrobble",
