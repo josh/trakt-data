@@ -1,5 +1,41 @@
 [
   {
+    "id": 14441348132,
+    "watched_at": "2026-09-20T11:20:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823600",
+        "plex": {
+          "guid": "6218f87a2f388c66c41b48eb"
+        },
+        "tmdb": 3523995,
+        "tvdb": 8893103,
+        "trakt": 5933528
+      },
+      "title": "Ephemera",
+      "number": 4,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14441169591,
     "watched_at": "2026-09-20T09:51:00.000Z",
     "action": "checkin",
