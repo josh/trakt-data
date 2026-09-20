@@ -1,5 +1,41 @@
 [
   {
+    "id": 14443871520,
+    "watched_at": "2026-09-20T21:42:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a95760b6e06537f6b9a68de"
+        },
+        "tmdb": 7748877,
+        "tvdb": null,
+        "trakt": 14422525
+      },
+      "title": "September 18, 2026: Kevin Roose, Jessica Tarlov, Christopher Rufo",
+      "number": 27,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 742
+    }
+  },
+  {
     "id": 14441348132,
     "watched_at": "2026-09-20T11:20:00.000Z",
     "action": "checkin",
