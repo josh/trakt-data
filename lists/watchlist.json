@@ -1509,6 +1509,28 @@
     "type": "movie",
     "movie": {
       "ids": {
+        "imdb": "tt36931184",
+        "plex": {
+          "guid": null,
+          "slug": null
+        },
+        "slug": "a-place-in-hell-2027",
+        "tmdb": 1437882,
+        "trakt": 1176530
+      },
+      "year": 2027,
+      "title": "A Place in Hell"
+    },
+    "rank": 180,
+    "id": 1546330307,
+    "listed_at": "2026-09-20T16:02:56.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
         "imdb": "tt37171180",
         "plex": {
           "guid": null,
@@ -1858,28 +1880,6 @@
     "rank": 182,
     "id": 1541195374,
     "listed_at": "2026-09-05T06:04:45.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt34895535",
-        "plex": {
-          "guid": "676e1d57fc5459c8046e35ce",
-          "slug": "nimrods"
-        },
-        "slug": "nimrods-2026",
-        "tmdb": 1432474,
-        "trakt": 1171803
-      },
-      "year": 2026,
-      "title": "Nimrods"
-    },
-    "rank": 182,
-    "id": 1546193384,
-    "listed_at": "2026-09-20T06:04:41.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -2965,7 +2965,7 @@
       },
       "year": 2026,
       "title": "American Hostage",
-      "aired_episodes": 2
+      "aired_episodes": 0
     },
     "rank": 189,
     "id": 1545437566,
