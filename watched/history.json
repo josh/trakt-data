@@ -1,5 +1,113 @@
 [
   {
+    "id": 14441114587,
+    "watched_at": "2026-09-20T09:22:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823586",
+        "plex": {
+          "guid": "61bf47119eef7571dc71b723"
+        },
+        "tmdb": 3398771,
+        "tvdb": 8893029,
+        "trakt": 5771002
+      },
+      "title": "Rip Taylor's Cell Phone",
+      "number": 2,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14441064029,
+    "watched_at": "2026-09-20T08:36:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt12690532",
+        "plex": {
+          "guid": "61bf47129eef7571dc71b724"
+        },
+        "tmdb": 3398770,
+        "tvdb": 8892966,
+        "trakt": 5771001
+      },
+      "title": "F*ck Anatoly's Mom",
+      "number": 1,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14441037188,
+    "watched_at": "2026-09-20T08:20:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43679378",
+        "plex": {
+          "guid": "6a75cccf12ed9f98e7c3629a"
+        },
+        "tmdb": 7648175,
+        "tvdb": 11928694,
+        "trakt": 14364986
+      },
+      "title": "The War on Alcohol",
+      "number": 6,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 183
+    }
+  },
+  {
     "id": 14440970118,
     "watched_at": "2026-09-20T07:39:00.000Z",
     "action": "scrobble",
@@ -137699,11 +137807,11 @@
           "guid": "5d77704aad5437001f81e604",
           "slug": "the-gentlemen"
         },
-        "slug": "the-gentlemen-2020",
+        "slug": "the-gentlemen-2019",
         "tmdb": 522627,
         "trakt": 370883
       },
-      "year": 2020,
+      "year": 2019,
       "title": "The Gentlemen"
     }
   },
@@ -260707,11 +260815,11 @@
           "guid": "5d77704aad5437001f81e604",
           "slug": "the-gentlemen"
         },
-        "slug": "the-gentlemen-2020",
+        "slug": "the-gentlemen-2019",
         "tmdb": 522627,
         "trakt": 370883
       },
-      "year": 2020,
+      "year": 2019,
       "title": "The Gentlemen"
     }
   },
@@ -421515,11 +421623,11 @@
           "guid": "5d776826eb5d26001f1dd404",
           "slug": "snow-white-and-the-seven-dwarfs"
         },
-        "slug": "snow-white-and-the-seven-dwarfs-1938",
+        "slug": "snow-white-and-the-seven-dwarfs-1937",
         "tmdb": 408,
         "trakt": 326
       },
-      "year": 1938,
+      "year": 1937,
       "title": "Snow White and the Seven Dwarfs"
     }
   },
@@ -485631,11 +485739,11 @@
           "guid": "5d7768b8594b2b001e693c52",
           "slug": "the-grey"
         },
-        "slug": "the-grey-2012",
+        "slug": "the-grey-2011",
         "tmdb": 75174,
         "trakt": 55411
       },
-      "year": 2012,
+      "year": 2011,
       "title": "The Grey"
     }
   },
