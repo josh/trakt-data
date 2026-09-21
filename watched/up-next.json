@@ -118,6 +118,133 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt26545992",
+        "plex": {
+          "guid": "6475f4e274668225adb2c0e0",
+          "slug": "lanterns-1"
+        },
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "tvdb": 376098,
+        "trakt": 157599
+      },
+      "year": 2026,
+      "title": "Lanterns",
+      "aired_episodes": 5
+    },
+    "progress": {
+      "aired": 6,
+      "completed": 5,
+      "hidden": 0,
+      "last_watched_at": "2026-09-14T05:54:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 5,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32752609",
+          "plex": {
+            "guid": "673ffc678ed664b364de7ae3"
+          },
+          "tmdb": 7179887,
+          "tvdb": 11908192,
+          "trakt": 14132653
+        },
+        "title": "Bad Optics",
+        "votes": 6,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/132/653/screenshots/medium/f9b4b9b316.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7,
+        "season": 1,
+        "runtime": 55,
+        "overview": null,
+        "released": "2026-09-21",
+        "number_abs": 6,
+        "updated_at": "2026-09-21T01:22:09.000Z",
+        "first_aired": "2026-09-21T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Bad Optics",
+        "available_translations": [
+          "en",
+          "es",
+          "nl",
+          "sl",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-21T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt32752611",
+          "plex": {
+            "guid": "673ffc678ed664b364de7ac4"
+          },
+          "tmdb": 7179886,
+          "tvdb": 11908191,
+          "trakt": 14132652
+        },
+        "title": "Lights Out",
+        "votes": 2080,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/132/652/screenshots/medium/15640748d7.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 8.485095977783203,
+        "season": 1,
+        "runtime": 54,
+        "overview": "As the Macon family's history unravels, Rushville mobilizes in the face of the escalating threat. As John is placed in an impossible position, Hal risks everything in a final attempt to take down the Manhunter.",
+        "released": "2026-09-14",
+        "number_abs": 5,
+        "updated_at": "2026-09-21T01:19:16.000Z",
+        "first_aired": "2026-09-14T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 85,
+        "during_credits": false,
+        "original_title": "Lights Out",
+        "available_translations": [
+          "ar",
+          "cs",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "hu",
+          "it",
+          "ja",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-14T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt36614693",
         "plex": {
           "guid": "68062821b4cdef2a98a5daa6",
@@ -263,20 +390,20 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 580,
+        "votes": 581,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/239/242/screenshots/medium/24d6758958.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.282758712768555,
+        "rating": 8.280550956726074,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
         "released": "2026-09-16",
         "number_abs": 31,
-        "updated_at": "2026-09-20T23:43:16.000Z",
+        "updated_at": "2026-09-21T01:05:06.000Z",
         "first_aired": "2026-09-16T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -329,20 +456,20 @@
           "trakt": 13189756
         },
         "title": "Scars",
-        "votes": 1551,
+        "votes": 1550,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/189/756/screenshots/medium/f8b11bdb77.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 8.318504333496094,
+        "rating": 8.320645332336426,
         "season": 5,
         "runtime": 52,
         "overview": "It's up to the Slow Horses to stop Farouk's team from completing its mission in a final act of mass carnage.",
         "released": "2025-10-29",
         "number_abs": 30,
-        "updated_at": "2026-09-20T18:14:55.000Z",
+        "updated_at": "2026-09-21T00:50:32.000Z",
         "first_aired": "2025-10-29T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -608,7 +735,7 @@
         "overview": "Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick's monogamy.",
         "released": "2025-09-04",
         "number_abs": 10,
-        "updated_at": "2026-09-20T15:44:34.000Z",
+        "updated_at": "2026-09-21T00:52:25.000Z",
         "first_aired": "2025-09-04T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -674,20 +801,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1460,
+        "votes": 1461,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.646575450897217,
+        "rating": 7.646817207336426,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-09-20T22:48:45.000Z",
+        "updated_at": "2026-09-21T00:43:54.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -791,20 +918,20 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 440,
+        "votes": 451,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/297/667/screenshots/medium/e65398e445.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.261363983154297,
+        "rating": 8.250554084777832,
         "season": 2,
         "runtime": 46,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-09-21T00:07:45.000Z",
+        "updated_at": "2026-09-21T01:15:18.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1032,13 +1159,13 @@
           ]
         },
         "number": 1,
-        "rating": 8.254980087280273,
+        "rating": 8.255477905273438,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-09-21T00:13:19.000Z",
+        "updated_at": "2026-09-21T00:48:41.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1198,20 +1325,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1327,
+        "votes": 1326,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.517708778381348,
+        "rating": 8.518099784851074,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-09-20T23:26:15.000Z",
+        "updated_at": "2026-09-21T01:00:32.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1251,20 +1378,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1859,
+        "votes": 1858,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.114039421081543,
+        "rating": 8.11410140991211,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-09-20T22:28:09.000Z",
+        "updated_at": "2026-09-21T01:00:32.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1340,20 +1467,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 3390,
+        "votes": 3392,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.767846584320068,
+        "rating": 7.767688751220703,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-09-20T23:56:14.000Z",
+        "updated_at": "2026-09-21T01:08:34.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1845,20 +1972,20 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 867,
+        "votes": 869,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.787774085998535,
+        "rating": 7.789412975311279,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-09-20T19:50:33.000Z",
+        "updated_at": "2026-09-21T01:15:57.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
