@@ -118,6 +118,109 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 184
+    },
+    "progress": {
+      "aired": 184,
+      "completed": 183,
+      "hidden": 0,
+      "last_watched_at": "2026-09-20T08:20:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 183,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt43679374",
+          "plex": {
+            "guid": "6a75cccf12ed9f98e7c36294"
+          },
+          "tmdb": 7648176,
+          "tvdb": 11928695,
+          "trakt": 14364987
+        },
+        "title": "Gilligan's Island: A Conspiracy Theorist's Paradise",
+        "votes": 1,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/364/987/screenshots/medium/9e5ecdb5cb.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7,
+        "season": 18,
+        "runtime": 20,
+        "overview": "Mac and Charlie drink the proverbial Kool-Aid while trying to uncover the mystery of why 'Gilligan's Island' never made it to 100 episodes.",
+        "released": "2026-09-22",
+        "number_abs": 184,
+        "updated_at": "2026-09-22T02:07:27.000Z",
+        "first_aired": "2026-09-22T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Gilligan's Island: A Conspiracy Theorist's Paradise",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-09-22T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt43679378",
+          "plex": {
+            "guid": "6a75cccf12ed9f98e7c3629a"
+          },
+          "tmdb": 7648175,
+          "tvdb": 11928694,
+          "trakt": 14364986
+        },
+        "title": "The War on Alcohol",
+        "votes": 177,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/364/986/screenshots/medium/a5fc536c42.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.689265727996826,
+        "season": 18,
+        "runtime": 24,
+        "overview": "The Gang takes the trend against drinking into their own hands. Dennis, Dee, and Frank look to recruit white collar suits for happy hour while Mac and Charlie seek to enlist blue collar factory workers so they can return the bar to the melting pot it once was.",
+        "released": "2026-09-15",
+        "number_abs": 183,
+        "updated_at": "2026-09-22T00:03:03.000Z",
+        "first_aired": "2026-09-15T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "The War on Alcohol",
+        "available_translations": [
+          "en",
+          "ru"
+        ],
+        "effective_release_date": "2026-09-15T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt36614693",
         "plex": {
           "guid": "68062821b4cdef2a98a5daa6",
@@ -263,20 +366,20 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 621,
+        "votes": 627,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/239/242/screenshots/medium/24d6758958.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.291465759277344,
+        "rating": 8.290270805358887,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
         "released": "2026-09-16",
         "number_abs": 31,
-        "updated_at": "2026-09-21T23:44:07.000Z",
+        "updated_at": "2026-09-22T01:25:55.000Z",
         "first_aired": "2026-09-16T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -555,20 +658,20 @@
           "trakt": 14267996
         },
         "title": "The Best of Us",
-        "votes": 170,
+        "votes": 171,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/267/996/screenshots/medium/8259087bef.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.55294132232666,
+        "rating": 7.549707412719727,
         "season": 2,
         "runtime": 24,
         "overview": "Something unexpected overshadows TTT's wins on the Monday after the Ohio Journalism Awards.",
         "released": "2026-09-09",
         "number_abs": 11,
-        "updated_at": "2026-09-21T23:13:44.000Z",
+        "updated_at": "2026-09-22T00:17:51.000Z",
         "first_aired": "2026-09-09T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -609,7 +712,7 @@
         "overview": "Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick's monogamy.",
         "released": "2025-09-04",
         "number_abs": 10,
-        "updated_at": "2026-09-21T15:30:47.000Z",
+        "updated_at": "2026-09-22T01:01:22.000Z",
         "first_aired": "2025-09-04T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -675,20 +778,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1464,
+        "votes": 1465,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.646174907684326,
+        "rating": 7.6477813720703125,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-09-22T00:03:59.000Z",
+        "updated_at": "2026-09-22T01:02:05.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -792,20 +895,20 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 543,
+        "votes": 553,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/297/667/screenshots/medium/e65398e445.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.224678039550781,
+        "rating": 8.229656219482422,
         "season": 2,
         "runtime": 48,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-09-22T00:11:37.000Z",
+        "updated_at": "2026-09-22T02:06:41.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -841,20 +944,20 @@
           "trakt": 12855315
         },
         "title": "The Beast in Me",
-        "votes": 2417,
+        "votes": 2420,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/855/315/screenshots/medium/8ab794803c.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.184112548828125,
+        "rating": 8.184710502624512,
         "season": 1,
         "runtime": 55,
         "overview": "Kevin takes care of a problem. Maeve spills the tea.",
         "released": "2025-06-01",
         "number_abs": 10,
-        "updated_at": "2026-09-21T22:04:21.000Z",
+        "updated_at": "2026-09-22T01:12:08.000Z",
         "first_aired": "2025-06-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1029,20 +1132,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 2028,
+        "votes": 2031,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.252958297729492,
+        "rating": 8.252092361450195,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-09-22T00:16:13.000Z",
+        "updated_at": "2026-09-22T02:07:36.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1100,20 +1203,20 @@
           "trakt": 12594343
         },
         "title": "Unfinished Business",
-        "votes": 2389,
+        "votes": 2390,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/594/343/screenshots/medium/8af0fac9f4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.992884159088135,
+        "rating": 7.992887020111084,
         "season": 3,
         "runtime": 52,
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
         "released": "2025-03-27",
         "number_abs": 24,
-        "updated_at": "2026-09-21T15:25:28.000Z",
+        "updated_at": "2026-09-22T02:06:41.000Z",
         "first_aired": "2025-03-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1202,20 +1305,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1343,
+        "votes": 1345,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.518242835998535,
+        "rating": 8.520445823669434,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-09-22T00:15:23.000Z",
+        "updated_at": "2026-09-22T02:02:12.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2281,20 +2384,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 1001,
+        "votes": 1003,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.155843734741211,
+        "rating": 8.154536247253418,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-22T00:13:16.000Z",
+        "updated_at": "2026-09-22T01:38:14.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
