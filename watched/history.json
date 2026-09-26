@@ -1,5 +1,77 @@
 [
   {
+    "id": 14463689853,
+    "watched_at": "2026-09-26T10:29:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt39104178",
+        "plex": {
+          "guid": "69ff8803052d3514c2697cd3"
+        },
+        "tmdb": 7610304,
+        "tvdb": 11774116,
+        "trakt": 14349213
+      },
+      "title": "7th Quarter",
+      "number": 1,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt31449991",
+        "plex": {
+          "guid": "65d88d78a57f7d57d36d552a",
+          "slug": "chad-powers"
+        },
+        "slug": "chad-powers",
+        "tmdb": 247168,
+        "tvdb": 446526,
+        "trakt": 227577
+      },
+      "year": 2025,
+      "title": "Chad Powers",
+      "aired_episodes": 12
+    }
+  },
+  {
+    "id": 14463674607,
+    "watched_at": "2026-09-26T09:47:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6a9c37faf823e3f17eb3b4ce"
+        },
+        "tmdb": 7748879,
+        "tvdb": null,
+        "trakt": 14422526
+      },
+      "title": "September 25, 2026: Andrew Huberman, Jonathan Swan, James Kirchick",
+      "number": 28,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 743
+    }
+  },
+  {
     "id": 14463159838,
     "watched_at": "2026-09-26T04:30:00.000Z",
     "action": "scrobble",
