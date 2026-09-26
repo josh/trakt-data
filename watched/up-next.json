@@ -2,6 +2,106 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 743
+    },
+    "progress": {
+      "aired": 743,
+      "completed": 742,
+      "hidden": 0,
+      "last_watched_at": "2026-09-20T21:42:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 744,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a9c37faf823e3f17eb3b4ce"
+          },
+          "tmdb": 7748879,
+          "tvdb": null,
+          "trakt": 14422526
+        },
+        "title": "September 25, 2026: Andrew Huberman, Jonathan Swan, James Kirchick",
+        "votes": 3,
+        "images": {
+          "screenshot": []
+        },
+        "number": 28,
+        "rating": 7,
+        "season": 24,
+        "runtime": 59,
+        "overview": "Guests: An interview with Andrew Huberman, host of the \"Huberman Lab\" podcast and author of the new book \"Protocols: An Operating Manual for the Human Body.\" This week's panel discussion includes Jonathan Swan, White House correspondent at The New York Times and co-author of \"Regime Change: Inside the Imperial Presidency of Donald Trump\"; and James Kirchick, contributing writer at The Atlantic and author of \"Secret City: The Hidden History of Gay Washington.\"",
+        "released": "2026-09-26",
+        "number_abs": 743,
+        "updated_at": "2026-09-26T08:58:47.000Z",
+        "first_aired": "2026-09-26T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "September 25, 2026: Andrew Huberman, Jonathan Swan, James Kirchick",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-09-26T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6a95760b6e06537f6b9a68de"
+          },
+          "tmdb": 7748877,
+          "tvdb": null,
+          "trakt": 14422525
+        },
+        "title": "September 18, 2026: Kevin Roose, Jessica Tarlov, Christopher Rufo",
+        "votes": 34,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/422/525/screenshots/medium/58da933b29.jpg.webp"
+          ]
+        },
+        "number": 27,
+        "rating": 7.147058963775635,
+        "season": 24,
+        "runtime": 59,
+        "overview": "Guests: An interview with Kevin Roose, former tech columnist at The New York Times and author of the forthcoming book \"The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence.\" This week's panel discussion includes Christopher Rufo, a senior fellow at the Manhattan Institute, contributing editor at City Journal, and author of \"America's Cultural Revolution\"; and Jessica Tarlov, co-host of \"The Five\" on Fox News and author of the new book \"I Disagree: Winning Arguments Without Losing Friends.\"",
+        "released": "2026-09-19",
+        "number_abs": 742,
+        "updated_at": "2026-09-26T08:28:03.000Z",
+        "first_aired": "2026-09-19T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "September 18, 2026: Kevin Roose, Jessica Tarlov, Christopher Rufo",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-09-19T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt4370596",
         "plex": {
           "guid": "5d9c080208fddd001f28fec5",
@@ -38,20 +138,20 @@
           "trakt": 5933529
         },
         "title": "The World Is Mean Right Now",
-        "votes": 156,
+        "votes": 155,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/933/529/screenshots/medium/4fcd4b4a28.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.467949867248535,
+        "rating": 7.4645161628723145,
         "season": 5,
         "runtime": 36,
         "overview": "Sam makes borscht.",
         "released": "2022-03-22",
         "number_abs": 47,
-        "updated_at": "2026-09-24T14:39:09.000Z",
+        "updated_at": "2026-09-25T19:11:39.000Z",
         "first_aired": "2022-03-22T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -81,20 +181,20 @@
           "trakt": 5933528
         },
         "title": "Ephemera",
-        "votes": 167,
+        "votes": 166,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/933/528/screenshots/medium/4e5bb0ddf0.jpg.webp"
           ]
         },
         "number": 4,
-        "rating": 7.437129974365234,
+        "rating": 7.439759254455566,
         "season": 5,
         "runtime": 33,
         "overview": "Sam learns about pronouns and finance.",
         "released": "2022-03-15",
         "number_abs": 46,
-        "updated_at": "2026-09-24T14:39:09.000Z",
+        "updated_at": "2026-09-25T19:11:40.000Z",
         "first_aired": "2022-03-15T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -154,28 +254,29 @@
           "trakt": 14364987
         },
         "title": "Gilligan's Island: A Conspiracy Theorist's Paradise",
-        "votes": 141,
+        "votes": 161,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/364/987/screenshots/medium/9e5ecdb5cb.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 7.056737422943115,
+        "rating": 6.962732791900635,
         "season": 18,
         "runtime": 20,
         "overview": "Mac and Charlie drink the proverbial Kool-Aid while trying to uncover the mystery of why 'Gilligan's Island' never made it to 100 episodes.",
         "released": "2026-09-22",
         "number_abs": 184,
-        "updated_at": "2026-09-25T03:05:08.000Z",
+        "updated_at": "2026-09-26T08:56:40.000Z",
         "first_aired": "2026-09-22T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 4,
+        "comment_count": 6,
         "during_credits": false,
         "original_title": "Gilligan's Island: A Conspiracy Theorist's Paradise",
         "available_translations": [
           "en",
+          "ru",
           "zh"
         ],
         "effective_release_date": "2026-09-22T01:00:00.000Z"
@@ -191,20 +292,20 @@
           "trakt": 14364986
         },
         "title": "The War on Alcohol",
-        "votes": 198,
+        "votes": 206,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/364/986/screenshots/medium/a5fc536c42.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.732323169708252,
+        "rating": 7.713592052459717,
         "season": 18,
         "runtime": 24,
         "overview": "The Gang takes the trend against drinking into their own hands. Dennis, Dee, and Frank look to recruit white collar suits for happy hour while Mac and Charlie seek to enlist blue collar factory workers so they can return the bar to the melting pot it once was.",
         "released": "2026-09-15",
         "number_abs": 183,
-        "updated_at": "2026-09-25T00:49:03.000Z",
+        "updated_at": "2026-09-26T05:42:35.000Z",
         "first_aired": "2026-09-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -272,7 +373,7 @@
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": "2026-07-21",
         "number_abs": 11,
-        "updated_at": "2026-09-24T10:19:10.000Z",
+        "updated_at": "2026-09-25T10:29:56.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -311,7 +412,7 @@
         "overview": "Seth Rollins shocks the WWE Universe, Becky Lynch and Lyra Valkyria roll with the punches, and John Cena wrestles in his final SummerSlam match.",
         "released": "2026-01-20",
         "number_abs": 10,
-        "updated_at": "2026-09-24T22:34:49.000Z",
+        "updated_at": "2026-09-25T22:52:43.000Z",
         "first_aired": "2026-01-20T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -368,20 +469,20 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 725,
+        "votes": 751,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/239/242/screenshots/medium/372f930f25.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.23862075805664,
+        "rating": 8.243675231933594,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
         "released": "2026-09-16",
         "number_abs": 31,
-        "updated_at": "2026-09-24T23:46:02.000Z",
+        "updated_at": "2026-09-26T07:56:52.000Z",
         "first_aired": "2026-09-16T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -402,20 +503,20 @@
           "trakt": 13189756
         },
         "title": "Scars",
-        "votes": 1565,
+        "votes": 1566,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/189/756/screenshots/medium/f8b11bdb77.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 8.32076644897461,
+        "rating": 8.321839332580566,
         "season": 5,
         "runtime": 52,
         "overview": "It's up to the Slow Horses to stop Farouk's team from completing its mission in a final act of mass carnage.",
         "released": "2025-10-29",
         "number_abs": 30,
-        "updated_at": "2026-09-24T21:56:57.000Z",
+        "updated_at": "2026-09-26T03:31:28.000Z",
         "first_aired": "2025-10-29T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -498,20 +599,20 @@
           "trakt": 14349213
         },
         "title": "7th Quarter",
-        "votes": 309,
+        "votes": 312,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/349/213/screenshots/medium/4b82a8116f.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.644012928009033,
+        "rating": 7.641025543212891,
         "season": 2,
         "runtime": 36,
         "overview": "Russ and Danny's tenuous new alliance with Ricky is tested when Chad suffers a mid-game injury.",
         "released": "2026-09-03",
         "number_abs": 7,
-        "updated_at": "2026-09-24T22:06:26.000Z",
+        "updated_at": "2026-09-26T01:48:49.000Z",
         "first_aired": "2026-09-03T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -542,20 +643,20 @@
           "trakt": 13119067
         },
         "title": "6TH QUARTER",
-        "votes": 409,
+        "votes": 411,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/119/067/screenshots/medium/4a5fffb353.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.682151794433594,
+        "rating": 7.69099760055542,
         "season": 1,
         "runtime": 39,
         "overview": "On the eve of the biggest game of the season, the truth about Chad Powers threatens to emerge.",
         "released": "2025-10-28",
         "number_abs": 6,
-        "updated_at": "2026-09-24T07:39:34.000Z",
+        "updated_at": "2026-09-26T08:02:32.000Z",
         "first_aired": "2025-10-28T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -641,7 +742,7 @@
         "overview": "Something unexpected overshadows TTT's wins on the Monday after the Ohio Journalism Awards.",
         "released": "2026-09-09",
         "number_abs": 11,
-        "updated_at": "2026-09-25T02:59:35.000Z",
+        "updated_at": "2026-09-25T16:15:22.000Z",
         "first_aired": "2026-09-09T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -682,7 +783,7 @@
         "overview": "Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick's monogamy.",
         "released": "2025-09-04",
         "number_abs": 10,
-        "updated_at": "2026-09-25T01:04:46.000Z",
+        "updated_at": "2026-09-26T01:05:16.000Z",
         "first_aired": "2025-09-04T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -748,20 +849,20 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1476,
+        "votes": 1479,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/165/594/screenshots/medium/2128c2bca3.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.650406360626221,
+        "rating": 7.651791572570801,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-09-24T20:07:06.000Z",
+        "updated_at": "2026-09-26T07:44:31.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -801,20 +902,20 @@
           "trakt": 12565635
         },
         "title": "Goodbye",
-        "votes": 1404,
+        "votes": 1407,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/565/635/screenshots/medium/5d74e82777.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.840456008911133,
+        "rating": 7.8415069580078125,
         "season": 4,
         "runtime": 34,
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-09-24T15:34:06.000Z",
+        "updated_at": "2026-09-26T07:20:44.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -841,10 +942,10 @@
       },
       "year": 2025,
       "title": "MobLand",
-      "aired_episodes": 11
+      "aired_episodes": 12
     },
     "progress": {
-      "aired": 11,
+      "aired": 12,
       "completed": 10,
       "hidden": 0,
       "last_watched_at": "2025-06-13T20:47:00.000Z",
@@ -865,24 +966,24 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 726,
+        "votes": 762,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/297/667/screenshots/medium/e65398e445.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.23829174041748,
+        "rating": 8.246719360351562,
         "season": 2,
         "runtime": 48,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-09-25T02:59:03.000Z",
+        "updated_at": "2026-09-26T07:22:20.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 20,
+        "comment_count": 21,
         "during_credits": false,
         "original_title": "I Wanna Be Your Dog",
         "available_translations": [
@@ -918,20 +1019,20 @@
           "trakt": 12855315
         },
         "title": "The Beast in Me",
-        "votes": 2434,
+        "votes": 2440,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/855/315/screenshots/medium/8ab794803c.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.19145393371582,
+        "rating": 8.191393852233887,
         "season": 1,
         "runtime": 55,
         "overview": "Kevin takes care of a problem. Maeve spills the tea.",
         "released": "2025-06-01",
         "number_abs": 10,
-        "updated_at": "2026-09-25T02:09:18.000Z",
+        "updated_at": "2026-09-26T06:19:57.000Z",
         "first_aired": "2025-06-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1008,20 +1109,20 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1501,
+        "votes": 1504,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/705/270/screenshots/medium/fab3af6a93.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.806129455566406,
+        "rating": 7.8051862716674805,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-09-24T18:07:31.000Z",
+        "updated_at": "2026-09-25T22:11:48.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1042,20 +1143,20 @@
           "trakt": 12391606
         },
         "title": "Straight to Hell",
-        "votes": 2349,
+        "votes": 2351,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/391/606/screenshots/medium/bf3332c311.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 8.042571067810059,
+        "rating": 8.04338550567627,
         "season": 1,
         "runtime": 60,
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-09-24T16:43:51.000Z",
+        "updated_at": "2026-09-26T04:48:16.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1106,20 +1207,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 2088,
+        "votes": 2107,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.237547874450684,
+        "rating": 8.234457015991211,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-09-25T02:47:58.000Z",
+        "updated_at": "2026-09-26T07:15:22.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1177,20 +1278,20 @@
           "trakt": 12594343
         },
         "title": "Unfinished Business",
-        "votes": 2397,
+        "votes": 2399,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/594/343/screenshots/medium/8af0fac9f4.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.991656303405762,
+        "rating": 7.986660957336426,
         "season": 3,
         "runtime": 52,
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
         "released": "2025-03-27",
         "number_abs": 24,
-        "updated_at": "2026-09-24T23:41:17.000Z",
+        "updated_at": "2026-09-26T08:32:01.000Z",
         "first_aired": "2025-03-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1279,20 +1380,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1405,
+        "votes": 1423,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.518860816955566,
+        "rating": 8.518622398376465,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-09-25T01:47:49.000Z",
+        "updated_at": "2026-09-26T07:25:19.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1345,11 +1446,11 @@
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-09-25T01:03:14.000Z",
+        "updated_at": "2026-09-25T19:05:26.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
-        "comment_count": 35,
+        "comment_count": 36,
         "during_credits": false,
         "original_title": "The Compass Points Home",
         "available_translations": [
@@ -1421,20 +1522,20 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 3447,
+        "votes": 3458,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/958/334/screenshots/medium/c1e4a95daa.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.765883445739746,
+        "rating": 7.76576042175293,
         "season": 3,
         "runtime": 56,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-09-25T02:38:41.000Z",
+        "updated_at": "2026-09-26T05:25:43.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1490,20 +1591,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3815,
+        "votes": 3816,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/146/122/screenshots/medium/827394d7b9.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.223328590393066,
+        "rating": 8.223532676696777,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-09-24T15:53:56.000Z",
+        "updated_at": "2026-09-26T08:04:47.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1588,20 +1689,20 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 909,
+        "votes": 912,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/642/174/screenshots/medium/66a02e86c7.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.077007293701172,
+        "rating": 8.075657844543457,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-09-25T02:55:46.000Z",
+        "updated_at": "2026-09-26T05:35:49.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1653,20 +1754,20 @@
           "trakt": 12172373
         },
         "title": "The Last Thanksgiving",
-        "votes": 1115,
+        "votes": 1114,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/172/373/screenshots/medium/fc16d9a399.jpg.webp"
           ]
         },
         "number": 12,
-        "rating": 8.461883544921875,
+        "rating": 8.462298393249512,
         "season": 2,
         "runtime": 45,
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-09-24T20:39:41.000Z",
+        "updated_at": "2026-09-26T07:03:25.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1748,20 +1849,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2303,
+        "votes": 2304,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.920104026794434,
+        "rating": 7.920138835906982,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-09-24T18:03:31.000Z",
+        "updated_at": "2026-09-26T00:42:14.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1828,13 +1929,13 @@
           ]
         },
         "number": 8,
-        "rating": 8.138527870178223,
+        "rating": 8.137661933898926,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-09-25T01:54:20.000Z",
+        "updated_at": "2026-09-25T19:10:52.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1926,20 +2027,20 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 906,
+        "votes": 917,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.78035306930542,
+        "rating": 7.78298807144165,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-09-25T02:52:32.000Z",
+        "updated_at": "2026-09-26T02:53:31.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1992,20 +2093,20 @@
           "trakt": 11455847
         },
         "title": "Entanglement",
-        "votes": 1789,
+        "votes": 1795,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/847/screenshots/medium/0dc4fc86b2.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.850195407867432,
+        "rating": 7.850139141082764,
         "season": 1,
         "runtime": 62,
         "overview": "The Dessens' world comes crashing down.",
         "released": "2024-06-26",
         "number_abs": 9,
-        "updated_at": "2026-09-25T02:37:03.000Z",
+        "updated_at": "2026-09-26T02:27:35.000Z",
         "first_aired": "2024-06-26T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2088,20 +2189,20 @@
           "trakt": 14275377
         },
         "title": "Receptive Penile",
-        "votes": 111,
+        "votes": 113,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/275/377/screenshots/medium/5cfda4646c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.945945739746094,
+        "rating": 7.929203510284424,
         "season": 3,
         "runtime": 30,
         "overview": "Gordon and Ashley are determined to move on from past embarrassments, but they can't seem to shake their collective baggage.",
         "released": "2026-07-27",
         "number_abs": 17,
-        "updated_at": "2026-09-24T20:52:01.000Z",
+        "updated_at": "2026-09-25T23:59:06.000Z",
         "first_aired": "2026-07-27T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2127,20 +2228,20 @@
           "trakt": 11924451
         },
         "title": "Speedy Susans",
-        "votes": 193,
+        "votes": 194,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/924/451/screenshots/medium/66ebdfa589.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.398963928222656,
+        "rating": 7.396907329559326,
         "season": 2,
         "runtime": 26,
         "overview": "Gordon and Ash\u2019s relationship is put to the test at Megan and Rumi\u2019s pop-up wedding.",
         "released": "2024-06-27",
         "number_abs": 16,
-        "updated_at": "2026-09-24T15:24:19.000Z",
+        "updated_at": "2026-09-26T08:03:50.000Z",
         "first_aired": "2024-06-27T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2198,20 +2299,20 @@
           "trakt": 13964385
         },
         "title": "Home Away from Home",
-        "votes": 576,
+        "votes": 578,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/964/385/screenshots/medium/2a0372547c.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.33680534362793,
+        "rating": 7.340830326080322,
         "season": 2,
         "runtime": 38,
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-09-25T02:22:58.000Z",
+        "updated_at": "2026-09-26T03:17:48.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2263,20 +2364,20 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 1036,
+        "votes": 1037,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/455/918/screenshots/medium/c192a99309.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.628378391265869,
+        "rating": 7.630665302276611,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-09-24T18:57:05.000Z",
+        "updated_at": "2026-09-25T19:10:47.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2358,20 +2459,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 1055,
+        "votes": 1071,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.143128395080566,
+        "rating": 8.145658493041992,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-25T02:28:32.000Z",
+        "updated_at": "2026-09-26T09:06:10.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2427,20 +2528,20 @@
           "trakt": 11487542
         },
         "title": "The Gospel According to Bobby Glass",
-        "votes": 1637,
+        "votes": 1642,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/487/542/screenshots/medium/2c6b8619e1.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.9792304039001465,
+        "rating": 7.977466583251953,
         "season": 1,
         "runtime": 44,
         "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
         "released": "2024-03-07",
         "number_abs": 8,
-        "updated_at": "2026-09-25T01:57:08.000Z",
+        "updated_at": "2026-09-26T07:36:45.000Z",
         "first_aired": "2024-03-07T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
