@@ -1329,6 +1329,28 @@
     "type": "movie",
     "movie": {
       "ids": {
+        "imdb": "tt38672588",
+        "plex": {
+          "guid": "68f9e4180618472430635080",
+          "slug": "masterplan-2026"
+        },
+        "slug": "masterplan-2026",
+        "tmdb": 1561726,
+        "trakt": 1289096
+      },
+      "year": 2026,
+      "title": "Masterplan"
+    },
+    "rank": 179,
+    "id": 1548958831,
+    "listed_at": "2026-09-27T21:02:42.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
         "imdb": "tt9077514",
         "plex": {
           "guid": "5f40db36fea1a1003fbbd478",
@@ -1623,8 +1645,8 @@
       "ids": {
         "imdb": "tt30093348",
         "plex": {
-          "guid": null,
-          "slug": null
+          "guid": "65602346251c843b09196d77",
+          "slug": "mr-irrelevant-2026"
         },
         "slug": "mr-irrelevant-2026",
         "tmdb": 1372443,
@@ -2943,7 +2965,7 @@
       },
       "year": 2026,
       "title": "American Hostage",
-      "aired_episodes": 2
+      "aired_episodes": 3
     },
     "rank": 189,
     "id": 1545437566,
