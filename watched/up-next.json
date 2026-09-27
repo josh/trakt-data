@@ -2,6 +2,122 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    },
+    "progress": {
+      "aired": 52,
+      "completed": 48,
+      "hidden": 0,
+      "last_watched_at": "2026-09-27T06:14:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 48,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt15823616",
+          "plex": {
+            "guid": "6244622546aba5db20372d77"
+          },
+          "tmdb": 3627311,
+          "tvdb": 8893107,
+          "trakt": 6005034
+        },
+        "title": "Family Meeting",
+        "votes": 163,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/006/005/034/screenshots/medium/af1b9c5bf6.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.705521583557129,
+        "season": 5,
+        "runtime": 37,
+        "overview": "Sam fights zombies and Frankie dresses up.",
+        "released": "2022-04-05",
+        "number_abs": 49,
+        "updated_at": "2026-09-26T17:06:37.000Z",
+        "first_aired": "2022-04-05T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Family Meeting",
+        "available_translations": [
+          "cs",
+          "en",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt"
+        ],
+        "effective_release_date": "2022-04-05T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt15823612",
+          "plex": {
+            "guid": "6220bb289989d09f826ee0ce"
+          },
+          "tmdb": 3534037,
+          "tvdb": 8893106,
+          "trakt": 5947040
+        },
+        "title": "San Francisco",
+        "votes": 160,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/005/947/040/screenshots/medium/b9cabe3bb7.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.362500190734863,
+        "season": 5,
+        "runtime": 26,
+        "overview": "Sam goes to San Francisco for a job while Max holds down the fort.",
+        "released": "2022-03-29",
+        "number_abs": 48,
+        "updated_at": "2026-09-26T17:06:37.000Z",
+        "first_aired": "2022-03-29T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "San Francisco",
+        "available_translations": [
+          "cs",
+          "en",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt"
+        ],
+        "effective_release_date": "2022-03-29T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt31449991",
         "plex": {
           "guid": "65d88d78a57f7d57d36d552a",
@@ -120,122 +236,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt4370596",
-        "plex": {
-          "guid": "5d9c080208fddd001f28fec5",
-          "slug": "better-things"
-        },
-        "slug": "better-things",
-        "tmdb": 66859,
-        "tvdb": 313270,
-        "trakt": 108564
-      },
-      "year": 2016,
-      "title": "Better Things",
-      "aired_episodes": 52
-    },
-    "progress": {
-      "aired": 52,
-      "completed": 46,
-      "hidden": 0,
-      "last_watched_at": "2026-09-20T11:20:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 46,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt15823602",
-          "plex": {
-            "guid": "6218f87a2f388c66c41b48ea"
-          },
-          "tmdb": 3523996,
-          "tvdb": 8893104,
-          "trakt": 5933529
-        },
-        "title": "The World Is Mean Right Now",
-        "votes": 155,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/005/933/529/screenshots/medium/4fcd4b4a28.jpg.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.4645161628723145,
-        "season": 5,
-        "runtime": 36,
-        "overview": "Sam makes borscht.",
-        "released": "2022-03-22",
-        "number_abs": 47,
-        "updated_at": "2026-09-26T17:06:37.000Z",
-        "first_aired": "2022-03-22T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "The World Is Mean Right Now",
-        "available_translations": [
-          "cs",
-          "en",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt"
-        ],
-        "effective_release_date": "2022-03-22T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt15823600",
-          "plex": {
-            "guid": "6218f87a2f388c66c41b48eb"
-          },
-          "tmdb": 3523995,
-          "tvdb": 8893103,
-          "trakt": 5933528
-        },
-        "title": "Ephemera",
-        "votes": 166,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/005/933/528/screenshots/medium/4e5bb0ddf0.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 7.439759254455566,
-        "season": 5,
-        "runtime": 33,
-        "overview": "Sam learns about pronouns and finance.",
-        "released": "2022-03-15",
-        "number_abs": 46,
-        "updated_at": "2026-09-26T16:45:52.000Z",
-        "first_aired": "2022-03-15T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "Ephemera",
-        "available_translations": [
-          "cs",
-          "en",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt"
-        ],
-        "effective_release_date": "2022-03-15T02:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt0472954",
         "plex": {
           "guid": "5d9c0875170e24001f2ab27e",
@@ -272,20 +272,20 @@
           "trakt": 14364987
         },
         "title": "Gilligan's Island: A Conspiracy Theorist's Paradise",
-        "votes": 170,
+        "votes": 173,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/364/987/screenshots/medium/9e5ecdb5cb.jpg.webp"
           ]
         },
         "number": 7,
-        "rating": 6.911764621734619,
+        "rating": 6.884393215179443,
         "season": 18,
         "runtime": 20,
         "overview": "Mac and Charlie drink the proverbial Kool-Aid while trying to uncover the mystery of why 'Gilligan's Island' never made it to 100 episodes.",
         "released": "2026-09-22",
         "number_abs": 184,
-        "updated_at": "2026-09-27T03:14:51.000Z",
+        "updated_at": "2026-09-27T05:56:24.000Z",
         "first_aired": "2026-09-22T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -310,20 +310,20 @@
           "trakt": 14364986
         },
         "title": "The War on Alcohol",
-        "votes": 211,
+        "votes": 212,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/364/986/screenshots/medium/a5fc536c42.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 7.715639591217041,
+        "rating": 7.712264060974121,
         "season": 18,
         "runtime": 24,
         "overview": "The Gang takes the trend against drinking into their own hands. Dennis, Dee, and Frank look to recruit white collar suits for happy hour while Mac and Charlie seek to enlist blue collar factory workers so they can return the bar to the melting pot it once was.",
         "released": "2026-09-15",
         "number_abs": 183,
-        "updated_at": "2026-09-27T05:02:13.000Z",
+        "updated_at": "2026-09-27T05:10:31.000Z",
         "first_aired": "2026-09-15T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -1096,20 +1096,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 2119,
+        "votes": 2121,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.23171329498291,
+        "rating": 8.230551719665527,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-09-27T02:42:27.000Z",
+        "updated_at": "2026-09-27T05:54:16.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

@@ -1,5 +1,77 @@
 [
   {
+    "id": 14466911863,
+    "watched_at": "2026-09-27T06:14:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823612",
+        "plex": {
+          "guid": "6220bb289989d09f826ee0ce"
+        },
+        "tmdb": 3534037,
+        "tvdb": 8893106,
+        "trakt": 5947040
+      },
+      "title": "San Francisco",
+      "number": 6,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14466848547,
+    "watched_at": "2026-09-27T05:47:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823602",
+        "plex": {
+          "guid": "6218f87a2f388c66c41b48ea"
+        },
+        "tmdb": 3523996,
+        "tvdb": 8893104,
+        "trakt": 5933529
+      },
+      "title": "The World Is Mean Right Now",
+      "number": 5,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14466800004,
     "watched_at": "2026-09-27T05:09:00.000Z",
     "action": "checkin",
