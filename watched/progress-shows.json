@@ -18,53 +18,10 @@
     },
     "progress": {
       "aired": 52,
-      "completed": 48,
-      "last_watched_at": "2026-09-27T06:14:00.000Z",
+      "completed": 49,
+      "last_watched_at": "2026-09-27T07:03:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt15823612",
-          "plex": {
-            "guid": "6220bb289989d09f826ee0ce"
-          },
-          "tmdb": 3534037,
-          "tvdb": 8893106,
-          "trakt": 5947040
-        },
-        "title": "San Francisco",
-        "votes": 160,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/005/947/040/screenshots/medium/b9cabe3bb7.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.362500190734863,
-        "season": 5,
-        "runtime": 26,
-        "overview": "Sam goes to San Francisco for a job while Max holds down the fort.",
-        "released": "2022-03-29",
-        "number_abs": 48,
-        "updated_at": "2026-09-26T17:06:37.000Z",
-        "first_aired": "2022-03-29T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 1,
-        "during_credits": false,
-        "original_title": "San Francisco",
-        "available_translations": [
-          "cs",
-          "en",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt"
-        ],
-        "effective_release_date": "2022-03-29T02:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt15823616",
           "plex": {
@@ -107,10 +64,52 @@
         ],
         "effective_release_date": "2022-04-05T02:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt15823624",
+          "plex": {
+            "guid": "6244622546aba5db20372d76"
+          },
+          "tmdb": 3627312,
+          "tvdb": 8893108,
+          "trakt": 6005036
+        },
+        "title": "Jesus Saves",
+        "votes": 160,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/006/005/036/screenshots/medium/e9658e5060.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.487500190734863,
+        "season": 5,
+        "runtime": 32,
+        "overview": "Sam deals with anxiety.",
+        "released": "2022-04-12",
+        "number_abs": 50,
+        "updated_at": "2026-09-26T17:06:37.000Z",
+        "first_aired": "2022-04-12T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Jesus Saves",
+        "available_translations": [
+          "cs",
+          "en",
+          "fr",
+          "he",
+          "nl",
+          "pl",
+          "pt"
+        ],
+        "effective_release_date": "2022-04-12T02:00:00.000Z"
+      },
       "stats": {
-        "play_count": 48,
-        "minutes_watched": 1196,
-        "minutes_left": 158
+        "play_count": 49,
+        "minutes_watched": 1233,
+        "minutes_left": 121
       },
       "seasons": [
         {
@@ -547,11 +546,11 @@
           "number": 5,
           "title": "Season 5",
           "aired": 10,
-          "completed": 6,
+          "completed": 7,
           "stats": {
-            "play_count": 6,
-            "minutes_watched": 181,
-            "minutes_left": 158
+            "play_count": 7,
+            "minutes_watched": 218,
+            "minutes_left": 121
           },
           "episodes": [
             {
@@ -610,11 +609,11 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-09-27T07:03:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 37
               }
             },
             {
@@ -937,18 +936,18 @@
           "trakt": 14422526
         },
         "title": "September 25, 2026: Andrew Huberman, Jonathan Swan, James Kirchick",
-        "votes": 15,
+        "votes": 17,
         "images": {
           "screenshot": []
         },
         "number": 28,
-        "rating": 7.066666603088379,
+        "rating": 7.117647171020508,
         "season": 24,
         "runtime": 59,
         "overview": "Guests: An interview with Andrew Huberman, host of the \"Huberman Lab\" podcast and author of the new book \"Protocols: An Operating Manual for the Human Body.\" This week's panel discussion includes Jonathan Swan, White House correspondent at The New York Times and co-author of \"Regime Change: Inside the Imperial Presidency of Donald Trump\"; and James Kirchick, contributing writer at The Atlantic and author of \"Secret City: The Hidden History of Gay Washington.\"",
         "released": "2026-09-26",
         "number_abs": 743,
-        "updated_at": "2026-09-27T02:35:56.000Z",
+        "updated_at": "2026-09-27T06:41:38.000Z",
         "first_aired": "2026-09-26T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -8036,20 +8035,20 @@
           "trakt": 14132653
         },
         "title": "Bad Optics",
-        "votes": 1933,
+        "votes": 1934,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/132/653/screenshots/medium/f9b4b9b316.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 8.03000545501709,
+        "rating": 8.029989242553711,
         "season": 1,
         "runtime": 54,
         "overview": "Now in business with his brother Marcus, John is on the verge of landing a major investor for his innovative take on panic rooms when an unexpected phone call pulls him back to Rushville - and everything he worked so hard to leave behind.",
         "released": "2026-09-21",
         "number_abs": 6,
-        "updated_at": "2026-09-27T05:38:58.000Z",
+        "updated_at": "2026-09-27T06:57:51.000Z",
         "first_aired": "2026-09-21T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -10241,7 +10240,7 @@
         "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
         "released": "2026-08-26",
         "number_abs": 38,
-        "updated_at": "2026-09-27T05:51:53.000Z",
+        "updated_at": "2026-09-27T06:34:01.000Z",
         "first_aired": "2026-08-26T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -10293,20 +10292,20 @@
           "trakt": 14143106
         },
         "title": "Riches of Embarrassment",
-        "votes": 1494,
+        "votes": 1495,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/106/screenshots/medium/160fcbb0e4.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.995984077453613,
+        "rating": 7.995986461639404,
         "season": 4,
         "runtime": 48,
         "overview": "The ladies face off against Chelsea. Alice feels the pressure. Rebecca navigates a complicated dynamic.",
         "released": "2026-09-02",
         "number_abs": 39,
-        "updated_at": "2026-09-27T03:21:00.000Z",
+        "updated_at": "2026-09-27T06:38:55.000Z",
         "first_aired": "2026-09-02T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -15336,7 +15335,7 @@
         "overview": "With Tiger Tiger out of the picture, Clark proposes a new plan. After a series of revelations, Plumb and Homer are forced to question everything they thought they knew about the case.",
         "released": "2026-04-13",
         "number_abs": 7,
-        "updated_at": "2026-09-26T20:17:20.000Z",
+        "updated_at": "2026-09-27T06:52:23.000Z",
         "first_aired": "2026-04-13T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -21737,7 +21736,7 @@
         "overview": "Lee's acceptance speech for Citizen Journalist of the Year leaves quite an impression.",
         "released": "2026-10-15",
         "number_abs": 9,
-        "updated_at": "2026-09-26T15:19:28.000Z",
+        "updated_at": "2026-09-27T06:24:18.000Z",
         "first_aired": "2026-10-15T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -21902,7 +21901,7 @@
         "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
         "released": "2025-10-23",
         "number_abs": 20,
-        "updated_at": "2026-09-26T15:37:19.000Z",
+        "updated_at": "2026-09-27T06:46:45.000Z",
         "first_aired": "2025-10-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -28224,7 +28223,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-09-26T21:10:27.000Z",
+        "updated_at": "2026-09-27T06:33:05.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35814,20 +35813,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 2121,
+        "votes": 2122,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.230551719665527,
+        "rating": 8.231385231018066,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-09-27T05:54:16.000Z",
+        "updated_at": "2026-09-27T06:40:40.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -37085,7 +37084,7 @@
         "overview": "On Eddie's birthday, the Millers try to celebrate like everything is normal. But a series of upsetting events threatens to send the family over the edge.",
         "released": "2025-03-13",
         "number_abs": 4,
-        "updated_at": "2026-09-26T16:13:27.000Z",
+        "updated_at": "2026-09-27T06:40:12.000Z",
         "first_aired": "2025-03-13T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -39130,7 +39129,7 @@
         "overview": "When disaster strikes on the day of the heist, Joan is forced to decide between her dream of a happy family or confronting the consequences head-on.",
         "released": null,
         "number_abs": 6,
-        "updated_at": "2026-09-25T16:05:11.000Z",
+        "updated_at": "2026-09-27T06:55:11.000Z",
         "first_aired": "2024-10-14T20:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -39454,7 +39453,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-09-27T02:43:15.000Z",
+        "updated_at": "2026-09-27T07:05:09.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -43006,7 +43005,7 @@
         "overview": "Everything is on the line as Zoe must save Chase's life, while Harper's misstep puts him in peril.",
         "released": "2024-10-25",
         "number_abs": 15,
-        "updated_at": "2026-09-26T06:20:36.000Z",
+        "updated_at": "2026-09-27T06:43:00.000Z",
         "first_aired": "2024-10-25T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -43464,20 +43463,20 @@
           "trakt": 11872552
         },
         "title": "Shadow and Flame",
-        "votes": 2155,
+        "votes": 2156,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/011/872/552/screenshots/medium/2fe6c71447.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.710905075073242,
+        "rating": 7.711966514587402,
         "season": 2,
         "runtime": 74,
         "overview": "The free peoples of Middle-earth struggle against the forces of darkness.",
         "released": "2024-10-03",
         "number_abs": 16,
-        "updated_at": "2026-09-26T15:48:30.000Z",
+        "updated_at": "2026-09-27T06:11:55.000Z",
         "first_aired": "2024-10-03T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -93561,20 +93560,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 1087,
+        "votes": 1088,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.14903450012207,
+        "rating": 8.148897171020508,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-09-27T04:15:34.000Z",
+        "updated_at": "2026-09-27T06:13:02.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -103526,7 +103525,7 @@
         "overview": null,
         "released": "2027-01-20",
         "number_abs": 9,
-        "updated_at": "2026-09-26T01:16:56.000Z",
+        "updated_at": "2026-09-27T06:11:34.000Z",
         "first_aired": "2027-01-21T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -106241,7 +106240,7 @@
         "overview": "As the Secret Service finally corners the Tongs' printing operation, Ah Sahm must choose between his brothers in the Hop Wei and a future with Yan Mi.",
         "released": "2023-08-17",
         "number_abs": 30,
-        "updated_at": "2026-09-26T15:29:18.000Z",
+        "updated_at": "2026-09-27T06:25:11.000Z",
         "first_aired": "2023-08-17T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -121065,7 +121064,7 @@
         "overview": "After a productive summer break, Wednesday returns to Nevermore as a grudging campus celebrity \u2014 and the target of a dangerous stalker.",
         "released": "2025-08-06",
         "number_abs": 9,
-        "updated_at": "2026-09-26T17:50:57.000Z",
+        "updated_at": "2026-09-27T06:52:24.000Z",
         "first_aired": "2025-08-06T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -123516,7 +123515,7 @@
         "overview": null,
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-09-25T19:04:20.000Z",
+        "updated_at": "2026-09-27T06:17:15.000Z",
         "first_aired": null,
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -125002,7 +125001,7 @@
         "overview": "Eight years later, a new mission begins: Capture an asteroid. Aleida and Danielle are still haunted by events from the past.",
         "released": "2023-11-10",
         "number_abs": 31,
-        "updated_at": "2026-09-26T06:28:04.000Z",
+        "updated_at": "2026-09-27T06:29:10.000Z",
         "first_aired": "2023-11-10T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -126801,7 +126800,7 @@
         "overview": "Revelations. Regrets. RICO violations. Jimmy's worlds \u2014 and identities \u2014 converge in one final showdown.",
         "released": "2022-08-16",
         "number_abs": 63,
-        "updated_at": "2026-09-26T06:17:12.000Z",
+        "updated_at": "2026-09-27T06:19:48.000Z",
         "first_aired": "2022-08-16T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -141295,7 +141294,7 @@
         "overview": "Tim vows to stand his ground.  Jeff goes to bat for Joe, but one last stunning claim from a familiar face turns the story on its head yet again.",
         "released": "2021-11-17",
         "number_abs": 13,
-        "updated_at": "2026-09-26T06:27:39.000Z",
+        "updated_at": "2026-09-27T06:37:33.000Z",
         "first_aired": "2021-11-17T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -143408,7 +143407,7 @@
         "overview": "Ronan couldn't be happier as his feeling of love are reciprocated. Jayden struggles to read what he calls the 'hidden communication' between people. Mark is emotional as hi finds a strong connection on a second date.",
         "released": "2021-06-08",
         "number_abs": 9,
-        "updated_at": "2026-09-26T06:05:05.000Z",
+        "updated_at": "2026-09-27T06:20:17.000Z",
         "first_aired": "2021-06-08T10:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -150593,7 +150592,7 @@
         "overview": "In the series finale, Donna celebrates a milestone with her closest allies. Cameron contemplates saying goodbye as Joe confronts an uncertain future.",
         "released": "2017-10-15",
         "number_abs": 40,
-        "updated_at": "2026-09-26T06:59:49.000Z",
+        "updated_at": "2026-09-27T07:01:34.000Z",
         "first_aired": "2017-10-15T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -169306,7 +169305,7 @@
         "overview": "Facing its potential destruction, the partners must go all in to save the firm.",
         "released": "2019-09-26",
         "number_abs": 134,
-        "updated_at": "2026-09-26T06:49:03.000Z",
+        "updated_at": "2026-09-27T06:50:33.000Z",
         "first_aired": "2019-09-26T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -171076,7 +171075,7 @@
         "overview": "Erica goes into labor and the new parents, Monica and Chandler, get a bit more than they bargained for. Meanwhile, Joey gets them a housewarming gift - Chick Jr. and Duck Jr., who unfortunately get trapped inside the foosball table. Also, after their night together, Ross realizes that he's still in love with Rachel and doesn't want her to leave. Other friends convince him to go after her and Phoebe races Ross to the airport in a bid to stop Rachel from leaving for Paris.\n\nThe six friends prepare to say goodbye and embark on the next chapters of their lives.",
         "released": "2004-05-07",
         "number_abs": 228,
-        "updated_at": "2026-09-26T15:31:18.000Z",
+        "updated_at": "2026-09-27T06:49:53.000Z",
         "first_aired": "2004-05-07T00:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -179839,7 +179838,7 @@
         "overview": "Everything ends. For real this time.",
         "released": "2019-12-16",
         "number_abs": 9,
-        "updated_at": "2026-09-26T06:48:41.000Z",
+        "updated_at": "2026-09-27T06:50:14.000Z",
         "first_aired": "2019-12-16T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -180482,20 +180481,20 @@
           "trakt": 2226237
         },
         "title": "The Book of Nora",
-        "votes": 1665,
+        "votes": 1666,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/002/226/237/screenshots/medium/73748c7065.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.33393383026123,
+        "rating": 8.333133697509766,
         "season": 3,
         "runtime": 73,
         "overview": "Nothing is answered. Everything is answered. And then it ends.",
         "released": "2017-06-05",
         "number_abs": 28,
-        "updated_at": "2026-09-27T00:11:51.000Z",
+        "updated_at": "2026-09-27T06:36:20.000Z",
         "first_aired": "2017-06-05T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -217297,7 +217296,7 @@
         "overview": "Zak constructs a dangerous plan to bring down Richie. Kip's excesses threaten an important Nasty Bits gig.\u00a0Clark and Jorge's efforts pay off. Richie is privy to the birth of a legendary music venue.",
         "released": "2016-04-18",
         "number_abs": 10,
-        "updated_at": "2026-09-26T01:02:24.000Z",
+        "updated_at": "2026-09-27T07:12:42.000Z",
         "first_aired": "2016-04-18T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -219001,7 +219000,7 @@
         "overview": "In a desperate bid to slay Francis Dolarhyde, Will engineers a cunning ploy involving Hannibal.",
         "released": "2015-08-30",
         "number_abs": 39,
-        "updated_at": "2026-09-26T15:56:40.000Z",
+        "updated_at": "2026-09-27T06:33:05.000Z",
         "first_aired": "2015-08-28T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -239875,20 +239874,20 @@
           "trakt": 166772
         },
         "title": "The Hobbit",
-        "votes": 845,
+        "votes": 846,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/000/166/772/screenshots/medium/45bf2bc118.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 7.936094760894775,
+        "rating": 7.938534259796143,
         "season": 17,
         "runtime": 23,
         "overview": "When Wendy tries to prove a point about how much pressure little girls feel to look like celebrities, it gets her in trouble with everyone at school, and gets Clyde a new girlfriend.",
         "released": "2013-12-12",
         "number_abs": 247,
-        "updated_at": "2026-09-26T18:25:53.000Z",
+        "updated_at": "2026-09-27T07:03:34.000Z",
         "first_aired": "2013-12-12T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
