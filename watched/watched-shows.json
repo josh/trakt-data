@@ -1,5 +1,27 @@
 [
   {
+    "plays": 11,
+    "last_watched_at": "2026-09-28T03:41:00.000Z",
+    "last_updated_at": "2026-09-28T03:41:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt31449991",
+        "plex": {
+          "guid": "65d88d78a57f7d57d36d552a",
+          "slug": "chad-powers"
+        },
+        "slug": "chad-powers",
+        "tmdb": 247168,
+        "tvdb": 446526,
+        "trakt": 227577
+      },
+      "year": 2025,
+      "title": "Chad Powers",
+      "aired_episodes": 12
+    }
+  },
+  {
     "plays": 49,
     "last_watched_at": "2026-09-27T07:03:00.000Z",
     "last_updated_at": "2026-09-27T07:03:00.000Z",
@@ -19,28 +41,6 @@
       "year": 2016,
       "title": "Better Things",
       "aired_episodes": 52
-    }
-  },
-  {
-    "plays": 10,
-    "last_watched_at": "2026-09-27T05:09:00.000Z",
-    "last_updated_at": "2026-09-27T05:09:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt31449991",
-        "plex": {
-          "guid": "65d88d78a57f7d57d36d552a",
-          "slug": "chad-powers"
-        },
-        "slug": "chad-powers",
-        "tmdb": 247168,
-        "tvdb": 446526,
-        "trakt": 227577
-      },
-      "year": 2025,
-      "title": "Chad Powers",
-      "aired_episodes": 12
     }
   },
   {
@@ -84,7 +84,7 @@
       },
       "year": 2026,
       "title": "Lanterns",
-      "aired_episodes": 6
+      "aired_episodes": 7
     }
   },
   {
@@ -7938,7 +7938,7 @@
       },
       "year": 2014,
       "title": "Last Week Tonight with John Oliver",
-      "aired_episodes": 373
+      "aired_episodes": 374
     }
   },
   {
