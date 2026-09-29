@@ -617,7 +617,7 @@
       },
       "year": 2026,
       "title": "Brothers",
-      "aired_episodes": 2
+      "aired_episodes": 3
     },
     "rank": 170,
     "id": 1519853614,
@@ -1553,6 +1553,28 @@
     "type": "movie",
     "movie": {
       "ids": {
+        "imdb": "tt0107286",
+        "plex": {
+          "guid": "5d776824a091de001f2e601f",
+          "slug": "judgment-night"
+        },
+        "slug": "judgment-night-1993",
+        "tmdb": 6,
+        "trakt": 4
+      },
+      "year": 1993,
+      "title": "Judgment Night"
+    },
+    "rank": 180,
+    "id": 1549533863,
+    "listed_at": "2026-09-29T06:05:23.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
         "imdb": "tt37171180",
         "plex": {
           "guid": null,
@@ -1702,6 +1724,30 @@
     "rank": 181,
     "id": 1546193383,
     "listed_at": "2026-09-20T06:04:41.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt33539520",
+        "plex": {
+          "guid": "6995dd6b96c7221de9313980",
+          "slug": "neagley"
+        },
+        "slug": "neagley",
+        "tmdb": 273207,
+        "tvdb": 455064,
+        "trakt": 258222
+      },
+      "year": 2026,
+      "title": "Neagley",
+      "aired_episodes": 8
+    },
+    "rank": 181,
+    "id": 1549533864,
+    "listed_at": "2026-09-29T06:05:23.000Z",
     "notes": null,
     "my_rating": null
   },
