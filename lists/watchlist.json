@@ -1952,6 +1952,30 @@
     "my_rating": null
   },
   {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt37972251",
+        "plex": {
+          "guid": null,
+          "slug": null
+        },
+        "slug": "war-2026",
+        "tmdb": 298852,
+        "tvdb": 467092,
+        "trakt": 295637
+      },
+      "year": 2026,
+      "title": "War",
+      "aired_episodes": 0
+    },
+    "rank": 182,
+    "id": 1549787065,
+    "listed_at": "2026-09-30T00:08:58.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
     "type": "movie",
     "movie": {
       "ids": {
@@ -2494,11 +2518,11 @@
           "guid": null,
           "slug": null
         },
-        "slug": "sacrifice-1217070",
+        "slug": "sacrifice-2027",
         "tmdb": 1484467,
         "trakt": 1217070
       },
-      "year": null,
+      "year": 2027,
       "title": "Sacrifice"
     },
     "rank": 186,
@@ -2723,7 +2747,7 @@
       },
       "year": 2026,
       "title": "Last Seen",
-      "aired_episodes": 4
+      "aired_episodes": 5
     },
     "rank": 187,
     "id": 1533621021,
