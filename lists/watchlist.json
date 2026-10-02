@@ -1952,6 +1952,30 @@
     "my_rating": null
   },
   {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt36786185",
+        "plex": {
+          "guid": null,
+          "slug": null
+        },
+        "slug": "the-altruists",
+        "tmdb": 308007,
+        "tvdb": 464202,
+        "trakt": 310716
+      },
+      "year": 2026,
+      "title": "The Altruists",
+      "aired_episodes": 0
+    },
+    "rank": 182,
+    "id": 1550463034,
+    "listed_at": "2026-10-02T00:08:54.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
     "type": "movie",
     "movie": {
       "ids": {
@@ -3849,8 +3873,8 @@
       "ids": {
         "imdb": "tt21097264",
         "plex": {
-          "guid": null,
-          "slug": null
+          "guid": "6682f332abbadae2185d745a",
+          "slug": "east-of-eden-2026"
         },
         "slug": "east-of-eden-2026",
         "tmdb": 258165,
@@ -3859,7 +3883,7 @@
       },
       "year": 2026,
       "title": "East of Eden",
-      "aired_episodes": 0
+      "aired_episodes": 7
     },
     "rank": 210,
     "id": 1107802619,
