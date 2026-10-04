@@ -1,5 +1,41 @@
 [
   {
+    "id": 14494223330,
+    "watched_at": "2026-10-04T20:14:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt32752614",
+        "plex": {
+          "guid": "667bd2c40df781bc3d30d434"
+        },
+        "tmdb": 7179888,
+        "tvdb": 11908193,
+        "trakt": 14132654
+      },
+      "title": "The Jordan Boys' Legacy",
+      "number": 7,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26545992",
+        "plex": {
+          "guid": "6475f4e274668225adb2c0e0",
+          "slug": "lanterns-1"
+        },
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "tvdb": 376098,
+        "trakt": 157599
+      },
+      "year": 2026,
+      "title": "Lanterns",
+      "aired_episodes": 7
+    }
+  },
+  {
     "id": 14493797911,
     "watched_at": "2026-10-04T18:42:00.000Z",
     "action": "scrobble",
