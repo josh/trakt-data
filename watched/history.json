@@ -1,5 +1,41 @@
 [
   {
+    "id": 14493797911,
+    "watched_at": "2026-10-04T18:42:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt42313366",
+        "plex": {
+          "guid": "69ff8805052d3514c2697cd8"
+        },
+        "tmdb": 7610317,
+        "tvdb": 11774121,
+        "trakt": 14349218
+      },
+      "title": "12th Quarter",
+      "number": 6,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt31449991",
+        "plex": {
+          "guid": "65d88d78a57f7d57d36d552a",
+          "slug": "chad-powers"
+        },
+        "slug": "chad-powers",
+        "tmdb": 247168,
+        "tvdb": 446526,
+        "trakt": 227577
+      },
+      "year": 2025,
+      "title": "Chad Powers",
+      "aired_episodes": 12
+    }
+  },
+  {
     "id": 14487467650,
     "watched_at": "2026-10-03T05:52:00.000Z",
     "action": "checkin",
@@ -16,6 +52,42 @@
       },
       "title": "October 2, 2026: Malcolm Gladwell, Fareed Zakaria, Anand Giridharadas",
       "number": 29,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 744
+    }
+  },
+  {
+    "id": 14487779237,
+    "watched_at": "2026-10-03T05:51:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": null
+        },
+        "tmdb": 7748882,
+        "tvdb": null,
+        "trakt": 14422528
+      },
+      "title": "October 9, 2026",
+      "number": 30,
       "season": 24
     },
     "show": {
@@ -320100,7 +320172,7 @@
       "ids": {
         "imdb": null,
         "plex": {
-          "guid": null
+          "guid": "5ea7ef1cdcece10041348930"
         },
         "tmdb": 2279185,
         "tvdb": 6460656,
@@ -410043,11 +410115,11 @@
           "guid": "5d7768392ec6b5001f6bc957",
           "slug": "sunshine-cleaning"
         },
-        "slug": "sunshine-cleaning-2008",
+        "slug": "sunshine-cleaning-2009",
         "tmdb": 13090,
         "trakt": 7645
       },
-      "year": 2008,
+      "year": 2009,
       "title": "Sunshine Cleaning"
     }
   },
@@ -435143,11 +435215,11 @@
           "guid": "5d77684c8a7581001f130023",
           "slug": "paranormal-activity"
         },
-        "slug": "paranormal-activity-2007",
+        "slug": "paranormal-activity-2009",
         "tmdb": 23827,
         "trakt": 14324
       },
-      "year": 2007,
+      "year": 2009,
       "title": "Paranormal Activity"
     }
   },
@@ -442939,11 +443011,11 @@
           "guid": "5d776848880197001ec96fdc",
           "slug": "the-brothers-bloom"
         },
-        "slug": "the-brothers-bloom-2008",
+        "slug": "the-brothers-bloom-2009",
         "tmdb": 21755,
         "trakt": 13300
       },
-      "year": 2008,
+      "year": 2009,
       "title": "The Brothers Bloom"
     }
   },
