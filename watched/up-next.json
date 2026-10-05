@@ -2,6 +2,140 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt36303968",
+        "plex": {
+          "guid": "68d30fff1190765ce3a96c77",
+          "slug": "furious"
+        },
+        "slug": "furious",
+        "tmdb": 287238,
+        "tvdb": 468000,
+        "trakt": 280335
+      },
+      "year": 2026,
+      "title": "Furious",
+      "aired_episodes": 8
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2026-10-05T05:47:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt37543089",
+          "plex": {
+            "guid": "69e3e6fa2318f1300db9d344"
+          },
+          "tmdb": 7370852,
+          "tvdb": 11732470,
+          "trakt": 14235598
+        },
+        "title": "My life had stood - a Loaded Gun",
+        "votes": 934,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/235/598/screenshots/medium/25e45f8d6e.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.977516174316406,
+        "season": 1,
+        "runtime": 53,
+        "overview": "Alice fixates on the case, leading to old habits. Catherine lays her trap.",
+        "released": "2026-07-27",
+        "number_abs": 2,
+        "updated_at": "2026-10-04T23:21:46.000Z",
+        "first_aired": "2026-07-27T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 13,
+        "during_credits": false,
+        "original_title": "My life had stood - a Loaded Gun",
+        "available_translations": [
+          "cs",
+          "da",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "ko",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sv",
+          "tr",
+          "zh"
+        ],
+        "effective_release_date": "2026-07-27T07:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt37449143",
+          "plex": {
+            "guid": "68d310011190765ce3a96c8c"
+          },
+          "tmdb": 7370851,
+          "tvdb": 11331786,
+          "trakt": 14235597
+        },
+        "title": "The Gorgon",
+        "votes": 1083,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/235/597/screenshots/medium/c4a9e22279.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.832871437072754,
+        "season": 1,
+        "runtime": 50,
+        "overview": "Alice investigates a suspicious overdose as Catherine plots her next move.",
+        "released": "2026-07-27",
+        "number_abs": 1,
+        "updated_at": "2026-10-05T04:28:54.000Z",
+        "first_aired": "2026-07-27T07:00:00.000Z",
+        "episode_type": "series_premiere",
+        "after_credits": false,
+        "comment_count": 24,
+        "during_credits": false,
+        "original_title": "The Gorgon",
+        "available_translations": [
+          "cs",
+          "da",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "ko",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sv",
+          "tr",
+          "zh"
+        ],
+        "effective_release_date": "2026-07-27T07:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt4370596",
         "plex": {
           "guid": "5d9c080208fddd001f28fec5",
@@ -737,20 +871,20 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 987,
+        "votes": 988,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/297/667/screenshots/medium/e65398e445.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.255319595336914,
+        "rating": 8.25202465057373,
         "season": 2,
         "runtime": 50,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-10-05T03:29:50.000Z",
+        "updated_at": "2026-10-05T04:34:10.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -932,7 +1066,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-10-04T17:43:20.000Z",
+        "updated_at": "2026-10-05T04:56:08.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1156,20 +1290,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1506,
+        "votes": 1507,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.505311965942383,
+        "rating": 8.504977226257324,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-10-05T02:56:12.000Z",
+        "updated_at": "2026-10-05T04:27:53.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1312,7 +1446,7 @@
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-10-05T04:03:05.000Z",
+        "updated_at": "2026-10-05T04:38:20.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,

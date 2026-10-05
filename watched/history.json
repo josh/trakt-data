@@ -1,5 +1,41 @@
 [
   {
+    "id": 14495785739,
+    "watched_at": "2026-10-05T05:47:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37449143",
+        "plex": {
+          "guid": "68d310011190765ce3a96c8c"
+        },
+        "tmdb": 7370851,
+        "tvdb": 11331786,
+        "trakt": 14235597
+      },
+      "title": "The Gorgon",
+      "number": 1,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt36303968",
+        "plex": {
+          "guid": "68d30fff1190765ce3a96c77",
+          "slug": "furious"
+        },
+        "slug": "furious",
+        "tmdb": 287238,
+        "tvdb": 468000,
+        "trakt": 280335
+      },
+      "year": 2026,
+      "title": "Furious",
+      "aired_episodes": 8
+    }
+  },
+  {
     "id": 14495576269,
     "watched_at": "2026-10-05T04:09:00.000Z",
     "action": "checkin",
