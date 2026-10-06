@@ -1,5 +1,41 @@
 [
   {
+    "id": 14499165267,
+    "watched_at": "2026-10-06T06:08:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37543089",
+        "plex": {
+          "guid": "69e3e6fa2318f1300db9d344"
+        },
+        "tmdb": 7370852,
+        "tvdb": 11732470,
+        "trakt": 14235598
+      },
+      "title": "My life had stood - a Loaded Gun",
+      "number": 2,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt36303968",
+        "plex": {
+          "guid": "68d30fff1190765ce3a96c77",
+          "slug": "furious"
+        },
+        "slug": "furious",
+        "tmdb": 287238,
+        "tvdb": 468000,
+        "trakt": 280335
+      },
+      "year": 2026,
+      "title": "Furious",
+      "aired_episodes": 8
+    }
+  },
+  {
     "id": 14498972370,
     "watched_at": "2026-10-06T03:59:00.000Z",
     "action": "watch",

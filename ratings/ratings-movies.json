@@ -1,5 +1,24 @@
 [
   {
+    "rated_at": "2026-10-06T06:05:24.000Z",
+    "rating": 7,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt34385689",
+        "plex": {
+          "guid": "672a831c44708ef565be288b",
+          "slug": "paper-tiger-2026"
+        },
+        "slug": "paper-tiger-2026",
+        "tmdb": 1381273,
+        "trakt": 1128752
+      },
+      "year": 2026,
+      "title": "Paper Tiger"
+    }
+  },
+  {
     "rated_at": "2026-10-05T06:11:12.000Z",
     "rating": 7,
     "type": "movie",
@@ -14274,7 +14293,7 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt15679400",
+        "imdb": "tt8272064",
         "plex": {
           "guid": "5e16335cfef2d4003e895caa",
           "slug": "knock-at-the-cabin"
