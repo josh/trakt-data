@@ -1,5 +1,24 @@
 [
   {
+    "rated_at": "2026-10-07T20:15:33.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1853563",
+        "plex": {
+          "guid": "5d7768a11999bc0020dcbc4a",
+          "slug": "foo-fighters-back-and-forth"
+        },
+        "slug": "foo-fighters-back-and-forth-2011",
+        "tmdb": 61488,
+        "trakt": 44099
+      },
+      "year": 2011,
+      "title": "Foo Fighters: Back and Forth"
+    }
+  },
+  {
     "rated_at": "2026-10-06T06:05:24.000Z",
     "rating": 7,
     "type": "movie",
@@ -2698,26 +2717,7 @@
     }
   },
   {
-    "rated_at": "2025-12-05T06:02:14.000Z",
-    "rating": 10,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt6019206",
-        "plex": {
-          "guid": "5d776c6e96b655001fe3071d",
-          "slug": "kill-bill-the-whole-bloody-affair"
-        },
-        "slug": "kill-bill-the-whole-bloody-affair-2011",
-        "tmdb": 414419,
-        "trakt": 259317
-      },
-      "year": 2011,
-      "title": "Kill Bill: The Whole Bloody Affair"
-    }
-  },
-  {
-    "rated_at": "2025-12-05T06:02:14.000Z",
+    "rated_at": "2025-12-05T23:59:59.000Z",
     "rating": 10,
     "type": "movie",
     "movie": {
@@ -2736,7 +2736,7 @@
     }
   },
   {
-    "rated_at": "2025-12-05T06:02:14.000Z",
+    "rated_at": "2025-12-05T23:59:59.000Z",
     "rating": 10,
     "type": "movie",
     "movie": {
@@ -2752,6 +2752,25 @@
       },
       "year": 2003,
       "title": "Kill Bill: Vol. 1"
+    }
+  },
+  {
+    "rated_at": "2025-12-05T06:02:14.000Z",
+    "rating": 10,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt6019206",
+        "plex": {
+          "guid": "5d776c6e96b655001fe3071d",
+          "slug": "kill-bill-the-whole-bloody-affair"
+        },
+        "slug": "kill-bill-the-whole-bloody-affair-2011",
+        "tmdb": 414419,
+        "trakt": 259317
+      },
+      "year": 2011,
+      "title": "Kill Bill: The Whole Bloody Affair"
     }
   },
   {
@@ -5631,7 +5650,7 @@
       "ids": {
         "imdb": "tt13650578",
         "plex": {
-          "guid": null,
+          "guid": "608f3a28e92ac9002c951da9",
           "slug": null
         },
         "slug": "bubble-squeak-2025",
@@ -8633,7 +8652,7 @@
       "ids": {
         "imdb": "tt28363850",
         "plex": {
-          "guid": null,
+          "guid": "64b4cb117aefa2181c81a0a2",
           "slug": null
         },
         "slug": "postcard-from-earth",
@@ -9348,6 +9367,25 @@
     }
   },
   {
+    "rated_at": "2024-03-15T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0490215",
+        "plex": {
+          "guid": "5d7768adebdf2200209c5d47",
+          "slug": "silence"
+        },
+        "slug": "silence-2016-12-23",
+        "tmdb": 68730,
+        "trakt": 50142
+      },
+      "year": 2016,
+      "title": "Silence"
+    }
+  },
+  {
     "rated_at": "2024-03-15T00:00:00.000Z",
     "rating": 4,
     "type": "movie",
@@ -9421,25 +9459,6 @@
       },
       "year": 2024,
       "title": "The American Society of Magical Negroes"
-    }
-  },
-  {
-    "rated_at": "2024-03-15T00:00:00.000Z",
-    "rating": 8,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0490215",
-        "plex": {
-          "guid": "5d7768adebdf2200209c5d47",
-          "slug": "silence"
-        },
-        "slug": "silence-2016-12-23",
-        "tmdb": 68730,
-        "trakt": 50142
-      },
-      "year": 2016,
-      "title": "Silence"
     }
   },
   {
@@ -11476,7 +11495,7 @@
     }
   },
   {
-    "rated_at": "2023-12-03T00:00:00.000Z",
+    "rated_at": "2023-12-03T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -12274,7 +12293,7 @@
     }
   },
   {
-    "rated_at": "2023-09-17T00:00:00.000Z",
+    "rated_at": "2023-09-17T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -15485,6 +15504,25 @@
     }
   },
   {
+    "rated_at": "2022-11-29T23:59:59.000Z",
+    "rating": 1,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt4995790",
+        "plex": {
+          "guid": "5d776c4b23d5a3001f519d84",
+          "slug": "the-square-2017"
+        },
+        "slug": "the-square-2017",
+        "tmdb": 401246,
+        "trakt": 244185
+      },
+      "year": 2017,
+      "title": "The Square"
+    }
+  },
+  {
     "rated_at": "2022-11-29T00:00:00.000Z",
     "rating": 10,
     "type": "movie",
@@ -15558,25 +15596,6 @@
       },
       "year": 2021,
       "title": "Don't Look Up"
-    }
-  },
-  {
-    "rated_at": "2022-11-29T00:00:00.000Z",
-    "rating": 1,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt4995790",
-        "plex": {
-          "guid": "5d776c4b23d5a3001f519d84",
-          "slug": "the-square-2017"
-        },
-        "slug": "the-square-2017",
-        "tmdb": 401246,
-        "trakt": 244185
-      },
-      "year": 2017,
-      "title": "The Square"
     }
   },
   {
@@ -15884,7 +15903,7 @@
     }
   },
   {
-    "rated_at": "2022-11-02T00:00:00.000Z",
+    "rated_at": "2022-11-02T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -15903,7 +15922,7 @@
     }
   },
   {
-    "rated_at": "2022-11-02T00:00:00.000Z",
+    "rated_at": "2022-11-02T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -15919,6 +15938,25 @@
       },
       "year": 2004,
       "title": "Ocean's Twelve"
+    }
+  },
+  {
+    "rated_at": "2022-11-02T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0120735",
+        "plex": {
+          "guid": "5d77682461141d001fb13348",
+          "slug": "lock-stock-and-two-smoking-barrels"
+        },
+        "slug": "lock-stock-and-two-smoking-barrels-1998",
+        "tmdb": 100,
+        "trakt": 69
+      },
+      "year": 1998,
+      "title": "Lock, Stock and Two Smoking Barrels"
     }
   },
   {
@@ -15957,25 +15995,6 @@
       },
       "year": 1998,
       "title": "Ronin"
-    }
-  },
-  {
-    "rated_at": "2022-11-02T00:00:00.000Z",
-    "rating": 8,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0120735",
-        "plex": {
-          "guid": "5d77682461141d001fb13348",
-          "slug": "lock-stock-and-two-smoking-barrels"
-        },
-        "slug": "lock-stock-and-two-smoking-barrels-1998",
-        "tmdb": 100,
-        "trakt": 69
-      },
-      "year": 1998,
-      "title": "Lock, Stock and Two Smoking Barrels"
     }
   },
   {
@@ -17556,6 +17575,25 @@
     }
   },
   {
+    "rated_at": "2022-06-16T23:59:59.000Z",
+    "rating": 9,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2381249",
+        "plex": {
+          "guid": "5d7769f77a53e9001e6f630d",
+          "slug": "mission-impossible-rogue-nation"
+        },
+        "slug": "mission-impossible-rogue-nation-2015",
+        "tmdb": 177677,
+        "trakt": 112447
+      },
+      "year": 2015,
+      "title": "Mission: Impossible - Rogue Nation"
+    }
+  },
+  {
     "rated_at": "2022-06-16T00:00:00.000Z",
     "rating": 10,
     "type": "movie",
@@ -17572,25 +17610,6 @@
       },
       "year": 2018,
       "title": "Mission: Impossible - Fallout"
-    }
-  },
-  {
-    "rated_at": "2022-06-16T00:00:00.000Z",
-    "rating": 9,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt2381249",
-        "plex": {
-          "guid": "5d7769f77a53e9001e6f630d",
-          "slug": "mission-impossible-rogue-nation"
-        },
-        "slug": "mission-impossible-rogue-nation-2015",
-        "tmdb": 177677,
-        "trakt": 112447
-      },
-      "year": 2015,
-      "title": "Mission: Impossible - Rogue Nation"
     }
   },
   {
@@ -20121,6 +20140,25 @@
     }
   },
   {
+    "rated_at": "2021-12-20T23:59:59.000Z",
+    "rating": 9,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2250912",
+        "plex": {
+          "guid": "5d776b5e7a53e9001e7238e0",
+          "slug": "spider-man-homecoming"
+        },
+        "slug": "spider-man-homecoming-2017",
+        "tmdb": 315635,
+        "trakt": 196213
+      },
+      "year": 2017,
+      "title": "Spider-Man: Homecoming"
+    }
+  },
+  {
     "rated_at": "2021-12-20T00:00:00.000Z",
     "rating": 9,
     "type": "movie",
@@ -20137,25 +20175,6 @@
       },
       "year": 2021,
       "title": "Spider-Man: No Way Home"
-    }
-  },
-  {
-    "rated_at": "2021-12-20T00:00:00.000Z",
-    "rating": 9,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt2250912",
-        "plex": {
-          "guid": "5d776b5e7a53e9001e7238e0",
-          "slug": "spider-man-homecoming"
-        },
-        "slug": "spider-man-homecoming-2017",
-        "tmdb": 315635,
-        "trakt": 196213
-      },
-      "year": 2017,
-      "title": "Spider-Man: Homecoming"
     }
   },
   {
@@ -20976,7 +20995,7 @@
     }
   },
   {
-    "rated_at": "2021-09-03T00:00:00.000Z",
+    "rated_at": "2021-09-03T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -21242,7 +21261,7 @@
     }
   },
   {
-    "rated_at": "2021-08-01T00:00:00.000Z",
+    "rated_at": "2021-08-01T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -21261,7 +21280,7 @@
     }
   },
   {
-    "rated_at": "2021-08-01T00:00:00.000Z",
+    "rated_at": "2021-08-01T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -21356,6 +21375,25 @@
     }
   },
   {
+    "rated_at": "2021-07-31T23:59:59.000Z",
+    "rating": 9,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0116282",
+        "plex": {
+          "guid": "5d7768246f4521001ea988b9",
+          "slug": "fargo"
+        },
+        "slug": "fargo-1996",
+        "tmdb": 275,
+        "trakt": 231
+      },
+      "year": 1996,
+      "title": "Fargo"
+    }
+  },
+  {
     "rated_at": "2021-07-31T00:00:00.000Z",
     "rating": 6,
     "type": "movie",
@@ -21391,25 +21429,6 @@
       },
       "year": 2015,
       "title": "The Man from U.N.C.L.E."
-    }
-  },
-  {
-    "rated_at": "2021-07-31T00:00:00.000Z",
-    "rating": 9,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0116282",
-        "plex": {
-          "guid": "5d7768246f4521001ea988b9",
-          "slug": "fargo"
-        },
-        "slug": "fargo-1996",
-        "tmdb": 275,
-        "trakt": 231
-      },
-      "year": 1996,
-      "title": "Fargo"
     }
   },
   {
@@ -22297,11 +22316,11 @@
           "guid": "5d777086dd931c001e38eac0",
           "slug": "without-remorse-2021-1"
         },
-        "slug": "tom-clancy-s-without-remorse-2021",
+        "slug": "tom-clancy-s-without-remorse-2026",
         "tmdb": 567189,
         "trakt": 416763
       },
-      "year": 2021,
+      "year": 2026,
       "title": "Tom Clancy's Without Remorse"
     }
   },
@@ -24472,6 +24491,25 @@
     }
   },
   {
+    "rated_at": "2020-12-14T23:59:59.000Z",
+    "rating": 7,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0033467",
+        "plex": {
+          "guid": "5d776824f59e580021897863",
+          "slug": "citizen-kane"
+        },
+        "slug": "citizen-kane-1941",
+        "tmdb": 15,
+        "trakt": 11
+      },
+      "year": 1941,
+      "title": "Citizen Kane"
+    }
+  },
+  {
     "rated_at": "2020-12-14T00:00:00.000Z",
     "rating": 7,
     "type": "movie",
@@ -24488,25 +24526,6 @@
       },
       "year": 2020,
       "title": "Freaky"
-    }
-  },
-  {
-    "rated_at": "2020-12-14T00:00:00.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0033467",
-        "plex": {
-          "guid": "5d776824f59e580021897863",
-          "slug": "citizen-kane"
-        },
-        "slug": "citizen-kane-1941",
-        "tmdb": 15,
-        "trakt": 11
-      },
-      "year": 1941,
-      "title": "Citizen Kane"
     }
   },
   {
@@ -24871,7 +24890,7 @@
     }
   },
   {
-    "rated_at": "2020-11-22T00:00:00.000Z",
+    "rated_at": "2020-11-22T23:59:59.000Z",
     "rating": 7,
     "type": "movie",
     "movie": {
@@ -25593,7 +25612,7 @@
     }
   },
   {
-    "rated_at": "2020-09-24T00:00:00.000Z",
+    "rated_at": "2020-09-24T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -26087,7 +26106,7 @@
     }
   },
   {
-    "rated_at": "2020-08-31T00:00:00.000Z",
+    "rated_at": "2020-08-31T23:59:59.000Z",
     "rating": 6,
     "type": "movie",
     "movie": {
@@ -26486,6 +26505,25 @@
     }
   },
   {
+    "rated_at": "2020-07-26T23:59:59.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0119874",
+        "plex": {
+          "guid": "5d776830961905001eb930fe",
+          "slug": "the-peacemaker"
+        },
+        "slug": "the-peacemaker-1997",
+        "tmdb": 6623,
+        "trakt": 3708
+      },
+      "year": 1997,
+      "title": "The Peacemaker"
+    }
+  },
+  {
     "rated_at": "2020-07-26T00:00:00.000Z",
     "rating": 7,
     "type": "movie",
@@ -26502,25 +26540,6 @@
       },
       "year": 1999,
       "title": "eXistenZ"
-    }
-  },
-  {
-    "rated_at": "2020-07-26T00:00:00.000Z",
-    "rating": 6,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0119874",
-        "plex": {
-          "guid": "5d776830961905001eb930fe",
-          "slug": "the-peacemaker"
-        },
-        "slug": "the-peacemaker-1997",
-        "tmdb": 6623,
-        "trakt": 3708
-      },
-      "year": 1997,
-      "title": "The Peacemaker"
     }
   },
   {
@@ -26771,6 +26790,25 @@
     }
   },
   {
+    "rated_at": "2020-07-05T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2283362",
+        "plex": {
+          "guid": "5d776bc9fb0d55001f572a9f",
+          "slug": "jumanji-welcome-to-the-jungle"
+        },
+        "slug": "jumanji-welcome-to-the-jungle-2017",
+        "tmdb": 353486,
+        "trakt": 222254
+      },
+      "year": 2017,
+      "title": "Jumanji: Welcome to the Jungle"
+    }
+  },
+  {
     "rated_at": "2020-07-05T00:00:00.000Z",
     "rating": 7,
     "type": "movie",
@@ -26787,25 +26825,6 @@
       },
       "year": 2019,
       "title": "Jumanji: The Next Level"
-    }
-  },
-  {
-    "rated_at": "2020-07-05T00:00:00.000Z",
-    "rating": 8,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt2283362",
-        "plex": {
-          "guid": "5d776bc9fb0d55001f572a9f",
-          "slug": "jumanji-welcome-to-the-jungle"
-        },
-        "slug": "jumanji-welcome-to-the-jungle-2017",
-        "tmdb": 353486,
-        "trakt": 222254
-      },
-      "year": 2017,
-      "title": "Jumanji: Welcome to the Jungle"
     }
   },
   {
@@ -27284,7 +27303,7 @@
     }
   },
   {
-    "rated_at": "2020-05-11T00:00:00.000Z",
+    "rated_at": "2020-05-11T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -27303,7 +27322,7 @@
     }
   },
   {
-    "rated_at": "2020-05-11T00:00:00.000Z",
+    "rated_at": "2020-05-11T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -29222,7 +29241,7 @@
     }
   },
   {
-    "rated_at": "2019-11-11T00:00:00.000Z",
+    "rated_at": "2019-11-11T23:59:59.000Z",
     "rating": 7,
     "type": "movie",
     "movie": {
@@ -29944,7 +29963,7 @@
     }
   },
   {
-    "rated_at": "2019-07-08T00:00:00.000Z",
+    "rated_at": "2019-07-08T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -30552,7 +30571,7 @@
     }
   },
   {
-    "rated_at": "2019-04-13T00:00:00.000Z",
+    "rated_at": "2019-04-13T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -30571,7 +30590,7 @@
     }
   },
   {
-    "rated_at": "2019-04-13T00:00:00.000Z",
+    "rated_at": "2019-04-13T23:59:59.000Z",
     "rating": 9,
     "type": "movie",
     "movie": {
@@ -30647,6 +30666,25 @@
     }
   },
   {
+    "rated_at": "2019-04-09T23:59:59.000Z",
+    "rating": 9,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0119396",
+        "plex": {
+          "guid": "5d7768245af944001f1f627e",
+          "slug": "jackie-brown"
+        },
+        "slug": "jackie-brown-1997",
+        "tmdb": 184,
+        "trakt": 148
+      },
+      "year": 1997,
+      "title": "Jackie Brown"
+    }
+  },
+  {
     "rated_at": "2019-04-09T00:00:00.000Z",
     "rating": 7,
     "type": "movie",
@@ -30682,25 +30720,6 @@
       },
       "year": 2018,
       "title": "First Reformed"
-    }
-  },
-  {
-    "rated_at": "2019-04-09T00:00:00.000Z",
-    "rating": 9,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0119396",
-        "plex": {
-          "guid": "5d7768245af944001f1f627e",
-          "slug": "jackie-brown"
-        },
-        "slug": "jackie-brown-1997",
-        "tmdb": 184,
-        "trakt": 148
-      },
-      "year": 1997,
-      "title": "Jackie Brown"
     }
   },
   {
@@ -31312,6 +31331,25 @@
     }
   },
   {
+    "rated_at": "2019-01-27T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0106856",
+        "plex": {
+          "guid": "5d77686a0ab244002006d519",
+          "slug": "falling-down"
+        },
+        "slug": "falling-down-1993",
+        "tmdb": 37094,
+        "trakt": 23678
+      },
+      "year": 1993,
+      "title": "Falling Down"
+    }
+  },
+  {
     "rated_at": "2019-01-27T00:00:00.000Z",
     "rating": 6,
     "type": "movie",
@@ -31350,25 +31388,6 @@
     }
   },
   {
-    "rated_at": "2019-01-27T00:00:00.000Z",
-    "rating": 8,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0106856",
-        "plex": {
-          "guid": "5d77686a0ab244002006d519",
-          "slug": "falling-down"
-        },
-        "slug": "falling-down-1993",
-        "tmdb": 37094,
-        "trakt": 23678
-      },
-      "year": 1993,
-      "title": "Falling Down"
-    }
-  },
-  {
     "rated_at": "2019-01-23T00:00:00.000Z",
     "rating": 6,
     "type": "movie",
@@ -31404,6 +31423,44 @@
       },
       "year": 2019,
       "title": "Fyre Fraud"
+    }
+  },
+  {
+    "rated_at": "2019-01-17T23:59:59.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2798920",
+        "plex": {
+          "guid": "5d776b3a7a53e9001e71e9de",
+          "slug": "annihilation"
+        },
+        "slug": "annihilation-2018",
+        "tmdb": 300668,
+        "trakt": 220563
+      },
+      "year": 2018,
+      "title": "Annihilation"
+    }
+  },
+  {
+    "rated_at": "2019-01-17T23:59:59.000Z",
+    "rating": 8,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2704998",
+        "plex": {
+          "guid": "5d776cbd594b2b001e6fc3e4",
+          "slug": "game-night"
+        },
+        "slug": "game-night-2018",
+        "tmdb": 445571,
+        "trakt": 293963
+      },
+      "year": 2018,
+      "title": "Game Night"
     }
   },
   {
@@ -31461,44 +31518,6 @@
       },
       "year": 2018,
       "title": "Crazy Rich Asians"
-    }
-  },
-  {
-    "rated_at": "2019-01-17T00:00:00.000Z",
-    "rating": 6,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt2798920",
-        "plex": {
-          "guid": "5d776b3a7a53e9001e71e9de",
-          "slug": "annihilation"
-        },
-        "slug": "annihilation-2018",
-        "tmdb": 300668,
-        "trakt": 220563
-      },
-      "year": 2018,
-      "title": "Annihilation"
-    }
-  },
-  {
-    "rated_at": "2019-01-17T00:00:00.000Z",
-    "rating": 8,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt2704998",
-        "plex": {
-          "guid": "5d776cbd594b2b001e6fc3e4",
-          "slug": "game-night"
-        },
-        "slug": "game-night-2018",
-        "tmdb": 445571,
-        "trakt": 293963
-      },
-      "year": 2018,
-      "title": "Game Night"
     }
   },
   {
@@ -32490,6 +32509,25 @@
     }
   },
   {
+    "rated_at": "2018-08-03T23:59:59.000Z",
+    "rating": 7,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0155267",
+        "plex": {
+          "guid": "5d78b9a781ba41001fb65784",
+          "slug": "the-thomas-crown-affair-1999"
+        },
+        "slug": "the-thomas-crown-affair-1999",
+        "tmdb": 913,
+        "trakt": 756
+      },
+      "year": 1999,
+      "title": "The Thomas Crown Affair"
+    }
+  },
+  {
     "rated_at": "2018-08-03T00:00:00.000Z",
     "rating": 5,
     "type": "movie",
@@ -32506,25 +32544,6 @@
       },
       "year": 2018,
       "title": "Disobedience"
-    }
-  },
-  {
-    "rated_at": "2018-08-03T00:00:00.000Z",
-    "rating": 7,
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt0155267",
-        "plex": {
-          "guid": "5d78b9a781ba41001fb65784",
-          "slug": "the-thomas-crown-affair-1999"
-        },
-        "slug": "the-thomas-crown-affair-1999",
-        "tmdb": 913,
-        "trakt": 756
-      },
-      "year": 1999,
-      "title": "The Thomas Crown Affair"
     }
   },
   {
@@ -33269,7 +33288,7 @@
     }
   },
   {
-    "rated_at": "2018-02-28T00:00:00.000Z",
+    "rated_at": "2018-02-28T23:59:59.000Z",
     "rating": 7,
     "type": "movie",
     "movie": {
@@ -33744,7 +33763,7 @@
     }
   },
   {
-    "rated_at": "2018-01-22T00:00:00.000Z",
+    "rated_at": "2018-01-22T23:59:59.000Z",
     "rating": 8,
     "type": "movie",
     "movie": {
@@ -80114,11 +80133,11 @@
           "guid": "5d776836103a2d001f568107",
           "slug": "blood-simple"
         },
-        "slug": "blood-simple-1985",
+        "slug": "blood-simple-1984",
         "tmdb": 11368,
         "trakt": 6464
       },
-      "year": 1985,
+      "year": 1984,
       "title": "Blood Simple"
     }
   },
