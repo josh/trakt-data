@@ -18,16 +18,67 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 4,
+      "completed": 5,
       "hidden": 0,
-      "last_watched_at": "2026-10-08T08:20:00.000Z",
+      "last_watched_at": "2026-10-08T09:19:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 4,
+        "play_count": 5,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt42934708",
+          "plex": {
+            "guid": "69e3e6fb2318f1300db9d345"
+          },
+          "tmdb": 7370853,
+          "tvdb": 11732474,
+          "trakt": 14235599
+        },
+        "title": "They Make a Noise Like Feathers",
+        "votes": 966,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/235/599/screenshots/medium/c98b115b35.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8.477225303649902,
+        "season": 1,
+        "runtime": 55,
+        "overview": "Alice has one hour to get Catherine to trust her.",
+        "released": "2026-08-17",
+        "number_abs": 6,
+        "updated_at": "2026-10-07T21:35:52.000Z",
+        "first_aired": "2026-08-17T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 25,
+        "during_credits": false,
+        "original_title": "They Make a Noise Like Feathers",
+        "available_translations": [
+          "cs",
+          "da",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sv",
+          "tr",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-17T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt42934615",
           "plex": {
@@ -77,57 +128,6 @@
           "zh"
         ],
         "effective_release_date": "2026-08-10T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt42934503",
-          "plex": {
-            "guid": "6a29f0e6965dfb4d506b2003"
-          },
-          "tmdb": 7370854,
-          "tvdb": 11732472,
-          "trakt": 14235600
-        },
-        "title": "Flash Flood",
-        "votes": 873,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/235/600/screenshots/medium/40080e6c48.jpg.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 8.113402366638184,
-        "season": 1,
-        "runtime": 55,
-        "overview": "Alice and Danny pursue a lead out of town. Catherine assumes a new identity.",
-        "released": "2026-08-03",
-        "number_abs": 4,
-        "updated_at": "2026-10-08T03:46:48.000Z",
-        "first_aired": "2026-08-03T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 13,
-        "during_credits": false,
-        "original_title": "Flash Flood",
-        "available_translations": [
-          "cs",
-          "da",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sv",
-          "tr",
-          "zh"
-        ],
-        "effective_release_date": "2026-08-03T07:00:00.000Z"
       }
     }
   },
@@ -393,20 +393,20 @@
           "trakt": 14143106
         },
         "title": "Riches of Embarrassment",
-        "votes": 1639,
+        "votes": 1640,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/106/screenshots/medium/160fcbb0e4.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.9646124839782715,
+        "rating": 7.964024543762207,
         "season": 4,
         "runtime": 48,
         "overview": "The ladies face off against Chelsea. Alice feels the pressure. Rebecca navigates a complicated dynamic.",
         "released": "2026-09-02",
         "number_abs": 39,
-        "updated_at": "2026-10-08T00:36:53.000Z",
+        "updated_at": "2026-10-08T08:57:16.000Z",
         "first_aired": "2026-09-02T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -1277,20 +1277,20 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 2235,
+        "votes": 2236,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/272/169/screenshots/medium/7e3eb4cf99.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.225502967834473,
+        "rating": 8.224061012268066,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-10-08T04:55:16.000Z",
+        "updated_at": "2026-10-08T09:09:42.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1361,7 +1361,7 @@
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
         "released": "2025-03-27",
         "number_abs": 24,
-        "updated_at": "2026-10-07T16:42:21.000Z",
+        "updated_at": "2026-10-08T08:47:12.000Z",
         "first_aired": "2025-03-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1773,7 +1773,7 @@
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-10-07T22:41:03.000Z",
+        "updated_at": "2026-10-08T08:31:03.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
