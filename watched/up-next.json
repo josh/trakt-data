@@ -272,7 +272,7 @@
       "last_watched_at": "2026-09-20T08:20:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 336,
+        "play_count": 337,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -1416,6 +1416,104 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt15557874",
+        "plex": {
+          "guid": "639389aee1b8c7ff30756ad8",
+          "slug": "the-traitors-us"
+        },
+        "slug": "the-traitors-2023",
+        "tmdb": 215943,
+        "tvdb": 428163,
+        "trakt": 200623
+      },
+      "year": 2023,
+      "title": "The Traitors",
+      "aired_episodes": 51
+    },
+    "progress": {
+      "aired": 51,
+      "completed": 1,
+      "hidden": 0,
+      "last_watched_at": "2025-02-11T05:30:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 1,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35287185",
+          "plex": {
+            "guid": "67640ef3d8f0cfbfcf40a3f0"
+          },
+          "tmdb": 5844515,
+          "tvdb": 10773900,
+          "trakt": 12633215
+        },
+        "title": "Til Death Us Do Part",
+        "votes": 158,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/633/215/screenshots/medium/4b3fc163b1.jpg.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 7.822784900665283,
+        "season": 3,
+        "runtime": 66,
+        "overview": "The Traitors must murder face-to-face in the most dramatic send-off the castle has ever seen.",
+        "released": "2025-02-07",
+        "number_abs": 30,
+        "updated_at": "2026-10-08T02:32:16.000Z",
+        "first_aired": "2025-02-07T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Til Death Us Do Part",
+        "available_translations": [],
+        "effective_release_date": "2025-02-07T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35200996",
+          "plex": {
+            "guid": "67640ef3d8f0cfbfcf40a3f2"
+          },
+          "tmdb": 5844514,
+          "tvdb": 10773898,
+          "trakt": 12633214
+        },
+        "title": "A Dysfunctional Family",
+        "votes": 169,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/633/214/screenshots/medium/5283a69040.jpg.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8.065089225769043,
+        "season": 3,
+        "runtime": 62,
+        "overview": "With tensions high, the Traitors must still work together; two dangerous Faithfuls hatch a plan.",
+        "released": "2025-01-31",
+        "number_abs": 29,
+        "updated_at": "2026-10-07T10:25:43.000Z",
+        "first_aired": "2025-01-31T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "A Dysfunctional Family",
+        "available_translations": [],
+        "effective_release_date": "2025-01-31T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt13111078",
         "plex": {
           "guid": "62ac863c44b73ea95829962c",
@@ -1437,7 +1535,7 @@
       "last_watched_at": "2025-01-23T01:32:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 16,
+        "play_count": 22,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -1886,6 +1984,110 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt8819906",
+        "plex": {
+          "guid": "5d9c09243c3f87001f35cd02",
+          "slug": "love-island-us"
+        },
+        "slug": "love-island-usa",
+        "tmdb": 90521,
+        "tvdb": 364107,
+        "trakt": 147958
+      },
+      "year": 2019,
+      "title": "Love Island USA",
+      "aired_episodes": 270
+    },
+    "progress": {
+      "aired": 270,
+      "completed": 12,
+      "hidden": 0,
+      "last_watched_at": "2024-07-27T18:48:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 12,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "667589ca126d91692a4536f0"
+          },
+          "tmdb": 5428094,
+          "tvdb": 10548096,
+          "trakt": 12028231
+        },
+        "title": "Episode 13",
+        "votes": 51,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/028/231/screenshots/medium/15bc1947f9.jpg.webp"
+          ]
+        },
+        "number": 13,
+        "rating": 7.490200042724609,
+        "season": 6,
+        "runtime": 59,
+        "overview": "One Islander chooses whether to stay or leave; the girls are left to defend their decision.",
+        "released": "2024-06-25",
+        "number_abs": 173,
+        "updated_at": "2026-10-07T12:36:23.000Z",
+        "first_aired": "2024-06-25T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [
+          "en",
+          "zh"
+        ],
+        "effective_release_date": "2024-06-25T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "666d8b8e2efe1adffdc387fa"
+          },
+          "tmdb": 5416642,
+          "tvdb": 10548095,
+          "trakt": 12005615
+        },
+        "title": "Episode 12",
+        "votes": 53,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/005/615/screenshots/medium/ae34acdaae.jpg.webp"
+          ]
+        },
+        "number": 12,
+        "rating": 7.792449951171875,
+        "season": 6,
+        "runtime": 75,
+        "overview": "The couples compete in \"Burning Love\"; two Islanders are eliminated in a dramatic dumping.",
+        "released": "2024-06-24",
+        "number_abs": 172,
+        "updated_at": "2026-10-07T12:36:23.000Z",
+        "first_aired": "2024-06-24T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [
+          "en",
+          "zh"
+        ],
+        "effective_release_date": "2024-06-24T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt1190634",
         "plex": {
           "guid": "5d9c08f246115600200ae0f6",
@@ -1922,20 +2124,20 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2346,
+        "votes": 2347,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/138/429/screenshots/medium/14379489c2.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.914748668670654,
+        "rating": 7.914784908294678,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-10-08T02:28:42.000Z",
+        "updated_at": "2026-10-08T05:59:24.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2247,7 +2449,7 @@
       "last_watched_at": "2024-06-27T18:10:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 16,
+        "play_count": 18,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -2359,7 +2561,7 @@
       "last_watched_at": "2024-06-17T05:54:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 55,
+        "play_count": 66,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -2947,10 +3149,10 @@
       "aired": 43,
       "completed": 18,
       "hidden": 0,
-      "last_watched_at": "2019-05-17T23:40:00.000Z",
+      "last_watched_at": "2023-12-13T22:27:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 26,
+        "play_count": 36,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -3089,7 +3291,7 @@
       "last_watched_at": "2023-11-16T08:10:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 50,
+        "play_count": 60,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -3818,20 +4020,20 @@
           "trakt": 5454497
         },
         "title": "Ever After",
-        "votes": 796,
+        "votes": 785,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/005/454/497/screenshots/medium/4ef1883aa8.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 7.283919811248779,
+        "rating": 7.357961654663086,
         "season": 1,
         "runtime": 56,
         "overview": "It\u2019s time for everyone to cross the threshold and face their demons, including Masha. But will they make it to other side?",
         "released": "2021-09-22",
         "number_abs": 8,
-        "updated_at": "2026-10-07T14:38:54.000Z",
+        "updated_at": "2026-10-08T05:55:57.000Z",
         "first_aired": "2021-09-22T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
