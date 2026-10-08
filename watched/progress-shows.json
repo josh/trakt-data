@@ -18,62 +18,10 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 3,
-      "last_watched_at": "2026-10-08T07:22:00.000Z",
+      "completed": 4,
+      "last_watched_at": "2026-10-08T08:20:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt39340229",
-          "plex": {
-            "guid": "6a29f0e6965dfb4d506b1ffe"
-          },
-          "tmdb": 7370855,
-          "tvdb": 11732471,
-          "trakt": 14235601
-        },
-        "title": "Memory Distortion",
-        "votes": 696,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/235/601/screenshots/medium/a8c8000c7b.jpg.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 8.173851013183594,
-        "season": 1,
-        "runtime": 53,
-        "overview": "Alice\u2019s work on the case forces her to face her past. Catherine heads home.",
-        "released": "2026-07-27",
-        "number_abs": 3,
-        "updated_at": "2026-10-07T20:59:04.000Z",
-        "first_aired": "2026-07-27T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 10,
-        "during_credits": false,
-        "original_title": "Memory Distortion",
-        "available_translations": [
-          "cs",
-          "da",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "ko",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sv",
-          "tr",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-27T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt42934503",
           "plex": {
@@ -124,21 +72,72 @@
         ],
         "effective_release_date": "2026-08-03T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt42934615",
+          "plex": {
+            "guid": "6a29f0e6965dfb4d506b1ff9"
+          },
+          "tmdb": 7370856,
+          "tvdb": 11732473,
+          "trakt": 14235602
+        },
+        "title": "Pick a Sticker",
+        "votes": 846,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/235/602/screenshots/medium/32686ebf58.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 8.299054145812988,
+        "season": 1,
+        "runtime": 56,
+        "overview": "Alice and Catherine take extreme measures to get what they want.",
+        "released": "2026-08-10",
+        "number_abs": 5,
+        "updated_at": "2026-10-07T21:35:40.000Z",
+        "first_aired": "2026-08-10T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 14,
+        "during_credits": false,
+        "original_title": "Pick a Sticker",
+        "available_translations": [
+          "cs",
+          "da",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sv",
+          "tr",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-10T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 3,
-        "minutes_watched": 156,
-        "minutes_left": 264
+        "play_count": 4,
+        "minutes_watched": 211,
+        "minutes_left": 209
       },
       "seasons": [
         {
           "number": 1,
           "title": "Season 1",
           "aired": 8,
-          "completed": 3,
+          "completed": 4,
           "stats": {
-            "play_count": 3,
-            "minutes_watched": 156,
-            "minutes_left": 264
+            "play_count": 4,
+            "minutes_watched": 211,
+            "minutes_left": 209
           },
           "episodes": [
             {
@@ -170,11 +169,11 @@
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-10-08T08:20:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 55
               }
             },
             {
@@ -252,20 +251,20 @@
           "trakt": 14132655
         },
         "title": "Dirt and Stars",
-        "votes": 2193,
+        "votes": 2196,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/132/655/screenshots/medium/acc2fa34db.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.095759391784668,
+        "rating": 8.091529846191406,
         "season": 1,
         "runtime": 57,
         "overview": "As John and Hal draw closer to the truth, John comes to an unexpected understanding with Sheriff Kane... just as a chilling new discovery emerges.",
         "released": "2026-10-05",
         "number_abs": 8,
-        "updated_at": "2026-10-08T06:53:25.000Z",
+        "updated_at": "2026-10-08T08:03:20.000Z",
         "first_aired": "2026-10-05T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -21486,20 +21485,20 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 913,
+        "votes": 914,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/239/242/screenshots/medium/372f930f25.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.268345832824707,
+        "rating": 8.269146919250488,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
         "released": "2026-09-16",
         "number_abs": 31,
-        "updated_at": "2026-10-08T00:08:03.000Z",
+        "updated_at": "2026-10-08T08:09:31.000Z",
         "first_aired": "2026-09-16T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -22158,7 +22157,7 @@
         "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
         "released": "2025-10-23",
         "number_abs": 20,
-        "updated_at": "2026-10-08T02:50:45.000Z",
+        "updated_at": "2026-10-08T08:02:16.000Z",
         "first_aired": "2025-10-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -31980,7 +31979,7 @@
         "overview": "Nathan makes a big bet.",
         "released": "2025-05-26",
         "number_abs": 12,
-        "updated_at": "2026-10-07T07:49:38.000Z",
+        "updated_at": "2026-10-08T07:51:59.000Z",
         "first_aired": "2025-05-26T02:30:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -39060,20 +39059,20 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1536,
+        "votes": 1537,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/228/481/screenshots/medium/518a38f94b.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.498046875,
+        "rating": 8.498373031616211,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-10-07T23:16:39.000Z",
+        "updated_at": "2026-10-08T07:13:40.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -40432,7 +40431,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-10-07T07:30:14.000Z",
+        "updated_at": "2026-10-08T07:31:03.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -50762,20 +50761,20 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 1007,
+        "votes": 1008,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.783515453338623,
+        "rating": 7.781745910644531,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-10-08T06:31:05.000Z",
+        "updated_at": "2026-10-08T08:07:11.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -53479,7 +53478,7 @@
         "overview": "The POWs are marched across Germany\u2014and Rosie makes a gruesome discovery\u2014as the war comes to its conclusion.",
         "released": "2024-03-15",
         "number_abs": 9,
-        "updated_at": "2026-10-07T19:24:23.000Z",
+        "updated_at": "2026-10-08T07:23:15.000Z",
         "first_aired": "2024-03-15T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -101021,7 +101020,7 @@
         "overview": "With World War II imminent, Sarah makes a sacrifice for Nullah. Drover realizes what matters most, but bombs start falling on Darwin.",
         "released": "2023-11-26",
         "number_abs": 6,
-        "updated_at": "2026-10-07T07:31:32.000Z",
+        "updated_at": "2026-10-08T07:37:09.000Z",
         "first_aired": "2023-11-26T01:01:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -111159,7 +111158,7 @@
         "overview": "Sheila uses aerobics to foster connection and healing.",
         "released": "2023-09-27",
         "number_abs": 30,
-        "updated_at": "2026-10-07T08:03:05.000Z",
+        "updated_at": "2026-10-08T08:03:44.000Z",
         "first_aired": "2023-09-27T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -116502,7 +116501,7 @@
         "overview": "Robert flexes his negotiating skills to buy a used car he's always wanted. Of course, the first thing he does is tear it apart and rebuilt it. It's a journey from the past into the future \u2014 a fitting end to his long strange trip into car restoration.",
         "released": "2023-07-06",
         "number_abs": 6,
-        "updated_at": "2026-10-07T07:54:31.000Z",
+        "updated_at": "2026-10-08T07:55:49.000Z",
         "first_aired": "2023-07-06T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -125836,7 +125835,7 @@
         "overview": "In the series finale, Donna celebrates a milestone with her closest allies. Cameron contemplates saying goodbye as Joe confronts an uncertain future.",
         "released": "2017-10-15",
         "number_abs": 40,
-        "updated_at": "2026-10-07T07:22:57.000Z",
+        "updated_at": "2026-10-08T07:23:15.000Z",
         "first_aired": "2017-10-15T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -127410,7 +127409,7 @@
         "overview": "You can't give your customers everything, but you can make them believe that what you're giving them is all they'll ever need.",
         "released": "2023-04-07",
         "number_abs": 10,
-        "updated_at": "2026-10-07T07:54:20.000Z",
+        "updated_at": "2026-10-08T07:56:53.000Z",
         "first_aired": "2023-04-07T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -128260,7 +128259,7 @@
         "overview": "Michael exposes shocking information that impacts everyone. A startling revelation pushes Fia to make a life-altering decision. Big Mo proposes a deal with Jimmy Baxter. Gina manipulates her father Carmine to make a move of her own.",
         "released": "2023-03-17",
         "number_abs": 20,
-        "updated_at": "2026-10-07T07:23:33.000Z",
+        "updated_at": "2026-10-08T07:24:39.000Z",
         "first_aired": "2023-03-20T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -129942,7 +129941,7 @@
         "overview": "After over a decade apart, a devastating event reunites the former President and First Lady of Country Music for one final tour. Will country music\u2019s greatest power couple find clarity and grace before they face their final curtain? Series finale.",
         "released": "2023-01-06",
         "number_abs": 6,
-        "updated_at": "2026-10-07T07:39:45.000Z",
+        "updated_at": "2026-10-08T07:43:32.000Z",
         "first_aired": "2023-01-09T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -130661,20 +130660,20 @@
           "trakt": 6973553
         },
         "title": "Happy Trails",
-        "votes": 2657,
+        "votes": 2646,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/006/973/553/screenshots/medium/401804c3c3.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 7.973278045654297,
+        "rating": 7.999244213104248,
         "season": 1,
         "runtime": 43,
         "overview": "It's all hands on deck as tensions between Dwight's crew and Waltrip escalate past the point of no return. Elsewhere, a flashback reveals what sent Dwight to prison 25 years ago.",
         "released": "2023-01-08",
         "number_abs": 9,
-        "updated_at": "2026-10-07T18:43:43.000Z",
+        "updated_at": "2026-10-08T07:59:13.000Z",
         "first_aired": "2023-01-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -135211,7 +135210,7 @@
         "overview": "Jen finds herself in trouble with the law and struggles to pick up the pieces of her life.",
         "released": "2022-10-13",
         "number_abs": 9,
-        "updated_at": "2026-10-07T07:36:33.000Z",
+        "updated_at": "2026-10-08T07:38:18.000Z",
         "first_aired": "2022-10-13T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -148503,7 +148502,7 @@
         "overview": "As another fierce season comes to a close, Mercedes and Red Bull face off in what may be the biggest winner-takes-all race of a generation.",
         "released": "2022-03-11",
         "number_abs": 40,
-        "updated_at": "2026-10-07T08:10:52.000Z",
+        "updated_at": "2026-10-08T08:11:53.000Z",
         "first_aired": "2022-03-11T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -156865,7 +156864,7 @@
         "overview": "In their search for mind and body reinvigoration, nine people from various walks of life arrive at Zauberwald, an Alpine retreat, where they are greeted by the enigmatic wellness guru, Masha.",
         "released": "2025-05-21",
         "number_abs": 9,
-        "updated_at": "2026-10-07T07:45:31.000Z",
+        "updated_at": "2026-10-08T07:47:03.000Z",
         "first_aired": "2025-05-21T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -164674,7 +164673,7 @@
         "overview": "Matt LeBlanc, Chris Harris and Rory Reid test the latest SUVs through the medium of horse trialling. Chris also gets an explosive drive in the new Alpine A110, while Jason Manford is the studio guest.",
         "released": "2018-04-01",
         "number_abs": 190,
-        "updated_at": "2026-10-07T07:18:28.000Z",
+        "updated_at": "2026-10-08T07:36:45.000Z",
         "first_aired": "2018-04-01T19:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -164712,7 +164711,7 @@
         "overview": "Matt LeBlanc and Chris Harris head to Norway in the latest estate cars from Porsche and Ferrari, while Rory Reid and Sabine Schmitz aim to create Britain\u2019s newest mountain with the help of a tiny Suzuki. James Marsden is the studio guest.",
         "released": "2019-02-17",
         "number_abs": 191,
-        "updated_at": "2026-10-07T08:04:32.000Z",
+        "updated_at": "2026-10-08T08:07:37.000Z",
         "first_aired": "2019-02-17T20:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -191339,7 +191338,7 @@
         "overview": "Facing its potential destruction, the partners must go all in to save the firm.",
         "released": "2019-09-26",
         "number_abs": 134,
-        "updated_at": "2026-10-07T07:20:06.000Z",
+        "updated_at": "2026-10-08T07:22:04.000Z",
         "first_aired": "2019-09-26T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -197969,7 +197968,7 @@
         "overview": "Before the Doom Patrol can answer a call to save the world from The Candlemaker in the season finale, they must first battle long-forgotten imaginary friends.",
         "released": "2020-08-06",
         "number_abs": 24,
-        "updated_at": "2026-10-07T07:25:18.000Z",
+        "updated_at": "2026-10-08T07:27:49.000Z",
         "first_aired": "2020-08-06T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -201314,7 +201313,7 @@
         "overview": "The trial comes to an end, but with unexpected consequences.",
         "released": "2020-05-29",
         "number_abs": 8,
-        "updated_at": "2026-10-07T20:35:17.000Z",
+        "updated_at": "2026-10-08T07:52:55.000Z",
         "first_aired": "2020-05-29T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -201939,7 +201938,7 @@
         "overview": "For Justin, celebrating tradition includes some enchanting etiquette at a formal dinner party and breaking illusions out of a birthday pi\u00f1ata.",
         "released": "2020-05-15",
         "number_abs": 19,
-        "updated_at": "2026-10-07T07:25:53.000Z",
+        "updated_at": "2026-10-08T07:29:02.000Z",
         "first_aired": "2020-05-15T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -203626,7 +203625,7 @@
         "overview": null,
         "released": null,
         "number_abs": 15,
-        "updated_at": "2026-10-06T07:39:14.000Z",
+        "updated_at": "2026-10-08T07:38:19.000Z",
         "first_aired": "2020-04-22T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -204391,7 +204390,7 @@
         "overview": "After his campaign\u2019s less than favorable voter results, Jasiel Correia voluntarily steps from his seat. And the only thing that is certain for now is both he and Fall River\u2019s futures will change.",
         "released": null,
         "number_abs": 10,
-        "updated_at": "2026-10-06T07:39:52.000Z",
+        "updated_at": "2026-10-08T07:38:53.000Z",
         "first_aired": "2020-04-15T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -220965,7 +220964,7 @@
         "overview": "Extra Gear kicks off with an exclusive behind-the-scenes look at Rory's Suzuki Ignis film. Presenter, journalist and self-confessed 'car pervert' Jonny Smith joins Rory in studio along with Off Road camera specialist Duncan Barbour to talk all things four-wheel drive and family estate cars. Chris gets another chance to drive the Porsche Panamera Turbo but this time it is around the Top Gear test track and it is the S E-Hybrid.",
         "released": "2019-02-17",
         "number_abs": 20,
-        "updated_at": "2026-10-07T05:01:47.000Z",
+        "updated_at": "2026-10-08T07:38:14.000Z",
         "first_aired": "2019-02-17T23:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -228513,7 +228512,7 @@
         "overview": "Peter has little time left to make a plea deal before the jury comes back with a verdict. Meanwhile, Alicia must decide whether her future is with Peter or with Jason, and she channels the ghost of Will Gardner to help make a decision.",
         "released": "2016-05-09",
         "number_abs": 156,
-        "updated_at": "2026-10-07T08:03:10.000Z",
+        "updated_at": "2026-10-08T08:10:46.000Z",
         "first_aired": "2016-05-09T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -251695,7 +251694,7 @@
         "overview": "Shawn and Gus help Detective Lassiter enlist the help of Henry and Woody to solve the murder of a real estate executive. Meanwhile, Shawn struggles with a life decision.",
         "released": "2014-03-27",
         "number_abs": 120,
-        "updated_at": "2026-10-07T08:16:22.000Z",
+        "updated_at": "2026-10-08T08:16:44.000Z",
         "first_aired": "2014-03-27T00:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -260323,7 +260322,7 @@
         "overview": "The past becomes the present when one half of the Darling Mermaid Darlings\u2019 arch rivals, the Aquadolls, is killed. In order to find the murderer, the Darling Mermaid Darlings must come out of retirement with Ned as their manager and Olive as their stylist. Chuck, of course, cannot participate. Olive gets close to Sid, with whom she shares her experiences in gender discrimination, what with him being a male synchronized swimmer and her attending Vassar on a jockey scholarship. But was Sid jealous enough of the headliners to commit murder?",
         "released": "2009-06-14",
         "number_abs": 22,
-        "updated_at": "2026-10-07T07:39:16.000Z",
+        "updated_at": "2026-10-08T07:42:00.000Z",
         "first_aired": "2009-06-14T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
