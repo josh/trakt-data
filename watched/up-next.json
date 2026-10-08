@@ -272,7 +272,7 @@
       "last_watched_at": "2026-09-20T08:20:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 323,
+        "play_count": 335,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -300,7 +300,7 @@
         "overview": "Mac and Charlie drink the proverbial Kool-Aid while trying to uncover the mystery of why 'Gilligan's Island' never made it to 100 episodes.",
         "released": "2026-09-22",
         "number_abs": 184,
-        "updated_at": "2026-10-07T19:36:22.000Z",
+        "updated_at": "2026-10-08T00:01:25.000Z",
         "first_aired": "2026-09-22T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -353,6 +353,168 @@
           "zh"
         ],
         "effective_release_date": "2026-09-15T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt10986410",
+        "plex": {
+          "guid": "5e204251072b9e003ca5c140",
+          "slug": "ted-lasso"
+        },
+        "slug": "ted-lasso",
+        "tmdb": 97546,
+        "tvdb": 383203,
+        "trakt": 162639
+      },
+      "year": 2020,
+      "title": "Ted Lasso",
+      "aired_episodes": 44
+    },
+    "progress": {
+      "aired": 44,
+      "completed": 38,
+      "hidden": 0,
+      "last_watched_at": "2026-09-14T02:34:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 48,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt38494468",
+          "plex": {
+            "guid": "68d44289c012d1bb4240c983"
+          },
+          "tmdb": 7203309,
+          "tvdb": 11767185,
+          "trakt": 14143106
+        },
+        "title": "Riches of Embarrassment",
+        "votes": 1638,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/143/106/screenshots/medium/160fcbb0e4.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.964591026306152,
+        "season": 4,
+        "runtime": 48,
+        "overview": "The ladies face off against Chelsea. Alice feels the pressure. Rebecca navigates a complicated dynamic.",
+        "released": "2026-09-02",
+        "number_abs": 39,
+        "updated_at": "2026-10-08T00:12:12.000Z",
+        "first_aired": "2026-09-02T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 25,
+        "during_credits": false,
+        "original_title": "Riches of Embarrassment",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-02T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt38494466",
+          "plex": {
+            "guid": "68d44288c012d1bb4240c982"
+          },
+          "tmdb": 7203308,
+          "tvdb": 11767184,
+          "trakt": 14143105
+        },
+        "title": "Greyhounds' Day Off",
+        "votes": 1770,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/143/105/screenshots/medium/7851e8ffa4.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.158191680908203,
+        "season": 4,
+        "runtime": 44,
+        "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
+        "released": "2026-08-26",
+        "number_abs": 38,
+        "updated_at": "2026-10-08T00:12:12.000Z",
+        "first_aired": "2026-08-26T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 43,
+        "during_credits": false,
+        "original_title": "Greyhounds' Day Off",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-26T01:00:00.000Z"
       }
     }
   },
@@ -517,7 +679,7 @@
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
         "released": "2026-09-16",
         "number_abs": 31,
-        "updated_at": "2026-10-07T23:01:15.000Z",
+        "updated_at": "2026-10-08T00:08:03.000Z",
         "first_aired": "2026-09-16T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1745,7 +1907,7 @@
       "last_watched_at": "2024-07-18T20:30:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 32,
+        "play_count": 48,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -2498,6 +2660,166 @@
           "zh"
         ],
         "effective_release_date": "2024-03-07T08:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt7203552",
+        "plex": {
+          "guid": "5d9c091effd9ef001e99fd78",
+          "slug": "the-morning-show"
+        },
+        "slug": "the-morning-show",
+        "tmdb": 90282,
+        "tvdb": 361563,
+        "trakt": 145783
+      },
+      "year": 2019,
+      "title": "The Morning Show",
+      "aired_episodes": 40
+    },
+    "progress": {
+      "aired": 40,
+      "completed": 30,
+      "hidden": 0,
+      "last_watched_at": "2023-11-16T08:10:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 40,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt27647157",
+          "plex": {
+            "guid": "668e7f5e1e1baceabaf9680e"
+          },
+          "tmdb": 5468049,
+          "tvdb": 11167947,
+          "trakt": 12100080
+        },
+        "title": "My Roman Empire",
+        "votes": 617,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/100/080/screenshots/medium/1230cf2b41.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.3095622062683105,
+        "season": 4,
+        "runtime": 56,
+        "overview": "As UBN prepares for the 2024 Games in Paris, an unexpected crisis throws the network into chaos.",
+        "released": "2025-09-17",
+        "number_abs": 31,
+        "updated_at": "2026-10-07T13:31:12.000Z",
+        "first_aired": "2025-09-17T01:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 17,
+        "during_credits": false,
+        "original_title": "My Roman Empire",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2025-09-17T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt26921543",
+          "plex": {
+            "guid": "649ee6fb7c6673a743a82fb5"
+          },
+          "tmdb": 4556119,
+          "tvdb": 9875727,
+          "trakt": 10739604
+        },
+        "title": "The Overview Effect",
+        "votes": 823,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/010/739/604/screenshots/medium/3e1abbd94b.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.777642726898193,
+        "season": 3,
+        "runtime": 57,
+        "overview": "The Hyperion-UBA deal comes to a vote. Bradley faces her past as Alex considers her future in the new world order.",
+        "released": "2023-11-08",
+        "number_abs": 30,
+        "updated_at": "2026-10-07T13:31:12.000Z",
+        "first_aired": "2023-11-08T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 14,
+        "during_credits": false,
+        "original_title": "The Overview Effect",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2023-11-08T02:00:00.000Z"
       }
     }
   }
