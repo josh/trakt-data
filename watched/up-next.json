@@ -272,7 +272,7 @@
       "last_watched_at": "2026-09-20T08:20:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 335,
+        "play_count": 336,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -380,7 +380,7 @@
       "last_watched_at": "2026-09-14T02:34:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 51,
+        "play_count": 70,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -901,7 +901,7 @@
       "last_watched_at": "2025-07-22T21:56:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 38,
+        "play_count": 46,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -1090,20 +1090,20 @@
           "trakt": 12855315
         },
         "title": "The Beast in Me",
-        "votes": 2506,
+        "votes": 2507,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/855/315/screenshots/medium/0de6507235.jpg.webp"
           ]
         },
         "number": 10,
-        "rating": 8.207502365112305,
+        "rating": 8.207419395446777,
         "season": 1,
         "runtime": 55,
         "overview": "Kevin takes care of a problem. Maeve spills the tea.",
         "released": "2025-06-01",
         "number_abs": 10,
-        "updated_at": "2026-10-07T20:32:13.000Z",
+        "updated_at": "2026-10-08T03:47:05.000Z",
         "first_aired": "2025-06-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1264,7 +1264,7 @@
       "last_watched_at": "2025-03-28T01:01:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 24,
+        "play_count": 32,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -1580,7 +1580,7 @@
       "last_watched_at": "2025-01-17T08:02:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 20,
+        "play_count": 24,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -1747,7 +1747,7 @@
       "last_watched_at": "2025-01-04T01:34:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 22,
+        "play_count": 30,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -2338,6 +2338,104 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt14674086",
+        "plex": {
+          "guid": "60bba78437cec1002c2a5f63",
+          "slug": "welcome-to-wrexham"
+        },
+        "slug": "welcome-to-wrexham",
+        "tmdb": 126929,
+        "tvdb": 403119,
+        "trakt": 191775
+      },
+      "year": 2022,
+      "title": "Welcome to Wrexham",
+      "aired_episodes": 57
+    },
+    "progress": {
+      "aired": 57,
+      "completed": 41,
+      "hidden": 0,
+      "last_watched_at": "2024-06-17T05:54:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 55,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt32368637",
+          "plex": {
+            "guid": "679a9b0be26892dcd938f861"
+          },
+          "tmdb": 5948526,
+          "tvdb": 11077143,
+          "trakt": 12777769
+        },
+        "title": "All In?",
+        "votes": 299,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/012/777/769/screenshots/medium/fd88054447.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.7424798011779785,
+        "season": 4,
+        "runtime": 43,
+        "overview": "Wrexham AFC enters the ultra-competitive EFL League One while owners Ryan Reynolds and Rob McElhenney confront the financial costs of remaining competitive. Humphrey Ker makes a big commitment.",
+        "released": "2025-05-16",
+        "number_abs": 42,
+        "updated_at": "2026-10-07T20:48:51.000Z",
+        "first_aired": "2025-05-16T02:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "All In?",
+        "available_translations": [],
+        "effective_release_date": "2025-05-16T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt31224611",
+          "plex": {
+            "guid": "66467e5158a2412128ba42b7"
+          },
+          "tmdb": 5348966,
+          "tvdb": 10302917,
+          "trakt": 11874454
+        },
+        "title": "Down to the Wire",
+        "votes": 301,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/874/454/screenshots/medium/a102c9239d.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.956810474395752,
+        "season": 3,
+        "runtime": 43,
+        "overview": "Wrexham AFC's poor away form casts doubt on their chances for promotion, and as the end of the season nears, Rob McElhenney and Ryan Reynolds face some very tough decisions.",
+        "released": "2024-06-14",
+        "number_abs": 41,
+        "updated_at": "2026-10-07T20:48:51.000Z",
+        "first_aired": "2024-06-14T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Down to the Wire",
+        "available_translations": [],
+        "effective_release_date": "2024-06-14T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt16418808",
         "plex": {
           "guid": "62a35be541db86d50abcadfb",
@@ -2534,20 +2632,20 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 1251,
+        "votes": 1252,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/408/830/screenshots/medium/38b26245f8.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.127098083496094,
+        "rating": 8.126996994018555,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-10-07T22:08:16.000Z",
+        "updated_at": "2026-10-08T03:43:30.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2687,7 +2785,7 @@
       "last_watched_at": "2023-11-16T08:10:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 48,
+        "play_count": 50,
         "minutes_left": 0,
         "minutes_watched": 0
       },
@@ -2820,6 +2918,360 @@
           "zh"
         ],
         "effective_release_date": "2023-11-08T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt14761860",
+        "plex": {
+          "guid": "60b212ee99f1fc002d9c933c",
+          "slug": "the-big-door-prize"
+        },
+        "slug": "the-big-door-prize",
+        "tmdb": 194704,
+        "tvdb": 403752,
+        "trakt": 181119
+      },
+      "year": 2023,
+      "title": "The Big Door Prize",
+      "aired_episodes": 20
+    },
+    "progress": {
+      "aired": 20,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2023-05-18T04:33:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 20,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt27435061",
+          "plex": {
+            "guid": "6585a0a10ea75cc2d1adb5fd"
+          },
+          "tmdb": 5016096,
+          "tvdb": 10199358,
+          "trakt": 11222141
+        },
+        "title": "The Next Stage",
+        "votes": 181,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/011/222/141/screenshots/medium/8816afddcf.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.342541217803955,
+        "season": 2,
+        "runtime": 31,
+        "overview": "Hana reveals what she knows about the Morpho, as the rest of the town tries to get to the next stage.",
+        "released": "2024-04-24",
+        "number_abs": 11,
+        "updated_at": "2026-10-07T21:20:07.000Z",
+        "first_aired": "2024-04-24T02:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "The Next Stage",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2024-04-24T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt14764870",
+          "plex": {
+            "guid": "63dfbdd4ed5aed69c6c8ae31"
+          },
+          "tmdb": 4213855,
+          "tvdb": 9696131,
+          "trakt": 7322952
+        },
+        "title": "Deerfest (2)",
+        "votes": 224,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/007/322/952/screenshots/medium/05d67827ae.jpg.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 6.924107074737549,
+        "season": 1,
+        "runtime": 33,
+        "overview": "Father Reuben makes a discovery about Hana. Dusty and Cass contemplate their future. The Morpho reveals a new mystery.",
+        "released": "2023-05-17",
+        "number_abs": 10,
+        "updated_at": "2026-10-07T21:16:52.000Z",
+        "first_aired": "2023-05-17T02:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Deerfest (2)",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2023-05-17T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt11852724",
+        "plex": {
+          "guid": "5f6c8c7c72b269004001b5a7",
+          "slug": "stanley-tucci-searching-for-italy"
+        },
+        "slug": "stanley-tucci-searching-for-italy",
+        "tmdb": 119033,
+        "tvdb": 394655,
+        "trakt": 171855
+      },
+      "year": 2021,
+      "title": "Stanley Tucci: Searching for Italy",
+      "aired_episodes": 14
+    },
+    "progress": {
+      "aired": 14,
+      "completed": 10,
+      "hidden": 0,
+      "last_watched_at": "2022-05-28T02:29:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 13,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt22057952",
+          "plex": {
+            "guid": "633a36739b057fb2ded3406b"
+          },
+          "tmdb": 3997734,
+          "tvdb": 9361646,
+          "trakt": 6785766
+        },
+        "title": "Calabria",
+        "votes": 56,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/006/785/766/screenshots/medium/1acca582bf.jpg.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.571430206298828,
+        "season": 2,
+        "runtime": 41,
+        "overview": "In this episode, Stanley Tucci travels through the Calabria region, discovering the history of this beautiful and troubled place, as well as the history of his own family. Joined by his parents and reunited with Italian relatives, he reflects on the inspiration people draw from Calabria, and why those who leave this region feel compelled to return.",
+        "released": "2022-10-10",
+        "number_abs": 11,
+        "updated_at": "2026-10-07T11:22:49.000Z",
+        "first_aired": "2022-10-10T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "Calabria",
+        "available_translations": [],
+        "effective_release_date": "2022-10-10T01:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt20241902",
+          "plex": {
+            "guid": "6228be0cdf06bd08f297eb3c"
+          },
+          "tmdb": 3581801,
+          "tvdb": 9055855,
+          "trakt": 5961078
+        },
+        "title": "London",
+        "votes": 65,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/005/961/078/screenshots/medium/93addc070a.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.44615364074707,
+        "season": 2,
+        "runtime": 45,
+        "overview": "Stanley sets out to explore how Italian immigration has transformed the food scene in his adopted hometown of London. Forget what you think you know about this city. London is a culinary mecca where Italian food from every region gets a chance to shine. The burrata is so creamy and pasta is so fresh that it may rival Italy itself.  For over a century, Italians here have found inventive ways to create Italian food so good it\u2019s enough to render Stanley speechless.",
+        "released": "2022-05-23",
+        "number_abs": 10,
+        "updated_at": "2026-10-07T11:22:49.000Z",
+        "first_aired": "2022-05-23T01:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "London",
+        "available_translations": [],
+        "effective_release_date": "2022-05-23T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt8760932",
+        "plex": {
+          "guid": "6086e989f5acfd002e1f4bb1",
+          "slug": "nine-perfect-strangers"
+        },
+        "slug": "nine-perfect-strangers",
+        "tmdb": 88989,
+        "tvdb": 376815,
+        "trakt": 158087
+      },
+      "year": 2021,
+      "title": "Nine Perfect Strangers",
+      "aired_episodes": 16
+    },
+    "progress": {
+      "aired": 16,
+      "completed": 8,
+      "hidden": 0,
+      "last_watched_at": "2021-09-23T12:07:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 16,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt20228152",
+          "plex": {
+            "guid": "67efdc0d9a15c0c36de16648"
+          },
+          "tmdb": 6093348,
+          "tvdb": 11065376,
+          "trakt": 10807947
+        },
+        "title": "Zauberwald",
+        "votes": 384,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/010/807/947/screenshots/medium/eef9081206.jpg.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 6.786458492279053,
+        "season": 2,
+        "runtime": 47,
+        "overview": "In their search for mind and body reinvigoration, nine people from various walks of life arrive at Zauberwald, an Alpine retreat, where they are greeted by the enigmatic wellness guru, Masha.",
+        "released": "2025-05-21",
+        "number_abs": 9,
+        "updated_at": "2026-10-07T07:45:31.000Z",
+        "first_aired": "2025-05-21T04:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 3,
+        "during_credits": false,
+        "original_title": "Zauberwald",
+        "available_translations": [],
+        "effective_release_date": "2025-05-21T04:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt12797270",
+          "plex": {
+            "guid": "613a295ca08f01f08315b565"
+          },
+          "tmdb": 3203760,
+          "tvdb": 8436206,
+          "trakt": 5454497
+        },
+        "title": "Ever After",
+        "votes": 796,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/005/454/497/screenshots/medium/4ef1883aa8.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.283919811248779,
+        "season": 1,
+        "runtime": 56,
+        "overview": "It\u2019s time for everyone to cross the threshold and face their demons, including Masha. But will they make it to other side?",
+        "released": "2021-09-22",
+        "number_abs": 8,
+        "updated_at": "2026-10-07T14:38:54.000Z",
+        "first_aired": "2021-09-22T04:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 16,
+        "during_credits": false,
+        "original_title": "Ever After",
+        "available_translations": [],
+        "effective_release_date": "2021-09-22T04:00:00.000Z"
       }
     }
   }
