@@ -18,62 +18,10 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
-      "last_watched_at": "2026-10-06T06:08:00.000Z",
+      "completed": 3,
+      "last_watched_at": "2026-10-08T07:22:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt37543089",
-          "plex": {
-            "guid": "69e3e6fa2318f1300db9d344"
-          },
-          "tmdb": 7370852,
-          "tvdb": 11732470,
-          "trakt": 14235598
-        },
-        "title": "My life had stood - a Loaded Gun",
-        "votes": 953,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/235/598/screenshots/medium/25e45f8d6e.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.984260082244873,
-        "season": 1,
-        "runtime": 53,
-        "overview": "Alice fixates on the case, leading to old habits. Catherine lays her trap.",
-        "released": "2026-07-27",
-        "number_abs": 2,
-        "updated_at": "2026-10-07T21:43:14.000Z",
-        "first_aired": "2026-07-27T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 13,
-        "during_credits": false,
-        "original_title": "My life had stood - a Loaded Gun",
-        "available_translations": [
-          "cs",
-          "da",
-          "de",
-          "en",
-          "es",
-          "fr",
-          "he",
-          "it",
-          "ko",
-          "nl",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sv",
-          "tr",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-27T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt39340229",
           "plex": {
@@ -125,21 +73,72 @@
         ],
         "effective_release_date": "2026-07-27T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt42934503",
+          "plex": {
+            "guid": "6a29f0e6965dfb4d506b2003"
+          },
+          "tmdb": 7370854,
+          "tvdb": 11732472,
+          "trakt": 14235600
+        },
+        "title": "Flash Flood",
+        "votes": 873,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/235/600/screenshots/medium/40080e6c48.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.113402366638184,
+        "season": 1,
+        "runtime": 55,
+        "overview": "Alice and Danny pursue a lead out of town. Catherine assumes a new identity.",
+        "released": "2026-08-03",
+        "number_abs": 4,
+        "updated_at": "2026-10-08T03:46:48.000Z",
+        "first_aired": "2026-08-03T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 13,
+        "during_credits": false,
+        "original_title": "Flash Flood",
+        "available_translations": [
+          "cs",
+          "da",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "he",
+          "it",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sv",
+          "tr",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-03T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 2,
-        "minutes_watched": 103,
-        "minutes_left": 317
+        "play_count": 3,
+        "minutes_watched": 156,
+        "minutes_left": 264
       },
       "seasons": [
         {
           "number": 1,
           "title": "Season 1",
           "aired": 8,
-          "completed": 2,
+          "completed": 3,
           "stats": {
-            "play_count": 2,
-            "minutes_watched": 103,
-            "minutes_left": 317
+            "play_count": 3,
+            "minutes_watched": 156,
+            "minutes_left": 264
           },
           "episodes": [
             {
@@ -162,11 +161,11 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-10-08T07:22:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 53
               }
             },
             {
@@ -253,20 +252,20 @@
           "trakt": 14132655
         },
         "title": "Dirt and Stars",
-        "votes": 2190,
+        "votes": 2192,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/132/655/screenshots/medium/acc2fa34db.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.095890045166016,
+        "rating": 8.095803260803223,
         "season": 1,
         "runtime": 57,
         "overview": "As John and Hal draw closer to the truth, John comes to an unexpected understanding with Sheriff Kane... just as a chilling new discovery emerges.",
         "released": "2026-10-05",
         "number_abs": 8,
-        "updated_at": "2026-10-08T05:48:34.000Z",
+        "updated_at": "2026-10-08T06:33:05.000Z",
         "first_aired": "2026-10-05T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -12955,20 +12954,20 @@
           "trakt": 13527591
         },
         "title": "The Man in the Mask",
-        "votes": 1341,
+        "votes": 1342,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/527/591/screenshots/medium/90c9a42855.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.181207656860352,
+        "rating": 8.180327415466309,
         "season": 1,
         "runtime": 46,
         "overview": "Gee whiz, what's a down-on-his-luck private investigator to do?",
         "released": "2026-05-25",
         "number_abs": 8,
-        "updated_at": "2026-10-07T13:55:14.000Z",
+        "updated_at": "2026-10-08T06:19:42.000Z",
         "first_aired": "2026-05-25T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -24924,7 +24923,7 @@
         "overview": "With threats closing in on all sides, the brothers make a final bid for survival that brings them face-to-face with their complicated past.",
         "released": "2025-09-18",
         "number_abs": 8,
-        "updated_at": "2026-10-07T06:28:27.000Z",
+        "updated_at": "2026-10-08T06:29:35.000Z",
         "first_aired": "2025-09-18T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -25110,7 +25109,7 @@
         "overview": "Sylvia and Will's friendship hits a wall. Sylvia has a realization about her marriage. Will hears news about his bar.",
         "released": "2025-10-01",
         "number_abs": 20,
-        "updated_at": "2026-10-07T06:07:06.000Z",
+        "updated_at": "2026-10-08T06:07:42.000Z",
         "first_aired": "2025-10-01T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -39002,20 +39001,20 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1912,
+        "votes": 1913,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/012/346/485/screenshots/medium/0a2256d709.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.113493919372559,
+        "rating": 8.112911224365234,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-10-07T22:59:43.000Z",
+        "updated_at": "2026-10-08T06:12:42.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -49642,20 +49641,20 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3481,
+        "votes": 3482,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/007/339/876/screenshots/medium/070955ce9d.jpg.webp"
           ]
         },
         "number": 8,
-        "rating": 8.13674259185791,
+        "rating": 8.137277603149414,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-10-07T22:40:38.000Z",
+        "updated_at": "2026-10-08T06:22:37.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -50763,20 +50762,20 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 1006,
+        "votes": 1007,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.783300399780273,
+        "rating": 7.783515453338623,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-10-08T03:03:33.000Z",
+        "updated_at": "2026-10-08T06:31:05.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -106855,7 +106854,7 @@
         "overview": "A family reunion years in the making comes to pass. With Mariama's help, Assane makes a final play to stop Keller, right his wrongs and go out in style.",
         "released": null,
         "number_abs": 17,
-        "updated_at": "2026-10-07T16:40:51.000Z",
+        "updated_at": "2026-10-08T06:13:36.000Z",
         "first_aired": "2023-10-05T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -108394,7 +108393,7 @@
         "overview": "When 456 new players enter the competition, they quickly learn why every second will count. A nerve-wracking pentathlon whittles down the field.",
         "released": "2025-11-04",
         "number_abs": 11,
-        "updated_at": "2026-10-07T06:09:15.000Z",
+        "updated_at": "2026-10-08T06:10:43.000Z",
         "first_aired": "2025-11-04T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -113938,7 +113937,7 @@
         "overview": "Josh, Aryn & Lorena unpack their polyamorous past.",
         "released": "2024-05-31",
         "number_abs": 38,
-        "updated_at": "2026-10-07T06:19:47.000Z",
+        "updated_at": "2026-10-08T06:21:10.000Z",
         "first_aired": "2024-06-03T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -117541,7 +117540,7 @@
         "overview": "In the present, Tayo seizes control of the Bureau. In the future, the Class of \u201909 reunites in a final showdown with the system they created. In the past, the trainees graduate, wondering where they will all end up.",
         "released": "2023-06-21",
         "number_abs": 8,
-        "updated_at": "2026-10-07T06:31:24.000Z",
+        "updated_at": "2026-10-08T06:32:01.000Z",
         "first_aired": "2023-06-21T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -117703,7 +117702,7 @@
         "overview": "Catherine meets court scientist Nikolai, who announces a comet is about to pass through Russia. She uses this phenomenon to her advantage and in the face of some huge challenges, unearths a new side of her leadership.",
         "released": "2023-05-12",
         "number_abs": 30,
-        "updated_at": "2026-10-07T06:24:31.000Z",
+        "updated_at": "2026-10-08T06:25:24.000Z",
         "first_aired": "2023-05-12T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -173418,7 +173417,7 @@
         "overview": "Stephen welcomes actress Mila Kunis and a musical performance by Sara Kays.",
         "released": null,
         "number_abs": 1092,
-        "updated_at": "2026-10-07T20:51:32.000Z",
+        "updated_at": "2026-10-08T06:41:11.000Z",
         "first_aired": "2021-04-30T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -173454,7 +173453,7 @@
         "overview": "Stephen welcomes actress Jane Fonda, TV personality John Oliver, musician Ringo Starr, and a musical performance by Teddy Swims.",
         "released": null,
         "number_abs": 1093,
-        "updated_at": "2026-10-07T20:51:32.000Z",
+        "updated_at": "2026-10-08T06:41:11.000Z",
         "first_aired": "2021-05-01T03:30:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -196583,7 +196582,7 @@
         "overview": "Nintendo goes 3D with Star Fox. Wolfenstein 3D popularizes the first-person shooter format, while Doom ups the ante with networked gaming.",
         "released": "2020-08-19",
         "number_abs": 6,
-        "updated_at": "2026-10-07T06:29:07.000Z",
+        "updated_at": "2026-10-08T06:42:23.000Z",
         "first_aired": "2020-08-19T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -198811,7 +198810,7 @@
         "overview": "Hasan exposes how TurboTax pushes taxpayers away from its free service to a paid option, and why efforts to simplify filing have repeatedly failed.",
         "released": "2020-06-28",
         "number_abs": 40,
-        "updated_at": "2026-10-07T01:55:07.000Z",
+        "updated_at": "2026-10-08T06:32:54.000Z",
         "first_aired": "2020-06-28T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
