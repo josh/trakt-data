@@ -1,6 +1,70 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-09T01:37:05.000Z",
+    "updated_at": "2026-10-09T07:19:29.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt28498219",
+        "plex": {
+          "guid": "69b8ada2a7417e5e4dd148c6",
+          "slug": "matchbox-2026-1"
+        },
+        "slug": "matchbox-the-movie-2026",
+        "tmdb": 1148365,
+        "trakt": 925050
+      },
+      "year": 2026,
+      "title": "Matchbox the Movie"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus_atmos",
+      "media_type": "digital",
+      "resolution": "uhd_4k",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
+    "collected_at": "2026-10-08T15:47:19.000Z",
+    "updated_at": "2026-10-09T07:19:29.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt38111477",
+        "plex": {
+          "guid": "68c6048ee5c7056379ea16e1",
+          "slug": "lady-2026"
+        },
+        "slug": "lady-2026",
+        "tmdb": 1596257,
+        "trakt": 1326408
+      },
+      "year": 2026,
+      "title": "Lady"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "hd_1080p",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-07T02:01:54.000Z",
     "updated_at": "2026-10-07T20:15:44.000Z",
     "movie": {
@@ -74066,11 +74130,11 @@
           "guid": "5d777086dd931c001e38eac0",
           "slug": "without-remorse-2021-1"
         },
-        "slug": "tom-clancy-s-without-remorse-2026",
+        "slug": "tom-clancy-s-without-remorse-2021",
         "tmdb": 567189,
         "trakt": 416763
       },
-      "year": 2026,
+      "year": 2021,
       "title": "Tom Clancy's Without Remorse"
     },
     "available_on": [
@@ -120158,12 +120222,12 @@
           "guid": "645813d17f9dd3b2b1cbb609",
           "slug": "and-yet-it-turns"
         },
-        "slug": "and-yet-it-turns-1990",
+        "slug": "stephen-king-s-it-1990",
         "tmdb": 1123170,
         "trakt": 1404478
       },
       "year": 1990,
-      "title": "And yet it turns"
+      "title": "Stephen King's It"
     },
     "available_on": [
       {
