@@ -2,7 +2,7 @@ import json
 import os
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Literal, TypeVar, cast
+from typing import Any, Literal, cast
 
 import requests
 
@@ -98,10 +98,7 @@ def _export_user_stats(ctx: Context) -> None:
     write_json(output_path, data)
 
 
-T = TypeVar("T")
-
-
-def read_json_data(path: Path, return_type: type[T]) -> T:
+def read_json_data[T](path: Path, return_type: type[T]) -> T:
     return cast(T, json.loads(path.read_text()))
 
 
