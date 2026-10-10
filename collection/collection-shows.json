@@ -1,5 +1,633 @@
 [
   {
+    "last_collected_at": "2026-10-10T12:47:10.000Z",
+    "last_updated_at": "2026-10-10T12:59:07.000Z",
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt26692417",
+        "plex": {
+          "guid": "5d9c082ae264b7001fc3dca6",
+          "slug": "pokemon"
+        },
+        "slug": "pokemon-horizons-the-series",
+        "tmdb": 220150,
+        "tvdb": 433862,
+        "trakt": 202481
+      },
+      "year": 2023,
+      "title": "Pok\u00e9mon Horizons: The Series",
+      "aired_episodes": 152
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 52,
+            "collected_at": "2026-08-20T00:50:50.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 53,
+            "collected_at": "2026-08-20T00:51:15.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 54,
+            "collected_at": "2026-08-20T00:47:57.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 55,
+            "collected_at": "2026-08-20T00:47:27.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 64,
+            "collected_at": "2026-08-20T00:47:27.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 65,
+            "collected_at": "2026-08-20T00:48:47.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 66,
+            "collected_at": "2026-08-20T00:49:11.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 67,
+            "collected_at": "2026-08-20T00:49:27.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 68,
+            "collected_at": "2026-08-20T00:50:14.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 69,
+            "collected_at": "2026-08-20T00:52:17.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 70,
+            "collected_at": "2026-08-20T00:46:35.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 71,
+            "collected_at": "2026-08-20T00:51:57.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 72,
+            "collected_at": "2026-08-20T00:46:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 73,
+            "collected_at": "2026-08-20T00:47:45.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 74,
+            "collected_at": "2026-08-20T00:51:43.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 75,
+            "collected_at": "2026-08-20T00:50:27.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 76,
+            "collected_at": "2026-08-20T00:49:36.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 77,
+            "collected_at": "2026-08-20T00:46:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 78,
+            "collected_at": "2026-08-20T00:48:25.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 79,
+            "collected_at": "2026-08-20T00:46:35.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 82,
+            "collected_at": "2026-08-20T00:46:35.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 124,
+            "collected_at": "2026-09-20T09:36:15.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 125,
+            "collected_at": "2026-09-20T09:36:26.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 126,
+            "collected_at": "2026-09-20T09:36:33.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 127,
+            "collected_at": "2026-09-20T09:38:10.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 128,
+            "collected_at": "2026-09-20T09:38:38.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 129,
+            "collected_at": "2026-09-20T09:38:19.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 130,
+            "collected_at": "2026-09-20T09:38:04.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 131,
+            "collected_at": "2026-09-20T09:38:47.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 132,
+            "collected_at": "2026-09-20T09:38:04.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 133,
+            "collected_at": "2026-09-20T09:39:17.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 134,
+            "collected_at": "2026-09-20T09:38:04.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 135,
+            "collected_at": "2026-09-20T09:39:31.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 136,
+            "collected_at": "2026-09-10T05:47:54.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 137,
+            "collected_at": "2026-09-24T06:20:32.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 138,
+            "collected_at": "2026-09-24T06:20:32.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 139,
+            "collected_at": "2026-09-24T06:20:44.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 140,
+            "collected_at": "2026-09-24T06:20:54.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 141,
+            "collected_at": "2026-09-24T06:20:32.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 142,
+            "collected_at": "2026-09-24T06:36:02.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 143,
+            "collected_at": "2026-09-24T06:36:02.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 144,
+            "collected_at": "2026-09-24T06:36:02.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 145,
+            "collected_at": "2026-09-24T06:36:09.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 146,
+            "collected_at": "2026-08-22T04:50:10.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 147,
+            "collected_at": "2026-08-29T00:09:51.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 148,
+            "collected_at": "2026-09-05T05:47:47.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 149,
+            "collected_at": "2026-09-11T23:40:09.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "aac",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 150,
+            "collected_at": "2026-09-19T05:42:11.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 151,
+            "collected_at": "2026-09-26T04:38:34.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          },
+          {
+            "number": 152,
+            "collected_at": "2026-10-10T12:47:10.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "2.0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "last_collected_at": "2026-10-09T10:25:33.000Z",
     "last_updated_at": "2026-10-09T11:05:05.000Z",
     "type": "show",
@@ -3070,7 +3698,7 @@
       },
       "year": 2025,
       "title": "Outlander: Blood of My Blood",
-      "aired_episodes": 13
+      "aired_episodes": 14
     },
     "seasons": [
       {
@@ -3266,7 +3894,7 @@
         },
         "slug": "cupertino",
         "tmdb": 303630,
-        "tvdb": null,
+        "tvdb": 463435,
         "trakt": 304435
       },
       "year": 2026,
@@ -46147,622 +46775,6 @@
               "3d": null,
               "hdr": null,
               "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "last_collected_at": "2026-09-26T04:38:34.000Z",
-    "last_updated_at": "2026-10-08T10:13:37.000Z",
-    "type": "show",
-    "show": {
-      "ids": {
-        "imdb": "tt26692417",
-        "plex": {
-          "guid": "5d9c082ae264b7001fc3dca6",
-          "slug": "pokemon"
-        },
-        "slug": "pokemon-horizons-the-series",
-        "tmdb": 220150,
-        "tvdb": 433862,
-        "trakt": 202481
-      },
-      "year": 2023,
-      "title": "Pok\u00e9mon Horizons: The Series",
-      "aired_episodes": 152
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 52,
-            "collected_at": "2026-08-20T00:50:50.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 53,
-            "collected_at": "2026-08-20T00:51:15.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 54,
-            "collected_at": "2026-08-20T00:47:57.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 55,
-            "collected_at": "2026-08-20T00:47:27.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 64,
-            "collected_at": "2026-08-20T00:47:27.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 65,
-            "collected_at": "2026-08-20T00:48:47.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 66,
-            "collected_at": "2026-08-20T00:49:11.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 67,
-            "collected_at": "2026-08-20T00:49:27.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 68,
-            "collected_at": "2026-08-20T00:50:14.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 69,
-            "collected_at": "2026-08-20T00:52:17.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 70,
-            "collected_at": "2026-08-20T00:46:35.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 71,
-            "collected_at": "2026-08-20T00:51:57.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 72,
-            "collected_at": "2026-08-20T00:46:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 73,
-            "collected_at": "2026-08-20T00:47:45.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 74,
-            "collected_at": "2026-08-20T00:51:43.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 75,
-            "collected_at": "2026-08-20T00:50:27.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 76,
-            "collected_at": "2026-08-20T00:49:36.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 77,
-            "collected_at": "2026-08-20T00:46:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 78,
-            "collected_at": "2026-08-20T00:48:25.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 79,
-            "collected_at": "2026-08-20T00:46:35.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 82,
-            "collected_at": "2026-08-20T00:46:35.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 124,
-            "collected_at": "2026-09-20T09:36:15.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 125,
-            "collected_at": "2026-09-20T09:36:26.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 126,
-            "collected_at": "2026-09-20T09:36:33.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 127,
-            "collected_at": "2026-09-20T09:38:10.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 128,
-            "collected_at": "2026-09-20T09:38:38.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 129,
-            "collected_at": "2026-09-20T09:38:19.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 130,
-            "collected_at": "2026-09-20T09:38:04.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 131,
-            "collected_at": "2026-09-20T09:38:47.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 132,
-            "collected_at": "2026-09-20T09:38:04.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 133,
-            "collected_at": "2026-09-20T09:39:17.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 134,
-            "collected_at": "2026-09-20T09:38:04.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 135,
-            "collected_at": "2026-09-20T09:39:31.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 136,
-            "collected_at": "2026-09-10T05:47:54.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 137,
-            "collected_at": "2026-09-24T06:20:32.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 138,
-            "collected_at": "2026-09-24T06:20:32.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 139,
-            "collected_at": "2026-09-24T06:20:44.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 140,
-            "collected_at": "2026-09-24T06:20:54.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 141,
-            "collected_at": "2026-09-24T06:20:32.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 142,
-            "collected_at": "2026-09-24T06:36:02.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 143,
-            "collected_at": "2026-09-24T06:36:02.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 144,
-            "collected_at": "2026-09-24T06:36:02.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 145,
-            "collected_at": "2026-09-24T06:36:09.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 146,
-            "collected_at": "2026-08-22T04:50:10.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 147,
-            "collected_at": "2026-08-29T00:09:51.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 148,
-            "collected_at": "2026-09-05T05:47:47.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 149,
-            "collected_at": "2026-09-11T23:40:09.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "aac",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 150,
-            "collected_at": "2026-09-19T05:42:11.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "2.0"
-            }
-          },
-          {
-            "number": 151,
-            "collected_at": "2026-09-26T04:38:34.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
               "media_type": "digital",
               "resolution": "hd_1080p",
               "audio_channels": "2.0"
@@ -137363,7 +137375,7 @@
       },
       "year": 2007,
       "title": "The Graham Norton Show",
-      "aired_episodes": 571
+      "aired_episodes": 572
     },
     "seasons": [
       {
@@ -172672,7 +172684,7 @@
       },
       "year": 1983,
       "title": "Jeopardy!",
-      "aired_episodes": 9569
+      "aired_episodes": 9570
     },
     "seasons": [
       {
