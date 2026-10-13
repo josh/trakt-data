@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-13T00:05:05.000Z",
+    "updated_at": "2026-10-13T00:19:24.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt32588798",
+        "plex": {
+          "guid": "66696dfc15c356a548795164",
+          "slug": "practical-magic-2-2026"
+        },
+        "slug": "practical-magic-2-2026",
+        "tmdb": 1302904,
+        "trakt": 1062564
+      },
+      "year": 2026,
+      "title": "Practical Magic 2"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "aac",
+      "media_type": "digital",
+      "resolution": "uhd_4k",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-09T01:37:05.000Z",
     "updated_at": "2026-10-09T07:19:29.000Z",
     "movie": {
@@ -92470,12 +92502,12 @@
           "guid": "5e40c3e5024f96003fd69a77",
           "slug": "psycho-goreman"
         },
-        "slug": "pg-psycho-goreman-2020",
+        "slug": "psycho-goreman-2020",
         "tmdb": 670428,
         "trakt": 503936
       },
       "year": 2020,
-      "title": "PG: Psycho Goreman"
+      "title": "Psycho Goreman"
     },
     "available_on": [
       {
@@ -120209,38 +120241,6 @@
       "media_type": "digital",
       "resolution": "uhd_4k",
       "audio_channels": "7.1"
-    }
-  },
-  {
-    "type": "movie",
-    "collected_at": "2017-03-30T21:05:03.000Z",
-    "updated_at": "2026-10-07T21:34:39.000Z",
-    "movie": {
-      "ids": {
-        "imdb": "tt0099864",
-        "plex": {
-          "guid": "645813d17f9dd3b2b1cbb609",
-          "slug": "and-yet-it-turns"
-        },
-        "slug": "stephen-king-s-it-1990",
-        "tmdb": 1123170,
-        "trakt": 1404478
-      },
-      "year": 1990,
-      "title": "Stephen King's It"
-    },
-    "available_on": [
-      {
-        "name": "plex"
-      }
-    ],
-    "metadata": {
-      "3d": null,
-      "hdr": null,
-      "audio": "dts",
-      "media_type": "digital",
-      "resolution": "hd_720p",
-      "audio_channels": "2.0"
     }
   },
   {
