@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-13T05:40:15.000Z",
+    "updated_at": "2026-10-13T05:44:49.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt37281055",
+        "plex": {
+          "guid": "6854ddbf96ab065c716a44fa",
+          "slug": "buddy-2026"
+        },
+        "slug": "buddy-2026",
+        "tmdb": 1514026,
+        "trakt": 1242094
+      },
+      "year": 2026,
+      "title": "Buddy"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "aac",
+      "media_type": "digital",
+      "resolution": "hd_720p",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-13T00:05:05.000Z",
     "updated_at": "2026-10-13T00:19:24.000Z",
     "movie": {
