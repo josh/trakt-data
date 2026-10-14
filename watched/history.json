@@ -1,5 +1,41 @@
 [
   {
+    "id": 14532335532,
+    "watched_at": "2026-10-14T06:16:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt40792129",
+        "plex": {
+          "guid": "6a29f0e6965dfb4d506b1fef"
+        },
+        "tmdb": 7370859,
+        "tvdb": 11732478,
+        "trakt": 14235604
+      },
+      "title": "Hart Island",
+      "number": 8,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt36303968",
+        "plex": {
+          "guid": "68d30fff1190765ce3a96c77",
+          "slug": "furious"
+        },
+        "slug": "furious",
+        "tmdb": 287238,
+        "tvdb": 468000,
+        "trakt": 280335
+      },
+      "year": 2026,
+      "title": "Furious",
+      "aired_episodes": 8
+    }
+  },
+  {
     "id": 14532292429,
     "watched_at": "2026-10-14T05:45:00.000Z",
     "action": "watch",
