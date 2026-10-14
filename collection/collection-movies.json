@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-14T07:43:40.000Z",
+    "updated_at": "2026-10-14T07:52:42.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt34384900",
+        "plex": {
+          "guid": "672c9ca4d7e9c76e4eafca22",
+          "slug": "love-of-your-life-2026"
+        },
+        "slug": "love-of-your-life-2026",
+        "tmdb": 1381078,
+        "trakt": 1128339
+      },
+      "year": 2026,
+      "title": "Love of Your Life"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "uhd_4k",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-13T13:48:26.000Z",
     "updated_at": "2026-10-13T13:51:31.000Z",
     "movie": {
