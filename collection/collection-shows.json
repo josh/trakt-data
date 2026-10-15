@@ -1,5 +1,194 @@
 [
   {
+    "last_collected_at": "2026-10-15T00:23:32.000Z",
+    "last_updated_at": "2026-10-15T00:56:19.000Z",
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt40197357",
+        "plex": {
+          "guid": "687d434c16e6d561559bef1e",
+          "slug": "scrubs-2026"
+        },
+        "slug": "scrubs-2026",
+        "tmdb": 295778,
+        "tvdb": 465690,
+        "trakt": 291441
+      },
+      "year": 2026,
+      "title": "Scrubs",
+      "aired_episodes": 13
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "collected_at": "2026-05-06T00:47:45.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 2,
+            "collected_at": "2026-05-06T00:47:45.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 3,
+            "collected_at": "2026-05-06T00:47:45.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 4,
+            "collected_at": "2026-05-06T00:47:45.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 5,
+            "collected_at": "2026-05-06T00:47:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 6,
+            "collected_at": "2026-05-06T00:47:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 7,
+            "collected_at": "2026-05-06T00:47:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 8,
+            "collected_at": "2026-05-06T00:47:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 9,
+            "collected_at": "2026-05-06T00:47:46.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "collected_at": "2026-10-03T18:58:34.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 2,
+            "collected_at": "2026-10-03T18:54:01.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 3,
+            "collected_at": "2026-10-08T03:09:29.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 4,
+            "collected_at": "2026-10-15T00:23:32.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital",
+              "media_type": "digital",
+              "resolution": "hd_1080p",
+              "audio_channels": "5.1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "last_collected_at": "2026-10-14T08:41:52.000Z",
     "last_updated_at": "2026-10-14T08:42:12.000Z",
     "type": "show",
@@ -910,7 +1099,7 @@
       },
       "year": 2020,
       "title": "Helluva Boss",
-      "aired_episodes": 20
+      "aired_episodes": 23
     },
     "seasons": [
       {
@@ -17383,7 +17572,7 @@
       },
       "year": 2021,
       "title": "Abbott Elementary",
-      "aired_episodes": 93
+      "aired_episodes": 94
     },
     "seasons": [
       {
@@ -19215,183 +19404,6 @@
           {
             "number": 1,
             "collected_at": "2026-10-08T03:09:31.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "last_collected_at": "2026-10-08T03:09:29.000Z",
-    "last_updated_at": "2026-10-08T11:39:41.000Z",
-    "type": "show",
-    "show": {
-      "ids": {
-        "imdb": "tt40197357",
-        "plex": {
-          "guid": "687d434c16e6d561559bef1e",
-          "slug": "scrubs-2026"
-        },
-        "slug": "scrubs-2026",
-        "tmdb": 295778,
-        "tvdb": 465690,
-        "trakt": 291441
-      },
-      "year": 2026,
-      "title": "Scrubs",
-      "aired_episodes": 12
-    },
-    "seasons": [
-      {
-        "number": 1,
-        "episodes": [
-          {
-            "number": 1,
-            "collected_at": "2026-05-06T00:47:45.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 2,
-            "collected_at": "2026-05-06T00:47:45.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 3,
-            "collected_at": "2026-05-06T00:47:45.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 4,
-            "collected_at": "2026-05-06T00:47:45.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 5,
-            "collected_at": "2026-05-06T00:47:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 6,
-            "collected_at": "2026-05-06T00:47:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 7,
-            "collected_at": "2026-05-06T00:47:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 8,
-            "collected_at": "2026-05-06T00:47:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 9,
-            "collected_at": "2026-05-06T00:47:46.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "episodes": [
-          {
-            "number": 1,
-            "collected_at": "2026-10-03T18:58:34.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 2,
-            "collected_at": "2026-10-03T18:54:01.000Z",
-            "metadata": {
-              "3d": null,
-              "hdr": null,
-              "audio": "dolby_digital_plus",
-              "media_type": "digital",
-              "resolution": "hd_1080p",
-              "audio_channels": "5.1"
-            }
-          },
-          {
-            "number": 3,
-            "collected_at": "2026-10-08T03:09:29.000Z",
             "metadata": {
               "3d": null,
               "hdr": null,
@@ -128915,7 +128927,7 @@
       },
       "year": 2015,
       "title": "Chicago Med",
-      "aired_episodes": 220
+      "aired_episodes": 221
     },
     "seasons": [
       {
@@ -172919,7 +172931,7 @@
       },
       "year": 1983,
       "title": "Jeopardy!",
-      "aired_episodes": 9572
+      "aired_episodes": 9573
     },
     "seasons": [
       {

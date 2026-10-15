@@ -1,5 +1,41 @@
 [
   {
+    "id": 14535193706,
+    "watched_at": "2026-10-15T01:14:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823634",
+        "plex": {
+          "guid": "6244622446aba5db20372d74"
+        },
+        "tmdb": 3627314,
+        "tvdb": 8893110,
+        "trakt": 6005040
+      },
+      "title": "We Are Not Alone",
+      "number": 10,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
     "id": 14535021051,
     "watched_at": "2026-10-15T00:37:00.000Z",
     "action": "checkin",
@@ -8145,42 +8181,6 @@
       "year": 2016,
       "title": "Better Things",
       "aired_episodes": 52
-    }
-  },
-  {
-    "id": 12355459140,
-    "watched_at": "2026-06-13T06:05:00.000Z",
-    "action": "checkin",
-    "type": "episode",
-    "episode": {
-      "ids": {
-        "imdb": "tt39104669",
-        "plex": {
-          "guid": "693712dc71360be5a349e283"
-        },
-        "tmdb": 6737396,
-        "tvdb": 11492376,
-        "trakt": 13784643
-      },
-      "title": "The Night of the Hunter",
-      "number": 10,
-      "season": 2
-    },
-    "show": {
-      "ids": {
-        "imdb": "tt30459041",
-        "plex": {
-          "guid": "657dc33ef513062f56b44a23",
-          "slug": "your-friends-and-neighbors"
-        },
-        "slug": "your-friends-neighbors",
-        "tmdb": 241609,
-        "tvdb": 443433,
-        "trakt": 217691
-      },
-      "year": 2025,
-      "title": "Your Friends & Neighbors",
-      "aired_episodes": 19
     }
   },
   {
@@ -16345,6 +16345,26 @@
       },
       "year": 2026,
       "title": "Zi"
+    }
+  },
+  {
+    "id": 11982542757,
+    "watched_at": "2026-01-30T02:34:00.000Z",
+    "action": "checkin",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt37775809",
+        "plex": {
+          "guid": "68aeaf1b6e0cc211826b7776",
+          "slug": "the-musical-2026"
+        },
+        "slug": "the-musical-2026",
+        "tmdb": 1579941,
+        "trakt": 1311107
+      },
+      "year": 2026,
+      "title": "The Musical"
     }
   },
   {
@@ -884657,42 +884677,6 @@
       "year": 1999,
       "title": "The West Wing",
       "aired_episodes": 154
-    }
-  },
-  {
-    "id": 1884855095,
-    "watched_at": "2000-11-27T06:00:00.000Z",
-    "action": "watch",
-    "type": "episode",
-    "episode": {
-      "ids": {
-        "imdb": "tt0551381",
-        "plex": {
-          "guid": "5d9c1253e9d5a1001f4feb6f"
-        },
-        "tmdb": 324165,
-        "tvdb": 186500,
-        "trakt": 332929
-      },
-      "title": "AAMCO",
-      "number": 7,
-      "season": 1
-    },
-    "show": {
-      "ids": {
-        "imdb": "tt0264235",
-        "plex": {
-          "guid": "5d9c086b4eefaa001f5dcd8b",
-          "slug": "curb-your-enthusiasm"
-        },
-        "slug": "curb-your-enthusiasm",
-        "tmdb": 4546,
-        "tvdb": 76203,
-        "trakt": 4522
-      },
-      "year": 2000,
-      "title": "Curb Your Enthusiasm",
-      "aired_episodes": 120
     }
   },
   {
