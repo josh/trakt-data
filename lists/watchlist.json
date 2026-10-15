@@ -516,7 +516,7 @@
         "imdb": "tt23112594",
         "plex": {
           "guid": "639106ac93ce26bea48d65f2",
-          "slug": null
+          "slug": "visionquest"
         },
         "slug": "visionquest",
         "tmdb": 213375,
@@ -525,7 +525,7 @@
       },
       "year": 2026,
       "title": "VisionQuest",
-      "aired_episodes": 0
+      "aired_episodes": 2
     },
     "rank": 168,
     "id": 1519853612,
@@ -2445,6 +2445,28 @@
     "type": "movie",
     "movie": {
       "ids": {
+        "imdb": "tt27369017",
+        "plex": {
+          "guid": "6427bf14fb55d3620f989a90",
+          "slug": "hope-2026-2"
+        },
+        "slug": "hope-2026",
+        "tmdb": 1058424,
+        "trakt": 851678
+      },
+      "year": 2026,
+      "title": "Hope"
+    },
+    "rank": 184,
+    "id": 1554378112,
+    "listed_at": "2026-10-15T00:07:40.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
         "imdb": "tt32896542",
         "plex": {
           "guid": "6693e562bb02d52ce05232cd",
@@ -2460,28 +2482,6 @@
     "rank": 185,
     "id": 1459481729,
     "listed_at": "2026-04-20T20:12:26.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
-        "imdb": "tt27369017",
-        "plex": {
-          "guid": "6427bf14fb55d3620f989a90",
-          "slug": "hope-2026-2"
-        },
-        "slug": "hope-2026",
-        "tmdb": 1058424,
-        "trakt": 851678
-      },
-      "year": 2026,
-      "title": "Hope"
-    },
-    "rank": 185,
-    "id": 1469614421,
-    "listed_at": "2026-05-23T16:17:59.000Z",
     "notes": null,
     "my_rating": null
   },
@@ -3476,7 +3476,7 @@
         "imdb": "tt34718200",
         "plex": {
           "guid": "675110fa725231b95843352e",
-          "slug": null
+          "slug": "the-debut-2026"
         },
         "slug": "the-debut-2026",
         "tmdb": 1391239,

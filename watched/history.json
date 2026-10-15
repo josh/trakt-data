@@ -1,5 +1,97 @@
 [
   {
+    "id": 14535021051,
+    "watched_at": "2026-10-15T00:37:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823630",
+        "plex": {
+          "guid": "6244622446aba5db20372d75"
+        },
+        "tmdb": 3627313,
+        "tvdb": 8893109,
+        "trakt": 6005038
+      },
+      "title": "England",
+      "number": 9,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14535019759,
+    "watched_at": "2026-10-14T23:51:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt15823624",
+        "plex": {
+          "guid": "6244622546aba5db20372d76"
+        },
+        "tmdb": 3627312,
+        "tvdb": 8893108,
+        "trakt": 6005036
+      },
+      "title": "Jesus Saves",
+      "number": 8,
+      "season": 5
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt4370596",
+        "plex": {
+          "guid": "5d9c080208fddd001f28fec5",
+          "slug": "better-things"
+        },
+        "slug": "better-things",
+        "tmdb": 66859,
+        "tvdb": 313270,
+        "trakt": 108564
+      },
+      "year": 2016,
+      "title": "Better Things",
+      "aired_episodes": 52
+    }
+  },
+  {
+    "id": 14534974180,
+    "watched_at": "2026-10-14T23:32:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt27369017",
+        "plex": {
+          "guid": "6427bf14fb55d3620f989a90",
+          "slug": "hope-2026-2"
+        },
+        "slug": "hope-2026",
+        "tmdb": 1058424,
+        "trakt": 851678
+      },
+      "year": 2026,
+      "title": "Hope"
+    }
+  },
+  {
     "id": 14532335532,
     "watched_at": "2026-10-14T06:16:00.000Z",
     "action": "watch",
