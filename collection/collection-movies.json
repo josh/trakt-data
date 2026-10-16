@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-16T08:25:58.000Z",
+    "updated_at": "2026-10-16T09:06:39.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt39150035",
+        "plex": {
+          "guid": "69453deb67a5ed4a238d7e1f",
+          "slug": "the-disciple-2026"
+        },
+        "slug": "the-disciple-2026",
+        "tmdb": 1596285,
+        "trakt": 1326433
+      },
+      "year": 2026,
+      "title": "The Disciple"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus_atmos",
+      "media_type": "digital",
+      "resolution": "hd_1080p",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-16T02:51:07.000Z",
     "updated_at": "2026-10-16T02:59:54.000Z",
     "movie": {
