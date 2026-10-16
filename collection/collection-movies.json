@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-16T00:22:54.000Z",
+    "updated_at": "2026-10-16T00:54:56.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt38672588",
+        "plex": {
+          "guid": "68f9e4180618472430635080",
+          "slug": "masterplan-2026"
+        },
+        "slug": "masterplan-2026",
+        "tmdb": 1561726,
+        "trakt": 1289096
+      },
+      "year": 2026,
+      "title": "Masterplan"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "uhd_4k",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-14T07:43:40.000Z",
     "updated_at": "2026-10-14T07:52:42.000Z",
     "movie": {
