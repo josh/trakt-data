@@ -1,5 +1,182 @@
 [
   {
+    "last_collected_at": "2026-10-16T03:29:26.000Z",
+    "last_updated_at": "2026-10-16T04:01:25.000Z",
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt5687612",
+        "plex": {
+          "guid": "5d9c08041cae62001f748e10",
+          "slug": "fleabag"
+        },
+        "slug": "fleabag",
+        "tmdb": 67070,
+        "tvdb": 314614,
+        "trakt": 109975
+      },
+      "year": 2016,
+      "title": "Fleabag",
+      "aired_episodes": 12
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "collected_at": "2026-10-16T03:24:13.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 2,
+            "collected_at": "2026-10-16T03:26:43.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 3,
+            "collected_at": "2026-10-16T03:27:24.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 4,
+            "collected_at": "2026-10-16T03:29:26.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 5,
+            "collected_at": "2026-10-16T03:26:02.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 6,
+            "collected_at": "2026-10-16T03:28:04.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "collected_at": "2026-10-16T03:17:04.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 2,
+            "collected_at": "2026-10-16T03:22:08.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 3,
+            "collected_at": "2026-10-16T03:18:55.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 4,
+            "collected_at": "2026-10-16T03:18:55.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 5,
+            "collected_at": "2026-10-16T03:20:21.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          },
+          {
+            "number": 6,
+            "collected_at": "2026-10-16T03:20:21.000Z",
+            "metadata": {
+              "3d": null,
+              "hdr": null,
+              "audio": "dolby_digital_plus",
+              "media_type": "digital",
+              "resolution": "uhd_4k",
+              "audio_channels": "5.1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "last_collected_at": "2026-10-16T01:31:00.000Z",
     "last_updated_at": "2026-10-16T01:56:48.000Z",
     "type": "show",
@@ -81,7 +258,7 @@
       },
       "year": 2024,
       "title": "Dark Matter",
-      "aired_episodes": 16
+      "aired_episodes": 17
     },
     "seasons": [
       {
@@ -24082,7 +24259,7 @@
       },
       "year": 2026,
       "title": "Cupertino",
-      "aired_episodes": 1
+      "aired_episodes": 2
     },
     "seasons": [
       {
@@ -311764,7 +311941,7 @@
       },
       "year": 1990,
       "title": "Law & Order",
-      "aired_episodes": 545
+      "aired_episodes": 546
     },
     "seasons": [
       {
