@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-17T16:07:25.000Z",
+    "updated_at": "2026-10-17T16:15:09.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt40224365",
+        "plex": {
+          "guid": "69cbcc2d9b1d43d15c1318dc",
+          "slug": "aaron-chen-funny-garden-1"
+        },
+        "slug": "aaron-chen-funny-garden-2026",
+        "tmdb": 1660968,
+        "trakt": 1361785
+      },
+      "year": 2026,
+      "title": "Aaron Chen: Funny Garden"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "uhd_4k",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-17T13:22:40.000Z",
     "updated_at": "2026-10-17T14:14:38.000Z",
     "movie": {
