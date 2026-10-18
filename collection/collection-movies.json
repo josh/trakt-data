@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-18T09:45:24.000Z",
+    "updated_at": "2026-10-18T10:15:46.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt43662087",
+        "plex": {
+          "guid": "6a53108470ae287595174991",
+          "slug": "holiday-touchdown-a-bears-love-story"
+        },
+        "slug": "holiday-touchdown-a-bears-love-story-2026",
+        "tmdb": 1729134,
+        "trakt": 1382154
+      },
+      "year": 2026,
+      "title": "Holiday Touchdown: A Bears Love Story"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "hd_1080p",
+      "audio_channels": "2.0"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-17T16:07:25.000Z",
     "updated_at": "2026-10-17T16:15:09.000Z",
     "movie": {
