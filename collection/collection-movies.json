@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-19T13:42:58.000Z",
+    "updated_at": "2026-10-19T14:14:39.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt37405791",
+        "plex": {
+          "guid": "68630eccc0c8ee80b968dae6",
+          "slug": "hanging-by-a-wire-2026"
+        },
+        "slug": "hanging-by-a-wire-2026",
+        "tmdb": 1480856,
+        "trakt": 1213920
+      },
+      "year": 2026,
+      "title": "Hanging by a Wire"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "hd_1080p",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-18T09:45:24.000Z",
     "updated_at": "2026-10-18T10:15:46.000Z",
     "movie": {
