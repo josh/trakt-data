@@ -1,6 +1,38 @@
 [
   {
     "type": "movie",
+    "collected_at": "2026-10-20T03:28:17.000Z",
+    "updated_at": "2026-10-20T04:13:21.000Z",
+    "movie": {
+      "ids": {
+        "imdb": "tt10794054",
+        "plex": {
+          "guid": "5f4092bb1ae710004114f878",
+          "slug": "the-weight-2026"
+        },
+        "slug": "the-weight-2026",
+        "tmdb": 1433583,
+        "trakt": 1172770
+      },
+      "year": 2026,
+      "title": "The Weight"
+    },
+    "available_on": [
+      {
+        "name": "plex"
+      }
+    ],
+    "metadata": {
+      "3d": null,
+      "hdr": null,
+      "audio": "dolby_digital_plus",
+      "media_type": "digital",
+      "resolution": "hd_1080p",
+      "audio_channels": "5.1"
+    }
+  },
+  {
+    "type": "movie",
     "collected_at": "2026-10-20T00:25:26.000Z",
     "updated_at": "2026-10-20T01:14:31.000Z",
     "movie": {
