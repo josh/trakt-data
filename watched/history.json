@@ -1,5 +1,41 @@
 [
   {
+    "id": 14562634835,
+    "watched_at": "2026-10-23T00:24:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43679376",
+        "plex": {
+          "guid": "6a75ccce12ed9f98e7c36282"
+        },
+        "tmdb": 7648179,
+        "tvdb": 11928698,
+        "trakt": 14364990
+      },
+      "title": "The Guys Have a Sleepover",
+      "number": 10,
+      "season": 18
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0472954",
+        "plex": {
+          "guid": "5d9c0875170e24001f2ab27e",
+          "slug": "its-always-sunny-in-philadelphia"
+        },
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "tmdb": 2710,
+        "tvdb": 75805,
+        "trakt": 2692
+      },
+      "year": 2005,
+      "title": "It's Always Sunny in Philadelphia",
+      "aired_episodes": 187
+    }
+  },
+  {
     "id": 14562571379,
     "watched_at": "2026-10-23T00:02:00.000Z",
     "action": "scrobble",
