@@ -2,6 +2,106 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 746
+    },
+    "progress": {
+      "aired": 746,
+      "completed": 745,
+      "hidden": 0,
+      "last_watched_at": "2026-10-03T05:51:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 747,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": null,
+          "plex": {
+            "guid": "6ad1f9e521db8534443963a1"
+          },
+          "tmdb": 7907307,
+          "tvdb": null,
+          "trakt": 14549413
+        },
+        "title": "October 23, 2026: Karoline Leavitt, Steve Hilton, Gov. Andy Beshear",
+        "votes": 0,
+        "images": {
+          "screenshot": []
+        },
+        "number": 31,
+        "rating": 0,
+        "season": 24,
+        "runtime": 60,
+        "overview": "Guests: An interview with Karoline Leavitt, former spokesperson and White House Press Secretary under the second Trump administration. This week's panel discussion includes Steve Hilton, 2026 Republican candidate for Governor of California, founder of the nonpartisan policy research organization Golden Together, and author of \"Califailure: Reversing the Ruin of America's Worst-Run State\"; and Gov. Andy Beshear, Democratic Governor of Kentucky and author of \"Go and Do Likewise: How We Heal a Broken Country.\"",
+        "released": "2026-10-24",
+        "number_abs": 746,
+        "updated_at": "2026-10-24T04:27:32.000Z",
+        "first_aired": "2026-10-24T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "October 23, 2026: Karoline Leavitt, Steve Hilton, Gov. Andy Beshear",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-10-24T02:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt48812331",
+          "plex": {
+            "guid": "6a9c37faf823e3f17eb3b4d0"
+          },
+          "tmdb": 7748882,
+          "tvdb": null,
+          "trakt": 14422528
+        },
+        "title": "October 9, 2026: Michael Douglas, Thom Tillis, Sara Eisen",
+        "votes": 40,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/422/528/screenshots/medium/9b4f47f736.jpg.webp"
+          ]
+        },
+        "number": 30,
+        "rating": 7.099999904632568,
+        "season": 24,
+        "runtime": 59,
+        "overview": "Guests: An interview with Michael Douglas, award-winning actor, producer, and author of the new memoir \"One Helluva Ride,\" released on October 6. This week's panel discussion includes Sen. Thom Tillis, Republican senator from North Carolina and author of \"How to Lose Friends and Antagonize Presidents: The Trouble with Sycophants, Courage Outsourcing, and Partisan Groupthink\"; and Sara Eisen, co-anchor of CNBC's \"Squawk on the Street\" and \"Money Movers.\"",
+        "released": "2026-10-10",
+        "number_abs": 745,
+        "updated_at": "2026-10-23T21:17:25.000Z",
+        "first_aired": "2026-10-10T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 0,
+        "during_credits": false,
+        "original_title": "October 9, 2026: Michael Douglas, Thom Tillis, Sara Eisen",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-10-10T02:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt10986410",
         "plex": {
           "guid": "5e204251072b9e003ca5c140",
@@ -38,20 +138,20 @@
           "trakt": 14143106
         },
         "title": "Riches of Embarrassment",
-        "votes": 1819,
+        "votes": 1840,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/143/106/screenshots/medium/160fcbb0e4.jpg.webp"
           ]
         },
         "number": 5,
-        "rating": 7.97636079788208,
+        "rating": 7.969021797180176,
         "season": 4,
         "runtime": 48,
         "overview": "The ladies face off against Chelsea. Alice feels the pressure. Rebecca navigates a complicated dynamic.",
         "released": "2026-09-02",
         "number_abs": 39,
-        "updated_at": "2026-10-22T14:39:08.000Z",
+        "updated_at": "2026-10-23T16:03:10.000Z",
         "first_aired": "2026-09-02T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -117,7 +217,7 @@
         "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
         "released": "2026-08-26",
         "number_abs": 38,
-        "updated_at": "2026-10-23T07:07:48.000Z",
+        "updated_at": "2026-10-24T07:10:39.000Z",
         "first_aired": "2026-08-26T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -213,7 +313,7 @@
         "overview": "As retirement looms, John Cena seeks an iconic \u2014 and explosive \u2014 exit from the ring. A new power couple threatens Seth Rollins and Becky Lynch's reign.",
         "released": "2026-07-21",
         "number_abs": 11,
-        "updated_at": "2026-10-22T17:26:36.000Z",
+        "updated_at": "2026-10-23T17:44:21.000Z",
         "first_aired": "2026-07-21T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -252,7 +352,7 @@
         "overview": "Seth Rollins shocks the WWE Universe, Becky Lynch and Lyra Valkyria roll with the punches, and John Cena wrestles in his final SummerSlam match.",
         "released": "2026-01-20",
         "number_abs": 10,
-        "updated_at": "2026-10-23T05:50:55.000Z",
+        "updated_at": "2026-10-24T06:08:48.000Z",
         "first_aired": "2026-01-20T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -309,24 +409,24 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 1057,
+        "votes": 1153,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/239/242/screenshots/medium/372f930f25.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 8.246925354003906,
+        "rating": 8.224631309509277,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
         "released": "2026-09-16",
         "number_abs": 31,
-        "updated_at": "2026-10-23T00:30:08.000Z",
+        "updated_at": "2026-10-24T11:51:40.000Z",
         "first_aired": "2026-09-16T20:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 18,
+        "comment_count": 19,
         "during_credits": false,
         "original_title": "Circle of Life",
         "available_translations": [],
@@ -343,20 +443,20 @@
           "trakt": 13189756
         },
         "title": "Scars",
-        "votes": 1614,
+        "votes": 1625,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/189/756/screenshots/medium/f8b11bdb77.jpg.webp"
           ]
         },
         "number": 6,
-        "rating": 8.331474304199219,
+        "rating": 8.329846382141113,
         "season": 5,
         "runtime": 52,
         "overview": "It's up to the Slow Horses to stop Farouk's team from completing its mission in a final act of mass carnage.",
         "released": "2025-10-29",
         "number_abs": 30,
-        "updated_at": "2026-10-22T19:01:10.000Z",
+        "updated_at": "2026-10-24T11:51:40.000Z",
         "first_aired": "2025-10-29T21:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -452,7 +552,7 @@
         "overview": "Lee's acceptance speech for Citizen Journalist of the Year leaves quite an impression.",
         "released": "2026-10-15",
         "number_abs": 9,
-        "updated_at": "2026-10-23T11:11:18.000Z",
+        "updated_at": "2026-10-24T11:15:16.000Z",
         "first_aired": "2026-10-15T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -489,7 +589,7 @@
         "overview": "The truth comes to light\u2026but at what cost?",
         "released": "2025-11-05",
         "number_abs": 8,
-        "updated_at": "2026-10-23T05:29:22.000Z",
+        "updated_at": "2026-10-24T06:24:19.000Z",
         "first_aired": "2025-11-05T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -565,7 +665,7 @@
         "overview": "Joanne and Noah celebrate moving in together \u2014 and discover each other's annoying household habits.",
         "released": "2026-10-22",
         "number_abs": 21,
-        "updated_at": "2026-10-23T12:58:08.000Z",
+        "updated_at": "2026-10-24T01:17:25.000Z",
         "first_aired": "2026-10-22T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -605,7 +705,7 @@
         "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
         "released": "2025-10-23",
         "number_abs": 20,
-        "updated_at": "2026-10-23T12:58:07.000Z",
+        "updated_at": "2026-10-24T09:25:51.000Z",
         "first_aired": "2025-10-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -669,11 +769,11 @@
         "overview": "On an unplanned stopover at Windsor Castle, Kate grows wary of Hal and Grace's dynamic as she tries to contain the fallout from their covert actions.",
         "released": "2026-10-15",
         "number_abs": 23,
-        "updated_at": "2026-10-23T01:25:44.000Z",
+        "updated_at": "2026-10-24T01:26:20.000Z",
         "first_aired": "2026-10-15T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 13,
+        "comment_count": 14,
         "during_credits": false,
         "original_title": "Windsor",
         "available_translations": [
@@ -735,7 +835,7 @@
         "overview": "Kate must use all her leverage and political instincts to avert a catastrophe at a high-stakes summit \u2014 with the fate of nations hanging in the balance.",
         "released": "2025-10-16",
         "number_abs": 22,
-        "updated_at": "2026-10-23T02:34:40.000Z",
+        "updated_at": "2026-10-24T02:41:40.000Z",
         "first_aired": "2025-10-16T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -799,7 +899,7 @@
         "overview": "Something unexpected overshadows TTT's wins on the Monday after the Ohio Journalism Awards.",
         "released": "2026-09-09",
         "number_abs": 11,
-        "updated_at": "2026-10-22T17:31:22.000Z",
+        "updated_at": "2026-10-23T17:33:33.000Z",
         "first_aired": "2026-09-09T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -841,7 +941,7 @@
         "overview": "Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick's monogamy.",
         "released": "2025-09-04",
         "number_abs": 10,
-        "updated_at": "2026-10-23T01:55:03.000Z",
+        "updated_at": "2026-10-24T01:56:35.000Z",
         "first_aired": "2025-09-04T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -920,7 +1020,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-10-23T07:15:32.000Z",
+        "updated_at": "2026-10-24T07:16:58.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -973,7 +1073,7 @@
         "overview": "Time waits for no one.",
         "released": "2025-06-25",
         "number_abs": 38,
-        "updated_at": "2026-10-22T16:16:50.000Z",
+        "updated_at": "2026-10-23T16:18:21.000Z",
         "first_aired": "2025-06-26T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1037,7 +1137,7 @@
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-10-22T17:55:59.000Z",
+        "updated_at": "2026-10-23T17:57:27.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1094,7 +1194,7 @@
         "overview": "Kevin takes care of a problem. Maeve spills the tea.",
         "released": "2025-06-01",
         "number_abs": 10,
-        "updated_at": "2026-10-22T15:10:56.000Z",
+        "updated_at": "2026-10-23T15:23:46.000Z",
         "first_aired": "2025-06-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1185,7 +1285,7 @@
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
         "released": "2026-03-24",
         "number_abs": 10,
-        "updated_at": "2026-10-22T18:47:49.000Z",
+        "updated_at": "2026-10-23T18:53:25.000Z",
         "first_aired": "2026-03-25T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1219,7 +1319,7 @@
         "overview": "Mayor Fisk becomes Mayor Kingpin, and Daredevil is unleashed as chaos takes over the city.",
         "released": "2025-04-15",
         "number_abs": 9,
-        "updated_at": "2026-10-23T05:17:27.000Z",
+        "updated_at": "2026-10-24T05:19:24.000Z",
         "first_aired": "2025-04-16T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1283,7 +1383,7 @@
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
         "released": "2026-08-12",
         "number_abs": 25,
-        "updated_at": "2026-10-23T03:01:36.000Z",
+        "updated_at": "2026-10-24T03:01:46.000Z",
         "first_aired": "2026-08-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1354,7 +1454,7 @@
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
         "released": "2025-03-27",
         "number_abs": 24,
-        "updated_at": "2026-10-23T09:08:49.000Z",
+        "updated_at": "2026-10-24T09:10:32.000Z",
         "first_aired": "2025-03-27T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1456,7 +1556,7 @@
         "overview": "A covert strike draws Joe into a chain of events.",
         "released": "2026-08-02",
         "number_abs": 17,
-        "updated_at": "2026-10-22T19:04:09.000Z",
+        "updated_at": "2026-10-23T19:05:12.000Z",
         "first_aired": "2026-08-02T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1510,7 +1610,7 @@
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
         "released": "2024-12-08",
         "number_abs": 16,
-        "updated_at": "2026-10-22T20:15:54.000Z",
+        "updated_at": "2026-10-23T20:17:45.000Z",
         "first_aired": "2024-12-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1599,7 +1699,7 @@
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-10-23T04:59:31.000Z",
+        "updated_at": "2026-10-24T05:00:15.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1668,7 +1768,7 @@
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-10-23T08:55:01.000Z",
+        "updated_at": "2026-10-24T08:57:25.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1766,7 +1866,7 @@
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
         "released": "2026-01-28",
         "number_abs": 23,
-        "updated_at": "2026-10-23T10:54:47.000Z",
+        "updated_at": "2026-10-24T11:02:41.000Z",
         "first_aired": "2026-01-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1831,7 +1931,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-10-23T08:02:29.000Z",
+        "updated_at": "2026-10-24T08:02:34.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -1926,7 +2026,7 @@
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
         "released": "2026-04-08",
         "number_abs": 33,
-        "updated_at": "2026-10-22T18:44:39.000Z",
+        "updated_at": "2026-10-23T18:46:05.000Z",
         "first_aired": "2026-04-08T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1999,7 +2099,7 @@
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
         "released": "2024-07-18",
         "number_abs": 32,
-        "updated_at": "2026-10-22T18:55:26.000Z",
+        "updated_at": "2026-10-23T18:55:48.000Z",
         "first_aired": "2024-07-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2104,7 +2204,7 @@
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
         "released": "2026-08-28",
         "number_abs": 10,
-        "updated_at": "2026-10-23T03:17:05.000Z",
+        "updated_at": "2026-10-24T03:17:24.000Z",
         "first_aired": "2026-08-28T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2170,7 +2270,7 @@
         "overview": "The Dessens' world comes crashing down.",
         "released": "2024-06-26",
         "number_abs": 9,
-        "updated_at": "2026-10-22T16:21:31.000Z",
+        "updated_at": "2026-10-23T16:22:16.000Z",
         "first_aired": "2024-06-26T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2266,7 +2366,7 @@
         "overview": "Gordon and Ashley are determined to move on from past embarrassments, but they can't seem to shake their collective baggage.",
         "released": "2026-07-27",
         "number_abs": 17,
-        "updated_at": "2026-10-23T00:28:11.000Z",
+        "updated_at": "2026-10-24T00:36:10.000Z",
         "first_aired": "2026-07-27T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2278,6 +2378,7 @@
           "es",
           "he",
           "nl",
+          "sv",
           "uk",
           "zh"
         ],
@@ -2307,7 +2408,7 @@
         "overview": "Gordon and Ash\u2019s relationship is put to the test at Megan and Rumi\u2019s pop-up wedding.",
         "released": "2024-06-27",
         "number_abs": 16,
-        "updated_at": "2026-10-22T16:41:54.000Z",
+        "updated_at": "2026-10-23T16:46:39.000Z",
         "first_aired": "2024-06-27T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2320,6 +2421,7 @@
           "fi",
           "he",
           "nl",
+          "sv",
           "uk",
           "zh"
         ],
@@ -2379,7 +2481,7 @@
         "overview": "Sugar takes on a new case: Tracking down the troubled brother of rising local boxer Danny Moon.",
         "released": "2026-06-19",
         "number_abs": 9,
-        "updated_at": "2026-10-22T19:28:57.000Z",
+        "updated_at": "2026-10-23T19:31:24.000Z",
         "first_aired": "2026-06-19T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2444,7 +2546,7 @@
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
         "released": "2024-05-17",
         "number_abs": 8,
-        "updated_at": "2026-10-22T19:35:04.000Z",
+        "updated_at": "2026-10-23T19:36:25.000Z",
         "first_aired": "2024-05-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2539,7 +2641,7 @@
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
         "released": "2026-09-03",
         "number_abs": 9,
-        "updated_at": "2026-10-22T20:09:17.000Z",
+        "updated_at": "2026-10-23T20:12:31.000Z",
         "first_aired": "2026-09-03T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -2608,7 +2710,7 @@
         "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
         "released": "2024-03-07",
         "number_abs": 8,
-        "updated_at": "2026-10-23T12:49:23.000Z",
+        "updated_at": "2026-10-24T12:51:39.000Z",
         "first_aired": "2024-03-07T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2693,7 +2795,7 @@
           "tvdb": null,
           "trakt": 14235544
         },
-        "title": "Episode 1",
+        "title": "Chapter 1",
         "votes": 12,
         "images": {
           "screenshot": []
@@ -2701,19 +2803,22 @@
         "number": 1,
         "rating": 7.916666507720947,
         "season": 3,
-        "runtime": 45,
-        "overview": null,
+        "runtime": 39,
+        "overview": "After four years in prison, Assane is days away from early release and a new life with Raoul \u2013 until a mysterious cyberattack threatens it all.",
         "released": null,
         "number_abs": 18,
-        "updated_at": "2026-10-23T06:36:08.000Z",
+        "updated_at": "2026-10-24T06:36:34.000Z",
         "first_aired": "2026-10-23T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 0,
+        "comment_count": 3,
         "during_credits": false,
         "original_title": null,
         "available_translations": [
-          "cs"
+          "cs",
+          "da",
+          "de",
+          "en"
         ],
         "effective_release_date": "2026-10-23T07:00:00.000Z"
       },
@@ -2741,7 +2846,7 @@
         "overview": "A family reunion years in the making comes to pass. With Mariama's help, Assane makes a final play to stop Keller, right his wrongs and go out in style.",
         "released": null,
         "number_abs": 17,
-        "updated_at": "2026-10-23T07:52:34.000Z",
+        "updated_at": "2026-10-24T08:00:42.000Z",
         "first_aired": "2023-10-05T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2781,138 +2886,6 @@
           "zh"
         ],
         "effective_release_date": "2023-10-05T07:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt12590266",
-        "plex": {
-          "guid": "5ef5ee064e3e4f0041bd18c3",
-          "slug": "cyberpunk-edgerunners"
-        },
-        "slug": "cyberpunk-edgerunners",
-        "tmdb": 105248,
-        "tvdb": 384541,
-        "trakt": 163705
-      },
-      "year": 2022,
-      "title": "Cyberpunk: Edgerunners",
-      "aired_episodes": 20
-    },
-    "progress": {
-      "aired": 20,
-      "completed": 10,
-      "hidden": 0,
-      "last_watched_at": "2022-10-06T00:37:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 10,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt37529938",
-          "plex": {
-            "guid": "6869c24835987c52d9162ab3"
-          },
-          "tmdb": 7900174,
-          "tvdb": 11229710,
-          "trakt": 13287369
-        },
-        "title": "Last Chance for a Slow Dance",
-        "votes": 160,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/287/369/screenshots/medium/f26818f809.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.818749904632568,
-        "season": 2,
-        "runtime": 29,
-        "overview": "A former edgerunner slipping into cyberpsychosis and a lonely survivor with a fractured past start their stories at opposite ends of Night City.",
-        "released": "2026-10-20",
-        "number_abs": 11,
-        "updated_at": "2026-10-22T15:10:13.000Z",
-        "first_aired": "2026-10-20T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 14,
-        "during_credits": false,
-        "original_title": "Last Chance for a Slow Dance",
-        "available_translations": [],
-        "effective_release_date": "2026-10-20T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt12650854",
-          "plex": {
-            "guid": "62a21272232b7fc5915a57ee"
-          },
-          "tmdb": 3894668,
-          "tvdb": 8865687,
-          "trakt": 6618727
-        },
-        "title": "My Moon My Man",
-        "votes": 1127,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/006/618/727/screenshots/medium/f90c016352.jpg.webp"
-          ]
-        },
-        "number": 10,
-        "rating": 8.529725074768066,
-        "season": 1,
-        "runtime": 29,
-        "overview": "On the edge of cyberpsychosis but determined to save Lucy, David storms into Night City as Arasaka plots to deploy their ultimate lethal weapon.",
-        "released": "2022-09-13",
-        "number_abs": 10,
-        "updated_at": "2026-10-23T03:25:41.000Z",
-        "first_aired": "2022-09-13T07:00:00.000Z",
-        "episode_type": "series_finale",
-        "after_credits": false,
-        "comment_count": 23,
-        "during_credits": false,
-        "original_title": "My Moon My Man",
-        "available_translations": [
-          "ar",
-          "ca",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sk",
-          "sv",
-          "th",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2022-09-13T07:00:00.000Z"
       }
     }
   },
@@ -2968,11 +2941,11 @@
         "overview": "Six months after finishing his list, James Reece - the world's most wanted man - is still at sea reckoning with his remaining life after exacting revenge without constraint. Halfway across the world, Kate Buranek's notoriety from publishing Reece's story hinders her more than it helps as she navigates a bleak media landscape and shocking geopolitical events in the wake of Al-Qaeda's resurgence.",
         "released": "2026-10-21",
         "number_abs": 9,
-        "updated_at": "2026-10-23T00:18:18.000Z",
+        "updated_at": "2026-10-24T00:18:34.000Z",
         "first_aired": "2026-10-22T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 6,
+        "comment_count": 7,
         "during_credits": false,
         "original_title": "ROMULUS S.V.",
         "available_translations": [
@@ -3038,7 +3011,7 @@
         "overview": "A showdown brews at Secretary of Defense Hartley's Orcas Island estate as Reece, Katie, Ben and Tony's paths and objectives collide.",
         "released": "2022-07-01",
         "number_abs": 8,
-        "updated_at": "2026-10-23T04:00:17.000Z",
+        "updated_at": "2026-10-24T04:00:59.000Z",
         "first_aired": "2022-07-01T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
