@@ -28,8 +28,8 @@ scripts.trakt-data = "trakt_data:cli.main"
 
 [dependency-groups]
 dev = [
-    "mypy>=1.12,<2",
     "ruff>=0.4,<2",
+    "ty>=0.0.91,<0.1",
     "types-requests>=2.32,<3",
 ]
 
@@ -38,6 +38,3 @@ lint.extend-select = [ "I", "UP" ]
 
 [tool.pyproject-fmt]
 indent = 4
-
-[tool.mypy]
-strict = true
