@@ -1,5 +1,24 @@
 [
   {
+    "rated_at": "2026-10-24T20:02:23.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt34384900",
+        "plex": {
+          "guid": "672c9ca4d7e9c76e4eafca22",
+          "slug": "love-of-your-life-2026"
+        },
+        "slug": "love-of-your-life-2026",
+        "tmdb": 1381078,
+        "trakt": 1128339
+      },
+      "year": 2026,
+      "title": "Love of Your Life"
+    }
+  },
+  {
     "rated_at": "2026-10-21T16:02:52.000Z",
     "rating": 5,
     "type": "movie",
@@ -1891,11 +1910,11 @@
           "guid": "679bbef4057fdf8b33e0211f",
           "slug": "bedford-park"
         },
-        "slug": "bedford-park-2026",
+        "slug": "bedford-park-2027",
         "tmdb": 1470198,
         "trakt": 1204617
       },
-      "year": 2026,
+      "year": 2027,
       "title": "Bedford Park"
     }
   },
@@ -10474,16 +10493,16 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt21740488",
+        "imdb": "tt48484903",
         "plex": {
           "guid": "630007772bd2c2b545ae3884",
           "slug": "little-death-2024"
         },
-        "slug": "junk-2024",
+        "slug": "junk-2026",
         "tmdb": 1025231,
         "trakt": 824345
       },
-      "year": 2024,
+      "year": 2026,
       "title": "Junk"
     }
   },
