@@ -1,5 +1,41 @@
 [
   {
+    "id": 14569737343,
+    "watched_at": "2026-10-25T07:11:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43347561",
+        "plex": {
+          "guid": "6a46c43cac1fb5d298cee3ba"
+        },
+        "tmdb": 7423218,
+        "tvdb": 11861025,
+        "trakt": 14267998
+      },
+      "title": "Hearst's Mistress",
+      "number": 3,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    }
+  },
+  {
     "id": 14569687194,
     "watched_at": "2026-10-25T06:39:00.000Z",
     "action": "watch",

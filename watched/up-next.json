@@ -18,16 +18,58 @@
     },
     "progress": {
       "aired": 20,
-      "completed": 12,
+      "completed": 13,
       "hidden": 0,
-      "last_watched_at": "2026-10-25T04:52:00.000Z",
+      "last_watched_at": "2026-10-25T07:11:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 12,
+        "play_count": 13,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt43347562",
+          "plex": {
+            "guid": "6a3ec2a83569a32e86bc33a1"
+          },
+          "tmdb": 7423219,
+          "tvdb": 11861026,
+          "trakt": 14267999
+        },
+        "title": "Impressing a Cop",
+        "votes": 164,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/267/999/screenshots/medium/673124649d.jpg.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.487804889678955,
+        "season": 2,
+        "runtime": 24,
+        "overview": "Eager to befriend a cop, Ned and the team visit the gun range, where Mare stumbles upon a new story.",
+        "released": "2026-09-09",
+        "number_abs": 14,
+        "updated_at": "2026-10-24T17:41:55.000Z",
+        "first_aired": "2026-09-09T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Impressing a Cop",
+        "available_translations": [
+          "de",
+          "en",
+          "es",
+          "he",
+          "nl",
+          "pt",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-09T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt43347561",
           "plex": {
@@ -58,48 +100,6 @@
         "comment_count": 2,
         "during_credits": false,
         "original_title": "Hearst's Mistress",
-        "available_translations": [
-          "de",
-          "en",
-          "es",
-          "he",
-          "nl",
-          "pt",
-          "zh"
-        ],
-        "effective_release_date": "2026-09-09T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt43347527",
-          "plex": {
-            "guid": "6a46c43cac1fb5d298cee3b8"
-          },
-          "tmdb": 7423217,
-          "tvdb": 11861024,
-          "trakt": 14267997
-        },
-        "title": "Weekend Ned",
-        "votes": 186,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/267/997/screenshots/medium/c6678984a5.jpg.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.435483932495117,
-        "season": 2,
-        "runtime": 23,
-        "overview": "Ned whisks Mare away for a romantic weekend; Adam and Adelola are left in charge of the paper.",
-        "released": "2026-09-09",
-        "number_abs": 12,
-        "updated_at": "2026-10-24T17:57:37.000Z",
-        "first_aired": "2026-09-09T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "Weekend Ned",
         "available_translations": [
           "de",
           "en",
@@ -231,7 +231,7 @@
         "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
         "released": "2026-08-26",
         "number_abs": 38,
-        "updated_at": "2026-10-24T15:09:38.000Z",
+        "updated_at": "2026-10-25T07:12:34.000Z",
         "first_aired": "2026-08-26T01:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -680,7 +680,7 @@
         "overview": "Joanne and Noah celebrate moving in together \u2014 and discover each other's annoying household habits.",
         "released": "2026-10-22",
         "number_abs": 21,
-        "updated_at": "2026-10-25T01:17:38.000Z",
+        "updated_at": "2026-10-25T07:46:46.000Z",
         "first_aired": "2026-10-22T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -722,7 +722,7 @@
         "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
         "released": "2025-10-23",
         "number_abs": 20,
-        "updated_at": "2026-10-24T15:06:49.000Z",
+        "updated_at": "2026-10-25T07:46:45.000Z",
         "first_aired": "2025-10-23T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -951,7 +951,7 @@
         "overview": "A storm hits.",
         "released": "2026-06-25",
         "number_abs": 39,
-        "updated_at": "2026-10-24T15:49:52.000Z",
+        "updated_at": "2026-10-25T07:18:23.000Z",
         "first_aired": "2026-06-26T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1862,7 +1862,7 @@
         "overview": "Jimmy takes Paul's advice about Alice. Liz finally finds her purpose. Gaby hosts Thanksgiving dinner.",
         "released": "2024-12-24",
         "number_abs": 22,
-        "updated_at": "2026-10-24T15:10:06.000Z",
+        "updated_at": "2026-10-25T08:04:05.000Z",
         "first_aired": "2024-12-24T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2789,7 +2789,7 @@
         "overview": "A family reunion years in the making comes to pass. With Mariama's help, Assane makes a final play to stop Keller, right his wrongs and go out in style.",
         "released": null,
         "number_abs": 17,
-        "updated_at": "2026-10-24T16:35:15.000Z",
+        "updated_at": "2026-10-25T08:05:04.000Z",
         "first_aired": "2023-10-05T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
