@@ -1,5 +1,77 @@
 [
   {
+    "id": 14569523718,
+    "watched_at": "2026-10-25T04:52:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43347527",
+        "plex": {
+          "guid": "6a46c43cac1fb5d298cee3b8"
+        },
+        "tmdb": 7423217,
+        "tvdb": 11861024,
+        "trakt": 14267997
+      },
+      "title": "Weekend Ned",
+      "number": 2,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    }
+  },
+  {
+    "id": 14569493440,
+    "watched_at": "2026-10-25T04:27:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt38119711",
+        "plex": {
+          "guid": "6a3c14b47d685d00e876c758"
+        },
+        "tmdb": 7423216,
+        "tvdb": 11858886,
+        "trakt": 14267996
+      },
+      "title": "The Best of Us",
+      "number": 1,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    }
+  },
+  {
     "id": 14568932878,
     "watched_at": "2026-10-25T00:42:00.000Z",
     "action": "checkin",

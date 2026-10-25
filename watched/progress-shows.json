@@ -2,6 +2,328 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    },
+    "progress": {
+      "aired": 20,
+      "completed": 12,
+      "last_watched_at": "2026-10-25T04:52:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt43347527",
+          "plex": {
+            "guid": "6a46c43cac1fb5d298cee3b8"
+          },
+          "tmdb": 7423217,
+          "tvdb": 11861024,
+          "trakt": 14267997
+        },
+        "title": "Weekend Ned",
+        "votes": 186,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/267/997/screenshots/medium/c6678984a5.jpg.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.435483932495117,
+        "season": 2,
+        "runtime": 23,
+        "overview": "Ned whisks Mare away for a romantic weekend; Adam and Adelola are left in charge of the paper.",
+        "released": "2026-09-09",
+        "number_abs": 12,
+        "updated_at": "2026-10-24T17:57:37.000Z",
+        "first_aired": "2026-09-09T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 4,
+        "during_credits": false,
+        "original_title": "Weekend Ned",
+        "available_translations": [
+          "de",
+          "en",
+          "es",
+          "he",
+          "nl",
+          "pt",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-09T07:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt43347561",
+          "plex": {
+            "guid": "6a46c43cac1fb5d298cee3ba"
+          },
+          "tmdb": 7423218,
+          "tvdb": 11861025,
+          "trakt": 14267998
+        },
+        "title": "Hearst's Mistress",
+        "votes": 168,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/267/998/screenshots/medium/55d4af749b.jpg.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.232142925262451,
+        "season": 2,
+        "runtime": 24,
+        "overview": "Ned and Mare search for a journalistic crusade and find themselves at her apartment.",
+        "released": "2026-09-09",
+        "number_abs": 13,
+        "updated_at": "2026-10-24T17:41:56.000Z",
+        "first_aired": "2026-09-09T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Hearst's Mistress",
+        "available_translations": [
+          "de",
+          "en",
+          "es",
+          "he",
+          "nl",
+          "pt",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-09T07:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 12,
+        "minutes_watched": 344,
+        "minutes_left": 195
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Season 1",
+          "aired": 10,
+          "completed": 10,
+          "stats": {
+            "play_count": 10,
+            "minutes_watched": 297,
+            "minutes_left": 0
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2025-09-08T06:15:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 33
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2025-09-09T03:36:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 28
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:05:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 31
+              }
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2025-09-09T04:33:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 28
+              }
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2025-09-10T04:57:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 29
+              }
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2025-09-10T05:27:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 31
+              }
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2025-09-10T05:56:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 30
+              }
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2025-09-11T05:07:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 27
+              }
+            },
+            {
+              "number": 9,
+              "completed": true,
+              "last_watched_at": "2025-09-12T06:27:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 30
+              }
+            },
+            {
+              "number": 10,
+              "completed": true,
+              "last_watched_at": "2025-09-13T04:07:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 30
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Season 2",
+          "aired": 10,
+          "completed": 2,
+          "stats": {
+            "play_count": 2,
+            "minutes_watched": 47,
+            "minutes_left": 195
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-10-25T04:27:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 24
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2026-10-25T04:52:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 23
+              }
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 9,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 10,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt0350448",
         "plex": {
           "guid": "5d9c082dffd9ef001e98ecc9",
@@ -43,7 +365,7 @@
         "overview": "Guests: An interview with Karoline Leavitt, former spokesperson and White House Press Secretary under the second Trump administration. This week's panel discussion includes Steve Hilton, 2026 Republican candidate for Governor of California, founder of the nonpartisan policy research organization Golden Together, and author of \"Califailure: Reversing the Ruin of America's Worst-Run State\"; and Gov. Andy Beshear, Democratic Governor of Kentucky and author of \"Go and Do Likewise: How We Heal a Broken Country.\"",
         "released": "2026-10-24",
         "number_abs": 746,
-        "updated_at": "2026-10-24T15:39:21.000Z",
+        "updated_at": "2026-10-25T04:29:09.000Z",
         "first_aired": "2026-10-24T02:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
@@ -22593,7 +22915,7 @@
         "overview": "Evelyn desperately tries to regain control. Abbie, Leila and Rory set their escape plan in motion. Alex discovers his purpose.",
         "released": "2025-09-25",
         "number_abs": 8,
-        "updated_at": "2026-10-24T04:04:29.000Z",
+        "updated_at": "2026-10-25T04:32:09.000Z",
         "first_aired": "2025-09-25T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -24928,7 +25250,7 @@
         "overview": "The teachers try to prevent a student prank from ruining graduation.",
         "released": "2025-10-17",
         "number_abs": 18,
-        "updated_at": "2026-10-24T04:02:02.000Z",
+        "updated_at": "2026-10-25T04:20:40.000Z",
         "first_aired": "2025-10-17T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -26283,335 +26605,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt32159809",
-        "plex": {
-          "guid": "663c5c9154860a808df84899",
-          "slug": "the-paper-2025"
-        },
-        "slug": "the-paper-2025",
-        "tmdb": 253941,
-        "tvdb": 449872,
-        "trakt": 239158
-      },
-      "year": 2025,
-      "title": "The Paper",
-      "aired_episodes": 20
-    },
-    "progress": {
-      "aired": 20,
-      "completed": 10,
-      "last_watched_at": "2025-09-13T04:07:00.000Z",
-      "reset_at": null,
-      "last_episode": {
-        "ids": {
-          "imdb": "tt37041730",
-          "plex": {
-            "guid": "687186f36e55c2a0ae336b1f"
-          },
-          "tmdb": 6372054,
-          "tvdb": 11237489,
-          "trakt": 13301432
-        },
-        "title": "The Ohio Journalism Awards",
-        "votes": 353,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/013/301/432/screenshots/medium/b508683f0b.jpg.webp"
-          ]
-        },
-        "number": 10,
-        "rating": 7.784702777862549,
-        "season": 1,
-        "runtime": 30,
-        "overview": "Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick's monogamy.",
-        "released": "2025-09-04",
-        "number_abs": 10,
-        "updated_at": "2026-10-25T01:58:02.000Z",
-        "first_aired": "2025-09-04T07:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 12,
-        "during_credits": false,
-        "original_title": "The Ohio Journalism Awards",
-        "available_translations": [
-          "cs",
-          "de",
-          "en",
-          "es",
-          "he",
-          "it",
-          "ko",
-          "nl",
-          "pt",
-          "ru",
-          "sv",
-          "th",
-          "uk",
-          "zh"
-        ],
-        "effective_release_date": "2025-09-04T07:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt38119711",
-          "plex": {
-            "guid": "6a3c14b47d685d00e876c758"
-          },
-          "tmdb": 7423216,
-          "tvdb": 11858886,
-          "trakt": 14267996
-        },
-        "title": "The Best of Us",
-        "votes": 214,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/267/996/screenshots/medium/8259087bef.jpg.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.514018535614014,
-        "season": 2,
-        "runtime": 24,
-        "overview": "Something unexpected overshadows TTT's wins on the Monday after the Ohio Journalism Awards.",
-        "released": "2026-09-09",
-        "number_abs": 11,
-        "updated_at": "2026-10-24T17:41:55.000Z",
-        "first_aired": "2026-09-09T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 8,
-        "during_credits": false,
-        "original_title": "The Best of Us",
-        "available_translations": [
-          "de",
-          "en",
-          "es",
-          "he",
-          "nl",
-          "pt",
-          "zh"
-        ],
-        "effective_release_date": "2026-09-09T07:00:00.000Z"
-      },
-      "stats": {
-        "play_count": 10,
-        "minutes_watched": 297,
-        "minutes_left": 242
-      },
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Season 1",
-          "aired": 10,
-          "completed": 10,
-          "stats": {
-            "play_count": 10,
-            "minutes_watched": 297,
-            "minutes_left": 0
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2025-09-08T06:15:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 33
-              }
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2025-09-09T03:36:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 28
-              }
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:05:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 31
-              }
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2025-09-09T04:33:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 28
-              }
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2025-09-10T04:57:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 29
-              }
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2025-09-10T05:27:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 31
-              }
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2025-09-10T05:56:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 30
-              }
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2025-09-11T05:07:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 27
-              }
-            },
-            {
-              "number": 9,
-              "completed": true,
-              "last_watched_at": "2025-09-12T06:27:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 30
-              }
-            },
-            {
-              "number": 10,
-              "completed": true,
-              "last_watched_at": "2025-09-13T04:07:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 30
-              }
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": "Season 2",
-          "aired": 10,
-          "completed": 0,
-          "stats": {
-            "play_count": 0,
-            "minutes_watched": 0,
-            "minutes_left": 242
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 9,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 10,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": []
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt33043892",
         "plex": {
           "guid": "66aaeee739a7f8cce575083a",
@@ -27294,7 +27287,7 @@
         "overview": "As the investigation comes to a close, Turner discovers the truth about Lucy's death \u2014 and the long-buried secrets that set it in motion.",
         "released": "2025-07-17",
         "number_abs": 6,
-        "updated_at": "2026-10-24T16:13:24.000Z",
+        "updated_at": "2026-10-25T04:41:18.000Z",
         "first_aired": "2025-07-17T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -27522,7 +27515,7 @@
         "overview": "Rick's been lonely, broh. Morty's worried bout side pieces.",
         "released": "2026-05-25",
         "number_abs": 82,
-        "updated_at": "2026-10-24T16:07:09.000Z",
+        "updated_at": "2026-10-25T04:30:19.000Z",
         "first_aired": "2026-05-25T03:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -30923,7 +30916,7 @@
         "overview": "As the gala kicks off, the conflict between Michaela and Simone comes to a head. Peter has a realization. Devon considers her options.",
         "released": "2025-05-22",
         "number_abs": 5,
-        "updated_at": "2026-10-24T03:41:02.000Z",
+        "updated_at": "2026-10-25T04:55:38.000Z",
         "first_aired": "2025-05-22T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -32047,7 +32040,7 @@
         "overview": "As the Wolves and the Scars prepare for a battle that could potentially end their longstanding feud, Ellie's search draws her away from her friends and toward a devastating confrontation.",
         "released": "2025-05-26",
         "number_abs": 16,
-        "updated_at": "2026-10-24T15:05:10.000Z",
+        "updated_at": "2026-10-25T04:48:30.000Z",
         "first_aired": "2025-05-26T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -37416,7 +37409,7 @@
         "overview": "Mark forms a shaky alliance in an all-or-nothing play, while the team makes a dangerous last stand.",
         "released": "2025-03-21",
         "number_abs": 19,
-        "updated_at": "2026-10-24T15:09:32.000Z",
+        "updated_at": "2026-10-25T05:04:27.000Z",
         "first_aired": "2025-03-21T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -39207,7 +39200,7 @@
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
         "released": "2026-07-03",
         "number_abs": 21,
-        "updated_at": "2026-10-24T15:10:18.000Z",
+        "updated_at": "2026-10-25T05:00:54.000Z",
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -40012,7 +40005,7 @@
         "overview": null,
         "released": null,
         "number_abs": 7,
-        "updated_at": "2026-10-24T04:34:10.000Z",
+        "updated_at": "2026-10-25T04:49:29.000Z",
         "first_aired": null,
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -46113,7 +46106,7 @@
         "overview": "Mike's plan for the warring factions in Kingstown hits turbulence.",
         "released": "2024-08-04",
         "number_abs": 30,
-        "updated_at": "2026-10-24T04:34:09.000Z",
+        "updated_at": "2026-10-25T04:49:27.000Z",
         "first_aired": "2024-08-04T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -48798,7 +48791,7 @@
         "overview": "Wrexham AFC's poor away form casts doubt on their chances for promotion, and as the end of the season nears, Rob McElhenney and Ryan Reynolds face some very tough decisions.",
         "released": "2024-06-14",
         "number_abs": 41,
-        "updated_at": "2026-10-24T04:34:43.000Z",
+        "updated_at": "2026-10-25T04:35:34.000Z",
         "first_aired": "2024-06-14T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -96791,7 +96784,7 @@
         "overview": "Now in the golden years of his career, Martin is busier than ever. He retraces the transformation that led to happiness in his art and personal life.",
         "released": "2024-03-29",
         "number_abs": 2,
-        "updated_at": "2026-10-24T00:50:21.000Z",
+        "updated_at": "2026-10-25T05:03:24.000Z",
         "first_aired": "2024-03-28T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -97909,7 +97902,7 @@
         "overview": "Cavendish rallies to search for Cal. As Eric finds his calling, Jackson discovers his roots. Much like love, truth takes many forms \u2014 and it will out.",
         "released": "2023-09-21",
         "number_abs": 32,
-        "updated_at": "2026-10-24T04:05:44.000Z",
+        "updated_at": "2026-10-25T04:30:19.000Z",
         "first_aired": "2023-09-21T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -100580,7 +100573,7 @@
         "overview": "Months later\u2026",
         "released": "2024-01-12",
         "number_abs": 10,
-        "updated_at": "2026-10-24T15:56:39.000Z",
+        "updated_at": "2026-10-25T04:34:34.000Z",
         "first_aired": "2024-01-15T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -111160,7 +111153,7 @@
         "overview": "With the clock ticking, Luke and Emma make tough choices to finish the mission and stay alive. A big day for the Brunner family spirals out of control.",
         "released": "2023-05-25",
         "number_abs": 8,
-        "updated_at": "2026-10-24T04:05:47.000Z",
+        "updated_at": "2026-10-25T04:16:18.000Z",
         "first_aired": "2023-05-25T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -111228,7 +111221,7 @@
         "overview": "It's a sink-or-swim mission when Luke and the team dive into deadly waters to stop a sinister terrorist from making a massive splash.",
         "released": "2025-06-12",
         "number_abs": 9,
-        "updated_at": "2026-10-24T04:05:47.000Z",
+        "updated_at": "2026-10-25T04:16:18.000Z",
         "first_aired": "2025-06-12T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -114055,7 +114048,7 @@
         "overview": "Mason, Nadia, and Bernard hide across Europe after Season 1's events. While Mason battles identity issues and Nadia flees with her daughter from operative Aparna, Bernard allies with ex-CIA Agent Hutch to stop Paulo Braga. A secret emerges when Nadia faces Frank Sharpe.",
         "released": "2026-05-06",
         "number_abs": 7,
-        "updated_at": "2026-10-24T04:05:47.000Z",
+        "updated_at": "2026-10-25T04:10:39.000Z",
         "first_aired": "2026-05-06T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -118623,7 +118616,7 @@
         "overview": "Violeta strikes back to save her country. The men must consider what happens if you rescue someone who doesn't want saving.",
         "released": "2023-01-13",
         "number_abs": 10,
-        "updated_at": "2026-10-24T04:05:46.000Z",
+        "updated_at": "2026-10-25T04:28:10.000Z",
         "first_aired": "2023-01-13T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -122497,7 +122490,7 @@
         "overview": "Wednesday lands in trouble with Principal Weems, but that's just the start of her problems. To fight an ancient evil, she'll need all her friends\u2019 help.",
         "released": "2022-11-23",
         "number_abs": 8,
-        "updated_at": "2026-10-24T15:21:34.000Z",
+        "updated_at": "2026-10-25T05:05:24.000Z",
         "first_aired": "2022-11-23T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -125000,7 +124993,7 @@
         "first_aired": "2022-09-13T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
-        "comment_count": 23,
+        "comment_count": 24,
         "during_credits": false,
         "original_title": "My Moon My Man",
         "available_translations": [
@@ -135781,7 +135774,7 @@
         "overview": "Every desperate deal. Every broken promise. Every bloody murder. Eager to leave their murky past behind, the Byrdes make a final bid for freedom.",
         "released": "2022-04-29",
         "number_abs": 44,
-        "updated_at": "2026-10-24T04:45:50.000Z",
+        "updated_at": "2026-10-25T05:00:54.000Z",
         "first_aired": "2022-04-29T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -141899,7 +141892,7 @@
         "overview": "Ambrose exposes the secret that threw Percy's life off course, setting off widespread consequences.",
         "released": "2021-12-02",
         "number_abs": 32,
-        "updated_at": "2026-10-24T04:01:23.000Z",
+        "updated_at": "2026-10-25T04:25:35.000Z",
         "first_aired": "2021-12-02T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -142322,7 +142315,7 @@
         "overview": "As their new album nears completion and after scrapping their planned TV special, The Beatles must decide if they want to continue with their plans to perform live for the first time in three years. As they exhaust their options, the band and their team look for a more convenient location to perform.",
         "released": "2021-11-27",
         "number_abs": 3,
-        "updated_at": "2026-10-24T04:21:20.000Z",
+        "updated_at": "2026-10-25T05:03:33.000Z",
         "first_aired": "2021-11-26T14:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -143514,7 +143507,7 @@
         "overview": "Wayne, now under arrest and on his own, must face off against Reggie in a brutal fight to settle their rivalry. Meanwhile, Del returns to Wayne\u2019s mom\u2019s house, determined to get her man back by any means necessary.",
         "released": "2019-01-16",
         "number_abs": 10,
-        "updated_at": "2026-10-24T04:05:43.000Z",
+        "updated_at": "2026-10-25T04:07:37.000Z",
         "first_aired": "2019-01-16T17:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -144130,7 +144123,7 @@
         "overview": "The Starr Report brings the world to a standstill. The President is impeached. Linda faces the aftermath of her decisions, Paula makes desperate choices, and Monica considers how to move on with her life.",
         "released": "2021-11-10",
         "number_abs": 29,
-        "updated_at": "2026-10-24T04:42:09.000Z",
+        "updated_at": "2026-10-25T04:44:47.000Z",
         "first_aired": "2021-11-10T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -151382,7 +151375,7 @@
         "overview": "The victims of the Golden State Killer seek closure following the recent sentencing. Plus, one final boots-on-the-ground investigation brings shocking new revelations to light in the case that inspired Michelle McNamara's fascination with unsolved crimes: the murder of Kathy Lombardo.",
         "released": null,
         "number_abs": 7,
-        "updated_at": "2026-10-24T01:55:56.000Z",
+        "updated_at": "2026-10-25T05:02:20.000Z",
         "first_aired": "2021-06-21T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -186794,7 +186787,7 @@
         "overview": "The numerous complications of a previous game make the stakes higher than ever for Miles to deliver an exceptional hunt to the Tiro Fund and their clients. He searches for the perfect prey to whet the appetites of clients.",
         "released": "2023-03-10",
         "number_abs": 16,
-        "updated_at": "2026-10-24T04:05:46.000Z",
+        "updated_at": "2026-10-25T04:13:15.000Z",
         "first_aired": "2023-03-10T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -188830,7 +188823,7 @@
         "overview": "The group finds itself in a climactic showdown in their last-ditch, desperate attempt to root out El Coco.",
         "released": "2020-03-09",
         "number_abs": 10,
-        "updated_at": "2026-10-24T04:01:21.000Z",
+        "updated_at": "2026-10-25T04:21:20.000Z",
         "first_aired": "2020-03-09T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -192532,7 +192525,7 @@
         "overview": "While original Miles tries to talk his way out of a sticky situation, new Miles gives himself a makeover and contemplates a dark end.",
         "released": "2019-10-18",
         "number_abs": 8,
-        "updated_at": "2026-10-24T05:08:59.000Z",
+        "updated_at": "2026-10-25T05:10:55.000Z",
         "first_aired": "2019-10-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -193065,7 +193058,7 @@
         "overview": "The nominating fight between Selina and her rivals reaches its climax, as their race comes to a historic finish. Series finale.",
         "released": "2019-05-13",
         "number_abs": 65,
-        "updated_at": "2026-10-24T05:03:58.000Z",
+        "updated_at": "2026-10-25T05:04:06.000Z",
         "first_aired": "2019-05-13T02:30:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -212223,7 +212216,7 @@
         "overview": "While the residents of La Belle prepare for Frank\u2019s onslaught, Whitey seeks help from an unexpected ally. Roy and Frank come to an understanding.",
         "released": "2017-11-22",
         "number_abs": 7,
-        "updated_at": "2026-10-24T04:29:45.000Z",
+        "updated_at": "2026-10-25T05:02:17.000Z",
         "first_aired": "2017-11-22T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -214103,7 +214096,7 @@
         "overview": "Leaving Death Row Records to form a subsidiary of Interscope called Aftermath Entertainment, Dre endured a string of disappointing solo releases, but Jimmy stood by him as others argued he should be dropped. Dre's fortunes turned when Jimmy turned him on to the music of an unknown white rapper named Eminem; with Dre producing, Eminem and Aftermath recorded The Slim Shady LP and took the rap music world by storm. On a roll with Dre and an enviable list of hot new acts, Jimmy was nevertheless worried that the music bubble would burst due to the emergence of Napster, and looked to forge corporate-marketing partnerships to boost the visibility and incomes of his artists. An opportune sit-down between Jimmy and Dre led to the idea of Beats Electronics, the speaker-headphone phenomenon that vaulted the partners to new heights, and paved the way for an historic 2014 deal with Apple. The world's most valuable company wasn't just interested in headphones: it was investing in the genius of Jimmy and Dre, who continue to innovate at Apple Music while picking up accolades--Dre was inducted into the Rock and Roll Hall of Fame with N.W.A. last year--and giving back to the communities that fostered their unique talents.",
         "released": "2017-07-13",
         "number_abs": 4,
-        "updated_at": "2026-10-24T15:37:37.000Z",
+        "updated_at": "2026-10-25T04:36:19.000Z",
         "first_aired": "2017-07-13T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -216651,7 +216644,7 @@
         "overview": "As James Delaney conspires to escape, an enraged Prince Regent unleashes one final plan to destroy him.",
         "released": "2017-02-25",
         "number_abs": 8,
-        "updated_at": "2026-10-24T04:48:11.000Z",
+        "updated_at": "2026-10-25T04:49:34.000Z",
         "first_aired": "2017-02-25T21:15:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -245773,7 +245766,7 @@
         "overview": "All bad things must come to an end.",
         "released": "2013-09-30",
         "number_abs": 62,
-        "updated_at": "2026-10-24T15:10:43.000Z",
+        "updated_at": "2026-10-25T04:43:54.000Z",
         "first_aired": "2013-09-30T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -255347,7 +255340,7 @@
         "overview": "Foster\u2019s former patient, one of the founders of a social-networking app, comes to the Lightman Group when she thinks she\u2019s being squeezed out by her partner. When she turns up dead a short time later, Lightman fights against the prevailing evidence to expose the truth behind the murder.",
         "released": "2011-02-01",
         "number_abs": 48,
-        "updated_at": "2026-10-24T15:34:40.000Z",
+        "updated_at": "2026-10-25T04:21:20.000Z",
         "first_aired": "2011-02-01T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
