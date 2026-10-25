@@ -1,5 +1,25 @@
 [
   {
+    "id": 14569936660,
+    "watched_at": "2026-10-25T09:02:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt11561116",
+        "plex": {
+          "guid": "5f40987e1ae710004115f516",
+          "slug": "the-whisper-man"
+        },
+        "slug": "the-whisper-man-2026",
+        "tmdb": 860508,
+        "trakt": 688185
+      },
+      "year": 2026,
+      "title": "The Whisper Man"
+    }
+  },
+  {
     "id": 14569737343,
     "watched_at": "2026-10-25T07:11:00.000Z",
     "action": "scrobble",
@@ -77030,16 +77050,16 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt48484903",
+        "imdb": "tt21740488",
         "plex": {
           "guid": "630007772bd2c2b545ae3884",
           "slug": "little-death-2024"
         },
-        "slug": "junk-2026",
+        "slug": "junk-2024",
         "tmdb": 1025231,
         "trakt": 824345
       },
-      "year": 2026,
+      "year": 2024,
       "title": "Junk"
     }
   },
