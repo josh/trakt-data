@@ -222,5 +222,67 @@
     "listed_at": "2026-10-20T16:26:39.000Z",
     "notes": null,
     "my_rating": null
+  },
+  {
+    "type": "episode",
+    "show": {
+      "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    },
+    "episode": {
+      "ids": {
+        "imdb": "tt38119711",
+        "plex": {
+          "guid": "6a3c14b47d685d00e876c758"
+        },
+        "tmdb": 7423216,
+        "tvdb": 11858886,
+        "trakt": 14267996
+      },
+      "title": "The Best of Us",
+      "number": 1,
+      "season": 2
+    },
+    "rank": 18,
+    "id": 1556431826,
+    "listed_at": "2026-10-25T04:05:43.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "show",
+    "show": {
+      "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    },
+    "rank": 19,
+    "id": 1556431897,
+    "listed_at": "2026-10-25T04:06:13.000Z",
+    "notes": null,
+    "my_rating": null
   }
 ]
