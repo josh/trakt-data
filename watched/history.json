@@ -1,5 +1,41 @@
 [
   {
+    "id": 14568932878,
+    "watched_at": "2026-10-25T00:42:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": null,
+        "plex": {
+          "guid": "6ad1f9e521db8534443963a1"
+        },
+        "tmdb": 7907307,
+        "tvdb": null,
+        "trakt": 14549413
+      },
+      "title": "October 23, 2026: Karoline Leavitt, Steve Hilton, Gov. Andy Beshear",
+      "number": 31,
+      "season": 24
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt0350448",
+        "plex": {
+          "guid": "5d9c082dffd9ef001e98ecc9",
+          "slug": "real-time-with-bill-maher"
+        },
+        "slug": "real-time-with-bill-maher",
+        "tmdb": 4419,
+        "tvdb": 72231,
+        "trakt": 4395
+      },
+      "year": 2003,
+      "title": "Real Time with Bill Maher",
+      "aired_episodes": 746
+    }
+  },
+  {
     "id": 14566585165,
     "watched_at": "2026-10-24T09:36:00.000Z",
     "action": "scrobble",
