@@ -1054,6 +1054,28 @@
     "my_rating": null
   },
   {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt20864566",
+        "plex": {
+          "guid": null,
+          "slug": null
+        },
+        "slug": "gambino",
+        "tmdb": 1580187,
+        "trakt": 1311305
+      },
+      "year": null,
+      "title": "Gambino"
+    },
+    "rank": 177,
+    "id": 1556799145,
+    "listed_at": "2026-10-26T20:02:44.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
     "type": "show",
     "show": {
       "ids": {
@@ -2303,7 +2325,7 @@
       },
       "year": 2026,
       "title": "Youth",
-      "aired_episodes": 6
+      "aired_episodes": 7
     },
     "rank": 184,
     "id": 1554417372,
@@ -2971,7 +2993,7 @@
       },
       "year": 2026,
       "title": "American Hostage",
-      "aired_episodes": 6
+      "aired_episodes": 7
     },
     "rank": 189,
     "id": 1545437566,
