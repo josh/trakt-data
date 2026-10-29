@@ -18,52 +18,10 @@
     },
     "progress": {
       "aired": 20,
-      "completed": 16,
-      "last_watched_at": "2026-10-29T05:58:00.000Z",
+      "completed": 17,
+      "last_watched_at": "2026-10-29T06:24:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt42218309",
-          "plex": {
-            "guid": "6a46c43cac1fb5d298cee3bf"
-          },
-          "tmdb": 7423221,
-          "tvdb": 11861028,
-          "trakt": 14268001
-        },
-        "title": "125 Years Young",
-        "votes": 150,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/268/001/screenshots/medium/0ffcda6cb4.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.313298225402832,
-        "season": 2,
-        "runtime": 23,
-        "overview": "The paper celebrates its 125th birthday and gets slammed; Esmeralda gets creative with HR training.",
-        "released": "2026-09-09",
-        "number_abs": 16,
-        "updated_at": "2026-10-28T17:46:51.000Z",
-        "first_aired": "2026-09-09T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "125 Years Young",
-        "available_translations": [
-          "de",
-          "en",
-          "es",
-          "he",
-          "nl",
-          "pt",
-          "zh"
-        ],
-        "effective_release_date": "2026-09-09T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt43347831",
           "plex": {
@@ -105,10 +63,52 @@
         ],
         "effective_release_date": "2026-09-09T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt43347860",
+          "plex": {
+            "guid": "6a46c43dac1fb5d298cee3c3"
+          },
+          "tmdb": 7423223,
+          "tvdb": 11861030,
+          "trakt": 14268003
+        },
+        "title": "Secret Team",
+        "votes": 133,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/268/003/screenshots/medium/c67753bf0b.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.323299884796143,
+        "season": 2,
+        "runtime": 23,
+        "overview": "Ned forms a secret team to investigate a possible crime by powerful advertisers.",
+        "released": "2026-09-09",
+        "number_abs": 18,
+        "updated_at": "2026-10-28T18:03:42.000Z",
+        "first_aired": "2026-09-09T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Secret Team",
+        "available_translations": [
+          "de",
+          "en",
+          "es",
+          "he",
+          "nl",
+          "pt",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-09T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 16,
-        "minutes_watched": 438,
-        "minutes_left": 101
+        "play_count": 17,
+        "minutes_watched": 464,
+        "minutes_left": 75
       },
       "seasons": [
         {
@@ -218,11 +218,11 @@
           "number": 2,
           "title": "Season 2",
           "aired": 10,
-          "completed": 6,
+          "completed": 7,
           "stats": {
-            "play_count": 6,
-            "minutes_watched": 141,
-            "minutes_left": 101
+            "play_count": 7,
+            "minutes_watched": 167,
+            "minutes_left": 75
           },
           "episodes": [
             {
@@ -281,11 +281,11 @@
             },
             {
               "number": 7,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-10-29T06:24:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 26
               }
             },
             {
@@ -16365,14 +16365,14 @@
           "trakt": 13949537
         },
         "title": "Search and Recovery",
-        "votes": 156,
+        "votes": 155,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/949/537/screenshots/medium/e657ab3a8a.jpg.webp"
           ]
         },
         "number": 9,
-        "rating": 8.076923370361328,
+        "rating": 8.070967674255371,
         "season": 1,
         "runtime": 57,
         "overview": "John and Carolyn fight to keep their relationship intact; the world watches as tragedy strikes.",
@@ -25320,7 +25320,7 @@
         "overview": "The teachers try to prevent a student prank from ruining graduation.",
         "released": "2025-10-17",
         "number_abs": 18,
-        "updated_at": "2026-10-28T06:32:23.000Z",
+        "updated_at": "2026-10-29T06:39:53.000Z",
         "first_aired": "2025-10-17T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -26413,7 +26413,7 @@
         "overview": "A new power dynamic emerges.",
         "released": "2025-09-24",
         "number_abs": 8,
-        "updated_at": "2026-10-28T06:27:27.000Z",
+        "updated_at": "2026-10-29T06:28:57.000Z",
         "first_aired": "2025-09-24T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -26718,7 +26718,7 @@
         "overview": "Dexter and Harrison face the consequences of their darkness.",
         "released": "2025-09-05",
         "number_abs": 10,
-        "updated_at": "2026-10-28T15:11:17.000Z",
+        "updated_at": "2026-10-29T06:42:03.000Z",
         "first_aired": "2025-09-07T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -26732,6 +26732,7 @@
           "el",
           "en",
           "es",
+          "fi",
           "fr",
           "he",
           "hu",
@@ -26762,7 +26763,7 @@
         "votes": 8,
         "images": {
           "screenshot": [
-            "media.trakt.tv/images/episodes/013/610/797/screenshots/medium/3247d7cc03.jpg.webp"
+            "media.trakt.tv/images/episodes/013/610/797/screenshots/medium/e113cf9f66.jpg.webp"
           ]
         },
         "number": 1,
@@ -26772,7 +26773,7 @@
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
         "released": null,
         "number_abs": 11,
-        "updated_at": "2026-10-29T04:08:16.000Z",
+        "updated_at": "2026-10-29T06:42:06.000Z",
         "first_aired": "2026-11-01T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -27526,7 +27527,7 @@
         "overview": "Brohhhhh. Broh. Sometimes we try weird stuff to let go of the past, broh.",
         "released": "2025-07-28",
         "number_abs": 81,
-        "updated_at": "2026-10-28T06:06:31.000Z",
+        "updated_at": "2026-10-29T06:07:59.000Z",
         "first_aired": "2025-07-28T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -29888,7 +29889,7 @@
         "overview": "As Jun-ho races to reach the island, tensions peak in the final round. The last players face an impossible situation in the closing minutes of the game.",
         "released": "2025-06-27",
         "number_abs": 22,
-        "updated_at": "2026-10-28T15:44:52.000Z",
+        "updated_at": "2026-10-29T06:16:35.000Z",
         "first_aired": "2025-06-27T08:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -30990,7 +30991,7 @@
         "overview": "As the gala kicks off, the conflict between Michaela and Simone comes to a head. Peter has a realization. Devon considers her options.",
         "released": "2025-05-22",
         "number_abs": 5,
-        "updated_at": "2026-10-28T06:33:44.000Z",
+        "updated_at": "2026-10-29T06:41:29.000Z",
         "first_aired": "2025-05-22T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -31149,7 +31150,7 @@
         "overview": "In Austria, Conan gifts merchandise to a loyal listener, sings with a local choir, and assists an immigrant fan with his citizenship application.",
         "released": "2025-05-22",
         "number_abs": 7,
-        "updated_at": "2026-10-28T15:24:34.000Z",
+        "updated_at": "2026-10-29T06:39:44.000Z",
         "first_aired": "2025-05-23T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -35481,7 +35482,7 @@
         "overview": "Laurie, Jaclyn, and Kate reckon with their friendship. Timothy comes up with a shocking plan for his family. Belinda considers a deal.",
         "released": "2025-04-07",
         "number_abs": 21,
-        "updated_at": "2026-10-28T06:08:53.000Z",
+        "updated_at": "2026-10-29T06:15:41.000Z",
         "first_aired": "2025-04-07T01:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -35776,7 +35777,7 @@
         "overview": "The extent of the conspiracy is revealed. Elliot's past and present collide and the Gangs take revenge, changing London forever.",
         "released": null,
         "number_abs": 25,
-        "updated_at": "2026-10-28T06:36:54.000Z",
+        "updated_at": "2026-10-29T06:40:12.000Z",
         "first_aired": "2025-05-08T20:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -40079,7 +40080,7 @@
         "overview": null,
         "released": null,
         "number_abs": 7,
-        "updated_at": "2026-10-28T05:50:58.000Z",
+        "updated_at": "2026-10-29T06:08:11.000Z",
         "first_aired": null,
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -41125,7 +41126,7 @@
         "overview": "Willis tries to write his own ending.",
         "released": "2024-11-19",
         "number_abs": 10,
-        "updated_at": "2026-10-28T06:18:45.000Z",
+        "updated_at": "2026-10-29T06:29:06.000Z",
         "first_aired": "2024-11-19T05:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -42160,7 +42161,7 @@
         "overview": "Ava and Nathan are on a game show with deadly stakes; Tory and Matt are on the run from the police.",
         "released": "2024-11-21",
         "number_abs": 16,
-        "updated_at": "2026-10-28T06:08:56.000Z",
+        "updated_at": "2026-10-29T06:29:17.000Z",
         "first_aired": "2024-11-21T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -42397,7 +42398,7 @@
         "overview": "Matt and Sweat run for their lives as the tension between them is pushed to the extreme. Tilly gets out of the hospital and does her best to evade the authorities. But as the law closes in, all three are confronted with hard truths about who they really are. Series finale.",
         "released": "2018-12-31",
         "number_abs": 7,
-        "updated_at": "2026-10-28T06:32:23.000Z",
+        "updated_at": "2026-10-29T06:39:53.000Z",
         "first_aired": "2018-12-31T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -48060,14 +48061,14 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 1142,
+        "votes": 1143,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.7845940589904785,
+        "rating": 7.786532402038574,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
@@ -48894,7 +48895,7 @@
         "overview": "Wrexham AFC's poor away form casts doubt on their chances for promotion, and as the end of the season nears, Rob McElhenney and Ryan Reynolds face some very tough decisions.",
         "released": "2024-06-14",
         "number_abs": 41,
-        "updated_at": "2026-10-28T06:34:47.000Z",
+        "updated_at": "2026-10-29T06:42:47.000Z",
         "first_aired": "2024-06-14T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -48937,7 +48938,7 @@
         "overview": "Wrexham AFC enters the ultra-competitive EFL League One while owners Ryan Reynolds and Rob McElhenney confront the financial costs of remaining competitive. Humphrey Ker makes a big commitment.",
         "released": "2025-05-16",
         "number_abs": 42,
-        "updated_at": "2026-10-28T06:34:47.000Z",
+        "updated_at": "2026-10-29T06:42:47.000Z",
         "first_aired": "2025-05-16T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -94995,7 +94996,7 @@
         "overview": "The team struggles to find a way out of Axis Mundi. Kentaro and Tim make an unexpected alliance.",
         "released": "2024-01-12",
         "number_abs": 10,
-        "updated_at": "2026-10-28T15:47:43.000Z",
+        "updated_at": "2026-10-29T06:24:36.000Z",
         "first_aired": "2024-01-12T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -96914,7 +96915,7 @@
         "overview": "Now in the golden years of his career, Martin is busier than ever. He retraces the transformation that led to happiness in his art and personal life.",
         "released": "2024-03-29",
         "number_abs": 2,
-        "updated_at": "2026-10-28T06:33:40.000Z",
+        "updated_at": "2026-10-29T06:41:25.000Z",
         "first_aired": "2024-03-28T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -100703,7 +100704,7 @@
         "overview": "Months later\u2026",
         "released": "2024-01-12",
         "number_abs": 10,
-        "updated_at": "2026-10-28T15:23:20.000Z",
+        "updated_at": "2026-10-29T06:41:49.000Z",
         "first_aired": "2024-01-15T03:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -100939,7 +100940,7 @@
         "overview": "After four years in prison, Assane is days away from early release and a new life with Raoul \u2013 until a mysterious cyberattack threatens it all.",
         "released": null,
         "number_abs": 18,
-        "updated_at": "2026-10-28T15:06:07.000Z",
+        "updated_at": "2026-10-29T06:45:22.000Z",
         "first_aired": "2026-10-23T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -102818,7 +102819,7 @@
         "overview": "The police chase the other half of the stolen Brink\u2019s-Mat gold when it resurfaces. In Tenerife, John Palmer\u2019s successful timeshare business starts to attract unwanted attention.",
         "released": "2025-06-08",
         "number_abs": 7,
-        "updated_at": "2026-10-28T06:34:09.000Z",
+        "updated_at": "2026-10-29T06:41:53.000Z",
         "first_aired": "2025-06-08T20:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -104139,7 +104140,7 @@
         "overview": "In 1980, Roderick and Madeline seize a chance to cement their fortune \u2014 for a price. Decades later, the remaining Ushers reckon with the consequences.",
         "released": "2023-10-12",
         "number_abs": 8,
-        "updated_at": "2026-10-28T06:34:06.000Z",
+        "updated_at": "2026-10-29T06:41:52.000Z",
         "first_aired": "2023-10-12T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -114198,7 +114199,7 @@
         "overview": "Mason, Nadia, and Bernard hide across Europe after Season 1's events. While Mason battles identity issues and Nadia flees with her daughter from operative Aparna, Bernard allies with ex-CIA Agent Hutch to stop Paulo Braga. A secret emerges when Nadia faces Frank Sharpe.",
         "released": "2026-05-06",
         "number_abs": 7,
-        "updated_at": "2026-10-28T06:18:01.000Z",
+        "updated_at": "2026-10-29T06:37:51.000Z",
         "first_aired": "2026-05-06T04:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -114559,7 +114560,7 @@
         "overview": "As their sessions come to a close, some couples emerge with a sense of clarity and optimism around their relationships. Season finale.",
         "released": null,
         "number_abs": 37,
-        "updated_at": "2026-10-28T05:49:18.000Z",
+        "updated_at": "2026-10-29T06:54:30.000Z",
         "first_aired": "2023-05-27T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -118766,7 +118767,7 @@
         "overview": "Violeta strikes back to save her country. The men must consider what happens if you rescue someone who doesn't want saving.",
         "released": "2023-01-13",
         "number_abs": 10,
-        "updated_at": "2026-10-28T07:01:53.000Z",
+        "updated_at": "2026-10-29T07:04:06.000Z",
         "first_aired": "2023-01-13T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -125194,14 +125195,14 @@
           "trakt": 13287369
         },
         "title": "Last Chance for a Slow Dance",
-        "votes": 510,
+        "votes": 511,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/013/287/369/screenshots/medium/f26818f809.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.815661430358887,
+        "rating": 7.812108039855957,
         "season": 2,
         "runtime": 29,
         "overview": "A former edgerunner slipping into cyberpsychosis and a lonely survivor with a fractured past start their stories at opposite ends of Night City.",
@@ -134075,7 +134076,7 @@
         "overview": "As the Germans surrender, it appears that that the hard days for Easy Company are over as they are stationed in Austria. But they soon learn that those solders without enough service points will be sent to fight in Japan.",
         "released": "2001-11-05",
         "number_abs": 10,
-        "updated_at": "2026-10-28T06:36:42.000Z",
+        "updated_at": "2026-10-29T06:38:09.000Z",
         "first_aired": "2001-11-05T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -134427,7 +134428,7 @@
         "overview": "The Abbott family faces a grand reckoning over the course of a single day as the showdown between Royal and Autumn culminates, unearthing a shattering revelation.",
         "released": "2022-05-06",
         "number_abs": 8,
-        "updated_at": "2026-10-28T07:02:04.000Z",
+        "updated_at": "2026-10-29T07:04:09.000Z",
         "first_aired": "2022-05-06T00:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -134461,7 +134462,7 @@
         "overview": "In the aftermath of the bison stampede, the Abbott family is more fractured than ever. Royal and Cecilia confront some difficult truths as they fight to keep their family together.",
         "released": "2024-05-16",
         "number_abs": 9,
-        "updated_at": "2026-10-28T06:33:26.000Z",
+        "updated_at": "2026-10-29T06:41:01.000Z",
         "first_aired": "2024-05-17T00:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -144274,7 +144275,7 @@
         "overview": "The Starr Report brings the world to a standstill. The President is impeached. Linda faces the aftermath of her decisions, Paula makes desperate choices, and Monica considers how to move on with her life.",
         "released": "2021-11-10",
         "number_abs": 29,
-        "updated_at": "2026-10-28T15:28:49.000Z",
+        "updated_at": "2026-10-29T06:39:18.000Z",
         "first_aired": "2021-11-10T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -152745,7 +152746,7 @@
         "overview": "With his career in a nosedive and his personal life a mess, Halston receives an artistic lifeline from an old friend before embarking on a last journey.",
         "released": "2021-05-14",
         "number_abs": 5,
-        "updated_at": "2026-10-28T06:32:51.000Z",
+        "updated_at": "2026-10-29T06:40:15.000Z",
         "first_aired": "2021-05-14T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -180323,7 +180324,7 @@
         "overview": "Bernard copes with an unexpected tragedy, while Lenina draws ire at the Hatchery; John\u2019s exile pushes New London to the brink.",
         "released": "2020-07-15",
         "number_abs": 9,
-        "updated_at": "2026-10-28T06:18:45.000Z",
+        "updated_at": "2026-10-29T06:28:57.000Z",
         "first_aired": "2020-07-15T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -184751,7 +184752,7 @@
         "overview": "With the end of their journey approaching, Ruby and Billy consider their future together. Are they finally being honest with each other? Babe and Laurel are forced together as they follow a new lead. Season finale.",
         "released": "2020-05-25",
         "number_abs": 7,
-        "updated_at": "2026-10-28T06:33:27.000Z",
+        "updated_at": "2026-10-29T06:41:13.000Z",
         "first_aired": "2020-05-25T02:30:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -185541,7 +185542,7 @@
         "overview": "As the Oscars approach, Ernie shares devastating news, Camille listens to sage advice from Hattie McDaniel, and Archie takes a stand on the red carpet.",
         "released": "2020-05-01",
         "number_abs": 7,
-        "updated_at": "2026-10-28T15:00:32.000Z",
+        "updated_at": "2026-10-29T07:11:04.000Z",
         "first_aired": "2020-05-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -186947,7 +186948,7 @@
         "overview": "The numerous complications of a previous game make the stakes higher than ever for Miles to deliver an exceptional hunt to the Tiro Fund and their clients. He searches for the perfect prey to whet the appetites of clients.",
         "released": "2023-03-10",
         "number_abs": 16,
-        "updated_at": "2026-10-28T06:54:39.000Z",
+        "updated_at": "2026-10-29T07:09:23.000Z",
         "first_aired": "2023-03-10T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -188807,7 +188808,7 @@
         "overview": "Pius XIII and John Paul III are forced to confront one another, as terrorists take a priest and six students hostage in Ventotene.",
         "released": "2020-02-07",
         "number_abs": 9,
-        "updated_at": "2026-10-28T06:08:55.000Z",
+        "updated_at": "2026-10-29T06:42:10.000Z",
         "first_aired": "2020-02-07T20:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -192065,7 +192066,7 @@
         "overview": "It's Whitney's wedding day and everything comes full circle.",
         "released": "2019-11-04",
         "number_abs": 53,
-        "updated_at": "2026-10-28T06:20:49.000Z",
+        "updated_at": "2026-10-29T06:22:29.000Z",
         "first_aired": "2019-11-04T02:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -192685,7 +192686,7 @@
         "overview": "While original Miles tries to talk his way out of a sticky situation, new Miles gives himself a makeover and contemplates a dark end.",
         "released": "2019-10-18",
         "number_abs": 8,
-        "updated_at": "2026-10-28T06:03:44.000Z",
+        "updated_at": "2026-10-29T07:00:28.000Z",
         "first_aired": "2019-10-18T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -198610,7 +198611,7 @@
         "overview": "Valery Legasov, Boris Shcherbina and Ulana Khomyuk risk their lives and reputations to expose the truth about Chernobyl.",
         "released": "2019-06-04",
         "number_abs": 5,
-        "updated_at": "2026-10-28T15:46:59.000Z",
+        "updated_at": "2026-10-29T06:15:12.000Z",
         "first_aired": "2019-06-04T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -198768,7 +198769,7 @@
         "overview": "Alive and intact, Yossarian is thwarted by an old adversary. Confronted by a devastating loss, he undergoes a transformation.",
         "released": "2019-05-17",
         "number_abs": 6,
-        "updated_at": "2026-10-28T06:16:18.000Z",
+        "updated_at": "2026-10-29T06:24:25.000Z",
         "first_aired": "2019-05-17T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -212577,7 +212578,7 @@
         "overview": "Serena Joy confronts Offred and the Commander. Offred struggles with a complicated, life-changing revelation. The Handmaids face a brutal decision.",
         "released": "2017-06-14",
         "number_abs": 10,
-        "updated_at": "2026-10-28T06:28:58.000Z",
+        "updated_at": "2026-10-29T06:31:39.000Z",
         "first_aired": "2017-06-14T04:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,

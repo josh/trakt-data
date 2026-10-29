@@ -1,5 +1,41 @@
 [
   {
+    "id": 14582987167,
+    "watched_at": "2026-10-29T06:24:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt43347831",
+        "plex": {
+          "guid": "6a46c43dac1fb5d298cee3c1"
+        },
+        "tmdb": 7423222,
+        "tvdb": 11861029,
+        "trakt": 14268002
+      },
+      "title": "Tornado Alert",
+      "number": 7,
+      "season": 2
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt32159809",
+        "plex": {
+          "guid": "663c5c9154860a808df84899",
+          "slug": "the-paper-2025"
+        },
+        "slug": "the-paper-2025",
+        "tmdb": 253941,
+        "tvdb": 449872,
+        "trakt": 239158
+      },
+      "year": 2025,
+      "title": "The Paper",
+      "aired_episodes": 20
+    }
+  },
+  {
     "id": 14582928872,
     "watched_at": "2026-10-29T05:58:00.000Z",
     "action": "scrobble",

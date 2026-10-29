@@ -18,16 +18,58 @@
     },
     "progress": {
       "aired": 20,
-      "completed": 16,
+      "completed": 17,
       "hidden": 0,
-      "last_watched_at": "2026-10-29T05:58:00.000Z",
+      "last_watched_at": "2026-10-29T06:24:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 16,
+        "play_count": 17,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt43347860",
+          "plex": {
+            "guid": "6a46c43dac1fb5d298cee3c3"
+          },
+          "tmdb": 7423223,
+          "tvdb": 11861030,
+          "trakt": 14268003
+        },
+        "title": "Secret Team",
+        "votes": 133,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/images/episodes/014/268/003/screenshots/medium/c67753bf0b.jpg.webp"
+          ]
+        },
+        "number": 8,
+        "rating": 7.323299884796143,
+        "season": 2,
+        "runtime": 23,
+        "overview": "Ned forms a secret team to investigate a possible crime by powerful advertisers.",
+        "released": "2026-09-09",
+        "number_abs": 18,
+        "updated_at": "2026-10-28T18:03:42.000Z",
+        "first_aired": "2026-09-09T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Secret Team",
+        "available_translations": [
+          "de",
+          "en",
+          "es",
+          "he",
+          "nl",
+          "pt",
+          "zh"
+        ],
+        "effective_release_date": "2026-09-09T07:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt43347831",
           "plex": {
@@ -58,48 +100,6 @@
         "comment_count": 2,
         "during_credits": false,
         "original_title": "Tornado Alert",
-        "available_translations": [
-          "de",
-          "en",
-          "es",
-          "he",
-          "nl",
-          "pt",
-          "zh"
-        ],
-        "effective_release_date": "2026-09-09T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt42218309",
-          "plex": {
-            "guid": "6a46c43cac1fb5d298cee3bf"
-          },
-          "tmdb": 7423221,
-          "tvdb": 11861028,
-          "trakt": 14268001
-        },
-        "title": "125 Years Young",
-        "votes": 150,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/images/episodes/014/268/001/screenshots/medium/0ffcda6cb4.jpg.webp"
-          ]
-        },
-        "number": 6,
-        "rating": 7.313298225402832,
-        "season": 2,
-        "runtime": 23,
-        "overview": "The paper celebrates its 125th birthday and gets slammed; Esmeralda gets creative with HR training.",
-        "released": "2026-09-09",
-        "number_abs": 16,
-        "updated_at": "2026-10-28T17:46:51.000Z",
-        "first_aired": "2026-09-09T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 3,
-        "during_credits": false,
-        "original_title": "125 Years Young",
         "available_translations": [
           "de",
           "en",
@@ -2150,14 +2150,14 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 1142,
+        "votes": 1143,
         "images": {
           "screenshot": [
             "media.trakt.tv/images/episodes/014/100/885/screenshots/medium/c3db7f4981.jpg.webp"
           ]
         },
         "number": 1,
-        "rating": 7.7845940589904785,
+        "rating": 7.786532402038574,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
@@ -2768,7 +2768,7 @@
         "overview": "After four years in prison, Assane is days away from early release and a new life with Raoul \u2013 until a mysterious cyberattack threatens it all.",
         "released": null,
         "number_abs": 18,
-        "updated_at": "2026-10-28T15:06:07.000Z",
+        "updated_at": "2026-10-29T06:45:22.000Z",
         "first_aired": "2026-10-23T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
