@@ -1,5 +1,25 @@
 [
   {
+    "id": 14583272065,
+    "watched_at": "2026-10-29T09:26:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt37818327",
+        "plex": {
+          "guid": "683ce4ca22c18888bc8c8fa5",
+          "slug": "the-sun-never-sets-2026-1"
+        },
+        "slug": "the-sun-never-sets-2026",
+        "tmdb": 1490214,
+        "trakt": 1221949
+      },
+      "year": 2026,
+      "title": "The Sun Never Sets"
+    }
+  },
+  {
     "id": 14583068206,
     "watched_at": "2026-10-29T07:33:00.000Z",
     "action": "scrobble",
@@ -440104,7 +440124,7 @@
         "trakt": 8837
       },
       "year": 2008,
-      "title": "Nothing But the Truth"
+      "title": "Nothing but the Truth"
     }
   },
   {
@@ -443127,11 +443147,11 @@
           "guid": "5d776a3dfb0d55001f53f19e",
           "slug": "bad-words"
         },
-        "slug": "bad-words-2013",
+        "slug": "bad-words-2014",
         "tmdb": 209403,
         "trakt": 129762
       },
-      "year": 2013,
+      "year": 2014,
       "title": "Bad Words"
     }
   },
