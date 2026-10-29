@@ -1,5 +1,43 @@
 [
   {
+    "rated_at": "2026-10-29T16:02:47.000Z",
+    "rating": 6,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32261958",
+        "plex": {
+          "guid": "66334c9ab9a6a4f733141e21",
+          "slug": "verity-2026"
+        },
+        "slug": "verity-2026",
+        "tmdb": 1283515,
+        "trakt": 1043653
+      },
+      "year": 2026,
+      "title": "Verity"
+    }
+  },
+  {
+    "rated_at": "2026-10-29T16:02:47.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32298494",
+        "plex": {
+          "guid": "663be0fb1726cae22af0caff",
+          "slug": "late-fame-2026"
+        },
+        "slug": "late-fame-2026",
+        "tmdb": 1285895,
+        "trakt": 1046176
+      },
+      "year": 2026,
+      "title": "Late Fame"
+    }
+  },
+  {
     "rated_at": "2026-10-25T16:02:21.000Z",
     "rating": 6,
     "type": "movie",
@@ -10531,7 +10569,7 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt21740488",
+        "imdb": "tt48484903",
         "plex": {
           "guid": "630007772bd2c2b545ae3884",
           "slug": "little-death-2024"
@@ -74571,7 +74609,7 @@
         "trakt": 8837
       },
       "year": 2008,
-      "title": "Nothing But the Truth"
+      "title": "Nothing but the Truth"
     }
   },
   {
@@ -74604,11 +74642,11 @@
           "guid": "5d776a3dfb0d55001f53f19e",
           "slug": "bad-words"
         },
-        "slug": "bad-words-2013",
+        "slug": "bad-words-2014",
         "tmdb": 209403,
         "trakt": 129762
       },
-      "year": 2013,
+      "year": 2014,
       "title": "Bad Words"
     }
   },
