@@ -1,5 +1,24 @@
 [
   {
+    "rated_at": "2026-11-01T16:01:31.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32268992",
+        "plex": {
+          "guid": "66354efc3dc724d9033b58dc",
+          "slug": "sacrifice-2026"
+        },
+        "slug": "sacrifice-2026",
+        "tmdb": 1284186,
+        "trakt": 1043813
+      },
+      "year": 2026,
+      "title": "Sacrifice"
+    }
+  },
+  {
     "rated_at": "2026-10-30T06:03:36.000Z",
     "rating": 6,
     "type": "movie",
@@ -1074,11 +1093,11 @@
           "guid": "65c7036a2612c4da83e3e7f3",
           "slug": "fuze-2026"
         },
-        "slug": "fuze-2026",
+        "slug": "fuze-2025",
         "tmdb": 1242265,
         "trakt": 1005644
       },
-      "year": 2026,
+      "year": 2025,
       "title": "Fuze"
     }
   },
@@ -31569,11 +31588,11 @@
           "guid": "5d7770a9ad5437001f827dd1",
           "slug": "fyre-2019"
         },
-        "slug": "fyre-2019",
+        "slug": "fyre-2018",
         "tmdb": 567860,
         "trakt": 420612
       },
-      "year": 2019,
+      "year": 2018,
       "title": "Fyre"
     }
   },
@@ -34324,12 +34343,12 @@
           "guid": "5d9f3e114441b1001fa17b8f",
           "slug": "jim-and-andy-the-great-beyond"
         },
-        "slug": "jim-andy-the-great-beyond-2017",
+        "slug": "jim-andy-the-great-beyond-featuring-a-very-special-contractually-obligated-mention-of-tony-clifton-2017",
         "tmdb": 469019,
         "trakt": 316275
       },
       "year": 2017,
-      "title": "Jim & Andy: The Great Beyond"
+      "title": "Jim & Andy: The Great Beyond - Featuring a Very Special, Contractually Obligated Mention of Tony Clifton"
     }
   },
   {
@@ -61589,11 +61608,11 @@
           "guid": "5d776825961905001eb90cc9",
           "slug": "cube"
         },
-        "slug": "cube-1998",
+        "slug": "cube-1997",
         "tmdb": 431,
         "trakt": 343
       },
-      "year": 1998,
+      "year": 1997,
       "title": "Cube"
     }
   },
