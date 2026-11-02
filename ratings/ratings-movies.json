@@ -1,5 +1,24 @@
 [
   {
+    "rated_at": "2026-11-01T23:59:59.000Z",
+    "rating": 5,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt36983905",
+        "plex": {
+          "guid": "683c920e5d424b568363c779",
+          "slug": "the-uprising-2026"
+        },
+        "slug": "the-uprising-2026",
+        "tmdb": 977942,
+        "trakt": 785864
+      },
+      "year": 2026,
+      "title": "The Uprising"
+    }
+  },
+  {
     "rated_at": "2026-11-01T16:01:31.000Z",
     "rating": 5,
     "type": "movie",
