@@ -1,5 +1,49 @@
 [
   {
+    "plays": 1,
+    "last_watched_at": "2026-11-10T07:06:00.000Z",
+    "last_updated_at": "2026-11-10T07:06:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt6773088",
+        "plex": {
+          "guid": "660287bde98021c154100e69",
+          "slug": "brothers-16"
+        },
+        "slug": "brothers-2026",
+        "tmdb": 250203,
+        "tvdb": 448114,
+        "trakt": 232728
+      },
+      "year": 2026,
+      "title": "Brothers",
+      "aired_episodes": 8
+    }
+  },
+  {
+    "plays": 17,
+    "last_watched_at": "2026-11-10T06:08:00.000Z",
+    "last_updated_at": "2026-11-10T06:08:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt18228732",
+        "plex": {
+          "guid": "62a0cbbe56c3f99d10107c85",
+          "slug": "colin-from-accounts"
+        },
+        "slug": "colin-from-accounts",
+        "tmdb": 203614,
+        "tvdb": 421974,
+        "trakt": 200172
+      },
+      "year": 2022,
+      "title": "Colin from Accounts",
+      "aired_episodes": 24
+    }
+  },
+  {
     "plays": 750,
     "last_watched_at": "2026-11-07T05:51:00.000Z",
     "last_updated_at": "2026-11-07T05:51:00.000Z",
@@ -3168,28 +3212,6 @@
     }
   },
   {
-    "plays": 16,
-    "last_watched_at": "2024-06-27T18:10:00.000Z",
-    "last_updated_at": "2024-06-27T18:10:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt18228732",
-        "plex": {
-          "guid": "62a0cbbe56c3f99d10107c85",
-          "slug": "colin-from-accounts"
-        },
-        "slug": "colin-from-accounts",
-        "tmdb": 203614,
-        "tvdb": 421974,
-        "trakt": 200172
-      },
-      "year": 2022,
-      "title": "Colin from Accounts",
-      "aired_episodes": 24
-    }
-  },
-  {
     "plays": 6,
     "last_watched_at": "2024-06-18T02:48:04.000Z",
     "last_updated_at": "2024-06-18T02:48:04.000Z",
@@ -3428,7 +3450,7 @@
       },
       "year": 1996,
       "title": "The Daily Show",
-      "aired_episodes": 4586
+      "aired_episodes": 4587
     }
   },
   {
@@ -7960,7 +7982,7 @@
       },
       "year": 2014,
       "title": "Last Week Tonight with John Oliver",
-      "aired_episodes": 378
+      "aired_episodes": 379
     }
   },
   {
