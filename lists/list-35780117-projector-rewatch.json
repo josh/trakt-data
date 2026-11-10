@@ -418,6 +418,41 @@
     "my_rating": null
   },
   {
+    "type": "season",
+    "show": {
+      "ids": {
+        "imdb": "tt2356777",
+        "plex": {
+          "guid": "5d9c086acb3ffa001f1b49d1",
+          "slug": "true-detective"
+        },
+        "slug": "true-detective",
+        "tmdb": 46648,
+        "tvdb": 270633,
+        "trakt": 46375
+      },
+      "year": 2014,
+      "title": "True Detective",
+      "aired_episodes": 30
+    },
+    "season": {
+      "ids": {
+        "plex": {
+          "guid": "602e676ec9d11c002dbcfc95"
+        },
+        "tmdb": 59780,
+        "tvdb": 522572,
+        "trakt": 56130
+      },
+      "number": 1
+    },
+    "rank": 49,
+    "id": 1560569802,
+    "listed_at": "2026-11-10T05:42:08.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
     "type": "movie",
     "movie": {
       "ids": {
