@@ -3800,6 +3800,28 @@
     "my_rating": null
   },
   {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt38686316",
+        "plex": {
+          "guid": "68f9e41c287b1bab5515ad48",
+          "slug": "archangel-2026-1"
+        },
+        "slug": "ghost-soldier-2026",
+        "tmdb": 1562642,
+        "trakt": 1289024
+      },
+      "year": 2026,
+      "title": "Ghost Soldier"
+    },
+    "rank": 249,
+    "id": 1560792252,
+    "listed_at": "2026-11-11T06:03:46.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
     "type": "show",
     "show": {
       "ids": {
@@ -3817,9 +3839,9 @@
       "title": "Below",
       "aired_episodes": 6
     },
-    "rank": 249,
-    "id": 1560785458,
-    "listed_at": "2026-11-11T05:01:28.000Z",
+    "rank": 250,
+    "id": 1560792253,
+    "listed_at": "2026-11-11T06:03:46.000Z",
     "notes": null,
     "my_rating": null
   }

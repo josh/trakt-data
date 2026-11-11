@@ -1,5 +1,41 @@
 [
   {
+    "id": 14623619238,
+    "watched_at": "2026-11-11T06:27:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37505132",
+        "plex": {
+          "guid": "6a6afe5be523bcb2b6a42e0a"
+        },
+        "tmdb": 7608990,
+        "tvdb": 11884175,
+        "trakt": 14348766
+      },
+      "title": "Crown and Anchor",
+      "number": 2,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt35934755",
+        "plex": {
+          "guid": "6a5f5a75fbd7977c9a54b002",
+          "slug": "below"
+        },
+        "slug": "below-2026",
+        "tmdb": 285322,
+        "tvdb": 480205,
+        "trakt": 277897
+      },
+      "year": 2026,
+      "title": "Below",
+      "aired_episodes": 6
+    }
+  },
+  {
     "id": 14623525937,
     "watched_at": "2026-11-11T05:48:00.000Z",
     "action": "checkin",
