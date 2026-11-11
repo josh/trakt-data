@@ -1,5 +1,41 @@
 [
   {
+    "id": 14623348173,
+    "watched_at": "2026-11-11T02:54:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35676660",
+        "plex": {
+          "guid": "6a3ae96bc47c11bce9ae5bd7"
+        },
+        "tmdb": 7402592,
+        "tvdb": 11851076,
+        "trakt": 14256725
+      },
+      "title": "The Hunt",
+      "number": 2,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt6773088",
+        "plex": {
+          "guid": "660287bde98021c154100e69",
+          "slug": "brothers-16"
+        },
+        "slug": "brothers-2026",
+        "tmdb": 250203,
+        "tvdb": 448114,
+        "trakt": 232728
+      },
+      "year": 2026,
+      "title": "Brothers",
+      "aired_episodes": 8
+    }
+  },
+  {
     "id": 14622302662,
     "watched_at": "2026-11-10T22:14:00.000Z",
     "action": "checkin",
@@ -14519,7 +14555,7 @@
           "guid": "612cadb334ba0c002c346b4c"
         },
         "tmdb": 4191307,
-        "tvdb": null,
+        "tvdb": 1850801,
         "trakt": 7431716
       },
       "title": "The Burn",
@@ -14555,7 +14591,7 @@
           "guid": "612cadb334ba0c002c346b4e"
         },
         "tmdb": 4191306,
-        "tvdb": null,
+        "tvdb": 1850791,
         "trakt": 7431712
       },
       "title": "The Battle of the Bands",
@@ -14879,7 +14915,7 @@
           "guid": "612cadb434ba0c002c346b50"
         },
         "tmdb": 4191305,
-        "tvdb": null,
+        "tvdb": 1850781,
         "trakt": 7431707
       },
       "title": "The B-Day",
@@ -14915,7 +14951,7 @@
           "guid": "612cadb434ba0c002c346b52"
         },
         "tmdb": 4191304,
-        "tvdb": null,
+        "tvdb": 1850771,
         "trakt": 7431703
       },
       "title": "The Banned",
@@ -15023,7 +15059,7 @@
           "guid": "612cadb534ba0c002c346b54"
         },
         "tmdb": 4191303,
-        "tvdb": null,
+        "tvdb": 1850761,
         "trakt": 7431701
       },
       "title": "The Basement",
@@ -15059,7 +15095,7 @@
           "guid": "612cadb534ba0c002c346b56"
         },
         "tmdb": 4191302,
-        "tvdb": null,
+        "tvdb": 1850751,
         "trakt": 7431700
       },
       "title": "The Break-In",
@@ -15095,7 +15131,7 @@
           "guid": "612cadb634ba0c002c346b58"
         },
         "tmdb": 4191301,
-        "tvdb": null,
+        "tvdb": 1850741,
         "trakt": 7431698
       },
       "title": "The Buzz",
@@ -40270,7 +40306,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt37781897",
         "plex": {
           "guid": "67e3ee6857deff542c16834f"
         },
@@ -40342,7 +40378,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt37484522",
         "plex": {
           "guid": "67e3ee6957deff542c168353"
         },
@@ -140490,7 +140526,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt28857788",
         "plex": {
           "guid": "65d88a590cbb8202124a908c"
         },
@@ -140582,7 +140618,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt21925918",
         "plex": {
           "guid": "63167e854c64397d3fae05f7"
         },
@@ -168890,7 +168926,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt16357976",
         "plex": {
           "guid": "67e5b29d8a0e5da3422accfa"
         },
@@ -183614,7 +183650,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15062000",
         "plex": {
           "guid": "67e5b29c8a0e5da3422accdc"
         },
@@ -193783,7 +193819,7 @@
           "guid": "606c3ea006c2e3002c806198"
         },
         "tmdb": 2851497,
-        "tvdb": null,
+        "tvdb": 8322573,
         "trakt": 5052779
       },
       "title": "John Cena, Tammy Duckworth",
