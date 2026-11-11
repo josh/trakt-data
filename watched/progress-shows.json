@@ -18,104 +18,40 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
-      "last_watched_at": "2026-11-11T02:54:00.000Z",
+      "completed": 4,
+      "last_watched_at": "2026-11-11T04:14:00.000Z",
       "reset_at": null,
       "last_episode": {
         "ids": {
-          "imdb": "tt35676660",
+          "imdb": "tt35676663",
           "plex": {
-            "guid": "6a3ae96bc47c11bce9ae5bd7"
+            "guid": "6a3577221fc450536b294413"
           },
-          "tmdb": 7402592,
-          "tvdb": 11851076,
-          "trakt": 14256725
+          "tmdb": 7402595,
+          "tvdb": 11851078,
+          "trakt": 14256728
         },
-        "title": "The Hunt",
-        "votes": 315,
+        "title": "The Band",
+        "votes": 245,
         "images": {
           "screenshot": [
-            "media.trakt.tv/episodes/14256725/medium/screenshot.webp"
+            "media.trakt.tv/episodes/14256728/medium/screenshot.webp"
           ]
         },
-        "number": 2,
-        "rating": 7.447617530822754,
+        "number": 4,
+        "rating": 7.334693908691406,
         "season": 1,
-        "runtime": 28,
-        "overview": "Matthew takes his son Wyatt on his first hunting trip while Woody follows a trail of a different kind.",
-        "released": "2026-09-23",
-        "number_abs": 2,
-        "updated_at": "2026-11-10T15:16:20.000Z",
-        "first_aired": "2026-09-22T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 5,
-        "during_credits": false,
-        "original_title": "The Hunt",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-09-22T04:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt35676657",
-          "plex": {
-            "guid": "6a3577221fc450536b294419"
-          },
-          "tmdb": 7402594,
-          "tvdb": 11851077,
-          "trakt": 14256726
-        },
-        "title": "Little Woody",
-        "votes": 267,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14256726/medium/screenshot.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 7.355843544006348,
-        "season": 1,
-        "runtime": 30,
-        "overview": "When Ma Mac wants the Harrelsons out, Woody hatches a harebrained plan to buy time.",
-        "released": "2026-09-30",
-        "number_abs": 3,
-        "updated_at": "2026-11-10T23:01:26.000Z",
-        "first_aired": "2026-09-29T04:00:00.000Z",
+        "runtime": 23,
+        "overview": "Woody and Matthew put their musical talents to the test as Olive's investigation ramps up.",
+        "released": "2026-10-07",
+        "number_abs": 4,
+        "updated_at": "2026-11-11T00:05:50.000Z",
+        "first_aired": "2026-10-06T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
-        "original_title": "Little Woody",
+        "original_title": "The Band",
         "available_translations": [
           "ar",
           "cs",
@@ -147,23 +83,87 @@
           "vi",
           "zh"
         ],
-        "effective_release_date": "2026-09-29T04:00:00.000Z"
+        "effective_release_date": "2026-10-06T04:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt35676661",
+          "plex": {
+            "guid": "6a3577211fc450536b29440d"
+          },
+          "tmdb": 7402596,
+          "tvdb": 11851079,
+          "trakt": 14256729
+        },
+        "title": "Valentine's Day",
+        "votes": 226,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14256729/medium/screenshot.webp"
+          ]
+        },
+        "number": 5,
+        "rating": 7.553096771240234,
+        "season": 1,
+        "runtime": 25,
+        "overview": "Things quickly spiral out of control for Matthew and Woody after forgetting Valentine's Day.",
+        "released": "2026-10-14",
+        "number_abs": 5,
+        "updated_at": "2026-11-11T03:05:55.000Z",
+        "first_aired": "2026-10-13T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Valentine's Day",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-13T04:00:00.000Z"
       },
       "stats": {
-        "play_count": 2,
-        "minutes_watched": 60,
-        "minutes_left": 160
+        "play_count": 4,
+        "minutes_watched": 113,
+        "minutes_left": 107
       },
       "seasons": [
         {
           "number": 1,
           "title": "Season 1",
           "aired": 8,
-          "completed": 2,
+          "completed": 4,
           "stats": {
-            "play_count": 2,
-            "minutes_watched": 60,
-            "minutes_left": 160
+            "play_count": 4,
+            "minutes_watched": 113,
+            "minutes_left": 107
           },
           "episodes": [
             {
@@ -186,20 +186,20 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-11T03:50:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 30
               }
             },
             {
               "number": 4,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-11T04:14:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 23
               }
             },
             {
@@ -15120,14 +15120,14 @@
           "trakt": 13821065
         },
         "title": "We Hope You Enjoyed Your Time!",
-        "votes": 2404,
+        "votes": 2406,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13821065/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.250414848327637,
+        "rating": 8.251038551330566,
         "season": 1,
         "runtime": 49,
         "overview": "We understand that hard choices had to be made and we may never be the same, but we hope you'll visit again!",
@@ -19803,7 +19803,7 @@
         "overview": "As the case comes to a close, Jack and Anna must reckon with the sins of the past \u2014 and the brutal consequences in the present.",
         "released": "2026-01-08",
         "number_abs": 6,
-        "updated_at": "2026-11-10T01:09:53.000Z",
+        "updated_at": "2026-11-11T03:43:47.000Z",
         "first_aired": "2026-01-08T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -21709,14 +21709,14 @@
           "trakt": 13406165
         },
         "title": "The Last Word",
-        "votes": 869,
+        "votes": 870,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13406165/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.692749977111816,
+        "rating": 7.691953659057617,
         "season": 1,
         "runtime": 54,
         "overview": "Backed into a corner, Aggie must use all her wits to keep her world from crashing down \u2014 and place all her trust in an unlikely ally.",
@@ -27389,14 +27389,14 @@
           "trakt": 12853600
         },
         "title": "And Justice for All...",
-        "votes": 1738,
+        "votes": 1739,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12853600/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.478129386901855,
+        "rating": 8.478429794311523,
         "season": 1,
         "runtime": 47,
         "overview": "Dexter and Harrison face the consequences of their darkness.",
@@ -27445,14 +27445,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 979,
+        "votes": 983,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.259448051452637,
+        "rating": 8.26246166229248,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -39400,14 +39400,14 @@
           "trakt": 14414912
         },
         "title": "Black Door",
-        "votes": 329,
+        "votes": 330,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14414912/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.03951644897461,
+        "rating": 8.045456886291504,
         "season": 2,
         "runtime": 50,
         "overview": "As her husband steps up as prime minister, Helen helps Reed steal files codenamed Wildflower and a shadowy organization coerces Sam into a contract.",
@@ -40034,20 +40034,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3962,
+        "votes": 3963,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12146122/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.23300552368164,
+        "rating": 8.233199119567871,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-11-10T03:08:48.000Z",
+        "updated_at": "2026-11-11T03:11:16.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -51491,10 +51491,10 @@
       },
       "year": 1996,
       "title": "The Daily Show",
-      "aired_episodes": 4587
+      "aired_episodes": 4588
     },
     "progress": {
-      "aired": 4587,
+      "aired": 4588,
       "completed": 2329,
       "last_watched_at": "2024-05-07T22:11:00.000Z",
       "reset_at": null,
@@ -51573,7 +51573,7 @@
       "stats": {
         "play_count": 2329,
         "minutes_watched": 81457,
-        "minutes_left": 74200
+        "minutes_left": 74235
       },
       "seasons": [
         {
@@ -92109,12 +92109,12 @@
         {
           "number": 31,
           "title": "Season 31",
-          "aired": 127,
+          "aired": 128,
           "completed": 0,
           "stats": {
             "play_count": 0,
             "minutes_watched": 0,
-            "minutes_left": 4651
+            "minutes_left": 4686
           },
           "episodes": [
             {
@@ -93253,6 +93253,15 @@
             },
             {
               "number": 127,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 128,
               "completed": false,
               "last_watched_at": null,
               "stats": {
@@ -109023,14 +109032,14 @@
           "trakt": 7440302
         },
         "title": "Home",
-        "votes": 2377,
+        "votes": 2378,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/7440302/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 6.722297668457031,
+        "rating": 6.721993923187256,
         "season": 1,
         "runtime": 36,
         "overview": "All hope for humanity rests on Fury's shoulders.",
@@ -123101,7 +123110,7 @@
         "overview": "Maura tells the passengers an unbelievable truth. Then, their memories shift and Daniel changes a code. Maura faces an unexpected reality.",
         "released": "2022-11-17",
         "number_abs": 8,
-        "updated_at": "2026-11-09T23:04:14.000Z",
+        "updated_at": "2026-11-11T03:43:47.000Z",
         "first_aired": "2022-11-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -125807,14 +125816,14 @@
           "trakt": 13287369
         },
         "title": "Last Chance for a Slow Dance",
-        "votes": 667,
+        "votes": 668,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13287369/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.758604049682617,
+        "rating": 7.761959552764893,
         "season": 2,
         "runtime": 29,
         "overview": "A former edgerunner slipping into cyberpsychosis and a lonely survivor with a fractured past start their stories at opposite ends of Night City.",
@@ -128041,7 +128050,7 @@
         "overview": "As Billets posts the Hollywood homicide detectives\u2019 new assignments, Bosch puts a plan in motion to arrest Mickey Pe\u00f1a, leading to some severe consequences. Billets makes an impression and Maddie makes a decision about her future.",
         "released": "2021-06-25",
         "number_abs": 68,
-        "updated_at": "2026-11-10T03:36:49.000Z",
+        "updated_at": "2026-11-11T03:41:58.000Z",
         "first_aired": "2021-06-24T04:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -131462,14 +131471,14 @@
           "trakt": 14047204
         },
         "title": "ROMULUS S.V.",
-        "votes": 771,
+        "votes": 773,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14047204/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.701684474945068,
+        "rating": 7.705043315887451,
         "season": 2,
         "runtime": 52,
         "overview": "Six months after finishing his list, James Reece - the world's most wanted man - is still at sea reckoning with his remaining life after exacting revenge without constraint. Halfway across the world, Kate Buranek's notoriety from publishing Reece's story hinders her more than it helps as she navigates a bleak media landscape and shocking geopolitical events in the wake of Al-Qaeda's resurgence.",
@@ -134676,14 +134685,14 @@
           "trakt": 342694
         },
         "title": "Points",
-        "votes": 1857,
+        "votes": 1858,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/342694/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.868647575378418,
+        "rating": 8.869256019592285,
         "season": 1,
         "runtime": 63,
         "overview": "As the Germans surrender, it appears that that the hard days for Easy Company are over as they are stationed in Austria. But they soon learn that those solders without enough service points will be sent to fight in Japan.",
@@ -140749,14 +140758,14 @@
           "trakt": 5729945
         },
         "title": "Sins of the Father",
-        "votes": 2656,
+        "votes": 2657,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/5729945/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 7.12123441696167,
+        "rating": 7.121188640594482,
         "season": 1,
         "runtime": 58,
         "overview": "Dexter and Harrison try to live a normal life in a place that they have discovered is not as normal as they thought it was. Will the two of them be able to live happily ever after, despite all the threats coming their way?",
@@ -203341,7 +203350,7 @@
       "reset_at": null,
       "last_episode": {
         "ids": {
-          "imdb": null,
+          "imdb": "tt8115606",
           "plex": {
             "guid": "5d9c1a447b5c2e001e70c16b"
           },
@@ -203363,7 +203372,7 @@
         "overview": "A pair of newlyweds with two dogs corral all their pet items, then learn the magic of using boxes to keep drawers and cabinets tidy.",
         "released": "2019-01-01",
         "number_abs": 8,
-        "updated_at": "2026-11-10T23:01:57.000Z",
+        "updated_at": "2026-11-11T03:14:46.000Z",
         "first_aired": "2019-01-01T08:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -220793,14 +220802,14 @@
           "trakt": 2042789
         },
         "title": "The Day in Question",
-        "votes": 2532,
+        "votes": 2533,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/2042789/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.230210304260254,
+        "rating": 8.229724884033203,
         "season": 1,
         "runtime": 60,
         "overview": "The past pulls out every weapon it has to keep Jake from reaching Dealey Plaza in time to save Kennedy. If he fails, it could mean death for Jake or others close to him - and if he succeeds, it could create a world in which he loses everything he's ever known. What is the cost of doing the right thing?",
@@ -225995,7 +226004,7 @@
         "overview": "Present day: Nearly a decade has passed since the filmmakers began investigating Robert Durst and his alleged crimes. They have spoken to more than 100 participants in Robert's story, including family, friends, police, lawyers, jurors and journalists in an attempt to get at the truth.",
         "released": "2015-03-16",
         "number_abs": 6,
-        "updated_at": "2026-11-09T17:58:20.000Z",
+        "updated_at": "2026-11-11T03:28:51.000Z",
         "first_aired": "2015-03-16T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -250485,7 +250494,7 @@
         "overview": "Jenna prepares an emotional farewell song as the cast and crew reunite for one final \"TGS\".",
         "released": "2013-02-01",
         "number_abs": 138,
-        "updated_at": "2026-11-09T21:50:23.000Z",
+        "updated_at": "2026-11-11T03:21:20.000Z",
         "first_aired": "2013-02-01T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,

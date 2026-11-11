@@ -18,46 +18,110 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
+      "completed": 4,
       "hidden": 0,
-      "last_watched_at": "2026-11-11T02:54:00.000Z",
+      "last_watched_at": "2026-11-11T04:14:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 4,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt35676657",
+          "imdb": "tt35676661",
           "plex": {
-            "guid": "6a3577221fc450536b294419"
+            "guid": "6a3577211fc450536b29440d"
           },
-          "tmdb": 7402594,
-          "tvdb": 11851077,
-          "trakt": 14256726
+          "tmdb": 7402596,
+          "tvdb": 11851079,
+          "trakt": 14256729
         },
-        "title": "Little Woody",
-        "votes": 267,
+        "title": "Valentine's Day",
+        "votes": 226,
         "images": {
           "screenshot": [
-            "media.trakt.tv/episodes/14256726/medium/screenshot.webp"
+            "media.trakt.tv/episodes/14256729/medium/screenshot.webp"
           ]
         },
-        "number": 3,
-        "rating": 7.355843544006348,
+        "number": 5,
+        "rating": 7.553096771240234,
         "season": 1,
-        "runtime": 30,
-        "overview": "When Ma Mac wants the Harrelsons out, Woody hatches a harebrained plan to buy time.",
-        "released": "2026-09-30",
-        "number_abs": 3,
-        "updated_at": "2026-11-10T23:01:26.000Z",
-        "first_aired": "2026-09-29T04:00:00.000Z",
+        "runtime": 25,
+        "overview": "Things quickly spiral out of control for Matthew and Woody after forgetting Valentine's Day.",
+        "released": "2026-10-14",
+        "number_abs": 5,
+        "updated_at": "2026-11-11T03:05:55.000Z",
+        "first_aired": "2026-10-13T04:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "Valentine's Day",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-13T04:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt35676663",
+          "plex": {
+            "guid": "6a3577221fc450536b294413"
+          },
+          "tmdb": 7402595,
+          "tvdb": 11851078,
+          "trakt": 14256728
+        },
+        "title": "The Band",
+        "votes": 245,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14256728/medium/screenshot.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.334693908691406,
+        "season": 1,
+        "runtime": 23,
+        "overview": "Woody and Matthew put their musical talents to the test as Olive's investigation ramps up.",
+        "released": "2026-10-07",
+        "number_abs": 4,
+        "updated_at": "2026-11-11T00:05:50.000Z",
+        "first_aired": "2026-10-06T04:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 2,
         "during_credits": false,
-        "original_title": "Little Woody",
+        "original_title": "The Band",
         "available_translations": [
           "ar",
           "cs",
@@ -89,71 +153,7 @@
           "vi",
           "zh"
         ],
-        "effective_release_date": "2026-09-29T04:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt35676660",
-          "plex": {
-            "guid": "6a3ae96bc47c11bce9ae5bd7"
-          },
-          "tmdb": 7402592,
-          "tvdb": 11851076,
-          "trakt": 14256725
-        },
-        "title": "The Hunt",
-        "votes": 315,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14256725/medium/screenshot.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.447617530822754,
-        "season": 1,
-        "runtime": 28,
-        "overview": "Matthew takes his son Wyatt on his first hunting trip while Woody follows a trail of a different kind.",
-        "released": "2026-09-23",
-        "number_abs": 2,
-        "updated_at": "2026-11-10T15:16:20.000Z",
-        "first_aired": "2026-09-22T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 5,
-        "during_credits": false,
-        "original_title": "The Hunt",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-09-22T04:00:00.000Z"
+        "effective_release_date": "2026-10-06T04:00:00.000Z"
       }
     }
   },
@@ -1112,14 +1112,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 979,
+        "votes": 983,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.259448051452637,
+        "rating": 8.26246166229248,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -1164,14 +1164,14 @@
           "trakt": 12853600
         },
         "title": "And Justice for All...",
-        "votes": 1738,
+        "votes": 1739,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12853600/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.478129386901855,
+        "rating": 8.478429794311523,
         "season": 1,
         "runtime": 47,
         "overview": "Dexter and Harrison face the consequences of their darkness.",
@@ -1791,14 +1791,14 @@
           "trakt": 14414912
         },
         "title": "Black Door",
-        "votes": 329,
+        "votes": 330,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14414912/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.03951644897461,
+        "rating": 8.045456886291504,
         "season": 2,
         "runtime": 50,
         "overview": "As her husband steps up as prime minister, Helen helps Reed steal files codenamed Wildflower and a shadowy organization coerces Sam into a contract.",
@@ -2135,20 +2135,20 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3962,
+        "votes": 3963,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12146122/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.23300552368164,
+        "rating": 8.233199119567871,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
         "released": "2025-01-17",
         "number_abs": 20,
-        "updated_at": "2026-11-10T03:08:48.000Z",
+        "updated_at": "2026-11-11T03:11:16.000Z",
         "first_aired": "2025-01-17T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
