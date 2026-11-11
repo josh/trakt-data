@@ -1,5 +1,77 @@
 [
   {
+    "id": 14623726523,
+    "watched_at": "2026-11-11T08:03:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37505134",
+        "plex": {
+          "guid": "6a6afe5ae523bcb2b6a42df2"
+        },
+        "tmdb": 7608993,
+        "tvdb": 11884178,
+        "trakt": 14348769
+      },
+      "title": "Little Pot Rock",
+      "number": 5,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt35934755",
+        "plex": {
+          "guid": "6a5f5a75fbd7977c9a54b002",
+          "slug": "below"
+        },
+        "slug": "below-2026",
+        "tmdb": 285322,
+        "tvdb": 480205,
+        "trakt": 277897
+      },
+      "year": 2026,
+      "title": "Below",
+      "aired_episodes": 6
+    }
+  },
+  {
+    "id": 14623726484,
+    "watched_at": "2026-11-11T07:22:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37505133",
+        "plex": {
+          "guid": "6a6afe5ae523bcb2b6a42dfa"
+        },
+        "tmdb": 7608992,
+        "tvdb": 11884177,
+        "trakt": 14348768
+      },
+      "title": "The Ocean Will Have Us All",
+      "number": 4,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt35934755",
+        "plex": {
+          "guid": "6a5f5a75fbd7977c9a54b002",
+          "slug": "below"
+        },
+        "slug": "below-2026",
+        "tmdb": 285322,
+        "tvdb": 480205,
+        "trakt": 277897
+      },
+      "year": 2026,
+      "title": "Below",
+      "aired_episodes": 6
+    }
+  },
+  {
     "id": 14623682968,
     "watched_at": "2026-11-11T07:14:00.000Z",
     "action": "checkin",
@@ -55056,7 +55128,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -55228,7 +55300,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -56028,7 +56100,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -56572,7 +56644,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -57064,7 +57136,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -57252,7 +57324,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -57288,7 +57360,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -57360,7 +57432,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -130040,7 +130112,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -131016,7 +131088,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -131894,7 +131966,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt22075172",
         "plex": {
           "guid": "63346389743b15e52a7dd2a0"
         },
@@ -131930,7 +132002,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt22075170",
         "plex": {
           "guid": "63346389743b15e52a7dd2a1"
         },
@@ -132308,7 +132380,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -133296,7 +133368,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -133824,7 +133896,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -135330,7 +135402,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt22006036",
         "plex": {
           "guid": "628b9a7bffc852bb1ffb20f9"
         },
@@ -135366,7 +135438,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt22006034",
         "plex": {
           "guid": "628b9a7affc852bb1ffb20f6"
         },
@@ -135402,7 +135474,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt22006032",
         "plex": {
           "guid": "628b9a7affc852bb1ffb20f1"
         },
@@ -135438,7 +135510,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt22006030",
         "plex": {
           "guid": "628b9a7affc852bb1ffb20f2"
         },
@@ -135946,7 +136018,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt19767372",
         "plex": {
           "guid": "631924f892d6e4cb76890cb0"
         },
@@ -135982,7 +136054,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt19767370",
         "plex": {
           "guid": "628b9a7bffc852bb1ffb20fb"
         },
@@ -136018,7 +136090,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt19767364",
         "plex": {
           "guid": "628b9a79ffc852bb1ffb20ef"
         },
@@ -136054,7 +136126,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt19767362",
         "plex": {
           "guid": "628b9a7affc852bb1ffb20f4"
         },
@@ -136090,7 +136162,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt19767360",
         "plex": {
           "guid": "628b9a79ffc852bb1ffb20ed"
         },
@@ -136126,7 +136198,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt19767354",
         "plex": {
           "guid": "628b9a79ffc852bb1ffb20e9"
         },
@@ -136224,7 +136296,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -137004,7 +137076,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -137040,7 +137112,7 @@
       },
       "year": 2022,
       "title": "The Lord of the Rings: The Rings of Power",
-      "aired_episodes": 16
+      "aired_episodes": 20
     }
   },
   {
@@ -175014,7 +175086,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15587102",
         "plex": {
           "guid": "615b0d77dcafa2bcb7f42edd"
         },
@@ -175934,7 +176006,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15532374",
         "plex": {
           "guid": "614f325d1bc41a422fc8708d"
         },
@@ -176462,7 +176534,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15528442",
         "plex": {
           "guid": "614f325d1bc41a422fc8708e"
         },
@@ -177390,7 +177462,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15484464",
         "plex": {
           "guid": "614f325d1bc41a422fc8708f"
         },
@@ -178190,7 +178262,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15440852",
         "plex": {
           "guid": "6145f7d0f660a808cdcd1deb"
         },
@@ -178686,7 +178758,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15399784",
         "plex": {
           "guid": "613cbfc1220f3fdb9637bbc5"
         },
@@ -179090,7 +179162,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15354748",
         "plex": {
           "guid": "61323ce34cc0870e9435b959"
         },
@@ -179458,7 +179530,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15310578",
         "plex": {
           "guid": "612a45b3a9e49e002c708ac9"
         },
@@ -180006,7 +180078,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15264018",
         "plex": {
           "guid": "6121116a5c5cb0002cabaee1"
         },
@@ -180958,7 +181030,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15184516",
         "plex": {
           "guid": "610e9afc9e4056002c162d26"
         },
@@ -181646,7 +181718,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15140638",
         "plex": {
           "guid": "61056005ab1d39002c45e0f6"
         },
@@ -182266,7 +182338,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt15097100",
         "plex": {
           "guid": "60fc3d246a0027002d44f61a"
         },
@@ -183050,7 +183122,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt14914410",
         "plex": {
           "guid": "60ddffa798c907002cf89dd4"
         },
@@ -305134,7 +305206,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457102",
         "plex": {
           "guid": "5e160ec7697c5a001e6dec05"
         },
@@ -305646,7 +305718,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457106",
         "plex": {
           "guid": "5e160ec7697c5a001e6dec02"
         },
@@ -306042,7 +306114,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457108",
         "plex": {
           "guid": "5e160ec7697c5a001e6debff"
         },
@@ -307018,7 +307090,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457314",
         "plex": {
           "guid": "5e160ec7697c5a001e6debf6"
         },
@@ -307346,7 +307418,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457100",
         "plex": {
           "guid": "5d9c19cfffd9ef001ea4076c"
         },
@@ -307634,7 +307706,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457094",
         "plex": {
           "guid": "5e160ec7697c5a001e6debf9"
         },
@@ -308214,7 +308286,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457090",
         "plex": {
           "guid": "5e160ec7697c5a001e6debfc"
         },
@@ -308402,7 +308474,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457088",
         "plex": {
           "guid": "5e160ec7697c5a001e6debf3"
         },
@@ -308890,7 +308962,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457086",
         "plex": {
           "guid": "5e160ec7697c5a001e6debf0"
         },
@@ -309074,7 +309146,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457082",
         "plex": {
           "guid": "5d9c19cfffd9ef001ea4076f"
         },
@@ -309434,7 +309506,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457080",
         "plex": {
           "guid": "5e160ec6697c5a001e6debde"
         },
@@ -309470,7 +309542,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457080",
         "plex": {
           "guid": "5e160ec6697c5a001e6debde"
         },
@@ -310050,7 +310122,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457078",
         "plex": {
           "guid": "5e160ec6697c5a001e6debe1"
         },
@@ -310086,7 +310158,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457078",
         "plex": {
           "guid": "5e160ec6697c5a001e6debe1"
         },
@@ -310578,7 +310650,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457076",
         "plex": {
           "guid": "5d9c19cfffd9ef001ea40768"
         },
@@ -310938,7 +311010,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457076",
         "plex": {
           "guid": "5d9c19cfffd9ef001ea40768"
         },
@@ -312258,7 +312330,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457074",
         "plex": {
           "guid": "5e160ec7697c5a001e6debea"
         },
@@ -312330,7 +312402,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457074",
         "plex": {
           "guid": "5e160ec7697c5a001e6debea"
         },
@@ -313670,7 +313742,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457072",
         "plex": {
           "guid": "5e160ec7697c5a001e6debe4"
         },
@@ -313706,7 +313778,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457070",
         "plex": {
           "guid": "5e160ec7697c5a001e6debed"
         },
@@ -313742,7 +313814,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8453106",
         "plex": {
           "guid": "5e160ec6697c5a001e6debdb"
         },
@@ -314066,7 +314138,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457072",
         "plex": {
           "guid": "5e160ec7697c5a001e6debe4"
         },
@@ -314426,7 +314498,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8457070",
         "plex": {
           "guid": "5e160ec7697c5a001e6debed"
         },
@@ -314822,7 +314894,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8453106",
         "plex": {
           "guid": "5e160ec6697c5a001e6debdb"
         },
@@ -315110,7 +315182,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8449054",
         "plex": {
           "guid": "5e160ec7697c5a001e6debe7"
         },
@@ -315182,7 +315254,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8453098",
         "plex": {
           "guid": "5e160ec6697c5a001e6debd8"
         },
@@ -315218,7 +315290,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8453102",
         "plex": {
           "guid": "5d9c19cfe264b7001fcecc7e"
         },
@@ -315870,7 +315942,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8449054",
         "plex": {
           "guid": "5e160ec7697c5a001e6debe7"
         },
@@ -315906,7 +315978,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8453098",
         "plex": {
           "guid": "5e160ec6697c5a001e6debd8"
         },
@@ -315942,7 +316014,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt8453102",
         "plex": {
           "guid": "5d9c19cfe264b7001fcecc7e"
         },
