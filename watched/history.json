@@ -1,5 +1,41 @@
 [
   {
+    "id": 14623776072,
+    "watched_at": "2026-11-11T08:05:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt37505136",
+        "plex": {
+          "guid": "6a6afe5ae523bcb2b6a42dea"
+        },
+        "tmdb": 7608995,
+        "tvdb": 11884179,
+        "trakt": 14348770
+      },
+      "title": "The Unfathering Deep",
+      "number": 6,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt35934755",
+        "plex": {
+          "guid": "6a5f5a75fbd7977c9a54b002",
+          "slug": "below"
+        },
+        "slug": "below-2026",
+        "tmdb": 285322,
+        "tvdb": 480205,
+        "trakt": 277897
+      },
+      "year": 2026,
+      "title": "Below",
+      "aired_episodes": 6
+    }
+  },
+  {
     "id": 14623726523,
     "watched_at": "2026-11-11T08:03:00.000Z",
     "action": "checkin",
@@ -95630,7 +95666,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt28286256",
         "plex": {
           "guid": "6466374cfbc164403ec2fe16"
         },
@@ -95882,7 +95918,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt28286249",
         "plex": {
           "guid": "6466374cfbc164403ec2fe19"
         },
@@ -95918,7 +95954,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt28286247",
         "plex": {
           "guid": "6466374cfbc164403ec2fe1a"
         },
@@ -95954,7 +95990,7 @@
     "type": "episode",
     "episode": {
       "ids": {
-        "imdb": null,
+        "imdb": "tt28286246",
         "plex": {
           "guid": "643b6664b303241fda5ecb73"
         },
