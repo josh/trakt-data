@@ -6,10 +6,10 @@
     "rated_at": "2026-11-11T00:05:16.000Z",
     "watchlisted_at": "2026-11-11T06:03:46.000Z",
     "favorited_at": "2025-01-26T20:43:03.000Z",
-    "recommendations_at": "2025-01-26T20:43:03.000Z",
     "commented_at": "2016-03-12T23:16:35.000Z",
     "paused_at": "2026-11-02T01:02:35.000Z",
-    "hidden_at": "2022-01-10T06:17:03.000Z"
+    "hidden_at": "2022-01-10T06:17:03.000Z",
+    "recommendations_at": "2025-01-26T20:43:03.000Z"
   },
   "episodes": {
     "watched_at": "2026-11-11T08:05:52.000Z",
@@ -23,10 +23,10 @@
     "rated_at": "2026-10-20T20:41:51.000Z",
     "watchlisted_at": "2026-11-11T07:22:52.000Z",
     "favorited_at": "2022-11-26T03:23:44.000Z",
-    "recommendations_at": "2022-11-26T03:23:44.000Z",
     "commented_at": "2016-03-12T23:16:35.000Z",
     "hidden_at": "2026-11-07T06:00:27.000Z",
-    "dropped_at": "2026-11-07T06:00:26.000Z"
+    "dropped_at": "2026-11-07T06:00:26.000Z",
+    "recommendations_at": "2022-11-26T03:23:44.000Z"
   },
   "seasons": {
     "rated_at": "2016-03-12T23:16:35.000Z",
@@ -51,9 +51,6 @@
   "favorites": {
     "updated_at": "2025-01-26T20:44:00.000Z"
   },
-  "recommendations": {
-    "updated_at": "2025-01-26T20:44:00.000Z"
-  },
   "collaborations": {
     "updated_at": "2016-03-12T23:16:35.000Z"
   },
@@ -69,5 +66,8 @@
   },
   "notes": {
     "updated_at": "2016-03-12T23:16:35.000Z"
+  },
+  "recommendations": {
+    "updated_at": "2025-01-26T20:44:00.000Z"
   }
 }
