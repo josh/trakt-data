@@ -1,7 +1,7 @@
 [
   {
     "name": "On Deck",
-    "description": "https://go.tailc2149.ts.net/plex-recently-added-movies",
+    "description": "Watch soon, plus shows I am actively watching. Only titles I can start right away \u2014 streaming or in Plex, nothing unavailable.",
     "privacy": "private",
     "share_link": "https://app.trakt.tv/users/joshpeek/lists/on-deck",
     "type": "personal",
@@ -10,7 +10,7 @@
     "sort_by": "rank",
     "sort_how": "asc",
     "created_at": "2024-07-27T16:45:33.000Z",
-    "updated_at": "2026-11-14T07:17:48.000Z",
+    "updated_at": "2026-11-14T23:02:07.000Z",
     "item_count": 7,
     "comment_count": 0,
     "likes": 0,
@@ -51,12 +51,12 @@
     },
     "stale_origin": null,
     "converted_to": null,
-    "total_count": 2
+    "total_count": 3
   },
   {
     "name": "Projector Rewatch",
-    "description": "",
-    "privacy": "public",
+    "description": "Movies to rewatch on the projector. Pretty much all movies \u2014 a show makes the cut only as a rare special case.",
+    "privacy": "private",
     "share_link": "https://app.trakt.tv/users/joshpeek/lists/projector-rewatch",
     "type": "personal",
     "display_numbers": false,
@@ -64,7 +64,7 @@
     "sort_by": "released",
     "sort_how": "desc",
     "created_at": "2026-07-06T05:06:23.000Z",
-    "updated_at": "2026-11-10T05:42:08.000Z",
+    "updated_at": "2026-11-14T23:00:15.000Z",
     "item_count": 49,
     "comment_count": 0,
     "likes": 0,
@@ -105,6 +105,60 @@
     },
     "stale_origin": null,
     "converted_to": null,
-    "total_count": 2
+    "total_count": 3
+  },
+  {
+    "name": "TV Icebox",
+    "description": "Shows I missed when they aired. Might get to them someday, might not \u2014 no time now, and the watchlist is plenty.",
+    "privacy": "private",
+    "share_link": "https://app.trakt.tv/users/joshpeek/lists/tv-icebox",
+    "type": "personal",
+    "display_numbers": false,
+    "allow_comments": false,
+    "sort_by": "rank",
+    "sort_how": "asc",
+    "created_at": "2026-11-14T22:48:17.000Z",
+    "updated_at": "2026-11-14T22:59:11.000Z",
+    "item_count": 2,
+    "comment_count": 0,
+    "likes": 0,
+    "ids": {
+      "slug": "tv-icebox",
+      "trakt": 38159811
+    },
+    "images": {
+      "posters": []
+    },
+    "user": {
+      "ids": {
+        "slug": "joshpeek",
+        "trakt": 1750028
+      },
+      "images": {
+        "avatar": {
+          "full": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?s=256&r=pg&d=https://i2.wp.com/media.trakt.tv/hotlink-ok/placeholders/medium/fry.png"
+        }
+      },
+      "username": "joshpeek",
+      "private": false,
+      "deleted": false,
+      "joined_at": "2016-03-12T23:16:35.000Z",
+      "location": "San Francisco",
+      "about": "",
+      "name": "Josh Peek",
+      "gender": "male",
+      "age": null,
+      "vip": true,
+      "vip_ep": false,
+      "vip_veteran_since": "2017-01-01T08:43:59.000Z",
+      "vip_veteran_years": 9,
+      "vip_veteran_tier": 7,
+      "vip_veteran_title": "elite",
+      "vip_cover_image": null,
+      "director": false
+    },
+    "stale_origin": null,
+    "converted_to": null,
+    "total_count": 3
   }
 ]
