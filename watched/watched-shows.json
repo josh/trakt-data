@@ -1,5 +1,27 @@
 [
   {
+    "plays": 5,
+    "last_watched_at": "2026-11-13T23:14:00.000Z",
+    "last_updated_at": "2026-11-13T23:14:00.000Z",
+    "reset_at": null,
+    "show": {
+      "ids": {
+        "imdb": "tt6773088",
+        "plex": {
+          "guid": "660287bde98021c154100e69",
+          "slug": "brothers-16"
+        },
+        "slug": "brothers-2026",
+        "tmdb": 250203,
+        "tvdb": 448114,
+        "trakt": 232728
+      },
+      "year": 2026,
+      "title": "Brothers",
+      "aired_episodes": 8
+    }
+  },
+  {
     "plays": 6,
     "last_watched_at": "2026-11-11T08:05:00.000Z",
     "last_updated_at": "2026-11-11T08:05:00.000Z",
@@ -19,28 +41,6 @@
       "year": 2026,
       "title": "Below",
       "aired_episodes": 6
-    }
-  },
-  {
-    "plays": 4,
-    "last_watched_at": "2026-11-11T04:14:00.000Z",
-    "last_updated_at": "2026-11-11T04:14:00.000Z",
-    "reset_at": null,
-    "show": {
-      "ids": {
-        "imdb": "tt6773088",
-        "plex": {
-          "guid": "660287bde98021c154100e69",
-          "slug": "brothers-16"
-        },
-        "slug": "brothers-2026",
-        "tmdb": 250203,
-        "tvdb": 448114,
-        "trakt": 232728
-      },
-      "year": 2026,
-      "title": "Brothers",
-      "aired_episodes": 8
     }
   },
   {
@@ -1294,7 +1294,7 @@
       },
       "year": 2025,
       "title": "The Lowdown",
-      "aired_episodes": 13
+      "aired_episodes": 14
     }
   },
   {
@@ -1646,7 +1646,7 @@
       },
       "year": 2025,
       "title": "Dexter: Resurrection",
-      "aired_episodes": 12
+      "aired_episodes": 13
     }
   },
   {
@@ -1888,7 +1888,7 @@
       },
       "year": 2025,
       "title": "MobLand",
-      "aired_episodes": 18
+      "aired_episodes": 19
     }
   },
   {
@@ -3472,7 +3472,7 @@
       },
       "year": 1996,
       "title": "The Daily Show",
-      "aired_episodes": 4588
+      "aired_episodes": 4590
     }
   },
   {
@@ -5782,7 +5782,7 @@
       },
       "year": 2022,
       "title": "Tulsa King",
-      "aired_episodes": 33
+      "aired_episodes": 34
     }
   },
   {
@@ -11612,7 +11612,7 @@
       },
       "year": 1997,
       "title": "South Park",
-      "aired_episodes": 335
+      "aired_episodes": 336
     }
   },
   {
