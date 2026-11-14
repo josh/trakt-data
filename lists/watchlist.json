@@ -1276,30 +1276,6 @@
     "my_rating": null
   },
   {
-    "type": "show",
-    "show": {
-      "ids": {
-        "imdb": "tt39163341",
-        "plex": {
-          "guid": "6a335c836fce8722eac721be",
-          "slug": "murder-101-1"
-        },
-        "slug": "murder-101-2026",
-        "tmdb": 325622,
-        "tvdb": null,
-        "trakt": 320464
-      },
-      "year": 2026,
-      "title": "Murder 101",
-      "aired_episodes": 3
-    },
-    "rank": 180,
-    "id": 1481403083,
-    "listed_at": "2026-06-17T20:39:49.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
     "type": "movie",
     "movie": {
       "ids": {
@@ -3774,6 +3750,28 @@
     "rank": 249,
     "id": 1560792252,
     "listed_at": "2026-11-11T06:03:46.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt51012984",
+        "plex": {
+          "guid": null,
+          "slug": null
+        },
+        "slug": "the-week-of-pain",
+        "tmdb": 1825140,
+        "trakt": 1416794
+      },
+      "year": null,
+      "title": "The Week of Pain"
+    },
+    "rank": 250,
+    "id": 1561336759,
+    "listed_at": "2026-11-14T16:01:16.000Z",
     "notes": null,
     "my_rating": null
   }
