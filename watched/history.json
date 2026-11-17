@@ -1,5 +1,41 @@
 [
   {
+    "id": 14641789791,
+    "watched_at": "2026-11-17T04:42:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt35676664",
+        "plex": {
+          "guid": "6a3577211fc450536b2943fb"
+        },
+        "tmdb": 7402600,
+        "tvdb": 11851082,
+        "trakt": 14256733
+      },
+      "title": "On the Road...Again",
+      "number": 8,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt6773088",
+        "plex": {
+          "guid": "660287bde98021c154100e69",
+          "slug": "brothers-16"
+        },
+        "slug": "brothers-2026",
+        "tmdb": 250203,
+        "tvdb": 448114,
+        "trakt": 232728
+      },
+      "year": 2026,
+      "title": "Brothers",
+      "aired_episodes": 8
+    }
+  },
+  {
     "id": 14641737615,
     "watched_at": "2026-11-17T04:11:00.000Z",
     "action": "checkin",

@@ -18,74 +18,10 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 7,
-      "last_watched_at": "2026-11-17T04:11:00.000Z",
+      "completed": 8,
+      "last_watched_at": "2026-11-17T04:42:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt35676665",
-          "plex": {
-            "guid": "6a3577211fc450536b294401"
-          },
-          "tmdb": 7402599,
-          "tvdb": 11851081,
-          "trakt": 14256732
-        },
-        "title": "The Interview",
-        "votes": 200,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14256732/medium/screenshot.webp"
-          ]
-        },
-        "number": 7,
-        "rating": 7.6800007820129395,
-        "season": 1,
-        "runtime": 25,
-        "overview": "Matthew's big announcement sends shock waves as Woody finds himself caught in a lie.",
-        "released": "2026-10-28",
-        "number_abs": 7,
-        "updated_at": "2026-11-10T19:10:54.000Z",
-        "first_aired": "2026-10-27T04:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 2,
-        "during_credits": false,
-        "original_title": "The Interview",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "th",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-10-27T04:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt35676664",
           "plex": {
@@ -149,21 +85,22 @@
         ],
         "effective_release_date": "2026-11-03T05:00:00.000Z"
       },
+      "next_episode": null,
       "stats": {
-        "play_count": 7,
-        "minutes_watched": 193,
-        "minutes_left": 27
+        "play_count": 8,
+        "minutes_watched": 220,
+        "minutes_left": 0
       },
       "seasons": [
         {
           "number": 1,
           "title": "Season 1",
           "aired": 8,
-          "completed": 7,
+          "completed": 8,
           "stats": {
-            "play_count": 7,
-            "minutes_watched": 193,
-            "minutes_left": 27
+            "play_count": 8,
+            "minutes_watched": 220,
+            "minutes_left": 0
           },
           "episodes": [
             {
@@ -231,11 +168,11 @@
             },
             {
               "number": 8,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-17T04:42:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 27
               }
             }
           ]
@@ -11446,14 +11383,14 @@
           "trakt": 14143105
         },
         "title": "Greyhounds' Day Off",
-        "votes": 2122,
+        "votes": 2123,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14143105/medium/screenshot.webp"
           ]
         },
         "number": 4,
-        "rating": 8.135284423828125,
+        "rating": 8.136162757873535,
         "season": 4,
         "runtime": 44,
         "overview": "The coaches must figure out how to break up team cliques. Ted adjusts to life outside the locker room.",
@@ -11512,14 +11449,14 @@
           "trakt": 14143106
         },
         "title": "Riches of Embarrassment",
-        "votes": 2015,
+        "votes": 2016,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14143106/medium/screenshot.webp"
           ]
         },
         "number": 5,
-        "rating": 7.954849720001221,
+        "rating": 7.955863952636719,
         "season": 4,
         "runtime": 48,
         "overview": "The ladies face off against Chelsea. Alice feels the pressure. Rebecca navigates a complicated dynamic.",
@@ -12398,14 +12335,14 @@
           "trakt": 13974260
         },
         "title": "All Good Things",
-        "votes": 1174,
+        "votes": 1175,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13974260/medium/screenshot.webp"
           ]
         },
         "number": 7,
-        "rating": 7.758934020996094,
+        "rating": 7.7582879066467285,
         "season": 1,
         "runtime": 45,
         "overview": "Everything is on the line as Lucky navigates an explosive confrontation.",
@@ -13988,14 +13925,14 @@
           "trakt": 13527591
         },
         "title": "The Man in the Mask",
-        "votes": 1427,
+        "votes": 1428,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13527591/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.177999496459961,
+        "rating": 8.177874565124512,
         "season": 1,
         "runtime": 46,
         "overview": "Gee whiz, what's a down-on-his-luck private investigator to do?",
@@ -18142,14 +18079,14 @@
           "trakt": 13642191
         },
         "title": "Terminal",
-        "votes": 813,
+        "votes": 814,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13642191/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.10705041885376,
+        "rating": 7.106918811798096,
         "season": 2,
         "runtime": 50,
         "overview": "With the handover imminent, Sam is prepared to put his life on the line to save Marsha\u2014and expose the truth.",
@@ -23434,14 +23371,14 @@
           "trakt": 14303115
         },
         "title": "It's Perfect",
-        "votes": 447,
+        "votes": 448,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14303115/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.738255500793457,
+        "rating": 7.738839626312256,
         "season": 3,
         "runtime": 26,
         "overview": "Joanne and Noah celebrate moving in together \u2014 and discover each other's annoying household habits.",
@@ -31429,14 +31366,14 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 1553,
+        "votes": 1554,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14297667/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.302633285522461,
+        "rating": 8.301151275634766,
         "season": 2,
         "runtime": 50,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
@@ -45485,14 +45422,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1090,
+        "votes": 1092,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.907342910766602,
+        "rating": 7.9020185470581055,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
@@ -48168,14 +48105,14 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2425,
+        "votes": 2426,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12138429/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.928629398345947,
+        "rating": 7.929483413696289,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
@@ -199657,14 +199594,14 @@
           "trakt": 3461321
         },
         "title": "Vichnaya Pamyat",
-        "votes": 6649,
+        "votes": 6650,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/3461321/medium/screenshot.webp"
           ]
         },
         "number": 5,
-        "rating": 9.04375171661377,
+        "rating": 9.043895721435547,
         "season": 1,
         "runtime": 73,
         "overview": "Valery Legasov, Boris Shcherbina and Ulana Khomyuk risk their lives and reputations to expose the truth about Chernobyl.",
