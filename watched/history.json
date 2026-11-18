@@ -1,5 +1,77 @@
 [
   {
+    "id": 14644724522,
+    "watched_at": "2026-11-18T08:43:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt40238628",
+        "plex": {
+          "guid": "6a4e455f652628de389ac52b"
+        },
+        "tmdb": 7442172,
+        "tvdb": 11868157,
+        "trakt": 14275393
+      },
+      "title": "Monstera",
+      "number": 3,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt18228732",
+        "plex": {
+          "guid": "62a0cbbe56c3f99d10107c85",
+          "slug": "colin-from-accounts"
+        },
+        "slug": "colin-from-accounts",
+        "tmdb": 203614,
+        "tvdb": 421974,
+        "trakt": 200172
+      },
+      "year": 2022,
+      "title": "Colin from Accounts",
+      "aired_episodes": 24
+    }
+  },
+  {
+    "id": 14644693164,
+    "watched_at": "2026-11-18T08:14:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt40238627",
+        "plex": {
+          "guid": "6a4e455f652628de389ac528"
+        },
+        "tmdb": 7442170,
+        "tvdb": 11868156,
+        "trakt": 14275385
+      },
+      "title": "Clean, Honest, Open, Transparent Love",
+      "number": 2,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt18228732",
+        "plex": {
+          "guid": "62a0cbbe56c3f99d10107c85",
+          "slug": "colin-from-accounts"
+        },
+        "slug": "colin-from-accounts",
+        "tmdb": 203614,
+        "tvdb": 421974,
+        "trakt": 200172
+      },
+      "year": 2022,
+      "title": "Colin from Accounts",
+      "aired_episodes": 24
+    }
+  },
+  {
     "id": 14644656362,
     "watched_at": "2026-11-18T07:57:00.000Z",
     "action": "scrobble",

@@ -2,6 +2,376 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt18228732",
+        "plex": {
+          "guid": "62a0cbbe56c3f99d10107c85",
+          "slug": "colin-from-accounts"
+        },
+        "slug": "colin-from-accounts",
+        "tmdb": 203614,
+        "tvdb": 421974,
+        "trakt": 200172
+      },
+      "year": 2022,
+      "title": "Colin from Accounts",
+      "aired_episodes": 24
+    },
+    "progress": {
+      "aired": 24,
+      "completed": 19,
+      "last_watched_at": "2026-11-18T08:43:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt40238628",
+          "plex": {
+            "guid": "6a4e455f652628de389ac52b"
+          },
+          "tmdb": 7442172,
+          "tvdb": 11868157,
+          "trakt": 14275393
+        },
+        "title": "Monstera",
+        "votes": 128,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14275393/medium/screenshot.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 8.054658889770508,
+        "season": 3,
+        "runtime": 28,
+        "overview": "Ash and Gordon attempt to put their past behind them at dinner in a \"romantic but not too romantic\" restaurant, while David and Chelsea are both laser-focused on the future.",
+        "released": "2026-08-03",
+        "number_abs": 19,
+        "updated_at": "2026-11-16T03:34:30.000Z",
+        "first_aired": "2026-08-03T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 1,
+        "during_credits": false,
+        "original_title": "Monstera",
+        "available_translations": [
+          "en",
+          "es",
+          "he",
+          "nl",
+          "sv",
+          "uk",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-03T02:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt40238632",
+          "plex": {
+            "guid": "6a467c583cf6afb26b01c32f"
+          },
+          "tmdb": 7442174,
+          "tvdb": 11868158,
+          "trakt": 14275396
+        },
+        "title": "New Beginnings Champagne Breakfast",
+        "votes": 128,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14275396/medium/screenshot.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 7.984394550323486,
+        "season": 3,
+        "runtime": 33,
+        "overview": "Gordon and Ash take stock of themselves - and their romantic relationships - after the tapas dinner, and Brett attempts to renegotiate his position in Gordon's life.",
+        "released": "2026-08-10",
+        "number_abs": 20,
+        "updated_at": "2026-11-11T07:54:50.000Z",
+        "first_aired": "2026-08-10T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "New Beginnings Champagne Breakfast",
+        "available_translations": [
+          "en",
+          "es",
+          "he",
+          "nl",
+          "sv",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-10T02:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 19,
+        "minutes_watched": 529,
+        "minutes_left": 159
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Season 1",
+          "aired": 8,
+          "completed": 8,
+          "stats": {
+            "play_count": 8,
+            "minutes_watched": 225,
+            "minutes_left": 0
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2023-12-22T07:30:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 33
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2023-12-23T06:17:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 30
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2023-12-23T06:42:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2023-12-29T07:31:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2023-12-30T07:28:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 31
+              }
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2024-01-01T06:10:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 27
+              }
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2024-01-01T06:53:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2024-01-01T07:18:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Season 2",
+          "aired": 8,
+          "completed": 8,
+          "stats": {
+            "play_count": 8,
+            "minutes_watched": 217,
+            "minutes_left": 0
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2024-06-08T06:00:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 25
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2024-06-08T06:27:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2024-06-08T07:00:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 28
+              }
+            },
+            {
+              "number": 4,
+              "completed": true,
+              "last_watched_at": "2024-06-18T03:14:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 27
+              }
+            },
+            {
+              "number": 5,
+              "completed": true,
+              "last_watched_at": "2024-06-18T03:45:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 31
+              }
+            },
+            {
+              "number": 6,
+              "completed": true,
+              "last_watched_at": "2024-06-27T05:22:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            },
+            {
+              "number": 7,
+              "completed": true,
+              "last_watched_at": "2024-06-27T05:51:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 28
+              }
+            },
+            {
+              "number": 8,
+              "completed": true,
+              "last_watched_at": "2024-06-27T18:10:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 26
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Season 3",
+          "aired": 8,
+          "completed": 3,
+          "stats": {
+            "play_count": 3,
+            "minutes_watched": 87,
+            "minutes_left": 159
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-11-10T06:08:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 30
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2026-11-18T08:14:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 29
+              }
+            },
+            {
+              "number": 3,
+              "completed": true,
+              "last_watched_at": "2026-11-18T08:43:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 28
+              }
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt32159809",
         "plex": {
           "guid": "663c5c9154860a808df84899",
@@ -313,14 +683,14 @@
           "trakt": 14256733
         },
         "title": "On the Road...Again",
-        "votes": 218,
+        "votes": 219,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14256733/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.577981948852539,
+        "rating": 7.575342655181885,
         "season": 1,
         "runtime": 27,
         "overview": "The gloves come off, the truth comes out\u2014and nothing will ever be the same.",
@@ -7775,377 +8145,6 @@
               "stats": {
                 "play_count": 1,
                 "minutes_watched": 37
-              }
-            }
-          ]
-        }
-      ],
-      "hidden_seasons": []
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt18228732",
-        "plex": {
-          "guid": "62a0cbbe56c3f99d10107c85",
-          "slug": "colin-from-accounts"
-        },
-        "slug": "colin-from-accounts",
-        "tmdb": 203614,
-        "tvdb": 421974,
-        "trakt": 200172
-      },
-      "year": 2022,
-      "title": "Colin from Accounts",
-      "aired_episodes": 24
-    },
-    "progress": {
-      "aired": 24,
-      "completed": 17,
-      "last_watched_at": "2026-11-10T06:08:00.000Z",
-      "reset_at": null,
-      "last_episode": {
-        "ids": {
-          "imdb": "tt36468169",
-          "plex": {
-            "guid": "6a467c5a3cf6afb26b01c338"
-          },
-          "tmdb": 7442168,
-          "tvdb": 11868155,
-          "trakt": 14275377
-        },
-        "title": "Receptive Penile",
-        "votes": 148,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14275377/medium/screenshot.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.844601154327393,
-        "season": 3,
-        "runtime": 30,
-        "overview": "Gordon and Ashley are determined to move on from past embarrassments, but they can't seem to shake their collective baggage.",
-        "released": "2026-07-27",
-        "number_abs": 17,
-        "updated_at": "2026-11-06T19:30:51.000Z",
-        "first_aired": "2026-07-27T02:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 4,
-        "during_credits": false,
-        "original_title": "Receptive Penile",
-        "available_translations": [
-          "en",
-          "es",
-          "he",
-          "nl",
-          "sv",
-          "uk",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-27T02:00:00.000Z"
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt40238627",
-          "plex": {
-            "guid": "6a4e455f652628de389ac528"
-          },
-          "tmdb": 7442170,
-          "tvdb": 11868156,
-          "trakt": 14275385
-        },
-        "title": "Clean, Honest, Open, Transparent Love",
-        "votes": 134,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14275385/medium/screenshot.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 7.798467636108398,
-        "season": 3,
-        "runtime": 29,
-        "overview": "Ash reunites with Colin, and Gordon invites her - along with her eager boyfriend, David - to his birthday party at Echo Park Brewery.",
-        "released": "2026-07-27",
-        "number_abs": 18,
-        "updated_at": "2026-11-08T19:40:51.000Z",
-        "first_aired": "2026-07-27T02:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 0,
-        "during_credits": false,
-        "original_title": "Clean, Honest, Open, Transparent Love",
-        "available_translations": [
-          "en",
-          "es",
-          "he",
-          "nl",
-          "sv",
-          "uk",
-          "zh"
-        ],
-        "effective_release_date": "2026-07-27T02:00:00.000Z"
-      },
-      "stats": {
-        "play_count": 17,
-        "minutes_watched": 472,
-        "minutes_left": 216
-      },
-      "seasons": [
-        {
-          "number": 1,
-          "title": "Season 1",
-          "aired": 8,
-          "completed": 8,
-          "stats": {
-            "play_count": 8,
-            "minutes_watched": 225,
-            "minutes_left": 0
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2023-12-22T07:30:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 33
-              }
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2023-12-23T06:17:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 30
-              }
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2023-12-23T06:42:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2023-12-29T07:31:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2023-12-30T07:28:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 31
-              }
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2024-01-01T06:10:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 27
-              }
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2024-01-01T06:53:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2024-01-01T07:18:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "title": "Season 2",
-          "aired": 8,
-          "completed": 8,
-          "stats": {
-            "play_count": 8,
-            "minutes_watched": 217,
-            "minutes_left": 0
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2024-06-08T06:00:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 25
-              }
-            },
-            {
-              "number": 2,
-              "completed": true,
-              "last_watched_at": "2024-06-08T06:27:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            },
-            {
-              "number": 3,
-              "completed": true,
-              "last_watched_at": "2024-06-08T07:00:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 28
-              }
-            },
-            {
-              "number": 4,
-              "completed": true,
-              "last_watched_at": "2024-06-18T03:14:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 27
-              }
-            },
-            {
-              "number": 5,
-              "completed": true,
-              "last_watched_at": "2024-06-18T03:45:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 31
-              }
-            },
-            {
-              "number": 6,
-              "completed": true,
-              "last_watched_at": "2024-06-27T05:22:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            },
-            {
-              "number": 7,
-              "completed": true,
-              "last_watched_at": "2024-06-27T05:51:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 28
-              }
-            },
-            {
-              "number": 8,
-              "completed": true,
-              "last_watched_at": "2024-06-27T18:10:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 26
-              }
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "title": "Season 3",
-          "aired": 8,
-          "completed": 1,
-          "stats": {
-            "play_count": 1,
-            "minutes_watched": 30,
-            "minutes_left": 216
-          },
-          "episodes": [
-            {
-              "number": 1,
-              "completed": true,
-              "last_watched_at": "2026-11-10T06:08:00.000Z",
-              "stats": {
-                "play_count": 1,
-                "minutes_watched": 30
-              }
-            },
-            {
-              "number": 2,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 3,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 4,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 5,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 6,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 7,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
-              }
-            },
-            {
-              "number": 8,
-              "completed": false,
-              "last_watched_at": null,
-              "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
               }
             }
           ]
@@ -31338,7 +31337,7 @@
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-11-17T12:09:49.000Z",
+        "updated_at": "2026-11-18T09:01:56.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -45381,14 +45380,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1160,
+        "votes": 1164,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.8974175453186035,
+        "rating": 7.8951921463012695,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
@@ -125738,14 +125737,14 @@
           "trakt": 6373999
         },
         "title": "Whose Show Is This?",
-        "votes": 2543,
+        "votes": 2544,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/6373999/medium/screenshot.webp"
           ]
         },
         "number": 9,
-        "rating": 6.770305633544922,
+        "rating": 6.771182060241699,
         "season": 1,
         "runtime": 35,
         "overview": "Jen finds herself in trouble with the law and struggles to pick up the pieces of her life.",
@@ -135643,14 +135642,14 @@
           "trakt": 5838766
         },
         "title": "Gods and Monsters",
-        "votes": 3524,
+        "votes": 3523,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/5838766/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 7.590813636779785,
+        "rating": 7.590413570404053,
         "season": 1,
         "runtime": 44,
         "overview": "With Layla tracking down Harrow, Marc, Steven, and Khonshu must return to Cairo to stop Ammit as she looks to threaten humanity once more.",
@@ -217884,14 +217883,14 @@
           "trakt": 1759047
         },
         "title": "Episode 8",
-        "votes": 2436,
+        "votes": 2435,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/1759047/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.27669906616211,
+        "rating": 8.277223587036133,
         "season": 1,
         "runtime": 59,
         "overview": "As James Delaney conspires to escape, an enraged Prince Regent unleashes one final plan to destroy him.",
@@ -247135,7 +247134,7 @@
         "overview": "All bad things must come to an end.",
         "released": "2013-09-30",
         "number_abs": 62,
-        "updated_at": "2026-11-11T07:24:17.000Z",
+        "updated_at": "2026-11-18T08:54:48.000Z",
         "first_aired": "2013-09-30T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
