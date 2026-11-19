@@ -289,28 +289,6 @@
     "type": "movie",
     "movie": {
       "ids": {
-        "imdb": "tt36415529",
-        "plex": {
-          "guid": "67dea6d6dbfa55446c64927e",
-          "slug": "behemoth-2026"
-        },
-        "slug": "behemoth-2026",
-        "tmdb": 1452168,
-        "trakt": 1189089
-      },
-      "year": 2026,
-      "title": "Behemoth!"
-    },
-    "rank": 163,
-    "id": 1363414011,
-    "listed_at": "2025-11-14T20:01:55.000Z",
-    "notes": null,
-    "my_rating": null
-  },
-  {
-    "type": "movie",
-    "movie": {
-      "ids": {
         "imdb": "tt37967547",
         "plex": {
           "guid": "68ad0c3728cac07e8c180ebc",
@@ -3079,7 +3057,7 @@
       },
       "year": 2026,
       "title": "Nocturne",
-      "aired_episodes": 4
+      "aired_episodes": 5
     },
     "rank": 193,
     "id": 1272092576,
@@ -3772,6 +3750,28 @@
     "rank": 251,
     "id": 1561751059,
     "listed_at": "2026-11-16T20:01:19.000Z",
+    "notes": null,
+    "my_rating": null
+  },
+  {
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt36415529",
+        "plex": {
+          "guid": "67dea6d6dbfa55446c64927e",
+          "slug": "behemoth-2026"
+        },
+        "slug": "behemoth-2026",
+        "tmdb": 1452168,
+        "trakt": 1189089
+      },
+      "year": 2026,
+      "title": "Behemoth!"
+    },
+    "rank": 252,
+    "id": 1562156347,
+    "listed_at": "2026-11-19T05:01:28.000Z",
     "notes": null,
     "my_rating": null
   }
