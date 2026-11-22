@@ -2,6 +2,168 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt26933824",
+        "plex": {
+          "guid": "660d495735513de615d99203",
+          "slug": "nobody-wants-this"
+        },
+        "slug": "nobody-wants-this",
+        "tmdb": 250923,
+        "tvdb": 450093,
+        "trakt": 233797
+      },
+      "year": 2024,
+      "title": "Nobody Wants This",
+      "aired_episodes": 30
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 21,
+      "hidden": 0,
+      "last_watched_at": "2026-11-22T06:27:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 21,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt45574668",
+          "plex": {
+            "guid": "69ff8812d968a97cebe8a091"
+          },
+          "tmdb": 7499420,
+          "tvdb": 11774130,
+          "trakt": 14303116
+        },
+        "title": "Daddy's Home",
+        "votes": 422,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14303116/medium/screenshot.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 7.824641704559326,
+        "season": 3,
+        "runtime": 31,
+        "overview": "As Noah makes another go at his dream job, Joanne goes to extremes \u2014 and Judaism class \u2014 to shift the narrative about the couple's relationship.",
+        "released": "2026-10-22",
+        "number_abs": 22,
+        "updated_at": "2026-11-11T08:16:46.000Z",
+        "first_aired": "2026-10-22T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 8,
+        "during_credits": false,
+        "original_title": "Daddy's Home",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-22T07:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt38865044",
+          "plex": {
+            "guid": "69ff8812d968a97cebe8a090"
+          },
+          "tmdb": 7499419,
+          "tvdb": 11774129,
+          "trakt": 14303115
+        },
+        "title": "It's Perfect",
+        "votes": 469,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14303115/medium/screenshot.webp"
+          ]
+        },
+        "number": 1,
+        "rating": 7.724947452545166,
+        "season": 3,
+        "runtime": 26,
+        "overview": "Joanne and Noah celebrate moving in together \u2014 and discover each other's annoying household habits.",
+        "released": "2026-10-22",
+        "number_abs": 21,
+        "updated_at": "2026-11-11T04:11:02.000Z",
+        "first_aired": "2026-10-22T07:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 6,
+        "during_credits": false,
+        "original_title": "It's Perfect",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-22T07:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt18228732",
         "plex": {
           "guid": "62a0cbbe56c3f99d10107c85",
@@ -79,14 +241,14 @@
           "trakt": 14275393
         },
         "title": "Monstera",
-        "votes": 130,
+        "votes": 133,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14275393/medium/screenshot.webp"
           ]
         },
         "number": 3,
-        "rating": 8.061511039733887,
+        "rating": 8.045085906982422,
         "season": 3,
         "runtime": 28,
         "overview": "Ash and Gordon attempt to put their past behind them at dinner in a \"romantic but not too romantic\" restaurant, while David and Chelsea are both laser-focused on the future.",
@@ -262,14 +424,14 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 1477,
+        "votes": 1488,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14239242/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.201740264892578,
+        "rating": 8.202266693115234,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
@@ -329,14 +491,14 @@
           "trakt": 13189756
         },
         "title": "Scars",
-        "votes": 1690,
+        "votes": 1692,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13189756/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 8.353856086730957,
+        "rating": 8.35521125793457,
         "season": 5,
         "runtime": 52,
         "overview": "It's up to the Slow Horses to stop Farouk's team from completing its mission in a final act of mass carnage.",
@@ -466,14 +628,14 @@
           "trakt": 13119059
         },
         "title": "The Sensitive Kind",
-        "votes": 306,
+        "votes": 307,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13119059/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.800686359405518,
+        "rating": 7.80133581161499,
         "season": 1,
         "runtime": 55,
         "overview": "The truth comes to light\u2026but at what cost?",
@@ -501,136 +663,6 @@
           "zh"
         ],
         "effective_release_date": "2025-11-05T02:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
-        "imdb": "tt26933824",
-        "plex": {
-          "guid": "660d495735513de615d99203",
-          "slug": "nobody-wants-this"
-        },
-        "slug": "nobody-wants-this",
-        "tmdb": 250923,
-        "tvdb": 450093,
-        "trakt": 233797
-      },
-      "year": 2024,
-      "title": "Nobody Wants This",
-      "aired_episodes": 30
-    },
-    "progress": {
-      "aired": 30,
-      "completed": 20,
-      "hidden": 0,
-      "last_watched_at": "2025-11-09T03:05:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 20,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt38865044",
-          "plex": {
-            "guid": "69ff8812d968a97cebe8a090"
-          },
-          "tmdb": 7499419,
-          "tvdb": 11774129,
-          "trakt": 14303115
-        },
-        "title": "It's Perfect",
-        "votes": 464,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14303115/medium/screenshot.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.721983432769775,
-        "season": 3,
-        "runtime": 26,
-        "overview": "Joanne and Noah celebrate moving in together \u2014 and discover each other's annoying household habits.",
-        "released": "2026-10-22",
-        "number_abs": 21,
-        "updated_at": "2026-11-11T04:11:02.000Z",
-        "first_aired": "2026-10-22T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "It's Perfect",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sv",
-          "th",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-10-22T07:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt38772338",
-          "plex": {
-            "guid": "683df27300e0eabdc2fb012c"
-          },
-          "tmdb": 6556706,
-          "tvdb": 11162583,
-          "trakt": 13551570
-        },
-        "title": "When Noah Met Joanne",
-        "votes": 375,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/13551570/medium/screenshot.webp"
-          ]
-        },
-        "number": 10,
-        "rating": 7.437294960021973,
-        "season": 2,
-        "runtime": 28,
-        "overview": "The complexities of love get all too real at a lavish celebration, as Joanne and Noah question what's worth holding onto \u2014 and what's slipping away.",
-        "released": "2025-10-23",
-        "number_abs": 20,
-        "updated_at": "2026-11-06T15:23:00.000Z",
-        "first_aired": "2025-10-23T07:00:00.000Z",
-        "episode_type": "season_finale",
-        "after_credits": false,
-        "comment_count": 24,
-        "during_credits": false,
-        "original_title": "When Noah Met Joanne",
-        "available_translations": [],
-        "effective_release_date": "2025-10-23T07:00:00.000Z"
       }
     }
   },
@@ -673,14 +705,14 @@
           "trakt": 14384093
         },
         "title": "Windsor",
-        "votes": 740,
+        "votes": 742,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14384093/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.228384971618652,
+        "rating": 8.226422309875488,
         "season": 4,
         "runtime": 49,
         "overview": "On an unplanned stopover at Windsor Castle, Kate grows wary of Hal and Grace's dynamic as she tries to contain the fallout from their covert actions.",
@@ -690,7 +722,7 @@
         "first_aired": "2026-10-15T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 16,
+        "comment_count": 17,
         "during_credits": false,
         "original_title": "Windsor",
         "available_translations": [
@@ -839,14 +871,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 1144,
+        "votes": 1154,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.286707878112793,
+        "rating": 8.276426315307617,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -891,14 +923,14 @@
           "trakt": 12853600
         },
         "title": "And Justice for All...",
-        "votes": 1764,
+        "votes": 1767,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12853600/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.488086700439453,
+        "rating": 8.488956451416016,
         "season": 1,
         "runtime": 47,
         "overview": "Dexter and Harrison face the consequences of their darkness.",
@@ -977,14 +1009,14 @@
           "trakt": 14165594
         },
         "title": "Soda",
-        "votes": 1605,
+        "votes": 1606,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14165594/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.6586174964904785,
+        "rating": 7.6600751876831055,
         "season": 5,
         "runtime": 22,
         "overview": "A storm hits.",
@@ -1030,14 +1062,14 @@
           "trakt": 12565635
         },
         "title": "Goodbye",
-        "votes": 1454,
+        "votes": 1457,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12565635/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 7.866527557373047,
+        "rating": 7.865429878234863,
         "season": 4,
         "runtime": 34,
         "overview": "Time waits for no one.",
@@ -1094,14 +1126,14 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 1630,
+        "votes": 1658,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14297667/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.29140567779541,
+        "rating": 8.292512893676758,
         "season": 2,
         "runtime": 50,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
@@ -1154,14 +1186,14 @@
           "trakt": 12855315
         },
         "title": "The Beast in Me",
-        "votes": 2691,
+        "votes": 2693,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12855315/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.236311912536621,
+        "rating": 8.237250328063965,
         "season": 1,
         "runtime": 55,
         "overview": "Kevin takes care of a problem. Maeve spills the tea.",
@@ -1247,14 +1279,14 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1599,
+        "votes": 1600,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13705270/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.799233436584473,
+        "rating": 7.799983978271484,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
@@ -1345,14 +1377,14 @@
           "trakt": 14272169
         },
         "title": "City of Brotherly Love",
-        "votes": 2470,
+        "votes": 2473,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14272169/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.229598045349121,
+        "rating": 8.228915214538574,
         "season": 4,
         "runtime": 47,
         "overview": "A chance encounter with a distraught stranger on a Philadelphia subway car draws Jack Reacher into a deadly mystery involving a missing flash drive that contains secrets worth killing for.",
@@ -1416,14 +1448,14 @@
           "trakt": 12594343
         },
         "title": "Unfinished Business",
-        "votes": 2487,
+        "votes": 2488,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12594343/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.004861831665039,
+        "rating": 8.005663871765137,
         "season": 3,
         "runtime": 52,
         "overview": "Reacher finally faces off with both Paulie and Quinn.",
@@ -1518,14 +1550,14 @@
           "trakt": 14414912
         },
         "title": "Black Door",
-        "votes": 531,
+        "votes": 544,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14414912/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.037664413452148,
+        "rating": 8.045955657958984,
         "season": 2,
         "runtime": 50,
         "overview": "As her husband steps up as prime minister, Helen helps Reed steal files codenamed Wildflower and a shadowy organization coerces Sam into a contract.",
@@ -1586,14 +1618,14 @@
           "trakt": 12213549
         },
         "title": "In the Bleak Midwinter",
-        "votes": 1145,
+        "votes": 1151,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12213549/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 7.6035308837890625,
+        "rating": 7.602991104125977,
         "season": 1,
         "runtime": 54,
         "overview": "Armed with evidence and bent on vengeance, Helen goes searching for the Clarks. As the conspiracy starts to unravel, she has a deadly decision to make.",
@@ -1650,14 +1682,14 @@
           "trakt": 14228481
         },
         "title": "The Spider and the Fly",
-        "votes": 1718,
+        "votes": 1725,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14228481/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.485464096069336,
+        "rating": 8.488131523132324,
         "season": 3,
         "runtime": 49,
         "overview": "A covert strike draws Joe into a chain of events.",
@@ -1704,14 +1736,14 @@
           "trakt": 12346485
         },
         "title": "The Compass Points Home",
-        "votes": 1984,
+        "votes": 1986,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12346485/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.12598991394043,
+        "rating": 8.12636661529541,
         "season": 2,
         "runtime": 52,
         "overview": "Operation Sky Hawk is a go as Kaitlyn and Westfield pressure Pablo to side with them.",
@@ -1793,14 +1825,14 @@
           "trakt": 12958334
         },
         "title": "Who Are You?",
-        "votes": 3836,
+        "votes": 3837,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12958334/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.745311737060547,
+        "rating": 7.744856834411621,
         "season": 3,
         "runtime": 52,
         "overview": "New mayor Juliette can't remember anything from her time outside\u2014or her past.",
@@ -1810,7 +1842,7 @@
         "first_aired": "2026-07-03T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 138,
+        "comment_count": 139,
         "during_credits": false,
         "original_title": "Who Are You?",
         "available_translations": [
@@ -1862,14 +1894,14 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3981,
+        "votes": 3982,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12146122/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.2354097366333,
+        "rating": 8.23585319519043,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
@@ -1960,14 +1992,14 @@
           "trakt": 13642174
         },
         "title": "My Bad",
-        "votes": 972,
+        "votes": 973,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13642174/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.100785255432129,
+        "rating": 8.102737426757812,
         "season": 3,
         "runtime": 64,
         "overview": "Jimmy grapples with being an empty nester and feeling torn about Alice's major life choice. Paul faces fresh challenges with his Parkinson's.",
@@ -2120,14 +2152,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1321,
+        "votes": 1365,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.87055778503418,
+        "rating": 7.872532844543457,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
@@ -2190,14 +2222,14 @@
           "trakt": 11872552
         },
         "title": "Shadow and Flame",
-        "votes": 2249,
+        "votes": 2257,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/11872552/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.721206188201904,
+        "rating": 7.725738525390625,
         "season": 2,
         "runtime": 74,
         "overview": "The free peoples of Middle-earth struggle against the forces of darkness.",
@@ -2292,14 +2324,14 @@
           "trakt": 12138429
         },
         "title": "Fifteen Inches of Sheer Dynamite",
-        "votes": 2434,
+        "votes": 2438,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12138429/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.927249431610107,
+        "rating": 7.926138877868652,
         "season": 5,
         "runtime": 64,
         "overview": "ATTENTION FREEDOM CAMPERS: ESCAPE ATTEMPTS WILL BE MET WITH DEADLY FORCE. Have a super day!",
@@ -2365,14 +2397,14 @@
           "trakt": 7339876
         },
         "title": "Season Four Finale",
-        "votes": 3539,
+        "votes": 3540,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/7339876/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.139588356018066,
+        "rating": 8.139549255371094,
         "season": 4,
         "runtime": 69,
         "overview": "Calling all patriots! We will not allow this stolen election to be certified tomorrow! We must stop Bob Singer's woke anti-Supe agenda! PREPARE FOR WAR! #WhereWeGoOneWeGoVought",
@@ -2470,14 +2502,14 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 1299,
+        "votes": 1303,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14100885/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.737496376037598,
+        "rating": 7.736766815185547,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
@@ -2697,14 +2729,14 @@
           "trakt": 11455918
         },
         "title": "Farewell",
-        "votes": 1051,
+        "votes": 1052,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/11455918/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.630797863006592,
+        "rating": 7.629247665405273,
         "season": 1,
         "runtime": 40,
         "overview": "A shocking realization points Sugar toward a discovery that changes everything.",
@@ -2792,14 +2824,14 @@
           "trakt": 13408830
         },
         "title": "The Road to Kingdom",
-        "votes": 1534,
+        "votes": 1537,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13408830/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.143412590026855,
+        "rating": 8.143133163452148,
         "season": 2,
         "runtime": 63,
         "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
@@ -2861,14 +2893,14 @@
           "trakt": 11487542
         },
         "title": "The Gospel According to Bobby Glass",
-        "votes": 1807,
+        "votes": 1808,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/11487542/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.01549243927002,
+        "rating": 8.016590118408203,
         "season": 1,
         "runtime": 44,
         "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",

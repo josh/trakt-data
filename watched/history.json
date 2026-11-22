@@ -1,5 +1,41 @@
 [
   {
+    "id": 14654623965,
+    "watched_at": "2026-11-22T06:27:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt38865044",
+        "plex": {
+          "guid": "69ff8812d968a97cebe8a090"
+        },
+        "tmdb": 7499419,
+        "tvdb": 11774129,
+        "trakt": 14303115
+      },
+      "title": "It's Perfect",
+      "number": 1,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26933824",
+        "plex": {
+          "guid": "660d495735513de615d99203",
+          "slug": "nobody-wants-this"
+        },
+        "slug": "nobody-wants-this",
+        "tmdb": 250923,
+        "tvdb": 450093,
+        "trakt": 233797
+      },
+      "year": 2024,
+      "title": "Nobody Wants This",
+      "aired_episodes": 30
+    }
+  },
+  {
     "id": 14651990150,
     "watched_at": "2026-11-21T05:49:00.000Z",
     "action": "checkin",
