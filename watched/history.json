@@ -1,5 +1,25 @@
 [
   {
+    "id": 1000001416113,
+    "watched_at": "2026-11-22T09:54:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt24818230",
+        "plex": {
+          "guid": "63a4d7ca5fa2605ebc81ad9b",
+          "slug": "madden"
+        },
+        "slug": "madden-2026",
+        "tmdb": 1131943,
+        "trakt": 911125
+      },
+      "year": 2026,
+      "title": "Madden"
+    }
+  },
+  {
     "id": 14654656140,
     "watched_at": "2026-11-22T07:00:00.000Z",
     "action": "checkin",
@@ -162095,7 +162115,7 @@
         "tmdb": 854359,
         "trakt": 682999
       },
-      "year": 2021,
+      "year": 2022,
       "title": "Sundown"
     }
   },
