@@ -1,5 +1,25 @@
 [
   {
+    "id": 1000001574302,
+    "watched_at": "2026-11-22T23:01:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt7526136",
+        "plex": {
+          "guid": "5f40d307bf3e560040d6b66e",
+          "slug": "heart-of-the-beast-2026"
+        },
+        "slug": "heart-of-the-beast-2026",
+        "tmdb": 1263337,
+        "trakt": 1025172
+      },
+      "year": 2026,
+      "title": "Heart of the Beast"
+    }
+  },
+  {
     "id": 14654980523,
     "watched_at": "2026-11-22T10:32:00.000Z",
     "action": "scrobble",
@@ -142,7 +162,7 @@
         "tvdb": 12027601,
         "trakt": 14549417
       },
-      "title": "November 20, 2026",
+      "title": "November 20, 2026: Oz Pearlman, Kaitlan Collins, Bobby Pulido",
       "number": 35,
       "season": 24
     },
