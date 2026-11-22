@@ -1,5 +1,41 @@
 [
   {
+    "id": 14654980523,
+    "watched_at": "2026-11-22T10:32:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt40238632",
+        "plex": {
+          "guid": "6a467c583cf6afb26b01c32f"
+        },
+        "tmdb": 7442174,
+        "tvdb": 11868158,
+        "trakt": 14275396
+      },
+      "title": "New Beginnings Champagne Breakfast",
+      "number": 4,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt18228732",
+        "plex": {
+          "guid": "62a0cbbe56c3f99d10107c85",
+          "slug": "colin-from-accounts"
+        },
+        "slug": "colin-from-accounts",
+        "tmdb": 203614,
+        "tvdb": 421974,
+        "trakt": 200172
+      },
+      "year": 2022,
+      "title": "Colin from Accounts",
+      "aired_episodes": 24
+    }
+  },
+  {
     "id": 1000001416113,
     "watched_at": "2026-11-22T09:54:00.000Z",
     "action": "scrobble",
