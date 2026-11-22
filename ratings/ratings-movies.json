@@ -1,5 +1,24 @@
 [
   {
+    "rated_at": "2026-11-22T20:01:27.000Z",
+    "rating": 4,
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt24818230",
+        "plex": {
+          "guid": "63a4d7ca5fa2605ebc81ad9b",
+          "slug": "madden"
+        },
+        "slug": "madden-2026",
+        "tmdb": 1131943,
+        "trakt": 911125
+      },
+      "year": 2026,
+      "title": "Madden"
+    }
+  },
+  {
     "rated_at": "2026-11-19T16:01:35.000Z",
     "rating": 7,
     "type": "movie",
@@ -18919,7 +18938,7 @@
         "tmdb": 854359,
         "trakt": 682999
       },
-      "year": 2021,
+      "year": 2022,
       "title": "Sundown"
     }
   },
