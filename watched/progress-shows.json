@@ -18,76 +18,10 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 21,
-      "last_watched_at": "2026-11-22T06:27:00.000Z",
+      "completed": 22,
+      "last_watched_at": "2026-11-22T07:00:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt38865044",
-          "plex": {
-            "guid": "69ff8812d968a97cebe8a090"
-          },
-          "tmdb": 7499419,
-          "tvdb": 11774129,
-          "trakt": 14303115
-        },
-        "title": "It's Perfect",
-        "votes": 469,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14303115/medium/screenshot.webp"
-          ]
-        },
-        "number": 1,
-        "rating": 7.724947452545166,
-        "season": 3,
-        "runtime": 26,
-        "overview": "Joanne and Noah celebrate moving in together \u2014 and discover each other's annoying household habits.",
-        "released": "2026-10-22",
-        "number_abs": 21,
-        "updated_at": "2026-11-11T04:11:02.000Z",
-        "first_aired": "2026-10-22T07:00:00.000Z",
-        "episode_type": "season_premiere",
-        "after_credits": false,
-        "comment_count": 6,
-        "during_credits": false,
-        "original_title": "It's Perfect",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sv",
-          "th",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-10-22T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt45574668",
           "plex": {
@@ -153,10 +87,76 @@
         ],
         "effective_release_date": "2026-10-22T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt45574686",
+          "plex": {
+            "guid": "69ff94934319df9b2e570513"
+          },
+          "tmdb": 7499421,
+          "tvdb": 11785091,
+          "trakt": 14303117
+        },
+        "title": "Housewarming",
+        "votes": 411,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14303117/medium/screenshot.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 7.6447672843933105,
+        "season": 3,
+        "runtime": 30,
+        "overview": "Joanne and Noah plan the perfect Jewish housewarming, but Joanne's efforts to impress a callous ex-boyfriend invite awkwardness to the party.",
+        "released": "2026-10-22",
+        "number_abs": 23,
+        "updated_at": "2026-11-11T10:11:44.000Z",
+        "first_aired": "2026-10-22T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 7,
+        "during_credits": false,
+        "original_title": "Housewarming",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-22T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 21,
-        "minutes_watched": 561,
-        "minutes_left": 259
+        "play_count": 22,
+        "minutes_watched": 592,
+        "minutes_left": 228
       },
       "seasons": [
         {
@@ -369,11 +369,11 @@
           "number": 3,
           "title": "Season 3",
           "aired": 10,
-          "completed": 1,
+          "completed": 2,
           "stats": {
-            "play_count": 1,
-            "minutes_watched": 26,
-            "minutes_left": 259
+            "play_count": 2,
+            "minutes_watched": 57,
+            "minutes_left": 228
           },
           "episodes": [
             {
@@ -387,11 +387,11 @@
             },
             {
               "number": 2,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-22T07:00:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 31
               }
             },
             {
@@ -8004,14 +8004,14 @@
           "trakt": 14268005
         },
         "title": "The NS Board",
-        "votes": 196,
+        "votes": 197,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14268005/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 7.887780666351318,
+        "rating": 7.888350486755371,
         "season": 2,
         "runtime": 27,
         "overview": "Ned and Detrick try to put out a story, but it'll require sacrifices; Esmeralda exposes prejudice.",
@@ -11233,14 +11233,14 @@
           "trakt": 14235604
         },
         "title": "Hart Island",
-        "votes": 1090,
+        "votes": 1091,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14235604/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.51375961303711,
+        "rating": 8.515121459960938,
         "season": 1,
         "runtime": 46,
         "overview": "Alice and Catherine converge.",
@@ -19560,14 +19560,14 @@
           "trakt": 13616872
         },
         "title": "Yucca Valley",
-        "votes": 1054,
+        "votes": 1055,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13616872/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.921285152435303,
+        "rating": 7.923255443572998,
         "season": 1,
         "runtime": 35,
         "overview": "Don't let your babies grow up to be cowboys.",
@@ -22972,14 +22972,14 @@
           "trakt": 14239242
         },
         "title": "Circle of Life",
-        "votes": 1488,
+        "votes": 1489,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14239242/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.202266693115234,
+        "rating": 8.201458930969238,
         "season": 6,
         "runtime": 48,
         "overview": "River braces for his grandfather's funeral. Lamb looks into the death of an ex\u2013Slow Horse.",
@@ -35849,12 +35849,12 @@
           "trakt": 13145333
         },
         "title": "Hivemind",
-        "votes": 134,
+        "votes": 136,
         "images": {
           "screenshot": []
         },
         "number": 1,
-        "rating": 8.380600929260254,
+        "rating": 8.382357597351074,
         "season": 4,
         "runtime": 55,
         "overview": null,
@@ -44188,14 +44188,14 @@
           "trakt": 11870722
         },
         "title": "Maiden Mother Crone",
-        "votes": 1926,
+        "votes": 1927,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/11870722/medium/screenshot.webp"
           ]
         },
         "number": 9,
-        "rating": 7.611621379852295,
+        "rating": 7.612860679626465,
         "season": 1,
         "runtime": 42,
         "overview": "The truth of Agatha Harkness and The Witches' Road.",
@@ -45406,14 +45406,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1365,
+        "votes": 1367,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.872532844543457,
+        "rating": 7.871256351470947,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
@@ -101784,14 +101784,14 @@
           "trakt": 10719449
         },
         "title": "Chapter 7",
-        "votes": 681,
+        "votes": 682,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/10719449/medium/screenshot.webp"
           ]
         },
         "number": 7,
-        "rating": 7.804681777954102,
+        "rating": 7.799103260040283,
         "season": 2,
         "runtime": 52,
         "overview": "A family reunion years in the making comes to pass. With Mariama's help, Assane makes a final play to stop Keller, right his wrongs and go out in style.",
@@ -104680,14 +104680,14 @@
           "trakt": 9548552
         },
         "title": "Glorious Purpose",
-        "votes": 3768,
+        "votes": 3769,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/9548552/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 8.524137496948242,
+        "rating": 8.524529457092285,
         "season": 2,
         "runtime": 59,
         "overview": "Loki learns the true nature of 'glorious purpose' as he rectifies the past.",
@@ -126159,14 +126159,14 @@
           "trakt": 13287369
         },
         "title": "Last Chance for a Slow Dance",
-        "votes": 736,
+        "votes": 738,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13287369/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.752703666687012,
+        "rating": 7.753374099731445,
         "season": 2,
         "runtime": 29,
         "overview": "A former edgerunner slipping into cyberpsychosis and a lonely survivor with a fractured past start their stories at opposite ends of Night City.",
@@ -131581,14 +131581,14 @@
           "trakt": 5974915
         },
         "title": "No Normal",
-        "votes": 1900,
+        "votes": 1901,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/5974915/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 7.295790672302246,
+        "rating": 7.297213077545166,
         "season": 1,
         "runtime": 50,
         "overview": "Back in Jersey, Kamala finds Kamran and protects him from Damage Control who will stop at nothing to take him in.",
@@ -136926,14 +136926,14 @@
           "trakt": 5931582
         },
         "title": "A Hard Way to Go",
-        "votes": 1701,
+        "votes": 1702,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/5931582/medium/screenshot.webp"
           ]
         },
         "number": 14,
-        "rating": 7.871212005615234,
+        "rating": 7.872462749481201,
         "season": 4,
         "runtime": 72,
         "overview": "Every desperate deal. Every broken promise. Every bloody murder. Eager to leave their murky past behind, the Byrdes make a final bid for freedom.",
@@ -144100,14 +144100,14 @@
           "trakt": 5571459
         },
         "title": "The Monster You Created",
-        "votes": 2508,
+        "votes": 2509,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/5571459/medium/screenshot.webp"
           ]
         },
         "number": 9,
-        "rating": 8.865219116210938,
+        "rating": 8.865671157836914,
         "season": 1,
         "runtime": 42,
         "overview": "Perilously close to war, the leaders of Piltover and Zaun reach an ultimatum. But a fateful standoff changes both cities forever.",
@@ -199979,14 +199979,14 @@
           "trakt": 3465698
         },
         "title": "The Iron Throne",
-        "votes": 8674,
+        "votes": 8675,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/3465698/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 6.5142974853515625,
+        "rating": 6.514699459075928,
         "season": 8,
         "runtime": 80,
         "overview": "In the aftermath of the devastating attack on King's Landing, Daenerys must face the survivors.",
