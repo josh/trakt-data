@@ -18,76 +18,10 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 24,
-      "last_watched_at": "2026-11-23T00:16:00.000Z",
+      "completed": 25,
+      "last_watched_at": "2026-11-23T00:42:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt45574695",
-          "plex": {
-            "guid": "69ff94934319df9b2e570522"
-          },
-          "tmdb": 7499422,
-          "tvdb": 11785092,
-          "trakt": 14303118
-        },
-        "title": "Brian's Wedding",
-        "votes": 462,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14303118/medium/screenshot.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 8.556278228759766,
-        "season": 3,
-        "runtime": 29,
-        "overview": "En route to wine country, Joanne and Noah meet a messy podcast superfan who reminds Joanne of her younger self \u2014 and threatens to derail their weekend.",
-        "released": "2026-10-22",
-        "number_abs": 24,
-        "updated_at": "2026-11-10T07:21:53.000Z",
-        "first_aired": "2026-10-22T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 33,
-        "during_credits": false,
-        "original_title": "Brian's Wedding",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sv",
-          "th",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-10-22T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt45574699",
           "plex": {
@@ -98,14 +32,14 @@
           "trakt": 14303119
         },
         "title": "The Love Card",
-        "votes": 376,
+        "votes": 377,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14303119/medium/screenshot.webp"
           ]
         },
         "number": 5,
-        "rating": 7.861700534820557,
+        "rating": 7.859415054321289,
         "season": 3,
         "runtime": 28,
         "overview": "A newly friendly Bina extends a dinner invite to Joanne, but there's an ulterior motive at play. Sasha and Esther jump into the dating pool.",
@@ -153,10 +87,76 @@
         ],
         "effective_release_date": "2026-10-22T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt45574716",
+          "plex": {
+            "guid": "6a1b45df6b9dbe1514d2058d"
+          },
+          "tmdb": 7499424,
+          "tvdb": 11807761,
+          "trakt": 14303120
+        },
+        "title": "Heatwave",
+        "votes": 355,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14303120/medium/screenshot.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 7.9042229652404785,
+        "season": 3,
+        "runtime": 29,
+        "overview": "With temperatures soaring, Joanne and Noah's house becomes an unexpected hot spot \u2014 and saying \"no\" to friends and relatives is making them sweat.",
+        "released": "2026-10-22",
+        "number_abs": 26,
+        "updated_at": "2026-11-11T07:06:31.000Z",
+        "first_aired": "2026-10-22T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 5,
+        "during_credits": false,
+        "original_title": "Heatwave",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-22T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 24,
-        "minutes_watched": 651,
-        "minutes_left": 169
+        "play_count": 25,
+        "minutes_watched": 679,
+        "minutes_left": 141
       },
       "seasons": [
         {
@@ -369,11 +369,11 @@
           "number": 3,
           "title": "Season 3",
           "aired": 10,
-          "completed": 4,
+          "completed": 5,
           "stats": {
-            "play_count": 4,
-            "minutes_watched": 116,
-            "minutes_left": 169
+            "play_count": 5,
+            "minutes_watched": 144,
+            "minutes_left": 141
           },
           "episodes": [
             {
@@ -414,11 +414,11 @@
             },
             {
               "number": 5,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-23T00:42:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 28
               }
             },
             {
@@ -11444,14 +11444,14 @@
           "trakt": 14132655
         },
         "title": "Dirt and Stars",
-        "votes": 3395,
+        "votes": 3396,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14132655/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.057440757751465,
+        "rating": 8.056540489196777,
         "season": 1,
         "runtime": 57,
         "overview": "As John and Hal draw closer to the truth, John comes to an unexpected understanding with Sheriff Kane... just as a chilling new discovery emerges.",
@@ -18528,14 +18528,14 @@
           "trakt": 13642191
         },
         "title": "Terminal",
-        "votes": 817,
+        "votes": 818,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13642191/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.113869667053223,
+        "rating": 7.1076178550720215,
         "season": 2,
         "runtime": 50,
         "overview": "With the handover imminent, Sam is prepared to put his life on the line to save Marsha\u2014and expose the truth.",
@@ -19754,14 +19754,14 @@
           "trakt": 13426614
         },
         "title": "The Strip",
-        "votes": 2901,
+        "votes": 2902,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13426614/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.914815425872803,
+        "rating": 7.915189266204834,
         "season": 2,
         "runtime": 57,
         "overview": "Winning might be overrated...",
@@ -27514,7 +27514,7 @@
       "aired_episodes": 14
     },
     "progress": {
-      "aired": 13,
+      "aired": 14,
       "completed": 10,
       "last_watched_at": "2025-09-07T06:35:00.000Z",
       "reset_at": null,
@@ -27585,14 +27585,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 1167,
+        "votes": 1168,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.27934455871582,
+        "rating": 8.279105186462402,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -27629,7 +27629,7 @@
       "stats": {
         "play_count": 10,
         "minutes_watched": 521,
-        "minutes_left": 163
+        "minutes_left": 223
       },
       "seasons": [
         {
@@ -27743,7 +27743,7 @@
           "stats": {
             "play_count": 0,
             "minutes_watched": 0,
-            "minutes_left": 163
+            "minutes_left": 223
           },
           "episodes": [
             {
@@ -27766,6 +27766,15 @@
             },
             {
               "number": 3,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 4,
               "completed": false,
               "last_watched_at": null,
               "stats": {
@@ -28381,14 +28390,14 @@
           "trakt": 12993653
         },
         "title": "Hot Rick",
-        "votes": 1430,
+        "votes": 1431,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12993653/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.183892250061035,
+        "rating": 8.183064460754395,
         "season": 8,
         "runtime": 24,
         "overview": "Brohhhhh. Broh. Sometimes we try weird stuff to let go of the past, broh.",
@@ -35624,14 +35633,14 @@
           "trakt": 13705270
         },
         "title": "The Northern Star",
-        "votes": 1602,
+        "votes": 1603,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13705270/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.798360824584961,
+        "rating": 7.797863006591797,
         "season": 2,
         "runtime": 53,
         "overview": "Daredevil is in hiding, but he isn't laying low. A shadowy player from Washington, D.C. emerges.",
@@ -35903,12 +35912,12 @@
           "trakt": 13145333
         },
         "title": "Hivemind",
-        "votes": 194,
+        "votes": 202,
         "images": {
           "screenshot": []
         },
         "number": 1,
-        "rating": 8.278351783752441,
+        "rating": 8.207921981811523,
         "season": 4,
         "runtime": 60,
         "overview": "Everyone comes home. Not everyone comes back. That's what the therapists are gonna tell you, anyway. Tonight, the team faces an inquisition sooner than they ever imagined.",
@@ -35918,7 +35927,7 @@
         "first_aired": "2026-11-23T02:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
-        "comment_count": 12,
+        "comment_count": 13,
         "during_credits": false,
         "original_title": "Hivemind",
         "available_translations": [
@@ -39591,14 +39600,14 @@
           "trakt": 14414912
         },
         "title": "Black Door",
-        "votes": 558,
+        "votes": 559,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14414912/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.03763484954834,
+        "rating": 8.035778999328613,
         "season": 2,
         "runtime": 50,
         "overview": "As her husband steps up as prime minister, Helen helps Reed steal files codenamed Wildflower and a shadowy organization coerces Sam into a contract.",
@@ -45472,14 +45481,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1416,
+        "votes": 1420,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.856643199920654,
+        "rating": 7.856342792510986,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
@@ -49262,14 +49271,14 @@
           "trakt": 14100885
         },
         "title": "A Quiet Life",
-        "votes": 1305,
+        "votes": 1306,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14100885/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.736403942108154,
+        "rating": 7.73583984375,
         "season": 2,
         "runtime": 54,
         "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
@@ -117605,14 +117614,14 @@
           "trakt": 7305937
         },
         "title": "Chapter 24: The Return",
-        "votes": 4022,
+        "votes": 4023,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/7305937/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.1643705368042,
+        "rating": 8.164329528808594,
         "season": 3,
         "runtime": 42,
         "overview": "The Mandalorian and his allies confront their enemies.",
@@ -121360,14 +121369,14 @@
           "trakt": 12018424
         },
         "title": "Back in the Saddle",
-        "votes": 2338,
+        "votes": 2339,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12018424/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.632608413696289,
+        "rating": 7.633620738983154,
         "season": 2,
         "runtime": 43,
         "overview": "As Dwight and his crew prepare for the opening of their casino and new weed shop, the law comes knocking.",
@@ -126200,14 +126209,14 @@
           "trakt": 6618727
         },
         "title": "My Moon My Man",
-        "votes": 1252,
+        "votes": 1253,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/6618727/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.611763954162598,
+        "rating": 8.609679222106934,
         "season": 1,
         "runtime": 29,
         "overview": "On the edge of cyberpsychosis but determined to save Lucy, David storms into Night City as Arasaka plots to deploy their ultimate lethal weapon.",
@@ -181706,14 +181715,14 @@
           "trakt": 5364408
         },
         "title": "Possibilities Patrol",
-        "votes": 808,
+        "votes": 809,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/5364408/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.519790172576904,
+        "rating": 7.519147872924805,
         "season": 3,
         "runtime": 58,
         "overview": "Dorothy and the Candlemaker finally face-off, while the Doom Patrol \u2013 now freed from their wax encasings \u2013 face troubling side effects. Rita holds the key, but is she ready to answer the call?",
@@ -252431,14 +252440,14 @@
           "trakt": 77189
         },
         "title": "Into Fat Air",
-        "votes": 653,
+        "votes": 654,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/77189/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.595676422119141,
+        "rating": 7.594765663146973,
         "season": 11,
         "runtime": 22,
         "overview": "The Griffins attempt to conquer Mount Everest after competitive friends mention they plan to scale the legendary peak. Things, however, are not looking up for the Griffins, as a wicked storm leaves them pinned down on the side of the mountain.",

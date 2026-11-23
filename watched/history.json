@@ -1,5 +1,41 @@
 [
   {
+    "id": 14656959333,
+    "watched_at": "2026-11-23T00:42:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt45574699",
+        "plex": {
+          "guid": "6a1b45df6b9dbe1514d2058c"
+        },
+        "tmdb": 7499423,
+        "tvdb": 11807760,
+        "trakt": 14303119
+      },
+      "title": "The Love Card",
+      "number": 5,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26933824",
+        "plex": {
+          "guid": "660d495735513de615d99203",
+          "slug": "nobody-wants-this"
+        },
+        "slug": "nobody-wants-this",
+        "tmdb": 250923,
+        "tvdb": 450093,
+        "trakt": 233797
+      },
+      "year": 2024,
+      "title": "Nobody Wants This",
+      "aired_episodes": 30
+    }
+  },
+  {
     "id": 14656891561,
     "watched_at": "2026-11-23T00:16:00.000Z",
     "action": "checkin",
