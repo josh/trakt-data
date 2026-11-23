@@ -1,5 +1,77 @@
 [
   {
+    "id": 14656891561,
+    "watched_at": "2026-11-23T00:16:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt45574695",
+        "plex": {
+          "guid": "69ff94934319df9b2e570522"
+        },
+        "tmdb": 7499422,
+        "tvdb": 11785092,
+        "trakt": 14303118
+      },
+      "title": "Brian's Wedding",
+      "number": 4,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26933824",
+        "plex": {
+          "guid": "660d495735513de615d99203",
+          "slug": "nobody-wants-this"
+        },
+        "slug": "nobody-wants-this",
+        "tmdb": 250923,
+        "tvdb": 450093,
+        "trakt": 233797
+      },
+      "year": 2024,
+      "title": "Nobody Wants This",
+      "aired_episodes": 30
+    }
+  },
+  {
+    "id": 14656868618,
+    "watched_at": "2026-11-22T23:32:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt45574686",
+        "plex": {
+          "guid": "69ff94934319df9b2e570513"
+        },
+        "tmdb": 7499421,
+        "tvdb": 11785091,
+        "trakt": 14303117
+      },
+      "title": "Housewarming",
+      "number": 3,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26933824",
+        "plex": {
+          "guid": "660d495735513de615d99203",
+          "slug": "nobody-wants-this"
+        },
+        "slug": "nobody-wants-this",
+        "tmdb": 250923,
+        "tvdb": 450093,
+        "trakt": 233797
+      },
+      "year": 2024,
+      "title": "Nobody Wants This",
+      "aired_episodes": 30
+    }
+  },
+  {
     "id": 1000001574302,
     "watched_at": "2026-11-22T23:01:00.000Z",
     "action": "scrobble",
