@@ -1,5 +1,41 @@
 [
   {
+    "id": 14657073372,
+    "watched_at": "2026-11-23T01:05:00.000Z",
+    "action": "watch",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt45574716",
+        "plex": {
+          "guid": "6a1b45df6b9dbe1514d2058d"
+        },
+        "tmdb": 7499424,
+        "tvdb": 11807761,
+        "trakt": 14303120
+      },
+      "title": "Heatwave",
+      "number": 6,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt26933824",
+        "plex": {
+          "guid": "660d495735513de615d99203",
+          "slug": "nobody-wants-this"
+        },
+        "slug": "nobody-wants-this",
+        "tmdb": 250923,
+        "tvdb": 450093,
+        "trakt": 233797
+      },
+      "year": 2024,
+      "title": "Nobody Wants This",
+      "aired_episodes": 30
+    }
+  },
+  {
     "id": 14656959333,
     "watched_at": "2026-11-23T00:42:00.000Z",
     "action": "checkin",

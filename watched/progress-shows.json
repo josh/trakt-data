@@ -18,76 +18,10 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 25,
-      "last_watched_at": "2026-11-23T00:42:00.000Z",
+      "completed": 26,
+      "last_watched_at": "2026-11-23T01:05:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt45574699",
-          "plex": {
-            "guid": "6a1b45df6b9dbe1514d2058c"
-          },
-          "tmdb": 7499423,
-          "tvdb": 11807760,
-          "trakt": 14303119
-        },
-        "title": "The Love Card",
-        "votes": 377,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14303119/medium/screenshot.webp"
-          ]
-        },
-        "number": 5,
-        "rating": 7.859415054321289,
-        "season": 3,
-        "runtime": 28,
-        "overview": "A newly friendly Bina extends a dinner invite to Joanne, but there's an ulterior motive at play. Sasha and Esther jump into the dating pool.",
-        "released": "2026-10-22",
-        "number_abs": 25,
-        "updated_at": "2026-11-11T07:06:31.000Z",
-        "first_aired": "2026-10-22T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 9,
-        "during_credits": false,
-        "original_title": "The Love Card",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sv",
-          "th",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-10-22T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt45574716",
           "plex": {
@@ -153,10 +87,76 @@
         ],
         "effective_release_date": "2026-10-22T07:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt45574717",
+          "plex": {
+            "guid": "6a1b45df6b9dbe1514d2058e"
+          },
+          "tmdb": 7499425,
+          "tvdb": 11807762,
+          "trakt": 14303121
+        },
+        "title": "Watch What Happens",
+        "votes": 391,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14303121/medium/screenshot.webp"
+          ]
+        },
+        "number": 7,
+        "rating": 8.641942024230957,
+        "season": 3,
+        "runtime": 27,
+        "overview": "A talk show brings Morgan and Sasha to New York, where a magical night out threatens to complicate their friendship. Noah and Joanne unplug for Shabbat.",
+        "released": "2026-10-22",
+        "number_abs": 27,
+        "updated_at": "2026-11-09T04:43:42.000Z",
+        "first_aired": "2026-10-22T07:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 17,
+        "during_credits": false,
+        "original_title": "Watch What Happens",
+        "available_translations": [
+          "ar",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fi",
+          "fr",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "no",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sv",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "vi",
+          "zh"
+        ],
+        "effective_release_date": "2026-10-22T07:00:00.000Z"
+      },
       "stats": {
-        "play_count": 25,
-        "minutes_watched": 679,
-        "minutes_left": 141
+        "play_count": 26,
+        "minutes_watched": 708,
+        "minutes_left": 112
       },
       "seasons": [
         {
@@ -369,11 +369,11 @@
           "number": 3,
           "title": "Season 3",
           "aired": 10,
-          "completed": 5,
+          "completed": 6,
           "stats": {
-            "play_count": 5,
-            "minutes_watched": 144,
-            "minutes_left": 141
+            "play_count": 6,
+            "minutes_watched": 173,
+            "minutes_left": 112
           },
           "episodes": [
             {
@@ -423,11 +423,11 @@
             },
             {
               "number": 6,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-23T01:05:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 29
               }
             },
             {
@@ -8677,14 +8677,14 @@
           "trakt": 14364990
         },
         "title": "The Guys Have a Sleepover",
-        "votes": 290,
+        "votes": 291,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14364990/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.168966293334961,
+        "rating": 8.161513328552246,
         "season": 18,
         "runtime": 22,
         "overview": "Blinded from LASIK surgery, Dee pleads for the guys to spend the night to keep her safe from neighborhood crime, but they listen to the wolves inside themselves and opt for a dudes-only sleepover of their own.",
@@ -15120,14 +15120,14 @@
           "trakt": 14073225
         },
         "title": "Hacks",
-        "votes": 536,
+        "votes": 537,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14073225/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 9.059728622436523,
+        "rating": 9.061479568481445,
         "season": 5,
         "runtime": 47,
         "overview": "As Ava embarks on her next project, Deborah, Marcus, and Marty officially open The Diva, and Jimmy's new role proves fortuitous. Then, on the heels of accomplishing everything she's ever wanted, Deborah reveals her final chapter.",
@@ -27224,14 +27224,14 @@
           "trakt": 13119040
         },
         "title": "The Real Monsters",
-        "votes": 2677,
+        "votes": 2678,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13119040/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 7.300708770751953,
+        "rating": 7.3017168045043945,
         "season": 1,
         "runtime": 48,
         "overview": "A new power dynamic emerges.",
@@ -27585,14 +27585,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 1168,
+        "votes": 1169,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.279105186462402,
+        "rating": 8.278011322021484,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -31392,14 +31392,14 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 1682,
+        "votes": 1683,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14297667/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.302608489990234,
+        "rating": 8.302428245544434,
         "season": 2,
         "runtime": 50,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
@@ -35863,7 +35863,7 @@
       "aired_episodes": 30
     },
     "progress": {
-      "aired": 29,
+      "aired": 30,
       "completed": 29,
       "last_watched_at": "2025-04-14T19:13:00.000Z",
       "reset_at": null,
@@ -35938,7 +35938,7 @@
       "stats": {
         "play_count": 29,
         "minutes_watched": 1659,
-        "minutes_left": 0
+        "minutes_left": 60
       },
       "seasons": [
         {
@@ -36249,9 +36249,19 @@
           "stats": {
             "play_count": 0,
             "minutes_watched": 0,
-            "minutes_left": 0
+            "minutes_left": 60
           },
-          "episodes": []
+          "episodes": [
+            {
+              "number": 1,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
         }
       ],
       "hidden_seasons": []
@@ -40234,14 +40244,14 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3984,
+        "votes": 3985,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12146122/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.236236572265625,
+        "rating": 8.236679077148438,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
@@ -42571,14 +42581,14 @@
           "trakt": 12288015
         },
         "title": "Life Is a Promise",
-        "votes": 2008,
+        "votes": 2009,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12288015/medium/screenshot.webp"
           ]
         },
         "number": 14,
-        "rating": 8.080676078796387,
+        "rating": 8.080138206481934,
         "season": 5,
         "runtime": 88,
         "overview": "As the Duttons and the Yellowstone cowboys lay John to rest, the fate of the ranch is revealed.",
@@ -45481,14 +45491,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1420,
+        "votes": 1421,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.856342792510986,
+        "rating": 7.855740070343018,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
@@ -100098,14 +100108,14 @@
           "trakt": 10919382
         },
         "title": "Night Country: Part 6",
-        "votes": 2341,
+        "votes": 2342,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/10919382/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 7.02431583404541,
+        "rating": 7.02473258972168,
         "season": 4,
         "runtime": 76,
         "overview": "In the midst of a brutal storm, Danvers and Navarro find themselves stuck at Tsalal with no electricity or means of contact. As the truth about what happened to Annie and the Tsalal men unfolds, Navarro and Danvers each confront the demons from their past.",
@@ -101969,14 +101979,14 @@
           "trakt": 14235544
         },
         "title": "Chapter 1",
-        "votes": 845,
+        "votes": 846,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14235544/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.9183220863342285,
+        "rating": 7.920782566070557,
         "season": 3,
         "runtime": 40,
         "overview": "After four years in prison, Assane is days away from early release and a new life with Raoul \u2013 until a mysterious cyberattack threatens it all.",
@@ -121310,14 +121320,14 @@
           "trakt": 6973553
         },
         "title": "Happy Trails",
-        "votes": 2688,
+        "votes": 2689,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/6973553/medium/screenshot.webp"
           ]
         },
         "number": 9,
-        "rating": 8.008943557739258,
+        "rating": 8.009683609008789,
         "season": 1,
         "runtime": 43,
         "overview": "It's all hands on deck as tensions between Dwight's crew and Waltrip escalate past the point of no return. Elsewhere, a flashback reveals what sent Dwight to prison 25 years ago.",
@@ -126277,14 +126287,14 @@
           "trakt": 13287369
         },
         "title": "Last Chance for a Slow Dance",
-        "votes": 742,
+        "votes": 743,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13287369/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.758747100830078,
+        "rating": 7.757725715637207,
         "season": 2,
         "runtime": 29,
         "overview": "A former edgerunner slipping into cyberpsychosis and a lonely survivor with a fractured past start their stories at opposite ends of Night City.",
@@ -180940,14 +180950,14 @@
           "trakt": 4018349
         },
         "title": "The Paradise",
-        "votes": 2114,
+        "votes": 2115,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/4018349/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.650879859924316,
+        "rating": 8.651044845581055,
         "season": 3,
         "runtime": 74,
         "overview": "Claudia reveals to Adam how everything is connected \u2014 and how he can destroy the knot.",
@@ -180957,7 +180967,7 @@
         "first_aired": "2020-06-27T07:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
-        "comment_count": 42,
+        "comment_count": 43,
         "during_credits": false,
         "original_title": "Das Paradies",
         "available_translations": [
@@ -189873,14 +189883,14 @@
           "trakt": 3931330
         },
         "title": "Episode 6",
-        "votes": 281,
+        "votes": 282,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/3931330/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 7.5480499267578125,
+        "rating": 7.549652576446533,
         "season": 1,
         "runtime": 56,
         "overview": "As the trial nears, any of the defendants take plea deals, but George Chandler and others decide to fight to prove their innocence. When Jerome \u201cJerry\u201d Jacobson takes the stand, the remaining details of how he pulled off his scheme are disclosed.",
@@ -247316,14 +247326,14 @@
           "trakt": 73543
         },
         "title": "Felina",
-        "votes": 4966,
+        "votes": 4967,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/73543/medium/screenshot.webp"
           ]
         },
         "number": 16,
-        "rating": 9.329679489135742,
+        "rating": 9.329814910888672,
         "season": 5,
         "runtime": 56,
         "overview": "All bad things must come to an end.",

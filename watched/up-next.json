@@ -18,46 +18,46 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 25,
+      "completed": 26,
       "hidden": 0,
-      "last_watched_at": "2026-11-23T00:42:00.000Z",
+      "last_watched_at": "2026-11-23T01:05:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 25,
+        "play_count": 26,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
         "ids": {
-          "imdb": "tt45574716",
+          "imdb": "tt45574717",
           "plex": {
-            "guid": "6a1b45df6b9dbe1514d2058d"
+            "guid": "6a1b45df6b9dbe1514d2058e"
           },
-          "tmdb": 7499424,
-          "tvdb": 11807761,
-          "trakt": 14303120
+          "tmdb": 7499425,
+          "tvdb": 11807762,
+          "trakt": 14303121
         },
-        "title": "Heatwave",
-        "votes": 355,
+        "title": "Watch What Happens",
+        "votes": 391,
         "images": {
           "screenshot": [
-            "media.trakt.tv/episodes/14303120/medium/screenshot.webp"
+            "media.trakt.tv/episodes/14303121/medium/screenshot.webp"
           ]
         },
-        "number": 6,
-        "rating": 7.9042229652404785,
+        "number": 7,
+        "rating": 8.641942024230957,
         "season": 3,
-        "runtime": 29,
-        "overview": "With temperatures soaring, Joanne and Noah's house becomes an unexpected hot spot \u2014 and saying \"no\" to friends and relatives is making them sweat.",
+        "runtime": 27,
+        "overview": "A talk show brings Morgan and Sasha to New York, where a magical night out threatens to complicate their friendship. Noah and Joanne unplug for Shabbat.",
         "released": "2026-10-22",
-        "number_abs": 26,
-        "updated_at": "2026-11-11T07:06:31.000Z",
+        "number_abs": 27,
+        "updated_at": "2026-11-09T04:43:42.000Z",
         "first_aired": "2026-10-22T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 5,
+        "comment_count": 17,
         "during_credits": false,
-        "original_title": "Heatwave",
+        "original_title": "Watch What Happens",
         "available_translations": [
           "ar",
           "cs",
@@ -95,35 +95,35 @@
       },
       "last_episode": {
         "ids": {
-          "imdb": "tt45574699",
+          "imdb": "tt45574716",
           "plex": {
-            "guid": "6a1b45df6b9dbe1514d2058c"
+            "guid": "6a1b45df6b9dbe1514d2058d"
           },
-          "tmdb": 7499423,
-          "tvdb": 11807760,
-          "trakt": 14303119
+          "tmdb": 7499424,
+          "tvdb": 11807761,
+          "trakt": 14303120
         },
-        "title": "The Love Card",
-        "votes": 377,
+        "title": "Heatwave",
+        "votes": 355,
         "images": {
           "screenshot": [
-            "media.trakt.tv/episodes/14303119/medium/screenshot.webp"
+            "media.trakt.tv/episodes/14303120/medium/screenshot.webp"
           ]
         },
-        "number": 5,
-        "rating": 7.859415054321289,
+        "number": 6,
+        "rating": 7.9042229652404785,
         "season": 3,
-        "runtime": 28,
-        "overview": "A newly friendly Bina extends a dinner invite to Joanne, but there's an ulterior motive at play. Sasha and Esther jump into the dating pool.",
+        "runtime": 29,
+        "overview": "With temperatures soaring, Joanne and Noah's house becomes an unexpected hot spot \u2014 and saying \"no\" to friends and relatives is making them sweat.",
         "released": "2026-10-22",
-        "number_abs": 25,
+        "number_abs": 26,
         "updated_at": "2026-11-11T07:06:31.000Z",
         "first_aired": "2026-10-22T07:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 9,
+        "comment_count": 5,
         "during_credits": false,
-        "original_title": "The Love Card",
+        "original_title": "Heatwave",
         "available_translations": [
           "ar",
           "cs",
@@ -870,14 +870,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 1168,
+        "votes": 1169,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.279105186462402,
+        "rating": 8.278011322021484,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -1125,14 +1125,14 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 1682,
+        "votes": 1683,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14297667/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.302608489990234,
+        "rating": 8.302428245544434,
         "season": 2,
         "runtime": 50,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
@@ -1334,6 +1334,104 @@
         "original_title": "Straight to Hell",
         "available_translations": [],
         "effective_release_date": "2025-04-16T01:00:00.000Z"
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt11041332",
+        "plex": {
+          "guid": "5f59a265388a680042616b11",
+          "slug": "yellowjackets"
+        },
+        "slug": "yellowjackets",
+        "tmdb": 117488,
+        "tvdb": 399731,
+        "trakt": 176276
+      },
+      "year": 2021,
+      "title": "Yellowjackets",
+      "aired_episodes": 30
+    },
+    "progress": {
+      "aired": 30,
+      "completed": 29,
+      "hidden": 0,
+      "last_watched_at": "2025-04-14T19:13:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 29,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt36988316",
+          "plex": {
+            "guid": "6a883ecfa0969f81ccc4c382"
+          },
+          "tmdb": 7705252,
+          "tvdb": 11785093,
+          "trakt": 13145333
+        },
+        "title": "Hivemind",
+        "votes": 202,
+        "images": {
+          "screenshot": []
+        },
+        "number": 1,
+        "rating": 8.207921981811523,
+        "season": 4,
+        "runtime": 60,
+        "overview": "Everyone comes home. Not everyone comes back. That's what the therapists are gonna tell you, anyway. Tonight, the team faces an inquisition sooner than they ever imagined.",
+        "released": "2026-11-20",
+        "number_abs": 30,
+        "updated_at": "2026-11-22T08:14:46.000Z",
+        "first_aired": "2026-11-23T02:00:00.000Z",
+        "episode_type": "season_premiere",
+        "after_credits": false,
+        "comment_count": 13,
+        "during_credits": false,
+        "original_title": "Hivemind",
+        "available_translations": [
+          "en"
+        ],
+        "effective_release_date": "2026-11-20T14:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt34492099",
+          "plex": {
+            "guid": "673dd262fe7ed3ea70f0f1bf"
+          },
+          "tmdb": 5773765,
+          "tvdb": 10814644,
+          "trakt": 12511864
+        },
+        "title": "Full Circle",
+        "votes": 688,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/12511864/medium/screenshot.webp"
+          ]
+        },
+        "number": 10,
+        "rating": 7.5756330490112305,
+        "season": 3,
+        "runtime": 60,
+        "overview": "Things turn frigid as bloody new alliances get built and spilled. It's our time, right now, down here in the new Queen's court. Eat up, drink deep, and descend.",
+        "released": "2025-04-11",
+        "number_abs": 29,
+        "updated_at": "2026-11-07T15:24:32.000Z",
+        "first_aired": "2025-04-14T01:00:00.000Z",
+        "episode_type": "season_finale",
+        "after_credits": false,
+        "comment_count": 27,
+        "during_credits": false,
+        "original_title": "Full Circle",
+        "available_translations": [],
+        "effective_release_date": "2025-04-11T12:00:00.000Z"
       }
     }
   },
@@ -1893,14 +1991,14 @@
           "trakt": 12146122
         },
         "title": "Into the Fire",
-        "votes": 3984,
+        "votes": 3985,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12146122/medium/screenshot.webp"
           ]
         },
         "number": 10,
-        "rating": 8.236236572265625,
+        "rating": 8.236679077148438,
         "season": 2,
         "runtime": 59,
         "overview": "The rebels make their move\u2014and so does Juliette.",
@@ -2151,14 +2249,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1420,
+        "votes": 1421,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.856342792510986,
+        "rating": 7.855740070343018,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
