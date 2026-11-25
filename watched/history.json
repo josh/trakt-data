@@ -1,5 +1,25 @@
 [
   {
+    "id": 1000002029968,
+    "watched_at": "2026-11-25T06:47:00.000Z",
+    "action": "scrobble",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt45368240",
+        "plex": {
+          "guid": "6a9fd4ec7571c8758b8c2589",
+          "slug": "you-can-see-everything-2026"
+        },
+        "slug": "you-can-see-everything-2026",
+        "tmdb": 1765072,
+        "trakt": 1398468
+      },
+      "year": 2026,
+      "title": "You Can See Everything"
+    }
+  },
+  {
     "id": 14657073372,
     "watched_at": "2026-11-23T01:05:00.000Z",
     "action": "watch",
@@ -440796,7 +440816,7 @@
         "trakt": 6771
       },
       "year": 2009,
-      "title": "Bad Lieutenant: Port of Call New Orleans"
+      "title": "The Bad Lieutenant - Port of Call: New Orleans"
     }
   },
   {
