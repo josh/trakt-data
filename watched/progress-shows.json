@@ -2,6 +2,191 @@
   {
     "show": {
       "ids": {
+        "imdb": "tt8014982",
+        "plex": {
+          "guid": "6825bfc135392c101e088036",
+          "slug": null
+        },
+        "slug": "the-body-2026",
+        "tmdb": 291507,
+        "tvdb": 463695,
+        "trakt": 285725
+      },
+      "year": 2026,
+      "title": "The Body",
+      "aired_episodes": 8
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 2,
+      "last_watched_at": "2026-11-27T08:42:00.000Z",
+      "reset_at": null,
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39312908",
+          "plex": {
+            "guid": "6ad4b98a3e1310f17122e2ff"
+          },
+          "tmdb": 7970305,
+          "tvdb": 11774138,
+          "trakt": 14572565
+        },
+        "title": "Jesus, Literally",
+        "votes": 437,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14572565/medium/screenshot.webp"
+          ]
+        },
+        "number": 2,
+        "rating": 8.073224067687988,
+        "season": 1,
+        "runtime": 52,
+        "overview": "Haunted by a guilty conscience, Anya tries to limit the fallout from Halloween night. Lisbeth exploits an opportunity to rise above her social status.",
+        "released": "2026-11-11",
+        "number_abs": 2,
+        "updated_at": "2026-11-27T07:10:06.000Z",
+        "first_aired": "2026-11-11T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 15,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-11-11T05:00:00.000Z"
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39312911",
+          "plex": {
+            "guid": "6ad4b98a3e1310f17122e2f5"
+          },
+          "tmdb": 7970306,
+          "tvdb": 11774139,
+          "trakt": 14572566
+        },
+        "title": "Unholy Thoughts",
+        "votes": 380,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14572566/medium/screenshot.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 8.186843872070312,
+        "season": 1,
+        "runtime": 46,
+        "overview": "Unsettling dreams shake the Lions' team spirit. Suspicion falls on a guilt-stricken Leo after his drawing of Grace makes the rounds at school.",
+        "released": "2026-11-11",
+        "number_abs": 3,
+        "updated_at": "2026-11-27T07:10:06.000Z",
+        "first_aired": "2026-11-11T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 17,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-11-11T05:00:00.000Z"
+      },
+      "stats": {
+        "play_count": 2,
+        "minutes_watched": 110,
+        "minutes_left": 329
+      },
+      "seasons": [
+        {
+          "number": 1,
+          "title": "Season 1",
+          "aired": 8,
+          "completed": 2,
+          "stats": {
+            "play_count": 2,
+            "minutes_watched": 110,
+            "minutes_left": 329
+          },
+          "episodes": [
+            {
+              "number": 1,
+              "completed": true,
+              "last_watched_at": "2026-11-27T07:50:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 58
+              }
+            },
+            {
+              "number": 2,
+              "completed": true,
+              "last_watched_at": "2026-11-27T08:42:00.000Z",
+              "stats": {
+                "play_count": 1,
+                "minutes_watched": 52
+              }
+            },
+            {
+              "number": 3,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 4,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 5,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 6,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 7,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 8,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hidden_seasons": []
+    }
+  },
+  {
+    "show": {
+      "ids": {
         "imdb": "tt26933824",
         "plex": {
           "guid": "660d495735513de615d99203",
@@ -18,76 +203,10 @@
     },
     "progress": {
       "aired": 30,
-      "completed": 29,
-      "last_watched_at": "2026-11-27T07:26:00.000Z",
+      "completed": 30,
+      "last_watched_at": "2026-11-27T07:53:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt45591071",
-          "plex": {
-            "guid": "6a2f2f62bab34b39684f499e"
-          },
-          "tmdb": 7499427,
-          "tvdb": 11833146,
-          "trakt": 14303123
-        },
-        "title": "Last Christmas",
-        "votes": 362,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14303123/medium/screenshot.webp"
-          ]
-        },
-        "number": 9,
-        "rating": 8.060768127441406,
-        "season": 3,
-        "runtime": 27,
-        "overview": "As Joanne is visited by ghosts of Christmas past, Noah vows to make her final pre-conversion holiday the jolliest yet.",
-        "released": "2026-10-22",
-        "number_abs": 29,
-        "updated_at": "2026-11-11T06:21:34.000Z",
-        "first_aired": "2026-10-22T07:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 8,
-        "during_credits": false,
-        "original_title": "Last Christmas",
-        "available_translations": [
-          "ar",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "fi",
-          "fr",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "ms",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sv",
-          "th",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "effective_release_date": "2026-10-22T07:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt45574758",
           "plex": {
@@ -153,10 +272,11 @@
         ],
         "effective_release_date": "2026-10-22T07:00:00.000Z"
       },
+      "next_episode": null,
       "stats": {
-        "play_count": 29,
-        "minutes_watched": 793,
-        "minutes_left": 27
+        "play_count": 30,
+        "minutes_watched": 820,
+        "minutes_left": 0
       },
       "seasons": [
         {
@@ -369,11 +489,11 @@
           "number": 3,
           "title": "Season 3",
           "aired": 10,
-          "completed": 9,
+          "completed": 10,
           "stats": {
-            "play_count": 9,
-            "minutes_watched": 258,
-            "minutes_left": 27
+            "play_count": 10,
+            "minutes_watched": 285,
+            "minutes_left": 0
           },
           "episodes": [
             {
@@ -459,11 +579,11 @@
             },
             {
               "number": 10,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-27T07:53:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 27
               }
             }
           ]
@@ -874,12 +994,12 @@
           "trakt": 14549417
         },
         "title": "November 20, 2026: Oz Pearlman, Kaitlan Collins, Bobby Pulido",
-        "votes": 37,
+        "votes": 38,
         "images": {
           "screenshot": []
         },
         "number": 35,
-        "rating": 7.648648262023926,
+        "rating": 7.710525989532471,
         "season": 24,
         "runtime": 60,
         "overview": "Guests: An interview with Oz Pearlman, mentalist, author of the best-selling book Read Your Mind: Proven Habits for Success from the World's Greatest Mentalist, and star of the new upcoming special Oz Pearlman: Magic of the Mind, debuting Tuesday, December 22 on Netflix. This week's panel discussion includes Kaitlan Collins, CNN's chief White House correspondent and anchor of The Source with Kaitlan Collins; and Bobby Pulido, three-time Latin GRAMMY\u00ae Award-winning musician and newly elected Democratic congressman from Texas.",
@@ -27594,14 +27714,14 @@
           "trakt": 13610797
         },
         "title": "Risky Business",
-        "votes": 1216,
+        "votes": 1217,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13610797/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.26891040802002,
+        "rating": 8.270333290100098,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -35921,14 +36041,14 @@
           "trakt": 13145333
         },
         "title": "Hivemind",
-        "votes": 336,
+        "votes": 337,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13145333/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.133925437927246,
+        "rating": 8.1394624710083,
         "season": 4,
         "runtime": 60,
         "overview": "Everyone comes home. Not everyone comes back. That's what the therapists are gonna tell you, anyway. Tonight, the team faces an inquisition sooner than they ever imagined.",
@@ -39587,14 +39707,14 @@
           "trakt": 12213549
         },
         "title": "In the Bleak Midwinter",
-        "votes": 1165,
+        "votes": 1166,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/12213549/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 7.604328632354736,
+        "rating": 7.5986647605896,
         "season": 1,
         "runtime": 54,
         "overview": "Armed with evidence and bent on vengeance, Helen goes searching for the Clarks. As the conspiracy starts to unravel, she has a deadly decision to make.",
@@ -44807,7 +44927,7 @@
         "overview": "Rhiannon's plan to get over AJ and assert herself as a vigilante killer is thwarted in an unexpected way.",
         "released": "2026-11-26",
         "number_abs": 7,
-        "updated_at": "2026-11-26T09:54:48.000Z",
+        "updated_at": "2026-11-27T07:09:57.000Z",
         "first_aired": "2026-11-26T21:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -45453,7 +45573,7 @@
         "overview": "The free peoples of Middle-earth struggle against the forces of darkness.",
         "released": "2024-10-03",
         "number_abs": 16,
-        "updated_at": "2026-11-23T21:00:23.000Z",
+        "updated_at": "2026-11-27T07:09:37.000Z",
         "first_aired": "2024-10-03T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -45525,7 +45645,7 @@
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
         "released": "2026-11-11",
         "number_abs": 17,
-        "updated_at": "2026-11-26T07:15:03.000Z",
+        "updated_at": "2026-11-27T07:09:37.000Z",
         "first_aired": "2026-11-11T08:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -121341,10 +121461,10 @@
       },
       "year": 2022,
       "title": "Tulsa King",
-      "aired_episodes": 35
+      "aired_episodes": 36
     },
     "progress": {
-      "aired": 35,
+      "aired": 36,
       "completed": 9,
       "last_watched_at": "2023-01-08T20:49:00.000Z",
       "reset_at": null,
@@ -121469,7 +121589,7 @@
       "stats": {
         "play_count": 9,
         "minutes_watched": 360,
-        "minutes_left": 1089
+        "minutes_left": 1129
       },
       "seasons": [
         {
@@ -121775,12 +121895,12 @@
         {
           "number": 4,
           "title": "Season 4",
-          "aired": 6,
+          "aired": 7,
           "completed": 0,
           "stats": {
             "play_count": 0,
             "minutes_watched": 0,
-            "minutes_left": 255
+            "minutes_left": 295
           },
           "episodes": [
             {
@@ -121830,6 +121950,15 @@
             },
             {
               "number": 6,
+              "completed": false,
+              "last_watched_at": null,
+              "stats": {
+                "play_count": 0,
+                "minutes_watched": 0
+              }
+            },
+            {
+              "number": 7,
               "completed": false,
               "last_watched_at": null,
               "stats": {
@@ -135220,7 +135349,7 @@
         "overview": "As the Germans surrender, it appears that that the hard days for Easy Company are over as they are stationed in Austria. But they soon learn that those solders without enough service points will be sent to fight in Japan.",
         "released": "2001-11-05",
         "number_abs": 10,
-        "updated_at": "2026-11-22T08:14:07.000Z",
+        "updated_at": "2026-11-27T07:09:40.000Z",
         "first_aired": "2001-11-05T01:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
