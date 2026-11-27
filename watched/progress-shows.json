@@ -18,44 +18,10 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
-      "last_watched_at": "2026-11-27T08:42:00.000Z",
+      "completed": 3,
+      "last_watched_at": "2026-11-27T09:35:00.000Z",
       "reset_at": null,
       "last_episode": {
-        "ids": {
-          "imdb": "tt39312908",
-          "plex": {
-            "guid": "6ad4b98a3e1310f17122e2ff"
-          },
-          "tmdb": 7970305,
-          "tvdb": 11774138,
-          "trakt": 14572565
-        },
-        "title": "Jesus, Literally",
-        "votes": 437,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14572565/medium/screenshot.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 8.073224067687988,
-        "season": 1,
-        "runtime": 52,
-        "overview": "Haunted by a guilty conscience, Anya tries to limit the fallout from Halloween night. Lisbeth exploits an opportunity to rise above her social status.",
-        "released": "2026-11-11",
-        "number_abs": 2,
-        "updated_at": "2026-11-27T07:10:06.000Z",
-        "first_aired": "2026-11-11T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 15,
-        "during_credits": false,
-        "original_title": null,
-        "available_translations": [],
-        "effective_release_date": "2026-11-11T05:00:00.000Z"
-      },
-      "next_episode": {
         "ids": {
           "imdb": "tt39312911",
           "plex": {
@@ -89,21 +55,55 @@
         "available_translations": [],
         "effective_release_date": "2026-11-11T05:00:00.000Z"
       },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39312917",
+          "plex": {
+            "guid": "69ff8811052d3514c2697cdb"
+          },
+          "tmdb": 7970307,
+          "tvdb": 11774140,
+          "trakt": 14572567
+        },
+        "title": "I Saw Grace Franklin with the Devil",
+        "votes": 347,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14572567/medium/screenshot.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.305473327636719,
+        "season": 1,
+        "runtime": 54,
+        "overview": "As visions of Grace spread, Anya tries a hands-on approach to managing her anxiety. Elise leverages Leo's innocence to infiltrate Lisbeth's home life.",
+        "released": "2026-11-11",
+        "number_abs": 4,
+        "updated_at": "2026-11-27T07:10:06.000Z",
+        "first_aired": "2026-11-11T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 11,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-11-11T05:00:00.000Z"
+      },
       "stats": {
-        "play_count": 2,
-        "minutes_watched": 110,
-        "minutes_left": 329
+        "play_count": 3,
+        "minutes_watched": 156,
+        "minutes_left": 283
       },
       "seasons": [
         {
           "number": 1,
           "title": "Season 1",
           "aired": 8,
-          "completed": 2,
+          "completed": 3,
           "stats": {
-            "play_count": 2,
-            "minutes_watched": 110,
-            "minutes_left": 329
+            "play_count": 3,
+            "minutes_watched": 156,
+            "minutes_left": 283
           },
           "episodes": [
             {
@@ -126,11 +126,11 @@
             },
             {
               "number": 3,
-              "completed": false,
-              "last_watched_at": null,
+              "completed": true,
+              "last_watched_at": "2026-11-27T09:35:00.000Z",
               "stats": {
-                "play_count": 0,
-                "minutes_watched": 0
+                "play_count": 1,
+                "minutes_watched": 46
               }
             },
             {
@@ -11741,14 +11741,14 @@
           "trakt": 14349218
         },
         "title": "12th Quarter",
-        "votes": 380,
+        "votes": 381,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14349218/medium/screenshot.webp"
           ]
         },
         "number": 6,
-        "rating": 8.47370719909668,
+        "rating": 8.472463607788086,
         "season": 2,
         "runtime": 38,
         "overview": "Chad and the Catfish must beat Texas to make the Playoff, but Gerry has other plans.",
@@ -13367,14 +13367,14 @@
           "trakt": 13904820
         },
         "title": "The Treasons at Tumbleton",
-        "votes": 5403,
+        "votes": 5404,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13904820/medium/screenshot.webp"
           ]
         },
         "number": 8,
-        "rating": 8.634840965270996,
+        "rating": 8.634908676147461,
         "season": 3,
         "runtime": 71,
         "overview": "Shifting alliances irrevocably reshape the war as Rhaenyra's forces converge around Tumbleton and both sides vie to gain the upper hand.",
@@ -23695,7 +23695,7 @@
         "overview": "Lee's acceptance speech for Citizen Journalist of the Year leaves quite an impression.",
         "released": "2026-10-15",
         "number_abs": 9,
-        "updated_at": "2026-11-22T14:44:21.000Z",
+        "updated_at": "2026-11-27T08:25:16.000Z",
         "first_aired": "2026-10-15T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -35071,7 +35071,7 @@
         "overview": "Nanette Cole and the crew of the USS Callister are stranded in an infinite virtual universe, fighting for survival against 30 million players.",
         "released": "2025-04-10",
         "number_abs": 33,
-        "updated_at": "2026-11-25T07:29:18.000Z",
+        "updated_at": "2026-11-27T08:35:30.000Z",
         "first_aired": "2025-04-10T02:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -36041,14 +36041,14 @@
           "trakt": 13145333
         },
         "title": "Hivemind",
-        "votes": 337,
+        "votes": 338,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13145333/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.1394624710083,
+        "rating": 8.139049530029297,
         "season": 4,
         "runtime": 60,
         "overview": "Everyone comes home. Not everyone comes back. That's what the therapists are gonna tell you, anyway. Tonight, the team faces an inquisition sooner than they ever imagined.",
@@ -38871,7 +38871,7 @@
         "overview": "On Eddie's birthday, the Millers try to celebrate like everything is normal. But a series of upsetting events threatens to send the family over the edge.",
         "released": "2025-03-13",
         "number_abs": 4,
-        "updated_at": "2026-11-10T17:50:39.000Z",
+        "updated_at": "2026-11-27T08:25:30.000Z",
         "first_aired": "2025-03-13T03:00:00.000Z",
         "episode_type": "series_finale",
         "after_credits": false,
@@ -39741,14 +39741,14 @@
           "trakt": 14414912
         },
         "title": "Black Door",
-        "votes": 615,
+        "votes": 616,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14414912/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.021137237548828,
+        "rating": 8.00973892211914,
         "season": 2,
         "runtime": 50,
         "overview": "As her husband steps up as prime minister, Helen helps Reed steal files codenamed Wildflower and a shadowy organization coerces Sam into a contract.",
@@ -44914,14 +44914,14 @@
           "trakt": 14411085
         },
         "title": "Why Did You Have to Ruin Everything?",
-        "votes": 19,
+        "votes": 20,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14411085/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.315789222717285,
+        "rating": 8.199999809265137,
         "season": 2,
         "runtime": 51,
         "overview": "Rhiannon's plan to get over AJ and assert herself as a vigilante killer is thwarted in an unexpected way.",
@@ -213603,6 +213603,18 @@
               }
             }
           ]
+        },
+        {
+          "number": 34,
+          "title": "Season 34",
+          "aired": 0,
+          "completed": 0,
+          "stats": {
+            "play_count": 0,
+            "minutes_watched": 0,
+            "minutes_left": 0
+          },
+          "episodes": []
         }
       ],
       "hidden_seasons": []

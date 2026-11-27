@@ -18,16 +18,50 @@
     },
     "progress": {
       "aired": 8,
-      "completed": 2,
+      "completed": 3,
       "hidden": 0,
-      "last_watched_at": "2026-11-27T08:42:00.000Z",
+      "last_watched_at": "2026-11-27T09:35:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 2,
+        "play_count": 3,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt39312917",
+          "plex": {
+            "guid": "69ff8811052d3514c2697cdb"
+          },
+          "tmdb": 7970307,
+          "tvdb": 11774140,
+          "trakt": 14572567
+        },
+        "title": "I Saw Grace Franklin with the Devil",
+        "votes": 347,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14572567/medium/screenshot.webp"
+          ]
+        },
+        "number": 4,
+        "rating": 8.305473327636719,
+        "season": 1,
+        "runtime": 54,
+        "overview": "As visions of Grace spread, Anya tries a hands-on approach to managing her anxiety. Elise leverages Leo's innocence to infiltrate Lisbeth's home life.",
+        "released": "2026-11-11",
+        "number_abs": 4,
+        "updated_at": "2026-11-27T07:10:06.000Z",
+        "first_aired": "2026-11-11T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 11,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-11-11T05:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt39312911",
           "plex": {
@@ -56,40 +90,6 @@
         "episode_type": "standard",
         "after_credits": false,
         "comment_count": 17,
-        "during_credits": false,
-        "original_title": null,
-        "available_translations": [],
-        "effective_release_date": "2026-11-11T05:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt39312908",
-          "plex": {
-            "guid": "6ad4b98a3e1310f17122e2ff"
-          },
-          "tmdb": 7970305,
-          "tvdb": 11774138,
-          "trakt": 14572565
-        },
-        "title": "Jesus, Literally",
-        "votes": 437,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14572565/medium/screenshot.webp"
-          ]
-        },
-        "number": 2,
-        "rating": 8.073224067687988,
-        "season": 1,
-        "runtime": 52,
-        "overview": "Haunted by a guilty conscience, Anya tries to limit the fallout from Halloween night. Lisbeth exploits an opportunity to rise above her social status.",
-        "released": "2026-11-11",
-        "number_abs": 2,
-        "updated_at": "2026-11-27T07:10:06.000Z",
-        "first_aired": "2026-11-11T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 15,
         "during_credits": false,
         "original_title": null,
         "available_translations": [],
@@ -536,7 +536,7 @@
         "overview": "Lee's acceptance speech for Citizen Journalist of the Year leaves quite an impression.",
         "released": "2026-10-15",
         "number_abs": 9,
-        "updated_at": "2026-11-22T14:44:21.000Z",
+        "updated_at": "2026-11-27T08:25:16.000Z",
         "first_aired": "2026-10-15T01:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1312,14 +1312,14 @@
           "trakt": 13145333
         },
         "title": "Hivemind",
-        "votes": 337,
+        "votes": 338,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13145333/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.1394624710083,
+        "rating": 8.139049530029297,
         "season": 4,
         "runtime": 60,
         "overview": "Everyone comes home. Not everyone comes back. That's what the therapists are gonna tell you, anyway. Tonight, the team faces an inquisition sooner than they ever imagined.",
@@ -1585,14 +1585,14 @@
           "trakt": 14414912
         },
         "title": "Black Door",
-        "votes": 615,
+        "votes": 616,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14414912/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.021137237548828,
+        "rating": 8.00973892211914,
         "season": 2,
         "runtime": 50,
         "overview": "As her husband steps up as prime minister, Helen helps Reed steal files codenamed Wildflower and a shadowy organization coerces Sam into a contract.",
@@ -2187,14 +2187,14 @@
           "trakt": 14411085
         },
         "title": "Why Did You Have to Ruin Everything?",
-        "votes": 19,
+        "votes": 20,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14411085/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.315789222717285,
+        "rating": 8.199999809265137,
         "season": 2,
         "runtime": 51,
         "overview": "Rhiannon's plan to get over AJ and assert herself as a vigilante killer is thwarted in an unexpected way.",

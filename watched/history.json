@@ -1,5 +1,41 @@
 [
   {
+    "id": 14667237112,
+    "watched_at": "2026-11-27T09:35:00.000Z",
+    "action": "checkin",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt39312911",
+        "plex": {
+          "guid": "6ad4b98a3e1310f17122e2f5"
+        },
+        "tmdb": 7970306,
+        "tvdb": 11774139,
+        "trakt": 14572566
+      },
+      "title": "Unholy Thoughts",
+      "number": 3,
+      "season": 1
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt8014982",
+        "plex": {
+          "guid": "6825bfc135392c101e088036",
+          "slug": null
+        },
+        "slug": "the-body-2026",
+        "tmdb": 291507,
+        "tvdb": 463695,
+        "trakt": 285725
+      },
+      "year": 2026,
+      "title": "The Body",
+      "aired_episodes": 8
+    }
+  },
+  {
     "id": 14667174546,
     "watched_at": "2026-11-27T08:42:00.000Z",
     "action": "checkin",
