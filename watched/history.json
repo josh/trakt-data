@@ -1,5 +1,41 @@
 [
   {
+    "id": 14667390650,
+    "watched_at": "2026-11-27T10:46:00.000Z",
+    "action": "scrobble",
+    "type": "episode",
+    "episode": {
+      "ids": {
+        "imdb": "tt40238629",
+        "plex": {
+          "guid": "6a467c583cf6afb26b01c32c"
+        },
+        "tmdb": 7442177,
+        "tvdb": 11868159,
+        "trakt": 14275400
+      },
+      "title": "Druggy Druggy Sex Party",
+      "number": 5,
+      "season": 3
+    },
+    "show": {
+      "ids": {
+        "imdb": "tt18228732",
+        "plex": {
+          "guid": "62a0cbbe56c3f99d10107c85",
+          "slug": "colin-from-accounts"
+        },
+        "slug": "colin-from-accounts",
+        "tmdb": 203614,
+        "tvdb": 421974,
+        "trakt": 200172
+      },
+      "year": 2022,
+      "title": "Colin from Accounts",
+      "aired_episodes": 24
+    }
+  },
+  {
     "id": 14667237112,
     "watched_at": "2026-11-27T09:35:00.000Z",
     "action": "checkin",

@@ -2,104 +2,6 @@
   {
     "show": {
       "ids": {
-        "imdb": "tt8014982",
-        "plex": {
-          "guid": "6825bfc135392c101e088036",
-          "slug": null
-        },
-        "slug": "the-body-2026",
-        "tmdb": 291507,
-        "tvdb": 463695,
-        "trakt": 285725
-      },
-      "year": 2026,
-      "title": "The Body",
-      "aired_episodes": 8
-    },
-    "progress": {
-      "aired": 8,
-      "completed": 3,
-      "hidden": 0,
-      "last_watched_at": "2026-11-27T09:35:00.000Z",
-      "reset_at": null,
-      "stats": {
-        "play_count": 3,
-        "minutes_left": 0,
-        "minutes_watched": 0
-      },
-      "next_episode": {
-        "ids": {
-          "imdb": "tt39312917",
-          "plex": {
-            "guid": "69ff8811052d3514c2697cdb"
-          },
-          "tmdb": 7970307,
-          "tvdb": 11774140,
-          "trakt": 14572567
-        },
-        "title": "I Saw Grace Franklin with the Devil",
-        "votes": 347,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14572567/medium/screenshot.webp"
-          ]
-        },
-        "number": 4,
-        "rating": 8.305473327636719,
-        "season": 1,
-        "runtime": 54,
-        "overview": "As visions of Grace spread, Anya tries a hands-on approach to managing her anxiety. Elise leverages Leo's innocence to infiltrate Lisbeth's home life.",
-        "released": "2026-11-11",
-        "number_abs": 4,
-        "updated_at": "2026-11-27T07:10:06.000Z",
-        "first_aired": "2026-11-11T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 11,
-        "during_credits": false,
-        "original_title": null,
-        "available_translations": [],
-        "effective_release_date": "2026-11-11T05:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt39312911",
-          "plex": {
-            "guid": "6ad4b98a3e1310f17122e2f5"
-          },
-          "tmdb": 7970306,
-          "tvdb": 11774139,
-          "trakt": 14572566
-        },
-        "title": "Unholy Thoughts",
-        "votes": 380,
-        "images": {
-          "screenshot": [
-            "media.trakt.tv/episodes/14572566/medium/screenshot.webp"
-          ]
-        },
-        "number": 3,
-        "rating": 8.186843872070312,
-        "season": 1,
-        "runtime": 46,
-        "overview": "Unsettling dreams shake the Lions' team spirit. Suspicion falls on a guilt-stricken Leo after his drawing of Grace makes the rounds at school.",
-        "released": "2026-11-11",
-        "number_abs": 3,
-        "updated_at": "2026-11-27T07:10:06.000Z",
-        "first_aired": "2026-11-11T05:00:00.000Z",
-        "episode_type": "standard",
-        "after_credits": false,
-        "comment_count": 17,
-        "during_credits": false,
-        "original_title": null,
-        "available_translations": [],
-        "effective_release_date": "2026-11-11T05:00:00.000Z"
-      }
-    }
-  },
-  {
-    "show": {
-      "ids": {
         "imdb": "tt18228732",
         "plex": {
           "guid": "62a0cbbe56c3f99d10107c85",
@@ -116,16 +18,57 @@
     },
     "progress": {
       "aired": 24,
-      "completed": 20,
+      "completed": 21,
       "hidden": 0,
-      "last_watched_at": "2026-11-22T10:32:00.000Z",
+      "last_watched_at": "2026-11-27T10:46:00.000Z",
       "reset_at": null,
       "stats": {
-        "play_count": 20,
+        "play_count": 21,
         "minutes_left": 0,
         "minutes_watched": 0
       },
       "next_episode": {
+        "ids": {
+          "imdb": "tt40238643",
+          "plex": {
+            "guid": "6a467c573cf6afb26b01c329"
+          },
+          "tmdb": 7442179,
+          "tvdb": 11868160,
+          "trakt": 14275402
+        },
+        "title": "Matching Set",
+        "votes": 137,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14275402/medium/screenshot.webp"
+          ]
+        },
+        "number": 6,
+        "rating": 8.087623596191406,
+        "season": 3,
+        "runtime": 30,
+        "overview": "Ash is hopeful when Gordon invites her on a weekend away - until she discovers that Brett and Chiara are joining them on the road trip.",
+        "released": "2026-08-24",
+        "number_abs": 22,
+        "updated_at": "2026-11-10T19:51:00.000Z",
+        "first_aired": "2026-08-24T02:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 2,
+        "during_credits": false,
+        "original_title": "Matching Set",
+        "available_translations": [
+          "en",
+          "es",
+          "he",
+          "nl",
+          "sv",
+          "zh"
+        ],
+        "effective_release_date": "2026-08-24T02:00:00.000Z"
+      },
+      "last_episode": {
         "ids": {
           "imdb": "tt40238629",
           "plex": {
@@ -165,47 +108,104 @@
           "zh"
         ],
         "effective_release_date": "2026-08-17T02:00:00.000Z"
-      },
-      "last_episode": {
-        "ids": {
-          "imdb": "tt40238632",
-          "plex": {
-            "guid": "6a467c583cf6afb26b01c32f"
-          },
-          "tmdb": 7442174,
-          "tvdb": 11868158,
-          "trakt": 14275396
+      }
+    }
+  },
+  {
+    "show": {
+      "ids": {
+        "imdb": "tt8014982",
+        "plex": {
+          "guid": "6825bfc135392c101e088036",
+          "slug": null
         },
-        "title": "New Beginnings Champagne Breakfast",
-        "votes": 132,
+        "slug": "the-body-2026",
+        "tmdb": 291507,
+        "tvdb": 463695,
+        "trakt": 285725
+      },
+      "year": 2026,
+      "title": "The Body",
+      "aired_episodes": 8
+    },
+    "progress": {
+      "aired": 8,
+      "completed": 3,
+      "hidden": 0,
+      "last_watched_at": "2026-11-27T09:35:00.000Z",
+      "reset_at": null,
+      "stats": {
+        "play_count": 3,
+        "minutes_left": 0,
+        "minutes_watched": 0
+      },
+      "next_episode": {
+        "ids": {
+          "imdb": "tt39312917",
+          "plex": {
+            "guid": "69ff8811052d3514c2697cdb"
+          },
+          "tmdb": 7970307,
+          "tvdb": 11774140,
+          "trakt": 14572567
+        },
+        "title": "I Saw Grace Franklin with the Devil",
+        "votes": 348,
         "images": {
           "screenshot": [
-            "media.trakt.tv/episodes/14275396/medium/screenshot.webp"
+            "media.trakt.tv/episodes/14572567/medium/screenshot.webp"
           ]
         },
         "number": 4,
-        "rating": 7.984867572784424,
-        "season": 3,
-        "runtime": 33,
-        "overview": "Gordon and Ash take stock of themselves - and their romantic relationships - after the tapas dinner, and Brett attempts to renegotiate his position in Gordon's life.",
-        "released": "2026-08-10",
-        "number_abs": 20,
-        "updated_at": "2026-11-11T07:54:50.000Z",
-        "first_aired": "2026-08-10T02:00:00.000Z",
+        "rating": 8.301721572875977,
+        "season": 1,
+        "runtime": 54,
+        "overview": "As visions of Grace spread, Anya tries a hands-on approach to managing her anxiety. Elise leverages Leo's innocence to infiltrate Lisbeth's home life.",
+        "released": "2026-11-11",
+        "number_abs": 4,
+        "updated_at": "2026-11-27T07:10:06.000Z",
+        "first_aired": "2026-11-11T05:00:00.000Z",
         "episode_type": "standard",
         "after_credits": false,
-        "comment_count": 2,
+        "comment_count": 11,
         "during_credits": false,
-        "original_title": "New Beginnings Champagne Breakfast",
-        "available_translations": [
-          "en",
-          "es",
-          "he",
-          "nl",
-          "sv",
-          "zh"
-        ],
-        "effective_release_date": "2026-08-10T02:00:00.000Z"
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-11-11T05:00:00.000Z"
+      },
+      "last_episode": {
+        "ids": {
+          "imdb": "tt39312911",
+          "plex": {
+            "guid": "6ad4b98a3e1310f17122e2f5"
+          },
+          "tmdb": 7970306,
+          "tvdb": 11774139,
+          "trakt": 14572566
+        },
+        "title": "Unholy Thoughts",
+        "votes": 383,
+        "images": {
+          "screenshot": [
+            "media.trakt.tv/episodes/14572566/medium/screenshot.webp"
+          ]
+        },
+        "number": 3,
+        "rating": 8.185379981994629,
+        "season": 1,
+        "runtime": 46,
+        "overview": "Unsettling dreams shake the Lions' team spirit. Suspicion falls on a guilt-stricken Leo after his drawing of Grace makes the rounds at school.",
+        "released": "2026-11-11",
+        "number_abs": 3,
+        "updated_at": "2026-11-27T07:10:06.000Z",
+        "first_aired": "2026-11-11T05:00:00.000Z",
+        "episode_type": "standard",
+        "after_credits": false,
+        "comment_count": 17,
+        "during_credits": false,
+        "original_title": null,
+        "available_translations": [],
+        "effective_release_date": "2026-11-11T05:00:00.000Z"
       }
     }
   },
@@ -813,7 +813,7 @@
           ]
         },
         "number": 1,
-        "rating": 8.270333290100098,
+        "rating": 8.269511222839355,
         "season": 2,
         "runtime": 50,
         "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
@@ -1061,20 +1061,20 @@
           "trakt": 14297667
         },
         "title": "I Wanna Be Your Dog",
-        "votes": 1749,
+        "votes": 1750,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14297667/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.30130672454834,
+        "rating": 8.302277565002441,
         "season": 2,
         "runtime": 49,
         "overview": "Maeve and Conrad go to the dogs, leaving Harry to deal with the messy fallout; Jan makes a startling confession; Kevin and Seraphina both look to the future; Tattersall puts his cards on the table.",
         "released": "2026-09-18",
         "number_abs": 11,
-        "updated_at": "2026-11-26T07:20:42.000Z",
+        "updated_at": "2026-11-27T10:14:28.000Z",
         "first_aired": "2026-09-18T07:00:00.000Z",
         "episode_type": "season_premiere",
         "after_credits": false,
@@ -1134,7 +1134,7 @@
         "overview": "Kevin takes care of a problem. Maeve spills the tea.",
         "released": "2025-06-01",
         "number_abs": 10,
-        "updated_at": "2026-11-22T08:19:39.000Z",
+        "updated_at": "2026-11-27T10:14:28.000Z",
         "first_aired": "2025-06-01T07:00:00.000Z",
         "episode_type": "season_finale",
         "after_credits": false,
@@ -2187,14 +2187,14 @@
           "trakt": 14411085
         },
         "title": "Why Did You Have to Ruin Everything?",
-        "votes": 20,
+        "votes": 23,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/14411085/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 8.199999809265137,
+        "rating": 8.086956024169922,
         "season": 2,
         "runtime": 51,
         "overview": "Rhiannon's plan to get over AJ and assert herself as a vigilante killer is thwarted in an unexpected way.",
@@ -2306,14 +2306,14 @@
           "trakt": 13858160
         },
         "title": "Marn\u00fbkh",
-        "votes": 1562,
+        "votes": 1564,
         "images": {
           "screenshot": [
             "media.trakt.tv/episodes/13858160/medium/screenshot.webp"
           ]
         },
         "number": 1,
-        "rating": 7.865564346313477,
+        "rating": 7.8670148849487305,
         "season": 3,
         "runtime": 74,
         "overview": "War rages between the Elves and Sauron. Galadriel remembers a long-lost love. Durin welcomes home his brother... and another unexpected guest.",
